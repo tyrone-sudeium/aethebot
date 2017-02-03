@@ -1,0 +1,2 @@
+# AetheBot for Discord
+
