@@ -18,25 +18,29 @@ import * as Features from "./features"
 
 export class Bot {
     brain: Brain
-    features: Feature[]
-    _client: Discord.Client
+    user: Discord.ClientUser
+    private _features: Feature[]
+    private _client: Discord.Client
 
     constructor(client: Discord.Client) {
         this._client = client
-        client.on("message", this.receiveMessage.bind(this))
-        client.on("ready", () => this.loadFeatures())
+        client.on("message", this._receiveMessage.bind(this))
+        client.on("ready", () => {
+            this.user = this._client.user
+            this._loadFeatures()
+        })
     }
 
-    loadFeatures() {
-        this.features = []
+    private _loadFeatures() {
+        this._features = []
         for (const FeatureClass of Features.allFeatures) {
-            const feature = createFeature(FeatureClass, this._client.user)
-            this.features.push(feature)
+            const feature = createFeature(FeatureClass, this)
+            this._features.push(feature)
         }
     }
 
-    receiveMessage(msg: Discord.Message) {
-        for (const feature of this.features) {
+    private _receiveMessage(msg: Discord.Message) {
+        for (const feature of this._features) {
             feature.handleMessage(msg)
         }
     }

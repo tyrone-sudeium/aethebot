@@ -15,19 +15,14 @@ import {Feature} from "./feature"
 import * as Discord from "discord.js"
 
 export class PingFeature extends Feature {
-    botUser: Discord.User
-    
     handleMessage(message: Discord.Message): boolean {
-        if (!message.isMentioned(this.botUser)) {
+        if (!message.isMentioned(this.bot.user)) {
             return false
         }
-        let tokens = message.content.split(" ")
-        // Remove the mention
-        tokens.splice(tokens.findIndex((s) => s === `<@${this.botUser.id}>`), 1)
-
+        let tokens = this.commandTokens(message)
         // If the only remaining token is "ping"
         if (tokens.length === 1 && /^ping[\!\?\.]*$/i.test(tokens[0])) {
-            message.channel.sendMessage(`<@${message.author.id}> pong!`)
+            this.replyWith(message, "pong!")
         }
     }
 }

@@ -57,3 +57,6 @@ typings/
 
 # Compiled JS
 dist/
+
+# Has tokens in it
+docker-compose.yml

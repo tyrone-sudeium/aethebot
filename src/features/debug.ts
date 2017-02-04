@@ -15,8 +15,6 @@ import * as Discord from "discord.js"
 import {Feature} from "./feature"
 
 export class DebugFeature extends Feature {
-    botUser: Discord.User
-
     handleMessage(message: Discord.Message): boolean {
         const debug = (process.env["NODE_ENV"] || "development") == "development"
         if (!debug) {

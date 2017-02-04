@@ -1,0 +1,14 @@
+version: "2"
+services:
+  app:
+    extends:
+      file: docker-compose.base.yml
+      service: app
+    links:
+      - redis
+    environment:
+      DISCORD_TOKEN: <discord token>
+  redis:
+    extends:
+      file: docker-compose.base.yml
+      service: redis

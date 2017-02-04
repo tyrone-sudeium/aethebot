@@ -12,13 +12,26 @@
  */
 
 import * as Discord from "discord.js"
+import {Bot} from "../bot"
 
 export abstract class Feature {
-    botUser: Discord.User
+    bot: Bot
 
-    constructor(botUser: Discord.User) {
-        this.botUser = botUser
+    constructor(bot: Bot) {
+        this.bot = bot
     }
     
     abstract handleMessage(message: Discord.Message): boolean
+
+    commandTokens(message: Discord.Message): string[] {
+        let tokens = message.content.split(" ")
+        // Remove the mention
+        tokens.splice(tokens.findIndex((s) => s === `<@${this.bot.user.id}>`), 1)
+        return tokens
+    }
+
+    replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message> {
+        const chan = message.channel
+        return chan.sendMessage(`<@${message.author.id}> ${replyStr}`)
+    }
 }

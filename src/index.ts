@@ -16,10 +16,10 @@ import {Bot} from "./bot"
 import {MemoryBrain, RedisBrain} from "./brain"
 import * as Redis from "redis"
 import {Website} from "./website"
+import {log} from "./log"
 
 const client = new Discord.Client()
 const token = process.env["DISCORD_TOKEN"] as string
-const debug = (process.env["NODE_ENV"] || "development") == "development"
 
 if (!token) {
     console.log("DISCORD_TOKEN missing from environment.")
@@ -34,6 +34,12 @@ if (redisUrl) {
     redisClient.on("error", (err) => {
         log(err)
     })
+    redisClient.on("connect", () => {
+        log("redis connected")
+    })
+    redisClient.on("warning", (warn) => {
+        log("redis warning: " + warn)
+    })
     bot.brain = new RedisBrain(redisClient)
     log("Using redis brain, connecting to: " + redisUrl)
 } else {
@@ -46,9 +52,3 @@ client.login(token)
 // Start the website
 const website = new Website()
 website.start()
-
-function log(msg: string) {
-    if (debug) {
-        console.log(msg)
-    }
-}

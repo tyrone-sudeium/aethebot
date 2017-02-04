@@ -13,6 +13,7 @@
 
 import {RedisClient} from "redis"
 import {Brain} from "./brain"
+import {log} from "../log"
 
 function promisify<T>(func: (callback: (err: any, result: T) => void) => void): Promise<T> {
     return new Promise<T>((resolve, reject) => {
@@ -20,7 +21,7 @@ function promisify<T>(func: (callback: (err: any, result: T) => void) => void): 
             if (err) {
                 reject(err)
             } else {
-                resolve()
+                resolve(res)
             }
         })
     })
@@ -28,6 +29,7 @@ function promisify<T>(func: (callback: (err: any, result: T) => void) => void): 
 
 export class RedisBrain implements Brain {
     private _client: RedisClient
+    private _storage: {[key: string]: string} = {}
 
     constructor(client: RedisClient) {
         this._client = client
@@ -46,14 +48,21 @@ export class RedisBrain implements Brain {
     }
 
     set(key: string, value: string): Promise<void> {
+        this._storage[key] = value
         return promisify<void>((cb) => {
             this._client.set(key, value, cb)
         })
     }
 
     get(key: string): Promise<string> {
-        return promisify((cb) => {
+        if (this._storage[key]) {
+            return Promise.resolve(this._storage[key])
+        }
+        return promisify<string>((cb) => {
             this._client.get(key, cb)
+        }).then((res) => {
+            this._storage[key] = res
+            return Promise.resolve(res)
         })
     }
 
