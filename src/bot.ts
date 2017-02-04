@@ -29,14 +29,14 @@ export class Bot {
 
     loadFeatures() {
         this.features = []
-        for(const FeatureClass of Features.allFeatures) {
+        for (const FeatureClass of Features.allFeatures) {
             const feature = createFeature(FeatureClass, this._client.user)
             this.features.push(feature)
         }
     }
 
     receiveMessage(msg: Discord.Message) {
-        for(const feature of this.features) {
+        for (const feature of this.features) {
             feature.handleMessage(msg)
         }
     }

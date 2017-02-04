@@ -15,6 +15,7 @@ import * as Discord from "discord.js"
 import {Bot} from "./bot"
 import {MemoryBrain, RedisBrain} from "./brain"
 import * as Redis from "redis"
+import {Website} from "./website"
 
 const client = new Discord.Client()
 const token = process.env["DISCORD_TOKEN"] as string
@@ -41,6 +42,10 @@ if (redisUrl) {
 }
 
 client.login(token)
+
+// Start the website
+const website = new Website()
+website.start()
 
 function log(msg: string) {
     if (debug) {
