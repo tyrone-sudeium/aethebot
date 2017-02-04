@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import {Client} from "discord.js"
+import * as Discord from "discord.js"
 import {Bot} from "./bot"
 import {MemoryBrain, RedisBrain} from "./brain"
 import * as Redis from "redis"
 
-const client = new Client()
+const client = new Discord.Client()
 const token = process.env["DISCORD_TOKEN"] as string
 const debug = (process.env["NODE_ENV"] || "development") == "development"
 
@@ -40,7 +40,7 @@ if (redisUrl) {
     log("Using in-memory brain. NOTE: nothing will be persisted!")
 }
 
-bot.loadFeatures()
+client.login(token)
 
 function log(msg: string) {
     if (debug) {

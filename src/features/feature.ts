@@ -11,6 +11,14 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-export interface Feature {
+import * as Discord from "discord.js"
+
+export abstract class Feature {
+    botUser: Discord.User
+
+    constructor(botUser: Discord.User) {
+        this.botUser = botUser
+    }
     
+    abstract handleMessage(message: Discord.Message): boolean
 }

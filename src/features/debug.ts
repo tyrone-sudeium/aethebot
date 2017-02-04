@@ -1,5 +1,5 @@
 /**
- * Looks for times in chat and helps with timezones.
+ * Spits out incoming messages to the log in debug mode.
  */
 
 /*
@@ -14,10 +14,15 @@
 import * as Discord from "discord.js"
 import {Feature} from "./feature"
 
-export class TimehelperFeature extends Feature {
+export class DebugFeature extends Feature {
     botUser: Discord.User
-    
+
     handleMessage(message: Discord.Message): boolean {
-        return false
+        const debug = (process.env["NODE_ENV"] || "development") == "development"
+        if (!debug) {
+            return false
+        } else {
+            console.log("incoming message: " + message.content)
+        }
     }
 }

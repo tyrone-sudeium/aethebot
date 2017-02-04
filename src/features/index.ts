@@ -11,11 +11,24 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import {Feature} from "./feature"
-import {Timehelper} from "./timehelper"
+import {TimehelperFeature} from "./timehelper"
+import {DebugFeature} from "./debug"
+import {PingFeature} from "./ping"
 
 export {Feature}
 
-export const allFeatures = [
-    Timehelper
+interface FeatureConstructor {
+    new (botUser: Discord.User): Feature
+}
+
+export function createFeature(ctor: FeatureConstructor, botUser: Discord.User): Feature {
+    return new ctor(botUser)
+}
+
+export const allFeatures: FeatureConstructor[] = [
+    TimehelperFeature,
+    DebugFeature,
+    PingFeature
 ]
