@@ -12,16 +12,32 @@
  */
 
 import * as Express from "express"
+import * as HTTP from "http"
 import {Request, Response} from "express"
 import * as FS from "fs"
 
 export class Website {
     app = Express()
-    
+    _server: HTTP.Server
+    _timer: NodeJS.Timer
+
     start() {
         const port = parseInt((process.env["PORT"] || "80"))
         this.app.get("/", this.renderRoot.bind(this))
-        this.app.listen(port)
+        this._server = this.app.listen(port)
+        const debug = (process.env["NODE_ENV"] || "development") == "development"
+        if (!debug) {
+            this._keepAlive()
+        }
+    }
+
+    close() {
+        this._server.close()
+        this._server = null
+        if (this._timer) {
+            clearInterval(this._timer)
+            this._timer = null
+        }
     }
 
     renderRoot(req: Request, res: Response) {
@@ -38,5 +54,15 @@ export class Website {
                 "</html>"
             res.send(out)
         })
+    }
+
+    _keepAlive() {
+        // Nothing to see here, Heroku!
+        if (this._timer) {
+            clearInterval(this._timer)
+        }
+        this._timer = setInterval(() => {
+            HTTP.get("http://aethebot.herokuapp.com")
+        }, 300000)
     }
 }
