@@ -41,23 +41,16 @@ export class TimehelperFeature extends Feature {
      * return. You better hope the brain is really fast.
      */
     async userTimezones(): Promise<string[]> {
-        // TODO: remove
-        return Promise.resolve([
-            "Australia/Sydney",
-            "America/Denver",
-            "America/New_York",
-            "America/Los_Angeles"
-        ])
-        // const key = "th:tzusers"
-        // const userIdsStr = await this.bot.brain.get(key)
-        // const userIds = userIdsStr.split(",")
-        // let zones: string[] = []
-        // for (const userId of userIds) {
-        //     const zone = await this.timezoneForUser(userId)
-        //     zones.push(zone)
-        // }
-        // zones.slice(0, MAXIMUM_TIMEZONES)
-        // return zones
+        const key = "th:tzusers"
+        const userIdsStr = await this.bot.brain.get(key)
+        const userIds = userIdsStr.split(",")
+        let zones: string[] = []
+        for (const userId of userIds) {
+            const zone = await this.timezoneForUser(userId)
+            zones.push(zone)
+        }
+        zones.slice(0, MAXIMUM_TIMEZONES)
+        return zones
     }
 
     async updateTimezonedUsers(updatedUserId: string, removed: boolean) {
