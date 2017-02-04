@@ -25,8 +25,11 @@ export abstract class Feature {
 
     commandTokens(message: Discord.Message): string[] {
         let tokens = message.content.split(" ")
+        
         // Remove the mention
-        tokens.splice(tokens.findIndex((s) => s === `<@${this.bot.user.id}>`), 1)
+        if (message.isMentioned(this.bot.user)) {
+            tokens.splice(tokens.findIndex((s) => s === `<@${this.bot.user.id}>`), 1)
+        }
         return tokens
     }
 

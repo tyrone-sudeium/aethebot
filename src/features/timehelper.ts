@@ -99,7 +99,6 @@ export class TimehelperFeature extends Feature {
         }
         const zoneinfo = Moment.tz.zone(timezone)
         const zoneoffset = zoneinfo.offset(Number(new Date())) * -1
-
         const outZones = (await this.userTimezones()).map((z) => z.toLowerCase())
         // Filter out the messager's timezone
         outZones.splice(outZones.indexOf(timezone.toLowerCase()), 1)
@@ -107,8 +106,7 @@ export class TimehelperFeature extends Feature {
             // No timezones to translate to
             return
         }
-
-        const results = Chrono.parse(cleanMsg)
+        const results = Chrono.parse(cleanMsg, Moment().tz(timezone))
         if (!results || results.length === 0) {
             return
         }
@@ -117,15 +115,22 @@ export class TimehelperFeature extends Feature {
         embed.setTitle("Timezone Helper")
         embed.setColor("#FF5200")
         for (const result of results) {
+            if (!result.start.knownValues.hour) {
+                // If we're not given an hour, it's not precise enough to bother
+                // everyone in the server.
+                continue
+            }
             if (!result.start.get("timezoneOffset")) {
                 result.start.assign("timezoneOffset", zoneoffset)
             }
-            let date = Moment(result.start.date())
-            const zonesStrs = outZones.map((z) => date.tz(z).format(format))
+            let date = result.start.date()
+            const zonesStrs = outZones.map((z) => Moment(date).tz(z).format(format))
             const zonesStr = zonesStrs.join(", ")
-            embed.addField(`${date.tz(timezone).format(format)}`, `${zonesStr}`)
+            embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
         }
-        message.channel.sendEmbed(embed)
+        if (embed.fields.length > 0) {
+            message.channel.sendEmbed(embed)
+        }
         return false
     }
 
