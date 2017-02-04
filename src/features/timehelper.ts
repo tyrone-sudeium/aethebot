@@ -43,7 +43,7 @@ export class TimehelperFeature extends Feature {
     async userTimezones(): Promise<string[]> {
         const key = "th:tzusers"
         const userIdsStr = await this.bot.brain.get(key)
-        const userIds = userIdsStr.split(",")
+        const userIds = userIdsStr.split(",").filter((x) => !!x)
         let zones: string[] = []
         for (const userId of userIds) {
             const zone = await this.timezoneForUser(userId)
@@ -55,8 +55,12 @@ export class TimehelperFeature extends Feature {
 
     async updateTimezonedUsers(updatedUserId: string, removed: boolean) {
         const key = "th:tzusers"
-        const userIdsStr = (await this.bot.brain.get(key)) || ""
-        const userIds = userIdsStr.split(",")
+        const userIdsStr = await this.bot.brain.get(key)
+        if (!userIdsStr && !removed) {
+            this.bot.brain.set(key, updatedUserId)
+            return
+        }
+        const userIds = userIdsStr.split(",").filter((x) => !!x)
         if (removed) {
             userIds.splice(userIds.indexOf(updatedUserId), 1)
             this.bot.brain.set(key, userIds.join(","))
