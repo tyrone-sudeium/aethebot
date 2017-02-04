@@ -127,8 +127,15 @@ export class TimehelperFeature extends Feature {
 
     handleCommand(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
-        if (tokens.length === 2 &&
+        if (tokens.length >= 1 &&
             tokens[0].toLowerCase() === "timezone") {
+            if (tokens.length === 1) {
+                // Just "timezone" on its own
+                this.timezoneForUser(message.author.id).then((zone) => {
+                    this.replyWith(message, "Your timezone is set to " + zone)
+                })
+                return true
+            }
             const timezone = tokens[1]
             const removeKeywords = [
                 "remove", "delete", "delet", "nil", "null", "none"
