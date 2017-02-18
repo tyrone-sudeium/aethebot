@@ -120,10 +120,6 @@ export class TimehelperFeature extends Feature {
                 // everyone in the server.
                 continue
             }
-            if (!result.start.knownValues.day) {
-                // If we have to imply the day, we also shouldn't spam.
-                continue
-            }
             if (!result.start.get("timezoneOffset")) {
                 result.start.assign("timezoneOffset", zoneoffset)
             }
