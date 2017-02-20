@@ -80,14 +80,18 @@ export class TimehelperFeature extends Feature {
         if (message.isMentioned(this.bot.user) &&
             message.mentions.users.size === 1) {
             // This is likely a command
-            return this.handleCommand(message)
+            if (!this.handleCommand(message)) {
+                // Command handler failed, treat it as an ambient
+                this.handleAmbientMessage(message)
+                return false
+            }
         }
 
-        this.handleAmbientMessage(message)
+        // Do nothing if not mentioned
         return false
     }
 
-    async handleAmbientMessage(message: Discord.Message) {
+    async handleAmbientMessage(message: Discord.Message): Promise<boolean> {
         // Remove the mentions
         const tokens = this.commandTokens(message)
         const mentionRegex = /\<\@\d+\>/g
