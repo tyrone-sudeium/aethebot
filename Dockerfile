@@ -5,6 +5,9 @@ ENV APPHOME /usr/src/aethebot
 RUN mkdir -p $APPHOME
 ADD . $APPHOME
 WORKDIR $APPHOME
-RUN npm install
+
+RUN apk add --no-cache --virtual .builddeps make gcc g++ python \
+    && npm install \
+    && apk del .builddeps
 
 CMD ["npm", "start"]
