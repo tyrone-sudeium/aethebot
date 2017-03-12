@@ -30,6 +30,11 @@ const NOISES: Noise[] = [
         "id": "OSTRICH",
         "file": _pathForNoiseFile("ostrich.mp3"),
         "keywords": ["haha", "ostrich", "haha!"]
+    },
+    {
+        "id": "THEBEST4",
+        "file": _pathForNoiseFile("thebest4.mp3"),
+        "keywords": ["THEBEST"]
     }
 ]
 
