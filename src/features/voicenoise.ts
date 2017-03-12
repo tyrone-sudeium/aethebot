@@ -142,8 +142,10 @@ export class VoiceNoiseFeature extends Feature {
             }
         } else if (top.state === VoicePlaybackStatus.Connecting) {
             if (top.connection) {
+                console.log(`${(new Date()).getTime()}: playback started`)
                 const d = top.connection.playFile(top.noise.file)
                 d.on("end", () => {
+                    console.log(`${(new Date()).getTime()}: playback finished`)
                     top.state = VoicePlaybackStatus.Finished
                     this._updatePlaybackQueue(chanId)
                 })
