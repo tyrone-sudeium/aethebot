@@ -40,6 +40,11 @@ const NOISES: Noise[] = [
         "id": "ENYA",
         "file": _pathForNoiseFile("enya.mp3"),
         "regex": [/^enya$/i, /^only\s?time$/i, /^enya\s-*\sonly\stime$/i]
+    },
+    {
+        "id": "DEADINSIDE",
+        "file": _pathForNoiseFile("deadinside.mp3"),
+        "regex": [/^dead\sinside$/i]
     }
 ]
 
