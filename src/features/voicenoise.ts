@@ -29,7 +29,7 @@ const NOISES: Noise[] = [
     {
         "id": "OSTRICH",
         "file": _pathForNoiseFile("ostrich.mp3"),
-        "regex": [/^haha\!$/i, /^ostrich$/i]
+        "regex": [/^haha\!?$/i, /^ostrich$/i]
     },
     {
         "id": "THEBEST4",
