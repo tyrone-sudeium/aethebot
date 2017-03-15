@@ -22,19 +22,24 @@ function _pathForNoiseFile(noiseFile: string) {
 interface Noise {
     id: string,
     file: string,
-    keywords: string[]
+    regex: RegExp[]
 }
 
 const NOISES: Noise[] = [
     {
         "id": "OSTRICH",
         "file": _pathForNoiseFile("ostrich.mp3"),
-        "keywords": ["haha", "ostrich", "haha!"]
+        "regex": [/^haha\!$/i, /^ostrich$/i]
     },
     {
         "id": "THEBEST4",
         "file": _pathForNoiseFile("thebest4.mp3"),
-        "keywords": ["THEBEST"]
+        "regex": [/^the\s?best$/i]
+    },
+    {
+        "id": "ENYA",
+        "file": _pathForNoiseFile("enya.mp3"),
+        "regex": [/^enya$/i, /^only\s?time$/i, /^enya\s-*\sonly\stime$/i]
     }
 ]
 
@@ -66,10 +71,7 @@ export class VoiceNoiseFeature extends Feature {
         }
 
         const tokens = this.commandTokens(message)
-        if (tokens.length !== 1) {
-            return false
-        }
-        const noise = this._noiseForToken(tokens[0])
+        const noise = this._noiseForMessage(tokens.join(" "))
         if (!noise) {
             return false
         }
@@ -99,16 +101,16 @@ export class VoiceNoiseFeature extends Feature {
         return true
     }
 
-    _noiseForToken(token: string): Noise {
-        for (let noise of NOISES) { 
-            if (noise.keywords.find((x) => x === token)) {
+    private _noiseForMessage(message: string): Noise {
+        for (let noise of NOISES) {
+            if (noise.regex.find(r => r.test(message))) {
                 return noise
             }
         }
         return null
     }
 
-    _pushPlaybackIntent(channel: Discord.VoiceChannel, 
+    private _pushPlaybackIntent(channel: Discord.VoiceChannel, 
         intent: VoicePlaybackIntent) {
         let playQueue = this.pendingPlayback[channel.id]
         if (!playQueue) {
@@ -119,7 +121,7 @@ export class VoiceNoiseFeature extends Feature {
         this._updatePlaybackQueue(channel.id)
     }
 
-    _updateAllPlaybackQueues() {
+    private _updateAllPlaybackQueues() {
         for (let chanId in this.pendingPlayback) {
             const queue = this.pendingPlayback[chanId]
             if (queue.length === 0) {
@@ -130,7 +132,7 @@ export class VoiceNoiseFeature extends Feature {
         }
     }
 
-    _updatePlaybackQueue(chanId: string) {
+    private _updatePlaybackQueue(chanId: string) {
         const queue = this.pendingPlayback[chanId]
         const top = queue[0]
         if (top.state === VoicePlaybackStatus.Waiting) {
