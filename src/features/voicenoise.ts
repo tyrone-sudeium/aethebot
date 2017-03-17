@@ -11,7 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import {Feature} from "./feature"
+import { Feature } from "./feature"
 import * as Discord from "discord.js"
 import * as Path from "path"
 
@@ -45,6 +45,11 @@ const NOISES: Noise[] = [
         "id": "DEADINSIDE",
         "file": _pathForNoiseFile("deadinside.mp3"),
         "regex": [/^dead\sinside$/i]
+    },
+    {
+        "id": "OHJEEZ",
+        "file": _pathForNoiseFile("ohjeez.mp3"),
+        "regex": [/^o+h+ [gj]ee+z+$/i]
     }
 ]
 
@@ -63,7 +68,7 @@ interface VoicePlaybackIntent {
 }
 
 export class VoiceNoiseFeature extends Feature {
-    pendingPlayback: {[chanId: string]: VoicePlaybackIntent[]} = {}
+    pendingPlayback: { [chanId: string]: VoicePlaybackIntent[] } = {}
 
     handleMessage(message: Discord.Message): boolean {
         if (message.author.equals(this.bot.user)) {
@@ -115,7 +120,7 @@ export class VoiceNoiseFeature extends Feature {
         return null
     }
 
-    private _pushPlaybackIntent(channel: Discord.VoiceChannel, 
+    private _pushPlaybackIntent(channel: Discord.VoiceChannel,
         intent: VoicePlaybackIntent) {
         let playQueue = this.pendingPlayback[channel.id]
         if (!playQueue) {
