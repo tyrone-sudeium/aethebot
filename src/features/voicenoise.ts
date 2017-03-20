@@ -55,6 +55,15 @@ const NOISES: Noise[] = [
         "id": "OHBEES",
         "file": _pathForNoiseFile("ohbees.mp3"),
         "regex": [/^o+h+ [b]ee+s$/i]
+    },
+    {
+        "id": "UNTITLED",
+        "file": _pathForNoiseFile("untitled.mp3"),
+        "regex": [
+            /^untitled$/i,
+            /^simple\s+plan$/i,
+            /^how\s*could\s*this\s*happen\s*to\s*me\??$/i
+        ]
     }
 ]
 
