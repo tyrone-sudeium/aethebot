@@ -170,7 +170,13 @@ export class VoiceNoiseFeature extends Feature {
                 top.channel.join().then(conn => {
                     top.connection = conn
                     this._updatePlaybackQueue(chanId)
-                }).catch(console.error)
+                }).catch(error => {
+                    // Connection failed, just kill everything with fire
+                    console.error("Discord voice connection failed:")
+                    console.error(error)
+                    top.channel.leave()
+                    this.pendingPlayback[chanId] = []
+                })
             } else {
                 top.connection = top.channel.connection
                 top.state = VoicePlaybackStatus.Connecting
