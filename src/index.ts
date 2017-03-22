@@ -18,7 +18,6 @@ import * as Redis from "redis"
 import {Website} from "./website"
 import {log} from "./log"
 
-const client = new Discord.Client()
 const token = process.env["DISCORD_TOKEN"] as string
 
 if (!token) {
@@ -26,7 +25,7 @@ if (!token) {
     process.exit(1)
 }
 
-const bot = new Bot(client)
+const bot = new Bot(token)
 
 const redisUrl = process.env["REDIS_URL"] as string
 if (redisUrl) {
@@ -47,8 +46,8 @@ if (redisUrl) {
     log("Using in-memory brain. NOTE: nothing will be persisted!")
 }
 
-client.login(token)
+bot.login()
 
 // Start the website
-const website = new Website()
+const website = new Website(bot)
 website.start()

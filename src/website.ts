@@ -13,17 +13,35 @@
 
 import * as Express from "express"
 import * as HTTP from "http"
-import {Request, Response} from "express"
+import { Request, Response } from "express"
 import * as FS from "fs"
+import * as BodyParser from "body-parser"
+import { Bot } from "./bot"
 
 export class Website {
     app = Express()
+    bot: Bot
     _server: HTTP.Server
     _timer: NodeJS.Timer
 
+    private _adminActions = {
+        "DISCORD_RECONNECT": this.reconnectBot.bind(this)
+    }
+
+    constructor(bot: Bot) {
+        this.bot = bot
+    }
+
     start() {
+        const adminParser = BodyParser.urlencoded()
         const port = parseInt((process.env["PORT"] || "80"))
+        this.app.use(Express.static('public'));
         this.app.get("/", this.renderRoot.bind(this))
+        this.app.get("/admin", this.renderAdmin.bind(this))
+        this.app.post("/admin", adminParser, this.renderAdminPost.bind(this))
+        
+        this.app.set('view engine', 'pug')
+        
         this._server = this.app.listen(port)
         const debug = (process.env["NODE_ENV"] || "development") == "development"
         if (!debug) {
@@ -40,20 +58,46 @@ export class Website {
         }
     }
 
+    reconnectBot() {
+        this.bot.reconnect()
+    }
+
     renderRoot(req: Request, res: Response) {
         FS.readFile("package.json", "utf8", (err, str) => {
             const pkg = JSON.parse(str)
             const ver = pkg["version"]
-            let out = "<!DOCTYPE html>\n\n" +
-                "<html>" +
-                "<head><title>AetheBot</title><head>" +
-                "<body>" +
-                `<h1>AetheBot v${ver}</p>` +
-                "<h2>┗[© ♒ ©]┛ ︵ ┻━┻</h2>" +
-                "</body>" +
-                "</html>"
-            res.send(out)
+            res.render('index', {ver: ver})
         })
+    }
+
+    renderAdmin(req: Request, res: Response) {
+        res.render('admin', {actions: Object.keys(this._adminActions)})
+    }
+
+    renderAdminPost(req: Request, res: Response) {
+        if (!req.body) {
+            res.sendStatus(400)
+            return
+        }
+        let action = req.body.action as string
+        let password = req.body.password as string
+        let expectedPass = process.env["ADMIN_PASSWORD"]
+        if (!expectedPass) {
+            res.sendStatus(500)
+            return
+        }
+        if (password != expectedPass) {
+            res.send("Wrong password")
+            res.sendStatus(403)
+            return
+        }
+        let actionFunc = this._adminActions[action]
+        if (!actionFunc) {
+            res.sendStatus(400)
+            return
+        }
+        actionFunc()
+        res.send("ok")
     }
 
     _keepAlive() {

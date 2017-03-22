@@ -19,16 +19,23 @@ import * as Features from "./features"
 export class Bot {
     brain: Brain
     user: Discord.ClientUser
+    token: string
     private _features: Feature[]
     private _client: Discord.Client
 
-    constructor(client: Discord.Client) {
-        this._client = client
+    constructor(token: string) {
+        this.token = token
+        this._client = this._makeClient()
+    }
+
+    private _makeClient() {
+        const client = new Discord.Client()
         client.on("message", this._receiveMessage.bind(this))
         client.on("ready", () => {
             this.user = this._client.user
             this._loadFeatures()
         })
+        return client
     }
 
     private _loadFeatures() {
@@ -43,5 +50,19 @@ export class Bot {
         for (const feature of this._features) {
             feature.handleMessage(msg)
         }
+    }
+
+    public reconnect() {
+        console.log("reconnecting to discord")
+        const client = this._client
+        this._client = null
+        client.destroy().then(() => {
+            this._client = this._makeClient()
+            this.login()
+        }).catch(console.error)
+    }
+
+    public login() {
+        this._client.login(this.token)
     }
 }

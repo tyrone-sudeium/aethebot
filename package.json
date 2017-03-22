@@ -24,16 +24,20 @@
   },
   "homepage": "https://github.com/tyrone-sudeium/aethebot#readme",
   "dependencies": {
+    "@types/body-parser": "^1.16.1",
     "@types/express": "^4.0.35",
     "@types/moment-timezone": "^0.2.34",
     "@types/node": "^7.0.4",
+    "@types/pug": "^2.0.4",
     "@types/redis": "^0.12.34",
+    "body-parser": "^1.17.1",
     "chrono-node": "^1.2.5",
     "discord.js": "^11.0.0",
     "express": "^4.14.1",
     "ffmpeg-binaries": "^3.2.2-3",
     "moment-timezone": "^0.5.11",
     "node-opus": "^0.2.4",
+    "pug": "^2.0.0-beta11",
     "redis": "^2.6.5",
     "typescript": "^2.1.5"
   }

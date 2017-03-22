@@ -1,0 +1,33 @@
+html
+  head
+    title AetheBot Admin
+    link(rel='stylesheet', href='/style.css')
+  body(style={
+    font: '14px "Trebuchet MS", Helvetica, Arial, sans-serif'
+  })
+    h1 Admin Page
+    form(
+      id='admin'
+      action='/admin'
+      method='post'
+      enctype='application/x-www-form-urlencoded'
+      style={
+        width: '400px',
+        border: '1px solid #CCC',
+        'border-radius': '1em',
+        padding: '1em'
+      }
+    )
+      div
+        label(for='password') Password:
+        input#password(type='password',placeholder='password',name='password')
+      div
+        label(for='action') Action:
+        input#action(type='text',name='action')
+      div.button
+        button#submit(type='submit') Submit
+    h2 Valid Actions
+      ul
+        each action in actions
+          li= action
+
