@@ -69,6 +69,11 @@ const NOISES: Noise[] = [
         "id": "20PERCENTCOOLER",
         "file": _pathForNoiseFile("20cooler.mp3"),
         "regex": [/^20%\s*cooler$/i, /^twenty\s*percent\s*cooler$/i]
+    },
+    {
+        "id": "SADVIOLIN",
+        "file": _pathForNoiseFile("hueys.mp3"),
+        "regex": [/^(sad|tiny)[\s]+violins?$/i]
     }
 ]
 
