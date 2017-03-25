@@ -94,7 +94,14 @@ const NOISES: Noise[] = [
         "regex": [
             /^dun\s*dun\s*dun+$/
         ]
-    }
+    },
+    {
+        "id": "PUSSIEEEEE",
+        "file": _pathForNoiseFile("pussieeeee.mp3"),
+        "regex": [
+            /^((i'll have you know)? (that )?there's no )?pu+ss+i+e+?$/i,
+        ]
+    },
 ]
 
 enum VoicePlaybackStatus {
