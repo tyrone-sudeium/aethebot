@@ -94,6 +94,14 @@ const NOISES: Noise[] = [
         "regex": [
             /^((i'll have you know)? (that )?there's no )?pu+ss+i+e+?$/i,
         ]
+    },
+    {
+        "id": "WEED",
+        "file": _pathForNoiseFile("weed.mp3"),
+        "regex": [
+            /^(smoke\s*)?weed(every\s*day)?$/i,
+            /^evre+\s*day$/i
+        ]
     }
 ]
 
