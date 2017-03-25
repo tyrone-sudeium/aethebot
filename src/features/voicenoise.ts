@@ -87,6 +87,13 @@ const NOISES: Noise[] = [
             /^hello da?rk(ness)?( my old friend)?$/i,
             /^sound of silence$/
         ]
+    },
+    {
+        "id": "PUSSIEEEEE",
+        "file": _pathForNoiseFile("pussieeeee.mp3"),
+        "regex": [
+            /^((i'll have you know)? (that )?there's no )?pu+ss+i+e+?$/i,
+        ]
     }
 ]
 
