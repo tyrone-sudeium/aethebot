@@ -99,7 +99,7 @@ const NOISES: Noise[] = [
         "id": "WEED",
         "file": _pathForNoiseFile("weed.mp3"),
         "regex": [
-            /^(smoke\s*)?weed(every\s*day)?$/i,
+            /^(smoke\s*)?weed(\s*every\s*day)?$/i,
             /^evre+\s*day$/i
         ]
     }
