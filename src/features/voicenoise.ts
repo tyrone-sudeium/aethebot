@@ -109,6 +109,16 @@ const NOISES: Noise[] = [
             /^(smoke\s*)?weed(\s*every\s*day)?$/i,
             /^evre+\s*day$/i
         ]
+    },
+    {
+        "id": "BAIT",
+        "file": _pathForNoiseFile("bait.mp3"),
+        "regex": [/^(that\'s\s*)?bait$/i]
+    },
+    {
+        "id": "TRAP",
+        "file": _pathForNoiseFile("trap.mp3"),
+        "regex": [/^(it\'?s\s*a\s*)?trap\!?$/i]
     }
 ]
 
