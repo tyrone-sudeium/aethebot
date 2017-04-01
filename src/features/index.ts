@@ -16,7 +16,7 @@ import {Feature} from "./feature"
 import {TimehelperFeature} from "./timehelper"
 import {DebugFeature} from "./debug"
 import {PingFeature} from "./ping"
-import {VoiceNoiseFeature} from "./voicenoise"
+import {VoiceNoiseFeature} from "./voicenoise/"
 
 export {Feature}
 
