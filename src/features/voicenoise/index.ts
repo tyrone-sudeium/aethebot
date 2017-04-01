@@ -135,7 +135,7 @@ export class VoiceNoiseFeature extends Feature {
                 top.state = VoicePlaybackStatus.Playing
                 const files = top.noise.files
                 const file = files[Math.floor(Math.random() * files.length)]
-                const d = top.connection.playFile(file)
+                const d = top.connection.playFile(_pathForNoiseFile(file))
                 d.on("end", () => {
                     top.state = VoicePlaybackStatus.Finished
                     this._updatePlaybackQueue(chanId)
