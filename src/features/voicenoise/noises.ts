@@ -111,6 +111,11 @@ export const NOISES: Noise[] = [
         "id": "TRAP",
         "files": ["trap.mp3"],
         "regex": [/^(it\'?s\s*a\s*)?trap\!?$/i]
+    },
+    {
+        "id": "TRIPLE",
+        "files": ["triple.mp3"],
+        "regex": [/^(oh\s*baby\s*a\s*)?triple\!?$/i]
     }
 ]
 
