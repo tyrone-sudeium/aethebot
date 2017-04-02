@@ -116,6 +116,14 @@ export const NOISES: Noise[] = [
         "id": "TRIPLE",
         "files": ["triple.mp3"],
         "regex": [/^(oh\s*baby\s*a\s*)?triple\!?$/i]
+    },
+    {
+        "id": "CANTWAKEUP",
+        "files": ["wakemeup.mp3"],
+        "regex": [
+            /^wake\s*me\s*up(\s*inside)?(\s*\(can\'t\s*wake\s*up\))?$/i,
+            /^\(?can\'t\s*wake\s*up\)?$/i
+        ]
     }
 ]
 
