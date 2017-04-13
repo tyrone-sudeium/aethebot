@@ -34,7 +34,7 @@ export class Website {
 
     start() {
         const adminParser = BodyParser.urlencoded()
-        const port = parseInt((process.env["PORT"] || "80"))
+        const port = parseInt((process.env["PORT"] || "8080"))
         this.app.use(Express.static('public'));
         this.app.get("/", this.renderRoot.bind(this))
         this.app.get("/admin", this.renderAdmin.bind(this))

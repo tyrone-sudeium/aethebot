@@ -2,32 +2,26 @@ html
   head
     title AetheBot Admin
     link(rel='stylesheet', href='/style.css')
-  body(style={
-    font: '14px "Trebuchet MS", Helvetica, Arial, sans-serif'
-  })
+  body
     h1 Admin Page
     form(
       id='admin'
       action='/admin'
       method='post'
       enctype='application/x-www-form-urlencoded'
-      style={
-        width: '400px',
-        border: '1px solid #CCC',
-        'border-radius': '1em',
-        padding: '1em'
-      }
     )
-      div
-        label(for='password') Password:
-        input#password(type='password',placeholder='password',name='password')
-      div
-        label(for='action') Action:
-        input#action(type='text',name='action')
-      div.button
-        button#submit(type='submit') Submit
-    h2 Valid Actions
-      ul
-        each action in actions
-          li= action
-
+      ul.flex-outer
+        li
+          p Action:
+          ul.flex-inner
+            li
+              input#reconnect(type='radio',name='action',value="DISCORD_RECONNECT",checked=true)
+              label(for='reconnect') Discord Reconnect
+            li
+              input#unused(type='radio',name='action',value="UNUSED")
+              label(for='unused') Unused
+        li
+          label(for='password') Password:
+          input#password(type='password',placeholder='password',name='password')
+        li
+          button#submit(type='submit') Submit
