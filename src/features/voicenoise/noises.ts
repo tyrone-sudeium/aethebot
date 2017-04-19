@@ -124,6 +124,14 @@ export const NOISES: Noise[] = [
             /^wake\s*me\s*up(\s*inside)?(\s*\(can\'t\s*wake\s*up\))?$/i,
             /^\(?can\'t\s*wake\s*up\)?$/i
         ]
+    },
+    {
+        "id": "ALARUM",
+        "files": ["alarum.mp3"],
+        "regex": [
+            /^alaru?m$/i,
+            /^bwe+o+u*we+$/i
+        ]
     }
 ]
 
