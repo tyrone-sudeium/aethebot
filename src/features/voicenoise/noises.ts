@@ -132,6 +132,15 @@ export const NOISES: Noise[] = [
             /^alaru?m$/i,
             /^bwe+o+u*we+$/i
         ]
+    },
+    {
+        "id": "MEGUMIN",
+        "files": ["megumin.mp3"],
+        "regex": [
+            /^megumin$/i,
+            /^めぐみん$/i,
+            /^EXPLO+SION$/i
+        ]
     }
 ]
 
