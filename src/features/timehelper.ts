@@ -18,6 +18,7 @@ import * as Moment from "moment-timezone"
 import {log} from "../log"
 
 const MAXIMUM_TIMEZONES = 4
+Moment.locale("en")
 
 export class TimehelperFeature extends Feature {
     timezoneForUser(userId: string): Promise<string> {
