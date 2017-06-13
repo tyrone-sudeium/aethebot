@@ -25,7 +25,7 @@ interface Countdown {
 
 const countdowns = {
     stormblood: {
-        endTime: new Date(2017, 5, 16, 19),
+        endTime: new Date(1497603600000),
         name: "Stormblood Launch"
     }
 } as {[name: string]: Countdown}
