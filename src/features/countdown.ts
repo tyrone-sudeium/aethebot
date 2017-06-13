@@ -42,7 +42,7 @@ export class CountdownFeature extends Feature {
             return false
         }
 
-        const name = tokens.splice(1).join(" ")
+        const name = tokens.splice(1).join(" ").toLowerCase()
         if (!countdowns[name]) {
             return false
         }
