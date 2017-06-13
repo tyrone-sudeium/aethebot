@@ -11,7 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import "./types"
 import * as Discord from "discord.js"
 import {Bot} from "./bot"
 import {MemoryBrain, RedisBrain} from "./brain"
