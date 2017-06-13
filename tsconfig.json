@@ -9,6 +9,7 @@
 		"target": "es6"
 	},
 	"files": [
-		"src/index.ts"
+		"src/index.ts",
+		"src/types/index.d.ts"
 	]
 }

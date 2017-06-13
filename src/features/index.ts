@@ -17,6 +17,7 @@ import {TimehelperFeature} from "./timehelper"
 import {DebugFeature} from "./debug"
 import {PingFeature} from "./ping"
 import {VoiceNoiseFeature} from "./voicenoise/"
+import {CountdownFeature} from "./countdown"
 
 export {Feature}
 
@@ -32,5 +33,6 @@ export const allFeatures: FeatureConstructor[] = [
     TimehelperFeature,
     DebugFeature,
     PingFeature,
-    VoiceNoiseFeature
+    VoiceNoiseFeature,
+    CountdownFeature
 ]
