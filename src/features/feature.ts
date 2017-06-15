@@ -23,6 +23,22 @@ export abstract class Feature {
     
     abstract handleMessage(message: Discord.Message): boolean
 
+    handlesMessage(message: Discord.Message): boolean {
+        // Ignore messages send by the bot itself
+        if (message.author.equals(this.bot.user)) {
+            return false
+        }
+        // Handle all DMs by default
+        if (message.channel.type === 'dm') {
+            return true
+        }
+        // Handle messages where the bot is specifically mentioned
+        if (message.isMentioned(this.bot.user)) {
+            return true
+        }
+        return false
+    }
+
     commandTokens(message: Discord.Message): string[] {
         let tokens = message.content.split(" ")
         
@@ -35,6 +51,10 @@ export abstract class Feature {
 
     replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message> {
         const chan = message.channel
-        return chan.sendMessage(`<@${message.author.id}> ${replyStr}`)
+        if (message.channel.type === 'dm') {
+            return chan.sendMessage(replyStr)
+        } else {
+            return chan.sendMessage(`<@${message.author.id}> ${replyStr}`)
+        }
     }
 }

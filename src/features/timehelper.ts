@@ -75,11 +75,7 @@ export class TimehelperFeature extends Feature {
     }
 
     handleMessage(message: Discord.Message): boolean {
-        if (message.author.equals(this.bot.user)) {
-            return false
-        }
-        if (message.isMentioned(this.bot.user) &&
-            message.mentions.users.size === 1) {
+        if (message.mentions.users.size === 1) {
             // This is likely a command
             if (!this.handleCommand(message)) {
                 // Command handler failed, treat it as an ambient

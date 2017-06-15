@@ -15,6 +15,12 @@ import * as Discord from "discord.js"
 import {Feature} from "./feature"
 
 export class DebugFeature extends Feature {
+
+    handlesMessage(message: Discord.Message): boolean {
+        // Debug logging handles every message.
+        return true
+    }
+
     handleMessage(message: Discord.Message): boolean {
         const debug = (process.env["NODE_ENV"] || "development") == "development"
         if (!debug) {

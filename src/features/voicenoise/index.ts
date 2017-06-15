@@ -38,15 +38,6 @@ export class VoiceNoiseFeature extends Feature {
     pendingPlayback: { [chanId: string]: VoicePlaybackIntent[] } = {}
 
     handleMessage(message: Discord.Message): boolean {
-        if (message.author.equals(this.bot.user)) {
-            return false
-        }
-
-        if (!message.isMentioned(this.bot.user) ||
-            message.mentions.users.size !== 1) {
-            return false
-        }
-
         const tokens = this.commandTokens(message)
         const noise = this._noiseForMessage(tokens.join(" "))
         if (!noise) {

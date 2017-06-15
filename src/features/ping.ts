@@ -16,13 +16,12 @@ import * as Discord from "discord.js"
 
 export class PingFeature extends Feature {
     handleMessage(message: Discord.Message): boolean {
-        if (!message.isMentioned(this.bot.user)) {
-            return false
-        }
         let tokens = this.commandTokens(message)
         // If the only remaining token is "ping"
         if (tokens.length === 1 && /^ping[\!\?\.]*$/i.test(tokens[0])) {
             this.replyWith(message, "pong!")
+            return true
         }
+        return false
     }
 }

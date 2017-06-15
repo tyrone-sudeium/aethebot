@@ -32,9 +32,6 @@ const countdowns = {
 
 export class CountdownFeature extends Feature {
     handleMessage(message: Discord.Message): boolean {
-        if (!message.isMentioned(this.bot.user)) {
-            return false
-        }
         const tokens = this.commandTokens(message)
 
         if (tokens.length < 1 ||
