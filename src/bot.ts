@@ -48,7 +48,9 @@ export class Bot {
 
     private _receiveMessage(msg: Discord.Message) {
         for (const feature of this._features) {
-            feature.handleMessage(msg)
+            if (feature.handlesMessage(msg)) {
+                feature.handleMessage(msg)
+            }
         }
     }
 

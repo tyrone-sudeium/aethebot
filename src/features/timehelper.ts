@@ -75,13 +75,11 @@ export class TimehelperFeature extends Feature {
     }
 
     handleMessage(message: Discord.Message): boolean {
-        if (message.mentions.users.size === 1) {
-            // This is likely a command
-            if (!this.handleCommand(message)) {
-                // Command handler failed, treat it as an ambient
-                this.handleAmbientMessage(message)
-                return false
-            }
+        // This is likely a command
+        if (!this.handleCommand(message)) {
+            // Command handler failed, treat it as an ambient
+            this.handleAmbientMessage(message)
+            return false
         }
 
         // Do nothing if not mentioned
