@@ -1,5 +1,5 @@
 /**
- * Responds to mentioned "ping" with "pong"
+ * Responds to things with things
  */
 
 /*
@@ -20,6 +20,14 @@ export class PingFeature extends Feature {
         // If the only remaining token is "ping"
         if (tokens.length === 1 && /^ping[\!\?\.]*$/i.test(tokens[0])) {
             this.replyWith(message, "pong!")
+            return true
+        }
+
+        // If the message matches the shitheap of variants of "cakaw"
+        const joinedMessage = tokens.join("")
+
+        if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
+            this.replyWith(message, "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png")
             return true
         }
         return false
