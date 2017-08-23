@@ -49,7 +49,7 @@ export abstract class Feature {
         return tokens
     }
 
-    replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message> {
+    replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message | Discord.Message[]> {
         const chan = message.channel
         if (message.channel.type === 'dm') {
             return chan.sendMessage(replyStr)
