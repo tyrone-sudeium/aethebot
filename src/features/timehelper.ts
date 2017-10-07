@@ -124,7 +124,7 @@ export class TimehelperFeature extends Feature {
             }
             let date = result.start.date()
             const zonesStrs = outZones.map((z) => Moment(date).tz(z).format(format))
-            const zonesStr = zonesStrs.join(", ")
+            const zonesStr = Array.from(new Set(zonesStrs)).join(", ")
             embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
         }
         if (embed.fields.length > 0) {
