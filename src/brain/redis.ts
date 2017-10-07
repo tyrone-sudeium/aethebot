@@ -67,6 +67,7 @@ export class RedisBrain implements Brain {
     }
 
     remove(key: string): Promise<void> {
+        delete this._storage[key]
         return promisify<void>((cb) => {
             this._client.del(key, cb)
         })
