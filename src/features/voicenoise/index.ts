@@ -57,6 +57,12 @@ export class VoiceNoiseFeature extends Feature {
             })
 
         if (authorVoiceChannels.array().length === 0) {
+            if (noise.fallbackImageURL) {
+                const embed = new Discord.RichEmbed()
+                embed.setImage(noise.fallbackImageURL)
+                message.channel.sendEmbed(embed)
+                return true
+            }
             return false
         }
         const channel: Discord.VoiceChannel = authorVoiceChannels.first() as any

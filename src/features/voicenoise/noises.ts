@@ -14,7 +14,8 @@
 export interface Noise {
     id: string,
     files: string[],
-    regex: RegExp[]
+    regex: RegExp[],
+    fallbackImageURL?: string
 }
 
 export const NOISES: Noise[] = [
@@ -26,7 +27,8 @@ export const NOISES: Noise[] = [
     {
         "id": "THEBEST4",
         "files": ["thebest4.mp3"],
-        "regex": [/^the\s?best$/i]
+        "regex": [/^the\s?best$/i],
+        "fallbackImageURL": "https://cdn.discordapp.com/attachments/293954139845820416/373612584722628608/thebest.gif"
     },
     {
         "id": "ENYA",
