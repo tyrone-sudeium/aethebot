@@ -45,3 +45,6 @@ ffmpeg -i [input].mp3 -vn -map 0:a -acodec libopus -f data -sample_fmt s16 -vbr 
 You *must* name the resulting file with the `.dat` extension as a clue for
 AetheBot that this file is a raw Opus stream, otherwise it will pass it on to
 FFmpeg for transcoding.
+
+Note that we will be switching to proper `.opus` (really OGG) files once the
+Discord.js Prism Media changes land.

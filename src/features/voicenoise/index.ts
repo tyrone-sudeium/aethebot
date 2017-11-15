@@ -15,6 +15,7 @@ import { Feature } from "../feature"
 import * as Discord from "discord.js"
 import * as Path from "path"
 import { NOISES, Noise } from "./noises"
+import * as FS from "fs"
 
 function _pathForNoiseFile(noiseFile: string) {
     return Path.join(process.cwd(), "res", noiseFile)
@@ -132,7 +133,18 @@ export class VoiceNoiseFeature extends Feature {
                 top.state = VoicePlaybackStatus.Playing
                 const files = top.noise.files
                 const file = files[Math.floor(Math.random() * files.length)]
-                const d = top.connection.playFile(_pathForNoiseFile(file))
+                const filePath = _pathForNoiseFile(file)
+                let d: Discord.StreamDispatcher
+                if (file.endsWith(".dat")) {
+                    // Raw opus stream, play without transcoding
+                    const stream = FS.createReadStream(filePath)
+                    d = top.connection.playOpusStream(stream)
+                    stream.on("error", console.error)
+                } else {
+                    d = top.connection.playFile(filePath)
+                }
+                d.on("error", console.error)
+                d.on("debug", console.log)
                 d.on("end", () => {
                     top.state = VoicePlaybackStatus.Finished
                     this._updatePlaybackQueue(chanId)

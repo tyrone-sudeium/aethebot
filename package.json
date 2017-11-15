@@ -36,7 +36,7 @@
     "@types/redis": "^0.12.34",
     "body-parser": "^1.17.1",
     "chrono-node": "^1.2.5",
-    "discord.js": "^11.0.0",
+    "discord.js": "=11.1.0",
     "express": "^4.14.1",
     "ffmpeg-binaries": "^3.2.2-3",
     "minimist": "^1.2.0",
