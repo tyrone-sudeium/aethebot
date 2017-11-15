@@ -6,5 +6,10 @@ services:
       - ./src:/usr/src/aethebot/src
     environment:
       REDIS_URL: redis://redis:6379/0
-  redis: 
-    image: redis:3.2-alpine
+    links:
+      - redis
+    env_file:
+      - ./development.env
+  redis:
+    extends:
+      image: redis:3.2-alpine

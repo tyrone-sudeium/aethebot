@@ -33,6 +33,11 @@ export class Bot {
         client.on("message", this._receiveMessage.bind(this))
         client.on("ready", () => {
             this.user = this._client.user
+            if (process.env.NODE_ENV != "production") {
+                this._client.fetchApplication().then((app) => {
+                    console.log(`Join this bot to servers at https://discordapp.com/oauth2/authorize?&client_id=${app.id}&scope=bot&permissions=0`)                    
+                })
+            }
             this._loadFeatures()
         })
         return client

@@ -59,4 +59,4 @@ typings/
 dist/
 
 # Has tokens in it
-docker-compose.yml
+development.env
