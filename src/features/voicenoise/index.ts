@@ -44,20 +44,9 @@ export class VoiceNoiseFeature extends Feature {
         if (!noise) {
             return false
         }
-        const serverChannels = message.guild.channels
-        const authorVoiceChannels = serverChannels
-            .filter((chan: Discord.GuildChannel) => {
-                if (chan.type === "voice") {
-                    const vchan = chan as any as Discord.VoiceChannel
-                    if (vchan.members.get(message.author.id)) {
-                        return true
-                    } else {
-                        return false
-                    }
-                }
-            })
 
-        if (authorVoiceChannels.array().length === 0) {
+        const authorVoiceChannel = message.member.voiceChannel
+        if (!authorVoiceChannel) {
             if (noise.fallbackImageURL) {
                 const embed = new Discord.RichEmbed()
                 embed.setImage(noise.fallbackImageURL)
@@ -66,11 +55,10 @@ export class VoiceNoiseFeature extends Feature {
             }
             return false
         }
-        const channel: Discord.VoiceChannel = authorVoiceChannels.first() as any
 
-        this._pushPlaybackIntent(channel, {
+        this._pushPlaybackIntent(authorVoiceChannel, {
             noise: noise,
-            channel: channel,
+            channel: authorVoiceChannel,
             state: VoicePlaybackStatus.Waiting
         })
         return true
