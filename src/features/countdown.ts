@@ -4,17 +4,17 @@
 
 /*
  * AetheBot - A Discord Chatbot
- * 
+ *
  * Created by Tyrone Trevorrow on 13/06/17.
  * Copyright (c) 2017 Tyrone Trevorrow. All rights reserved.
- * 
+ *
  * This source code is licensed under the permissive MIT license.
  */
 
-import "moment-precise-range-plugin"
-import {Feature} from "./feature"
 import * as Discord from "discord.js"
 import * as Moment from "moment"
+import "moment-precise-range-plugin"
+import { Feature } from "./feature"
 
 Moment.locale("en")
 
@@ -26,16 +26,16 @@ interface Countdown {
 const countdowns = {
     stormblood: {
         endTime: new Date(1497603600000),
-        name: "Stormblood Launch"
-    }
+        name: "Stormblood Launch",
+    },
 } as {[name: string]: Countdown}
 
 export class CountdownFeature extends Feature {
-    handleMessage(message: Discord.Message): boolean {
+    public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
 
         if (tokens.length < 1 ||
-            tokens[0].toLowerCase() != "countdown") {
+            tokens[0].toLowerCase() !== "countdown") {
             return false
         }
 

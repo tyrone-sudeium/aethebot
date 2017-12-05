@@ -4,77 +4,25 @@
 
 /*
  * AetheBot - A Discord Chatbot
- * 
+ *
  * Created by Tyrone Trevorrow on 03/02/17.
  * Copyright (c) 2017 Tyrone Trevorrow. All rights reserved.
- * 
+ *
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
-import {Feature} from "./feature"
 import * as Chrono from "chrono-node"
+import * as Discord from "discord.js"
 import * as Moment from "moment-timezone"
-import {log} from "../log"
+import { log } from "../log"
+import { Feature } from "./feature"
 
 const MAXIMUM_TIMEZONES = 4
 Moment.locale("en")
 
 export class TimehelperFeature extends Feature {
-    timezoneForUser(userId: string): Promise<string> {
-        const key = `th:tz:${userId}`
-        return this.bot.brain.get(key)
-    }
 
-    setTimezoneForUser(timezone: string, userId: string) {
-        const key = `th:tz:${userId}`
-        this.bot.brain.set(key, timezone)
-        this.updateTimezonedUsers(userId, false)
-    }
-
-    removeTimezoneForUser(user: Discord.User) {
-        const key = `th:tz:${user.id}`
-        this.bot.brain.remove(key)
-        this.updateTimezonedUsers(user.id, true)
-    }
-
-    /** Async as fuck -- it could potentially take a really long time to 
-     * return. You better hope the brain is really fast.
-     */
-    async userTimezones(): Promise<string[]> {
-        const key = "th:tzusers"
-        const userIdsStr = await this.bot.brain.get(key)
-        const userIds = userIdsStr.split(",").filter((x) => !!x)
-        let zones: string[] = []
-        for (const userId of userIds) {
-            const zone = await this.timezoneForUser(userId)
-            zones.push(zone)
-        }
-        zones.slice(0, MAXIMUM_TIMEZONES)
-        return zones
-    }
-
-    async updateTimezonedUsers(updatedUserId: string, removed: boolean) {
-        const key = "th:tzusers"
-        const userIdsStr = await this.bot.brain.get(key)
-        if (!userIdsStr && !removed) {
-            this.bot.brain.set(key, updatedUserId)
-            return
-        }
-        const userIds = userIdsStr.split(",").filter((x) => !!x)
-        if (removed) {
-            userIds.splice(userIds.indexOf(updatedUserId), 1)
-            this.bot.brain.set(key, userIds.join(","))
-        } else {
-            if (userIds.indexOf(updatedUserId) !== -1) {
-                return
-            }
-            userIds.push(updatedUserId)
-            this.bot.brain.set(key, userIds.join(","))
-        }
-    }
-
-    handleMessage(message: Discord.Message): boolean {
+    public handleMessage(message: Discord.Message): boolean {
         // This is likely a command
         if (!this.handleCommand(message)) {
             // Command handler failed, treat it as an ambient
@@ -86,7 +34,7 @@ export class TimehelperFeature extends Feature {
         return false
     }
 
-    async handleAmbientMessage(message: Discord.Message): Promise<boolean> {
+    public async handleAmbientMessage(message: Discord.Message): Promise<boolean> {
         // Remove the mentions
         const tokens = this.commandTokens(message)
         const mentionRegex = /\<\@\d+\>/g
@@ -109,7 +57,7 @@ export class TimehelperFeature extends Feature {
         if (!results || results.length === 0) {
             return
         }
-        const format = 'MMM Do ha z'
+        const format = "MMM Do ha z"
         const embed = new Discord.RichEmbed()
         embed.setTitle("Timezone Helper")
         embed.setColor("#FF5200")
@@ -122,7 +70,7 @@ export class TimehelperFeature extends Feature {
             if (!result.start.get("timezoneOffset")) {
                 result.start.assign("timezoneOffset", zoneoffset)
             }
-            let date = result.start.date()
+            const date = result.start.date()
             const zonesStrs = outZones.map((z) => Moment(date).tz(z).format(format))
             const zonesStr = Array.from(new Set(zonesStrs)).join(", ")
             embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
@@ -133,7 +81,7 @@ export class TimehelperFeature extends Feature {
         return false
     }
 
-    handleCommand(message: Discord.Message): boolean {
+    public handleCommand(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
         if (tokens.length >= 1 &&
             tokens[0].toLowerCase() === "timezone") {
@@ -146,7 +94,7 @@ export class TimehelperFeature extends Feature {
             }
             const timezone = tokens[1]
             const removeKeywords = [
-                "remove", "delete", "delet", "nil", "null", "none"
+                "remove", "delete", "delet", "nil", "null", "none",
             ]
             if (removeKeywords.indexOf(timezone.toLowerCase()) !== -1) {
                 this.removeTimezoneForUser(message.author)
@@ -162,6 +110,59 @@ export class TimehelperFeature extends Feature {
             return true
         } else {
             return false
+        }
+    }
+
+    protected timezoneForUser(userId: string): Promise<string> {
+        const key = `th:tz:${userId}`
+        return this.bot.brain.get(key)
+    }
+
+    protected setTimezoneForUser(timezone: string, userId: string) {
+        const key = `th:tz:${userId}`
+        this.bot.brain.set(key, timezone)
+        this.updateTimezonedUsers(userId, false)
+    }
+
+    protected removeTimezoneForUser(user: Discord.User) {
+        const key = `th:tz:${user.id}`
+        this.bot.brain.remove(key)
+        this.updateTimezonedUsers(user.id, true)
+    }
+
+    /** Async as fuck -- it could potentially take a really long time to
+     * return. You better hope the brain is really fast.
+     */
+    protected async userTimezones(): Promise<string[]> {
+        const key = "th:tzusers"
+        const userIdsStr = await this.bot.brain.get(key)
+        const userIds = userIdsStr.split(",").filter((x) => !!x)
+        const zones: string[] = []
+        for (const userId of userIds) {
+            const zone = await this.timezoneForUser(userId)
+            zones.push(zone)
+        }
+        zones.slice(0, MAXIMUM_TIMEZONES)
+        return zones
+    }
+
+    protected async updateTimezonedUsers(updatedUserId: string, removed: boolean) {
+        const key = "th:tzusers"
+        const userIdsStr = await this.bot.brain.get(key)
+        if (!userIdsStr && !removed) {
+            this.bot.brain.set(key, updatedUserId)
+            return
+        }
+        const userIds = userIdsStr.split(",").filter((x) => !!x)
+        if (removed) {
+            userIds.splice(userIds.indexOf(updatedUserId), 1)
+            this.bot.brain.set(key, userIds.join(","))
+        } else {
+            if (userIds.indexOf(updatedUserId) !== -1) {
+                return
+            }
+            userIds.push(updatedUserId)
+            this.bot.brain.set(key, userIds.join(","))
         }
     }
 }

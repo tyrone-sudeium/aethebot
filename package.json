@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit && tslint --project .",
     "start": "tsc && node dist/index.js"
   },
   "engines": {
@@ -45,6 +46,7 @@
     "node-opus": "^0.2.4",
     "pug": "^2.0.0-beta11",
     "redis": "^2.6.5",
+    "tslint": "^5.8.0",
     "typescript": "^2.1.5"
   }
 }

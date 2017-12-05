@@ -4,18 +4,18 @@
 
 /*
  * AetheBot - A Discord Chatbot
- * 
+ *
  * Created by Tyrone Trevorrow on 11/03/17.
  * Copyright (c) 2017 Tyrone Trevorrow. All rights reserved.
- * 
+ *
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Feature } from "../feature"
 import * as Discord from "discord.js"
-import * as Path from "path"
-import { NOISES, Noise } from "./noises"
 import * as FS from "fs"
+import * as Path from "path"
+import { Feature } from "../feature"
+import { Noise, NOISES } from "./noises"
 
 function _pathForNoiseFile(noiseFile: string) {
     return Path.join(process.cwd(), "res", noiseFile)
@@ -25,7 +25,7 @@ enum VoicePlaybackStatus {
     Waiting,
     Connecting,
     Playing,
-    Finished
+    Finished,
 }
 
 interface VoicePlaybackIntent {
@@ -36,11 +36,11 @@ interface VoicePlaybackIntent {
 }
 
 export class VoiceNoiseFeature extends Feature {
-    pendingPlayback: { [chanId: string]: VoicePlaybackIntent[] } = {}
+    private pendingPlayback = new Map<string, VoicePlaybackIntent[]>()
 
-    handleMessage(message: Discord.Message): boolean {
+    public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
-        const noise = this._noiseForMessage(tokens.join(" "))
+        const noise = this.noiseForMessage(tokens.join(" "))
         if (!noise) {
             return false
         }
@@ -56,65 +56,64 @@ export class VoiceNoiseFeature extends Feature {
             return false
         }
 
-        this._pushPlaybackIntent(authorVoiceChannel, {
-            noise: noise,
+        this.pushPlaybackIntent(authorVoiceChannel, {
             channel: authorVoiceChannel,
-            state: VoicePlaybackStatus.Waiting
+            noise,
+            state: VoicePlaybackStatus.Waiting,
         })
         return true
     }
 
-    private _noiseForMessage(message: string): Noise {
-        for (let noise of NOISES) {
-            if (noise.regex.find(r => r.test(message))) {
+    private noiseForMessage(message: string): Noise {
+        for (const noise of NOISES) {
+            if (noise.regex.find((r) => r.test(message))) {
                 return noise
             }
         }
         return null
     }
 
-    private _pushPlaybackIntent(channel: Discord.VoiceChannel,
-        intent: VoicePlaybackIntent) {
-        let playQueue = this.pendingPlayback[channel.id]
+    private pushPlaybackIntent(channel: Discord.VoiceChannel,
+                               intent: VoicePlaybackIntent) {
+        let playQueue = this.pendingPlayback.get(channel.id)
         if (!playQueue) {
             playQueue = []
-            this.pendingPlayback[channel.id] = playQueue
+            this.pendingPlayback.set(channel.id, playQueue)
         }
         playQueue.push(intent)
-        this._updatePlaybackQueue(channel.id)
+        this.updatePlaybackQueue(channel.id)
     }
 
-    private _updateAllPlaybackQueues() {
-        for (let chanId in this.pendingPlayback) {
-            const queue = this.pendingPlayback[chanId]
+    private updateAllPlaybackQueues() {
+        this.pendingPlayback.forEach((queue, chanId) => {
             if (queue.length === 0) {
-                continue
+                return
             } else {
-                this._updatePlaybackQueue(chanId)
+                this.updatePlaybackQueue(chanId)
             }
-        }
+        })
     }
 
-    private _updatePlaybackQueue(chanId: string) {
-        const queue = this.pendingPlayback[chanId]
+    private updatePlaybackQueue(chanId: string) {
+        const queue = this.pendingPlayback.get(chanId)
         const top = queue[0]
         if (top.state === VoicePlaybackStatus.Waiting) {
             if (!top.channel.connection) {
                 top.state = VoicePlaybackStatus.Connecting
-                top.channel.join().then(conn => {
+                top.channel.join().then((conn) => {
                     top.connection = conn
-                    this._updatePlaybackQueue(chanId)
-                }).catch(error => {
+                    this.updatePlaybackQueue(chanId)
+                }).catch((error) => {
                     // Connection failed, just kill everything with fire
-                    console.error("Discord voice connection failed:")
-                    console.error(error)
+                    // console.error("Discord voice connection failed:")
+                    // console.error(error)
                     top.channel.leave()
-                    this.pendingPlayback[chanId] = []
+                    this.pendingPlayback.set(chanId, [])
                 })
             } else {
                 top.connection = top.channel.connection
                 top.state = VoicePlaybackStatus.Connecting
-                this._updatePlaybackQueue(chanId)
+                this.updatePlaybackQueue(chanId)
             }
         } else if (top.state === VoicePlaybackStatus.Connecting) {
             if (top.connection) {
@@ -135,7 +134,7 @@ export class VoiceNoiseFeature extends Feature {
                 d.on("debug", console.log)
                 d.on("end", () => {
                     top.state = VoicePlaybackStatus.Finished
-                    this._updatePlaybackQueue(chanId)
+                    this.updatePlaybackQueue(chanId)
                 })
             }
         } else if (top.state === VoicePlaybackStatus.Playing) {
@@ -146,7 +145,7 @@ export class VoiceNoiseFeature extends Feature {
             if (queue.length === 0) {
                 top.channel.leave()
             } else {
-                this._updatePlaybackQueue(chanId)
+                this.updatePlaybackQueue(chanId)
             }
         }
     }
