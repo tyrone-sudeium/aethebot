@@ -22,12 +22,8 @@ import { VoiceNoiseFeature } from "./voicenoise/"
 
 export { Feature }
 
-interface FeatureConstructor {
+export interface FeatureConstructor {
     new (bot: Bot): Feature
-}
-
-export function createFeature(ctor: FeatureConstructor, bot: Bot): Feature {
-    return new ctor(bot)
 }
 
 export const allFeatures: FeatureConstructor[] = [

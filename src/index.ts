@@ -16,6 +16,7 @@ import * as parseArgs from "minimist"
 import * as Redis from "redis"
 import { Bot } from "./bot"
 import { MemoryBrain, RedisBrain } from "./brain"
+import { allFeatures } from "./features"
 import { log } from "./log"
 import { Website } from "./website"
 
@@ -32,6 +33,11 @@ if (!argv["website-only"]) {
     }
 
     bot = new Bot(token)
+
+    // Enable all features on the bot
+    // If you're making your own bot you can manually import whichever features
+    // you want and specify them individually instead.
+    bot.features = allFeatures
 
     const redisUrl = process.env.REDIS_URL as string
     if (redisUrl) {

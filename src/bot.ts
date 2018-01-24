@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Brain } from "./brain"
-import { createFeature, Feature } from "./features"
+import { Feature, FeatureConstructor } from "./features"
 import * as Features from "./features"
 import { log } from "./log"
 
@@ -21,7 +21,8 @@ export class Bot {
     public brain: Brain
     public user: Discord.ClientUser
     public token: string
-    private features: Feature[]
+    public features: FeatureConstructor[]
+    private loadedFeatures: Feature[]
     private client: Discord.Client
 
     constructor(token: string) {
@@ -60,15 +61,19 @@ export class Bot {
     }
 
     private loadFeatures() {
-        this.features = []
-        for (const FeatureClass of Features.allFeatures) {
-            const feature = createFeature(FeatureClass, this)
-            this.features.push(feature)
+        if (!this.features || this.features.length === 0) {
+            log("warn: No features loaded!")
+            return
+        }
+        this.loadedFeatures = []
+        for (const FeatureCtor of this.features) {
+            const feature = new FeatureCtor(this)
+            this.loadedFeatures.push(feature)
         }
     }
 
     private receiveMessage(msg: Discord.Message) {
-        for (const feature of this.features) {
+        for (const feature of this.loadedFeatures) {
             if (feature.handlesMessage(msg)) {
                 feature.handleMessage(msg)
             }
