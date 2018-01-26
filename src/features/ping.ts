@@ -15,14 +15,31 @@ import * as Discord from "discord.js"
 import { Feature } from "./feature"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
+const GREETINGS = [
+    /^ping[\!\?\.]*$/i,
+    /^hi[\!\?\.]*$/i,
+    /^hello[\!\?\.]*$/i,
+    /^g\'?day[\!\?\.]*$/i,
+    /^(what\'?)s\s?up[\!\?\.]*$/i,
+    /^yo[\!\?\.]*$/i,
+]
+const RESPONSES = [
+    "g'day",
+    "yeah mate",
+    "oi",
+    "pong, cunt",
+]
 
 export class PingFeature extends Feature {
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
         // If the only remaining token is "ping"
-        if (tokens.length === 1 && /^ping[\!\?\.]*$/i.test(tokens[0])) {
-            this.replyWith(message, "pong!")
-            return true
+        if (tokens.length === 1) {
+            if (GREETINGS.find( (rgx) => rgx.test(tokens[0]) )) {
+                const idx = Math.floor(Math.random() * RESPONSES.length)
+                this.replyWith(message, RESPONSES[idx])
+                return true
+            }
         }
 
         // If the message matches the shitheap of variants of "cakaw"
