@@ -44,7 +44,15 @@ export abstract class Feature {
 
         // Remove the mention
         if (message.isMentioned(this.bot.user)) {
-            tokens.splice(tokens.findIndex((s) => s === `<@${this.bot.user.id}>`), 1)
+            tokens.splice(tokens.findIndex((s) => {
+                if (s === `<@${this.bot.user.id}>`) {
+                    return true
+                }
+                if (s === `<@!${this.bot.user.id}>`) {
+                    return true
+                }
+                return false
+            }), 1)
         }
         return tokens
     }
