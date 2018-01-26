@@ -3,7 +3,7 @@
 		"module": "commonjs",
     "moduleResolution": "node",
 		"removeComments": true,
-		"sourceMap": false,
+		"sourceMap": true,
 		"outDir": "dist",
 		"alwaysStrict": true,
 		"target": "es6"

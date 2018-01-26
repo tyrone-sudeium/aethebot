@@ -17,6 +17,7 @@ import { DebugFeature } from "./debug"
 import { Feature } from "./feature"
 import { PingFeature } from "./ping"
 import { ReactorFeature } from "./reactor"
+import { RegionalIndicatorFeature } from "./regional_indicator"
 import { TimehelperFeature } from "./timehelper"
 import { VoiceNoiseFeature } from "./voicenoise/"
 
@@ -33,4 +34,5 @@ export const allFeatures: FeatureConstructor[] = [
     VoiceNoiseFeature,
     CountdownFeature,
     ReactorFeature,
+    RegionalIndicatorFeature,
 ]
