@@ -40,7 +40,7 @@ export abstract class Feature {
     }
 
     public commandTokens(message: Discord.Message): string[] {
-        const tokens = message.content.split(" ")
+        const tokens = message.content.trim().split(/\s+/)
 
         // Remove the mention
         if (message.isMentioned(this.bot.user)) {
