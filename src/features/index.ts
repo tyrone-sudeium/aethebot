@@ -18,6 +18,7 @@ import { Feature } from "./feature"
 import { PingFeature } from "./ping"
 import { ReactorFeature } from "./reactor"
 import { RegionalIndicatorFeature } from "./regional_indicator"
+import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
 import { VoiceNoiseFeature } from "./voicenoise/"
 
@@ -35,4 +36,5 @@ export const allFeatures: FeatureConstructor[] = [
     CountdownFeature,
     ReactorFeature,
     RegionalIndicatorFeature,
+    ShitcoinFeature,
 ]
