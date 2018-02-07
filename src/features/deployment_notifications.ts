@@ -40,7 +40,8 @@ export class DeploymentNotificationsFeature extends Feature {
             this.replyWith(message, "??")
             return false
         }
-        if (tokens[2].toLowerCase() !== "on" && tokens[2].toLowerCase() !== "off") {
+        if (tokens.length > 2 &&
+            (tokens[2].toLowerCase() !== "on" && tokens[2].toLowerCase() !== "off")) {
             this.replyWith(message, "??")
             return false
         }
