@@ -17,6 +17,7 @@ import { Bot } from "../bot"
 import { Feature } from "./feature"
 
 const BRAIN_KEYS = {
+    LAST_DEPLOY: "dn:last_deploy",
     USERS: "dn:user_ids",
 }
 
@@ -73,12 +74,19 @@ export class DeploymentNotificationsFeature extends Feature {
     }
 
     private async sendNotifications(): Promise<void> {
+        const lastDeploy = await this.bot.brain.get(BRAIN_KEYS.LAST_DEPLOY)
         const userIds = await this.getUserIds()
         const newVersion = await this.sourceVersion()
+        if (lastDeploy === newVersion) {
+            return // no-op if we've already notified about this version
+        }
         for (const userId of userIds) {
             const user = await this.bot.fetchUser(userId)
             user.send(`New version deployed: ${newVersion}`)
         }
+
+        // After all notifications go out, store this version in brain
+        await this.bot.brain.set(BRAIN_KEYS.LAST_DEPLOY, newVersion)
     }
 
     private async handleMessageAsync(message: Discord.Message) {
