@@ -44,6 +44,10 @@ export class Bot {
         this.client.login(this.token)
     }
 
+    public fetchUser(id: string): Promise<Discord.User> {
+        return this.client.fetchUser(id)
+    }
+
     private makeClient() {
         const client = new Discord.Client()
         client.on("message", this.receiveMessage.bind(this))

@@ -14,6 +14,7 @@
 import { Bot } from "../bot"
 import { CountdownFeature } from "./countdown"
 import { DebugFeature } from "./debug"
+import { DeploymentNotificationsFeature } from "./deployment_notifications"
 import { Feature } from "./feature"
 import { PingFeature } from "./ping"
 import { ReactorFeature } from "./reactor"
@@ -37,4 +38,5 @@ export const allFeatures: FeatureConstructor[] = [
     ReactorFeature,
     RegionalIndicatorFeature,
     ShitcoinFeature,
+    DeploymentNotificationsFeature,
 ]
