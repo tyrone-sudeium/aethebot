@@ -43,6 +43,9 @@ interface CoindeskPriceResponse {
 }
 
 const UPDATE_FREQUENCY = 600000
+const CURRENCY_CODE = "AUD"
+const DOWN_IMG = "https://cdn.discordapp.com/attachments/293954139845820416/410699758282342401/unknown.png"
+const UP_IMG = "https://cdn.discordapp.com/attachments/293954139845820416/410702466871721984/unknown.png"
 
 const BRAIN_KEYS = {
     AGE: "sc:btc:age",
@@ -84,15 +87,25 @@ export class ShitcoinFeature extends Feature {
         const ageStr = await this.bot.brain.get(BRAIN_KEYS.AGE)
         if (previous) {
             const btcPreviousDate = Moment().subtract(UPDATE_FREQUENCY, "milliseconds")
-            embed.addField(btcPreviousDate.fromNow(), previous, true)
+            embed.addField(btcPreviousDate.fromNow(), `${previous}\n${CURRENCY_CODE} / BTC`, true)
         }
         if (current) {
-            embed.addField("Current", current, true)
+            embed.addField("Current", `${current}\n${CURRENCY_CODE} / BTC`, true)
         }
         if (ageStr) {
             const btcPriceDate = Moment(parseInt(ageStr, 10))
             const intervalStr = btcPriceDate.fromNow()
-            embed.setFooter(`Last updated ${intervalStr}`)
+            let prefix = ""
+            if (previous && current) {
+                if (parseInt(current, 10) > parseInt(previous, 10)) {
+                    embed.setThumbnail(UP_IMG)
+                    prefix = "📈"
+                } else {
+                    embed.setThumbnail(DOWN_IMG)
+                    prefix = "📉"
+                }
+            }
+            embed.setFooter(`${prefix}Last updated ${intervalStr}`)
         }
         return embed
     }
@@ -122,7 +135,7 @@ export class ShitcoinFeature extends Feature {
             return
         }
         const oldPrice = await this.bot.brain.get(BRAIN_KEYS.CURRENT_PRICE)
-        const btcPriceData = await this.getPriceFromCoinbase("AUD")
+        const btcPriceData = await this.getPriceFromCoinbase(CURRENCY_CODE)
         await this.bot.brain.set(BRAIN_KEYS.CURRENT_PRICE, btcPriceData.data.amount)
         if (oldPrice) {
             await this.bot.brain.set(BRAIN_KEYS.PREVIOUS_PRICE, oldPrice)
