@@ -3,7 +3,7 @@ services:
   app:
     build: .
     volumes:
-      - ./src:/usr/src/aethebot/src
+      - ./:/app
     environment:
       REDIS_URL: redis://redis:6379/0
     links:

@@ -60,3 +60,6 @@ dist/
 
 # Has tokens in it
 development.env
+
+# wtf finder
+.DS_Store

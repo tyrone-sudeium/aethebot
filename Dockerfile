@@ -1,10 +1,10 @@
-FROM mhart/alpine-node:6
+# A simpler, less image-size conscious, more dev-friendly Dockerfile
+FROM mhart/alpine-node:8.9.4
 MAINTAINER Tyrone Trevorrow <tyrone@sudeium.com>
 
-ENV APPHOME /usr/src/aethebot
-RUN mkdir -p $APPHOME
-ADD . $APPHOME
-WORKDIR $APPHOME
+WORKDIR /app
+# Rely on .dockerignore to remove irrelevant stuff
+ADD . .
 
 RUN apk add --no-cache --virtual .builddeps make gcc g++ python \
     && npm install \

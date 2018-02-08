@@ -9,7 +9,7 @@
     "start": "tsc && node dist/index.js"
   },
   "engines": {
-    "node": "6.9.1"
+    "node": "8.9.4"
   },
   "repository": {
     "type": "git",
