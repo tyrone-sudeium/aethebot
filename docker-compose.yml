@@ -1,9 +1,12 @@
-version: "2"
+version: "3.5"
 services:
   app:
     build: .
     volumes:
-      - ./:/app
+      - ./public:/app/public
+      - ./res:/app/res
+      - ./src:/app/src
+      - ./views:/app/views
     environment:
       REDIS_URL: redis://redis:6379/0
     links:
@@ -11,5 +14,4 @@ services:
     env_file:
       - ./development.env
   redis:
-    extends:
-      image: redis:3.2-alpine
+    image: redis:3.2-alpine

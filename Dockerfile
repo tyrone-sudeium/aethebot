@@ -1,6 +1,6 @@
 # A simpler, less image-size conscious, more dev-friendly Dockerfile
 FROM mhart/alpine-node:8.9.4
-MAINTAINER Tyrone Trevorrow <tyrone@sudeium.com>
+LABEL maintainer="tyrone@sudeium.com"
 
 WORKDIR /app
 # Rely on .dockerignore to remove irrelevant stuff
