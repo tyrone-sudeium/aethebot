@@ -12,7 +12,8 @@
  */
 
 import * as Discord from "discord.js"
-import { Feature } from "./feature"
+import { Feature } from "../feature"
+import { NEVER, TOOTS } from "./dril"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
 const GREETINGS = [
@@ -42,12 +43,23 @@ export class PingFeature extends Feature {
             }
         }
 
-        // If the message matches the shitheap of variants of "cakaw"
         const joinedMessage = tokens.join("")
-
+        // If the message matches the shitheap of variants of "cakaw"
         if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
             this.replyWith(message, CAKKAW)
             return true
+        } else {
+            const lowercaseMessage = joinedMessage.toLowerCase()
+            if (lowercaseMessage.match("drilme") != null) {
+                // it's good-ass dril content you seek
+                const idx = Math.floor(Math.random() * TOOTS.length)
+                this.replyWith(message, TOOTS[idx])
+                return true
+            } else if (lowercaseMessage.match("logoff") != null) {
+                // show yourself coward
+                this.replyWith(message, NEVER)
+                return true
+            }
         }
         return false
     }
