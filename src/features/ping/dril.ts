@@ -12,6 +12,7 @@
  */
 
 export const NEVER = "https://twitter.com/dril/status/247222360309121024"
+export const NO = "https://twitter.com/dril/status/922321981"
 
 export const TOOTS = [
     "https://twitter.com/dril/status/26334898832",
