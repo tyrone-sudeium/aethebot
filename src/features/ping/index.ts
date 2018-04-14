@@ -78,7 +78,7 @@ export class PingFeature extends Feature {
         }
 
         // If the message triggers dril content...
-        if (joinedMessage === "drilme") {
+        if (joinedMessage === "drilme" || joinedMessage === ":dril:") {
             // it's good-ass dril content you seek
             this.replyWith(message, drilTweet())
             return true
