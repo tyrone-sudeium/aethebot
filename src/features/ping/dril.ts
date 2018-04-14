@@ -64,7 +64,6 @@ export const TOOTS = [
     "https://twitter.com/dril/status/715139916246552576",
     "https://twitter.com/dril/status/734307632375336960",
     "https://twitter.com/dril/status/760997832237129729",
-    "https://twitter.com/dril/status/764864532720279552",
     "https://twitter.com/dril/status/545926930982502400",
     "https://twitter.com/dril/status/708292373802065921",
     "https://twitter.com/dril/status/545789616738287616",
@@ -90,4 +89,7 @@ export const TOOTS = [
     "https://twitter.com/dril/status/383740993637343232",
     "https://twitter.com/dril/status/504134967946141697",
     "https://twitter.com/dril/status/496077711434330113",
+    "https://twitter.com/dril/status/831805955402776576",
+    "https://twitter.com/dril/status/653978129749426176",
+    "https://twitter.com/dril/status/344941923351527424",
 ]

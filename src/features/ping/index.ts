@@ -31,6 +31,33 @@ const RESPONSES = [
     "pong, cunt",
 ]
 
+let drilTweets: string[] = shuffle(TOOTS.slice(0))
+
+function drilTweet() {
+
+    if (drilTweets.length === 0) {
+        drilTweets = shuffle(TOOTS.slice(0))
+    }
+
+    const tweet = drilTweets.pop()
+    return tweet
+}
+
+function shuffle(a) {
+    let j = 0
+    let x = 0
+    let i = 0
+
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1))
+        x = a[i]
+        a[i] = a[j]
+        a[j] = x
+    }
+
+    return a
+}
+
 export class PingFeature extends Feature {
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
@@ -53,8 +80,7 @@ export class PingFeature extends Feature {
         // If the message triggers dril content...
         if (joinedMessage === "drilme") {
             // it's good-ass dril content you seek
-            const idx = Math.floor(Math.random() * TOOTS.length)
-            this.replyWith(message, TOOTS[idx])
+            this.replyWith(message, drilTweet())
             return true
         } else if (joinedMessage === "drillme") {
             // ...th-that's lewd
