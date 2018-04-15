@@ -110,7 +110,7 @@ function shuffle(a) {
 }
 
 export class Dril {
-    drilTweets: string[] = shuffle(TOOTS.slice(0))
+    private drilTweets: string[] = shuffle(TOOTS.slice(0))
 
     public getTweet(): string {
 

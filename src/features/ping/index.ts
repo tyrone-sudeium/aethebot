@@ -32,7 +32,7 @@ const RESPONSES = [
 ]
 
 export class PingFeature extends Feature {
-    dril = new Dril()
+    private dril = new Dril()
 
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
