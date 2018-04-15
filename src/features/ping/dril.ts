@@ -11,10 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-export const NEVER = "https://twitter.com/dril/status/247222360309121024"
-export const NO = "https://twitter.com/dril/status/922321981"
+const NEVER = "https://twitter.com/dril/status/247222360309121024"
+const NO = "https://twitter.com/dril/status/922321981"
 
-export const TOOTS = [
+const TOOTS = [
     "https://twitter.com/dril/status/26334898832",
     "https://twitter.com/dril/status/10849247486287872",
     "https://twitter.com/dril/status/34912332027011072",
@@ -93,3 +93,40 @@ export const TOOTS = [
     "https://twitter.com/dril/status/653978129749426176",
     "https://twitter.com/dril/status/344941923351527424",
 ]
+
+function shuffle(a) {
+    let j = 0
+    let x = 0
+    let i = 0
+
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1))
+        x = a[i]
+        a[i] = a[j]
+        a[j] = x
+    }
+
+    return a
+}
+
+export class Dril {
+    drilTweets: string[] = shuffle(TOOTS.slice(0))
+
+    public getTweet(): string {
+
+        if (this.drilTweets.length === 0) {
+            this.drilTweets = shuffle(TOOTS.slice(0))
+        }
+
+        const tweet = this.drilTweets.pop()
+        return tweet
+    }
+
+    public getNo(): string {
+        return NO
+    }
+
+    public logoff(): string {
+        return NEVER
+    }
+}

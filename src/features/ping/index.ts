@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Feature } from "../feature"
-import { NEVER, NO, TOOTS } from "./dril"
+import { Dril } from "./dril"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
 const GREETINGS = [
@@ -31,34 +31,9 @@ const RESPONSES = [
     "pong, cunt",
 ]
 
-let drilTweets: string[] = shuffle(TOOTS.slice(0))
-
-function drilTweet() {
-
-    if (drilTweets.length === 0) {
-        drilTweets = shuffle(TOOTS.slice(0))
-    }
-
-    const tweet = drilTweets.pop()
-    return tweet
-}
-
-function shuffle(a) {
-    let j = 0
-    let x = 0
-    let i = 0
-
-    for (i = a.length - 1; i > 0; i--) {
-        j = Math.floor(Math.random() * (i + 1))
-        x = a[i]
-        a[i] = a[j]
-        a[j] = x
-    }
-
-    return a
-}
-
 export class PingFeature extends Feature {
+    dril = new Dril()
+
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
         // If the only remaining token is "ping"
@@ -78,17 +53,17 @@ export class PingFeature extends Feature {
         }
 
         // If the message triggers dril content...
-        if (joinedMessage === "drilme" || joinedMessage === ":dril:") {
+        if (joinedMessage === "drilme") {
             // it's good-ass dril content you seek
-            this.replyWith(message, drilTweet())
+            this.replyWith(message, this.dril.getTweet())
             return true
         } else if (joinedMessage === "drillme") {
             // ...th-that's lewd
-            this.replyWith(message, NO)
+            this.replyWith(message, this.dril.getNo())
             return true
         } else if (joinedMessage === "logoff") {
             // show yourself coward
-            this.replyWith(message, NEVER)
+            this.replyWith(message, this.dril.logoff())
             return true
         }
         return false
