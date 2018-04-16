@@ -42,7 +42,7 @@ export class TimehelperFeature extends Feature {
         const cleanMsg = noMentions.join(" ")
         const timezone = await this.timezoneForUser(message.author.id)
         if (!timezone || !Moment.tz.zone(timezone)) {
-            return
+            return false
         }
         const zoneinfo = Moment.tz.zone(timezone)
         const zoneoffset = zoneinfo.offset(Number(new Date())) * -1
@@ -51,11 +51,11 @@ export class TimehelperFeature extends Feature {
         outZones.splice(outZones.indexOf(timezone.toLowerCase()), 1)
         if (outZones.length === 0) {
             // No timezones to translate to
-            return
+            return false
         }
         const results = Chrono.parse(cleanMsg, Moment().tz(timezone))
         if (!results || results.length === 0) {
-            return
+            return false
         }
         const format = "MMM Do ha z"
         const embed = new Discord.RichEmbed()
@@ -75,7 +75,7 @@ export class TimehelperFeature extends Feature {
             const zonesStr = Array.from(new Set(zonesStrs)).join(", ")
             embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
         }
-        if (embed.fields.length > 0) {
+        if (embed.fields && embed.fields.length > 0) {
             message.channel.sendEmbed(embed)
         }
         return false

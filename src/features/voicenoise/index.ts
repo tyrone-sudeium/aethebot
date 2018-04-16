@@ -64,7 +64,7 @@ export class VoiceNoiseFeature extends Feature {
         return true
     }
 
-    private noiseForMessage(message: string): Noise {
+    private noiseForMessage(message: string): Noise | null {
         for (const noise of NOISES) {
             if (noise.regex.find((r) => r.test(message))) {
                 return noise
@@ -96,6 +96,9 @@ export class VoiceNoiseFeature extends Feature {
 
     private updatePlaybackQueue(chanId: string) {
         const queue = this.pendingPlayback.get(chanId)
+        if (!queue) {
+            return
+        }
         const top = queue[0]
         if (top.state === VoicePlaybackStatus.Waiting) {
             if (!top.channel.connection) {

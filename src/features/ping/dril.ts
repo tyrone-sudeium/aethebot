@@ -94,14 +94,13 @@ const TOOTS = [
     "https://twitter.com/dril/status/344941923351527424",
 ]
 
-function shuffle(a) {
+function shuffle<T>(a: T[]): T[] {
     let j = 0
-    let x = 0
     let i = 0
 
     for (i = a.length - 1; i > 0; i--) {
         j = Math.floor(Math.random() * (i + 1))
-        x = a[i]
+        const x = a[i]
         a[i] = a[j]
         a[j] = x
     }
@@ -118,7 +117,7 @@ export class Dril {
             this.drilTweets = shuffle(TOOTS.slice(0))
         }
 
-        const tweet = this.drilTweets.pop()
+        const tweet = this.drilTweets.pop() || ""
         return tweet
     }
 

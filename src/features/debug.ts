@@ -28,6 +28,7 @@ export class DebugFeature extends Feature {
             return false
         } else {
             log("incoming message: " + message.content)
+            return true
         }
     }
 }

@@ -37,7 +37,10 @@ export abstract class Feature {
     public abstract handleMessage(message: Discord.Message): boolean
 
     public handlesMessage(message: Discord.Message): boolean {
-        // Ignore messages send by the bot itself
+        if (!this.bot.user) {
+            return false
+        }
+        // Ignore messages sent by the bot itself
         if (message.author.equals(this.bot.user)) {
             return false
         }
@@ -54,14 +57,14 @@ export abstract class Feature {
 
     public commandTokens(message: Discord.Message): string[] {
         const tokens = message.content.trim().split(/\s+/)
-
+        const user = this.bot.user
         // Remove the mention
-        if (message.isMentioned(this.bot.user)) {
+        if (user && message.isMentioned(user)) {
             tokens.splice(tokens.findIndex((s) => {
-                if (s === `<@${this.bot.user.id}>`) {
+                if (s === `<@${user.id}>`) {
                     return true
                 }
-                if (s === `<@!${this.bot.user.id}>`) {
+                if (s === `<@!${user.id}>`) {
                     return true
                 }
                 return false

@@ -21,16 +21,16 @@ import { Bot } from "./bot"
 
 export class Website {
     public app = Express()
-    public bot: Bot
-    private server: HTTP.Server
-    private timer: NodeJS.Timer
+    public bot: Bot | null
+    private server: HTTP.Server | null = null
+    private timer: NodeJS.Timer | null = null
 
-    private adminActions = {
+    private adminActions: {[key: string]: () => void} = {
         DISCORD_RECONNECT: this.reconnectBot.bind(this),
     }
 
-    constructor(bot: Bot) {
-        this.bot = bot
+    constructor(bot?: Bot | null) {
+        this.bot = bot || null
     }
 
     public start() {
@@ -51,7 +51,9 @@ export class Website {
     }
 
     public close() {
-        this.server.close()
+        if (this.server) {
+            this.server.close()
+        }
         this.server = null
         if (this.timer) {
             clearInterval(this.timer)
@@ -60,7 +62,9 @@ export class Website {
     }
 
     public reconnectBot() {
-        this.bot.reconnect()
+        if (this.bot) {
+            this.bot.reconnect()
+        }
     }
 
     public renderRoot(req: Request, res: Response) {

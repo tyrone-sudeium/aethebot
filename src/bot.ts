@@ -12,17 +12,17 @@
  */
 
 import * as Discord from "discord.js"
-import { Brain } from "./brain"
+import { Brain, MemoryBrain } from "./brain"
 import { Feature, FeatureConstructor } from "./features"
 import * as Features from "./features"
 import { log } from "./log"
 
 export class Bot {
-    public brain: Brain
-    public user: Discord.ClientUser
+    public brain: Brain = new MemoryBrain()
+    public user: Discord.ClientUser | null = null
     public token: string
-    public features: FeatureConstructor[]
-    private loadedFeatures: Feature[]
+    public features: FeatureConstructor[] = []
+    private loadedFeatures: Feature[] = []
     private client: Discord.Client
 
     constructor(token: string) {
@@ -32,9 +32,7 @@ export class Bot {
 
     public reconnect() {
         log("reconnecting to discord")
-        const client = this.client
-        this.client = null
-        client.destroy().then(() => {
+        this.client.destroy().then(() => {
             this.client = this.makeClient()
             this.login()
         }).catch(console.error)

@@ -4,7 +4,8 @@
     "moduleResolution": "node",
 		"sourceMap": true,
 		"outDir": "dist",
-		"alwaysStrict": true,
+    "alwaysStrict": true,
+    "strict": true,
 		"target": "es2017"
 	},
 	"files": [

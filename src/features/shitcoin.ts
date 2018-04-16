@@ -58,7 +58,7 @@ export class ShitcoinFeature extends Feature {
 
     constructor(bot: Bot) {
         super(bot)
-        this.startRefreshTimer()
+        this.refreshTimer = this.startRefreshTimer()
     }
 
     public handleMessage(message: Discord.Message): boolean {
@@ -70,6 +70,9 @@ export class ShitcoinFeature extends Feature {
         }
 
         this.messageEmbed().then((embed) => {
+            if (!embed || !embed.fields) {
+                return
+            }
             if (embed.fields.length > 0) {
                 message.channel.send("", {
                     embed,
@@ -110,9 +113,9 @@ export class ShitcoinFeature extends Feature {
         return embed
     }
 
-    private startRefreshTimer(): void {
+    private startRefreshTimer(): NodeJS.Timer {
         // Reload the price from Coinbase every 10 minutes
-        this.refreshTimer = setInterval(() => {
+        return setInterval(() => {
             this.refreshPriceData()
         }, UPDATE_FREQUENCY)
     }

@@ -42,13 +42,13 @@ if (!argv["website-only"]) {
     const redisUrl = process.env.REDIS_URL as string
     if (redisUrl) {
         const redisClient = Redis.createClient({url: redisUrl})
-        redisClient.on("error", (err) => {
+        redisClient.on("error", (err: any) => {
             log(err)
         })
         redisClient.on("connect", () => {
             log("redis connected")
         })
-        redisClient.on("warning", (warn) => {
+        redisClient.on("warning", (warn: any) => {
             log("redis warning: " + warn)
         })
         bot.brain = new RedisBrain(redisClient)

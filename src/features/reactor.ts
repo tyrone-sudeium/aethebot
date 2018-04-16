@@ -41,7 +41,7 @@ export class ReactorFeature extends Feature {
         return false
     }
 
-    protected reactionForMessage(message: string): Reaction {
+    protected reactionForMessage(message: string): Reaction | null {
         for (const reaction of REACTIONS) {
             if (reaction.regex.find((r) => r.test(message))) {
                 return reaction

@@ -53,5 +53,6 @@ export class CountdownFeature extends Feature {
         } else {
             this.replyWith(message, `${countdown.name}: already happened!`)
         }
+        return true
     }
 }
