@@ -22,7 +22,7 @@ export class DiceFeature extends Feature {
             return false
         }
         const command = tokens[0].toLowerCase()
-        if (!/^(dice)|(rand)|(random)|(rng)/.test(command)) {
+        if (!/^(dice)|(rand)|(random)|(rng)|(roll)/.test(command)) {
             return false
         }
         let maximum = 100
@@ -31,22 +31,28 @@ export class DiceFeature extends Feature {
                 const diceValues = tokens[1].split("d")
                 const numberOfDice = this.sanitizeNumberInput(diceValues[0])
                 const diceSides = this.sanitizeNumberInput(diceValues[1])
+                if (diceSides <= 1 || numberOfDice > 20) {
+                    this.replyNegatively(message)
+                    return true
+                }
                 this.respondWithDice(message, numberOfDice, diceSides)
             } catch (error) {
-                this.replyWith(message, "??")
+                this.replyNegatively(message)
                 return true
             }
             return true
         }
 
-        if (tokens.length > 1 && tokens[1] && /^\d+$/.test(tokens[1])) {
+        if (tokens.length > 1 && tokens[1]) {
             try {
                 maximum = this.sanitizeNumberInput(tokens[1])
-            // tslint:disable-next-line:no-empty
             } catch (error) {
-                this.replyWith(message, "??")
+                this.replyNegatively(message)
                 return true
             }
+        } else {
+            this.replyNegatively(message)
+            return true
         }
 
         this.respondWithNumber(message, maximum)
@@ -55,7 +61,7 @@ export class DiceFeature extends Feature {
 
     private sanitizeNumberInput(numberStr: string): number {
         const parsed = parseInt(numberStr, 10)
-        if (isNaN(parsed) || parsed > 4294967295) {
+        if (isNaN(parsed) || parsed > 4294967295 || parsed < 1) {
             throw new Error("invalid number")
         }
         return parsed

@@ -32,6 +32,7 @@ export abstract class Feature {
 
     constructor(bot: Bot) {
         this.bot = bot
+        this.negatives = NEGATIVES
     }
 
     public abstract handleMessage(message: Discord.Message): boolean
@@ -76,9 +77,9 @@ export abstract class Feature {
     public replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message | Discord.Message[]> {
         const chan = message.channel
         if (message.channel.type === "dm") {
-            return chan.sendMessage(replyStr)
+            return chan.send(replyStr)
         } else {
-            return chan.sendMessage(`<@${message.author.id}> ${replyStr}`)
+            return chan.send(`<@${message.author.id}> ${replyStr}`)
         }
     }
 
