@@ -11,5 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import "./chrono-node"
 import "./moment-precise-range"
 import "./random-number-csprng"
