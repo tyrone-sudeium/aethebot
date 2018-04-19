@@ -12,6 +12,7 @@
  */
 
 import * as Discord from "discord.js"
+import { Bot } from "../../bot"
 import { Feature } from "../feature"
 import { pushReroll, Rerollable, RerollFeature } from "../reroll"
 import { Dril } from "./dril"
@@ -33,7 +34,12 @@ const RESPONSES = [
 ]
 
 export class PingFeature extends Feature implements Rerollable {
-    private dril = new Dril()
+    private dril: Dril
+
+    public constructor(bot: Bot, name: string) {
+        super(bot, name)
+        this.dril = new Dril(bot.brain)
+    }
 
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
@@ -68,9 +74,10 @@ export class PingFeature extends Feature implements Rerollable {
         return false
     }
 
-    public reroll(params: any): Promise<string> {
+    public async reroll(params: any, originalMessage: Discord.Message): Promise<string> {
         if (params === "drilme") {
-            return Promise.resolve(this.dril.getTweet())
+            const tweet = await this.dril.getTweet(originalMessage.channel.id)
+            return Promise.resolve(tweet)
         } else {
             throw new Error(`unknown parameter ${params} passed to PingFeature reroll`)
         }
@@ -80,8 +87,9 @@ export class PingFeature extends Feature implements Rerollable {
         // If the message triggers dril content...
         if (joinedMessage === "drilme") {
             // it's good-ass dril content you seek
-            const uploadedMsg = await this.replyWith(message, this.dril.getTweet())
-            pushReroll(this, message.author, uploadedMsg, "drilme", "delete")
+            const tweet = await this.dril.getTweet(message.channel.id)
+            const uploadedMsg = await this.replyWith(message, tweet)
+            pushReroll(this, uploadedMsg, message, "drilme", "delete")
             return
         }
     }

@@ -11,8 +11,13 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { Brain } from "../../brain"
+
 const NEVER = "https://twitter.com/dril/status/247222360309121024"
 const NO = "https://twitter.com/dril/status/922321981"
+const BRAIN_KEYS = {
+    TOOT_LIST: "dril:toot_list",
+}
 
 const TOOTS = [
     "https://twitter.com/dril/status/26334898832",
@@ -109,15 +114,28 @@ function shuffle<T>(a: T[]): T[] {
 }
 
 export class Dril {
-    private drilTweets: string[] = shuffle(TOOTS.slice(0))
+    public constructor(
+        public brain: Brain,
+    ) { }
 
-    public getTweet(): string {
-
-        if (this.drilTweets.length === 0) {
-            this.drilTweets = shuffle(TOOTS.slice(0))
+    public async getTweet(channelId: string): Promise<string> {
+        let toots: string[] = []
+        try {
+            const tootsJSONStr = await this.brain.get(this.brainKeyForChannel(channelId))
+            if (tootsJSONStr) {
+                toots = JSON.parse(tootsJSONStr)
+            } else {
+                toots = shuffle(TOOTS.slice(0))
+            }
+        } catch (err) {
+            toots = shuffle(TOOTS.slice(0))
+        }
+        if (toots.length === 0) {
+            toots = shuffle(TOOTS.slice(0))
         }
 
-        const tweet = this.drilTweets.pop() || ""
+        const tweet = toots.pop() || ""
+        await this.brain.set(this.brainKeyForChannel(channelId), JSON.stringify(toots))
         return tweet
     }
 
@@ -127,5 +145,9 @@ export class Dril {
 
     public logoff(): string {
         return NEVER
+    }
+
+    private brainKeyForChannel(chanId: string) {
+        return `${BRAIN_KEYS.TOOT_LIST}:${chanId}`
     }
 }

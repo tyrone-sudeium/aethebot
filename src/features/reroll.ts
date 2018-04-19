@@ -16,15 +16,15 @@ import { log } from "../log"
 import { Feature } from "./feature"
 
 export interface Rerollable {
-    reroll(params: any): Promise<string>
+    reroll(params: any, originalMessage: Discord.Message): Promise<string>
 }
 
 type RerollType = "edit" | "delete"
 
 interface RerollItem {
     channelId: Discord.Snowflake
-    messageId: Discord.Snowflake
-    opId: Discord.Snowflake
+    botMessageId: Discord.Snowflake
+    humanMessageId: Discord.Snowflake
     timestamp: number
     featureName: string
     params: any
@@ -67,21 +67,21 @@ export class RerollFeature extends Feature {
 
     public async pushRerollForFeature(
         featureName: string,
-        originalPoster: Discord.User,
-        message: Discord.Message,
+        botMessage: Discord.Message,
+        humanMessage: Discord.Message,
         params: any,
         type: RerollType = "edit") {
         const item: RerollItem = {
-            channelId: message.channel.id,
+            botMessageId: botMessage.id,
+            channelId: humanMessage.channel.id,
             featureName,
-            messageId: message.id,
-            opId: originalPoster.id,
+            humanMessageId: humanMessage.id,
             params,
             timestamp: new Date().getTime(),
             type,
         }
         const str = JSON.stringify(item)
-        const key = this.brainKeyForChannel(message.channel.id)
+        const key = this.brainKeyForChannel(humanMessage.channel.id)
         await this.bot.brain.set(key, str)
     }
 
@@ -115,29 +115,30 @@ export class RerollFeature extends Feature {
             return
         }
         try {
-            const message = await requestMsg.channel.fetchMessage(item.messageId)
-            const originalPoster = await this.bot.fetchUser(item.opId)
+            const botMessage = await requestMsg.channel.fetchMessage(item.botMessageId)
+            const humanMessage = await requestMsg.channel.fetchMessage(item.humanMessageId)
+            const originalPoster = humanMessage.author
             if (!originalPoster || !requestMsg.author.equals(originalPoster)) {
                 this.replyNegatively(requestMsg)
                 return
             }
             const feature = this.bot.loadedFeatureForName(item.featureName)
-            if (!message || !feature) {
+            if (!botMessage || !feature) {
                 this.replyNegatively(requestMsg)
                 return
             }
             if ((feature as RerollableFeature).reroll) {
-                let reply = await (feature as RerollableFeature).reroll(item.params)
-                if (message.channel.type !== "dm") {
-                    reply = `<@${item.opId}> ${reply}`
+                let reply = await (feature as RerollableFeature).reroll(item.params, humanMessage)
+                if (botMessage.channel.type !== "dm") {
+                    reply = `<@${originalPoster.id}> ${reply}`
                 }
                 if (item.type === "edit") {
-                    const editedMsg = await message.edit(reply)
+                    const editedMsg = await botMessage.edit(reply)
                 } else if (item.type === "delete") {
-                    const deletedMsg = await message.delete()
+                    const deletedMsg = await botMessage.delete()
                     const newMsg = await requestMsg.channel.send(reply)
                     if (newMsg instanceof Discord.Message) {
-                        await this.pushRerollForFeature(feature.name, originalPoster, newMsg, item.params, item.type)
+                        await this.pushRerollForFeature(feature.name, newMsg, humanMessage, item.params, item.type)
                     }
                 }
             } else {
@@ -154,19 +155,18 @@ export class RerollFeature extends Feature {
 // loaded in the current bot.
 export async function pushReroll(
     feature: Feature,
-    originalPoster: Discord.User,
-    message: Discord.Message | Discord.Message[],
+    botMessage: Discord.Message | Discord.Message[],
+    humanMessage: Discord.Message | Discord.Message[],
     params: any,
     type: RerollType = "edit"): Promise<void> {
-    if (!(message instanceof Discord.Message)) {
+    if (!(botMessage instanceof Discord.Message)) {
+        return
+    }
+    if (!(humanMessage instanceof Discord.Message)) {
         return
     }
     const botUser = feature.bot.user
     if (!botUser) {
-        return
-    }
-    if (!message.author.equals(botUser)) {
-        log("pushReroll's message parameter should be the BOT message, not the human user's message pinging the bot!")
         return
     }
     const feat = feature.bot.loadedFeatureForName("RerollFeature")
@@ -175,6 +175,6 @@ export async function pushReroll(
     }
     if ((feat as RerollFeature).pushRerollForFeature) {
         const reroll = feat as RerollFeature
-        return reroll.pushRerollForFeature(feature.name, originalPoster, message, params, type)
+        return reroll.pushRerollForFeature(feature.name, botMessage, humanMessage, params, type)
     }
 }

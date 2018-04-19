@@ -81,7 +81,7 @@ export class DiceFeature extends Feature implements Rerollable {
         return true
     }
 
-    public reroll(params: any): Promise<string> {
+    public reroll(params: any, originalMessage: Discord.Message): Promise<string> {
         return this.responseForRequest(params)
     }
 
@@ -96,7 +96,7 @@ export class DiceFeature extends Feature implements Rerollable {
     private async respondWithRequest(message: Discord.Message, req: Request): Promise<void> {
         const response = await this.responseForRequest(req)
         const uploadedMessage = await this.replyWith(message, response)
-        await pushReroll(this, message.author, uploadedMessage, req)
+        await pushReroll(this, uploadedMessage, message, req)
     }
 
     private async responseForRequest(req: Request): Promise<string> {
