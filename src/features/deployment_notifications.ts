@@ -103,7 +103,7 @@ export class DeploymentNotificationsFeature extends Feature {
             return
         }
 
-        const userIdsSet = new Set<string>()
+        const userIdsSet = new Set<string>(userIds)
         if (tokens[2].toLowerCase() === "on") {
             userIdsSet.add(message.author.id)
         }
