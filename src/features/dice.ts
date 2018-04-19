@@ -14,15 +14,33 @@
 import * as Discord from "discord.js"
 import * as randomNumber from "random-number-csprng"
 import { Feature } from "./feature"
+import { pushReroll, Rerollable } from "./reroll"
 
-export class DiceFeature extends Feature {
+interface NumberRequest {
+    type: "number"
+    maximum: number
+}
+
+interface DiceRequest {
+    type: "dice"
+    dice: number
+    sides: number
+}
+
+type Request = NumberRequest | DiceRequest
+
+function assertNever(x: never): never {
+    throw new Error("Unexpected object: " + x)
+}
+
+export class DiceFeature extends Feature implements Rerollable {
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
         if (tokens.length > 2) {
             return false
         }
         const command = tokens[0].toLowerCase()
-        if (!/^(dice)|(rand)|(random)|(rng)|(roll)/.test(command)) {
+        if (!/^(dice)|^(rand)|^(random)|^(rng)|^(roll)/.test(command)) {
             return false
         }
         let maximum = 100
@@ -35,7 +53,11 @@ export class DiceFeature extends Feature {
                     this.replyNegatively(message)
                     return true
                 }
-                this.respondWithDice(message, numberOfDice, diceSides)
+                this.respondWithRequest(message, {
+                    dice: numberOfDice,
+                    sides: diceSides,
+                    type: "dice",
+                })
             } catch (error) {
                 this.replyNegatively(message)
                 return true
@@ -50,13 +72,17 @@ export class DiceFeature extends Feature {
                 this.replyNegatively(message)
                 return true
             }
-        } else {
-            this.replyNegatively(message)
-            return true
         }
 
-        this.respondWithNumber(message, maximum)
+        this.respondWithRequest(message, {
+            maximum,
+            type: "number",
+        })
         return true
+    }
+
+    public reroll(params: any): Promise<string> {
+        return this.responseForRequest(params)
     }
 
     private sanitizeNumberInput(numberStr: string): number {
@@ -67,21 +93,35 @@ export class DiceFeature extends Feature {
         return parsed
     }
 
-    private async respondWithNumber(message: Discord.Message, maximum: number): Promise<void> {
-        const num = await randomNumber(0, maximum)
-        this.replyWith(message, `🎲 ${num}`)
+    private async respondWithRequest(message: Discord.Message, req: Request): Promise<void> {
+        const response = await this.responseForRequest(req)
+        const uploadedMessage = await this.replyWith(message, response)
+        await pushReroll(this, message.author, uploadedMessage, req)
     }
 
-    private async respondWithDice(message: Discord.Message, numberOfDice: number, sides: number): Promise<void> {
+    private async responseForRequest(req: Request): Promise<string> {
+        switch (req.type) {
+            case "number": return await this.responseWithNumber(req.maximum)
+            case "dice": return await this.responseWithDice(req.dice, req.sides)
+            default: return assertNever(req)
+        }
+    }
+
+    private async responseWithNumber(maximum: number): Promise<string> {
+        const num = await randomNumber(0, maximum)
+        return `🎲 ${num}`
+    }
+
+    private async responseWithDice(numberOfDice: number, sides: number): Promise<string> {
         const rolls: number[] = []
         for (let i = 0; i < numberOfDice; i++) {
             rolls.push(await randomNumber(1, sides))
         }
         const total = rolls.reduce((a, b) => a + b, 0)
         if (numberOfDice > 1) {
-            this.replyWith(message, `🎲 ${total} [${rolls.join(", ")}]`)
+            return `🎲 ${total} [${rolls.join(", ")}]`
         } else {
-            this.replyWith(message, `🎲 ${total}`)
+            return `🎲 ${total}`
         }
     }
 }

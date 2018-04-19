@@ -54,14 +54,18 @@ export class RedisBrain implements Brain {
         })
     }
 
-    public get(key: string): Promise<string> {
+    public get(key: string): Promise<string | null> {
         if (this.storage[key]) {
             return Promise.resolve(this.storage[key])
         }
-        return promisify<string>((cb) => {
+        return promisify<string | null>((cb) => {
             this.client.get(key, cb)
         }).then((res) => {
-            this.storage[key] = res
+            if (res) {
+                this.storage[key] = res
+            } else {
+                delete this.storage[key]
+            }
             return Promise.resolve(res)
         })
     }

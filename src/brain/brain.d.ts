@@ -19,7 +19,7 @@ export interface Brain {
     /** Sets value for key. */
     set(key: string, value: string): Promise<void>
     /** Returns value for a given key, or null if not found. */
-    get(key: string): Promise<string>
+    get(key: string): Promise<string | null>
     /** Removes value for a given key, if any. */
     remove(key: string): Promise<void>
 }

@@ -20,17 +20,18 @@ import { Feature } from "./feature"
 import { PingFeature } from "./ping/"
 import { ReactorFeature } from "./reactor"
 import { RegionalIndicatorFeature } from "./regional_indicator"
+import { RerollFeature } from "./reroll"
 import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
 import { VoiceNoiseFeature } from "./voicenoise/"
 
 export { Feature }
 
-export interface FeatureConstructor {
-    new (bot: Bot): Feature
+export interface FeatureConstructor<F extends Feature> {
+    new (bot: Bot, name: string): F
 }
 
-export const allFeatures: FeatureConstructor[] = [
+export const allFeatures: Array<FeatureConstructor<Feature>> = [
     TimehelperFeature,
     DebugFeature,
     PingFeature,
@@ -38,6 +39,7 @@ export const allFeatures: FeatureConstructor[] = [
     CountdownFeature,
     ReactorFeature,
     RegionalIndicatorFeature,
+    RerollFeature,
     ShitcoinFeature,
     DeploymentNotificationsFeature,
     DiceFeature,

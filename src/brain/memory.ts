@@ -28,7 +28,7 @@ export class MemoryBrain implements Brain {
         return Promise.resolve()
     }
 
-    public get(key: string): Promise<string> {
+    public get(key: string): Promise<string | null> {
         const value = this.storage[key]
         return Promise.resolve(value)
     }

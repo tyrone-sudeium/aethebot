@@ -113,7 +113,7 @@ export class TimehelperFeature extends Feature {
         }
     }
 
-    protected timezoneForUser(userId: string): Promise<string> {
+    protected timezoneForUser(userId: string): Promise<string | null> {
         const key = `th:tz:${userId}`
         return this.bot.brain.get(key)
     }
@@ -135,12 +135,17 @@ export class TimehelperFeature extends Feature {
      */
     protected async userTimezones(): Promise<string[]> {
         const key = "th:tzusers"
-        const userIdsStr = await this.bot.brain.get(key)
-        const userIds = userIdsStr.split(",").filter((x) => !!x)
         const zones: string[] = []
+        const userIdsStr = await this.bot.brain.get(key)
+        if (!userIdsStr) {
+            return zones
+        }
+        const userIds = userIdsStr.split(",").filter((x) => !!x)
         for (const userId of userIds) {
             const zone = await this.timezoneForUser(userId)
-            zones.push(zone)
+            if (zone) {
+                zones.push(zone)
+            }
         }
         zones.slice(0, MAXIMUM_TIMEZONES)
         return zones
@@ -151,6 +156,10 @@ export class TimehelperFeature extends Feature {
         const userIdsStr = await this.bot.brain.get(key)
         if (!userIdsStr && !removed) {
             this.bot.brain.set(key, updatedUserId)
+            return
+        }
+        if (!userIdsStr) {
+            // Trying to remove a user from an empty list... how about we just bail
             return
         }
         const userIds = userIdsStr.split(",").filter((x) => !!x)

@@ -56,8 +56,8 @@ const BRAIN_KEYS = {
 export class ShitcoinFeature extends Feature {
     private refreshTimer: NodeJS.Timer
 
-    constructor(bot: Bot) {
-        super(bot)
+    constructor(bot: Bot, name: string) {
+        super(bot, name)
         this.refreshTimer = this.startRefreshTimer()
     }
 
@@ -120,7 +120,7 @@ export class ShitcoinFeature extends Feature {
         }, UPDATE_FREQUENCY)
     }
 
-    private async currentPrice(): Promise<string> {
+    private async currentPrice(): Promise<string | null> {
         const btcPrice = await this.bot.brain.get(BRAIN_KEYS.CURRENT_PRICE)
         if (btcPrice) {
             return btcPrice
@@ -129,7 +129,7 @@ export class ShitcoinFeature extends Feature {
         return await this.bot.brain.get(BRAIN_KEYS.CURRENT_PRICE)
     }
 
-    private previousPrice(): Promise<string> {
+    private previousPrice(): Promise<string | null> {
         return this.bot.brain.get(BRAIN_KEYS.PREVIOUS_PRICE)
     }
 

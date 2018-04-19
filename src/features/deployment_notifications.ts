@@ -22,8 +22,8 @@ const BRAIN_KEYS = {
 }
 
 export class DeploymentNotificationsFeature extends Feature {
-    public constructor(bot: Bot) {
-        super(bot)
+    public constructor(bot: Bot, name: string) {
+        super(bot, name)
         this.sendNotifications()
     }
 

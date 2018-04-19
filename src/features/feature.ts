@@ -28,11 +28,13 @@ const NEGATIVES = [
 
 export abstract class Feature {
     public bot: Bot
+    public name: string
     private negatives = NEGATIVES
 
-    constructor(bot: Bot) {
+    constructor(bot: Bot, name: string) {
         this.bot = bot
         this.negatives = NEGATIVES
+        this.name = name
     }
 
     public abstract handleMessage(message: Discord.Message): boolean
@@ -76,10 +78,16 @@ export abstract class Feature {
 
     public replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message | Discord.Message[]> {
         const chan = message.channel
-        if (message.channel.type === "dm") {
-            return chan.send(replyStr)
+        return this.reply(chan, message.author, replyStr)
+    }
+
+    public reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupDMChannel,
+                 mention: Discord.User,
+                 replyStr: string): Promise<Discord.Message | Discord.Message[]> {
+        if (channel.type === "dm") {
+            return channel.send(replyStr)
         } else {
-            return chan.send(`<@${message.author.id}> ${replyStr}`)
+            return channel.send(`<@${mention.id}> ${replyStr}`)
         }
     }
 

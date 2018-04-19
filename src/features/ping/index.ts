@@ -13,6 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Feature } from "../feature"
+import { pushReroll, Rerollable, RerollFeature } from "../reroll"
 import { Dril } from "./dril"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
@@ -31,7 +32,7 @@ const RESPONSES = [
     "pong, cunt",
 ]
 
-export class PingFeature extends Feature {
+export class PingFeature extends Feature implements Rerollable {
     private dril = new Dril()
 
     public handleMessage(message: Discord.Message): boolean {
@@ -50,13 +51,6 @@ export class PingFeature extends Feature {
         if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
             this.replyWith(message, CAKKAW)
             return true
-        }
-
-        // If the message triggers dril content...
-        if (joinedMessage === "drilme") {
-            // it's good-ass dril content you seek
-            this.replyWith(message, this.dril.getTweet())
-            return true
         } else if (joinedMessage === "drillme") {
             // ...th-that's lewd
             this.replyWith(message, this.dril.getNo())
@@ -65,7 +59,30 @@ export class PingFeature extends Feature {
             // show yourself coward
             this.replyWith(message, this.dril.logoff())
             return true
+        } else if (joinedMessage === "drilme") {
+            // TODO: ^ if joinedMessage matches async responses
+            this.respondAsync(message, joinedMessage)
+            return true
         }
+
         return false
+    }
+
+    public reroll(params: any): Promise<string> {
+        if (params === "drilme") {
+            return Promise.resolve(this.dril.getTweet())
+        } else {
+            throw new Error(`unknown parameter ${params} passed to PingFeature reroll`)
+        }
+    }
+
+    private async respondAsync(message: Discord.Message, joinedMessage: string) {
+        // If the message triggers dril content...
+        if (joinedMessage === "drilme") {
+            // it's good-ass dril content you seek
+            const uploadedMsg = await this.replyWith(message, this.dril.getTweet())
+            pushReroll(this, message.author, uploadedMsg, "drilme", "delete")
+            return
+        }
     }
 }
