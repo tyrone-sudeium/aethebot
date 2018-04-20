@@ -64,7 +64,7 @@ export class RegionalIndicatorFeature extends Feature {
 
         const shitpost = tokens.slice(2).map( (s) => {
             return Array.from(s).map(emojiForCharacter).join(" ")
-        }).join("   ")
+        }).join("\n")
         message.channel.send(shitpost)
         return true
     }

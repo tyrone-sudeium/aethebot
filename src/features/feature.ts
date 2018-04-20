@@ -29,7 +29,7 @@ const NEGATIVES = [
 export abstract class Feature {
     public bot: Bot
     public name: string
-    private negatives = NEGATIVES
+    protected negatives = NEGATIVES
 
     constructor(bot: Bot, name: string) {
         this.bot = bot
