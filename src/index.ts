@@ -62,5 +62,10 @@ if (!argv["website-only"]) {
 }
 
 // Start the website
-const website = new Website(bot)
-website.start()
+const baseURL = process.env.WEBSITE_BASE_URL as string | null
+if (baseURL) {
+    const website = new Website(bot, baseURL)
+    website.start()
+} else {
+    log("WEBSITE_BASE_URL not set, website will not run")
+}

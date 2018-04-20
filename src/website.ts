@@ -21,7 +21,6 @@ import { Bot } from "./bot"
 
 export class Website {
     public app = Express()
-    public bot: Bot | null
     private server: HTTP.Server | null = null
     private timer: NodeJS.Timer | null = null
 
@@ -29,9 +28,10 @@ export class Website {
         DISCORD_RECONNECT: this.reconnectBot.bind(this),
     }
 
-    constructor(bot?: Bot | null) {
-        this.bot = bot || null
-    }
+    constructor(
+        public bot: Bot | null,
+        public baseURL: string,
+    ) { }
 
     public start() {
         const adminParser = BodyParser.urlencoded()
@@ -111,7 +111,7 @@ export class Website {
             clearInterval(this.timer)
         }
         this.timer = setInterval(() => {
-            HTTP.get("http://aethebot.herokuapp.com")
+            HTTP.get(this.baseURL)
         }, 300000)
     }
 }
