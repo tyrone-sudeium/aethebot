@@ -148,7 +148,7 @@ export const NOISES: Noise[] = [
         files: ["keepup.dat"],
         id: "KEEPUP",
         regex: [
-            /^keep\s*up(motherfuck(a|er))?$/i,
+            /^keep\s*up(\s*m[uo]th(er|a)fuck(a|er))?$/i,
         ],
     },
 ]
