@@ -56,6 +56,10 @@ export class VoiceNoiseFeature extends Feature {
             }
             return false
         }
+        if (!authorVoiceChannel.joinable) {
+            this.replyNegatively(message, "can't join your channel")
+            return true
+        }
 
         this.pushPlaybackIntent(authorVoiceChannel, {
             channel: authorVoiceChannel,

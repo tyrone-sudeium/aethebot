@@ -95,9 +95,14 @@ export abstract class Feature {
 
     // Send a random rejection message, intended as a result of a (usually) intentional misuse or bad parameter,
     // like sending a large or negative number.
-    public async replyNegatively(message: Discord.Message): Promise<Discord.Message | Discord.Message[]> {
-        const idx = await randomNumber(0, this.negatives.length)
+    public async replyNegatively(message: Discord.Message,
+                                 hint: string | null = null): Promise<Discord.Message | Discord.Message[]> {
+        const idx = await randomNumber(0, this.negatives.length - 1)
         const msg = this.negatives[idx]
-        return this.replyWith(message, msg)
+        if (hint) {
+            return this.replyWith(message, `${msg} (${hint})`)
+        } else {
+            return this.replyWith(message, msg)
+        }
     }
 }
