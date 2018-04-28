@@ -60,11 +60,6 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["20cooler.dat"],
-        id: "20PERCENTCOOLER",
-        regex: [/^20%\s*cooler$/i, /^twenty\s*percent\s*cooler$/i],
-    },
-    {
         files: ["hueys.dat"],
         id: "HUEYS",
         regex: [/^(distant[\s]+)?(hu(ey|ie)s|chopper(s?))$/i],

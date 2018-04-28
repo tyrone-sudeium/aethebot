@@ -39,6 +39,8 @@ export abstract class Feature {
 
     public abstract handleMessage(message: Discord.Message): boolean
 
+    public voiceChannelStateChanged?(channel: Discord.VoiceChannel): void
+
     public handlesMessage(message: Discord.Message): boolean {
         if (!this.bot.user) {
             return false

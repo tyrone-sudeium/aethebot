@@ -78,6 +78,7 @@ export class Bot {
             }
             this.loadFeatures()
         })
+        client.on("voiceStateUpdate", this.voiceStateUpdate.bind(this))
         return client
     }
 
@@ -97,6 +98,18 @@ export class Bot {
         for (const [_, feature] of this.loadedFeatures) {
             if (feature.handlesMessage(msg)) {
                 feature.handleMessage(msg)
+            }
+        }
+    }
+
+    private voiceStateUpdate(oldMember: Discord.GuildMember, newMember: Discord.GuildMember) {
+        const newUserChannel: Discord.VoiceChannel | undefined = newMember.voiceChannel
+        const oldUserChannel: Discord.VoiceChannel | undefined = oldMember.voiceChannel
+        const updatedChannel = newUserChannel || oldUserChannel || null
+
+        for (const [_, feature] of this.loadedFeatures) {
+            if (feature.voiceChannelStateChanged) {
+                feature.voiceChannelStateChanged(updatedChannel)
             }
         }
     }

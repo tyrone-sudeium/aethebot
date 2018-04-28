@@ -14,6 +14,7 @@
 import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
+import { Bot } from "../../bot"
 import { Feature } from "../feature"
 import { Noise, NOISES } from "./noises"
 
@@ -62,6 +63,29 @@ export class VoiceNoiseFeature extends Feature {
             state: VoicePlaybackStatus.Waiting,
         })
         return true
+    }
+
+    public voiceChannelStateChanged(channel: Discord.VoiceChannel): void {
+        if (this.shouldLeaveChannel(channel)) {
+            channel.leave()
+        }
+    }
+
+    private shouldLeaveChannel(channel: Discord.VoiceChannel): boolean {
+        if (channel.members.size !== 1) {
+            return false
+        }
+        if (!channel.connection) {
+            return false
+        }
+        const botUser = this.bot.user
+        if (!botUser) {
+            return false
+        }
+        if (channel.members.last().user.equals(botUser)) {
+            return true
+        }
+        return false
     }
 
     private noiseForMessage(message: string): Noise | null {
@@ -146,7 +170,13 @@ export class VoiceNoiseFeature extends Feature {
             // Pop from the top
             queue.shift()
             if (queue.length === 0) {
-                top.channel.leave()
+                if (this.shouldLeaveChannel(top.channel)) {
+                    top.channel.leave()
+                } else {
+                    if (top.connection) {
+                        top.connection.speaking = false
+                    }
+                }
             } else {
                 this.updatePlaybackQueue(chanId)
             }
