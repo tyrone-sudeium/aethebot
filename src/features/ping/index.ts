@@ -13,6 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Bot } from "../../bot"
+import { parseEmoji } from "../../util/parse_emoji"
 import { Feature } from "../feature"
 import { pushReroll, Rerollable, RerollFeature } from "../reroll"
 import { Dril } from "./dril"
@@ -53,6 +54,8 @@ export class PingFeature extends Feature implements Rerollable {
         }
 
         const joinedMessage = tokens.join("").toLowerCase()
+        const emoji = parseEmoji(message)
+        const isDrilEmoji = emoji.length === 1 && emoji[0].name === "dril"
         // If the message matches the shitheap of variants of "cakaw"
         if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
             this.replyWith(message, CAKKAW)
@@ -65,9 +68,9 @@ export class PingFeature extends Feature implements Rerollable {
             // show yourself coward
             this.replyWith(message, this.dril.logoff())
             return true
-        } else if (joinedMessage === "drilme") {
+        } else if (joinedMessage === "drilme" || isDrilEmoji) {
             // TODO: ^ if joinedMessage matches async responses
-            this.respondAsync(message, joinedMessage)
+            this.drilAsync(message)
             return true
         }
 
@@ -83,14 +86,11 @@ export class PingFeature extends Feature implements Rerollable {
         }
     }
 
-    private async respondAsync(message: Discord.Message, joinedMessage: string) {
-        // If the message triggers dril content...
-        if (joinedMessage === "drilme") {
-            // it's good-ass dril content you seek
-            const tweet = await this.dril.getTweet(message.channel.id)
-            const uploadedMsg = await this.replyWith(message, tweet)
-            pushReroll(this, uploadedMsg, message, "drilme", "delete")
-            return
-        }
+    private async drilAsync(message: Discord.Message) {
+        // it's good-ass dril content you seek
+        const tweet = await this.dril.getTweet(message.channel.id)
+        const uploadedMsg = await this.replyWith(message, tweet)
+        pushReroll(this, uploadedMsg, message, "drilme", "delete")
+        return
     }
 }
