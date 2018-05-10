@@ -146,4 +146,32 @@ export const NOISES: Noise[] = [
             /^keep\s*up(\s*m[uo]th(er|a)fuck(a|er))?$/i,
         ],
     },
+    {
+        files: ["airhorn_default.dat"],
+        id: "AIRHORN",
+        regex: [
+            /^airhorn$/i,
+        ],
+    },
+    {
+        files: ["airhorn_tripletap.dat"],
+        id: "AIRHORN_TRIPLETAP",
+        regex: [
+            /^(triple\s+)?airhorn(\s+triple)?$/i,
+        ],
+    },
+    {
+        files: ["jail.dat"],
+        id: "JAIL",
+        regex: [
+            /^(i\'?m\s+goin[\'g]?\s+)?(to\s+)?jail$/i,
+        ],
+    },
+    {
+        files: ["hahgay.dat"],
+        id: "HAHGAY",
+        regex: [
+            /^(hah\!?\s+)?ga+y+$/i,
+        ],
+    },
 ]
