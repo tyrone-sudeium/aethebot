@@ -11,6 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { log } from "../log"
 import { Brain } from "./brain"
 
 export class MemoryBrain implements Brain {
@@ -24,6 +25,7 @@ export class MemoryBrain implements Brain {
     }
 
     public set(key: string, value: string): Promise<void> {
+        log(`brain: "${key}" => ${value}`)
         this.storage[key] = value
         return Promise.resolve()
     }
