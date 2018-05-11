@@ -21,8 +21,23 @@ You can now run the bot inside Docker:
 docker-compose up
 ```
 
+Or by just pressing F5 inside Visual Studio Code. 
+
+Want to start it manually? Well you're on your own with regards to environment 
+variables, but you can build-and-run using `yarn start`.
+
 Once it is running, it will print a URL to your terminal. You can use this URL
 to join the bot to servers.
+
+## Environment Variables
+
+
+| Variable             | Required? | Purpose | Example |
+| -------------------- | --------- | ------- | ------- |
+| `DISCORD_TOKEN`      | Yes       | The generated Discord Bot account token for authentication with Discord. | `aaabbbccc111222333`|
+| `WEBSITE_BASE_URL`   | No        | The base URL for the bot's internal website. Leave undefined to not run the website.| `https://my-great-aethebot-instance.herokuapp.com`
+| `DEFAULT_ADMIN_USER` | No        | Discord User ID for the default admin user. | `12345678901234567` |
+| `REDIS_URL`          | No        | URL to your Redis instance, to use as the bot's persistent storage. | `redis://user:password@my-redis.host:13337`|
 
 ## Creating a Voice Noise
 
