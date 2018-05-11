@@ -16,6 +16,7 @@ import { Brain, MemoryBrain } from "./brain"
 import { Feature, FeatureConstructor } from "./features"
 import * as Features from "./features"
 import { log } from "./log"
+import { User } from "./model/user"
 
 export class Bot {
     public brain: Brain = new MemoryBrain()

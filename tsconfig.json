@@ -6,7 +6,8 @@
     "outDir": "dist",
     "alwaysStrict": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "experimentalDecorators": true,
   },
   "files": [
     "src/index.ts",

@@ -12,6 +12,7 @@
  */
 
 import { Bot } from "../bot"
+import { AdminFeature } from "./admin"
 import { CountdownFeature } from "./countdown"
 import { DebugFeature } from "./debug"
 import { DeploymentNotificationsFeature } from "./deployment_notifications"
@@ -43,4 +44,5 @@ export const allFeatures: Array<FeatureConstructor<Feature>> = [
     ShitcoinFeature,
     DeploymentNotificationsFeature,
     DiceFeature,
+    AdminFeature,
 ]
