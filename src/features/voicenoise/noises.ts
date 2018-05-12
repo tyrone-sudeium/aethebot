@@ -174,4 +174,11 @@ export const NOISES: Noise[] = [
             /^(hah\!?\s+)?ga+y+$/i,
         ],
     },
+    {
+        files: ["hiphop.dat"],
+        id: "HIPHOP",
+        regex: [
+            /^(i\s+don\'?t\s+listen\s+to\s+)?hip\s*hop$/i,
+        ],
+    },
 ]
