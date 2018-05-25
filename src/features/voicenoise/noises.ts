@@ -230,4 +230,12 @@ export const NOISES: Noise[] = [
             /^(it?\'?s\s+only\s+game\s+)?(why\s+you\s+)?(have|heff)\s+to\s+be\s+mad\??$/i,
         ],
     },
+    {
+        files: ["democracy.dat", "democracy2.dat", "democracy3.dat", "democracy4.dat"],
+        id: "MANIFEST",
+        regex: [
+            /^democracy\s+manifest$/i,
+            /^succulent\s+chinese\s+meal$/i,
+        ],
+    },
 ]
