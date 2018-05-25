@@ -181,4 +181,53 @@ export const NOISES: Noise[] = [
             /^(i\s+don\'?t\s+listen\s+to\s+)?hip\s*hop$/i,
         ],
     },
+    {
+        files: ["nerd.dat"],
+        id: "NERD",
+        regex: [
+            /^ne+r+d+\!*$/i,
+        ],
+    },
+    {
+        files: ["leeroy.dat"],
+        id: "LEEROY",
+        regex: [
+            /^le+r+o+y+\!*(\s+je+n+k+i+n+s+\!*)?$/i,
+        ],
+    },
+    {
+        files: ["brutalsavagerekt.dat"],
+        id: "BRUTALSAVAGEREKT",
+        regex: [
+            /^(brutal\s+)?(savage\s+)?rekt$/i,
+        ],
+    },
+    {
+        files: ["noscope.dat"],
+        id: "GETNOSCOPED",
+        regex: [
+            /^(get\s+)?no\s*scoped?$/i,
+        ],
+    },
+    {
+        files: ["mlg.dat"],
+        id: "MLG1",
+        regex: [
+            /^mlg$/i,
+        ],
+    },
+    {
+        files: ["mii1.dat", "mii2.dat"],
+        id: "MII",
+        regex: [
+            /^mii$/i,
+        ],
+    },
+    {
+        files: ["mad.dat"],
+        id: "ITSONLYGAME",
+        regex: [
+            /^(it?\'?s\s+only\s+game\s+)?(why\s+you\s+)?(have|heff)\s+to\s+be\s+mad\??$/i,
+        ],
+    },
 ]
