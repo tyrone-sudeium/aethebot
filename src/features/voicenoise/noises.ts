@@ -238,4 +238,11 @@ export const NOISES: Noise[] = [
             /^succulent\s+chinese\s+meal$/i,
         ],
     },
+    {
+        files: ["johnmadden.dat"],
+        id: "ITSONLYGAME",
+        regex: [
+            /^john\s+madden$/i,
+        ],
+    },
 ]
