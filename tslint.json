@@ -20,7 +20,8 @@
       "check-type-operator",
       "check-preblock"
     ],
-    "interface-name": [true, "never-prefix"]
+    "interface-name": [true, "never-prefix"],
+    "max-classes-per-file": [true, 1, "exclude-class-expressions"]
   },
   "rulesDirectory": []
 }

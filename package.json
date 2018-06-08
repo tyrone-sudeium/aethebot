@@ -36,6 +36,7 @@
     "@types/pug": "^2.0.4",
     "@types/redis": "^0.12.34",
     "body-parser": "^1.17.1",
+    "canvas": "^2.0.0-alpha.12",
     "chrono-node": "^1.2.5",
     "discord.js": "=11.1.0",
     "express": "^4.14.1",

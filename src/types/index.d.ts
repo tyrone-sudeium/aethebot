@@ -14,3 +14,4 @@
 import "./chrono-node"
 import "./moment-precise-range"
 import "./random-number-csprng"
+import "./canvas"

@@ -17,6 +17,7 @@ import { CountdownFeature } from "./countdown"
 import { DebugFeature } from "./debug"
 import { DeploymentNotificationsFeature } from "./deployment_notifications"
 import { DiceFeature } from "./dice"
+import { ExpandingBrainFeature } from "./expanding_brain"
 import { Feature } from "./feature"
 import { PingFeature } from "./ping/"
 import { ReactorFeature } from "./reactor"
@@ -45,4 +46,5 @@ export const allFeatures: Array<FeatureConstructor<Feature>> = [
     DeploymentNotificationsFeature,
     DiceFeature,
     AdminFeature,
+    ExpandingBrainFeature,
 ]

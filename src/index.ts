@@ -11,7 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import * as parseArgs from "minimist"
 import * as Redis from "redis"
 import { Bot } from "./bot"
