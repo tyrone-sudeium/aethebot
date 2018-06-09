@@ -74,7 +74,7 @@ function wrappedTextAtSize(ctx: NodeCanvasRenderingContext2D,
         ctx.font = (fontSize - fontDiff) + "px " + fontFace
         wordWidth = ctx.measureText(words[0]).width
         fontDiff = fontDiff + 1
-    } while (wordWidth > maxWidth && fontSize > 8)
+    } while (wordWidth > maxWidth && (fontSize - fontDiff) > 8)
     fontSize = fontSize - fontDiff - 1
 
     for (const word of words) {
