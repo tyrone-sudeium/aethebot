@@ -135,6 +135,10 @@ asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
 
+async-limiter@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
+
 babel-code-frame@^6.22.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -365,15 +369,15 @@ diff@^3.2.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
 
-discord.js@=11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-11.1.0.tgz#5351d59e3798f536de1975e92cae4d11af3d9266"
+discord.js@11.3.2:
+  version "11.3.2"
+  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-11.3.2.tgz#3c4074c1cb1a4916582fb96ded5ffa1324411f95"
   dependencies:
-    long "^3.2.0"
-    prism-media "^0.0.1"
-    snekfetch "^3.1.0"
-    tweetnacl "^0.14.0"
-    ws "^2.0.0"
+    long "^4.0.0"
+    prism-media "^0.0.2"
+    snekfetch "^3.6.4"
+    tweetnacl "^1.0.0"
+    ws "^4.0.0"
 
 doctypes@^1.1.0:
   version "1.1.0"
@@ -637,9 +641,9 @@ lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
 
-long@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/long/-/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
+long@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -852,9 +856,9 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
 
-prism-media@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/prism-media/-/prism-media-0.0.1.tgz#a3425c9cabd50d1c6c02e543941a11895667bd10"
+prism-media@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/prism-media/-/prism-media-0.0.2.tgz#aa917b084576c4df6488e4ea8e7d6d44aed4b411"
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -1077,10 +1081,6 @@ safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
-safe-buffer@~5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
-
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -1132,9 +1132,9 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-snekfetch@^3.1.0:
-  version "3.5.8"
-  resolved "https://registry.yarnpkg.com/snekfetch/-/snekfetch-3.5.8.tgz#4d4e539f8435352105e74c392f62f66740a27d6c"
+snekfetch@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/snekfetch/-/snekfetch-3.6.4.tgz#d13e80a616d892f3d38daae4289f4d258a645120"
 
 source-map@0.4.x:
   version "0.4.4"
@@ -1239,9 +1239,9 @@ tsutils@^2.12.1:
   dependencies:
     tslib "^1.7.1"
 
-tweetnacl@^0.14.0:
-  version "0.14.5"
-  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
+tweetnacl@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.0.tgz#713d8b818da42068740bf68386d0479e66fc8a7b"
 
 type-is@~1.6.15:
   version "1.6.15"
@@ -1266,10 +1266,6 @@ uglify-js@^2.6.1:
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
-
-ultron@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.0.tgz#b07a2e6a541a815fc6a34ccd4533baec307ca864"
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
@@ -1316,12 +1312,12 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@^2.0.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-2.3.1.tgz#6b94b3e447cb6a363f785eaf94af6359e8e81c80"
+ws@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-4.1.0.tgz#a979b5d7d4da68bf54efe0408967c324869a7289"
   dependencies:
-    safe-buffer "~5.0.1"
-    ultron "~1.1.0"
+    async-limiter "~1.0.0"
+    safe-buffer "~5.1.0"
 
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
