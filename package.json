@@ -45,6 +45,7 @@
     "moment-precise-range-plugin": "^1.2.3",
     "moment-timezone": "^0.5.11",
     "node-opus": "^0.2.4",
+    "prism-media": "0.2.1",
     "pug": "^2.0.0-beta11",
     "random-number-csprng": "^1.0.2",
     "redis": "^2.6.5",

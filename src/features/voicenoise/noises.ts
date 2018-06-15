@@ -20,38 +20,38 @@ export interface Noise {
 
 export const NOISES: Noise[] = [
     {
-        files: ["ostrich.dat"],
+        files: ["ostrich.opus"],
         id: "OSTRICH",
         regex: [/^haha\!?$/i, /^ostrich$/i],
     },
     {
         fallbackImageURL: "https://cdn.discordapp.com/attachments/293954139845820416/373612584722628608/thebest.gif",
-        files: ["thebest4.dat"],
+        files: ["thebest4.opus"],
         id: "THEBEST4",
         regex: [/^the\s?best$/i],
     },
     {
-        files: ["enya.dat"],
+        files: ["enya.opus"],
         id: "ENYA",
         regex: [/^enya$/i, /^only\s?time$/i, /^enya\s-*\sonly\stime$/i],
     },
     {
-        files: ["deadinside.dat"],
+        files: ["deadinside.opus"],
         id: "DEADINSIDE",
         regex: [/^dead\sinside$/i],
     },
     {
-        files: ["ohjeez.dat"],
+        files: ["ohjeez.opus"],
         id: "OHJEEZ",
         regex: [/^o+h+ [gj]ee+z+$/i],
     },
     {
-        files: ["ohbees.dat"],
+        files: ["ohbees.opus"],
         id: "OHBEES",
         regex: [/^o+h+ [b]ee+s$/i],
     },
     {
-        files: ["untitled.dat"],
+        files: ["untitled.opus"],
         id: "UNTITLED",
         regex: [
             /^untitled$/i,
@@ -60,17 +60,17 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["hueys.dat"],
+        files: ["hueys.opus"],
         id: "HUEYS",
         regex: [/^(distant[\s]+)?(hu(ey|ie)s|chopper(s?))$/i],
     },
     {
-        files: ["sadviolin.dat"],
+        files: ["sadviolin.opus"],
         id: "SADVIOLIN",
         regex: [/^(sad|tiny)[\s]+violins?$/i],
     },
     {
-        files: ["silence.dat"],
+        files: ["silence.opus"],
         id: "SOUNDOFSILENCE",
         regex: [
             /^hello da?rk(ness)?( my old friend)?$/i,
@@ -78,21 +78,21 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["dundundunn.dat"],
+        files: ["dundundunn.opus"],
         id: "DUNDUNDUNN",
         regex: [
             /^dun\s*dun\s*dun+$/,
         ],
     },
     {
-        files: ["pussieeeee.dat"],
+        files: ["pussieeeee.opus"],
         id: "PUSSIEEEEE",
         regex: [
             /^((i'll have you know)? (that )?there's no )?pu+ss+i+e+?$/i,
         ],
     },
     {
-        files: ["weed.dat"],
+        files: ["weed.opus"],
         id: "WEED",
         regex: [
             /^(smoke\s*)?weed(\s*every\s*day)?$/i,
@@ -100,22 +100,22 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["bait.dat"],
+        files: ["bait.opus"],
         id: "BAIT",
         regex: [/^(that\'s\s*)?bait$/i],
     },
     {
-        files: ["trap.dat"],
+        files: ["trap.opus"],
         id: "TRAP",
         regex: [/^(it\'?s\s*a\s*)?trap\!?$/i],
     },
     {
-        files: ["triple.dat"],
+        files: ["triple.opus"],
         id: "TRIPLE",
         regex: [/^(oh\s*baby\s*a\s*)?triple\!?$/i],
     },
     {
-        files: ["wakemeup.dat"],
+        files: ["wakemeup.opus"],
         id: "CANTWAKEUP",
         regex: [
             /^wake\s*me\s*up(\s*inside)?(\s*\(can\'t\s*wake\s*up\))?$/i,
@@ -123,7 +123,7 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["alarum.dat"],
+        files: ["alarum.opus"],
         id: "ALARUM",
         regex: [
             /^alaru?m$/i,
@@ -131,7 +131,7 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["megumin.dat"],
+        files: ["megumin.opus"],
         id: "MEGUMIN",
         regex: [
             /^megumin$/i,
@@ -147,91 +147,91 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["airhorn_default.dat"],
+        files: ["airhorn_default.opus"],
         id: "AIRHORN",
         regex: [
             /^airhorn$/i,
         ],
     },
     {
-        files: ["airhorn_tripletap.dat"],
+        files: ["airhorn_tripletap.opus"],
         id: "AIRHORN_TRIPLETAP",
         regex: [
             /^(triple\s+)?airhorn(\s+triple)?$/i,
         ],
     },
     {
-        files: ["jail.dat"],
+        files: ["jail.opus"],
         id: "JAIL",
         regex: [
             /^(i\'?m\s+goin[\'g]?\s+)?(to\s+)?jail$/i,
         ],
     },
     {
-        files: ["hahgay.dat"],
+        files: ["hahgay.opus"],
         id: "HAHGAY",
         regex: [
             /^(hah\!?\s+)?ga+y+$/i,
         ],
     },
     {
-        files: ["hiphop.dat"],
+        files: ["hiphop.opus"],
         id: "HIPHOP",
         regex: [
             /^(i\s+don\'?t\s+listen\s+to\s+)?hip\s*hop$/i,
         ],
     },
     {
-        files: ["nerd.dat"],
+        files: ["nerd.opus"],
         id: "NERD",
         regex: [
             /^ne+r+d+\!*$/i,
         ],
     },
     {
-        files: ["leeroy.dat"],
+        files: ["leeroy.opus"],
         id: "LEEROY",
         regex: [
             /^le+r+o+y+\!*(\s+je+n+k+i+n+s+\!*)?$/i,
         ],
     },
     {
-        files: ["brutalsavagerekt.dat"],
+        files: ["brutalsavagerekt.opus"],
         id: "BRUTALSAVAGEREKT",
         regex: [
             /^(brutal\s+)?(savage\s+)?rekt$/i,
         ],
     },
     {
-        files: ["noscope.dat"],
+        files: ["noscope.opus"],
         id: "GETNOSCOPED",
         regex: [
             /^(get\s+)?no\s*scoped?$/i,
         ],
     },
     {
-        files: ["mlg.dat"],
+        files: ["mlg.opus"],
         id: "MLG1",
         regex: [
             /^mlg$/i,
         ],
     },
     {
-        files: ["mii1.dat", "mii2.dat"],
+        files: ["mii1.opus", "mii2.opus"],
         id: "MII",
         regex: [
             /^mii$/i,
         ],
     },
     {
-        files: ["mad.dat"],
+        files: ["mad.opus"],
         id: "ITSONLYGAME",
         regex: [
             /^(it?\'?s\s+only\s+game\s+)?(why\s+you\s+)?(have|heff)\s+to\s+be\s+mad\??$/i,
         ],
     },
     {
-        files: ["democracy.dat", "democracy2.dat", "democracy3.dat", "democracy4.dat"],
+        files: ["democracy.opus", "democracy2.opus", "democracy3.opus", "democracy4.opus"],
         id: "MANIFEST",
         regex: [
             /^democracy\s+manifest$/i,
@@ -239,7 +239,7 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["johnmadden.dat"],
+        files: ["johnmadden.opus"],
         id: "ITSONLYGAME",
         regex: [
             /^john\s+madden$/i,

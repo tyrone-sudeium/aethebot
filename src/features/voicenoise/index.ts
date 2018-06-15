@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
-import { Bot } from "../../bot"
+import * as Prism from "prism-media"
 import { Feature } from "../feature"
 import { Noise, NOISES } from "./noises"
 
@@ -156,6 +156,12 @@ export class VoiceNoiseFeature extends Feature {
                 if (file.endsWith(".dat")) {
                     // Raw opus stream, play without transcoding
                     const stream = FS.createReadStream(filePath)
+                    d = top.connection.playOpusStream(stream)
+                    stream.on("error", console.error)
+                } else if (file.endsWith(".opus")) {
+                    // Standard .opus file, demux with Prism, don't transcode
+                    const stream = FS.createReadStream(filePath)
+                        .pipe(new Prism.OggOpusDemuxer())
                     d = top.connection.playOpusStream(stream)
                     stream.on("error", console.error)
                 } else {
