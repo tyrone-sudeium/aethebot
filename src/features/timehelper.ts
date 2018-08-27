@@ -59,7 +59,6 @@ export class TimehelperFeature extends Feature {
         }
         const format = "MMM Do ha z"
         const embed = new Discord.RichEmbed()
-        embed.setTitle("Timezone Helper")
         embed.setColor("#FF5200")
         for (const result of results) {
             if (!result.start.knownValues.hour) {
