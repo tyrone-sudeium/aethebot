@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "docker: build image",
+      "type": "shell",
+      "command": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml build app",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

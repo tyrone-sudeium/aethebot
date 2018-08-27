@@ -21,13 +21,38 @@ You can now run the bot inside Docker:
 docker-compose up
 ```
 
-Or by just pressing F5 inside Visual Studio Code. 
-
-Want to start it manually? Well you're on your own with regards to environment 
-variables, but you can build-and-run using `yarn start`.
+Or by just pressing F5 inside Visual Studio Code.
 
 Once it is running, it will print a URL to your terminal. You can use this URL
 to join the bot to servers.
+
+## Debugging in Visual Studio Code
+
+### With Node Installed
+
+If you've got Node installed on your system, either via `nvm`, `nodenv`, or
+compiling it manually, you should just be able to run the debugger by pressing
+F5 in Visual Studio Code. Make sure the configuration in the debugger tab
+(drop down, top left) is set to "Launch Using System Node".
+
+### Running Node Inside Docker
+
+Change to the debugger tab and change the configuration (drop down, top left)
+from "Launch Using System Node" to "Launch in Docker". You can theoretically
+start now by just pressing F5, but unless your internet connection and CPUs
+are extremely fast, I would highly recommend bootstrapping your environment
+first.
+
+You can do this using this arcane command:
+
+```
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+```
+
+Once you see the "`Join this bot to servers at ...`" line, you can safely
+Ctrl+C out and your environment is bootstrapped.
+
+From now on, you can Build & Debug by pressing F5.
 
 ## Environment Variables
 

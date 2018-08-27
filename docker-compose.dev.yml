@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  app:
+    command: ./script/docker-dev.sh
+    ports:
+      - 9222:9222
+    volumes:
+      - ./:/app
