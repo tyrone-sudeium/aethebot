@@ -74,6 +74,10 @@ export class TimehelperFeature extends Feature {
             const zonesStrs = outZones.map((z) => Moment(date).tz(z).format(format))
             const zonesStr = Array.from(new Set(zonesStrs)).join(", ")
             embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
+            if (results.length === 1) {
+                embed.setFooter("In your timezone: ")
+                embed.setTimestamp(date)
+            }
         }
         if (embed.fields && embed.fields.length > 0) {
             message.channel.sendEmbed(embed)
