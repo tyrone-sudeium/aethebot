@@ -46,12 +46,12 @@
     "moment-precise-range-plugin": "^1.2.3",
     "moment-timezone": "^0.5.11",
     "node-opus": "^0.2.4",
-    "prism-media": "0.2.1",
+    "prism-media": "https://github.com/amishshah/prism-media.git#7146426e462bf91b39053de4cf8b78c72490cd54",
     "pug": "^2.0.0-beta11",
     "random-number-csprng": "^1.0.2",
     "redis": "^2.6.5",
     "tslint": "^5.8.0",
-    "typescript": "^2.1.5"
+    "typescript": "^3"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
