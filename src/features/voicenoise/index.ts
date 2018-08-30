@@ -14,9 +14,12 @@
 import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
-import * as Prism from "prism-media"
 import { Feature } from "../feature"
 import { Noise, NOISES } from "./noises"
+
+// Import prism without types right now because they haven't published TS3-compatible types yet
+// tslint:disable-next-line:no-var-requires
+const Prism = require("prism-media")
 
 function _pathForNoiseFile(noiseFile: string) {
     return Path.join(process.cwd(), "res", noiseFile)
