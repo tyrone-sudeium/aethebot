@@ -17,6 +17,8 @@ import * as Path from "path"
 import { Feature } from "../feature"
 import { Noise, NOISES } from "./noises"
 
+// tslint:disable:no-console
+
 // Import prism without types right now because they haven't published TS3-compatible types yet
 // tslint:disable-next-line:no-var-requires
 const Prism = require("prism-media")
