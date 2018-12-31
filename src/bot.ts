@@ -54,6 +54,10 @@ export class Bot {
         return this.client.channels.find("id", id) || null
     }
 
+    public joinedServers(): Discord.Collection<string, Discord.Guild> {
+        return this.client.guilds
+    }
+
     public loadedFeatureForCtor<F extends Feature>(ctor: FeatureConstructor<F>): F | null {
         for (const [_, feature] of this.loadedFeatures) {
             if (feature instanceof ctor) {

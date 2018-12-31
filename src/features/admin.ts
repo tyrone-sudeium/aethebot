@@ -47,6 +47,15 @@ export class AdminFeature extends Feature {
             return
         }
 
+        const tokens = this.commandTokens(message)
+        if (tokens[1].toLowerCase() === "servers") {
+            const servers = this.bot.joinedServers()
+                .map((guild) => `${guild.name} (${guild.id})`)
+                .join(", ")
+            this.replyWith(message, servers)
+            return
+        }
+
         this.replyWith(message, "yeah?")
     }
 
