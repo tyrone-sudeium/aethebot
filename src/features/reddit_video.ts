@@ -293,6 +293,7 @@ export class RedditVideoFeature extends Feature {
             const result = await processRedditUrl(message, url)
             if (result) {
                 await message.channel.send({files: [result]})
+                FS.unlinkSync(result)
             }
         }
     }
