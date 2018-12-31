@@ -23,13 +23,13 @@ declare module "canvas" {
         filter: "fast" | "good" | "best" | "nearest" | "bilinear"
         antialias: "default" | "none" | "gray" | "subpixel"
 
-        drawImage(image: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement | ImageBitmap | Image, dstX: number, dstY: number): void
-        drawImage(image: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement | ImageBitmap | Image, dstX: number, dstY: number, dstW: number, dstH: number): void
-        drawImage(image: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement | ImageBitmap | Image, srcX: number, srcY: number, srcW: number, srcH: number, dstX: number, dstY: number, dstW: number, dstH: number): void
+        drawImage(image: CanvasImageSource | Image, dstX: number, dstY: number): void
+        drawImage(image: CanvasImageSource | Image, dstX: number, dstY: number, dstW: number, dstH: number): void
+        drawImage(image: CanvasImageSource | Image, srcX: number, srcY: number, srcW: number, srcH: number, dstX: number, dstY: number, dstW: number, dstH: number): void
     }
 
     export interface Canvas {
-        getContext(contextId: "2d", contextAttributes?: Canvas2DContextAttributes): NodeCanvasRenderingContext2D | null;
+        getContext(contextId: "2d", contextAttributes?: CanvasRenderingContext2DSettings): NodeCanvasRenderingContext2D | null;
 
         toBuffer(type: "raw" | undefined): Buffer
         toBuffer(type: "png", compressionLevel?: 0|1|2|3|4|5|6|7|8|9, filter?: number): Buffer
@@ -53,7 +53,7 @@ declare module "canvas" {
     }
 
     export interface PDFCanvas extends Canvas {
-        getContext(contextId: "2d", contextAttributes?: Canvas2DContextAttributes): PDFCanvasRenderingContext2D | null;
+        getContext(contextId: "2d", contextAttributes?: CanvasRenderingContext2DSettings): PDFCanvasRenderingContext2D | null;
     }
 
     export interface PDFCanvasRenderingContext2D extends NodeCanvasRenderingContext2D {

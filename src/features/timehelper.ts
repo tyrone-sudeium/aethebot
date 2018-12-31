@@ -45,6 +45,9 @@ export class TimehelperFeature extends Feature {
             return false
         }
         const zoneinfo = Moment.tz.zone(timezone)
+        if (!zoneinfo) {
+            return false
+        }
         const zoneoffset = zoneinfo.offset(Number(new Date())) * -1
         const outZones = (await this.userTimezones()).map((z) => z.toLowerCase())
         // Filter out the messager's timezone

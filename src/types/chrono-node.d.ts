@@ -12,7 +12,6 @@
  */
 
 declare module "chrono-node" {
-    import * as moment from "moment"
     export interface ParsedResult {
         start: ParsedComponents
         end: ParsedComponents | null
@@ -39,5 +38,5 @@ declare module "chrono-node" {
         millisecond?: number
         timezoneOffset?: number
     }
-    export function parse(str: string, ref?: moment.Moment): ParsedResult[]
+    export function parse(str: string, ref?: any): ParsedResult[]
 }

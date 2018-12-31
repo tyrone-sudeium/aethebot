@@ -12,18 +12,12 @@
  */
 
 import * as Discord from "discord.js"
-import * as HTTP from "http"
-import * as HTTPS from "https"
 import * as Moment from "moment"
 import "moment-precise-range-plugin"
 import { Bot } from "../bot"
 import { log } from "../log"
+import { getJSON } from "../util/http"
 import { Feature } from "./feature"
-
-// Fix the shit type definitions for node
-declare module "https" {
-    export function get(options: string, callback?: (res: HTTP.IncomingMessage) => void): HTTP.ClientRequest
-}
 
 interface CoindeskAPIResponse<ResponseType> {
     data: ResponseType,
@@ -161,39 +155,6 @@ export class ShitcoinFeature extends Feature {
 
     private getPriceFromCoinbase(currency: string): Promise<CoindeskAPIResponse<CoindeskPriceResponse>> {
         const url = `https://api.coinbase.com/v2/prices/spot?currency=${currency}`
-        return new Promise((resolve, reject) => {
-            const getRequest = HTTPS.get(url, (resp) => {
-                resp.on("error", reject)
-                const statusCode = resp.statusCode
-                const contentType = resp.headers["content-type"]
-
-                let error
-                if (statusCode !== 200) {
-                  error = new Error("Request Failed.\n" +
-                                    `Status Code: ${statusCode}`)
-                } else if (!/^application\/json/.test(contentType)) {
-                  error = new Error("Invalid content-type.\n" +
-                                    `Expected application/json but received ${contentType}`)
-                }
-                if (error) {
-                  reject(error)
-                  resp.resume()
-                  return
-                }
-
-                resp.setEncoding("utf8")
-                let rawData = ""
-                resp.on("data", (chunk) => rawData += chunk)
-                resp.on("end", () => {
-                    try {
-                        const parsedData = JSON.parse(rawData)
-                        resolve(parsedData)
-                    } catch (exception) {
-                        reject(exception)
-                    }
-                })
-            })
-            getRequest.on("error", reject)
-        })
+        return getJSON(url)
     }
 }

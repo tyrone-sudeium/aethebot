@@ -21,6 +21,7 @@ import { ExpandingBrainFeature } from "./expanding_brain"
 import { Feature } from "./feature"
 import { PingFeature } from "./ping/"
 import { ReactorFeature } from "./reactor"
+import { RedditVideoFeature } from "./reddit_video"
 import { RegionalIndicatorFeature } from "./regional_indicator"
 import { RerollFeature } from "./reroll"
 import { ShitcoinFeature } from "./shitcoin"
@@ -47,4 +48,5 @@ export const allFeatures: Array<FeatureConstructor<Feature>> = [
     DiceFeature,
     AdminFeature,
     ExpandingBrainFeature,
+    RedditVideoFeature,
 ]

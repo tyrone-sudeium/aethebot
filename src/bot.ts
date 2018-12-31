@@ -36,6 +36,7 @@ export class Bot {
         this.client.destroy().then(() => {
             this.client = this.makeClient()
             this.login()
+        // tslint:disable-next-line:no-console
         }).catch(console.error)
     }
 
