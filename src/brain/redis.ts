@@ -37,13 +37,13 @@ export class RedisBrain implements Brain {
 
     public save(): Promise<void> {
         return promisify<void>((cb) => {
-            this.client.bgsave(null, cb)
+            this.client.bgsave(cb)
         })
     }
 
     public close(): Promise<void> {
         return promisify<void>((cb) => {
-            this.client.quit(null, cb)
+            this.client.quit(cb)
         })
     }
 
