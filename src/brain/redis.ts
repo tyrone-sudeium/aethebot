@@ -36,9 +36,8 @@ export class RedisBrain implements Brain {
     }
 
     public save(): Promise<void> {
-        return promisify<void>((cb) => {
-            this.client.bgsave(cb)
-        })
+        // No-op -- doesn't work in heroku redis...?
+        return Promise.resolve()
     }
 
     public close(): Promise<void> {

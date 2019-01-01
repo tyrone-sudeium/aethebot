@@ -51,8 +51,7 @@ export class VoiceNoiseFeature extends Feature {
             return false
         }
 
-        const authorVoiceChannel = message.member.voiceChannel
-        if (!authorVoiceChannel) {
+        if (!message.member || !message.member.voiceChannel) {
             if (noise.fallbackImageURL) {
                 const embed = new Discord.RichEmbed()
                 embed.setImage(noise.fallbackImageURL)
@@ -61,6 +60,7 @@ export class VoiceNoiseFeature extends Feature {
             }
             return false
         }
+        const authorVoiceChannel = message.member.voiceChannel
         if (!authorVoiceChannel.joinable) {
             this.replyNegatively(message, "can't join your channel")
             return true
