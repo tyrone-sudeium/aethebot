@@ -21,6 +21,7 @@ import * as Path from "path"
 import { URL } from "url"
 import * as xml2js from "xml2js"
 import { getHTTPData, getJSON, head } from "../util/http"
+import { muxMP4 } from "../util/mp4_audio_video_mux"
 import { Feature } from "./feature"
 
 const DISCORD_UPLOAD_LIMIT = 8_000_000
@@ -101,6 +102,59 @@ export async function getDashPlaylist(playlistURL: string): Promise<any> {
     })
 }
 
+interface DownloadMetadata {
+    path: string
+    size: number
+}
+
+export async function getAudio(vRedditURL: URL): Promise<DownloadMetadata> {
+    const pathSegments = vRedditURL.pathname.split("/")
+    const videoId = pathSegments[1]
+    const filePath = Path.join(OS.tmpdir(), `${videoId}-audio.mp4`)
+    const audioUrl = `${vRedditURL.toString()}/audio`
+    return await downloadFile(audioUrl, filePath)
+}
+
+export async function getVideo(vRedditURL: URL, audioSize: number): Promise<DownloadMetadata> {
+    const dashUrl = dashPlaylistURLFromVRedditURL(vRedditURL.toString())
+    const pathSegments = vRedditURL.pathname.split("/")
+    const videoId = pathSegments[1]
+    const xml = await getDashPlaylist(dashUrl)
+    const segments = playlistSegmentsFromXML(xml, vRedditURL.toString())
+    const bestSegment = await findBestSegment(segments, audioSize)
+    if (!bestSegment) {
+        throw new Error("No eligible segments found in DASH playlist.")
+    }
+    const suffix = audioSize > 0 ? "-video" : ""
+    const filePath = Path.join(OS.tmpdir(), `${videoId}${suffix}.mp4`)
+    return await downloadFile(bestSegment.url, filePath)
+}
+
+export async function downloadFile(url: string, filePath: string): Promise<DownloadMetadata> {
+    const fileStream = FS.createWriteStream(filePath)
+
+    try {
+        await getHTTPData(url, {outputStream: fileStream})
+    } catch (error) {
+        fileStream.close()
+        FS.unlinkSync(filePath)
+        throw error
+    }
+    fileStream.close()
+    const stats = await new Promise<FS.Stats>((resolve, reject) => {
+        FS.stat(filePath, (err, s) => {
+            if (err) {
+                reject(err)
+            }
+            resolve(s)
+        })
+    })
+    return {
+        path: filePath,
+        size: stats.size,
+    }
+}
+
 export function playlistSegmentsFromXML(xml: any, baseURL: string): PlaylistSegment[] {
     if (!xml.MPD || !xml.MPD.Period) {
         return []
@@ -135,7 +189,7 @@ function objectKeysToLowercase<T, U extends {[index: string]: T}>(object: U): U 
     return newObj
 }
 
-export async function findBestSegment(segments: PlaylistSegment[]): Promise<PlaylistSegment | null> {
+export async function findBestSegment(segments: PlaylistSegment[], audioSize: number): Promise<PlaylistSegment | null> {
     // Sort the segments by bandwidth and start with the biggest first
     const sorted = segments.sort((a, b) => b.bandwidth - a.bandwidth)
     // Filter out the ones that don't match our needs
@@ -153,7 +207,8 @@ export async function findBestSegment(segments: PlaylistSegment[]): Promise<Play
             continue
         }
         const contentLength = parseInt(contentLengthStr, 10)
-        if (!isNaN(contentLength) && contentLength < DISCORD_UPLOAD_LIMIT) {
+        const maximumSize = DISCORD_UPLOAD_LIMIT - audioSize
+        if (!isNaN(contentLength) && contentLength < maximumSize) {
             // We have a winner
             return segment
         }
@@ -204,28 +259,29 @@ async function normalizeRedditUrl(url: RedditURL): Promise<URL | null> {
 }
 
 async function processRedditUrl(sourceMessage: Discord.Message, vUrl: URL): Promise<string | null> {
-    const dashUrl = dashPlaylistURLFromVRedditURL(vUrl.toString())
+    const pathSegments = vUrl.pathname.split("/")
+    const videoId = pathSegments[1]
+    const filePath = Path.join(OS.tmpdir(), `${videoId}.mp4`)
 
     try {
-        const pathSegments = vUrl.pathname.split("/")
-        const videoId = pathSegments[1]
-        const xml = await getDashPlaylist(dashUrl)
-        const segments = playlistSegmentsFromXML(xml, vUrl.toString())
-        const bestSegment = await findBestSegment(segments)
-        if (!bestSegment) {
-            return null
-        }
-        const filePath = Path.join(OS.tmpdir(), `${videoId}.mp4`)
-        const fileStream = FS.createWriteStream(filePath)
+        let audio: DownloadMetadata
         try {
-            await getHTTPData(bestSegment.url, {outputStream: fileStream})
+            audio = await getAudio(vUrl)
         } catch (error) {
-            fileStream.close()
-            FS.unlinkSync(filePath)
-            throw error
+            audio = {
+                path: "",
+                size: 0,
+            }
         }
-        fileStream.close()
-        return filePath
+        const video = await getVideo(vUrl, audio.size)
+        if (audio.size > 0) {
+            const output = await muxMP4(video.path, audio.path, filePath)
+            await new Promise((res) => { FS.unlink(audio.path, () => res()) })
+            await new Promise((res) => { FS.unlink(video.path, () => res()) })
+            return output
+        } else {
+            return video.path
+        }
     } catch (error) {
         return null
     }
