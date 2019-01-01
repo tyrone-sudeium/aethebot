@@ -23,12 +23,16 @@ export class DebugFeature extends Feature {
     }
 
     public handleMessage(message: Discord.Message): boolean {
-        const debug = (process.env.NODE_ENV || "development") === "development"
-        if (!debug) {
-            return false
-        } else {
-            log("incoming message: " + message.content)
-            return true
-        }
+        // remove this when done debugging
+        log("incoming message: " + message.content)
+        return true
+        // const debug = (process.env.NODE_ENV || "development") === "development"
+        // // remove this when done debugging
+        // if (!debug) {
+        //     return false
+        // } else {
+        //     log("incoming message: " + message.content)
+        //     return true
+        // }
     }
 }
