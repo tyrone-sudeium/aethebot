@@ -26,6 +26,10 @@ const NEGATIVES = [
     "nah fuck ya",
 ]
 
+export interface Feature {
+    onMessageReactionAdd?(reaction: Discord.MessageReaction): boolean
+}
+
 export abstract class Feature {
     public bot: Bot
     public name: string

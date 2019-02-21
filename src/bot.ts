@@ -74,6 +74,7 @@ export class Bot {
     private makeClient() {
         const client = new Discord.Client()
         client.on("message", this.receiveMessage.bind(this))
+        client.on("messageReactionAdd", this.onMessageReactionAdd.bind(this))
         client.on("ready", () => {
             this.user = this.client.user
             if (process.env.NODE_ENV !== "production") {
@@ -104,6 +105,14 @@ export class Bot {
         for (const [_, feature] of this.loadedFeatures) {
             if (feature.handlesMessage(msg)) {
                 feature.handleMessage(msg)
+            }
+        }
+    }
+
+    private onMessageReactionAdd(msg: Discord.MessageReaction) {
+        for (const [_, feature] of this.loadedFeatures) {
+            if (feature.onMessageReactionAdd !== undefined) {
+                feature.onMessageReactionAdd(msg)
             }
         }
     }
