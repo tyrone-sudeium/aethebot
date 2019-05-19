@@ -24,6 +24,7 @@ import { ReactorFeature } from "./reactor"
 import { RedditVideoFeature } from "./reddit_video"
 import { RegionalIndicatorFeature } from "./regional_indicator"
 import { RerollFeature } from "./reroll"
+import { ScomoFeature } from "./scomo"
 import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
 import { VoiceNoiseFeature } from "./voicenoise/"
@@ -49,4 +50,5 @@ export const allFeatures: Array<FeatureConstructor<Feature>> = [
     AdminFeature,
     ExpandingBrainFeature,
     RedditVideoFeature,
+    ScomoFeature,
 ]
