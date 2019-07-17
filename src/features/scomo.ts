@@ -24,7 +24,7 @@ export class ScomoFeature extends Feature {
         }
         const days = 1000 * 60 * 60 * 24
         // Todo: update when parliament is sworn in
-        const earliestParliament = new Date(2019, 7, 2)
+        const earliestParliament = new Date("2019-07-02T00:00:00+1000")
         const latestElection = new Date(earliestParliament.getTime() + (1095 * days))
         const timeBetween = latestElection.getTime() - new Date().getTime()
         if (timeBetween < 0) {
