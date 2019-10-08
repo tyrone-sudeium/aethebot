@@ -32,9 +32,7 @@ import { VoiceNoiseFeature } from "./voicenoise/"
 
 export { Feature }
 
-export interface FeatureConstructor<F extends Feature> {
-    new (bot: Bot, name: string): F
-}
+export type FeatureConstructor<F extends Feature> = new (bot: Bot, name: string) => F
 
 export const allFeatures: Array<FeatureConstructor<Feature>> = [
     TimehelperFeature,

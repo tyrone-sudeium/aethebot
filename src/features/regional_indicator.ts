@@ -25,7 +25,7 @@ function emojiForCharacter(char: string): string | null {
 }
 
 function stringIsAlphaOnly(str: string): boolean {
-    return Array.from(str).reduce((prev, curr) => {
+    return Array.from(str).reduce<boolean>((prev, curr) => {
         const code = curr.toUpperCase().charCodeAt(0)
         if (code !== 32 && (code < 65 || code > 90)) {
             return false

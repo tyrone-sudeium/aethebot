@@ -182,13 +182,6 @@ export function parsePlaylistSegment(xml: any, baseUrl: string): PlaylistSegment
     }
 }
 
-function objectKeysToLowercase<T, U extends {[index: string]: T}>(object: U): U {
-    const newObj: U = {} as U
-    const keys = Object.keys(object)
-    keys.forEach((k) => newObj[k.toLowerCase()] = object[k])
-    return newObj
-}
-
 export async function findBestSegment(segments: PlaylistSegment[], audioSize: number): Promise<PlaylistSegment | null> {
     // Sort the segments by bandwidth and start with the biggest first
     const sorted = segments.sort((a, b) => b.bandwidth - a.bandwidth)
@@ -201,8 +194,7 @@ export async function findBestSegment(segments: PlaylistSegment[], audioSize: nu
     })
     for (const segment of filtered) {
         const headers = await head(segment.url)
-        const normalized = objectKeysToLowercase(headers)
-        const contentLengthStr = normalized["content-length"]
+        const contentLengthStr = headers["content-length"]
         if (!contentLengthStr) {
             continue
         }

@@ -83,7 +83,7 @@ export async function getJSON(url: string, headers: {[header: string]: string} =
     return parsedData
 }
 
-export async function head(url: string, headers?: HTTPHeaders): Promise<HTTPHeaders> {
+export async function head(url: string, headers?: HTTPHeaders): Promise<HTTP.IncomingHttpHeaders> {
     let httpModule: HTTPModule = HTTP
     const parsedUrl = new URL(url)
     if (parsedUrl.protocol.toLowerCase() === "https:") {
