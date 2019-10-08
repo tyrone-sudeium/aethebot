@@ -18,6 +18,7 @@ import * as FS from "fs"
 import * as HTTP from "http"
 
 import { Bot } from "./bot"
+import { UptimeFeature } from "./features/uptime"
 
 export class Website {
     public app = Express()
@@ -64,6 +65,10 @@ export class Website {
     public reconnectBot() {
         if (this.bot) {
             this.bot.reconnect()
+            const uptimeFeat = this.bot.loadedFeatureForName("UptimeFeature")
+            if (uptimeFeat) {
+                (uptimeFeat as UptimeFeature).setStartTime(new Date().getTime())
+            }
         }
     }
 

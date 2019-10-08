@@ -27,6 +27,7 @@ import { RerollFeature } from "./reroll"
 import { ScomoFeature } from "./scomo"
 import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
+import { UptimeFeature } from "./uptime"
 import { VoiceNoiseFeature } from "./voicenoise/"
 
 export { Feature }
@@ -51,4 +52,5 @@ export const allFeatures: Array<FeatureConstructor<Feature>> = [
     ExpandingBrainFeature,
     RedditVideoFeature,
     ScomoFeature,
+    UptimeFeature,
 ]
