@@ -48,10 +48,6 @@ export class Website {
         this.app.set("view engine", "pug")
 
         this.server = this.app.listen(port)
-        const debug = (process.env.NODE_ENV || "development") === "development"
-        if (!debug) {
-            this._keepAlive()
-        }
     }
 
     public close() {
@@ -105,15 +101,5 @@ export class Website {
         }
         actionFunc()
         res.send("ok")
-    }
-
-    private _keepAlive() {
-        // Nothing to see here, Heroku!
-        if (this.timer) {
-            clearInterval(this.timer)
-        }
-        this.timer = setInterval(() => {
-            HTTP.get(this.baseURL)
-        }, 300000)
     }
 }

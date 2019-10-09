@@ -18,7 +18,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch in Docker",
+      "name": "Launch in Docker (Debug Bot)",
       "runtimeExecutable": "/usr/bin/env",
       "runtimeArgs": [
         "docker-compose", 
@@ -29,6 +29,30 @@
         "up"
       ],
       "port": 9222,
+      "restart": true,
+      "timeout": 15000,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/app",
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch in Docker (Debug Web)",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": [
+        "docker-compose", 
+        "-f",
+        "docker-compose.yml",
+        "-f",
+        "docker-compose.dev.yml",
+        "up"
+      ],
+      "port": 9223,
       "restart": true,
       "timeout": 15000,
       "localRoot": "${workspaceFolder}",

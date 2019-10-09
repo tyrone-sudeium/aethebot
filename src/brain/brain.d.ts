@@ -14,7 +14,10 @@ import { EventEmitter } from "events"
  * This source code is licensed under the permissive MIT license.
  */
 
-interface SystemMessages {
+/**
+ * Messages that can be sent over the `systemMessages` event emitter.
+ */
+export interface SystemMessages {
     reconnect: void
 }
 
@@ -30,5 +33,5 @@ export interface Brain {
     /** Removes value for a given key, if any. */
     remove(key: string): Promise<void>
     /** System messages events */
-    systemMessages: StrictEventEmitter<EventEmitter, SystemMessages>
+    readonly systemMessages: StrictEventEmitter<EventEmitter, SystemMessages>
 }

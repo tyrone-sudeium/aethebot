@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc --noEmit && tslint --project .",
     "start": "tsc && node dist/index.js",
-    "debug": "nodemon --watch ./dist --inspect=0.0.0.0:9222 --nolazy dist/index.js"
+    "debug-bot": "nodemon --watch ./dist --inspect=0.0.0.0:9222 --nolazy dist/index.js --bot",
+    "debug-web": "nodemon --watch ./dist --inspect=0.0.0.0:9223 --nolazy dist/index.js --website"
   },
   "engines": {
     "node": "8.9.4"

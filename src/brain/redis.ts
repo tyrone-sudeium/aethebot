@@ -13,7 +13,7 @@
 
 import { EventEmitter } from "events"
 import { RedisClient } from "redis"
-import StrictEventEmitter from "strict-event-emitter-types/types/src"
+import StrictEventEmitter from "strict-event-emitter-types"
 import { v4 as uuid } from "uuid"
 import { log } from "../log"
 import { Brain, SystemMessages } from "./brain"
@@ -34,23 +34,31 @@ const REDIS_KEYS = {
     SYSTEM_MESSAGES_CHANNEL: "ab:sys_msg",
 }
 
+interface SystemChannelMessage {
+    data?: any
+    message: keyof SystemMessages
+    sender: string
+}
+
 class RedisPubSubEventEmitter extends EventEmitter {
     private clientID = uuid()
-    constructor(public redis: RedisClient) {
+    constructor(public redis: RedisClient, public publisher: RedisClient) {
         super()
         redis.subscribe(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL)
         redis.on("message", (channel: string, message: any) => {
             if (channel !== REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL) {
                 return
             }
-            if (!message || !message.message || typeof(message.message) !== "string" ) {
+            log(`redis: received: ${message}`)
+            const payload = JSON.parse(message)
+            if (!payload || !payload.message || typeof(payload.message) !== "string" ) {
                 return
             }
-            if (!message.clientID || message.clientID === this.clientID) {
+            if (!payload.sender || payload.sender === this.clientID) {
                 // Ignore messages from this instance
                 return
             }
-            switch (message.message) {
+            switch (payload.message) {
                 case "reconnect":
                     for (const listener of this.listeners("reconnect")) {
                         listener()
@@ -61,18 +69,25 @@ class RedisPubSubEventEmitter extends EventEmitter {
     }
 
     public emit(event: string | symbol, ...args: any[]): boolean {
+        if (event !== "reconnect") {
+            return false
+        }
+        let payload: SystemChannelMessage
         if (args.length > 0) {
-            this.redis.publish(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL, {
+            payload = {
                 data: args[0],
                 message: event,
                 sender: this.clientID,
-            })
+            }
         } else {
-            this.redis.publish(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL, {
+            payload = {
                 message: event,
                 sender: this.clientID,
-            })
+            }
         }
+        const payloadStr = JSON.stringify(payload)
+        log(`redis: sending: ${payloadStr}`)
+        this.publisher.publish(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL, payloadStr)
         return true
     }
 }
@@ -82,9 +97,9 @@ export class RedisBrain implements Brain {
     private client: RedisClient
     private storage: {[key: string]: string} = {}
 
-    constructor(client: RedisClient) {
+    constructor(client: RedisClient, pubsubClient: RedisClient) {
         this.client = client
-        this.systemMessages = new RedisPubSubEventEmitter(client)
+        this.systemMessages = new RedisPubSubEventEmitter(pubsubClient, client)
     }
 
     public save(): Promise<void> {

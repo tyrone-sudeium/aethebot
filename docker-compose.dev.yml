@@ -1,8 +1,30 @@
 version: "3.5"
 services:
-  app:
-    command: ./script/docker-dev.sh
+  bot:
+    image: node:8.9.4
+    command: yarn debug-bot
+    working_dir: /app
     ports:
       - 9222:9222
     volumes:
       - ./:/app
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    env_file:
+      - ./development.env
+  website:
+    image: node:8.9.4
+    command: yarn debug-web
+    working_dir: /app
+    ports:
+      - 9223:9223
+      - 8080:8080
+    volumes:
+      - ./:/app
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      WEBSITE_BASE_URL: localhost
+    env_file:
+      - ./development.env
+  redis:
+    image: redis:5.0-alpine

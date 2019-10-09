@@ -20,16 +20,18 @@ import { log } from "./log"
 import { User } from "./model/user"
 
 export class Bot {
-    public brain: Brain = new MemoryBrain()
+    public brain: Brain
     public user: Discord.ClientUser | null = null
     public token: string
     public features: Array<FeatureConstructor<Feature>> = []
     private loadedFeatures: Map<string, Feature> = new Map()
     private client: Discord.Client
 
-    constructor(token: string) {
+    constructor(token: string, brain: Brain) {
         this.token = token
         this.client = this.makeClient()
+        this.brain = brain
+        brain.systemMessages.on("reconnect", this.reconnect.bind(this))
     }
 
     public reconnect() {

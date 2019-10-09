@@ -39,7 +39,7 @@ function makeRedisClient(redisUrl: string): Redis.RedisClient {
     return redisClient
 }
 
-if (!argv["website-only"]) {
+if (!argv.website) {
     const token = process.env.DISCORD_TOKEN as string
 
     if (!token) {
@@ -47,31 +47,33 @@ if (!argv["website-only"]) {
         process.exit(1)
     }
 
-    bot = new Bot(token)
-
-    // Enable all features on the bot
-    // If you're making your own bot you can manually import whichever features
-    // you want and specify them individually instead.
-    bot.features = allFeatures
+    let brain: Brain
 
     const redisUrl = process.env.REDIS_URL as string
     if (redisUrl) {
         const redisClient = makeRedisClient(redisUrl)
-        bot.brain = new RedisBrain(redisClient)
+        const pubsubClient = makeRedisClient(redisUrl)
+        brain = new RedisBrain(redisClient, pubsubClient)
         log("Bot using redis brain, connecting to: " + redisUrl)
     } else {
-        bot.brain = sharedMemoryBrain
+        brain = sharedMemoryBrain
         log("Using in-memory brain. NOTE: nothing will be persisted!")
     }
+
+    bot = new Bot(token, brain)
+    // Enable all features on the bot
+    // If you're making your own bot you can manually import whichever features
+    // you want and specify them individually instead.
+    bot.features = allFeatures
 
     bot.login()
 }
 
 // Start the website
 const baseURL = process.env.WEBSITE_BASE_URL as string | null
-if (baseURL) {
+if (!argv.bot && baseURL) {
     let brain: Brain
-    if (!argv["website-only"] || !process.env.REDIS_URL) {
+    if (!argv.website || !process.env.REDIS_URL) {
         brain = sharedMemoryBrain
     } else {
         const redisUrl = process.env.REDIS_URL as string
@@ -80,12 +82,21 @@ if (baseURL) {
             process.exit(1)
         }
         const redisClient = makeRedisClient(redisUrl)
-        brain = new RedisBrain(redisClient)
+        const pubsubClient = makeRedisClient(redisUrl)
+        brain = new RedisBrain(redisClient, pubsubClient)
         log("Website using redis brain, connecting to: " + redisUrl)
     }
     const website = new Website(baseURL)
     website.brain = brain
     website.start()
+    if (argv.website) {
+        log("running in website-only mode")
+    }
 } else {
-    log("WEBSITE_BASE_URL not set, website will not run")
+    if (argv.website) {
+        log("fatal: invalid configuration: website-only mode requires WEBSITE_BASE_URL")
+        process.exit(1)
+    } else {
+        log("running in bot-only mode")
+    }
 }

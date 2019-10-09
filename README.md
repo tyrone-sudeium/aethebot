@@ -15,44 +15,44 @@ Inside this file, paste the token like this:
 DISCORD_TOKEN=[token]
 ```
 
-You can now run the bot inside Docker:
-
-```
-docker-compose up
-```
-
-Or by just pressing F5 inside Visual Studio Code.
-
-Once it is running, it will print a URL to your terminal. You can use this URL
-to join the bot to servers.
-
 ## Debugging in Visual Studio Code
 
 ### With Node Installed
 
 If you've got Node installed on your system, either via `nvm`, `nodenv`, or
 compiling it manually, you should just be able to run the debugger by pressing
-F5 in Visual Studio Code. Make sure the configuration in the debugger tab
-(drop down, top left) is set to "Launch Using System Node".
+F5 in Visual Studio Code. Make sure you've run `yarn install` first! Also, make
+sure the configuration in the debugger tab (drop down, top left) is set to 
+"Launch Using System Node".
+
+This will run the bot in a not-very Production-like way, however, since it will
+run both the Website and Bot in the same process, that communicate with each
+other in-memory, but this mode is simpler to debug and setup.
 
 ### Running Node Inside Docker
 
 Change to the debugger tab and change the configuration (drop down, top left)
-from "Launch Using System Node" to "Launch in Docker". You can theoretically
-start now by just pressing F5, but unless your internet connection and CPUs
-are extremely fast, I would highly recommend bootstrapping your environment
-first.
-
-You can do this using this arcane command:
+from "Launch Using System Node" to "Launch in Docker (Debug Bot)". The first time 
+you run this you will need to pull down all the `node_modules` compiled against 
+the Linux that runs in Docker:
 
 ```
-docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+rm -rf node_modules
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml run bot yarn install
 ```
 
-Once you see the "`Join this bot to servers at ...`" line, you can safely
-Ctrl+C out and your environment is bootstrapped.
+Now you can go back into Visual Studio Code and press F5 to start. Note that
+when running in Docker, it simulates a Production-like environment, where the
+Bot process and the Website process are completely separate node processes,
+which communicate with each other via a Redis PubSub channel. By default,
+Visual Studio Code will attach its debugger to the Bot process, you can change
+this by using the "Launch in Docker (Web)" configuration instead.
 
-From now on, you can Build & Debug by pressing F5.
+The node processes running in Docker will automatically restart when the code
+is recompiled. You can automate this to happen whenever you modify a TypeScript
+file by running `yarn tsc -w` on your host.
+
+The website will run under http://localhost:8080
 
 ## Environment Variables
 
