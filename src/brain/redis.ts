@@ -40,7 +40,7 @@ interface SystemChannelMessage {
     sender: string
 }
 
-class RedisPubSubEventEmitter extends EventEmitter {
+export class RedisPubSubEventEmitter extends EventEmitter {
     private clientID = uuid()
     constructor(public redis: RedisClient, public publisher: RedisClient) {
         super()
@@ -97,9 +97,9 @@ export class RedisBrain implements Brain {
     private client: RedisClient
     private storage: {[key: string]: string} = {}
 
-    constructor(client: RedisClient, pubsubClient: RedisClient) {
+    constructor(client: RedisClient, systemMessagesEmitter: StrictEventEmitter<EventEmitter, SystemMessages>) {
         this.client = client
-        this.systemMessages = new RedisPubSubEventEmitter(pubsubClient, client)
+        this.systemMessages = systemMessagesEmitter
     }
 
     public save(): Promise<void> {

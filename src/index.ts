@@ -11,10 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { EventEmitter } from "events"
 import * as parseArgs from "minimist"
 import * as Redis from "redis"
 import { Bot } from "./bot"
 import { Brain, MemoryBrain, RedisBrain } from "./brain"
+import { RedisPubSubEventEmitter } from "./brain/redis"
 import { allFeatures } from "./features"
 import { log } from "./log"
 import { Website } from "./website"
@@ -28,13 +30,13 @@ const sharedMemoryBrain = new MemoryBrain()
 function makeRedisClient(redisUrl: string): Redis.RedisClient {
     const redisClient = Redis.createClient({url: redisUrl})
     redisClient.on("error", (err: any) => {
-        log(err)
+        log(err, "always")
     })
     redisClient.on("connect", () => {
-        log("redis connected")
+        log("redis connected", "always")
     })
     redisClient.on("warning", (warn: any) => {
-        log("redis warning: " + warn)
+        log("redis warning: " + warn, "always")
     })
     return redisClient
 }
@@ -43,7 +45,7 @@ if (!argv.website) {
     const token = process.env.DISCORD_TOKEN as string
 
     if (!token) {
-        log("DISCORD_TOKEN missing from environment.")
+        log("DISCORD_TOKEN missing from environment.", "always")
         process.exit(1)
     }
 
@@ -52,12 +54,18 @@ if (!argv.website) {
     const redisUrl = process.env.REDIS_URL as string
     if (redisUrl) {
         const redisClient = makeRedisClient(redisUrl)
-        const pubsubClient = makeRedisClient(redisUrl)
-        brain = new RedisBrain(redisClient, pubsubClient)
-        log("Bot using redis brain, connecting to: " + redisUrl)
+        if (argv.bot) {
+            const pubsubClient = makeRedisClient(redisUrl)
+            const emitter = new RedisPubSubEventEmitter(redisClient, pubsubClient)
+            brain = new RedisBrain(redisClient, emitter)
+        } else {
+            const emitter = new EventEmitter()
+            brain = new RedisBrain(redisClient, emitter)
+        }
+        log("Bot using redis brain, connecting to: " + redisUrl, "always")
     } else {
         brain = sharedMemoryBrain
-        log("Using in-memory brain. NOTE: nothing will be persisted!")
+        log("Using in-memory brain. NOTE: nothing will be persisted!", "always")
     }
 
     bot = new Bot(token, brain)
@@ -78,25 +86,31 @@ if (!argv.bot && baseURL) {
     } else {
         const redisUrl = process.env.REDIS_URL as string
         if (!redisUrl) {
-            log("fatal: invalid configuration: website-only mode requires REDIS_URL")
+            log("fatal: invalid configuration: website-only mode requires REDIS_URL", "always")
             process.exit(1)
         }
         const redisClient = makeRedisClient(redisUrl)
-        const pubsubClient = makeRedisClient(redisUrl)
-        brain = new RedisBrain(redisClient, pubsubClient)
-        log("Website using redis brain, connecting to: " + redisUrl)
+        if (argv.website) {
+            const pubsubClient = makeRedisClient(redisUrl)
+            const emitter = new RedisPubSubEventEmitter(redisClient, pubsubClient)
+            brain = new RedisBrain(redisClient, emitter)
+        } else {
+            const emitter = new EventEmitter()
+            brain = new RedisBrain(redisClient, emitter)
+        }
+        log("Website using redis brain, connecting to: " + redisUrl, "always")
     }
     const website = new Website(baseURL)
     website.brain = brain
     website.start()
     if (argv.website) {
-        log("running in website-only mode")
+        log("running in website-only mode", "always")
     }
 } else {
     if (argv.website) {
-        log("fatal: invalid configuration: website-only mode requires WEBSITE_BASE_URL")
+        log("fatal: invalid configuration: website-only mode requires WEBSITE_BASE_URL", "always")
         process.exit(1)
     } else {
-        log("running in bot-only mode")
+        log("running in bot-only mode", "always")
     }
 }

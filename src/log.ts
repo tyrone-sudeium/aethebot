@@ -14,11 +14,15 @@
 // Allow console.log in this file -- it's a damn logger
 /* tslint:disable:no-console */
 
-export function log(msg: string) {
-    console.log(msg)
-    return
-    // const debug = (process.env.NODE_ENV || "development") === "development"
-    // if (debug) {
-    //     console.log(msg)
-    // }
+type LogWhen =
+    | "dev"
+    | "always"
+
+export function log(msg: string, when: LogWhen = "dev") {
+    const debug = (process.env.NODE_ENV || "development") === "development"
+    if (when === "always") {
+        console.log(msg)
+    } else if (when === "dev" && debug) {
+        console.log(msg)
+    }
 }
