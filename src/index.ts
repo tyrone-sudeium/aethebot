@@ -26,6 +26,7 @@ const argv = parseArgs(process.argv.slice(2))
 let bot = null
 
 const sharedMemoryBrain = new MemoryBrain()
+const sharedSystemMessagesEmitter = new EventEmitter()
 
 function makeRedisClient(redisUrl: string): Redis.RedisClient {
     const redisClient = Redis.createClient({url: redisUrl})
@@ -59,8 +60,7 @@ if (!argv.website) {
             const emitter = new RedisPubSubEventEmitter(pubsubClient, redisClient)
             brain = new RedisBrain(redisClient, emitter)
         } else {
-            const emitter = new EventEmitter()
-            brain = new RedisBrain(redisClient, emitter)
+            brain = new RedisBrain(redisClient, sharedSystemMessagesEmitter)
         }
         log("Bot using redis brain, connecting to: " + redisUrl, "always")
     } else {
@@ -95,8 +95,7 @@ if (!argv.bot && baseURL) {
             const emitter = new RedisPubSubEventEmitter(pubsubClient, redisClient)
             brain = new RedisBrain(redisClient, emitter)
         } else {
-            const emitter = new EventEmitter()
-            brain = new RedisBrain(redisClient, emitter)
+            brain = new RedisBrain(redisClient, sharedSystemMessagesEmitter)
         }
         log("Website using redis brain, connecting to: " + redisUrl, "always")
     }
