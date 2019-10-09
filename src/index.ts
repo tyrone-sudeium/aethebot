@@ -81,14 +81,8 @@ if (!argv.website) {
 const baseURL = process.env.WEBSITE_BASE_URL as string | null
 if (!argv.bot && baseURL) {
     let brain: Brain
-    if (!argv.website || !process.env.REDIS_URL) {
-        brain = sharedMemoryBrain
-    } else {
-        const redisUrl = process.env.REDIS_URL as string
-        if (!redisUrl) {
-            log("fatal: invalid configuration: website-only mode requires REDIS_URL", "always")
-            process.exit(1)
-        }
+    const redisUrl = process.env.REDIS_URL as string
+    if (redisUrl) {
         const redisClient = makeRedisClient(redisUrl)
         if (argv.website) {
             const pubsubClient = makeRedisClient(redisUrl)
@@ -98,6 +92,12 @@ if (!argv.bot && baseURL) {
             brain = new RedisBrain(redisClient, sharedSystemMessagesEmitter)
         }
         log("Website using redis brain, connecting to: " + redisUrl, "always")
+    } else if (argv.website) {
+        log("fatal: invalid configuration: website-only mode requires REDIS_URL", "always")
+        process.exit(1)
+        brain = sharedMemoryBrain
+    } else {
+        brain = sharedMemoryBrain
     }
     const website = new Website(baseURL)
     website.brain = brain

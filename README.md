@@ -25,10 +25,6 @@ F5 in Visual Studio Code. Make sure you've run `yarn install` first! Also, make
 sure the configuration in the debugger tab (drop down, top left) is set to 
 "Launch Using System Node".
 
-This will run the bot in a not-very Production-like way, however, since it will
-run both the Website and Bot in the same process, that communicate with each
-other in-memory, but this mode is simpler to debug and setup.
-
 ### Running Node Inside Docker
 
 Change to the debugger tab and change the configuration (drop down, top left)
@@ -42,11 +38,11 @@ docker-compose -f docker-compose.yml -f docker-compose.dev.yml run bot yarn inst
 ```
 
 Now you can go back into Visual Studio Code and press F5 to start. Note that
-when running in Docker, it simulates a Production-like environment, where the
-Bot process and the Website process are completely separate node processes,
-which communicate with each other via a Redis PubSub channel. By default,
-Visual Studio Code will attach its debugger to the Bot process, you can change
-this by using the "Launch in Docker (Web)" configuration instead.
+when running in Docker, it runs the Bot process and the Website process as
+completely separate node processes, which communicate with each other via a 
+Redis PubSub channel. By default, Visual Studio Code will attach its debugger 
+to the Bot process, you can change this by using the "Launch in Docker (Web)" 
+configuration instead.
 
 The node processes running in Docker will automatically restart when the code
 is recompiled. You can automate this to happen whenever you modify a TypeScript
