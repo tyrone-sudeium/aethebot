@@ -15,6 +15,7 @@ import * as Discord from "discord.js"
 import { Brain, MemoryBrain } from "./brain"
 import { Feature, FeatureConstructor } from "./features"
 import * as Features from "./features"
+import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
 import { User } from "./model/user"
 
@@ -36,6 +37,10 @@ export class Bot {
         this.client.destroy().then(() => {
             this.client = this.makeClient()
             this.login()
+            const uptimeFeat = this.loadedFeatureForName("UptimeFeature")
+            if (uptimeFeat) {
+                (uptimeFeat as UptimeFeature).setStartTime(new Date().getTime())
+            }
         // tslint:disable-next-line:no-console
         }).catch(console.error)
     }
