@@ -18,9 +18,14 @@ import * as FS from "fs"
 import * as HTTP from "http"
 
 import { Bot } from "./bot"
+import { Brain, MemoryBrain } from "./brain"
 
 export class Website {
     public app = Express()
+
+    // Warning: split-brain! If you're really going to use a MemoryBrain
+    // make sure it shares the same MemoryBrain instance as the Bot!
+    public brain: Brain = new MemoryBrain()
     private server: HTTP.Server | null = null
     private timer: NodeJS.Timer | null = null
 
@@ -29,7 +34,6 @@ export class Website {
     }
 
     constructor(
-        public bot: Bot | null,
         public baseURL: string,
     ) { }
 
@@ -62,9 +66,7 @@ export class Website {
     }
 
     public reconnectBot() {
-        if (this.bot) {
-            this.bot.reconnect()
-        }
+        this.brain.systemMessages.emit("reconnect")
     }
 
     public renderRoot(req: Request, res: Response) {

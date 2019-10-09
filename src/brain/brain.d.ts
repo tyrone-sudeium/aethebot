@@ -1,3 +1,6 @@
+import StrictEventEmitter from "strict-event-emitter-types"
+import { EventEmitter } from "events"
+
 /**
  * Abstract memory store for the bot.
  */
@@ -11,6 +14,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+interface SystemMessages {
+    reconnect: void
+}
+
 export interface Brain {
     /** Forces the Brain to save or persist its data. */
     save(): Promise<void>
@@ -22,4 +29,6 @@ export interface Brain {
     get(key: string): Promise<string | null>
     /** Removes value for a given key, if any. */
     remove(key: string): Promise<void>
+    /** System messages events */
+    systemMessages: StrictEventEmitter<EventEmitter, SystemMessages>
 }

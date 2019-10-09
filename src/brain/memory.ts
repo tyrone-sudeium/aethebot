@@ -11,10 +11,14 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { EventEmitter } from "events"
+import StrictEventEmitter from "strict-event-emitter-types/types/src"
 import { log } from "../log"
-import { Brain } from "./brain"
+import { Brain, SystemMessages } from "./brain"
 
 export class MemoryBrain implements Brain {
+    public systemMessages: StrictEventEmitter<EventEmitter, SystemMessages> = new EventEmitter()
+
     private storage: {[key: string]: string} = {}
     public save(): Promise<void> {
         return Promise.resolve()

@@ -11,9 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { EventEmitter } from "events"
 import { RedisClient } from "redis"
+import StrictEventEmitter from "strict-event-emitter-types/types/src"
+import { v4 as uuid } from "uuid"
 import { log } from "../log"
-import { Brain } from "./brain"
+import { Brain, SystemMessages } from "./brain"
 
 function promisify<T>(func: (callback: (err: any, result: T) => void) => void): Promise<T> {
     return new Promise<T>((resolve, reject) => {
@@ -27,12 +30,61 @@ function promisify<T>(func: (callback: (err: any, result: T) => void) => void): 
     })
 }
 
+const REDIS_KEYS = {
+    SYSTEM_MESSAGES_CHANNEL: "ab:sys_msg",
+}
+
+class RedisPubSubEventEmitter extends EventEmitter {
+    private clientID = uuid()
+    constructor(public redis: RedisClient) {
+        super()
+        redis.subscribe(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL)
+        redis.on("message", (channel: string, message: any) => {
+            if (channel !== REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL) {
+                return
+            }
+            if (!message || !message.message || typeof(message.message) !== "string" ) {
+                return
+            }
+            if (!message.clientID || message.clientID === this.clientID) {
+                // Ignore messages from this instance
+                return
+            }
+            switch (message.message) {
+                case "reconnect":
+                    for (const listener of this.listeners("reconnect")) {
+                        listener()
+                    }
+                    break
+            }
+        })
+    }
+
+    public emit(event: string | symbol, ...args: any[]): boolean {
+        if (args.length > 0) {
+            this.redis.publish(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL, {
+                data: args[0],
+                message: event,
+                sender: this.clientID,
+            })
+        } else {
+            this.redis.publish(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL, {
+                message: event,
+                sender: this.clientID,
+            })
+        }
+        return true
+    }
+}
+
 export class RedisBrain implements Brain {
+    public systemMessages: StrictEventEmitter<EventEmitter, SystemMessages>
     private client: RedisClient
     private storage: {[key: string]: string} = {}
 
     constructor(client: RedisClient) {
         this.client = client
+        this.systemMessages = new RedisPubSubEventEmitter(client)
     }
 
     public save(): Promise<void> {

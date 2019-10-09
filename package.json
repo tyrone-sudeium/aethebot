@@ -36,6 +36,7 @@
     "@types/node": "^7.0.4",
     "@types/pug": "^2.0.4",
     "@types/redis": "^0.12.34",
+    "@types/uuid": "^3.4.5",
     "@types/xml2js": "^0.4.3",
     "anchorme": "^1.1.2",
     "body-parser": "^1.17.1",
@@ -52,8 +53,10 @@
     "pug": "2.0.4",
     "random-number-csprng": "^1.0.2",
     "redis": "^2.6.5",
+    "strict-event-emitter-types": "^2.0.0",
     "tslint": "^5.8.0",
     "typescript": "^3.2.2",
+    "uuid": "^3.3.3",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
