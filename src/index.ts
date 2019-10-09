@@ -56,7 +56,7 @@ if (!argv.website) {
         const redisClient = makeRedisClient(redisUrl)
         if (argv.bot) {
             const pubsubClient = makeRedisClient(redisUrl)
-            const emitter = new RedisPubSubEventEmitter(redisClient, pubsubClient)
+            const emitter = new RedisPubSubEventEmitter(pubsubClient, redisClient)
             brain = new RedisBrain(redisClient, emitter)
         } else {
             const emitter = new EventEmitter()
@@ -92,7 +92,7 @@ if (!argv.bot && baseURL) {
         const redisClient = makeRedisClient(redisUrl)
         if (argv.website) {
             const pubsubClient = makeRedisClient(redisUrl)
-            const emitter = new RedisPubSubEventEmitter(redisClient, pubsubClient)
+            const emitter = new RedisPubSubEventEmitter(pubsubClient, redisClient)
             brain = new RedisBrain(redisClient, emitter)
         } else {
             const emitter = new EventEmitter()
