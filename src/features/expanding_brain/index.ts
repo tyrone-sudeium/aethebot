@@ -78,10 +78,11 @@ export class ExpandingBrainFeature extends Feature {
             drawable.drawInContext(ctx, offset)
             y = y + drawable.height
         }
+        const attachment = canvas.toBuffer("image/png")
         const msgOptions: Discord.MessageOptions = {
             files: [
                 {
-                    attachment: canvas.toBuffer("png"),
+                    attachment,
                     name: "meme.png",
                 },
             ],

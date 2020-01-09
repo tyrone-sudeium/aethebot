@@ -32,12 +32,12 @@ declare module "canvas" {
         getContext(contextId: "2d", contextAttributes?: CanvasRenderingContext2DSettings): NodeCanvasRenderingContext2D | null;
 
         toBuffer(type: "raw" | undefined): Buffer
-        toBuffer(type: "png", compressionLevel?: 0|1|2|3|4|5|6|7|8|9, filter?: number): Buffer
+        toBuffer(type: "image/png", compressionLevel?: 0|1|2|3|4|5|6|7|8|9, filter?: number): Buffer
         toBuffer(type: "raw" | undefined, callback: (err: any, buf: Buffer) => void): void
 
-        toBuffer(type: "png", callback: (err: any, buf: Buffer) => void): void
-        toBuffer(type: "png", compressionLevel: 0|1|2|3|4|5|6|7|8|9, callback: (err: any, buf: Buffer) => void): void
-        toBuffer(type: "png", compressionLevel: 0|1|2|3|4|5|6|7|8|9, filter: number, callback: (err: any, buf: Buffer) => void): void
+        toBuffer(type: "image/png", callback: (err: any, buf: Buffer) => void): void
+        toBuffer(type: "image/png", compressionLevel: 0|1|2|3|4|5|6|7|8|9, callback: (err: any, buf: Buffer) => void): void
+        toBuffer(type: "image/png", compressionLevel: 0|1|2|3|4|5|6|7|8|9, filter: number, callback: (err: any, buf: Buffer) => void): void
 
         pngStream(options?: PNGStreamOptions): PNGStream
         jpegStream(options?: JPEGStreamOptions): JPEGStream
