@@ -250,6 +250,6 @@ export const NOISES: Noise[] = [
         id: "CBT",
         regex: [
             /^c(ognitive\s+)?b(ehavio(u?)ral\s+)?t(herapy)?$/i,
-        ]
+        ],
     },
 ]
