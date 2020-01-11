@@ -245,4 +245,11 @@ export const NOISES: Noise[] = [
             /^john\s+madden$/i,
         ],
     },
+    {
+        files: ["cbt.opus"],
+        id: "CBT",
+        regex: [
+            /^c(ognitive\s+)?b(ehavio(u?)ral\s+)?t(herapy)?$/i,
+        ]
+    },
 ]
