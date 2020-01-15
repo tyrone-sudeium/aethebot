@@ -14,7 +14,8 @@ jobs:
         version: 8.9.4
 
     - uses: actions/cache@v1
-      name: cache-node-modules
+      name: Cache node_modules
+      id: cache-node-modules
       with:
         path: node_modules
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}-node_modules
