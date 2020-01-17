@@ -22,7 +22,7 @@ export interface Reaction {
 export const REACTIONS: Reaction[] = [
     {
         reaction: "❌",
-        regex: [/^lmao$/i],
+        regex: [/^(lmao|草)$/i],
     },
 ]
 
