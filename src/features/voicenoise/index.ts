@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
-import { Feature } from "../feature"
+import { GlobalFeature } from "../feature"
 import { Noise, NOISES } from "./noises"
 
 // tslint:disable:no-console
@@ -41,7 +41,7 @@ interface VoicePlaybackIntent {
     connection?: Discord.VoiceConnection
 }
 
-export class VoiceNoiseFeature extends Feature {
+export class VoiceNoiseFeature extends GlobalFeature {
     private pendingPlayback = new Map<string, VoicePlaybackIntent[]>()
 
     public handleMessage(message: Discord.Message): boolean {

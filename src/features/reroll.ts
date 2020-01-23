@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { log } from "../log"
-import { Feature } from "./feature"
+import { FeatureBase, GlobalFeature } from "./feature"
 
 export interface Rerollable {
     reroll(params: any, originalMessage: Discord.Message): Promise<string>
@@ -44,9 +44,9 @@ const TRIGGERS = [
 // Don't allow rerolls on messages more than five minutes old
 const TIMEOUT = 300000
 
-type RerollableFeature = Feature & Rerollable
+type RerollableFeature = FeatureBase & Rerollable
 
-export class RerollFeature extends Feature {
+export class RerollFeature extends GlobalFeature {
     public handlesMessage(message: Discord.Message): boolean {
         if (!super.handlesMessage(message)) {
             return false
@@ -154,7 +154,7 @@ export class RerollFeature extends Feature {
 // Pushes a reroll item with the specified parameters, if and only if the RerollFeature is
 // loaded in the current bot.
 export async function pushReroll(
-    feature: Feature,
+    feature: FeatureBase,
     botMessage: Discord.Message | Discord.Message[],
     humanMessage: Discord.Message | Discord.Message[],
     params: any,

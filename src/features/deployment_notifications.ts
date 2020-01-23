@@ -14,14 +14,14 @@
 import * as ChildProcess from "child_process"
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
 const BRAIN_KEYS = {
     LAST_DEPLOY: "dn:last_deploy",
     USERS: "dn:user_ids",
 }
 
-export class DeploymentNotificationsFeature extends Feature {
+export class DeploymentNotificationsFeature extends GlobalFeature {
     public constructor(bot: Bot, name: string) {
         super(bot, name)
         this.sendNotifications()

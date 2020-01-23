@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import * as randomNumber from "random-number-csprng"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 import { pushReroll, Rerollable } from "./reroll"
 
 interface NumberRequest {
@@ -33,7 +33,7 @@ function assertNever(x: never): never {
     throw new Error("Unexpected object: " + x)
 }
 
-export class DiceFeature extends Feature implements Rerollable {
+export class DiceFeature extends GlobalFeature implements Rerollable {
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
         if (tokens.length > 2) {

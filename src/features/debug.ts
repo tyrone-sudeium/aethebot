@@ -13,9 +13,9 @@
 
 import * as Discord from "discord.js"
 import { log } from "../log"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
-export class DebugFeature extends Feature {
+export class DebugFeature extends GlobalFeature {
 
     public handlesMessage(message: Discord.Message): boolean {
         // Debug logging handles every message.

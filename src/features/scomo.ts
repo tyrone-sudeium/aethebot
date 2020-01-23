@@ -12,11 +12,11 @@
  */
 
 import * as Discord from "discord.js"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
 const scomo = "https://cdn.discordapp.com/attachments/293954139845820416/579468190971854849/scomo.jpg"
 
-export class ScomoFeature extends Feature {
+export class ScomoFeature extends GlobalFeature {
     public handleMessage(message: Discord.Message): boolean {
         const msg = message.cleanContent.toLowerCase()
         if (!msg.includes("scomo")) {

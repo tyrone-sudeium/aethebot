@@ -26,17 +26,22 @@ const NEGATIVES = [
     "nah fuck ya",
 ]
 
-export interface Feature {
+export interface FeatureBase {
     onMessageReactionAdd?(reaction: Discord.MessageReaction): boolean
 }
 
-export abstract class Feature {
-    public bot: Bot
+export abstract class FeatureBase {
+
+    public get bot(): Bot {
+        return this.internalBot
+    }
+
     public name: string
     protected negatives = NEGATIVES
+    private internalBot: Bot
 
     constructor(bot: Bot, name: string) {
-        this.bot = bot
+        this.internalBot = bot
         this.negatives = NEGATIVES
         this.name = name
     }
@@ -108,5 +113,30 @@ export abstract class Feature {
         } else {
             return this.replyWith(message, msg)
         }
+    }
+}
+
+/**
+ * GlobalFeature is a feature which is intantiated once per-bot, and will be
+ * present in every server the bot is joined to.
+ */
+export abstract class GlobalFeature extends FeatureBase {
+
+}
+
+/**
+ * ServerFeature is a feature which is instantiated per-server, and must be
+ * added to a server to work.
+ */
+export abstract class ServerFeature extends FeatureBase {
+    private internalServer: Discord.Guild
+
+    constructor(bot: Bot, name: string, server: Discord.Guild) {
+        super(bot, name)
+        this.internalServer = server
+    }
+
+    public get server(): Discord.Guild {
+        return this.internalServer
     }
 }

@@ -16,7 +16,7 @@ import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
 import { removeBotMentions } from "../../util/remove_mentions"
-import { Feature } from "../feature"
+import { GlobalFeature } from "../feature"
 import { BrainTile } from "./brain_tile"
 import { Drawable } from "./drawable"
 import { Separator } from "./separator"
@@ -29,7 +29,7 @@ const TRIGGERS = [
     "brain meme",
 ]
 
-export class ExpandingBrainFeature extends Feature {
+export class ExpandingBrainFeature extends GlobalFeature {
     public handlesMessage(message: Discord.Message): boolean {
         if (!super.handlesMessage(message)) {
             return false

@@ -17,7 +17,7 @@ import "moment-precise-range-plugin"
 import { Bot } from "../bot"
 import { log } from "../log"
 import { getJSON } from "../util/http"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
 interface CoindeskAPIResponse<ResponseType> {
     data: ResponseType,
@@ -47,7 +47,7 @@ const BRAIN_KEYS = {
     PREVIOUS_PRICE: "sc:btc:previous",
 }
 
-export class ShitcoinFeature extends Feature {
+export class ShitcoinFeature extends GlobalFeature {
     private refreshTimer: NodeJS.Timer
 
     constructor(bot: Bot, name: string) {

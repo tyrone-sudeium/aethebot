@@ -14,9 +14,9 @@
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { User } from "../model/user"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
-export class AdminFeature extends Feature {
+export class AdminFeature extends GlobalFeature {
     public constructor(bot: Bot, name: string) {
         super(bot, name)
         this.setupDefaultAdminUser()

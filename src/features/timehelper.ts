@@ -15,12 +15,12 @@ import * as Chrono from "chrono-node"
 import * as Discord from "discord.js"
 import * as Moment from "moment-timezone"
 import { log } from "../log"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
 const MAXIMUM_TIMEZONES = 4
 Moment.locale("en")
 
-export class TimehelperFeature extends Feature {
+export class TimehelperFeature extends GlobalFeature {
 
     public handleMessage(message: Discord.Message): boolean {
         // This is likely a command

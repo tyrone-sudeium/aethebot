@@ -15,9 +15,9 @@ import * as Discord from "discord.js"
 import * as Moment from "moment"
 import "moment-precise-range-plugin"
 import { Bot } from "../bot"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
-export class UptimeFeature extends Feature {
+export class UptimeFeature extends GlobalFeature {
     private startTime: number
     public constructor(bot: Bot, name: string) {
         super(bot, name)

@@ -22,7 +22,7 @@ import { URL } from "url"
 import * as xml2js from "xml2js"
 import { getHTTPData, getJSON, head } from "../util/http"
 import { muxMP4 } from "../util/mp4_audio_video_mux"
-import { Feature } from "./feature"
+import { ServerFeature } from "./feature"
 
 const DISCORD_UPLOAD_LIMIT = 8_000_000
 
@@ -293,7 +293,7 @@ interface PendingRedditTask {
     destinationMessage: Discord.Message
 }
 
-export class RedditVideoFeature extends Feature {
+export class RedditVideoFeature extends ServerFeature {
 
     public handlesMessage(message: Discord.Message): boolean {
         if (message.content.toLowerCase().indexOf("v.redd.it") !== -1) {

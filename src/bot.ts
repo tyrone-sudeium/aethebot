@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Brain, MemoryBrain } from "./brain"
-import { Feature, FeatureConstructor } from "./features"
+import { GlobalFeature, GlobalFeatureConstructor } from "./features"
 import * as Features from "./features"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
@@ -23,8 +23,8 @@ export class Bot {
     public brain: Brain
     public user: Discord.ClientUser | null = null
     public token: string
-    public features: Array<FeatureConstructor<Feature>> = []
-    private loadedFeatures: Map<string, Feature> = new Map()
+    public features: Array<GlobalFeatureConstructor<GlobalFeature>> = []
+    private loadedFeatures: Map<string, GlobalFeature> = new Map()
     private client: Discord.Client
 
     constructor(token: string, brain: Brain) {
@@ -65,7 +65,7 @@ export class Bot {
         return this.client.guilds
     }
 
-    public loadedFeatureForCtor<F extends Feature>(ctor: FeatureConstructor<F>): F | null {
+    public loadedFeatureForCtor<F extends GlobalFeature>(ctor: GlobalFeatureConstructor<F>): F | null {
         for (const [_, feature] of this.loadedFeatures) {
             if (feature instanceof ctor) {
                 return feature as F
@@ -74,7 +74,7 @@ export class Bot {
         return null
     }
 
-    public loadedFeatureForName<F extends Feature>(name: string): F | null {
+    public loadedFeatureForName<F extends GlobalFeature>(name: string): F | null {
         return this.loadedFeatures.get(name) as F || null
     }
 
@@ -93,6 +93,9 @@ export class Bot {
             this.loadFeatures()
         })
         client.on("voiceStateUpdate", this.voiceStateUpdate.bind(this))
+        client.on("error", (error) => {
+            log(`Discord.js error: ${error}`)
+        })
         return client
     }
 

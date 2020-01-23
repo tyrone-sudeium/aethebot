@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import * as Moment from "moment"
 import "moment-precise-range-plugin"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
 Moment.locale("en")
 
@@ -30,7 +30,7 @@ const countdowns = {
     },
 } as {[name: string]: Countdown}
 
-export class CountdownFeature extends Feature {
+export class CountdownFeature extends GlobalFeature {
     public handleMessage(message: Discord.Message): boolean {
         const tokens = this.commandTokens(message)
 

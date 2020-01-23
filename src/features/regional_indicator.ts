@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import { Feature } from "./feature"
+import { GlobalFeature } from "./feature"
 
 const EMOJIS = Array.from("🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿")
 
@@ -34,7 +34,7 @@ function stringIsAlphaOnly(str: string): boolean {
     }, true)
 }
 
-export class RegionalIndicatorFeature extends Feature {
+export class RegionalIndicatorFeature extends GlobalFeature {
     public handlesMessage(message: Discord.Message): boolean {
         return true
     }

@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import { Feature } from "./feature"
+import { ServerFeature } from "./feature"
 
 export interface Reaction {
     reaction: string | Discord.Emoji | Discord.ReactionEmoji,
@@ -26,7 +26,7 @@ export const REACTIONS: Reaction[] = [
     },
 ]
 
-export class ReactorFeature extends Feature {
+export class ReactorFeature extends ServerFeature {
     public handlesMessage(message: Discord.Message): boolean {
         return true
     }

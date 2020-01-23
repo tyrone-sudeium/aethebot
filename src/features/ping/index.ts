@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { parseEmoji } from "../../util/parse_emoji"
-import { Feature } from "../feature"
+import { GlobalFeature } from "../feature"
 import { pushReroll, Rerollable, RerollFeature } from "../reroll"
 import { Dril } from "./dril"
 
@@ -34,7 +34,7 @@ const RESPONSES = [
     "pong, cunt",
 ]
 
-export class PingFeature extends Feature implements Rerollable {
+export class PingFeature extends GlobalFeature implements Rerollable {
     private dril: Dril
 
     public constructor(bot: Bot, name: string) {
