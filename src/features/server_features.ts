@@ -71,6 +71,7 @@ export class ServerFeaturesManager extends GlobalFeature {
         }
         if (isDM && tokens.length < 4) {
             this.replyNegatively(message, "i need a server id: `[add|remove] feature <featureName> <serverId>`")
+            return false
         }
 
         const ctor = featureConstructors.get(tokens[2]) || featureConstructors.get(`${tokens[2]}Feature`)
