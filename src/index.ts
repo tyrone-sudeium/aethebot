@@ -15,18 +15,26 @@ import { EventEmitter } from "events"
 import * as parseArgs from "minimist"
 import * as Redis from "redis"
 import { Bot } from "./bot"
-import { Brain, MemoryBrain, RedisBrain } from "./brain"
+import { Brain, FlatFileBrain, MemoryBrain, RedisBrain } from "./brain"
 import { RedisPubSubEventEmitter } from "./brain/redis"
 import { allFeatures } from "./features"
 import { log } from "./log"
 import { Website } from "./website"
 
-const argv = parseArgs(process.argv.slice(2))
+const argv = parseArgs(process.argv.slice(2), {
+    boolean: ["website", "bot"],
+    string: ["brainPath"],
+})
 
 let bot = null
 
 const sharedMemoryBrain = new MemoryBrain()
 const sharedSystemMessagesEmitter = new EventEmitter()
+
+let fileBrain: FlatFileBrain | undefined
+if (argv.brainPath) {
+    fileBrain = new FlatFileBrain(argv.brainPath)
+}
 
 function makeRedisClient(redisUrl: string): Redis.RedisClient {
     const redisClient = Redis.createClient({url: redisUrl})
@@ -63,6 +71,9 @@ if (!argv.website) {
             brain = new RedisBrain(redisClient, sharedSystemMessagesEmitter)
         }
         log("Bot using redis brain, connecting to: " + redisUrl, "always")
+    } else if (fileBrain) {
+        brain = fileBrain
+        log(`Using file brain: ${argv.brainPath}`, "always")
     } else {
         brain = sharedMemoryBrain
         log("Using in-memory brain. NOTE: nothing will be persisted!", "always")

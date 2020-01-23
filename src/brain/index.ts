@@ -12,7 +12,8 @@
  */
 
 import { Brain } from "./brain"
+import { FlatFileBrain } from "./flat_file"
 import { MemoryBrain } from "./memory"
 import { RedisBrain } from "./redis"
 
-export { Brain, MemoryBrain, RedisBrain }
+export { Brain, FlatFileBrain, MemoryBrain, RedisBrain }

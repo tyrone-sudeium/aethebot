@@ -11,6 +11,7 @@
       "program": "${workspaceFolder}/dist/index.js",
       "preLaunchTask": "tsc: build - tsconfig.json",
       "envFile": "${workspaceFolder}/development.env",
+      "args": ["--brainPath", "./brain.json"],
       "outFiles": [
         "${workspaceFolder}/dist/**/*.js"
       ]
