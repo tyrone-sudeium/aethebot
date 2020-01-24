@@ -44,7 +44,8 @@ export class ServerFeaturesManager extends GlobalFeature {
     public handleMessage(message: Discord.Message): boolean {
         const isDM = message.channel.type === "dm"
         if (!isDM) {
-            for (const [_, features] of this.features) {
+            const features = this.features.get(message.guild.id)
+            if (features) {
                 for (const feature of features) {
                     if (feature.handlesMessage(message)) {
                         feature.handleMessage(message)
