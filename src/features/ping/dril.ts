@@ -143,8 +143,9 @@ export class Dril {
         public brain: Brain,
     ) { }
 
-    public async getTweet(channelId: string): Promise<string> {
+    public async getTweets(channelId: string, count: number): Promise<string[]> {
         let toots: string[] = []
+        const selected: string[] = []
         try {
             const tootsJSONStr = await this.brain.get(this.brainKeyForChannel(channelId))
             if (tootsJSONStr) {
@@ -155,13 +156,16 @@ export class Dril {
         } catch (err) {
             toots = shuffle(TOOTS.slice(0))
         }
-        if (toots.length === 0) {
-            toots = shuffle(TOOTS.slice(0))
-        }
+        while (selected.length < count) {
+            if (toots.length === 0) {
+                toots = shuffle(TOOTS.slice(0))
+            }
 
-        const tweet = toots.pop() || ""
+            const tweet = toots.pop() || ""
+            selected.push(tweet)
+        }
         await this.brain.set(this.brainKeyForChannel(channelId), JSON.stringify(toots))
-        return tweet
+        return selected
     }
 
     public getNo(): string {

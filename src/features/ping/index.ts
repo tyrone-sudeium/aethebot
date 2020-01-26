@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Bot } from "../../bot"
-import { parseEmoji } from "../../util/parse_emoji"
+import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
 import { GlobalFeature } from "../feature"
 import { pushReroll, Rerollable, RerollFeature } from "../reroll"
 import { Dril } from "./dril"
@@ -33,6 +33,15 @@ const RESPONSES = [
     "oi",
     "pong, cunt",
 ]
+
+interface DrilRerollParams {
+    type: "drilme"
+    count: number
+}
+
+function isDrilRerollParams(params: any): params is DrilRerollParams {
+    return params.type === "drilme"
+}
 
 export class PingFeature extends GlobalFeature implements Rerollable {
     private dril: Dril
@@ -56,6 +65,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const joinedMessage = tokens.join("").toLowerCase()
         const emoji = parseEmoji(message)
         const isDrilEmoji = emoji.length === 1 && emoji[0].name === "dril"
+        const messageWithoutEmoji = removeEmoji(joinedMessage)
         // If the message matches the shitheap of variants of "cakaw"
         if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
             this.replyWith(message, CAKKAW)
@@ -68,9 +78,18 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             // show yourself coward
             this.replyWith(message, this.dril.logoff())
             return true
+        } else if (joinedMessage === "drilbomb" || (messageWithoutEmoji === "bomb" && isDrilEmoji)) {
+            // Dril bomb
+            this.drilAsync(message, {
+                count: 5,
+                type: "drilme",
+            })
         } else if (joinedMessage === "drilme" || isDrilEmoji) {
             // TODO: ^ if joinedMessage matches async responses
-            this.drilAsync(message)
+            this.drilAsync(message, {
+                count: 1,
+                type: "drilme",
+            })
             return true
         }
 
@@ -78,19 +97,19 @@ export class PingFeature extends GlobalFeature implements Rerollable {
     }
 
     public async reroll(params: any, originalMessage: Discord.Message): Promise<string> {
-        if (params === "drilme") {
-            const tweet = await this.dril.getTweet(originalMessage.channel.id)
-            return Promise.resolve(tweet)
+        if (isDrilRerollParams(params)) {
+            const tweets = await this.dril.getTweets(originalMessage.channel.id, params.count)
+            return Promise.resolve(tweets.join("\n"))
         } else {
             throw new Error(`unknown parameter ${params} passed to PingFeature reroll`)
         }
     }
 
-    private async drilAsync(message: Discord.Message) {
+    private async drilAsync(message: Discord.Message, params: {type: string, count: number}) {
         // it's good-ass dril content you seek
-        const tweet = await this.dril.getTweet(message.channel.id)
-        const uploadedMsg = await this.replyWith(message, tweet)
-        pushReroll(this, uploadedMsg, message, "drilme", "delete")
+        const tweets = await this.dril.getTweets(message.channel.id, params.count)
+        const uploadedMsg = await this.replyWith(message, tweets.join("\n"))
+        pushReroll(this, uploadedMsg, message, params, "delete")
         return
     }
 }
