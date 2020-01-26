@@ -41,18 +41,6 @@ export class ReactorFeature extends ServerFeature {
         return false
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
-        if (!this.bot.user) {
-            return false
-        }
-        // Auto-Kim any message that gets a Kim
-        if (reaction.emoji.name === "happy" && reaction.me === false && !reaction.users.has(this.bot.user.id)) {
-            reaction.message.react(reaction.emoji)
-            return true
-        }
-        return false
-    }
-
     protected reactionForMessage(message: string): Reaction | null {
         for (const reaction of REACTIONS) {
             if (reaction.regex.find((r) => r.test(message))) {

@@ -88,7 +88,8 @@ export class ServerFeaturesManager extends GlobalFeature {
 
     public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
         let handled = false
-        for (const [_, features] of this.features) {
+        const features = this.features.get(reaction.message.guild.id)
+        if (features) {
             for (const feature of features) {
                 if (feature.onMessageReactionAdd !== undefined) {
                     const res = feature.onMessageReactionAdd(reaction)

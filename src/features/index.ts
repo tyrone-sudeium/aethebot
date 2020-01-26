@@ -14,6 +14,7 @@
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { AdminFeature } from "./admin"
+import { AutoKimFeature } from "./autokim"
 import { CountdownFeature } from "./countdown"
 import { DebugFeature } from "./debug"
 import { DeploymentNotificationsFeature } from "./deployment_notifications"
@@ -56,6 +57,7 @@ export const allFeatures: Array<GlobalFeatureConstructor<GlobalFeature>> = [
 ]
 
 export const allServerFeatures: Array<ServerFeatureConstructor<ServerFeature>> = [
+    AutoKimFeature,
     ReactorFeature,
     RedditVideoFeature,
 ]
