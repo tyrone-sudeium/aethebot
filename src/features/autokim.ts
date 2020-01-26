@@ -12,14 +12,14 @@
  */
 
 import * as Discord from "discord.js"
-import { ServerFeature } from "./feature"
+import { MessageContext, ServerFeature } from "./feature"
 
 export class AutoKimFeature extends ServerFeature {
-    public handlesMessage(message: Discord.Message): boolean {
+    public handlesMessage(context: MessageContext<this>): boolean {
         return false
     }
 
-    public handleMessage(message: Discord.Message): boolean {
+    public handleMessage(context: MessageContext<this>): boolean {
         return false
     }
 

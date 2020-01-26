@@ -26,6 +26,51 @@ const NEGATIVES = [
     "nah fuck ya",
 ]
 
+function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupDMChannel,
+               mention: Discord.User,
+               replyStr: string): Promise<Discord.Message | Discord.Message[]> {
+    if (channel.type === "dm") {
+        return channel.send(replyStr)
+    } else {
+        return channel.send(`<@${mention.id}> ${replyStr}`)
+    }
+}
+
+export class MessageContext<F extends FeatureBase> {
+    private myMessage: Discord.Message
+    private myFeature: F
+    constructor(message: Discord.Message, feature: F) {
+        this.myFeature = feature
+        this.myMessage = message
+    }
+
+    public get message(): Discord.Message {
+        return this.myMessage
+    }
+
+    public get feature(): F {
+        return this.myFeature
+    }
+
+    public async sendReply(str: string): Promise<Discord.Message | Discord.Message[]> {
+        return reply(this.message.channel, this.message.author, str)
+    }
+
+    /**
+     * Send a random rejection message, intended as a result of a (usually) intentional misuse or bad parameter,
+     * like sending a large or negative number.
+     */
+    public async sendNegativeReply(hint?: string): Promise<Discord.Message | Discord.Message[]> {
+        const idx = await randomNumber(0, NEGATIVES.length - 1)
+        const msg = NEGATIVES[idx]
+        if (hint) {
+            return this.sendReply(`${msg} (${hint})`)
+        } else {
+            return this.sendReply(msg)
+        }
+    }
+}
+
 export interface FeatureBase {
     onMessageReactionAdd?(reaction: Discord.MessageReaction): boolean
 }
@@ -37,20 +82,19 @@ export abstract class FeatureBase {
     }
 
     public name: string
-    protected negatives = NEGATIVES
     private internalBot: Bot
 
     constructor(bot: Bot, name: string) {
         this.internalBot = bot
-        this.negatives = NEGATIVES
         this.name = name
     }
 
-    public abstract handleMessage(message: Discord.Message): boolean
+    public abstract handleMessage(context: MessageContext<this>): boolean
 
     public voiceChannelStateChanged?(channel: Discord.VoiceChannel): void
 
-    public handlesMessage(message: Discord.Message): boolean {
+    public handlesMessage(context: MessageContext<this>): boolean {
+        const message = context.message
         if (!this.bot.user) {
             return false
         }
@@ -69,7 +113,8 @@ export abstract class FeatureBase {
         return false
     }
 
-    public commandTokens(message: Discord.Message): string[] {
+    public commandTokens(context: MessageContext<this>): string[] {
+        const message = context.message
         const tokens = message.content.trim().split(/\s+/)
         const user = this.bot.user
         // Remove the mention
@@ -85,34 +130,6 @@ export abstract class FeatureBase {
             }), 1)
         }
         return tokens
-    }
-
-    public replyWith(message: Discord.Message, replyStr: string): Promise<Discord.Message | Discord.Message[]> {
-        const chan = message.channel
-        return this.reply(chan, message.author, replyStr)
-    }
-
-    public reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupDMChannel,
-                 mention: Discord.User,
-                 replyStr: string): Promise<Discord.Message | Discord.Message[]> {
-        if (channel.type === "dm") {
-            return channel.send(replyStr)
-        } else {
-            return channel.send(`<@${mention.id}> ${replyStr}`)
-        }
-    }
-
-    // Send a random rejection message, intended as a result of a (usually) intentional misuse or bad parameter,
-    // like sending a large or negative number.
-    public async replyNegatively(message: Discord.Message,
-                                 hint: string | null = null): Promise<Discord.Message | Discord.Message[]> {
-        const idx = await randomNumber(0, this.negatives.length - 1)
-        const msg = this.negatives[idx]
-        if (hint) {
-            return this.replyWith(message, `${msg} (${hint})`)
-        } else {
-            return this.replyWith(message, msg)
-        }
     }
 }
 

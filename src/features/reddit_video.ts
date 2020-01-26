@@ -22,7 +22,7 @@ import { URL } from "url"
 import * as xml2js from "xml2js"
 import { getHTTPData, getJSON, head } from "../util/http"
 import { muxMP4 } from "../util/mp4_audio_video_mux"
-import { ServerFeature } from "./feature"
+import { MessageContext, ServerFeature } from "./feature"
 
 const DISCORD_UPLOAD_LIMIT = 8_000_000
 
@@ -295,7 +295,8 @@ interface PendingRedditTask {
 
 export class RedditVideoFeature extends ServerFeature {
 
-    public handlesMessage(message: Discord.Message): boolean {
+    public handlesMessage(context: MessageContext<this>): boolean {
+        const message = context.message
         if (message.content.toLowerCase().indexOf("v.redd.it") !== -1) {
             return true
         }
@@ -306,8 +307,8 @@ export class RedditVideoFeature extends ServerFeature {
         return false
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const urlsInMsg = anchorme(message.cleanContent, {list: true}) as AnchormeResult[]
+    public handleMessage(context: MessageContext<this>): boolean {
+        const urlsInMsg = anchorme(context.message.cleanContent, {list: true}) as AnchormeResult[]
         const redditUrls = urlsInMsg.map((res) => {
             const url = new URL(res.raw)
             if (commentsRegex.test(res.raw)) {
@@ -325,11 +326,12 @@ export class RedditVideoFeature extends ServerFeature {
             return null
         }).filter((url) => url !== null) as RedditURL[]
 
-        this.asyncHandleMessage(message, redditUrls)
+        this.asyncHandleMessage(context, redditUrls)
         return true
     }
 
-    private async asyncHandleMessage(message: Discord.Message, redditUrls: RedditURL[]): Promise<void> {
+    private async asyncHandleMessage(context: MessageContext<this>, redditUrls: RedditURL[]): Promise<void> {
+        const message = context.message
         const normalized = await Promise.all(redditUrls.map((url) => normalizeRedditUrl(url)))
         const normalizedUrls = normalized.filter((res) => res !== null) as URL[]
         if (normalizedUrls.length === 0) {

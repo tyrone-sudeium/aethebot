@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import * as randomNumber from "random-number-csprng"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 import { pushReroll, Rerollable } from "./reroll"
 
 interface NumberRequest {
@@ -34,8 +34,8 @@ function assertNever(x: never): never {
 }
 
 export class DiceFeature extends GlobalFeature implements Rerollable {
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
         if (tokens.length > 2) {
             return false
         }
@@ -50,16 +50,16 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
                 const numberOfDice = this.sanitizeNumberInput(diceValues[0])
                 const diceSides = this.sanitizeNumberInput(diceValues[1])
                 if (diceSides <= 1 || numberOfDice > 20) {
-                    this.replyNegatively(message)
+                    context.sendNegativeReply()
                     return true
                 }
-                this.respondWithRequest(message, {
+                this.respondWithRequest(context, {
                     dice: numberOfDice,
                     sides: diceSides,
                     type: "dice",
                 })
             } catch (error) {
-                this.replyNegatively(message)
+                context.sendNegativeReply()
                 return true
             }
             return true
@@ -69,12 +69,12 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
             try {
                 maximum = this.sanitizeNumberInput(tokens[1])
             } catch (error) {
-                this.replyNegatively(message)
+                context.sendNegativeReply()
                 return true
             }
         }
 
-        this.respondWithRequest(message, {
+        this.respondWithRequest(context, {
             maximum,
             type: "number",
         })
@@ -93,10 +93,10 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
         return parsed
     }
 
-    private async respondWithRequest(message: Discord.Message, req: Request): Promise<void> {
+    private async respondWithRequest(context: MessageContext<this>, req: Request): Promise<void> {
         const response = await this.responseForRequest(req)
-        const uploadedMessage = await this.replyWith(message, response)
-        await pushReroll(this, uploadedMessage, message, req)
+        const uploadedMessage = await context.sendReply(response)
+        await pushReroll(this, uploadedMessage, context.message, req)
     }
 
     private async responseForRequest(req: Request): Promise<string> {

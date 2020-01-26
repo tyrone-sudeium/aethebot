@@ -12,18 +12,17 @@
  */
 
 import * as Discord from "discord.js"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 const scomo = "https://cdn.discordapp.com/attachments/293954139845820416/579468190971854849/scomo.jpg"
 
 export class ScomoFeature extends GlobalFeature {
-    public handleMessage(message: Discord.Message): boolean {
-        const msg = message.cleanContent.toLowerCase()
+    public handleMessage(context: MessageContext<this>): boolean {
+        const msg = context.message.cleanContent.toLowerCase()
         if (!msg.includes("scomo")) {
             return false
         }
         const days = 1000 * 60 * 60 * 24
-        // Todo: update when parliament is sworn in
         const earliestParliament = new Date("2019-07-02T00:00:00+1000")
         const latestElection = new Date(earliestParliament.getTime() + (1095 * days))
         const timeBetween = latestElection.getTime() - new Date().getTime()
@@ -33,7 +32,7 @@ export class ScomoFeature extends GlobalFeature {
         const daysBetween = Math.ceil(timeBetween / days)
         const replyMsg = `We've got old mate Scomo for at most another ${daysBetween} days.` +
             `\n${scomo}`
-        this.replyWith(message, replyMsg)
+        context.sendReply(replyMsg)
         return true
     }
 }

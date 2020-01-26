@@ -16,7 +16,7 @@ import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
 import { removeBotMentions } from "../../util/remove_mentions"
-import { GlobalFeature } from "../feature"
+import { GlobalFeature, MessageContext } from "../feature"
 import { BrainTile } from "./brain_tile"
 import { Drawable } from "./drawable"
 import { Separator } from "./separator"
@@ -30,11 +30,11 @@ const TRIGGERS = [
 ]
 
 export class ExpandingBrainFeature extends GlobalFeature {
-    public handlesMessage(message: Discord.Message): boolean {
-        if (!super.handlesMessage(message)) {
+    public handlesMessage(context: MessageContext<this>): boolean {
+        if (!super.handlesMessage(context)) {
             return false
         }
-        const content = removeBotMentions(this.bot, message)
+        const content = removeBotMentions(this.bot, context.message)
         const lines = content.split("\n")
         if (lines.length > 0 && TRIGGERS.indexOf(lines[0].trim().toLowerCase()) !== -1) {
             return true
@@ -43,19 +43,19 @@ export class ExpandingBrainFeature extends GlobalFeature {
         return false
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const content = removeBotMentions(this.bot, message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const content = removeBotMentions(this.bot, context.message)
         const lines = content.split("\n").splice(1)
         if (lines.length === 0) {
-            this.replyNegatively(message, "supply each brain panel text on its own line")
+            context.sendNegativeReply("supply each brain panel text on its own line")
             return false
         }
         if (lines.length > 9) {
-            this.replyNegatively(message, "meme too stronk, maximum of 9 panels")
+            context.sendNegativeReply("meme too stronk, maximum of 9 panels")
             return false
         }
 
-        this.replyMeme(lines, message)
+        this.replyMeme(lines, context.message)
         return true
     }
 

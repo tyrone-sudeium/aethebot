@@ -14,7 +14,7 @@
 import * as ChildProcess from "child_process"
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 const BRAIN_KEYS = {
     LAST_DEPLOY: "dn:last_deploy",
@@ -27,8 +27,8 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         this.sendNotifications()
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
         if (tokens.length < 2) {
             return false
         }
@@ -37,17 +37,17 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
             return false
         }
         if (tokens.length > 3) {
-            this.replyWith(message, "??")
+            context.sendReply("??")
             return false
         }
         if (tokens.length > 2 &&
             (tokens[2].toLowerCase() !== "on" && tokens[2].toLowerCase() !== "off")) {
-            this.replyWith(message, "??")
+            context.sendReply("??")
             return false
         }
         // Totally valid message now. It WILL get handled eventually by the
         // async method.
-        this.handleMessageAsync(message)
+        this.handleMessageAsync(context)
         return true
     }
 
@@ -90,15 +90,16 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         await this.bot.brain.set(BRAIN_KEYS.LAST_DEPLOY, newVersion)
     }
 
-    private async handleMessageAsync(message: Discord.Message) {
-        const tokens = this.commandTokens(message)
+    private async handleMessageAsync(context: MessageContext<this>) {
+        const tokens = this.commandTokens(context)
+        const message = context.message
         const userIds = await this.getUserIds()
         if (tokens.length === 2) {
             // Fetch the status
-            if (userIds.indexOf(message.author.id) === -1) {
-                this.replyWith(message, "yeah nah you're not getting 'em mate")
+            if (userIds.indexOf(context.message.author.id) === -1) {
+                context.sendReply("yeah nah you're not getting 'em mate")
             } else {
-                this.replyWith(message, "yeah you'll get 'em mate")
+                context.sendReply("yeah you'll get 'em mate")
             }
             return
         }
@@ -111,7 +112,7 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
             userIdsSet.delete(message.author.id)
         }
         await this.setUserIds(Array.from(userIdsSet))
-        this.replyWith(message, "ok")
+        context.sendReply("ok")
     }
 
     private async getUserIds(): Promise<string[]> {

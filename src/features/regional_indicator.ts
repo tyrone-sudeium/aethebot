@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 const EMOJIS = Array.from("🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿")
 
@@ -35,12 +35,13 @@ function stringIsAlphaOnly(str: string): boolean {
 }
 
 export class RegionalIndicatorFeature extends GlobalFeature {
-    public handlesMessage(message: Discord.Message): boolean {
+    public handlesMessage(context: MessageContext<this>): boolean {
         return true
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
+        const message = context.message
         if (tokens.length < 3) {
             return false
         }
@@ -54,11 +55,11 @@ export class RegionalIndicatorFeature extends GlobalFeature {
         }
         const words = tokens.slice(2).join("")
         if (!stringIsAlphaOnly(words)) {
-            this.replyWith(message, "nah mate, alphabet characters only")
+            context.sendReply("nah mate, alphabet characters only")
             return true
         }
         if (message.channel.type !== "dm" && words.length > 20) {
-            this.replyWith(message, "nah mate, way too long, i'm not your personal spambot")
+            context.sendReply("nah mate, way too long, i'm not your personal spambot")
             return true
         }
 

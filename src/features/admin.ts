@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { User } from "../model/user"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 export class AdminFeature extends GlobalFeature {
     public constructor(bot: Bot, name: string) {
@@ -22,8 +22,8 @@ export class AdminFeature extends GlobalFeature {
         this.setupDefaultAdminUser()
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
         if (tokens.length < 1) {
             return false
         }
@@ -31,32 +31,32 @@ export class AdminFeature extends GlobalFeature {
             return false
         }
 
-        this.handleMessageAsync(message)
+        this.handleMessageAsync(context)
         return true
     }
 
-    private async handleMessageAsync(message: Discord.Message) {
-        const user = new User(this.bot, message.author.id)
+    private async handleMessageAsync(context: MessageContext<this>) {
+        const user = new User(this.bot, context.message.author.id)
         await user.load()
         if (!user.isAdmin) {
-            this.replyNegatively(message, "you are not an admin")
+            context.sendNegativeReply("you are not an admin")
             return
         }
-        if (message.channel.type !== "dm") {
-            this.replyNegatively(message, "don't do admin commands in public you nong")
+        if (context.message.channel.type !== "dm") {
+            context.sendNegativeReply("don't do admin commands in public you nong")
             return
         }
 
-        const tokens = this.commandTokens(message)
+        const tokens = this.commandTokens(context)
         if (tokens[1].toLowerCase() === "servers") {
             const servers = this.bot.joinedServers()
                 .map((guild) => `${guild.name} (${guild.id})`)
                 .join(", ")
-            this.replyWith(message, servers)
+            context.sendReply(servers)
             return
         }
 
-        this.replyWith(message, "yeah?")
+        context.sendReply("yeah?")
     }
 
     private async setupDefaultAdminUser(): Promise<void> {

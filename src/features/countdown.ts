@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import * as Moment from "moment"
 import "moment-precise-range-plugin"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 Moment.locale("en")
 
@@ -31,8 +31,8 @@ const countdowns = {
 } as {[name: string]: Countdown}
 
 export class CountdownFeature extends GlobalFeature {
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
 
         if (tokens.length < 1 ||
             tokens[0].toLowerCase() !== "countdown") {
@@ -49,9 +49,9 @@ export class CountdownFeature extends GlobalFeature {
         const millisUntil = date.unix() - now.unix()
         if (millisUntil > 0) {
             const intervalStr = now.preciseDiff(date)
-            this.replyWith(message, `${countdown.name}: ${intervalStr}`)
+            context.sendReply(`${countdown.name}: ${intervalStr}`)
         } else {
-            this.replyWith(message, `${countdown.name}: already happened!`)
+            context.sendReply(`${countdown.name}: already happened!`)
         }
         return true
     }

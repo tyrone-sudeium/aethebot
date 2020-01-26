@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
-import { GlobalFeature } from "../feature"
+import { GlobalFeature, MessageContext } from "../feature"
 import { pushReroll, Rerollable, RerollFeature } from "../reroll"
 import { Dril } from "./dril"
 
@@ -51,13 +51,14 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         this.dril = new Dril(bot.brain)
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
+        const message = context.message
         // If the only remaining token is "ping"
         if (tokens.length === 1) {
             if (GREETINGS.find( (rgx) => rgx.test(tokens[0]) )) {
                 const idx = Math.floor(Math.random() * RESPONSES.length)
-                this.replyWith(message, RESPONSES[idx])
+                context.sendReply(RESPONSES[idx])
                 return true
             }
         }
@@ -68,25 +69,25 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const messageWithoutEmoji = removeEmoji(joinedMessage)
         // If the message matches the shitheap of variants of "cakaw"
         if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
-            this.replyWith(message, CAKKAW)
+            context.sendReply(CAKKAW)
             return true
         } else if (joinedMessage === "drillme") {
             // ...th-that's lewd
-            this.replyWith(message, this.dril.getNo())
+            context.sendReply(this.dril.getNo())
             return true
         } else if (joinedMessage === "logoff") {
             // show yourself coward
-            this.replyWith(message, this.dril.logoff())
+            context.sendReply(this.dril.logoff())
             return true
         } else if (joinedMessage === "drilbomb" || (messageWithoutEmoji === "bomb" && isDrilEmoji)) {
             // Dril bomb
-            this.drilAsync(message, {
+            this.drilAsync(context, {
                 count: 5,
                 type: "drilme",
             })
         } else if (joinedMessage === "drilme" || isDrilEmoji) {
             // TODO: ^ if joinedMessage matches async responses
-            this.drilAsync(message, {
+            this.drilAsync(context, {
                 count: 1,
                 type: "drilme",
             })
@@ -105,11 +106,11 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         }
     }
 
-    private async drilAsync(message: Discord.Message, params: {type: string, count: number}) {
+    private async drilAsync(context: MessageContext<this>, params: {type: string, count: number}) {
         // it's good-ass dril content you seek
-        const tweets = await this.dril.getTweets(message.channel.id, params.count)
-        const uploadedMsg = await this.replyWith(message, tweets.join("\n"))
-        pushReroll(this, uploadedMsg, message, params, "delete")
+        const tweets = await this.dril.getTweets(context.message.channel.id, params.count)
+        const uploadedMsg = await context.sendReply(tweets.join("\n"))
+        pushReroll(this, uploadedMsg, context.message, params, "delete")
         return
     }
 }

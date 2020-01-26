@@ -15,18 +15,18 @@ import * as Chrono from "chrono-node"
 import * as Discord from "discord.js"
 import * as Moment from "moment-timezone"
 import { log } from "../log"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 const MAXIMUM_TIMEZONES = 4
 Moment.locale("en")
 
 export class TimehelperFeature extends GlobalFeature {
 
-    public handleMessage(message: Discord.Message): boolean {
+    public handleMessage(context: MessageContext<this>): boolean {
         // This is likely a command
-        if (!this.handleCommand(message)) {
+        if (!this.handleCommand(context)) {
             // Command handler failed, treat it as an ambient
-            this.handleAmbientMessage(message)
+            this.handleAmbientMessage(context)
             return false
         }
 
@@ -34,13 +34,13 @@ export class TimehelperFeature extends GlobalFeature {
         return false
     }
 
-    public async handleAmbientMessage(message: Discord.Message): Promise<boolean> {
+    public async handleAmbientMessage(context: MessageContext<this>): Promise<boolean> {
         // Remove the mentions
-        const tokens = this.commandTokens(message)
+        const tokens = this.commandTokens(context)
         const mentionRegex = /\<\@\d+\>/g
         const noMentions = tokens.filter((token) => !mentionRegex.test(token))
         const cleanMsg = noMentions.join(" ")
-        const timezone = await this.timezoneForUser(message.author.id)
+        const timezone = await this.timezoneForUser(context.message.author.id)
         if (!timezone || !Moment.tz.zone(timezone)) {
             return false
         }
@@ -82,19 +82,19 @@ export class TimehelperFeature extends GlobalFeature {
             }
         }
         if (embed.fields && embed.fields.length > 0) {
-            message.channel.sendEmbed(embed)
+            context.message.channel.sendEmbed(embed)
         }
         return false
     }
 
-    public handleCommand(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleCommand(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
         if (tokens.length >= 1 &&
             tokens[0].toLowerCase() === "timezone") {
             if (tokens.length === 1) {
                 // Just "timezone" on its own
-                this.timezoneForUser(message.author.id).then((zone) => {
-                    this.replyWith(message, "Your timezone is set to " + zone)
+                this.timezoneForUser(context.message.author.id).then((zone) => {
+                   context.sendReply("Your timezone is set to " + zone)
                 })
                 return true
             }
@@ -103,16 +103,16 @@ export class TimehelperFeature extends GlobalFeature {
                 "remove", "delete", "delet", "nil", "null", "none",
             ]
             if (removeKeywords.indexOf(timezone.toLowerCase()) !== -1) {
-                this.removeTimezoneForUser(message.author)
-                this.replyWith(message, "ok")
+                this.removeTimezoneForUser(context.message.author)
+                context.sendReply("ok")
                 return true
             }
             if (!Moment.tz.zone(timezone)) {
-                this.replyWith(message, "I don't recognise that timezone")
+                context.sendReply("I don't recognise that timezone")
                 return true
             }
-            this.setTimezoneForUser(timezone, message.author.id)
-            this.replyWith(message, "ok")
+            this.setTimezoneForUser(timezone, context.message.author.id)
+            context.sendReply("ok")
             return true
         } else {
             return false

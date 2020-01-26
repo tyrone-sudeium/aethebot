@@ -15,6 +15,7 @@ import * as Discord from "discord.js"
 import { Brain, MemoryBrain } from "./brain"
 import { GlobalFeature, GlobalFeatureConstructor } from "./features"
 import * as Features from "./features"
+import { MessageContext } from "./features/feature"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
 import { User } from "./model/user"
@@ -113,8 +114,9 @@ export class Bot {
 
     private receiveMessage(msg: Discord.Message) {
         for (const [_, feature] of this.loadedFeatures) {
-            if (feature.handlesMessage(msg)) {
-                feature.handleMessage(msg)
+            const context = new MessageContext(msg, feature)
+            if (feature.handlesMessage(context)) {
+                feature.handleMessage(context)
             }
         }
     }

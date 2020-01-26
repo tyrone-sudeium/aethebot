@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { log } from "../log"
-import { FeatureBase, GlobalFeature } from "./feature"
+import { FeatureBase, GlobalFeature, MessageContext } from "./feature"
 
 export interface Rerollable {
     reroll(params: any, originalMessage: Discord.Message): Promise<string>
@@ -47,11 +47,11 @@ const TIMEOUT = 300000
 type RerollableFeature = FeatureBase & Rerollable
 
 export class RerollFeature extends GlobalFeature {
-    public handlesMessage(message: Discord.Message): boolean {
-        if (!super.handlesMessage(message)) {
+    public handlesMessage(context: MessageContext<this>): boolean {
+        if (!super.handlesMessage(context)) {
             return false
         }
-        const tokens = this.commandTokens(message)
+        const tokens = this.commandTokens(context)
         // If the only remaining token is in the triggers
         if (tokens.length === 1 && TRIGGERS.indexOf(tokens[0].toLowerCase()) !== -1) {
             return true
@@ -60,8 +60,8 @@ export class RerollFeature extends GlobalFeature {
         return false
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        this.doReroll(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        this.doReroll(context)
         return true
     }
 
@@ -103,15 +103,16 @@ export class RerollFeature extends GlobalFeature {
         }
     }
 
-    private async doReroll(requestMsg: Discord.Message) {
+    private async doReroll(context: MessageContext<this>) {
+        const requestMsg = context.message
         const item = await this.lastItemForChannel(requestMsg.channel.id)
         if (!item) {
-            this.replyNegatively(requestMsg)
+            context.sendNegativeReply()
             return
         }
         if (new Date().getTime() - item.timestamp > TIMEOUT) {
             await this.bot.brain.remove(this.brainKeyForChannel(requestMsg.channel.id))
-            this.replyNegatively(requestMsg)
+            context.sendNegativeReply()
             return
         }
         try {
@@ -119,12 +120,12 @@ export class RerollFeature extends GlobalFeature {
             const humanMessage = await requestMsg.channel.fetchMessage(item.humanMessageId)
             const originalPoster = humanMessage.author
             if (!originalPoster || !requestMsg.author.equals(originalPoster)) {
-                this.replyNegatively(requestMsg)
+                context.sendNegativeReply()
                 return
             }
             const feature = this.bot.loadedFeatureForName(item.featureName)
             if (!botMessage || !feature) {
-                this.replyNegatively(requestMsg)
+                context.sendNegativeReply()
                 return
             }
             if ((feature as RerollableFeature).reroll) {
@@ -142,7 +143,7 @@ export class RerollFeature extends GlobalFeature {
                     }
                 }
             } else {
-                this.replyNegatively(requestMsg)
+                context.sendNegativeReply()
                 return
             }
         } catch (err) {

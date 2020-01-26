@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
-import { GlobalFeature } from "../feature"
+import { GlobalFeature, MessageContext } from "../feature"
 import { Noise, NOISES } from "./noises"
 
 // tslint:disable:no-console
@@ -44,8 +44,9 @@ interface VoicePlaybackIntent {
 export class VoiceNoiseFeature extends GlobalFeature {
     private pendingPlayback = new Map<string, VoicePlaybackIntent[]>()
 
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
+        const message = context.message
         const noise = this.noiseForMessage(tokens.join(" "))
         if (!noise) {
             return false
@@ -62,7 +63,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         }
         const authorVoiceChannel = message.member.voiceChannel
         if (!authorVoiceChannel.joinable) {
-            this.replyNegatively(message, "can't join your channel")
+            context.sendNegativeReply("can't join your channel")
             return true
         }
 

@@ -17,7 +17,7 @@ import "moment-precise-range-plugin"
 import { Bot } from "../bot"
 import { log } from "../log"
 import { getJSON } from "../util/http"
-import { GlobalFeature } from "./feature"
+import { GlobalFeature, MessageContext } from "./feature"
 
 interface CoindeskAPIResponse<ResponseType> {
     data: ResponseType,
@@ -55,8 +55,8 @@ export class ShitcoinFeature extends GlobalFeature {
         this.refreshTimer = this.startRefreshTimer()
     }
 
-    public handleMessage(message: Discord.Message): boolean {
-        const tokens = this.commandTokens(message)
+    public handleMessage(context: MessageContext<this>): boolean {
+        const tokens = this.commandTokens(context)
 
         if (tokens.length < 1 ||
             tokens[0].toLowerCase() !== "shitcoin") {
@@ -68,7 +68,7 @@ export class ShitcoinFeature extends GlobalFeature {
                 return
             }
             if (embed.fields.length > 0) {
-                message.channel.send("", {
+                context.message.channel.send("", {
                     embed,
                 })
             }
