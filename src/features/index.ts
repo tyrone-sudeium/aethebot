@@ -19,8 +19,9 @@ import { CountdownFeature } from "./countdown"
 import { DebugFeature } from "./debug"
 import { DeploymentNotificationsFeature } from "./deployment_notifications"
 import { DiceFeature } from "./dice"
-import { ExpandingBrainFeature } from "./expanding_brain"
 import { GlobalFeature, ServerFeature } from "./feature"
+import { GalaxyBrainFeature } from "./memegen/galaxy_brain"
+import { VinceMcMahonFeature } from "./memegen/vince"
 import { PingFeature } from "./ping/"
 import { ReactorFeature } from "./reactor"
 import { RedditVideoFeature } from "./reddit_video"
@@ -51,7 +52,8 @@ export const allFeatures: Array<GlobalFeatureConstructor<GlobalFeature>> = [
     DeploymentNotificationsFeature,
     DiceFeature,
     AdminFeature,
-    ExpandingBrainFeature,
+    GalaxyBrainFeature,
+    VinceMcMahonFeature,
     ScomoFeature,
     UptimeFeature,
 ]

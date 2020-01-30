@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   bot:
-    image: node:8.9.4
+    image: node:12.14.1
     command: yarn debug-bot
     working_dir: /app
     ports:
@@ -13,7 +13,7 @@ services:
     env_file:
       - ./development.env
   website:
-    image: node:8.9.4
+    image: node:12.14.1
     command: yarn debug-web
     working_dir: /app
     ports:

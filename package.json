@@ -11,7 +11,7 @@
     "debug-web": "nodemon --watch ./dist --inspect=0.0.0.0:9223 --nolazy dist/index.js --website"
   },
   "engines": {
-    "node": "8.9.4"
+    "node": "12.14.1"
   },
   "repository": {
     "type": "git",
@@ -46,14 +46,17 @@
     "discord.js": "11.4.2",
     "express": "^4.14.1",
     "ffmpeg-binaries": "^3.2.2-3",
+    "gif-encoder-2": "^1.0.5",
     "minimist": "^1.2.0",
     "moment-precise-range-plugin": "^1.2.3",
     "moment-timezone": "^0.5.11",
-    "node-opus": "^0.2.4",
+    "node-opus": "0.3.3",
     "prism-media": "0.2.1",
     "pug": "2.0.4",
     "random-number-csprng": "^1.0.2",
     "redis": "^2.6.5",
+    "ref": "lxe/ref#node-12",
+    "ref-struct": "lxe/ref-struct#node-12",
     "strict-event-emitter-types": "^2.0.0",
     "tslint": "^5.8.0",
     "typescript": "^3.2.2",
@@ -62,5 +65,9 @@
   },
   "devDependencies": {
     "nodemon": "1.19.3"
+  },
+  "resolutions": {
+    "**/ref": "lxe/ref#node-12",
+    "**/ref-struct": "lxe/ref-struct#node-12"
   }
 }

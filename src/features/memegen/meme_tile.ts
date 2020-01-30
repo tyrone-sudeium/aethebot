@@ -97,7 +97,7 @@ function wrappedTextAtSize(ctx: NodeCanvasRenderingContext2D,
     }
 }
 
-export class BrainTile implements Drawable {
+export class MemeTile implements Drawable {
     public text: string
     public image: Image
     public width: number

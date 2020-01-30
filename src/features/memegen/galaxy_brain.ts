@@ -17,8 +17,8 @@ import * as FS from "fs"
 import * as Path from "path"
 import { removeBotMentions } from "../../util/remove_mentions"
 import { GlobalFeature, MessageContext } from "../feature"
-import { BrainTile } from "./brain_tile"
 import { Drawable } from "./drawable"
+import { MemeTile } from "./meme_tile"
 import { Separator } from "./separator"
 
 const WIDTH = 600
@@ -29,7 +29,7 @@ const TRIGGERS = [
     "brain meme",
 ]
 
-export class ExpandingBrainFeature extends GlobalFeature {
+export class GalaxyBrainFeature extends GlobalFeature {
     public handlesMessage(context: MessageContext<this>): boolean {
         if (!super.handlesMessage(context)) {
             return false
@@ -61,7 +61,7 @@ export class ExpandingBrainFeature extends GlobalFeature {
 
     private async replyMeme(lines: string[], message: Discord.Message): Promise<void> {
         const images = await this.loadImages(lines.length)
-        const tiles = images.map((img, idx) => new BrainTile(lines[idx], img, WIDTH))
+        const tiles = images.map((img, idx) => new MemeTile(lines[idx], img, WIDTH))
         let drawables: Drawable[] = []
         drawables = drawables.concat(...tiles.map((t) => [new Separator(WIDTH, SEPARATOR_HEIGHT), t])).slice(1)
         const totalHeight = drawables.reduce(((acc, drawable) => acc + drawable.height), 0)
