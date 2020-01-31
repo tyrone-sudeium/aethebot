@@ -11,9 +11,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as ChildProcess from "child_process"
-import * as Discord from "discord.js"
 import { Bot } from "../bot"
+import { sourceVersion } from "../util/version"
 import { GlobalFeature, MessageContext } from "./feature"
 
 const BRAIN_KEYS = {
@@ -51,33 +50,10 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         return true
     }
 
-    private async sourceVersion(): Promise<string> {
-        let version = process.env.SOURCE_VERSION as string
-        if (!version) {
-            try {
-                version = await this.gitRevision()
-            } catch (err) {
-                version = "unknown version"
-            }
-        }
-        return version
-    }
-
-    private gitRevision(): Promise<string> {
-        return new Promise((resolve, reject) => {
-            ChildProcess.exec("git rev-parse HEAD", (err, stdout) => {
-                if (err) {
-                    reject(err)
-                }
-                resolve(stdout.trim())
-            })
-        })
-    }
-
     private async sendNotifications(): Promise<void> {
         const lastDeploy = await this.bot.brain.get(BRAIN_KEYS.LAST_DEPLOY)
         const userIds = await this.getUserIds()
-        const newVersion = await this.sourceVersion()
+        const newVersion = await sourceVersion()
         if (lastDeploy === newVersion) {
             return // no-op if we've already notified about this version
         }
