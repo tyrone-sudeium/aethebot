@@ -86,7 +86,7 @@ function dedent(strings: TemplateStringsArray, ...values: string[]): string {
         .replace(/\\n/g, "\n")
 }
 
-async function readBody(request: HTTP.ServerRequest): Promise<string> {
+async function readBody(request: HTTP.IncomingMessage): Promise<string> {
     return new Promise((resolve, reject) => {
         let data = ""
         request.on("data", (chunk) => {
@@ -97,7 +97,7 @@ async function readBody(request: HTTP.ServerRequest): Promise<string> {
     })
 }
 
-function serveStatic(path: string, contentType: string, req: HTTP.ServerRequest, res: HTTP.ServerResponse): void {
+function serveStatic(path: string, contentType: string, req: HTTP.IncomingMessage, res: HTTP.ServerResponse): void {
     const resolved = Path.resolve(Path.join("public", path))
     FS.exists(resolved, (exists) => {
         if (!exists) {
@@ -111,8 +111,8 @@ function serveStatic(path: string, contentType: string, req: HTTP.ServerRequest,
     })
 }
 
-function renderGenericCode(code: number): (req: HTTP.ServerRequest, res: HTTP.ServerResponse) => void {
-    return (req: HTTP.ServerRequest, res: HTTP.ServerResponse) => {
+function renderGenericCode(code: number): (req: HTTP.IncomingMessage, res: HTTP.ServerResponse) => void {
+    return (req: HTTP.IncomingMessage, res: HTTP.ServerResponse) => {
         res.statusCode = code
         res.setHeader("Content-Type", "text/plain")
         res.write(`${code}`)
@@ -153,7 +153,7 @@ export class Website {
         }
     }
 
-    public serverCallback(req: HTTP.ServerRequest, res: HTTP.ServerResponse): void {
+    public serverCallback(req: HTTP.IncomingMessage, res: HTTP.ServerResponse): void {
         if (!req.url) {
             render404(req, res)
             return
@@ -194,7 +194,7 @@ export class Website {
         this.brain.systemMessages.emit("reconnect")
     }
 
-    public async renderRoot(req: HTTP.ServerRequest, res: HTTP.ServerResponse): Promise<void> {
+    public async renderRoot(req: HTTP.IncomingMessage, res: HTTP.ServerResponse): Promise<void> {
         try {
             const str = await new Promise<string>((resolve, reject) => {
                 FS.readFile("package.json", "utf8", (err, fileStr) => {
@@ -228,7 +228,7 @@ export class Website {
         }
     }
 
-    public renderAdmin(req: HTTP.ServerRequest, res: HTTP.ServerResponse): void {
+    public renderAdmin(req: HTTP.IncomingMessage, res: HTTP.ServerResponse): void {
         const html = dedent`
         <html>
 
@@ -271,7 +271,7 @@ export class Website {
         res.end()
     }
 
-    public async renderAdminPost(req: HTTP.ServerRequest, res: HTTP.ServerResponse): Promise<void> {
+    public async renderAdminPost(req: HTTP.IncomingMessage, res: HTTP.ServerResponse): Promise<void> {
         try {
             const body = await readBody(req)
             const parts = body.split("&")

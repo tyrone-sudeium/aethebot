@@ -15,6 +15,7 @@
   },
   "files": [
     "src/types/index.d.ts",
-    "src/index.ts"
+    "src/index.ts",
+    "src/workers/vince.ts"
   ]
 }

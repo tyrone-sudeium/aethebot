@@ -28,11 +28,11 @@ const NEGATIVES = [
 
 function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupDMChannel,
                mention: Discord.User,
-               replyStr: string): Promise<Discord.Message | Discord.Message[]> {
+               replyStr: string): Promise<Discord.Message> {
     if (channel.type === "dm") {
-        return channel.send(replyStr)
+        return channel.send(replyStr) as Promise<Discord.Message>
     } else {
-        return channel.send(`<@${mention.id}> ${replyStr}`)
+        return channel.send(`<@${mention.id}> ${replyStr}`) as Promise<Discord.Message>
     }
 }
 
@@ -52,7 +52,7 @@ export class MessageContext<F extends FeatureBase> {
         return this.myFeature
     }
 
-    public async sendReply(str: string): Promise<Discord.Message | Discord.Message[]> {
+    public async sendReply(str: string): Promise<Discord.Message> {
         return reply(this.message.channel, this.message.author, str)
     }
 
