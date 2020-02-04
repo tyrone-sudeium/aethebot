@@ -36,7 +36,7 @@
     "canvas": "^2.0.0-alpha.12",
     "chrono-node": "^1.2.5",
     "discord.js": "11.4.2",
-    "gif-encoder-2": "^1.0.5",
+    "gif-encoder-2": "tyrone-sudeium/gif-encoder-2#feature/type_definitions",
     "minimist": "^1.2.0",
     "moment-precise-range-plugin": "^1.2.3",
     "moment-timezone": "^0.5.11",
