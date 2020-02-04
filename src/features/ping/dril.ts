@@ -15,6 +15,7 @@ import { Brain } from "../../brain"
 
 const NEVER = "https://twitter.com/dril/status/247222360309121024"
 const NO = "https://twitter.com/dril/status/922321981"
+const GEANS = "https://pbs.twimg.com/media/DmO9KAKUUAAfRUN?format=jpg"
 const BRAIN_KEYS = {
     TOOT_LIST: "dril:toot_list",
 }
@@ -174,6 +175,10 @@ export class Dril {
 
     public logoff(): string {
         return NEVER
+    }
+
+    public getGeans(): string {
+        return GEANS
     }
 
     private brainKeyForChannel(chanId: string) {
