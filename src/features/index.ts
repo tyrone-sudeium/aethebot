@@ -11,6 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { AdminFeature } from "./admin"
 import { AutoKimFeature } from "./autokim"
@@ -32,7 +33,6 @@ import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
 import { UptimeFeature } from "./uptime"
 import { VoiceNoiseFeature } from "./voicenoise/"
-import * as Discord from "discord.js"
 
 export { GlobalFeature }
 

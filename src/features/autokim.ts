@@ -11,8 +11,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { ServerFeature } from "./feature"
 import * as Discord from "discord.js"
+import { ServerFeature } from "./feature"
 
 export class AutoKimFeature extends ServerFeature {
     public handlesMessage(): boolean {

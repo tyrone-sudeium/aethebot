@@ -14,9 +14,9 @@
 
 import * as FS from "fs"
 import * as Path from "path"
+import * as Discord from "discord.js"
 import { GlobalFeature, MessageContext } from "../feature"
 import { Noise, NOISES } from "./noises"
-import * as Discord from "discord.js"
 
 /* eslint-disable no-console */
 

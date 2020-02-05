@@ -14,12 +14,12 @@
 import { ChildProcess, fork } from "child_process"
 import * as FS from "fs"
 import * as Path from "path"
+import { v4 as uuid } from "uuid"
+import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { log } from "../../log"
 import { removeBotMentions } from "../../util/remove_mentions"
 import { GlobalFeature, MessageContext } from "../feature"
-import { v4 as uuid } from "uuid"
-import * as Discord from "discord.js"
 
 const TRIGGERS = [
     "vince",

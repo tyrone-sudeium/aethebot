@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import { Brain } from "./brain"
 import { GlobalFeature, GlobalFeatureConstructor } from "./features"
 import { MessageContext } from "./features/feature"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
-import * as Discord from "discord.js"
 
 export class Bot {
     public brain: Brain

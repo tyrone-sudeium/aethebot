@@ -12,8 +12,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Drawable } from "./drawable"
 import { NodeCanvasRenderingContext2D } from "canvas"
+import { Drawable } from "./drawable"
 
 export class Separator implements Drawable {
     public width: number

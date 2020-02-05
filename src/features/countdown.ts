@@ -12,8 +12,8 @@
  */
 
 
-import { GlobalFeature, MessageContext } from "./feature"
 import * as Moment from "moment"
+import { GlobalFeature, MessageContext } from "./feature"
 import "moment-precise-range-plugin"
 
 Moment.locale("en")

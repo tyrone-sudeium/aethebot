@@ -11,10 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { GlobalFeature, MessageContext } from "./feature"
 import * as Chrono from "chrono-node"
 import * as Discord from "discord.js"
 import * as Moment from "moment-timezone"
+import { GlobalFeature, MessageContext } from "./feature"
 
 const MAXIMUM_TIMEZONES = 4
 Moment.locale("en")

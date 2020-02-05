@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as randomNumber from "random-number-csprng"
 import { GlobalFeature, MessageContext } from "./feature"
 import { pushReroll, Rerollable } from "./reroll"
-import * as randomNumber from "random-number-csprng"
 
 interface NumberRequest {
     type: "number"

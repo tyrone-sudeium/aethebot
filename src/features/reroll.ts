@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import { log } from "../log"
 import { FeatureBase, GlobalFeature, MessageContext } from "./feature"
-import * as Discord from "discord.js"
 
 export interface Rerollable {
     reroll(params: any, originalMessage: Discord.Message): Promise<string>

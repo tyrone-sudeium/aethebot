@@ -14,11 +14,11 @@
 import * as FS from "fs"
 import * as OS from "os"
 import * as Path from "path"
+import { createCanvas, Image, loadImage } from "canvas"
 import { Drawable } from "../features/memegen/drawable"
 import { MemeTile } from "../features/memegen/meme_tile"
 import { Separator } from "../features/memegen/separator"
 import { log } from "../log"
-import { createCanvas, Image, loadImage } from "canvas"
 
 import GIFEncoder = require("gif-encoder-2")
 const WIDTH = 480

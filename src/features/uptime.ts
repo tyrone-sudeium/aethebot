@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Moment from "moment"
 import { Bot } from "../bot"
 import { GlobalFeature, MessageContext } from "./feature"
-import * as Moment from "moment"
 import "moment-precise-range-plugin"
 
 export class UptimeFeature extends GlobalFeature {

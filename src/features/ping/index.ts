@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
 import { GlobalFeature, MessageContext } from "../feature"
 import { pushReroll, Rerollable } from "../reroll"
 import { Dril } from "./dril"
-import * as Discord from "discord.js"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
 const GREETINGS = [

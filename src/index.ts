@@ -12,14 +12,14 @@
  */
 
 import { EventEmitter } from "events"
+import * as Redis from "redis"
+import * as parseArgs from "minimist"
 import { Bot } from "./bot"
 import { Brain, FlatFileBrain, MemoryBrain, RedisBrain } from "./brain"
 import { RedisPubSubEventEmitter } from "./brain/redis"
 import { allFeatures } from "./features"
 import { log } from "./log"
 import { Website } from "./website"
-import * as Redis from "redis"
-import * as parseArgs from "minimist"
 
 const argv = parseArgs(process.argv.slice(2), {
     boolean: ["website", "bot"],

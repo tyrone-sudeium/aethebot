@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { Image, NodeCanvasRenderingContext2D } from "canvas"
 import { Rect } from "../../util/rect"
 import { Drawable } from "./drawable"
-import { Image, NodeCanvasRenderingContext2D } from "canvas"
 
 interface WrapTextResult {
     lines: string[]

@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
+import * as Moment from "moment"
 import { Bot } from "../bot"
 import { log } from "../log"
 import { getJSON } from "../util/http"
 import { GlobalFeature, MessageContext } from "./feature"
-import * as Discord from "discord.js"
-import * as Moment from "moment"
 import "moment-precise-range-plugin"
 
 interface CoindeskAPIResponse<ResponseType> {

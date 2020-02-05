@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { allServerFeatures, ServerFeatureConstructor } from "../features"
 import { User } from "../model/user"
 import { isNotNullary } from "../util/predicates"
 import { GlobalFeature, MessageContext, ServerFeature } from "./feature"
-import * as Discord from "discord.js"
 
 const BRAIN_KEYS = {
     FEATURES: "sf:features",

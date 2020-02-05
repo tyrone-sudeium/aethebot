@@ -11,8 +11,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Bot } from "../bot"
 import * as Discord from "discord.js"
+import { Bot } from "../bot"
 
 export function removeBotMentions(bot: Bot, message: Discord.Message): string {
     if (!bot.user) {

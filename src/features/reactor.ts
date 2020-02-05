@@ -11,8 +11,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { MessageContext, ServerFeature } from "./feature"
 import * as Discord from "discord.js"
+import { MessageContext, ServerFeature } from "./feature"
 
 export interface Reaction {
     reaction: string | Discord.Emoji | Discord.ReactionEmoji

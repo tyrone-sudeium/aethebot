@@ -12,13 +12,13 @@
  */
 
 import * as Path from "path"
+import * as Discord from "discord.js"
+import { createCanvas, Image, loadImage } from "canvas"
 import { removeBotMentions } from "../../util/remove_mentions"
 import { GlobalFeature, MessageContext } from "../feature"
 import { Drawable } from "./drawable"
 import { MemeTile } from "./meme_tile"
 import { Separator } from "./separator"
-import * as Discord from "discord.js"
-import { createCanvas, Image, loadImage } from "canvas"
 
 const WIDTH = 600
 const SEPARATOR_HEIGHT = 3

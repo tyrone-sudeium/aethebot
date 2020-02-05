@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Bot } from "../bot"
 import * as Discord from "discord.js"
 import * as randomNumber from "random-number-csprng"
+import { Bot } from "../bot"
 
 const NEGATIVES = [
     "yeah, nah",

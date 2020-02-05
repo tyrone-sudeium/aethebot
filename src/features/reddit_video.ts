@@ -16,13 +16,13 @@ import * as FS from "fs"
 import * as OS from "os"
 import * as Path from "path"
 import { URL } from "url"
-import { getHTTPData, getJSON, head } from "../util/http"
-import { muxMP4 } from "../util/mp4_audio_video_mux"
-import { MessageContext, ServerFeature } from "./feature"
 import * as xml2js from "xml2js"
 import * as Discord from "discord.js"
 import * as arrayFlatten from "array-flatten"
 import anchorme from "anchorme"
+import { muxMP4 } from "../util/mp4_audio_video_mux"
+import { getHTTPData, getJSON, head } from "../util/http"
+import { MessageContext, ServerFeature } from "./feature"
 
 const DISCORD_UPLOAD_LIMIT = 8_000_000
 

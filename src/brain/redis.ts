@@ -12,11 +12,11 @@
  */
 
 import { EventEmitter } from "events"
-import { log } from "../log"
-import { Brain, SystemMessages } from "./brain"
 import { RedisClient } from "redis"
 import StrictEventEmitter from "strict-event-emitter-types"
 import { v4 as uuid } from "uuid"
+import { log } from "../log"
+import { Brain, SystemMessages } from "./brain"
 
 function promisify<T>(func: (callback: (err: any, result: T) => void) => void): Promise<T> {
     return new Promise<T>((resolve, reject) => {
