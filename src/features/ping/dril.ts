@@ -15,7 +15,7 @@ import { Brain } from "../../brain"
 
 const NEVER = "https://twitter.com/dril/status/247222360309121024"
 const NO = "https://twitter.com/dril/status/922321981"
-const GEANS = "https://pbs.twimg.com/media/DmO9KAKUUAAfRUN?format=jpg"
+const GEANS = "https://media.discordapp.net/attachments/293954139845820416/674437889693843476/image0.jpg"
 const BRAIN_KEYS = {
     TOOT_LIST: "dril:toot_list",
 }
