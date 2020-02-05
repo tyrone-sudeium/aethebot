@@ -85,5 +85,6 @@ declare module "array-flatten" {
     function arrayFlatten<U>(depth?: number): any[]
 
     // ¯\_(ツ)_/¯
+    // eslint-disable-next-line @typescript-eslint/no-namespace
     namespace arrayFlatten {}
 }

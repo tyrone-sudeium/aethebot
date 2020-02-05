@@ -1,3 +1,4 @@
+
 /**
  * Debug logging.
  */
@@ -12,13 +13,13 @@
  */
 
 // Allow console.log in this file -- it's a damn logger
-/* tslint:disable:no-console */
+/* eslint-disable no-console */
 
 type LogWhen =
     | "dev"
     | "always"
 
-export function log(msg: string, when: LogWhen = "dev") {
+export function log(msg: string, when: LogWhen = "dev"): void {
     const debug = (process.env.NODE_ENV || "development") === "development"
     if (when === "always") {
         console.log(msg)

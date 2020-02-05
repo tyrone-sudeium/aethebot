@@ -11,11 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
-import * as Moment from "moment"
-import "moment-precise-range-plugin"
 import { Bot } from "../bot"
 import { GlobalFeature, MessageContext } from "./feature"
+import * as Moment from "moment"
+import "moment-precise-range-plugin"
 
 export class UptimeFeature extends GlobalFeature {
     private startTime: number
@@ -37,7 +36,7 @@ export class UptimeFeature extends GlobalFeature {
         return true
     }
 
-    public setStartTime(newTime: number) {
+    public setStartTime(newTime: number): void {
         this.startTime = newTime
     }
 }

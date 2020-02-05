@@ -11,28 +11,28 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
-import * as Moment from "moment"
-import "moment-precise-range-plugin"
 import { Bot } from "../bot"
 import { log } from "../log"
 import { getJSON } from "../util/http"
 import { GlobalFeature, MessageContext } from "./feature"
+import * as Discord from "discord.js"
+import * as Moment from "moment"
+import "moment-precise-range-plugin"
 
 interface CoindeskAPIResponse<ResponseType> {
-    data: ResponseType,
+    data: ResponseType
     warnings: CoindeskAPIWarning[]
 }
 
 interface CoindeskAPIWarning {
-    id: string,
-    message: string,
+    id: string
+    message: string
     url: string
 }
 
 interface CoindeskPriceResponse {
-    base: string,
-    currency: string,
+    base: string
+    currency: string
     amount: string
 }
 
@@ -50,7 +50,7 @@ const BRAIN_KEYS = {
 export class ShitcoinFeature extends GlobalFeature {
     private refreshTimer: NodeJS.Timer
 
-    constructor(bot: Bot, name: string) {
+    public constructor(bot: Bot, name: string) {
         super(bot, name)
         this.refreshTimer = this.startRefreshTimer()
     }
@@ -63,7 +63,7 @@ export class ShitcoinFeature extends GlobalFeature {
             return false
         }
 
-        this.messageEmbed().then((embed) => {
+        this.messageEmbed().then(embed => {
             if (!embed || !embed.fields) {
                 return
             }

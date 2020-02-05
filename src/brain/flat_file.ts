@@ -25,7 +25,7 @@ export class FlatFileBrain implements Brain {
     private saveTimer: NodeJS.Timer | undefined
     private savingLock = false
 
-    constructor(filePath: string) {
+    public constructor(filePath: string) {
         this.filePath = filePath
         this.load()
     }
@@ -33,7 +33,7 @@ export class FlatFileBrain implements Brain {
     public save(): Promise<void> {
         return new Promise((resolve, reject) => {
             this.savingLock = true
-            FS.writeFile(this.filePath, JSON.stringify(this.storage), "utf8", (err) => {
+            FS.writeFile(this.filePath, JSON.stringify(this.storage), "utf8", err => {
                 this.savingLock = false
                 if (err) {
                     reject(err)

@@ -16,5 +16,5 @@ import { NodeCanvasRenderingContext2D } from "canvas"
 export interface Drawable {
     height: number
     width: number
-    drawInContext(ctx: NodeCanvasRenderingContext2D, offset?: {x: number, y: number}): void
+    drawInContext(ctx: NodeCanvasRenderingContext2D, offset?: {x: number; y: number}): void
 }

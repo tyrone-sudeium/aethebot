@@ -11,10 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
+
+import { GlobalFeature, MessageContext } from "./feature"
 import * as Moment from "moment"
 import "moment-precise-range-plugin"
-import { GlobalFeature, MessageContext } from "./feature"
 
 Moment.locale("en")
 

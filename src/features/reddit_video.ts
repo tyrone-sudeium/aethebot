@@ -12,17 +12,17 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import anchorme from "anchorme"
-import * as arrayFlatten from "array-flatten"
-import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as OS from "os"
 import * as Path from "path"
 import { URL } from "url"
-import * as xml2js from "xml2js"
 import { getHTTPData, getJSON, head } from "../util/http"
 import { muxMP4 } from "../util/mp4_audio_video_mux"
 import { MessageContext, ServerFeature } from "./feature"
+import * as xml2js from "xml2js"
+import * as Discord from "discord.js"
+import * as arrayFlatten from "array-flatten"
+import anchorme from "anchorme"
 
 const DISCORD_UPLOAD_LIMIT = 8_000_000
 
@@ -186,7 +186,7 @@ export async function findBestSegment(segments: PlaylistSegment[], audioSize: nu
     // Sort the segments by bandwidth and start with the biggest first
     const sorted = segments.sort((a, b) => b.bandwidth - a.bandwidth)
     // Filter out the ones that don't match our needs
-    const filtered = sorted.filter((seg) => {
+    const filtered = sorted.filter(seg => {
         if (seg.mimeType !== "video/mp4") {
             return false
         }
@@ -222,7 +222,7 @@ function isValidVRedditURL(url: URL): boolean {
         return false
     }
     // Path must start with "/"
-    if (url.pathname[0] !== "/") {
+    if (!url.pathname.startsWith("/")) {
         return false
     }
     // Path must have one segment
@@ -268,8 +268,8 @@ async function processRedditUrl(sourceMessage: Discord.Message, vUrl: URL): Prom
         const video = await getVideo(vUrl, audio.size)
         if (audio.size > 0) {
             const output = await muxMP4(video.path, audio.path, filePath)
-            await new Promise((res) => { FS.unlink(audio.path, () => res()) })
-            await new Promise((res) => { FS.unlink(video.path, () => res()) })
+            await new Promise(res => { FS.unlink(audio.path, () => res()) })
+            await new Promise(res => { FS.unlink(video.path, () => res()) })
             return output
         } else {
             return video.path
@@ -297,7 +297,7 @@ export class RedditVideoFeature extends ServerFeature {
 
     public handlesMessage(context: MessageContext<this>): boolean {
         const message = context.message
-        if (message.content.toLowerCase().indexOf("v.redd.it") !== -1) {
+        if (message.content.toLowerCase().includes("v.redd.it")) {
             return true
         }
 
@@ -309,7 +309,7 @@ export class RedditVideoFeature extends ServerFeature {
 
     public handleMessage(context: MessageContext<this>): boolean {
         const urlsInMsg = anchorme(context.message.cleanContent, {list: true}) as AnchormeResult[]
-        const redditUrls = urlsInMsg.map((res) => {
+        const redditUrls = urlsInMsg.map(res => {
             const url = new URL(res.raw)
             if (commentsRegex.test(res.raw)) {
                 return {
@@ -324,7 +324,7 @@ export class RedditVideoFeature extends ServerFeature {
                 } as RedditURL
             }
             return null
-        }).filter((url) => url !== null) as RedditURL[]
+        }).filter(url => url !== null) as RedditURL[]
 
         this.asyncHandleMessage(context, redditUrls)
         return true
@@ -332,13 +332,13 @@ export class RedditVideoFeature extends ServerFeature {
 
     private async asyncHandleMessage(context: MessageContext<this>, redditUrls: RedditURL[]): Promise<void> {
         const message = context.message
-        const normalized = await Promise.all(redditUrls.map((url) => normalizeRedditUrl(url)))
-        const normalizedUrls = normalized.filter((res) => res !== null) as URL[]
+        const normalized = await Promise.all(redditUrls.map(url => normalizeRedditUrl(url)))
+        const normalizedUrls = normalized.filter(res => res !== null) as URL[]
         if (normalizedUrls.length === 0) {
             return
         }
         const noun = normalizedUrls.length === 1 ? "video" : "videos"
-        const destMsg = await message.channel.send(`Just a sec, pulling the ${noun} from reddit ...`) as Discord.Message
+        await message.channel.send(`Just a sec, pulling the ${noun} from reddit ...`)
         for (const url of normalizedUrls) {
             const result = await processRedditUrl(message, url)
             if (result) {

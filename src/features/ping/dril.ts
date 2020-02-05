@@ -181,7 +181,7 @@ export class Dril {
         return GEANS
     }
 
-    private brainKeyForChannel(chanId: string) {
+    private brainKeyForChannel(chanId: string): string {
         return `${BRAIN_KEYS.TOOT_LIST}:${chanId}`
     }
 }

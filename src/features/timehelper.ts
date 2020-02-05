@@ -11,11 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { GlobalFeature, MessageContext } from "./feature"
 import * as Chrono from "chrono-node"
 import * as Discord from "discord.js"
 import * as Moment from "moment-timezone"
-import { log } from "../log"
-import { GlobalFeature, MessageContext } from "./feature"
 
 const MAXIMUM_TIMEZONES = 4
 Moment.locale("en")
@@ -38,7 +37,7 @@ export class TimehelperFeature extends GlobalFeature {
         // Remove the mentions
         const tokens = this.commandTokens(context)
         const mentionRegex = /\<\@\d+\>/g
-        const noMentions = tokens.filter((token) => !mentionRegex.test(token))
+        const noMentions = tokens.filter(token => !mentionRegex.test(token))
         const cleanMsg = noMentions.join(" ")
         const timezone = await this.timezoneForUser(context.message.author.id)
         if (!timezone || !Moment.tz.zone(timezone)) {
@@ -49,7 +48,7 @@ export class TimehelperFeature extends GlobalFeature {
             return false
         }
         const zoneoffset = zoneinfo.offset(Number(new Date())) * -1
-        const outZones = (await this.userTimezones()).map((z) => z.toLowerCase())
+        const outZones = (await this.userTimezones()).map(z => z.toLowerCase())
         // Filter out the messager's timezone
         outZones.splice(outZones.indexOf(timezone.toLowerCase()), 1)
         if (outZones.length === 0) {
@@ -73,7 +72,7 @@ export class TimehelperFeature extends GlobalFeature {
                 result.start.assign("timezoneOffset", zoneoffset)
             }
             const date = result.start.date()
-            const zonesStrs = outZones.map((z) => Moment(date).tz(z).format(format))
+            const zonesStrs = outZones.map(z => Moment(date).tz(z).format(format))
             const zonesStr = Array.from(new Set(zonesStrs)).join(", ")
             embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
             if (results.length === 1) {
@@ -93,8 +92,8 @@ export class TimehelperFeature extends GlobalFeature {
             tokens[0].toLowerCase() === "timezone") {
             if (tokens.length === 1) {
                 // Just "timezone" on its own
-                this.timezoneForUser(context.message.author.id).then((zone) => {
-                   context.sendReply("Your timezone is set to " + zone)
+                this.timezoneForUser(context.message.author.id).then(zone => {
+                    context.sendReply("Your timezone is set to " + zone)
                 })
                 return true
             }
@@ -102,7 +101,7 @@ export class TimehelperFeature extends GlobalFeature {
             const removeKeywords = [
                 "remove", "delete", "delet", "nil", "null", "none",
             ]
-            if (removeKeywords.indexOf(timezone.toLowerCase()) !== -1) {
+            if (removeKeywords.includes(timezone.toLowerCase())) {
                 this.removeTimezoneForUser(context.message.author)
                 context.sendReply("ok")
                 return true
@@ -124,13 +123,13 @@ export class TimehelperFeature extends GlobalFeature {
         return this.bot.brain.get(key)
     }
 
-    protected setTimezoneForUser(timezone: string, userId: string) {
+    protected setTimezoneForUser(timezone: string, userId: string): void {
         const key = `th:tz:${userId}`
         this.bot.brain.set(key, timezone)
         this.updateTimezonedUsers(userId, false)
     }
 
-    protected removeTimezoneForUser(user: Discord.User) {
+    protected removeTimezoneForUser(user: Discord.User): void {
         const key = `th:tz:${user.id}`
         this.bot.brain.remove(key)
         this.updateTimezonedUsers(user.id, true)
@@ -146,7 +145,7 @@ export class TimehelperFeature extends GlobalFeature {
         if (!userIdsStr) {
             return zones
         }
-        const userIds = userIdsStr.split(",").filter((x) => !!x)
+        const userIds = userIdsStr.split(",").filter(x => !!x)
         for (const userId of userIds) {
             const zone = await this.timezoneForUser(userId)
             if (zone) {
@@ -157,7 +156,7 @@ export class TimehelperFeature extends GlobalFeature {
         return zones
     }
 
-    protected async updateTimezonedUsers(updatedUserId: string, removed: boolean) {
+    protected async updateTimezonedUsers(updatedUserId: string, removed: boolean): Promise<void> {
         const key = "th:tzusers"
         const userIdsStr = await this.bot.brain.get(key)
         if (!userIdsStr && !removed) {
@@ -168,12 +167,12 @@ export class TimehelperFeature extends GlobalFeature {
             // Trying to remove a user from an empty list... how about we just bail
             return
         }
-        const userIds = userIdsStr.split(",").filter((x) => !!x)
+        const userIds = userIdsStr.split(",").filter(x => !!x)
         if (removed) {
             userIds.splice(userIds.indexOf(updatedUserId), 1)
             this.bot.brain.set(key, userIds.join(","))
         } else {
-            if (userIds.indexOf(updatedUserId) !== -1) {
+            if (userIds.includes(updatedUserId)) {
                 return
             }
             userIds.push(updatedUserId)

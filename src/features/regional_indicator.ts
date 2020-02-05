@@ -11,7 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { GlobalFeature, MessageContext } from "./feature"
 
 const EMOJIS = Array.from("🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿")
@@ -35,7 +34,7 @@ function stringIsAlphaOnly(str: string): boolean {
 }
 
 export class RegionalIndicatorFeature extends GlobalFeature {
-    public handlesMessage(context: MessageContext<this>): boolean {
+    public handlesMessage(): boolean {
         return true
     }
 
@@ -63,9 +62,7 @@ export class RegionalIndicatorFeature extends GlobalFeature {
             return true
         }
 
-        const shitpost = tokens.slice(2).map( (s) => {
-            return Array.from(s).map(emojiForCharacter).join(" ")
-        }).join("\n")
+        const shitpost = tokens.slice(2).map( s => Array.from(s).map(emojiForCharacter).join(" ")).join("\n")
         message.channel.send(shitpost)
         return true
     }

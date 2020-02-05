@@ -23,7 +23,7 @@ export class User extends Persistent {
 
     private internalId: string
 
-    constructor(bot: Bot, id: string) {
+    public constructor(bot: Bot, id: string) {
         super(bot)
         this.internalId = id
     }

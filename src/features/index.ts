@@ -11,7 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { AdminFeature } from "./admin"
 import { AutoKimFeature } from "./autokim"
@@ -33,13 +32,14 @@ import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
 import { UptimeFeature } from "./uptime"
 import { VoiceNoiseFeature } from "./voicenoise/"
+import * as Discord from "discord.js"
 
 export { GlobalFeature }
 
 export type GlobalFeatureConstructor<F extends GlobalFeature> = new (bot: Bot, name: string) => F
 export type ServerFeatureConstructor<F extends GlobalFeature> = new (bot: Bot, name: string, server: Discord.Guild) => F
 
-export const allFeatures: Array<GlobalFeatureConstructor<GlobalFeature>> = [
+export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     TimehelperFeature,
     DebugFeature,
     PingFeature,
@@ -58,7 +58,7 @@ export const allFeatures: Array<GlobalFeatureConstructor<GlobalFeature>> = [
     UptimeFeature,
 ]
 
-export const allServerFeatures: Array<ServerFeatureConstructor<ServerFeature>> = [
+export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
     AutoKimFeature,
     ReactorFeature,
     RedditVideoFeature,

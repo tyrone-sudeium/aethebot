@@ -11,28 +11,18 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { log } from "../log"
 import { GlobalFeature, MessageContext } from "./feature"
 
 export class DebugFeature extends GlobalFeature {
 
-    public handlesMessage(context: MessageContext<this>): boolean {
+    public handlesMessage(): boolean {
         // Debug logging handles every message.
         return true
     }
 
     public handleMessage(context: MessageContext<this>): boolean {
-        // remove this when done debugging
         log("incoming message: " + context.message.content)
         return true
-        // const debug = (process.env.NODE_ENV || "development") === "development"
-        // // remove this when done debugging
-        // if (!debug) {
-        //     return false
-        // } else {
-        //     log("incoming message: " + message.content)
-        //     return true
-        // }
     }
 }

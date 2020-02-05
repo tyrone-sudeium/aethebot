@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Image, NodeCanvasRenderingContext2D } from "canvas"
 import { Rect } from "../../util/rect"
 import { Drawable } from "./drawable"
+import { Image, NodeCanvasRenderingContext2D } from "canvas"
 
 interface WrapTextResult {
     lines: string[]
@@ -21,7 +21,7 @@ interface WrapTextResult {
 }
 
 function renderTextInRect(ctx: NodeCanvasRenderingContext2D,
-                          text: string, font: string, rect: Rect, maxFontSize?: number) {
+                          text: string, font: string, rect: Rect, maxFontSize?: number): void {
     // start with a large font size
     let fontSize = maxFontSize || rect.height
     let res = wrappedTextAtSize(ctx, text, font, rect.width, fontSize)
@@ -113,7 +113,7 @@ export class MemeTile implements Drawable {
         this.width = width
     }
 
-    public drawInContext(ctx: NodeCanvasRenderingContext2D, offset?: {x: number, y: number}) {
+    public drawInContext(ctx: NodeCanvasRenderingContext2D, offset?: {x: number; y: number}): void {
         offset = offset || {x: 0, y: 0}
         const textRect = new Rect(offset.x, offset.y, this.width / 2, this.height)
         ctx.fillStyle = "#000"

@@ -11,7 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { User } from "../model/user"
 import { GlobalFeature, MessageContext } from "./feature"
@@ -35,7 +34,7 @@ export class AdminFeature extends GlobalFeature {
         return true
     }
 
-    private async handleMessageAsync(context: MessageContext<this>) {
+    private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
         const user = new User(this.bot, context.message.author.id)
         await user.load()
         if (!user.isAdmin) {
@@ -50,7 +49,7 @@ export class AdminFeature extends GlobalFeature {
         const tokens = this.commandTokens(context)
         if (tokens[1].toLowerCase() === "servers") {
             const servers = this.bot.joinedServers()
-                .map((guild) => `${guild.name} (${guild.id})`)
+                .map(guild => `${guild.name} (${guild.id})`)
                 .join(", ")
             context.sendReply(servers)
             return
@@ -60,7 +59,7 @@ export class AdminFeature extends GlobalFeature {
     }
 
     private async setupDefaultAdminUser(): Promise<void> {
-        const userId = process.env.DEFAULT_ADMIN_USER as string | undefined
+        const userId = process.env.DEFAULT_ADMIN_USER
         if (!userId) {
             return
         }

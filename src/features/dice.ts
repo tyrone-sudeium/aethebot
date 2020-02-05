@@ -11,10 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
-import * as randomNumber from "random-number-csprng"
 import { GlobalFeature, MessageContext } from "./feature"
 import { pushReroll, Rerollable } from "./reroll"
+import * as randomNumber from "random-number-csprng"
 
 interface NumberRequest {
     type: "number"
@@ -81,7 +80,7 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
         return true
     }
 
-    public reroll(params: any, originalMessage: Discord.Message): Promise<string> {
+    public reroll(params: any): Promise<string> {
         return this.responseForRequest(params)
     }
 
@@ -101,9 +100,9 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
 
     private async responseForRequest(req: Request): Promise<string> {
         switch (req.type) {
-            case "number": return await this.responseWithNumber(req.maximum)
-            case "dice": return await this.responseWithDice(req.dice, req.sides)
-            default: return assertNever(req)
+        case "number": return await this.responseWithNumber(req.maximum)
+        case "dice": return await this.responseWithDice(req.dice, req.sides)
+        default: return assertNever(req)
         }
     }
 

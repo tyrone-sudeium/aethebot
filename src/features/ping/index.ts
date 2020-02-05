@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
 import { GlobalFeature, MessageContext } from "../feature"
-import { pushReroll, Rerollable, RerollFeature } from "../reroll"
+import { pushReroll, Rerollable } from "../reroll"
 import { Dril } from "./dril"
+import * as Discord from "discord.js"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
 const GREETINGS = [
@@ -56,7 +56,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const message = context.message
         // If the only remaining token is "ping"
         if (tokens.length === 1) {
-            if (GREETINGS.find( (rgx) => rgx.test(tokens[0]) )) {
+            if (GREETINGS.find( rgx => rgx.test(tokens[0]) )) {
                 const idx = Math.floor(Math.random() * RESPONSES.length)
                 context.sendReply(RESPONSES[idx])
                 return true
@@ -68,7 +68,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const isDrilEmoji = emoji.length === 1 && emoji[0].name === "dril"
         const messageWithoutEmoji = removeEmoji(joinedMessage)
         // If the message matches the shitheap of variants of "cakaw"
-        if (joinedMessage.match(/[ck]a+w?c?k+a+w+/) != null) {
+        if (/[ck]a+w?c?k+a+w+/.exec(joinedMessage) != null) {
             context.sendReply(CAKKAW)
             return true
         } else if (joinedMessage === "drillme") {
@@ -110,7 +110,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         }
     }
 
-    private async drilAsync(context: MessageContext<this>, params: {type: string, count: number}) {
+    private async drilAsync(context: MessageContext<this>, params: {type: string; count: number}): Promise<void> {
         // it's good-ass dril content you seek
         const tweets = await this.dril.getTweets(context.message.channel.id, params.count)
         const uploadedMsg = await context.sendReply(tweets.join("\n"))

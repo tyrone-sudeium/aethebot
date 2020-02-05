@@ -44,13 +44,13 @@ export async function getHTTPData(url: string, options?: HTTPOptions): Promise<B
     }
 
     return new Promise((resolve, reject) => {
-        const getRequest = httpModule.get(url, (resp) => {
+        const getRequest = httpModule.get(url, resp => {
             resp.on("error", reject)
             const statusCode = resp.statusCode
 
             let error
             if (statusCode !== 200) {
-              error = new Error("Request Failed.\n" +
+                error = new Error("Request Failed.\n" +
                                 `Status Code: ${statusCode}`)
             }
             if (error) {
@@ -100,12 +100,12 @@ export async function head(url: string, headers?: HTTPHeaders): Promise<HTTP.Inc
         options.headers = headers
     }
     return new Promise((resolve, reject) => {
-        const req = httpModule.request(options, (resp) => {
+        const req = httpModule.request(options, resp => {
             resp.on("error", reject)
             const statusCode = resp.statusCode
             let error
             if (statusCode !== 200) {
-              error = new Error("Request Failed.\n" +
+                error = new Error("Request Failed.\n" +
                                 `Status Code: ${statusCode}`)
             }
             if (error) {

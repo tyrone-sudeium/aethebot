@@ -11,12 +11,12 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { MessageContext, ServerFeature } from "./feature"
+import * as Discord from "discord.js"
 
 export interface Reaction {
-    reaction: string | Discord.Emoji | Discord.ReactionEmoji,
-    regex: RegExp[],
+    reaction: string | Discord.Emoji | Discord.ReactionEmoji
+    regex: RegExp[]
 }
 
 export const REACTIONS: Reaction[] = [
@@ -27,7 +27,7 @@ export const REACTIONS: Reaction[] = [
 ]
 
 export class ReactorFeature extends ServerFeature {
-    public handlesMessage(context: MessageContext<this>): boolean {
+    public handlesMessage(): boolean {
         return true
     }
 
@@ -43,7 +43,7 @@ export class ReactorFeature extends ServerFeature {
 
     protected reactionForMessage(message: string): Reaction | null {
         for (const reaction of REACTIONS) {
-            if (reaction.regex.find((r) => r.test(message))) {
+            if (reaction.regex.find(r => r.test(message))) {
                 return reaction
             }
         }
