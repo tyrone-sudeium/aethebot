@@ -293,6 +293,8 @@ interface PendingRedditTask {
     destinationMessage: Discord.Message
 }
 
+const FILE_TOO_BIG = "never mind, that video is too chonk to upload here, or something else is cooked"
+
 export class RedditVideoFeature extends ServerFeature {
 
     public handlesMessage(context: MessageContext<this>): boolean {
@@ -338,12 +340,15 @@ export class RedditVideoFeature extends ServerFeature {
             return
         }
         const noun = normalizedUrls.length === 1 ? "video" : "videos"
-        await message.channel.send(`Just a sec, pulling the ${noun} from reddit ...`)
+        const pendingStr = `Just a sec, pulling the ${noun} from reddit ...`
+        const pendingMsg = await message.channel.send(pendingStr) as Discord.Message
         for (const url of normalizedUrls) {
             const result = await processRedditUrl(message, url)
             if (result) {
                 await message.channel.send({files: [result]})
                 FS.unlinkSync(result)
+            } else {
+                pendingMsg.edit(FILE_TOO_BIG)
             }
         }
     }

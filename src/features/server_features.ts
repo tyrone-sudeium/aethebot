@@ -26,8 +26,8 @@ type Ctor = ServerFeatureConstructor<ServerFeature>
 
 const featureConstructors: Map<string, Ctor> = new Map()
 
-const ADD_KEYWORDS = ["add", "install", "start"]
-const REM_KEYWORDS = ["remove", "delete", "uninstall", "stop"]
+const ADD_KEYWORDS = ["add", "install", "start", "enable"]
+const REM_KEYWORDS = ["remove", "delete", "uninstall", "stop", "disable"]
 
 export class ServerFeaturesManager extends GlobalFeature {
     private features: Map<string, ServerFeature[]> = new Map()
