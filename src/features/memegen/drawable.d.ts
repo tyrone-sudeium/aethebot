@@ -11,10 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { NodeCanvasRenderingContext2D } from "canvas"
+import { CanvasRenderingContext2D } from "canvas"
 
 export interface Drawable {
     height: number
     width: number
-    drawInContext(ctx: NodeCanvasRenderingContext2D, offset?: {x: number; y: number}): void
+    drawInContext(ctx: CanvasRenderingContext2D, offset?: {x: number; y: number}): void
 }
