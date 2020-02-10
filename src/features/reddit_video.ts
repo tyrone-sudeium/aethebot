@@ -18,7 +18,7 @@ import * as Path from "path"
 import { URL } from "url"
 import * as xml2js from "xml2js"
 import * as Discord from "discord.js"
-import * as arrayFlatten from "array-flatten"
+import {flatten} from "array-flatten"
 import anchorme from "anchorme"
 import { muxMP4 } from "../util/mp4_audio_video_mux"
 import { getHTTPData, getJSON, head } from "../util/http"
@@ -159,7 +159,7 @@ export function playlistSegmentsFromXML(xml: any, baseURL: string): PlaylistSegm
     if (!xml.MPD || !xml.MPD.Period) {
         return []
     }
-    return arrayFlatten(xml.MPD.Period.map((p: any) => {
+    const res = xml.MPD.Period.map((p: any) => {
         if (!p.AdaptationSet) {
             return []
         }
@@ -169,7 +169,8 @@ export function playlistSegmentsFromXML(xml: any, baseURL: string): PlaylistSegm
             }
             return s.Representation.map((r: any) => parsePlaylistSegment(r, baseURL))
         })
-    }))
+    })
+    return flatten<PlaylistSegment[]>(res)
 }
 
 export function parsePlaylistSegment(xml: any, baseUrl: string): PlaylistSegment {

@@ -14,5 +14,4 @@
 import "./moment-precise-range"
 import "./chrono-node"
 import "./random-number-csprng"
-import "./array-flatten"
 import "./gif-encoder-2"
