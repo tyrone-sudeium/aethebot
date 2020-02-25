@@ -113,7 +113,23 @@ export abstract class FeatureBase {
 
     public commandTokens(context: MessageContext<this>): string[] {
         const message = context.message
-        const tokens = message.content.trim().split(/\s+/)
+        const matches = message.content.trim().match(/\\?.|^$/g)
+        if (!matches) {
+            return []
+        }
+        const tokens = matches.reduce((state, c) => {
+            if (c === '"') {
+                state.quote = !state.quote
+            } else if (!state.quote && c === " ") {
+                state.a.push("")
+            } else {
+                state.a[state.a.length-1] += c.replace(/\\(.)/,"$1")
+            }
+            return state
+        }, {
+            a: [""],
+            quote: false,
+        }).a
         const user = this.bot.user
         // Remove the mention
         if (user && message.isMentioned(user)) {

@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Brain } from "./brain"
-import { GlobalFeature, GlobalFeatureConstructor } from "./features"
+import { GlobalFeature, GlobalFeatureConstructor, GlobalFeatureLoader } from "./features"
 import { MessageContext } from "./features/feature"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
@@ -25,12 +25,17 @@ export class Bot {
     public features: GlobalFeatureConstructor<GlobalFeature>[] = []
     private loadedFeatures: Map<string, GlobalFeature> = new Map()
     private client: Discord.Client
+    private customFeatureLoaders: GlobalFeatureLoader[] = []
 
     public constructor(token: string, brain: Brain) {
         this.token = token
         this.client = this.makeClient()
         this.brain = brain
         brain.systemMessages.on("reconnect", this.reconnect.bind(this))
+    }
+
+    public addFeature(loader: GlobalFeatureLoader): void {
+        this.customFeatureLoaders.push(loader)
     }
 
     public reconnect(): void {
@@ -107,6 +112,10 @@ export class Bot {
         for (const FeatureCtor of this.features) {
             const feature = new FeatureCtor(this, FeatureCtor.name)
             this.loadedFeatures.set(FeatureCtor.name, feature)
+        }
+        for (const loader of this.customFeatureLoaders) {
+            const feature = loader(this)
+            this.loadedFeatures.set(feature.name, feature)
         }
     }
 

@@ -13,7 +13,7 @@
 
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
-import { AdminFeature } from "./admin"
+import { AdminFeature } from "./admin/admin"
 import { AutoKimFeature } from "./autokim"
 import { CountdownFeature } from "./countdown"
 import { DebugFeature } from "./debug"
@@ -38,6 +38,8 @@ export { GlobalFeature }
 
 export type GlobalFeatureConstructor<F extends GlobalFeature> = new (bot: Bot, name: string) => F
 export type ServerFeatureConstructor<F extends GlobalFeature> = new (bot: Bot, name: string, server: Discord.Guild) => F
+export type GlobalFeatureLoader = (bot: Bot) => GlobalFeature
+export type ServerFeatureLoader = (bot: Bot, server: Discord.Guild) => ServerFeature
 
 export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     TimehelperFeature,
