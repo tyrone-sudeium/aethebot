@@ -54,7 +54,7 @@ export class AdminFeature extends GlobalFeature {
 
     private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
         const tokens = this.commandTokens(context)
-        if (tokens[1].toLowerCase() === "servers") {
+        if (tokens.length > 1 && tokens[1].toLowerCase() === "servers") {
             if (!(await canPerformAction("ListServers", context))) {
                 return
             }
@@ -65,7 +65,7 @@ export class AdminFeature extends GlobalFeature {
             return
         }
 
-        context.sendReply("yeah?")
+        context.sendNegativeReply("unknown command")
     }
 
     private async setupDefaultAdminUser(): Promise<void> {

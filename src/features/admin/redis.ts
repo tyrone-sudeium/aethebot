@@ -33,6 +33,10 @@ export class RedisAdminFeature extends GlobalFeature {
         if (tokens[0].toLowerCase() !== "redis") {
             return false
         }
+        if (tokens.length < 2) {
+            context.sendNegativeReply("missing redis command")
+            return false
+        }
 
         this.handleMessageAsync(context)
         return true
@@ -43,7 +47,7 @@ export class RedisAdminFeature extends GlobalFeature {
         if (!(await canPerformAction("Redis", context))) {
             return
         }
-        this.redisClient.exec(tokens.slice(1), (err, res) => {
+        this.redisClient.send_command(tokens[1], tokens.slice(2), (err: Error, res: string) => {
             if (err) {
                 context.sendNegativeReply(err.message)
                 return
@@ -51,10 +55,10 @@ export class RedisAdminFeature extends GlobalFeature {
             const tripleBacktick = "```"
             try {
                 const jsonValue = JSON.parse(res)
-                const pretty = JSON.stringify(jsonValue, null, 2)
+                const pretty = JSON.stringify(jsonValue, null, 2).slice(0, 1992)
                 context.sendReply(`${tripleBacktick}\n${pretty}\n${tripleBacktick}`)
             } catch (jsonError) {
-                context.sendReply(`${tripleBacktick}\n${res}\n${tripleBacktick}`)
+                context.sendReply(`${tripleBacktick}\n${res.slice(0, 1992)}\n${tripleBacktick}`)
             }
         })
     }
