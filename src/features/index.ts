@@ -33,6 +33,7 @@ import { ShitcoinFeature } from "./shitcoin"
 import { TimehelperFeature } from "./timehelper"
 import { UptimeFeature } from "./uptime"
 import { VoiceNoiseFeature } from "./voicenoise/"
+import { FashionReportFeature } from "./fashion_report"
 
 export { GlobalFeature }
 
@@ -58,6 +59,7 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     VinceMcMahonFeature,
     ScomoFeature,
     UptimeFeature,
+    FashionReportFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
