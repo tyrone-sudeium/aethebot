@@ -133,7 +133,8 @@ export class ShitcoinFeature extends GlobalFeature {
         }
         const oldPrice = await this.bot.brain.get(BRAIN_KEYS.CURRENT_PRICE)
         const btcPriceData = await this.getPriceFromCoinbase(CURRENCY_CODE)
-        await this.bot.brain.set(BRAIN_KEYS.CURRENT_PRICE, btcPriceData.data.amount)
+        const aussieDollarBucks = new Intl.NumberFormat('au-AU', { style: 'currency', currency: 'AUD' }).format(Number(btcPriceData.data.amount))
+        await this.bot.brain.set(BRAIN_KEYS.CURRENT_PRICE, aussieDollarBucks)
         if (oldPrice) {
             await this.bot.brain.set(BRAIN_KEYS.PREVIOUS_PRICE, oldPrice)
         }
