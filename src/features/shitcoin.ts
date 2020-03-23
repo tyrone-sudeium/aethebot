@@ -47,9 +47,9 @@ const BRAIN_KEYS = {
     PREVIOUS_PRICE: "sc:btc:previous",
 }
 
-const NUMBER_FORMATTER = new Intl.NumberFormat('au-AU', {
-    style: 'currency',
-    currency: 'AUD'
+const NUMBER_FORMATTER = new Intl.NumberFormat("au-AU", {
+    style: "currency",
+    currency: "AUD",
 })
 
 export class ShitcoinFeature extends GlobalFeature {
