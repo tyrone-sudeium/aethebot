@@ -85,14 +85,16 @@ export class ShitcoinFeature extends GlobalFeature {
     private async messageEmbed(): Promise<Discord.RichEmbed> {
         const embed = new Discord.RichEmbed()
         const previous = await this.previousPrice()
+        const previousFormatted = NUMBER_FORMATTER.format(Number(previous))
         const current = await this.currentPrice()
+        const currentFormatted = NUMBER_FORMATTER.format(Number(current))
         const ageStr = await this.bot.brain.get(BRAIN_KEYS.AGE)
         if (previous) {
             const btcPreviousDate = Moment().subtract(UPDATE_FREQUENCY, "milliseconds")
-            embed.addField(btcPreviousDate.fromNow(), `${previous}\n${CURRENCY_CODE} / BTC`, true)
+            embed.addField(btcPreviousDate.fromNow(), `${previousFormatted} / BTC`, true)
         }
         if (current) {
-            embed.addField("Current", `${current}\n${CURRENCY_CODE} / BTC`, true)
+            embed.addField("Current", `${currentFormatted} / BTC`, true)
         }
         if (ageStr) {
             const btcPriceDate = Moment(parseInt(ageStr, 10))
@@ -138,8 +140,7 @@ export class ShitcoinFeature extends GlobalFeature {
         }
         const oldPrice = await this.bot.brain.get(BRAIN_KEYS.CURRENT_PRICE)
         const btcPriceData = await this.getPriceFromCoinbase(CURRENCY_CODE)
-        const aussieDollarBucks = NUMBER_FORMATTER.format(Number(btcPriceData.data.amount))
-        await this.bot.brain.set(BRAIN_KEYS.CURRENT_PRICE, aussieDollarBucks)
+        await this.bot.brain.set(BRAIN_KEYS.CURRENT_PRICE, btcPriceData.data.amount)
         if (oldPrice) {
             await this.bot.brain.set(BRAIN_KEYS.PREVIOUS_PRICE, oldPrice)
         }
