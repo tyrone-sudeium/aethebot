@@ -129,7 +129,10 @@ export abstract class FeatureBase {
         }, {
             a: [""],
             quote: false,
-        }).a
+        })
+            .a
+            .filter(token => token !== "")
+
         const user = this.bot.user
         // Remove the mention
         if (user && message.isMentioned(user)) {
