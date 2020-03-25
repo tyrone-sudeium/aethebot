@@ -83,6 +83,9 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             // denam geans
             context.sendReply(this.dril.getGeans())
             return true
+        } else if (joinedMessage === "coronavirus" || joinedMessage === "covid" || joinedMessage === "beervirus") {
+            // flatten the curve
+            context.sendReply(this.dril.getBeerVirus())
         } else if (joinedMessage === "drilbomb" || (messageWithoutEmoji === "bomb" && isDrilEmoji)) {
             // Dril bomb
             this.drilAsync(context, {
