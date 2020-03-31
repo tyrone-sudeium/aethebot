@@ -36,7 +36,7 @@ export async function muxMP4(videoPath: string, audioPath: string, joinedPath: s
     ]
     const process = spawn(getFFMPEGExecutable(), args)
     return new Promise<string>((resolve, reject) => {
-        process.on("close", (code) => {
+        process.on("close", code => {
             if (code === 0) {
                 resolve(joinedPath)
             } else {

@@ -11,7 +11,6 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { GlobalFeature, MessageContext } from "./feature"
 
 const scomo = "https://cdn.discordapp.com/attachments/293954139845820416/579468190971854849/scomo.jpg"

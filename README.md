@@ -2,6 +2,12 @@
 
 ## Setup
 
+Install [Yarn Classic](https://classic.yarnpkg.com) (1.x). Yarn is a hard
+*requirement* for AetheBot, `npm` will not work, and support for `npm` is not in
+scope for this project.
+
+Current required version of Node.js is specified in `.node-version`.
+
 Create a Discord Bot account 
 [here](https://discordapp.com/developers/applications/me).
 
@@ -69,18 +75,5 @@ channel you are currently in if the regex matches and you've mentioned the bot.
 Please keep try to keep the volume of your noise consistent with the other
 noises.
 
-Noises can be provided in any FFmpeg supported format (such as mp3), or as a raw
-Opus stream. Raw Opus streams are preferred, since they don't require
-transcoding on the server and will therefore load much faster. You can create
-a stream yourself using FFmpeg like this:
-
-```
-ffmpeg -i [input].mp3 -vn -map 0:a -acodec libopus -f data -sample_fmt s16 -vbr off -ar 48000 -ac 2 -ab 64k [output].dat
-```
-
-You *must* name the resulting file with the `.dat` extension as a clue for
-AetheBot that this file is a raw Opus stream, otherwise it will pass it on to
-FFmpeg for transcoding.
-
-Note that we will be switching to proper `.opus` (really OGG) files once the
-Discord.js Prism Media changes land.
+Noises can be provided in `.opus` format, 64kbps mono. Please listen to some of
+the existing voice noises and adjust the volume accordingly.

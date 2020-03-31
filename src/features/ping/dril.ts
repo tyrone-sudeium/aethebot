@@ -15,6 +15,8 @@ import { Brain } from "../../brain"
 
 const NEVER = "https://twitter.com/dril/status/247222360309121024"
 const NO = "https://twitter.com/dril/status/922321981"
+const GEANS = "https://media.discordapp.net/attachments/293954139845820416/674437889693843476/image0.jpg"
+const BEERVIRUS = "https://twitter.com/dril/status/1242643171462402049"
 const BRAIN_KEYS = {
     TOOT_LIST: "dril:toot_list",
 }
@@ -176,7 +178,15 @@ export class Dril {
         return NEVER
     }
 
-    private brainKeyForChannel(chanId: string) {
+    public getGeans(): string {
+        return GEANS
+    }
+
+    public getBeerVirus(): string {
+        return BEERVIRUS
+    }
+
+    private brainKeyForChannel(chanId: string): string {
         return `${BRAIN_KEYS.TOOT_LIST}:${chanId}`
     }
 }

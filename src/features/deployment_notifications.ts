@@ -66,13 +66,13 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         await this.bot.brain.set(BRAIN_KEYS.LAST_DEPLOY, newVersion)
     }
 
-    private async handleMessageAsync(context: MessageContext<this>) {
+    private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
         const tokens = this.commandTokens(context)
         const message = context.message
         const userIds = await this.getUserIds()
         if (tokens.length === 2) {
             // Fetch the status
-            if (userIds.indexOf(context.message.author.id) === -1) {
+            if (!userIds.includes(context.message.author.id)) {
                 context.sendReply("yeah nah you're not getting 'em mate")
             } else {
                 context.sendReply("yeah you'll get 'em mate")

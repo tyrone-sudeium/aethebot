@@ -39,7 +39,7 @@ function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupD
 export class MessageContext<F extends FeatureBase> {
     private myMessage: Discord.Message
     private myFeature: F
-    constructor(message: Discord.Message, feature: F) {
+    public constructor(message: Discord.Message, feature: F) {
         this.myFeature = feature
         this.myMessage = message
     }
@@ -84,12 +84,10 @@ export abstract class FeatureBase {
     public name: string
     private internalBot: Bot
 
-    constructor(bot: Bot, name: string) {
+    public constructor(bot: Bot, name: string) {
         this.internalBot = bot
         this.name = name
     }
-
-    public abstract handleMessage(context: MessageContext<this>): boolean
 
     public voiceChannelStateChanged?(channel: Discord.VoiceChannel): void
 
@@ -115,11 +113,30 @@ export abstract class FeatureBase {
 
     public commandTokens(context: MessageContext<this>): string[] {
         const message = context.message
-        const tokens = message.content.trim().split(/\s+/)
+        const matches = message.content.trim().match(/\\?.|^$/g)
+        if (!matches) {
+            return []
+        }
+        const tokens = matches.reduce((state, c) => {
+            if (c === '"') {
+                state.quote = !state.quote
+            } else if (!state.quote && c === " ") {
+                state.a.push("")
+            } else {
+                state.a[state.a.length-1] += c.replace(/\\(.)/,"$1")
+            }
+            return state
+        }, {
+            a: [""],
+            quote: false,
+        })
+            .a
+            .filter(token => token !== "")
+
         const user = this.bot.user
         // Remove the mention
         if (user && message.isMentioned(user)) {
-            tokens.splice(tokens.findIndex((s) => {
+            tokens.splice(tokens.findIndex(s => {
                 if (s === `<@${user.id}>`) {
                     return true
                 }
@@ -131,6 +148,8 @@ export abstract class FeatureBase {
         }
         return tokens
     }
+
+    public abstract handleMessage(context: MessageContext<this>): boolean
 }
 
 /**
@@ -148,7 +167,7 @@ export abstract class GlobalFeature extends FeatureBase {
 export abstract class ServerFeature extends FeatureBase {
     private internalServer: Discord.Guild
 
-    constructor(bot: Bot, name: string, server: Discord.Guild) {
+    public constructor(bot: Bot, name: string, server: Discord.Guild) {
         super(bot, name)
         this.internalServer = server
     }

@@ -12,9 +12,9 @@
  */
 
 export interface Noise {
-    id: string,
-    files: string[],
-    regex: RegExp[],
+    id: string
+    files: string[]
+    regex: RegExp[]
     fallbackImageURL?: string
 }
 

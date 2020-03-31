@@ -1,3 +1,4 @@
+
 /**
  * Basically the Airhorn Solutions feature.
  */
@@ -11,19 +12,19 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
+import * as Discord from "discord.js"
 import { GlobalFeature, MessageContext } from "../feature"
 import { Noise, NOISES } from "./noises"
 
-// tslint:disable:no-console
+/* eslint-disable no-console */
 
 // Import prism without types right now because they haven't published TS3-compatible types yet
-// tslint:disable-next-line:no-var-requires
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const Prism = require("prism-media")
 
-function _pathForNoiseFile(noiseFile: string) {
+function pathForNoiseFile(noiseFile: string): string {
     return Path.join(process.cwd(), "res", noiseFile)
 }
 
@@ -100,7 +101,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
 
     private noiseForMessage(message: string): Noise | null {
         for (const noise of NOISES) {
-            if (noise.regex.find((r) => r.test(message))) {
+            if (noise.regex.find(r => r.test(message))) {
                 return noise
             }
         }
@@ -108,7 +109,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
     }
 
     private pushPlaybackIntent(channel: Discord.VoiceChannel,
-                               intent: VoicePlaybackIntent) {
+                               intent: VoicePlaybackIntent): void {
         let playQueue = this.pendingPlayback.get(channel.id)
         if (!playQueue) {
             playQueue = []
@@ -118,7 +119,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         this.updatePlaybackQueue(channel.id)
     }
 
-    private updateAllPlaybackQueues() {
+    private updateAllPlaybackQueues(): void {
         this.pendingPlayback.forEach((queue, chanId) => {
             if (queue.length === 0) {
                 return
@@ -128,7 +129,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         })
     }
 
-    private updatePlaybackQueue(chanId: string) {
+    private updatePlaybackQueue(chanId: string): void {
         const queue = this.pendingPlayback.get(chanId)
         if (!queue) {
             return
@@ -137,10 +138,10 @@ export class VoiceNoiseFeature extends GlobalFeature {
         if (top.state === VoicePlaybackStatus.Waiting) {
             if (!top.channel.connection) {
                 top.state = VoicePlaybackStatus.Connecting
-                top.channel.join().then((conn) => {
+                top.channel.join().then(conn => {
                     top.connection = conn
                     this.updatePlaybackQueue(chanId)
-                }).catch((error) => {
+                }).catch(() => {
                     // Connection failed, just kill everything with fire
                     // console.error("Discord voice connection failed:")
                     // console.error(error)
@@ -157,7 +158,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
                 top.state = VoicePlaybackStatus.Playing
                 const files = top.noise.files
                 const file = files[Math.floor(Math.random() * files.length)]
-                const filePath = _pathForNoiseFile(file)
+                const filePath = pathForNoiseFile(file)
                 let d: Discord.StreamDispatcher
                 if (file.endsWith(".dat")) {
                     // Raw opus stream, play without transcoding

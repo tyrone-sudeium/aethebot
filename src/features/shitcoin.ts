@@ -13,26 +13,26 @@
 
 import * as Discord from "discord.js"
 import * as Moment from "moment"
-import "moment-precise-range-plugin"
 import { Bot } from "../bot"
 import { log } from "../log"
 import { getJSON } from "../util/http"
 import { GlobalFeature, MessageContext } from "./feature"
+import "moment-precise-range-plugin"
 
 interface CoindeskAPIResponse<ResponseType> {
-    data: ResponseType,
+    data: ResponseType
     warnings: CoindeskAPIWarning[]
 }
 
 interface CoindeskAPIWarning {
-    id: string,
-    message: string,
+    id: string
+    message: string
     url: string
 }
 
 interface CoindeskPriceResponse {
-    base: string,
-    currency: string,
+    base: string
+    currency: string
     amount: string
 }
 
@@ -47,10 +47,15 @@ const BRAIN_KEYS = {
     PREVIOUS_PRICE: "sc:btc:previous",
 }
 
+const NUMBER_FORMATTER = new Intl.NumberFormat("au-AU", {
+    style: "currency",
+    currency: "AUD",
+})
+
 export class ShitcoinFeature extends GlobalFeature {
     private refreshTimer: NodeJS.Timer
 
-    constructor(bot: Bot, name: string) {
+    public constructor(bot: Bot, name: string) {
         super(bot, name)
         this.refreshTimer = this.startRefreshTimer()
     }
@@ -63,7 +68,7 @@ export class ShitcoinFeature extends GlobalFeature {
             return false
         }
 
-        this.messageEmbed().then((embed) => {
+        this.messageEmbed().then(embed => {
             if (!embed || !embed.fields) {
                 return
             }
@@ -80,14 +85,16 @@ export class ShitcoinFeature extends GlobalFeature {
     private async messageEmbed(): Promise<Discord.RichEmbed> {
         const embed = new Discord.RichEmbed()
         const previous = await this.previousPrice()
+        const previousFormatted = NUMBER_FORMATTER.format(Number(previous))
         const current = await this.currentPrice()
+        const currentFormatted = NUMBER_FORMATTER.format(Number(current))
         const ageStr = await this.bot.brain.get(BRAIN_KEYS.AGE)
         if (previous) {
             const btcPreviousDate = Moment().subtract(UPDATE_FREQUENCY, "milliseconds")
-            embed.addField(btcPreviousDate.fromNow(), `${previous}\n${CURRENCY_CODE} / BTC`, true)
+            embed.addField(btcPreviousDate.fromNow(), `${previousFormatted} / BTC`, true)
         }
         if (current) {
-            embed.addField("Current", `${current}\n${CURRENCY_CODE} / BTC`, true)
+            embed.addField("Current", `${currentFormatted} / BTC`, true)
         }
         if (ageStr) {
             const btcPriceDate = Moment(parseInt(ageStr, 10))

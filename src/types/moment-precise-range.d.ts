@@ -4,13 +4,14 @@
 
 /*
  * AetheBot - A Discord Chatbot
- * 
+ *
  * Created by Tyrone Trevorrow on 13/06/17.
  * Copyright (c) 2017 Tyrone Trevorrow. All rights reserved.
- * 
+ *
  * This source code is licensed under the permissive MIT license.
  */
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import * as moment from "moment"
 
 declare module "moment" {
@@ -20,7 +21,7 @@ declare module "moment" {
         (dateFrom: Moment, dateTo: Moment, returnsObject: true): MomentObjectOutput
         (dateFrom: Moment, dateTo: Moment, returnsObject?: false): string
     }
-    
+
     interface Moment {
         preciseDiff(dateTo: Moment, returnsObject: true): MomentObjectOutput
         preciseDiff(dateTo: Moment, returnsObject?: false): string

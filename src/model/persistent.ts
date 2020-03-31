@@ -19,7 +19,7 @@ const symProperties = Symbol.for("persistent:properties")
 export abstract class Persistent {
     private bot: Bot
 
-    constructor(bot: Bot) {
+    public constructor(bot: Bot) {
         this.bot = bot
     }
 
@@ -27,7 +27,7 @@ export abstract class Persistent {
         const keys = this.persistentKeys()
         const thisAsAny = this as any
         const jsonObj: {[key: string]: any} = {}
-        keys.forEach((key) => {
+        keys.forEach(key => {
             jsonObj[key] = thisAsAny[key]
         })
         await this.brain.set(this.brainKey, JSON.stringify(jsonObj))
@@ -35,8 +35,6 @@ export abstract class Persistent {
     }
 
     public async load(): Promise<void> {
-        const keys = this.persistentKeys()
-        const thisAsAny = this as any
         const jsonStr = await this.brain.get(this.brainKey)
         if (!jsonStr) {
             return
@@ -65,8 +63,8 @@ export abstract class Persistent {
 }
 
 type PersistentDecorator<T extends Persistent> = (target: T, propertyKey: string) => void
-export function PersistentProperty<T extends Persistent>(key: string | null = null): PersistentDecorator<T> {
-    return (target: T, propertyKey: string) => {
+export function PersistentProperty<T extends Persistent>(): PersistentDecorator<T> {
+    return (target: T, propertyKey: string): void => {
         let properties: string[]
         if (Object.prototype.hasOwnProperty.call(target, symProperties)) {
             properties = (target as any)[symProperties]

@@ -53,7 +53,7 @@ export class RerollFeature extends GlobalFeature {
         }
         const tokens = this.commandTokens(context)
         // If the only remaining token is in the triggers
-        if (tokens.length === 1 && TRIGGERS.indexOf(tokens[0].toLowerCase()) !== -1) {
+        if (tokens.length === 1 && TRIGGERS.includes(tokens[0].toLowerCase())) {
             return true
         }
 
@@ -70,7 +70,7 @@ export class RerollFeature extends GlobalFeature {
         botMessage: Discord.Message,
         humanMessage: Discord.Message,
         params: any,
-        type: RerollType = "edit") {
+        type: RerollType = "edit"): Promise<void> {
         const item: RerollItem = {
             botMessageId: botMessage.id,
             channelId: humanMessage.channel.id,
@@ -85,7 +85,7 @@ export class RerollFeature extends GlobalFeature {
         await this.bot.brain.set(key, str)
     }
 
-    private brainKeyForChannel(chanId: Discord.Snowflake) {
+    private brainKeyForChannel(chanId: Discord.Snowflake): string {
         return `${BRAIN_KEYS.LAST_ITEM}:${chanId}`
     }
 
@@ -103,7 +103,7 @@ export class RerollFeature extends GlobalFeature {
         }
     }
 
-    private async doReroll(context: MessageContext<this>) {
+    private async doReroll(context: MessageContext<this>): Promise<void> {
         const requestMsg = context.message
         const item = await this.lastItemForChannel(requestMsg.channel.id)
         if (!item) {
@@ -134,9 +134,9 @@ export class RerollFeature extends GlobalFeature {
                     reply = `<@${originalPoster.id}> ${reply}`
                 }
                 if (item.type === "edit") {
-                    const editedMsg = await botMessage.edit(reply)
+                    await botMessage.edit(reply)
                 } else if (item.type === "delete") {
-                    const deletedMsg = await botMessage.delete()
+                    await botMessage.delete()
                     const newMsg = await requestMsg.channel.send(reply)
                     if (newMsg instanceof Discord.Message) {
                         await this.pushRerollForFeature(feature.name, newMsg, humanMessage, item.params, item.type)

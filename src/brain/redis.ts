@@ -20,7 +20,7 @@ import { Brain, SystemMessages } from "./brain"
 
 function promisify<T>(func: (callback: (err: any, result: T) => void) => void): Promise<T> {
     return new Promise<T>((resolve, reject) => {
-        const cb = func((err, res) => {
+        func((err, res) => {
             if (err) {
                 reject(err)
             } else {
@@ -42,7 +42,7 @@ interface SystemChannelMessage {
 
 export class RedisPubSubEventEmitter extends EventEmitter {
     private clientID = uuid()
-    constructor(public redis: RedisClient, public publisher: RedisClient) {
+    public constructor(public redis: RedisClient, public publisher: RedisClient) {
         super()
         redis.subscribe(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL)
         redis.on("message", (channel: string, message: any) => {
@@ -59,11 +59,11 @@ export class RedisPubSubEventEmitter extends EventEmitter {
                 return
             }
             switch (payload.message) {
-                case "reconnect":
-                    for (const listener of this.listeners("reconnect")) {
-                        listener()
-                    }
-                    break
+            case "reconnect":
+                for (const listener of this.listeners("reconnect")) {
+                    listener()
+                }
+                break
             }
         })
     }
@@ -97,7 +97,7 @@ export class RedisBrain implements Brain {
     private client: RedisClient
     private storage: {[key: string]: string} = {}
 
-    constructor(client: RedisClient, systemMessagesEmitter: StrictEventEmitter<EventEmitter, SystemMessages>) {
+    public constructor(client: RedisClient, systemMessagesEmitter: StrictEventEmitter<EventEmitter, SystemMessages>) {
         this.client = client
         this.systemMessages = systemMessagesEmitter
     }
@@ -108,14 +108,14 @@ export class RedisBrain implements Brain {
     }
 
     public close(): Promise<void> {
-        return promisify<void>((cb) => {
+        return promisify<void>(cb => {
             this.client.quit(cb)
         })
     }
 
     public set(key: string, value: string): Promise<void> {
         this.storage[key] = value
-        return promisify<void>((cb) => {
+        return promisify<void>(cb => {
             this.client.set(key, value, cb)
         })
     }
@@ -124,9 +124,9 @@ export class RedisBrain implements Brain {
         if (this.storage[key]) {
             return Promise.resolve(this.storage[key])
         }
-        return promisify<string | null>((cb) => {
+        return promisify<string | null>(cb => {
             this.client.get(key, cb)
-        }).then((res) => {
+        }).then(res => {
             if (res) {
                 this.storage[key] = res
             } else {
@@ -138,7 +138,7 @@ export class RedisBrain implements Brain {
 
     public remove(key: string): Promise<void> {
         delete this.storage[key]
-        return promisify<void>((cb) => {
+        return promisify<void>(cb => {
             this.client.del(key, cb)
         })
     }

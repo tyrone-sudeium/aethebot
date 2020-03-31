@@ -26,8 +26,8 @@ type Ctor = ServerFeatureConstructor<ServerFeature>
 
 const featureConstructors: Map<string, Ctor> = new Map()
 
-const ADD_KEYWORDS = ["add", "install", "start"]
-const REM_KEYWORDS = ["remove", "delete", "uninstall", "stop"]
+const ADD_KEYWORDS = ["add", "install", "start", "enable"]
+const REM_KEYWORDS = ["remove", "delete", "uninstall", "stop", "disable"]
 
 export class ServerFeaturesManager extends GlobalFeature {
     private features: Map<string, ServerFeature[]> = new Map()
@@ -37,7 +37,7 @@ export class ServerFeaturesManager extends GlobalFeature {
         this.setupFeatures()
     }
 
-    public handlesMessage(context: MessageContext<this>): boolean {
+    public handlesMessage(): boolean {
         return true
     }
 
@@ -57,7 +57,7 @@ export class ServerFeaturesManager extends GlobalFeature {
         }
 
         const tokens = this.commandTokens(context)
-        const lowerTokens = tokens.map((t) => t.toLowerCase())
+        const lowerTokens = tokens.map(t => t.toLowerCase())
         if (tokens.length < 2) {
             return false
         }
@@ -102,7 +102,7 @@ export class ServerFeaturesManager extends GlobalFeature {
         return handled
     }
 
-    private async setupFeatures() {
+    private async setupFeatures(): Promise<void> {
         if (featureConstructors.size === 0) {
             for (const ctor of allServerFeatures) {
                 featureConstructors.set(ctor.name, ctor)
@@ -120,7 +120,7 @@ export class ServerFeaturesManager extends GlobalFeature {
         for (const [serverId, discordServer] of this.bot.joinedServers()) {
             const featureNames = storedJson[serverId]
             if (featureNames) {
-                const loadedFeatures: ServerFeature[] = featureNames.map((name) => {
+                const loadedFeatures: ServerFeature[] = featureNames.map(name => {
                     const ctor = featureConstructors.get(name)
                     if (!ctor) {
                         return null
@@ -171,42 +171,42 @@ export class ServerFeaturesManager extends GlobalFeature {
         return true
     }
 
-    private async saveToBrain() {
+    private saveToBrain(): Promise<void> {
         const obj: {[serverId: string]: string[]} = Object.create(null)
         for (const [serverId, features] of this.features) {
-            obj[serverId] = features.map((f) => f.name)
+            obj[serverId] = features.map(f => f.name)
         }
-        this.bot.brain.set(BRAIN_KEYS.FEATURES, JSON.stringify(obj))
+        return this.bot.brain.set(BRAIN_KEYS.FEATURES, JSON.stringify(obj))
     }
 
-    private async addFeature(ctor: Ctor, server: Discord.Guild, context: MessageContext<this>) {
+    private async addFeature(ctor: Ctor, server: Discord.Guild, context: MessageContext<this>): Promise<void> {
         let featuresForServer = this.features.get(server.id)
         if (!featuresForServer) {
             featuresForServer = []
             this.features.set(server.id, featuresForServer)
         }
-        if (featuresForServer.find((f) => f.name === ctor.name)) {
+        if (featuresForServer.find(f => f.name === ctor.name)) {
             context.sendNegativeReply("feature already active")
             return
         }
         featuresForServer.push(new ctor(this.bot, ctor.name, server))
-        context.sendReply("ok")
-        this.saveToBrain()
+        await context.sendReply("ok")
+        await this.saveToBrain()
     }
 
-    private async removeFeature(ctor: Ctor, server: Discord.Guild, context: MessageContext<this>) {
+    private async removeFeature(ctor: Ctor, server: Discord.Guild, context: MessageContext<this>): Promise<void> {
         let featuresForServer = this.features.get(server.id)
         if (!featuresForServer) {
             featuresForServer = []
             this.features.set(server.id, featuresForServer)
         }
-        if (!featuresForServer.find((f) => f.name === ctor.name)) {
+        if (!featuresForServer.find(f => f.name === ctor.name)) {
             context.sendNegativeReply("feature not active")
             return
         }
-        featuresForServer = featuresForServer.filter((f) => f.name !== ctor.name)
+        featuresForServer = featuresForServer.filter(f => f.name !== ctor.name)
         this.features.set(server.id, featuresForServer)
-        context.sendReply("ok")
-        this.saveToBrain()
+        await context.sendReply("ok")
+        await this.saveToBrain()
     }
 }

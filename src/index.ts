@@ -12,14 +12,15 @@
  */
 
 import { EventEmitter } from "events"
-import * as parseArgs from "minimist"
 import * as Redis from "redis"
+import * as parseArgs from "minimist"
 import { Bot } from "./bot"
 import { Brain, FlatFileBrain, MemoryBrain, RedisBrain } from "./brain"
 import { RedisPubSubEventEmitter } from "./brain/redis"
 import { allFeatures } from "./features"
 import { log } from "./log"
 import { Website } from "./website"
+import { RedisAdminFeature } from "./features/admin/redis"
 
 const argv = parseArgs(process.argv.slice(2), {
     boolean: ["website", "bot"],
@@ -70,16 +71,19 @@ if (!argv.website) {
         } else {
             brain = new RedisBrain(redisClient, sharedSystemMessagesEmitter)
         }
+        bot = new Bot(token, brain)
         log("Bot using redis brain, connecting to: " + redisUrl, "always")
+        bot.addFeature(b => new RedisAdminFeature(b, "RedisAdminFeature", redisClient))
     } else if (fileBrain) {
         brain = fileBrain
+        bot = new Bot(token, brain)
         log(`Using file brain: ${argv.brainPath}`, "always")
     } else {
         brain = sharedMemoryBrain
+        bot = new Bot(token, brain)
         log("Using in-memory brain. NOTE: nothing will be persisted!", "always")
     }
 
-    bot = new Bot(token, brain)
     // Enable all features on the bot
     // If you're making your own bot you can manually import whichever features
     // you want and specify them individually instead.

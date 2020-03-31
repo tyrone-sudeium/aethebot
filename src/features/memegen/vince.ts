@@ -12,10 +12,10 @@
  */
 
 import { ChildProcess, fork } from "child_process"
-import * as Discord from "discord.js"
 import * as FS from "fs"
 import * as Path from "path"
 import { v4 as uuid } from "uuid"
+import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { log } from "../../log"
 import { removeBotMentions } from "../../util/remove_mentions"
@@ -44,7 +44,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
     private worker: ChildProcess
     private pendingJobs: Map<string, WorkerJob> = new Map()
 
-    constructor(bot: Bot, name: string) {
+    public constructor(bot: Bot, name: string) {
         super(bot, name)
         this.worker = this.newWorker()
     }
@@ -55,7 +55,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
         }
         const content = removeBotMentions(this.bot, context.message)
         const lines = content.split("\n")
-        if (lines.length > 0 && TRIGGERS.indexOf(lines[0].trim().toLowerCase()) !== -1) {
+        if (lines.length > 0 && TRIGGERS.includes(lines[0].trim().toLowerCase())) {
             return true
         }
 
@@ -74,7 +74,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
             return false
         }
         const pendingMsg = PENDING_TEXTS[Math.floor(Math.random() * PENDING_TEXTS.length)]
-        context.sendReply(pendingMsg).then((msg) => {
+        context.sendReply(pendingMsg).then(msg => {
             const workerJob: WorkerJob = {
                 id: uuid(),
                 lines,
@@ -96,12 +96,12 @@ export class VinceMcMahonFeature extends GlobalFeature {
             stdio: ["ignore", "pipe", "pipe", "ipc"],
         })
         if (worker.stdout) {
-            worker.stdout.on("data", (chunk) => {
+            worker.stdout.on("data", chunk => {
                 log(chunk.toString("utf8"))
             })
         }
         if (worker.stderr) {
-            worker.stderr.on("data", (chunk) => {
+            worker.stderr.on("data", chunk => {
                 log(chunk.toString("utf8"))
             })
         }
@@ -137,7 +137,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
             await message.channel.send(`<@${message.author.id}>`, msgOptions)
         }
         job.pendingMessage.delete()
-        await new Promise((resolve) => FS.unlink(attachment, resolve))
+        await new Promise(resolve => FS.unlink(attachment, resolve))
     }
 
     private onWorkerExit(): void {

@@ -50,9 +50,9 @@ function dedent(strings: TemplateStringsArray, ...values: string[]): string {
     for (let i = 0; i < raw.length; i++) {
         result += raw[i]
         // join lines when there is a suppressed newline
-        .replace(/\\\n[ \t]*/g, "")
+            .replace(/\\\n[ \t]*/g, "")
         // handle escaped backticks
-        .replace(/\\`/g, "`")
+            .replace(/\\`/g, "`")
 
         if (i < values.length) {
             result += values[i]
@@ -62,8 +62,9 @@ function dedent(strings: TemplateStringsArray, ...values: string[]): string {
     // now strip indentation
     const lines = result.split("\n")
     let mindent: number | undefined
+    const regex = /^(\s+)\S+/
     for (const l of lines) {
-        const m = l.match(/^(\s+)\S+/)
+        const m = regex.exec(l)
         if (m) {
             const indent = m[1].length
             if (!mindent) {
@@ -76,7 +77,7 @@ function dedent(strings: TemplateStringsArray, ...values: string[]): string {
     }
 
     if (mindent !== undefined) {
-        result = lines.map((l) => l[0] === " " ? l.slice(mindent) : l).join("\n")
+        result = lines.map(l => l.startsWith(" ") ? l.slice(mindent) : l).join("\n")
     }
 
     return result
@@ -89,17 +90,17 @@ function dedent(strings: TemplateStringsArray, ...values: string[]): string {
 async function readBody(request: HTTP.IncomingMessage): Promise<string> {
     return new Promise((resolve, reject) => {
         let data = ""
-        request.on("data", (chunk) => {
+        request.on("data", chunk => {
             data += chunk
         })
         request.on("end", () => resolve(data))
-        request.on("error", (err) => reject(err))
+        request.on("error", err => reject(err))
     })
 }
 
 function serveStatic(path: string, contentType: string, req: HTTP.IncomingMessage, res: HTTP.ServerResponse): void {
     const resolved = Path.resolve(Path.join("public", path))
-    FS.exists(resolved, (exists) => {
+    FS.exists(resolved, exists => {
         if (!exists) {
             render404(req, res)
             return
@@ -112,7 +113,7 @@ function serveStatic(path: string, contentType: string, req: HTTP.IncomingMessag
 }
 
 function renderGenericCode(code: number): (req: HTTP.IncomingMessage, res: HTTP.ServerResponse) => void {
-    return (req: HTTP.IncomingMessage, res: HTTP.ServerResponse) => {
+    return (req: HTTP.IncomingMessage, res: HTTP.ServerResponse): void => {
         res.statusCode = code
         res.setHeader("Content-Type", "text/plain")
         res.write(`${code}`)
@@ -138,7 +139,7 @@ export class Website {
         DISCORD_RECONNECT: this.reconnectBot.bind(this),
     }
 
-    constructor(
+    public constructor(
         public baseURL: string,
     ) { }
 
@@ -149,7 +150,7 @@ export class Website {
         this.server.listen(port)
         const debug = (process.env.NODE_ENV || "development") === "development"
         if (!debug) {
-            this._keepAlive()
+            this.keepAlive()
         }
     }
 
@@ -245,7 +246,12 @@ export class Website {
                         <p>Action:</p>
                         <ul class="flex-inner">
                             <li>
-                                <input id="reconnect" type="radio" name="action" value="DISCORD_RECONNECT" checked="checked" />
+                                <input id="reconnect" 
+                                    type="radio" 
+                                    name="action" 
+                                    value="DISCORD_RECONNECT" 
+                                    checked="checked" 
+                                />
                                 <label for="reconnect">Discord Reconnect</label>
                             </li>
                             <li>
@@ -279,7 +285,7 @@ export class Website {
                 render400(req, res)
                 return
             }
-            const pairs = parts.map((str) => str.split("="))
+            const pairs = parts.map(str => str.split("="))
             const validPairs = pairs.reduce((prev, val) => val.length === 2 && prev, true)
             if (!validPairs) {
                 render400(req, res)
@@ -333,7 +339,7 @@ export class Website {
         }
     }
 
-    private _keepAlive(): void {
+    private keepAlive(): void {
         // Nothing to see here, Heroku!
         if (this.timer) {
             clearInterval(this.timer)

@@ -11,10 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { createCanvas, Image, loadImage } from "canvas"
-import * as Discord from "discord.js"
-import * as FS from "fs"
 import * as Path from "path"
+import * as Discord from "discord.js"
+import { createCanvas, Image, loadImage } from "canvas"
 import { removeBotMentions } from "../../util/remove_mentions"
 import { GlobalFeature, MessageContext } from "../feature"
 import { Drawable } from "./drawable"
@@ -36,7 +35,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
         }
         const content = removeBotMentions(this.bot, context.message)
         const lines = content.split("\n")
-        if (lines.length > 0 && TRIGGERS.indexOf(lines[0].trim().toLowerCase()) !== -1) {
+        if (lines.length > 0 && TRIGGERS.includes(lines[0].trim().toLowerCase())) {
             return true
         }
 
@@ -63,7 +62,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
         const images = await this.loadImages(lines.length)
         const tiles = images.map((img, idx) => new MemeTile(lines[idx], img, WIDTH))
         let drawables: Drawable[] = []
-        drawables = drawables.concat(...tiles.map((t) => [new Separator(WIDTH, SEPARATOR_HEIGHT), t])).slice(1)
+        drawables = drawables.concat(...tiles.map(t => [new Separator(WIDTH, SEPARATOR_HEIGHT), t])).slice(1)
         const totalHeight = drawables.reduce(((acc, drawable) => acc + drawable.height), 0)
         const canvas = createCanvas(WIDTH, totalHeight)
         const ctx = canvas.getContext("2d")
@@ -102,7 +101,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
         } else if (count === 3) {
             imageNames = ["0.jpg", "1.jpg", "3.jpg"]
         } else {
-            imageNames = [...Array(count).keys()].map((i) => `${i}.jpg`)
+            imageNames = [...Array(count).keys()].map(i => `${i}.jpg`)
         }
         const images: Image[] = []
         for (const imageName of imageNames) {
