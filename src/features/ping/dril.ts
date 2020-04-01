@@ -124,6 +124,23 @@ const TOOTS = [
     "https://twitter.com/dril/status/830105130104127490",
     "https://twitter.com/dril/status/15269318182",
     "https://twitter.com/dril/status/593017471172382720",
+    "https://twitter.com/dril/status/564527230068334593",
+    "https://twitter.com/dril/status/112909631675834368",
+    "https://twitter.com/dril/status/35713808747986944",
+    "https://twitter.com/dril/status/435373709344251904",
+    "https://twitter.com/dril/status/1025035968904974337",
+    "https://twitter.com/dril/status/660644922744262656",
+    "https://twitter.com/dril/status/828031141546430465",
+    "https://twitter.com/dril/status/925509673272344576",
+    "https://twitter.com/dril/status/343519917217296385",
+    "https://twitter.com/dril/status/553306506377330689",
+    "https://twitter.com/dril/status/10849247486287872",
+    "https://twitter.com/dril/status/618836402759794688",
+    "https://twitter.com/dril/status/440105585464201216",
+    "https://twitter.com/dril/status/601496979294855168",
+    "https://twitter.com/dril/status/650184561045995520",
+    "https://twitter.com/dril/status/960062849279234050",
+    "https://twitter.com/dril/status/677094845572358144",
 ]
 
 function shuffle<T>(a: T[]): T[] {
