@@ -140,7 +140,7 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["keepup.dat"],
+        files: ["keepup.opus"],
         id: "KEEPUP",
         regex: [
             /^keep\s*up(\s*m[uo]th(er|a)fuck(a|er))?$/i,

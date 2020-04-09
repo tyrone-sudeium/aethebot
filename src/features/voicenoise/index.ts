@@ -20,10 +20,6 @@ import { Noise, NOISES } from "./noises"
 
 /* eslint-disable no-console */
 
-// Import prism without types right now because they haven't published TS3-compatible types yet
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const Prism = require("prism-media")
-
 function pathForNoiseFile(noiseFile: string): string {
     return Path.join(process.cwd(), "res", noiseFile)
 }
@@ -45,6 +41,9 @@ interface VoicePlaybackIntent {
 export class VoiceNoiseFeature extends GlobalFeature {
     private pendingPlayback = new Map<string, VoicePlaybackIntent[]>()
 
+    // Map of Voice CHANNEL id to VoiceConnection
+    private connections = new Map<string, Discord.VoiceConnection>()
+
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
         const message = context.message
@@ -53,16 +52,16 @@ export class VoiceNoiseFeature extends GlobalFeature {
             return false
         }
 
-        if (!message.member || !message.member.voiceChannel) {
+        if (!message.member || !message.member.voice.channel) {
             if (noise.fallbackImageURL) {
-                const embed = new Discord.RichEmbed()
+                const embed = new Discord.MessageEmbed()
                 embed.setImage(noise.fallbackImageURL)
-                message.channel.sendEmbed(embed)
+                message.channel.send(embed)
                 return true
             }
             return false
         }
-        const authorVoiceChannel = message.member.voiceChannel
+        const authorVoiceChannel = message.member.voice.channel
         if (!authorVoiceChannel.joinable) {
             context.sendNegativeReply("can't join your channel")
             return true
@@ -79,6 +78,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
     public voiceChannelStateChanged(channel: Discord.VoiceChannel): void {
         if (this.shouldLeaveChannel(channel)) {
             channel.leave()
+            this.connections.delete(channel.id)
         }
     }
 
@@ -86,14 +86,15 @@ export class VoiceNoiseFeature extends GlobalFeature {
         if (channel.members.size !== 1) {
             return false
         }
-        if (!channel.connection) {
+        if (!this.connections.get(channel.id)) {
             return false
         }
         const botUser = this.bot.user
         if (!botUser) {
             return false
         }
-        if (channel.members.last().user.equals(botUser)) {
+        const lastUser = channel.members.last()
+        if (lastUser && lastUser.user.equals(botUser)) {
             return true
         }
         return false
@@ -136,9 +137,10 @@ export class VoiceNoiseFeature extends GlobalFeature {
         }
         const top = queue[0]
         if (top.state === VoicePlaybackStatus.Waiting) {
-            if (!top.channel.connection) {
+            if (!this.connections.get(top.channel.id)) {
                 top.state = VoicePlaybackStatus.Connecting
                 top.channel.join().then(conn => {
+                    this.connections.set(top.channel.id, conn)
                     top.connection = conn
                     this.updatePlaybackQueue(chanId)
                 }).catch(() => {
@@ -146,10 +148,11 @@ export class VoiceNoiseFeature extends GlobalFeature {
                     // console.error("Discord voice connection failed:")
                     // console.error(error)
                     top.channel.leave()
+                    this.connections.delete(top.channel.id)
                     this.pendingPlayback.set(chanId, [])
                 })
             } else {
-                top.connection = top.channel.connection
+                top.connection = this.connections.get(top.channel.id)
                 top.state = VoicePlaybackStatus.Connecting
                 this.updatePlaybackQueue(chanId)
             }
@@ -160,23 +163,17 @@ export class VoiceNoiseFeature extends GlobalFeature {
                 const file = files[Math.floor(Math.random() * files.length)]
                 const filePath = pathForNoiseFile(file)
                 let d: Discord.StreamDispatcher
-                if (file.endsWith(".dat")) {
-                    // Raw opus stream, play without transcoding
-                    const stream = FS.createReadStream(filePath)
-                    d = top.connection.playOpusStream(stream)
-                    stream.on("error", console.error)
-                } else if (file.endsWith(".opus")) {
+                if (file.endsWith(".opus")) {
                     // Standard .opus file, demux with Prism, don't transcode
                     const stream = FS.createReadStream(filePath)
-                        .pipe(new Prism.OggOpusDemuxer())
-                    d = top.connection.playOpusStream(stream)
+                    d = top.connection.play(stream, { type: "ogg/opus", volume: false })
                     stream.on("error", console.error)
                 } else {
-                    d = top.connection.playFile(filePath)
+                    d = top.connection.play(filePath)
                 }
                 d.on("error", console.error)
                 d.on("debug", console.log)
-                d.on("end", () => {
+                d.on("finish", () => {
                     top.state = VoicePlaybackStatus.Finished
                     this.updatePlaybackQueue(chanId)
                 })
@@ -189,10 +186,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
             if (queue.length === 0) {
                 if (this.shouldLeaveChannel(top.channel)) {
                     top.channel.leave()
-                } else {
-                    if (top.connection) {
-                        top.connection.speaking = false
-                    }
+                    this.connections.delete(top.channel.id)
                 }
             } else {
                 this.updatePlaybackQueue(chanId)

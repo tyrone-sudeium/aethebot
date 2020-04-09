@@ -82,8 +82,8 @@ export class ShitcoinFeature extends GlobalFeature {
         return false
     }
 
-    private async messageEmbed(): Promise<Discord.RichEmbed> {
-        const embed = new Discord.RichEmbed()
+    private async messageEmbed(): Promise<Discord.MessageEmbed> {
+        const embed = new Discord.MessageEmbed()
         const previous = await this.previousPrice()
         const previousFormatted = NUMBER_FORMATTER.format(Number(previous))
         const current = await this.currentPrice()

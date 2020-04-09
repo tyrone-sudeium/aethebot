@@ -116,8 +116,8 @@ export class RerollFeature extends GlobalFeature {
             return
         }
         try {
-            const botMessage = await requestMsg.channel.fetchMessage(item.botMessageId)
-            const humanMessage = await requestMsg.channel.fetchMessage(item.humanMessageId)
+            const botMessage = await requestMsg.channel.messages.fetch(item.botMessageId)
+            const humanMessage = await requestMsg.channel.messages.fetch(item.humanMessageId)
             const originalPoster = humanMessage.author
             if (!originalPoster || !requestMsg.author.equals(originalPoster)) {
                 context.sendNegativeReply()

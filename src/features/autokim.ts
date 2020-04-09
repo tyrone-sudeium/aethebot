@@ -28,7 +28,7 @@ export class AutoKimFeature extends ServerFeature {
             return false
         }
         // Auto-Kim any message that gets a Kim
-        if (reaction.emoji.name === "happy" && reaction.me === false && !reaction.users.has(this.bot.user.id)) {
+        if (reaction.emoji.name === "happy" && reaction.me === false && !reaction.users.cache.has(this.bot.user.id)) {
             reaction.message.react(reaction.emoji)
             return true
         }

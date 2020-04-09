@@ -60,7 +60,7 @@ export class TimehelperFeature extends GlobalFeature {
             return false
         }
         const format = "MMM Do ha z"
-        const embed = new Discord.RichEmbed()
+        const embed = new Discord.MessageEmbed()
         embed.setColor("#FF5200")
         for (const result of results) {
             if (!result.start.knownValues.hour) {
@@ -81,7 +81,7 @@ export class TimehelperFeature extends GlobalFeature {
             }
         }
         if (embed.fields && embed.fields.length > 0) {
-            context.message.channel.sendEmbed(embed)
+            context.message.channel.send(embed)
         }
         return false
     }

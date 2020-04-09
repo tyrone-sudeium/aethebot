@@ -40,15 +40,13 @@ export class Bot {
 
     public reconnect(): void {
         log("reconnecting to discord")
-        this.client.destroy().then(() => {
-            this.client = this.makeClient()
-            this.login()
-            const uptimeFeat = this.loadedFeatureForName("UptimeFeature")
-            if (uptimeFeat) {
-                (uptimeFeat as UptimeFeature).setStartTime(new Date().getTime())
-            }
-        // eslint-disable-next-line no-console
-        }).catch(console.error)
+        this.client.destroy()
+        this.client = this.makeClient()
+        this.login()
+        const uptimeFeat = this.loadedFeatureForName("UptimeFeature")
+        if (uptimeFeat) {
+            (uptimeFeat as UptimeFeature).setStartTime(new Date().getTime())
+        }
     }
 
     public login(): void {
@@ -56,17 +54,19 @@ export class Bot {
     }
 
     public fetchUser(id: string): Promise<Discord.User> {
-        return this.client.fetchUser(id)
+        return this.client.users.fetch(id, true)
     }
 
     // Returns a Discord channel for the given ID, or null if that channel is
     // now unavailable for whatever reason
+    // Todo: god damn this API sucks, this should really be a promise like
+    // fetchUser above...
     public fetchChannel(id: string): Discord.Channel | null {
-        return this.client.channels.find("id", id) || null
+        return this.client.channels.cache.get(id) || null
     }
 
     public joinedServers(): Discord.Collection<string, Discord.Guild> {
-        return this.client.guilds
+        return this.client.guilds.cache
     }
 
     public loadedFeatureForCtor<F extends GlobalFeature>(ctor: GlobalFeatureConstructor<F>): F | null {
@@ -136,11 +136,14 @@ export class Bot {
         }
     }
 
-    private voiceStateUpdate(oldMember: Discord.GuildMember, newMember: Discord.GuildMember): void {
-        const newUserChannel: Discord.VoiceChannel | undefined = newMember.voiceChannel
-        const oldUserChannel: Discord.VoiceChannel | undefined = oldMember.voiceChannel
+    private voiceStateUpdate(oldState: Discord.VoiceState, newState: Discord.VoiceState): void {
+        const newUserChannel: Discord.VoiceChannel | null = newState.channel
+        const oldUserChannel: Discord.VoiceChannel | null = oldState.channel
         const updatedChannel = newUserChannel || oldUserChannel || null
 
+        if (!updatedChannel) {
+            return
+        }
         for (const [, feature] of this.loadedFeatures) {
             if (feature.voiceChannelStateChanged) {
                 feature.voiceChannelStateChanged(updatedChannel)

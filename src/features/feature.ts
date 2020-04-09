@@ -26,13 +26,13 @@ const NEGATIVES = [
     "nah fuck ya",
 ]
 
-function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupDMChannel,
+function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.NewsChannel,
                mention: Discord.User,
                replyStr: string): Promise<Discord.Message> {
     if (channel.type === "dm") {
-        return channel.send(replyStr) as Promise<Discord.Message>
+        return channel.send(replyStr)
     } else {
-        return channel.send(`<@${mention.id}> ${replyStr}`) as Promise<Discord.Message>
+        return channel.send(`<@${mention.id}> ${replyStr}`)
     }
 }
 
@@ -105,7 +105,7 @@ export abstract class FeatureBase {
             return true
         }
         // Handle messages where the bot is specifically mentioned
-        if (message.isMentioned(this.bot.user)) {
+        if (message.mentions.has(this.bot.user)) {
             return true
         }
         return false
@@ -135,7 +135,7 @@ export abstract class FeatureBase {
 
         const user = this.bot.user
         // Remove the mention
-        if (user && message.isMentioned(user)) {
+        if (user && message.mentions.has(user)) {
             tokens.splice(tokens.findIndex(s => {
                 if (s === `<@${user.id}>`) {
                     return true

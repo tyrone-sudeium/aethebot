@@ -342,7 +342,7 @@ export class RedditVideoFeature extends ServerFeature {
         }
         const noun = normalizedUrls.length === 1 ? "video" : "videos"
         const pendingStr = `Just a sec, pulling the ${noun} from reddit ...`
-        const pendingMsg = await message.channel.send(pendingStr) as Discord.Message
+        const pendingMsg = await message.channel.send(pendingStr)
         for (const url of normalizedUrls) {
             const result = await processRedditUrl(message, url)
             if (result) {

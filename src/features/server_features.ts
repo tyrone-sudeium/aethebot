@@ -44,7 +44,7 @@ export class ServerFeaturesManager extends GlobalFeature {
     public handleMessage(context: MessageContext<this>): boolean {
         const message = context.message
         const isDM = message.channel.type === "dm"
-        if (!isDM) {
+        if (!isDM && message.guild) {
             const features = this.features.get(message.guild.id)
             if (features) {
                 for (const feature of features) {
@@ -90,6 +90,9 @@ export class ServerFeaturesManager extends GlobalFeature {
 
     public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
         let handled = false
+        if (!reaction.message.guild) {
+            return false
+        }
         const features = this.features.get(reaction.message.guild.id)
         if (features) {
             for (const feature of features) {
@@ -150,8 +153,11 @@ export class ServerFeaturesManager extends GlobalFeature {
                 return
             }
             server = potentialServer
-        } else {
+        } else if (context.message.guild) {
             server = context.message.guild
+        } else {
+            // ?
+            return
         }
 
         if (ADD_KEYWORDS.includes(tokens[0].toLowerCase())) {

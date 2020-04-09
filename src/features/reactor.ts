@@ -15,7 +15,7 @@ import * as Discord from "discord.js"
 import { MessageContext, ServerFeature } from "./feature"
 
 export interface Reaction {
-    reaction: string | Discord.Emoji | Discord.ReactionEmoji
+    reaction: Discord.EmojiResolvable
     regex: RegExp[]
 }
 
