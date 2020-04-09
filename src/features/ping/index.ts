@@ -139,7 +139,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
 
     private async drilAsync(context: MessageContext<this>, params: DrilRerollParams): Promise<void> {
         const embeds = await this.getEmbeds(context.message.channel.id, params)
-        const uploadedMsg = await context.message.channel.send(embeds)
+        const uploadedMsg = await context.sendReply("", embeds[0])
         pushReroll(this, uploadedMsg, context.message, params, "delete")
         return
     }
