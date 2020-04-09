@@ -15,8 +15,8 @@ import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
 import { GlobalFeature, MessageContext } from "../feature"
-import { pushReroll, Rerollable } from "../reroll"
-import { Dril } from "./dril"
+import { pushReroll, Rerollable, RerolledMessage } from "../reroll"
+import { Dril, TweetContent } from "./dril"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
 const GREETINGS = [
@@ -35,12 +35,12 @@ const RESPONSES = [
 ]
 
 interface DrilRerollParams {
-    type: "drilme"
+    type: "drilme" | "nasa"
     count: number
 }
 
 function isDrilRerollParams(params: any): params is DrilRerollParams {
-    return params.type === "drilme"
+    return params.type === "drilme" || params.type === "nasa"
 }
 
 export class PingFeature extends GlobalFeature implements Rerollable {
@@ -66,6 +66,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const joinedMessage = tokens.join("").toLowerCase()
         const emoji = parseEmoji(message)
         const isDrilEmoji = emoji.length === 1 && emoji[0].name === "dril"
+        const isNasaEmoji = emoji.length === 1 && emoji[0].name === "nasa"
         const messageWithoutEmoji = removeEmoji(joinedMessage)
         // If the message matches the shitheap of variants of "cakaw"
         if (/[ck]a+w?c?k+a+w+/.exec(joinedMessage) != null) {
@@ -73,11 +74,13 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             return true
         } else if (joinedMessage === "drillme") {
             // ...th-that's lewd
-            context.sendReply(this.dril.getNo())
+            const embed = this.dril.embedForContent(this.dril.getNo())
+            context.sendReply("", embed)
             return true
         } else if (joinedMessage === "logoff") {
             // show yourself coward
-            context.sendReply(this.dril.logoff())
+            const embed = this.dril.embedForContent(this.dril.logoff())
+            context.sendReply("", embed)
             return true
         } else if (joinedMessage === "geans") {
             // denam geans
@@ -85,11 +88,14 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             return true
         } else if (joinedMessage === "coronavirus" || joinedMessage === "covid" || joinedMessage === "beervirus") {
             // flatten the curve
-            context.sendReply(this.dril.getBeerVirus())
+            const embed = this.dril.embedForContent(this.dril.getBeerVirus())
+            context.sendReply("", embed)
         } else if (joinedMessage === "drilbomb" || (messageWithoutEmoji === "bomb" && isDrilEmoji)) {
-            // Dril bomb
+            // Dril bomb. RIP dril bomb -- a casualty of embed limitations
+            // Seems like discord.js and/or the Discord API cannot handle multiple embeds per message
+            // Even though the Discord clients do support this
             this.drilAsync(context, {
-                count: 5,
+                count: 1,
                 type: "drilme",
             })
         } else if (joinedMessage === "drilme" || isDrilEmoji) {
@@ -99,24 +105,41 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 type: "drilme",
             })
             return true
+        } else if (joinedMessage === "nasa" || isNasaEmoji) {
+            this.drilAsync(context, {
+                count: 1,
+                type: "nasa",
+            })
+            return true
         }
 
         return false
     }
 
-    public async reroll(params: any, originalMessage: Discord.Message): Promise<string> {
+    public async reroll(params: any, originalMessage: Discord.Message): Promise<RerolledMessage> {
         if (isDrilRerollParams(params)) {
-            const tweets = await this.dril.getTweets(originalMessage.channel.id, params.count)
-            return Promise.resolve(tweets.join("\n"))
+            const embeds = await this.getEmbeds(originalMessage.channel.id, params)
+            return Promise.resolve({text: "",  embeds})
         } else {
             throw new Error(`unknown parameter ${params} passed to PingFeature reroll`)
         }
     }
 
-    private async drilAsync(context: MessageContext<this>, params: {type: string; count: number}): Promise<void> {
+    private async getEmbeds(channelId: string, params: DrilRerollParams): Promise<Discord.MessageEmbed[]> {
         // it's good-ass dril content you seek
-        const tweets = await this.dril.getTweets(context.message.channel.id, params.count)
-        const uploadedMsg = await context.sendReply(tweets.join("\n"))
+        let tweets: TweetContent[] = []
+        if (params.type === "nasa") {
+            tweets = [await this.dril.getNASA()]
+        } else {
+            tweets = await this.dril.getTweets(channelId, params.count)
+        }
+        const embeds = tweets.map(t => this.dril.embedForContent(t))
+        return embeds
+    }
+
+    private async drilAsync(context: MessageContext<this>, params: DrilRerollParams): Promise<void> {
+        const embeds = await this.getEmbeds(context.message.channel.id, params)
+        const uploadedMsg = await context.message.channel.send(embeds)
         pushReroll(this, uploadedMsg, context.message, params, "delete")
         return
     }

@@ -13,7 +13,7 @@
 
 import * as randomNumber from "random-number-csprng"
 import { GlobalFeature, MessageContext } from "./feature"
-import { pushReroll, Rerollable } from "./reroll"
+import { pushReroll, Rerollable, RerolledMessage } from "./reroll"
 
 interface NumberRequest {
     type: "number"
@@ -80,8 +80,9 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
         return true
     }
 
-    public reroll(params: any): Promise<string> {
-        return this.responseForRequest(params)
+    public async reroll(params: any): Promise<RerolledMessage> {
+        const text = await this.responseForRequest(params)
+        return { text }
     }
 
     private sanitizeNumberInput(numberStr: string): number {

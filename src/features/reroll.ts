@@ -15,8 +15,13 @@ import * as Discord from "discord.js"
 import { log } from "../log"
 import { FeatureBase, GlobalFeature, MessageContext } from "./feature"
 
+export interface RerolledMessage {
+    text: string
+    embeds?: Discord.MessageEmbed[]
+}
+
 export interface Rerollable {
-    reroll(params: any, originalMessage: Discord.Message): Promise<string>
+    reroll(params: any, originalMessage: Discord.Message): Promise<RerolledMessage>
 }
 
 type RerollType = "edit" | "delete"
@@ -129,15 +134,19 @@ export class RerollFeature extends GlobalFeature {
                 return
             }
             if ((feature as RerollableFeature).reroll) {
-                let reply = await (feature as RerollableFeature).reroll(item.params, humanMessage)
+                const msgObj = await (feature as RerollableFeature).reroll(item.params, humanMessage)
                 if (botMessage.channel.type !== "dm") {
-                    reply = `<@${originalPoster.id}> ${reply}`
+                    msgObj.text = `<@${originalPoster.id}> ${msgObj.text}`
                 }
                 if (item.type === "edit") {
-                    await botMessage.edit(reply)
+                    if (msgObj.embeds && msgObj.embeds.length === 1) {
+                        await botMessage.edit(msgObj.text, msgObj.embeds[0])
+                    } else {
+                        await botMessage.edit(msgObj.text)
+                    }
                 } else if (item.type === "delete") {
                     await botMessage.delete()
-                    const newMsg = await requestMsg.channel.send(reply)
+                    const newMsg = await requestMsg.channel.send(msgObj.text, msgObj.embeds)
                     if (newMsg instanceof Discord.Message) {
                         await this.pushRerollForFeature(feature.name, newMsg, humanMessage, item.params, item.type)
                     }

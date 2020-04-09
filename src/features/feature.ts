@@ -28,11 +28,21 @@ const NEGATIVES = [
 
 function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.NewsChannel,
                mention: Discord.User,
-               replyStr: string): Promise<Discord.Message> {
+               replyStr: string,
+               embed?: Discord.MessageEmbed): Promise<Discord.Message> {
     if (channel.type === "dm") {
-        return channel.send(replyStr)
+        if (embed) {
+            return channel.send(replyStr, embed)
+        } else {
+            return channel.send(replyStr)
+        }
     } else {
-        return channel.send(`<@${mention.id}> ${replyStr}`)
+        const spacer = replyStr.length > 0 ? " " : ""
+        if (embed) {
+            return channel.send(`<@${mention.id}>${spacer}${replyStr}`, embed)
+        } else {
+            return channel.send(`<@${mention.id}>${spacer}${replyStr}`)
+        }
     }
 }
 
@@ -52,8 +62,8 @@ export class MessageContext<F extends FeatureBase> {
         return this.myFeature
     }
 
-    public async sendReply(str: string): Promise<Discord.Message> {
-        return reply(this.message.channel, this.message.author, str)
+    public async sendReply(str: string, embed?: Discord.MessageEmbed): Promise<Discord.Message> {
+        return reply(this.message.channel, this.message.author, str, embed)
     }
 
     /**
