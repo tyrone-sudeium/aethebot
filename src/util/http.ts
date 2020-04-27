@@ -16,11 +16,13 @@ import { URL } from "url"
 
 // Fix the shit type definitions for node
 declare module "https" {
-    export function get(options: string, callback?: (res: HTTP.IncomingMessage) => void): HTTP.ClientRequest
+    export function get(url: string,
+        options: HTTP.RequestOptions,
+        callback?: (res: HTTP.IncomingMessage) => void): HTTP.ClientRequest
 }
 
 interface HTTPModule {
-    get(options: string, callback?: (res: HTTP.IncomingMessage) => void): HTTP.ClientRequest
+    get(url: string, options: HTTP.RequestOptions, callback?: (res: HTTP.IncomingMessage) => void): HTTP.ClientRequest
     request(options: HTTP.RequestOptions, callback?: (res: HTTP.IncomingMessage) => void): HTTP.ClientRequest
 }
 
@@ -42,9 +44,12 @@ export async function getHTTPData(url: string, options?: HTTPOptions): Promise<B
     if (parsedUrl.protocol.toLowerCase() === "https:") {
         httpModule = HTTPS
     }
+    const headers = (options?.headers) || {}
 
     return new Promise((resolve, reject) => {
-        const getRequest = httpModule.get(url, resp => {
+        const getRequest = httpModule.get(url, {
+            headers,
+        }, resp => {
             resp.on("error", reject)
             const statusCode = resp.statusCode
 
@@ -83,7 +88,12 @@ export async function getJSON(url: string, headers: {[header: string]: string} =
     return parsedData
 }
 
-export async function head(url: string, headers?: HTTPHeaders): Promise<HTTP.IncomingHttpHeaders> {
+export interface HEADResult {
+    statusCode: number
+    headers: HTTP.IncomingHttpHeaders
+}
+
+export async function head(url: string, headers?: HTTPHeaders): Promise<HEADResult> {
     let httpModule: HTTPModule = HTTP
     const parsedUrl = new URL(url)
     if (parsedUrl.protocol.toLowerCase() === "https:") {
@@ -102,18 +112,20 @@ export async function head(url: string, headers?: HTTPHeaders): Promise<HTTP.Inc
     return new Promise((resolve, reject) => {
         const req = httpModule.request(options, resp => {
             resp.on("error", reject)
-            const statusCode = resp.statusCode
             let error
-            if (statusCode !== 200) {
-                error = new Error("Request Failed.\n" +
-                                `Status Code: ${statusCode}`)
-            }
             if (error) {
                 reject(error)
                 resp.resume()
                 return
             }
-            resolve(resp.headers)
+            if (!resp.statusCode) {
+                reject("No status code")
+                return
+            }
+            resolve({
+                statusCode: resp.statusCode,
+                headers: resp.headers,
+            })
         })
         req.on("error", reject)
         req.end()

@@ -20,9 +20,10 @@ import * as xml2js from "xml2js"
 import * as Discord from "discord.js"
 import {flatten} from "array-flatten"
 import anchorme from "anchorme"
-import { muxMP4 } from "../util/mp4_audio_video_mux"
-import { getHTTPData, getJSON, head } from "../util/http"
-import { MessageContext, ServerFeature } from "./feature"
+import { muxMP4 } from "../../util/mp4_audio_video_mux"
+import { getHTTPData, getJSON, head } from "../../util/http"
+import { MessageContext, ServerFeature } from "../feature"
+import { DownloadMetadata, downloadFile, AnchormeResult, FILE_TOO_BIG } from "./common"
 
 const DISCORD_UPLOAD_LIMIT = 8_000_000
 
@@ -32,13 +33,6 @@ interface PlaylistSegment {
     mimeType: string
     id: string
     url: string
-}
-
-interface AnchormeResult {
-    reason: string
-    protocol: string
-    raw: string
-    encoded: string
 }
 
 export function dashPlaylistURLFromVRedditURL(url: string): string {
@@ -102,11 +96,6 @@ export async function getDashPlaylist(playlistURL: string): Promise<any> {
     })
 }
 
-interface DownloadMetadata {
-    path: string
-    size: number
-}
-
 export async function getAudio(vRedditURL: URL): Promise<DownloadMetadata> {
     const pathSegments = vRedditURL.pathname.split("/")
     const videoId = pathSegments[1]
@@ -128,31 +117,6 @@ export async function getVideo(vRedditURL: URL, audioSize: number): Promise<Down
     const suffix = audioSize > 0 ? "-video" : ""
     const filePath = Path.join(OS.tmpdir(), `${videoId}${suffix}.mp4`)
     return await downloadFile(bestSegment.url, filePath)
-}
-
-export async function downloadFile(url: string, filePath: string): Promise<DownloadMetadata> {
-    const fileStream = FS.createWriteStream(filePath)
-
-    try {
-        await getHTTPData(url, {outputStream: fileStream})
-    } catch (error) {
-        fileStream.close()
-        FS.unlinkSync(filePath)
-        throw error
-    }
-    fileStream.close()
-    const stats = await new Promise<FS.Stats>((resolve, reject) => {
-        FS.stat(filePath, (err, s) => {
-            if (err) {
-                reject(err)
-            }
-            resolve(s)
-        })
-    })
-    return {
-        path: filePath,
-        size: stats.size,
-    }
 }
 
 export function playlistSegmentsFromXML(xml: any, baseURL: string): PlaylistSegment[] {
@@ -194,8 +158,8 @@ export async function findBestSegment(segments: PlaylistSegment[], audioSize: nu
         return true
     })
     for (const segment of filtered) {
-        const headers = await head(segment.url)
-        const contentLengthStr = headers["content-length"]
+        const resp = await head(segment.url)
+        const contentLengthStr = resp.headers["content-length"]
         if (!contentLengthStr) {
             continue
         }
@@ -294,7 +258,6 @@ interface PendingRedditTask {
     destinationMessage: Discord.Message
 }
 
-const FILE_TOO_BIG = "never mind, that video is too chonk to upload here, or something else is cooked"
 
 export class RedditVideoFeature extends ServerFeature {
 
