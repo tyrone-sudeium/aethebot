@@ -6,7 +6,7 @@
 /*
  * AetheBot - A Discord Chatbot
  *
- * Created by Tyrone Trevorrow on 27/12/20.
+ * Created by Tyrone Trevorrow on 27/04/20.
  * Copyright (c) 2020 Tyrone Trevorrow. All rights reserved.
  *
  * This source code is licensed under the permissive MIT license.
