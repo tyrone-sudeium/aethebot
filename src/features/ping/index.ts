@@ -111,6 +111,8 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 type: "nasa",
             })
             return true
+        } else if (/((canwegetonthe)|(getonthe))beers\??/.exec(joinedMessage) != null) {
+            context.sendReply("no")
         }
 
         return false
