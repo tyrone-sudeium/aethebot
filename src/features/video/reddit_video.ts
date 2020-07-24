@@ -96,20 +96,19 @@ export async function getDashPlaylist(playlistURL: string): Promise<any> {
     })
 }
 
-export async function getAudio(vRedditURL: URL): Promise<DownloadMetadata> {
-    const pathSegments = vRedditURL.pathname.split("/")
-    const videoId = pathSegments[1]
+export async function getAudio(videoId: string, segments: PlaylistSegment[]): Promise<DownloadMetadata> {
     const filePath = Path.join(OS.tmpdir(), `${videoId}-audio.mp4`)
-    const audioUrl = `${vRedditURL.toString()}/audio`
+    const audioSegments = segments.filter(s => s.mimeType === "audio/mp4")
+    if (audioSegments.length === 0) {
+        throw new Error("No audio")
+    }
+    const audioUrl = audioSegments[0].url
     return await downloadFile(audioUrl, filePath)
 }
 
-export async function getVideo(vRedditURL: URL, audioSize: number): Promise<DownloadMetadata> {
-    const dashUrl = dashPlaylistURLFromVRedditURL(vRedditURL.toString())
-    const pathSegments = vRedditURL.pathname.split("/")
-    const videoId = pathSegments[1]
-    const xml = await getDashPlaylist(dashUrl)
-    const segments = playlistSegmentsFromXML(xml, vRedditURL.toString())
+export async function getVideo(videoId: string,
+                               audioSize: number,
+                               segments: PlaylistSegment[]): Promise<DownloadMetadata> {
     const bestSegment = await findBestSegment(segments, audioSize)
     if (!bestSegment) {
         throw new Error("No eligible segments found in DASH playlist.")
@@ -131,18 +130,18 @@ export function playlistSegmentsFromXML(xml: any, baseURL: string): PlaylistSegm
             if (!s.Representation) {
                 return []
             }
-            return s.Representation.map((r: any) => parsePlaylistSegment(r, baseURL))
+            return s.Representation.map((r: any) => parsePlaylistSegment(r, baseURL, s.$.mimeType))
         })
     })
     return flatten<PlaylistSegment[]>(res)
 }
 
-export function parsePlaylistSegment(xml: any, baseUrl: string): PlaylistSegment {
+export function parsePlaylistSegment(xml: any, baseUrl: string, mimeType: string): PlaylistSegment {
     return {
         bandwidth: parseInt(xml.$.bandwidth, 10),
         codecs: xml.$.codecs,
         id: xml.$.id,
-        mimeType: xml.$.mimeType,
+        mimeType,
         url: `${baseUrl}/${xml.BaseURL}`,
     }
 }
@@ -219,18 +218,21 @@ async function processRedditUrl(sourceMessage: Discord.Message, vUrl: URL): Prom
     const pathSegments = vUrl.pathname.split("/")
     const videoId = pathSegments[1]
     const filePath = Path.join(OS.tmpdir(), `${videoId}.mp4`)
+    const dashUrl = dashPlaylistURLFromVRedditURL(vUrl.toString())
+    const xml = await getDashPlaylist(dashUrl)
+    const segments = playlistSegmentsFromXML(xml, vUrl.toString())
 
     try {
         let audio: DownloadMetadata
         try {
-            audio = await getAudio(vUrl)
+            audio = await getAudio(videoId, segments)
         } catch (error) {
             audio = {
                 path: "",
                 size: 0,
             }
         }
-        const video = await getVideo(vUrl, audio.size)
+        const video = await getVideo(videoId, audio.size, segments)
         if (audio.size > 0) {
             const output = await muxMP4(video.path, audio.path, filePath)
             await new Promise(res => { FS.unlink(audio.path, () => res()) })
@@ -242,7 +244,6 @@ async function processRedditUrl(sourceMessage: Discord.Message, vUrl: URL): Prom
     } catch (error) {
         return null
     }
-    return null
 }
 
 const commentsRegex = /(old|new|www|m|api)\.reddit\.com\/r\/.+\/comments/
