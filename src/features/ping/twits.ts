@@ -12,26 +12,15 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
 import { Brain } from "../../brain"
+import { TweetPoolContent, TweetPool } from "./tweetpool"
 
-const TWITTER_ICON = "https://cdn.discordapp.com/attachments/293954139845820416/697810035769606206/twitter-footer.png"
 const BRAIN_KEYS = {
     TOOT_LIST: "twit:toot_list",
 }
 
-export interface RandoTwitContent {
-    content: string
-    retweets: number
-    likes: number
-    url: string
-    author: string
-    avatar: string
-    image?: string
-}
 
-
-const CONTENT: RandoTwitContent[] = [
+const CONTENT: TweetPoolContent[] = [
     {
         content: "Yeah I'm p good with the old Microsoft Office [i accidentally click the button that makes all the paragraph symbols appear] ah she's fucked",
         retweets: 1481,
@@ -205,83 +194,16 @@ const CONTENT: RandoTwitContent[] = [
 
 const TOOTS_BY_URL = new Map(CONTENT.map(obj => [obj.url, obj]))
 
-function shuffle<T>(a: T[]): T[] {
-    let j = 0
-    let i = 0
-
-    for (i = a.length - 1; i > 0; i--) {
-        j = Math.floor(Math.random() * (i + 1))
-        const x = a[i]
-        a[i] = a[j]
-        a[j] = x
+export class Twit extends TweetPool {
+    protected get list(): Map<string, TweetPoolContent> {
+        return TOOTS_BY_URL
     }
 
-    return a
-}
-
-interface PersistedJSON {
-    v: number
-    toots: string[]
-}
-
-export class Twit {
-    public constructor(
-        public brain: Brain,
-    ) { }
-
-    public async getTweets(channelId: string, count: number): Promise<RandoTwitContent[]> {
-        let toots: string[] = []
-        const selected: RandoTwitContent[] = []
-        try {
-            const tootsJSONStr = await this.brain.get(this.brainKeyForChannel(channelId))
-            if (tootsJSONStr) {
-                const json = JSON.parse(tootsJSONStr)
-                if (!json.v || json.v !== 1) {
-                    toots = shuffle(Array.from(TOOTS_BY_URL.keys()))
-                } else {
-                    toots = json.toots
-                }
-            } else {
-                toots = shuffle(Array.from(TOOTS_BY_URL.keys()))
-            }
-        } catch (err) {
-            toots = shuffle(Array.from(TOOTS_BY_URL.keys()))
-        }
-        while (selected.length < count) {
-            if (toots.length === 0) {
-                toots = shuffle(Array.from(TOOTS_BY_URL.keys()))
-            }
-
-            const tweetId = toots.pop() || ""
-            const toot = TOOTS_BY_URL.get(tweetId)
-            if (toot) {
-                selected.push(toot)
-            }
-        }
-        const newPersistedData: PersistedJSON = {
-            toots,
-            v: 1,
-        }
-        await this.brain.set(this.brainKeyForChannel(channelId), JSON.stringify(newPersistedData))
-        return selected
+    protected get persistenceVersion(): number {
+        return 1
     }
 
-    public embedForContent(toot: RandoTwitContent): Discord.MessageEmbed {
-        const embed = new Discord.MessageEmbed()
-        embed.setAuthor(toot.author, toot.avatar, toot.url)
-        embed.setDescription(toot.content)
-        embed.setFooter("Twitter", TWITTER_ICON)
-        embed.setColor([29, 161, 242])
-        embed.addField("Retweets", toot.retweets, true)
-        embed.addField("Likes", toot.likes, true)
-
-        if (toot.image) {
-            embed.setImage(toot.image)
-        }
-        return embed
-    }
-
-    private brainKeyForChannel(chanId: string): string {
+    protected brainKeyForChannel(chanId: string): string {
         return `${BRAIN_KEYS.TOOT_LIST}:${chanId}`
     }
 }

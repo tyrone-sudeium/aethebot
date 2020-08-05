@@ -13,17 +13,16 @@
  */
 
 import * as randomNumber from "random-number-csprng"
-import * as Discord from "discord.js"
-import { Brain } from "../../brain"
+import { TweetPool, TweetPoolContent } from "./tweetpool"
 
-const NEVER: TweetContent = {
+const NEVER: CursedDrilContent = {
     content: "who the fuck is scraeming \"LOG OFF\" at my house. show yourself, coward. i will never log off",
     retweets: 15990,
     likes: 31988,
     id: "247222360309121024",
 }
 
-const NO: TweetContent = {
+const NO: CursedDrilContent = {
     content: "no",
     retweets: 59902,
     likes: 118179,
@@ -32,7 +31,7 @@ const NO: TweetContent = {
 
 const GEANS = "https://media.discordapp.net/attachments/293954139845820416/674437889693843476/image0.jpg"
 
-const BEERVIRUS: TweetContent = {
+const BEERVIRUS: CursedDrilContent = {
     content: "ive flattened the curve over 100 times. what have you pricks been doing",
     retweets: 7378,
     likes: 60731,
@@ -40,19 +39,18 @@ const BEERVIRUS: TweetContent = {
 }
 
 const DRIL_ICON = "https://cdn.discordapp.com/attachments/293954139845820416/697810031256666152/VXyQHfn0_bigger.jpg"
-const TWITTER_ICON = "https://cdn.discordapp.com/attachments/293954139845820416/697810035769606206/twitter-footer.png"
 const BRAIN_KEYS = {
     TOOT_LIST: "dril:toot_list",
 }
 
-export interface TweetContent {
+export interface CursedDrilContent {
     content: string
     retweets: number
     likes: number
     id: string
 }
 
-const NASA: TweetContent[] = [
+const NASA: CursedDrilContent[] = [
     {
         content: "Let's cut the crap—regarding iTunes. Maybe it's just me, but it seems like you gotta be from NASA just to get half these features to work.",
         retweets: 790,
@@ -115,7 +113,7 @@ const NASA: TweetContent[] = [
     },
 ]
 
-const CONTENT: TweetContent[] = [
+const CONTENT: CursedDrilContent[] = [
     {
         content: "Welcome to the citadel of eternal wisdom.  Behold, this crystal contains the sum of all human knowledge -- Except Rap And Country",
         retweets: 3136,
@@ -750,103 +748,58 @@ const CONTENT: TweetContent[] = [
     NEVER,
 ].concat(NASA)
 
-const TOOTS_BY_ID = new Map(CONTENT.map(obj => [obj.id, obj]))
-
-function shuffle<T>(a: T[]): T[] {
-    let j = 0
-    let i = 0
-
-    for (i = a.length - 1; i > 0; i--) {
-        j = Math.floor(Math.random() * (i + 1))
-        const x = a[i]
-        a[i] = a[j]
-        a[j] = x
+function tweetPoolContentFromDril(dril: CursedDrilContent): TweetPoolContent {
+    return {
+        content: dril.content,
+        retweets: dril.retweets,
+        likes: dril.likes,
+        url: `https://twitter.com/dril/status/${dril.id}`,
+        author: "wint (@dril)",
+        avatar: DRIL_ICON,
     }
-
-    return a
 }
+
+const TOOTS_BY_URL = new Map(CONTENT.map(obj => {
+    const content = tweetPoolContentFromDril(obj)
+    return [content.url, content]
+}))
 
 interface PersistedJSON {
     v: number
     toots: string[]
 }
 
-export class Dril {
-    public constructor(
-        public brain: Brain,
-    ) { }
-
-    public async getTweets(channelId: string, count: number): Promise<TweetContent[]> {
-        let toots: string[] = []
-        const selected: TweetContent[] = []
-        try {
-            const tootsJSONStr = await this.brain.get(this.brainKeyForChannel(channelId))
-            if (tootsJSONStr) {
-                const json = JSON.parse(tootsJSONStr)
-                if (!json.v || json.v !== 1) {
-                    toots = shuffle(Array.from(TOOTS_BY_ID.keys()))
-                } else {
-                    toots = json.toots
-                }
-            } else {
-                toots = shuffle(Array.from(TOOTS_BY_ID.keys()))
-            }
-        } catch (err) {
-            toots = shuffle(Array.from(TOOTS_BY_ID.keys()))
-        }
-        while (selected.length < count) {
-            if (toots.length === 0) {
-                toots = shuffle(Array.from(TOOTS_BY_ID.keys()))
-            }
-
-            const tweetId = toots.pop() || ""
-            const toot = TOOTS_BY_ID.get(tweetId)
-            if (toot) {
-                selected.push(toot)
-            }
-        }
-        const newPersistedData: PersistedJSON = {
-            toots,
-            v: 1,
-        }
-        await this.brain.set(this.brainKeyForChannel(channelId), JSON.stringify(newPersistedData))
-        return selected
+export class Dril extends TweetPool {
+    public getNo(): TweetPoolContent {
+        return tweetPoolContentFromDril(NO)
     }
 
-    public getNo(): TweetContent {
-        return NO
-    }
-
-    public logoff(): TweetContent {
-        return NEVER
+    public logoff(): TweetPoolContent {
+        return tweetPoolContentFromDril(NEVER)
     }
 
     public getGeans(): string {
         return GEANS
     }
 
-    public getBeerVirus(): TweetContent {
-        return BEERVIRUS
+    public getBeerVirus(): TweetPoolContent {
+        return tweetPoolContentFromDril(BEERVIRUS)
     }
 
-    public async getNASA(): Promise<TweetContent> {
+    public async getNASA(): Promise<TweetPoolContent> {
         const idx = await randomNumber(0, NASA.length - 1)
-        return NASA[idx]
+        return tweetPoolContentFromDril(NASA[idx])
     }
 
-    public embedForContent(toot: TweetContent): Discord.MessageEmbed {
-        const embed = new Discord.MessageEmbed()
-        const url = `https://twitter.com/dril/status/${toot.id}`
-        embed.setAuthor("wint (@dril)", DRIL_ICON, url)
-        embed.setDescription(toot.content)
-        embed.setFooter("Twitter", TWITTER_ICON)
-        embed.setColor([29, 161, 242])
-        embed.addField("Retweets", toot.retweets, true)
-        embed.addField("Likes", toot.likes, true)
-        return embed
-    }
-
-    private brainKeyForChannel(chanId: string): string {
+    protected brainKeyForChannel(chanId: string): string {
         return `${BRAIN_KEYS.TOOT_LIST}:${chanId}`
+    }
+
+    protected get list(): Map<string, TweetPoolContent> {
+        return TOOTS_BY_URL
+    }
+
+    protected get persistenceVersion(): number {
+        return 2
     }
 }
