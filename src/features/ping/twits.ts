@@ -6,13 +6,12 @@
 /*
  * AetheBot - A Discord Chatbot
  *
- * Created by Tyrone Trevorrow on 01/04/17.
- * Copyright (c) 2017 Tyrone Trevorrow. All rights reserved.
+ * Created by Tyrone Trevorrow on 05/08/20.
+ * Copyright (c) 2020 Tyrone Trevorrow. All rights reserved.
  *
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Brain } from "../../brain"
 import { TweetPoolContent, TweetPool } from "./tweetpool"
 
 const BRAIN_KEYS = {

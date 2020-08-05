@@ -2,9 +2,6 @@
  * Base class for Twitter content getters.
  */
 
-import * as Discord from "discord.js"
-import { Brain } from "../../brain"
-import { shuffle } from "../../util/shuffle"
 /*
  * AetheBot - A Discord Chatbot
  *
@@ -13,6 +10,10 @@ import { shuffle } from "../../util/shuffle"
  *
  * This source code is licensed under the permissive MIT license.
  */
+
+import * as Discord from "discord.js"
+import { Brain } from "../../brain"
+import { shuffle } from "../../util/shuffle"
 
 const TWITTER_ICON = "https://cdn.discordapp.com/attachments/293954139845820416/697810035769606206/twitter-footer.png"
 
