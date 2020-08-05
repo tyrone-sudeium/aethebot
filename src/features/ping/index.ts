@@ -17,6 +17,7 @@ import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
 import { GlobalFeature, MessageContext } from "../feature"
 import { pushReroll, Rerollable, RerolledMessage } from "../reroll"
 import { Dril, TweetContent } from "./dril"
+import { Twit, RandoTwitContent } from "./twits"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
 const GREETINGS = [
@@ -45,10 +46,12 @@ function isDrilRerollParams(params: any): params is DrilRerollParams {
 
 export class PingFeature extends GlobalFeature implements Rerollable {
     private dril: Dril
+    private twit: Twit
 
     public constructor(bot: Bot, name: string) {
         super(bot, name)
         this.dril = new Dril(bot.brain)
+        this.twit = new Twit(bot.brain)
     }
 
     public handleMessage(context: MessageContext<this>): boolean {
@@ -113,6 +116,8 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             return true
         } else if (/((canwegetonthe)|(getonthe))beers\??/.exec(joinedMessage) != null) {
             context.sendReply("no")
+        } else if (joinedMessage === "twitme") {
+            this.twitAsync(context, 1)
         }
 
         return false
@@ -143,6 +148,13 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const embeds = await this.getEmbeds(context.message.channel.id, params)
         const uploadedMsg = await context.sendReply("", embeds[0])
         pushReroll(this, uploadedMsg, context.message, params, "delete")
+        return
+    }
+
+    private async twitAsync(context: MessageContext<this>, count: number): Promise<void> {
+        const tweets: RandoTwitContent[] = await this.twit.getTweets(context.message.channel.id, count)
+        const embeds = tweets.map(t => this.twit.embedForContent(t))
+        await context.sendReply("", embeds[0])
         return
     }
 }
