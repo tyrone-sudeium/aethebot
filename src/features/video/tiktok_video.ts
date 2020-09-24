@@ -58,7 +58,7 @@ async function getVideoMetadata(tikTokURL: URL): Promise<TikTokVideo> {
     const urls = propsJson?.["/v/:id"]?.videoData?.itemInfos?.video?.urls
     const id =  propsJson?.["/v/:id"]?.videoData?.itemInfos?.id
     if (!urls || !urls.length) {
-        throw new Error("TikTok page parser issue, maybe AetheBot needs updating?")
+        throw new Error("TikTok JSON parser issue, maybe AetheBot needs updating?")
     }
     return {
         id,
@@ -71,7 +71,14 @@ async function processTikTokUrl(sourceMessage: Discord.Message, vmTikTokURL: URL
     const realURL = await unshortenVMTikTokURL(vmTikTokURL)
     const meta = await getVideoMetadata(realURL)
     const filePath = Path.join(OS.tmpdir(), `${meta.id}.mp4`)
-    const download = await downloadFile(meta.downloadURL.toString(), filePath)
+    const download = await downloadFile(meta.downloadURL.toString(), filePath, {
+        "User-Agent": iPadUserAgent,
+        "Referer": "https://www.tiktok.com/",
+        "Origin": "https://www.tiktok.com",
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US;en;q=0.5",
+    })
     return download.path
 }
 
@@ -102,12 +109,21 @@ export class TikTokVideoFeature extends ServerFeature {
         const pendingStr = `Just a sec, pulling the ${noun} from, ugh, TikTok...`
         const pendingMsg = await message.channel.send(pendingStr)
         for (const url of tiktokUrls) {
-            const result = await processTikTokUrl(message, url)
+            let result: string | null = null
+            try {
+                result = await processTikTokUrl(message, url)
+            } catch (error) {
+                const msg = error.message
+                pendingMsg.edit(`Just a sec, pulling the ${noun} from, ugh, TikTok... ah she's fucked (${msg})`)
+            }
             if (result) {
-                await message.channel.send({files: [result]})
+                try {
+                    await message.channel.send({files: [result]})
+                } catch (error) {
+                    pendingMsg.edit(`Just a sec, pulling the ${noun} from, ugh, TikTok... ` +
+                        `ah she's fucked (${FILE_TOO_BIG})`)
+                }
                 FS.unlinkSync(result)
-            } else {
-                pendingMsg.edit(FILE_TOO_BIG)
             }
         }
     }

@@ -19,11 +19,17 @@ export interface DownloadMetadata {
     size: number
 }
 
-export async function downloadFile(url: string, filePath: string): Promise<DownloadMetadata> {
+export async function downloadFile(
+    url: string,
+    filePath: string,
+    headers?: {[header: string]: string}): Promise<DownloadMetadata> {
     const fileStream = FS.createWriteStream(filePath)
 
     try {
-        await getHTTPData(url, {outputStream: fileStream})
+        await getHTTPData(url, {
+            outputStream: fileStream,
+            headers,
+        })
     } catch (error) {
         fileStream.close()
         FS.unlinkSync(filePath)
