@@ -117,7 +117,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             return true
         } else if (/((canwegetonthe)|(getonthe))beers\??/.exec(joinedMessage) != null) {
             context.sendReply("no, but soon™: " +
-                "https://www.vic.gov.au/sites/default/files/2020-09/Victoria-roadmap-Melbourne-Metro_0.pdf")
+                "https://www.coronavirus.vic.gov.au/coronavirus-covid-19-restrictions-roadmaps")
         } else if (joinedMessage === "twitme") {
             this.tweetAsync(context, {
                 count: 1,
