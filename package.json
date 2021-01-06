@@ -33,6 +33,7 @@
   "dependencies": {
     "@discordjs/opus": "^0.1.0",
     "@types/ws": "^7.2.1",
+    "@tyrone-sudeium/napi-gif-encoder": "^0.0.1",
     "anchorme": "^1.1.2",
     "array-flatten": "^3.0.0",
     "canvas": "^2.0.0-alpha.12",
