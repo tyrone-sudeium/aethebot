@@ -83,7 +83,7 @@ export class Bot {
     }
 
     private makeClient(): Discord.Client {
-        const client = new Discord.Client()
+        const client = new Discord.Client({partials: ["MESSAGE", "REACTION"]})
         client.on("message", this.receiveMessage.bind(this))
         client.on("messageReactionAdd", this.onMessageReactionAdd.bind(this))
         client.on("ready", () => {
