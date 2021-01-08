@@ -12,7 +12,7 @@
     "build": "tsc"
   },
   "engines": {
-    "node": "12.14.1"
+    "node": "14.15.4"
   },
   "repository": {
     "type": "git",
@@ -45,8 +45,6 @@
     "moment-timezone": "^0.5.11",
     "random-number-csprng": "^1.0.2",
     "redis": "^2.6.5",
-    "ref": "lxe/ref#node-12",
-    "ref-struct": "lxe/ref-struct#node-12",
     "strict-event-emitter-types": "^2.0.0",
     "uuid": "^3.3.3",
     "xml2js": "^0.4.19"
@@ -67,7 +65,6 @@
     "typescript": "^3.2.2"
   },
   "resolutions": {
-    "**/ref": "lxe/ref#node-12",
-    "**/ref-struct": "lxe/ref-struct#node-12"
+    "**/needle": "^2.6.0"
   }
 }
