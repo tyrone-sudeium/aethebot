@@ -35,6 +35,7 @@ import { TimehelperFeature } from "./timehelper"
 import { UptimeFeature } from "./uptime"
 import { VoiceNoiseFeature } from "./voicenoise/"
 import { FashionReportFeature } from "./fashion_report"
+import { TimPostFeature } from "./timpost"
 
 export { GlobalFeature }
 
@@ -68,4 +69,5 @@ export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
     ReactorFeature,
     RedditVideoFeature,
     TikTokVideoFeature,
+    TimPostFeature,
 ]

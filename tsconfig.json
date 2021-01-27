@@ -6,11 +6,14 @@
     "outDir": "dist",
     "alwaysStrict": true,
     "strict": true,
-    "target": "es2017",
+    "target": "es2020",
     "experimentalDecorators": true,
     "typeRoots": [
       "./node_modules/@types",
       "./src/types"
+    ],
+    "lib": [
+      "ES2020.String"
     ]
   },
   "files": [
