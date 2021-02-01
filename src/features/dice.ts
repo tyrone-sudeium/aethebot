@@ -35,7 +35,7 @@ function assertNever(x: never): never {
 export class DiceFeature extends GlobalFeature implements Rerollable {
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
-        if (tokens.length > 2) {
+        if (tokens.length > 2 || tokens.length === 0) {
             return false
         }
         const command = tokens[0].toLowerCase()
