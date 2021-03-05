@@ -86,6 +86,7 @@ export class Bot {
         const client = new Discord.Client({partials: ["MESSAGE", "REACTION"]})
         client.on("message", this.receiveMessage.bind(this))
         client.on("messageReactionAdd", this.onMessageReactionAdd.bind(this))
+        client.on("messageReactionRemove", this.onMessageReactionRemove.bind(this))
         client.on("ready", () => {
             this.user = this.client.user
             if (process.env.NODE_ENV !== "production") {
@@ -128,10 +129,18 @@ export class Bot {
         }
     }
 
-    private onMessageReactionAdd(msg: Discord.MessageReaction): void {
+    private onMessageReactionAdd(msg: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): void {
         for (const [, feature] of this.loadedFeatures) {
             if (feature.onMessageReactionAdd !== undefined) {
-                feature.onMessageReactionAdd(msg)
+                feature.onMessageReactionAdd(msg, user)
+            }
+        }
+    }
+
+    private onMessageReactionRemove(msg: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): void {
+        for (const [, feature] of this.loadedFeatures) {
+            if (feature.onMessageReactionRemove !== undefined) {
+                feature.onMessageReactionRemove(msg, user)
             }
         }
     }

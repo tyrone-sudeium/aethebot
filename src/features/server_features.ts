@@ -88,7 +88,8 @@ export class ServerFeaturesManager extends GlobalFeature {
         return true
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
+    public onMessageReactionAdd(reaction: Discord.MessageReaction,
+                                user: Discord.User | Discord.PartialUser): boolean {
         let handled = false
         if (!reaction.message.guild) {
             return false
@@ -97,7 +98,26 @@ export class ServerFeaturesManager extends GlobalFeature {
         if (features) {
             for (const feature of features) {
                 if (feature.onMessageReactionAdd !== undefined) {
-                    const res = feature.onMessageReactionAdd(reaction)
+                    const res = feature.onMessageReactionAdd(reaction, user)
+                    handled = handled || res
+                }
+            }
+        }
+        return handled
+    }
+
+    public onMessageReactionRemove(reaction: Discord.MessageReaction,
+                                   user: Discord.User | Discord.PartialUser): boolean {
+        // TODO: this is duplicated above, factor it out
+        let handled = false
+        if (!reaction.message.guild) {
+            return false
+        }
+        const features = this.features.get(reaction.message.guild.id)
+        if (features) {
+            for (const feature of features) {
+                if (feature.onMessageReactionRemove !== undefined) {
+                    const res = feature.onMessageReactionRemove(reaction, user)
                     handled = handled || res
                 }
             }

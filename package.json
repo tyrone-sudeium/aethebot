@@ -39,6 +39,7 @@
     "canvas": "^2.0.0-alpha.12",
     "chrono-node": "^1.2.5",
     "discord.js": "12",
+    "emoji-regex": "^9.2.2",
     "gif-encoder-2": "tyrone-sudeium/gif-encoder-2#feature/type_definitions",
     "minimist": "^1.2.3",
     "moment-precise-range-plugin": "^1.2.3",

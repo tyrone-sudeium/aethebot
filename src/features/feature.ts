@@ -82,7 +82,8 @@ export class MessageContext<F extends FeatureBase> {
 }
 
 export interface FeatureBase {
-    onMessageReactionAdd?(reaction: Discord.MessageReaction): boolean
+    onMessageReactionAdd?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean
+    onMessageReactionRemove?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean
 }
 
 export abstract class FeatureBase {
@@ -115,7 +116,10 @@ export abstract class FeatureBase {
             return true
         }
         // Handle messages where the bot is specifically mentioned
-        if (message.mentions.has(this.bot.user)) {
+        if (message.mentions.has(this.bot.user, {
+            ignoreEveryone: true,
+            ignoreRoles: true,
+        })) {
             return true
         }
         return false
@@ -123,7 +127,7 @@ export abstract class FeatureBase {
 
     public commandTokens(context: MessageContext<this>): string[] {
         const message = context.message
-        const matches = message.content.trim().match(/\\?.|^$/g)
+        const matches = message.content.trim().match(/\\?.|\n|^$/g)
         if (!matches) {
             return []
         }
@@ -131,6 +135,9 @@ export abstract class FeatureBase {
             if (c === '"') {
                 state.quote = !state.quote
             } else if (!state.quote && c === " ") {
+                state.a.push("")
+            } else if (!state.quote && c === "\n") {
+                state.a.push(c)
                 state.a.push("")
             } else {
                 state.a[state.a.length-1] += c.replace(/\\(.)/,"$1")

@@ -74,7 +74,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         }
 
         const joinedMessage = tokens.join("").toLowerCase()
-        const emoji = parseEmoji(message)
+        const emoji = parseEmoji(message.content)
         const isDrilEmoji = emoji.length === 1 && emoji[0].name === "dril"
         const isNasaEmoji = emoji.length === 1 && emoji[0].name === "nasa"
         const messageWithoutEmoji = removeEmoji(joinedMessage)

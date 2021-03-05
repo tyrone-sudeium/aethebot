@@ -23,15 +23,16 @@ export class AutoKimFeature extends ServerFeature {
         return false
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
+    public onMessageReactionAdd(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean {
         if (!this.bot.user) {
             return false
         }
-        this.handleReaction(reaction)
+        this.handleReaction(reaction, user)
         return true
     }
 
-    private async handleReaction(reaction: Discord.MessageReaction): Promise<void> {
+    private async handleReaction(reaction: Discord.MessageReaction,
+                                 user: Discord.User | Discord.PartialUser): Promise<void> {
         if (!this.bot.user) {
             return
         }
@@ -42,7 +43,7 @@ export class AutoKimFeature extends ServerFeature {
             // Don't fetch message partials for irrelevant emoji
             return
         }
-        if (reaction.me) {
+        if (user.id === this.bot.user.id) {
             // Don't react to myself
             return
         }
@@ -50,17 +51,14 @@ export class AutoKimFeature extends ServerFeature {
             // Fetch the full message if our cache only has partial
             await reaction.message.fetch()
         }
-        if (!reaction.users.cache || reaction.users.cache.size === 0) {
-            // Fetch the reaction users if it wasn't included in the socket for whatever reason
-            await reaction.users.fetch()
-        }
+        const users = await reaction.users.fetch()
         // Auto-Kim any message that gets a Kim
-        if (reaction.emoji.name === "happy" && !reaction.users.cache.has(this.bot.user.id)) {
+        if (reaction.emoji.name === "happy" && !users.has(this.bot.user.id)) {
             reaction.message.react(reaction.emoji)
             return
         }
         // Auto-kekw any message that gets a kekw
-        if (reaction.emoji.name.toLowerCase() === "kekw" && !reaction.users.cache.has(this.bot.user.id)) {
+        if (reaction.emoji.name.toLowerCase() === "kekw" && !users.has(this.bot.user.id)) {
             reaction.message.react(reaction.emoji)
         }
     }
