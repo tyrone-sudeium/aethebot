@@ -90,39 +90,43 @@ export class ServerFeaturesManager extends GlobalFeature {
 
     public onMessageReactionAdd(reaction: Discord.MessageReaction,
                                 user: Discord.User | Discord.PartialUser): boolean {
-        let handled = false
-        if (!reaction.message.guild) {
-            return false
-        }
-        const features = this.features.get(reaction.message.guild.id)
-        if (features) {
-            for (const feature of features) {
-                if (feature.onMessageReactionAdd !== undefined) {
-                    const res = feature.onMessageReactionAdd(reaction, user)
-                    handled = handled || res
-                }
-            }
-        }
-        return handled
+        this.handleReaction(reaction, user, "add")
+        return true
     }
 
     public onMessageReactionRemove(reaction: Discord.MessageReaction,
                                    user: Discord.User | Discord.PartialUser): boolean {
-        // TODO: this is duplicated above, factor it out
-        let handled = false
-        if (!reaction.message.guild) {
-            return false
+        this.handleReaction(reaction, user, "remove")
+        return true
+    }
+
+    private async handleReaction(reaction: Discord.MessageReaction,
+                                 user: Discord.User | Discord.PartialUser,
+                                 action: "add" | "remove"): Promise<void> {
+        let message = reaction.message
+        if (reaction.partial) {
+            reaction = await reaction.fetch()
         }
-        const features = this.features.get(reaction.message.guild.id)
+        if (message.partial) {
+            message = await message.fetch()
+        }
+        if (!message.guild) {
+            return
+        }
+        const features = this.features.get(message.guild.id)
         if (features) {
             for (const feature of features) {
-                if (feature.onMessageReactionRemove !== undefined) {
-                    const res = feature.onMessageReactionRemove(reaction, user)
-                    handled = handled || res
+                if (action === "add") {
+                    if (feature.onMessageReactionAdd !== undefined) {
+                        feature.onMessageReactionAdd(reaction, user)
+                    }
+                } else if (action === "remove") {
+                    if (feature.onMessageReactionRemove !== undefined) {
+                        feature.onMessageReactionRemove(reaction, user)
+                    }
                 }
             }
         }
-        return handled
     }
 
     private async setupFeatures(): Promise<void> {
