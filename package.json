@@ -37,7 +37,7 @@
     "anchorme": "^1.1.2",
     "array-flatten": "^3.0.0",
     "canvas": "^2.0.0-alpha.12",
-    "chrono-node": "^1.2.5",
+    "chrono-node": "^2.2.4",
     "discord.js": "12",
     "emoji-regex": "^9.2.2",
     "gif-encoder-2": "tyrone-sudeium/gif-encoder-2#feature/type_definitions",
