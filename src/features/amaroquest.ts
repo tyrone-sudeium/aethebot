@@ -228,7 +228,6 @@ export class AmaroQuestFeature extends GlobalFeature {
                 const avatarURL = charData.Character.Avatar
                 leaderboard.push({name, cumulativeExp, url, avatarURL, position: ""})
             }
-            leaderboard[1].cumulativeExp = 5213894400
             leaderboard = sortLeaderboard(leaderboard)
             const embeds = leaderboard.map(embedForLeaderboardData)
             // This isn't great... Discord doesn't guarantee message ordering, plus this is spam
