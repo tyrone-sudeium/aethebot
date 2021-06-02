@@ -188,7 +188,7 @@ function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.Me
     const embed = new Discord.MessageEmbed()
     const totalExp = NUMBER_FORMATTER.format(TOTAL_EXP)
     const cumulativeExp = NUMBER_FORMATTER.format(data.cumulativeExp)
-    embed.setAuthor(data.name, data.avatarURL)
+    embed.setAuthor(data.name, data.avatarURL, data.url)
     embed.setTitle(`${data.position} Place`)
     embed.setFooter(`${cumulativeExp} / ${totalExp} Total EXP`)
     embed.setColor(COLORS[idx])
