@@ -140,6 +140,7 @@ interface LeaderboardData {
     cumulativeExp: number
     url: string
     avatarURL: string
+    position: string
 }
 
 function totalExpForToon(toon: XIVAPICharacter): number {
@@ -163,12 +164,32 @@ function totalExpForToon(toon: XIVAPICharacter): number {
     return exp
 }
 
+function sortLeaderboard(leaderboard: LeaderboardData[]): LeaderboardData[] {
+    leaderboard.sort((a, b) => b.cumulativeExp - a.cumulativeExp)
+    let prevPos = 0
+    let prevExp = -1
+    let idx = 0
+    for (const data of leaderboard) {
+        if (prevExp === data.cumulativeExp) {
+            prevExp = data.cumulativeExp
+            data.position = ORDINALS[prevPos]
+            idx++
+        } else {
+            prevExp = data.cumulativeExp
+            data.position = ORDINALS[idx]
+            prevPos = idx
+            idx++
+        }
+    }
+    return leaderboard
+}
+
 function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.MessageEmbed {
     const embed = new Discord.MessageEmbed()
     const totalExp = NUMBER_FORMATTER.format(TOTAL_EXP)
     const cumulativeExp = NUMBER_FORMATTER.format(data.cumulativeExp)
     embed.setAuthor(data.name, data.avatarURL)
-    embed.setTitle(`${ORDINALS[idx]} Place`)
+    embed.setTitle(`${data.position} Place`)
     embed.setFooter(`${cumulativeExp} / ${totalExp} Total EXP`)
     embed.setColor(COLORS[idx])
     return embed
@@ -198,16 +219,17 @@ export class AmaroQuestFeature extends GlobalFeature {
         const amaroQuesters: number[] = JSON.parse(amaroQuestersStr)
 
         if (tokens.length < 2) {
-            const leaderboard: LeaderboardData[] = []
+            let leaderboard: LeaderboardData[] = []
             for (const leaderboardCharId of amaroQuesters) {
                 const charData: XIVAPICharacter = await getJSON(`https://xivapi.com/character/${leaderboardCharId}`)
                 const name = charData.Character.Name
                 const cumulativeExp = totalExpForToon(charData)
                 const url = `https://na.finalfantasyxiv.com/lodestone/character/${leaderboardCharId}/`
                 const avatarURL = charData.Character.Avatar
-                leaderboard.push({name, cumulativeExp, url, avatarURL})
+                leaderboard.push({name, cumulativeExp, url, avatarURL, position: ""})
             }
-            leaderboard.sort((a, b) => b.cumulativeExp - a.cumulativeExp)
+            leaderboard[1].cumulativeExp = 5213894400
+            leaderboard = sortLeaderboard(leaderboard)
             const embeds = leaderboard.map(embedForLeaderboardData)
             // This isn't great... Discord doesn't guarantee message ordering, plus this is spam
             for (const embed of embeds) {
