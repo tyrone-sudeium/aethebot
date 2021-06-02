@@ -37,6 +37,7 @@ import { VoiceNoiseFeature } from "./voicenoise/"
 import { FashionReportFeature } from "./fashion_report"
 import { TimPostFeature } from "./timpost"
 import { ReactionRolesFeature } from "./reaction_roles"
+import { AmaroQuestFeature } from "./amaroquest"
 
 export { GlobalFeature }
 
@@ -63,6 +64,7 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     ScomoFeature,
     UptimeFeature,
     FashionReportFeature,
+    AmaroQuestFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
