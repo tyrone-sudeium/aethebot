@@ -252,4 +252,13 @@ export const NOISES: Noise[] = [
             /^c(ognitive\s+)?b(ehavio(u?)ral\s+)?t(herapy)?$/i,
         ],
     },
+    {
+        files: ["hycybh.opus"],
+        id: "HYCYBH",
+        regex: [
+            /^hycybh$/i,
+            /^pooper$/i,
+            /^have\s+you\s+checked\s+your\s+(butthole|pooper)$/i,
+        ],
+    },
 ]
