@@ -258,7 +258,7 @@ export const NOISES: Noise[] = [
         regex: [
             /^hycybh$/i,
             /^pooper$/i,
-            /^have\s+you\s+checked\s+your\s+(butthole|pooper)$/i
-        ]
-    }
+            /^have\s+you\s+checked\s+your\s+(butthole|pooper)$/i,
+        ],
+    },
 ]
