@@ -12,7 +12,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as randomNumber from "random-number-csprng"
+import randomNumber from "random-number-csprng"
 import { TweetPool, TweetPoolContent } from "./tweetpool"
 
 const NEVER: CursedDrilContent = {

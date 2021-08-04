@@ -12,7 +12,7 @@
  */
 
 
-import * as Moment from "moment"
+import Moment from "moment"
 import { GlobalFeature, MessageContext } from "./feature"
 import "moment-precise-range-plugin"
 

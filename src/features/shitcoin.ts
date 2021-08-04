@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import * as Moment from "moment"
+import Moment from "moment"
 import { Bot } from "../bot"
 import { log } from "../log"
 import { getJSON } from "../util/http"

@@ -11,7 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Moment from "moment"
+import Moment from "moment"
 import { Bot } from "../bot"
 import { GlobalFeature, MessageContext } from "./feature"
 import "moment-precise-range-plugin"

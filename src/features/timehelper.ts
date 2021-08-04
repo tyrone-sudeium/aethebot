@@ -13,7 +13,7 @@
 
 import * as Chrono from "chrono-node"
 import * as Discord from "discord.js"
-import * as Moment from "moment-timezone"
+import Moment from "moment-timezone"
 import { GlobalFeature, MessageContext } from "./feature"
 
 const MAXIMUM_TIMEZONES = 4
@@ -55,7 +55,7 @@ export class TimehelperFeature extends GlobalFeature {
             // No timezones to translate to
             return false
         }
-        const results = Chrono.parse(cleanMsg, Moment().tz(timezone))
+        const results = Chrono.parse(cleanMsg, { instant: new Date(), timezone: zoneoffset })
         if (!results || results.length === 0) {
             return false
         }
@@ -63,13 +63,10 @@ export class TimehelperFeature extends GlobalFeature {
         const embed = new Discord.MessageEmbed()
         embed.setColor("#FF5200")
         for (const result of results) {
-            if (!result.start.knownValues.hour) {
+            if (!result.start.isCertain("hour")) {
                 // If we're not given an hour, it's not precise enough to bother
                 // everyone in the server.
                 continue
-            }
-            if (!result.start.get("timezoneOffset")) {
-                result.start.assign("timezoneOffset", zoneoffset)
             }
             const date = result.start.date()
             const zonesStrs = outZones.map(z => Moment(date).tz(z).format(format))

@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import * as randomNumber from "random-number-csprng"
+import randomNumber from "random-number-csprng"
 import { Bot } from "../bot"
 
 const NEGATIVES = [
