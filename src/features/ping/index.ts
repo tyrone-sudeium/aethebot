@@ -116,7 +116,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             })
             return true
         } else if (/((canwegetonthe)|(getonthe))beers\??/.exec(joinedMessage) != null) {
-            context.sendNegativeReply("i can't be fucked keeping track any more, fuck it. google it")
+            context.sendReply("i can't be fucked keeping track any more, fuck it. google it")
             return true
         } else if (joinedMessage === "twitme") {
             this.tweetAsync(context, {
