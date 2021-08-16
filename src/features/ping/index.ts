@@ -35,12 +35,6 @@ const RESPONSES = [
     "oi",
     "pong, cunt",
 ]
-const BEERS = [
-    "https://cdn.discordapp.com/attachments/293954139845820416/770170644833763338/get-on-the-beers-1.png",
-    "https://cdn.discordapp.com/attachments/293954139845820416/770170659648307231/get-on-the-beers-2.png",
-    "https://cdn.discordapp.com/attachments/293954139845820416/770170699918213130/get-on-the-beers-3.jpg",
-    "https://www.youtube.com/watch?v=7hOK5JF5XGA",
-]
 
 interface TwitterRerollParams {
     type: "drilme" | "nasa" | "twit"
@@ -122,10 +116,8 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             })
             return true
         } else if (/((canwegetonthe)|(getonthe))beers\??/.exec(joinedMessage) != null) {
-            const beers = BEERS[Math.floor(Math.random() * BEERS.length)]
-            context.sendReply("YES, but don't fuck around: " +
-                "https://www.coronavirus.vic.gov.au/coronavirus-covid-19-restrictions-roadmaps \n\n" +
-                beers)
+            context.sendNegativeReply("i can't be fucked keeping track any more, fuck it. google it")
+            return true
         } else if (joinedMessage === "twitme") {
             this.tweetAsync(context, {
                 count: 1,
