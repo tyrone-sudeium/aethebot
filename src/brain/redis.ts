@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/unbound-method */
 /**
  * Brain implementation that stores in a Redis instance.
  */
@@ -12,23 +13,12 @@
  */
 
 import { EventEmitter } from "events"
+import { promisify } from "util"
 import { RedisClient } from "redis"
 import StrictEventEmitter from "strict-event-emitter-types"
 import { v4 as uuid } from "uuid"
 import { log } from "../log"
 import { Brain, SystemMessages } from "./brain"
-
-function promisify<T>(func: (callback: (err: any, result: T) => void) => void): Promise<T> {
-    return new Promise<T>((resolve, reject) => {
-        func((err, res) => {
-            if (err) {
-                reject(err)
-            } else {
-                resolve(res)
-            }
-        })
-    })
-}
 
 const REDIS_KEYS = {
     SYSTEM_MESSAGES_CHANNEL: "ab:sys_msg",
@@ -97,9 +87,18 @@ export class RedisBrain implements Brain {
     private client: RedisClient
     private storage: {[key: string]: string} = {}
 
+    private redisQuit: () => Promise<"OK">
+    private redisSet: (arg1: string, arg2: string) => Promise<unknown>
+    private redisGet: (arg1: string) => Promise<string | null>
+    private redisDel: (arg1: string) => Promise<number>
+
     public constructor(client: RedisClient, systemMessagesEmitter: StrictEventEmitter<EventEmitter, SystemMessages>) {
         this.client = client
         this.systemMessages = systemMessagesEmitter
+        this.redisQuit = promisify(client.quit).bind(client)
+        this.redisSet = promisify(client.set).bind(client)
+        this.redisGet = promisify(client.get).bind(client)
+        this.redisDel = promisify(client.del).bind(client)
     }
 
     public save(): Promise<void> {
@@ -107,39 +106,30 @@ export class RedisBrain implements Brain {
         return Promise.resolve()
     }
 
-    public close(): Promise<void> {
-        return promisify<void>(cb => {
-            this.client.quit(cb)
-        })
+    public async close(): Promise<void> {
+        await this.redisQuit()
     }
 
-    public set(key: string, value: string): Promise<void> {
+    public async set(key: string, value: string): Promise<void> {
         this.storage[key] = value
-        return promisify<void>(cb => {
-            this.client.set(key, value, cb)
-        })
+        await this.redisSet(key, value)
     }
 
-    public get(key: string): Promise<string | null> {
+    public async get(key: string): Promise<string | null> {
         if (this.storage[key]) {
             return Promise.resolve(this.storage[key])
         }
-        return promisify<string | null>(cb => {
-            this.client.get(key, cb)
-        }).then(res => {
-            if (res) {
-                this.storage[key] = res
-            } else {
-                delete this.storage[key]
-            }
-            return Promise.resolve(res)
-        })
+        const res = await this.redisGet(key)
+        if (res) {
+            this.storage[key] = res
+        } else {
+            delete this.storage[key]
+        }
+        return res
     }
 
-    public remove(key: string): Promise<void> {
+    public async remove(key: string): Promise<void> {
         delete this.storage[key]
-        return promisify<void>(cb => {
-            this.client.del(key, cb)
-        })
+        await this.redisDel(key)
     }
 }

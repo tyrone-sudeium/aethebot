@@ -140,7 +140,7 @@ export const NOISES: Noise[] = [
         ],
     },
     {
-        files: ["keepup.dat"],
+        files: ["keepup.opus"],
         id: "KEEPUP",
         regex: [
             /^keep\s*up(\s*m[uo]th(er|a)fuck(a|er))?$/i,
@@ -250,6 +250,15 @@ export const NOISES: Noise[] = [
         id: "CBT",
         regex: [
             /^c(ognitive\s+)?b(ehavio(u?)ral\s+)?t(herapy)?$/i,
+        ],
+    },
+    {
+        files: ["hycybh.opus"],
+        id: "HYCYBH",
+        regex: [
+            /^hycybh$/i,
+            /^pooper$/i,
+            /^have\s+you\s+checked\s+your\s+(butthole|pooper)$/i,
         ],
     },
 ]

@@ -20,9 +20,9 @@ export interface MessageEmoji {
 
 const emojiRegex = /<:([^\s]+):(\d+)>/g
 
-export function parseEmoji(msg: Discord.Message): MessageEmoji[] {
+export function parseEmoji(msg: string): MessageEmoji[] {
     const emojis: MessageEmoji[] = []
-    let match = emojiRegex.exec(msg.content)
+    let match = emojiRegex.exec(msg)
     while (match) {
         if (match.length >= 3) {
             emojis.push({
@@ -30,7 +30,7 @@ export function parseEmoji(msg: Discord.Message): MessageEmoji[] {
                 name: match[1],
             })
         }
-        match = emojiRegex.exec(msg.content)
+        match = emojiRegex.exec(msg)
     }
     return emojis
 }

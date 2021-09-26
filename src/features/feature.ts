@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import * as randomNumber from "random-number-csprng"
+import randomNumber from "random-number-csprng"
 import { Bot } from "../bot"
 
 const NEGATIVES = [
@@ -26,13 +26,23 @@ const NEGATIVES = [
     "nah fuck ya",
 ]
 
-function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.GroupDMChannel,
+function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.NewsChannel,
                mention: Discord.User,
-               replyStr: string): Promise<Discord.Message> {
+               replyStr: string,
+               embed?: Discord.MessageEmbed): Promise<Discord.Message> {
     if (channel.type === "dm") {
-        return channel.send(replyStr) as Promise<Discord.Message>
+        if (embed) {
+            return channel.send(replyStr, embed)
+        } else {
+            return channel.send(replyStr)
+        }
     } else {
-        return channel.send(`<@${mention.id}> ${replyStr}`) as Promise<Discord.Message>
+        const spacer = replyStr.length > 0 ? " " : ""
+        if (embed) {
+            return channel.send(`<@${mention.id}>${spacer}${replyStr}`, embed)
+        } else {
+            return channel.send(`<@${mention.id}>${spacer}${replyStr}`)
+        }
     }
 }
 
@@ -52,8 +62,8 @@ export class MessageContext<F extends FeatureBase> {
         return this.myFeature
     }
 
-    public async sendReply(str: string): Promise<Discord.Message> {
-        return reply(this.message.channel, this.message.author, str)
+    public async sendReply(str: string, embed?: Discord.MessageEmbed): Promise<Discord.Message> {
+        return reply(this.message.channel, this.message.author, str, embed)
     }
 
     /**
@@ -72,7 +82,8 @@ export class MessageContext<F extends FeatureBase> {
 }
 
 export interface FeatureBase {
-    onMessageReactionAdd?(reaction: Discord.MessageReaction): boolean
+    onMessageReactionAdd?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean
+    onMessageReactionRemove?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean
 }
 
 export abstract class FeatureBase {
@@ -105,7 +116,10 @@ export abstract class FeatureBase {
             return true
         }
         // Handle messages where the bot is specifically mentioned
-        if (message.isMentioned(this.bot.user)) {
+        if (message.mentions.has(this.bot.user, {
+            ignoreEveryone: true,
+            ignoreRoles: true,
+        })) {
             return true
         }
         return false
@@ -113,7 +127,7 @@ export abstract class FeatureBase {
 
     public commandTokens(context: MessageContext<this>): string[] {
         const message = context.message
-        const matches = message.content.trim().match(/\\?.|^$/g)
+        const matches = message.content.trim().match(/\\?.|\n|^$/g)
         if (!matches) {
             return []
         }
@@ -121,6 +135,9 @@ export abstract class FeatureBase {
             if (c === '"') {
                 state.quote = !state.quote
             } else if (!state.quote && c === " ") {
+                state.a.push("")
+            } else if (!state.quote && c === "\n") {
+                state.a.push(c)
                 state.a.push("")
             } else {
                 state.a[state.a.length-1] += c.replace(/\\(.)/,"$1")
@@ -135,7 +152,7 @@ export abstract class FeatureBase {
 
         const user = this.bot.user
         // Remove the mention
-        if (user && message.isMentioned(user)) {
+        if (user && message.mentions.has(user)) {
             tokens.splice(tokens.findIndex(s => {
                 if (s === `<@${user.id}>`) {
                     return true

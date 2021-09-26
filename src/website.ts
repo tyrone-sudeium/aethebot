@@ -14,6 +14,7 @@
 import * as FS from "fs"
 import * as HTTP from "http"
 import * as Path from "path"
+import * as Querystring from "querystring"
 
 import { Brain, MemoryBrain } from "./brain"
 import { sourceVersion } from "./util/version"
@@ -293,7 +294,7 @@ export class Website {
             }
             const map: Map<string, string> = new Map()
             for (const [key, value] of pairs) {
-                map.set(key, value)
+                map.set(key, Querystring.unescape(value))
             }
             const password = map.get("password")
             if (!password) {

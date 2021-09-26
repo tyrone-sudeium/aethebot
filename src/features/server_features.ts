@@ -44,7 +44,7 @@ export class ServerFeaturesManager extends GlobalFeature {
     public handleMessage(context: MessageContext<this>): boolean {
         const message = context.message
         const isDM = message.channel.type === "dm"
-        if (!isDM) {
+        if (!isDM && message.guild) {
             const features = this.features.get(message.guild.id)
             if (features) {
                 for (const feature of features) {
@@ -88,18 +88,45 @@ export class ServerFeaturesManager extends GlobalFeature {
         return true
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
-        let handled = false
-        const features = this.features.get(reaction.message.guild.id)
+    public onMessageReactionAdd(reaction: Discord.MessageReaction,
+                                user: Discord.User | Discord.PartialUser): boolean {
+        this.handleReaction(reaction, user, "add")
+        return true
+    }
+
+    public onMessageReactionRemove(reaction: Discord.MessageReaction,
+                                   user: Discord.User | Discord.PartialUser): boolean {
+        this.handleReaction(reaction, user, "remove")
+        return true
+    }
+
+    private async handleReaction(reaction: Discord.MessageReaction,
+                                 user: Discord.User | Discord.PartialUser,
+                                 action: "add" | "remove"): Promise<void> {
+        let message = reaction.message
+        if (reaction.partial) {
+            reaction = await reaction.fetch()
+        }
+        if (message.partial) {
+            message = await message.fetch()
+        }
+        if (!message.guild) {
+            return
+        }
+        const features = this.features.get(message.guild.id)
         if (features) {
             for (const feature of features) {
-                if (feature.onMessageReactionAdd !== undefined) {
-                    const res = feature.onMessageReactionAdd(reaction)
-                    handled = handled || res
+                if (action === "add") {
+                    if (feature.onMessageReactionAdd !== undefined) {
+                        feature.onMessageReactionAdd(reaction, user)
+                    }
+                } else if (action === "remove") {
+                    if (feature.onMessageReactionRemove !== undefined) {
+                        feature.onMessageReactionRemove(reaction, user)
+                    }
                 }
             }
         }
-        return handled
     }
 
     private async setupFeatures(): Promise<void> {
@@ -150,8 +177,11 @@ export class ServerFeaturesManager extends GlobalFeature {
                 return
             }
             server = potentialServer
-        } else {
+        } else if (context.message.guild) {
             server = context.message.guild
+        } else {
+            // ?
+            return
         }
 
         if (ADD_KEYWORDS.includes(tokens[0].toLowerCase())) {

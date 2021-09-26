@@ -47,7 +47,7 @@ export class RedisAdminFeature extends GlobalFeature {
         if (!(await canPerformAction("Redis", context))) {
             return
         }
-        this.redisClient.send_command(tokens[1], tokens.slice(2), (err: Error, res: string) => {
+        this.redisClient.send_command(tokens[1], tokens.slice(2), (err: Error | null, res: string) => {
             if (err) {
                 context.sendNegativeReply(err.message)
                 return

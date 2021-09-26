@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as randomNumber from "random-number-csprng"
+import randomNumber from "random-number-csprng"
 import { GlobalFeature, MessageContext } from "./feature"
-import { pushReroll, Rerollable } from "./reroll"
+import { pushReroll, Rerollable, RerolledMessage } from "./reroll"
 
 interface NumberRequest {
     type: "number"
@@ -35,7 +35,7 @@ function assertNever(x: never): never {
 export class DiceFeature extends GlobalFeature implements Rerollable {
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
-        if (tokens.length > 2) {
+        if (tokens.length > 2 || tokens.length === 0) {
             return false
         }
         const command = tokens[0].toLowerCase()
@@ -80,8 +80,9 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
         return true
     }
 
-    public reroll(params: any): Promise<string> {
-        return this.responseForRequest(params)
+    public async reroll(params: any): Promise<RerolledMessage> {
+        const text = await this.responseForRequest(params)
+        return { text }
     }
 
     private sanitizeNumberInput(numberStr: string): number {

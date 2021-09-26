@@ -13,7 +13,7 @@
 
 import { EventEmitter } from "events"
 import * as Redis from "redis"
-import * as parseArgs from "minimist"
+import parseArgs from "minimist"
 import { Bot } from "./bot"
 import { Brain, FlatFileBrain, MemoryBrain, RedisBrain } from "./brain"
 import { RedisPubSubEventEmitter } from "./brain/redis"
@@ -110,7 +110,6 @@ if (!argv.bot && baseURL) {
     } else if (argv.website) {
         log("fatal: invalid configuration: website-only mode requires REDIS_URL", "always")
         process.exit(1)
-        brain = sharedMemoryBrain
     } else {
         brain = sharedMemoryBrain
     }

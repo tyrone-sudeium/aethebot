@@ -11,16 +11,14 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as FS from "fs"
 import * as OS from "os"
 import * as Path from "path"
 import { createCanvas, Image, loadImage } from "canvas"
+import { GIFEncoder } from "@tyrone-sudeium/napi-gif-encoder"
 import { Drawable } from "../features/memegen/drawable"
 import { MemeTile } from "../features/memegen/meme_tile"
 import { Separator } from "../features/memegen/separator"
-import { log } from "../log"
 
-import GIFEncoder = require("gif-encoder-2")
 const WIDTH = 480
 const TILE_HEIGHT = 194
 const SEPARATOR_HEIGHT = 3
@@ -48,9 +46,9 @@ async function loadImages(panels: number, frame: number): Promise<Image[]> {
 async function generateGif(message: Message, id: string): Promise<string> {
     const { lines } = message
     const totalHeight = (TILE_HEIGHT * lines.length) + (SEPARATOR_HEIGHT * (lines.length - 1))
-    const gif = new GIFEncoder(WIDTH, totalHeight, "octree", true, NUM_FRAMES)
+    const filePath = Path.join(OS.tmpdir(), `${id}.gif`)
+    const gif = new GIFEncoder(WIDTH, totalHeight, filePath)
     gif.setFrameRate(14)
-    gif.start()
     const canvas = createCanvas(WIDTH, totalHeight)
     const ctx = canvas.getContext("2d")
     if (!ctx) {
@@ -81,13 +79,9 @@ async function generateGif(message: Message, id: string): Promise<string> {
             }
         }
 
-        gif.addFrame(ctx)
+        gif.addFrame(Buffer.from(ctx.getImageData(0, 0, WIDTH, totalHeight).data))
     }
-    gif.finish()
-    const attachment = gif.out.getData()
-    log(`gif size: ${attachment.length}`)
-    const filePath = Path.join(OS.tmpdir(), `${id}.gif`)
-    await new Promise(resolve => FS.writeFile(filePath, attachment, resolve))
+    await gif.finish()
     return filePath
 }
 

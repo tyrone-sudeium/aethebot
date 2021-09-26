@@ -29,7 +29,8 @@ export class ScomoFeature extends GlobalFeature {
             return false
         }
         const daysBetween = Math.ceil(timeBetween / days)
-        const replyMsg = `We've got old mate Scomo for at most another ${daysBetween} days.` +
+        const replyMsg = `We've got old mate Scomo for at most another ${daysBetween} days. ` +
+            "Or, at least, until Australia _definitely_ re-elects him." +
             `\n${scomo}`
         context.sendReply(replyMsg)
         return true

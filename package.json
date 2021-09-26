@@ -12,7 +12,7 @@
     "build": "tsc"
   },
   "engines": {
-    "node": "12.14.1"
+    "node": "14.15.4"
   },
   "repository": {
     "type": "git",
@@ -31,21 +31,21 @@
   },
   "homepage": "https://github.com/tyrone-sudeium/aethebot#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "@types/ws": "^7.2.1",
+    "@tyrone-sudeium/napi-gif-encoder": "^0.0.1",
     "anchorme": "^1.1.2",
     "array-flatten": "^3.0.0",
     "canvas": "^2.0.0-alpha.12",
-    "chrono-node": "^1.2.5",
-    "discord.js": "11.4.2",
+    "chrono-node": "^2.3.1",
+    "discord.js": "12",
+    "emoji-regex": "^9.2.2",
     "gif-encoder-2": "tyrone-sudeium/gif-encoder-2#feature/type_definitions",
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.3",
     "moment-precise-range-plugin": "^1.2.3",
     "moment-timezone": "^0.5.11",
-    "node-opus": "0.3.3",
-    "prism-media": "0.2.1",
     "random-number-csprng": "^1.0.2",
-    "redis": "^2.6.5",
-    "ref": "lxe/ref#node-12",
-    "ref-struct": "lxe/ref-struct#node-12",
+    "redis": "^3.1.2",
     "strict-event-emitter-types": "^2.0.0",
     "uuid": "^3.3.3",
     "xml2js": "^0.4.19"
@@ -54,7 +54,7 @@
     "@types/minimist": "^1.2.0",
     "@types/moment-timezone": "^0.5.9",
     "@types/node": "^12",
-    "@types/redis": "^0.12.34",
+    "@types/redis": "^2.8.31",
     "@types/uuid": "^3.4.5",
     "@types/xml2js": "^0.4.3",
     "@typescript-eslint/eslint-plugin": "^2.19.0",
@@ -66,7 +66,6 @@
     "typescript": "^3.2.2"
   },
   "resolutions": {
-    "**/ref": "lxe/ref#node-12",
-    "**/ref-struct": "lxe/ref-struct#node-12"
+    "**/needle": "^2.6.0"
   }
 }

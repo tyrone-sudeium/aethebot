@@ -34,9 +34,6 @@ function stringIsAlphaOnly(str: string): boolean {
 }
 
 export class RegionalIndicatorFeature extends GlobalFeature {
-    public handlesMessage(): boolean {
-        return true
-    }
 
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)

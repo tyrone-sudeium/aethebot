@@ -111,6 +111,9 @@ async function handleFashionRequest(context: MessageContext<FashionReportFeature
 export class FashionReportFeature extends GlobalFeature {
 
     public handlesMessage(context: MessageContext<this>): boolean {
+        if (!super.handlesMessage(context)) {
+            return false
+        }
         const tokens = this.commandTokens(context)
         if (tokens.length > 0 && tokens[0] === "fashion report") {
             return true

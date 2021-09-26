@@ -24,16 +24,20 @@ import { GalaxyBrainFeature } from "./memegen/galaxy_brain"
 import { VinceMcMahonFeature } from "./memegen/vince"
 import { PingFeature } from "./ping/"
 import { ReactorFeature } from "./reactor"
-import { RedditVideoFeature } from "./reddit_video"
+import { RedditVideoFeature } from "./video/reddit_video"
 import { RegionalIndicatorFeature } from "./regional_indicator"
 import { RerollFeature } from "./reroll"
 import { ScomoFeature } from "./scomo"
 import { ServerFeaturesManager } from "./server_features"
 import { ShitcoinFeature } from "./shitcoin"
+import { TikTokVideoFeature } from "./video/tiktok_video"
 import { TimehelperFeature } from "./timehelper"
 import { UptimeFeature } from "./uptime"
 import { VoiceNoiseFeature } from "./voicenoise/"
 import { FashionReportFeature } from "./fashion_report"
+import { TimPostFeature } from "./timpost"
+import { ReactionRolesFeature } from "./reaction_roles"
+import { AmaroQuestFeature } from "./amaroquest"
 
 export { GlobalFeature }
 
@@ -60,10 +64,14 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     ScomoFeature,
     UptimeFeature,
     FashionReportFeature,
+    AmaroQuestFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
     AutoKimFeature,
     ReactorFeature,
     RedditVideoFeature,
+    TikTokVideoFeature,
+    TimPostFeature,
+    ReactionRolesFeature,
 ]

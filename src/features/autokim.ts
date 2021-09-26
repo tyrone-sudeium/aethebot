@@ -23,15 +23,43 @@ export class AutoKimFeature extends ServerFeature {
         return false
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction): boolean {
+    public onMessageReactionAdd(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean {
         if (!this.bot.user) {
             return false
         }
-        // Auto-Kim any message that gets a Kim
-        if (reaction.emoji.name === "happy" && reaction.me === false && !reaction.users.has(this.bot.user.id)) {
-            reaction.message.react(reaction.emoji)
-            return true
+        this.handleReaction(reaction, user)
+        return true
+    }
+
+    private async handleReaction(reaction: Discord.MessageReaction,
+                                 user: Discord.User | Discord.PartialUser): Promise<void> {
+        if (!this.bot.user) {
+            return
         }
-        return false
+        if (reaction.partial) {
+            await reaction.fetch()
+        }
+        if (reaction.emoji.name !== "happy" && reaction.emoji.name.toLowerCase() !== "kekw") {
+            // Don't fetch message partials for irrelevant emoji
+            return
+        }
+        if (user.id === this.bot.user.id) {
+            // Don't react to myself
+            return
+        }
+        if (reaction.message.partial) {
+            // Fetch the full message if our cache only has partial
+            await reaction.message.fetch()
+        }
+        const users = await reaction.users.fetch()
+        // Auto-Kim any message that gets a Kim
+        if (reaction.emoji.name === "happy" && !users.has(this.bot.user.id)) {
+            reaction.message.react(reaction.emoji)
+            return
+        }
+        // Auto-kekw any message that gets a kekw
+        if (reaction.emoji.name.toLowerCase() === "kekw" && !users.has(this.bot.user.id)) {
+            reaction.message.react(reaction.emoji)
+        }
     }
 }
