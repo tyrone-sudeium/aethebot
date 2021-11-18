@@ -957,6 +957,8 @@ function tweetPoolContentFromDril(dril: CursedDrilContent): TweetPoolContent {
     }
 }
 
+const NASA_URLS = new Set(NASA.map(t => tweetPoolContentFromDril(t).url))
+
 const TOOTS_BY_URL = new Map(CONTENT.map(obj => {
     const content = tweetPoolContentFromDril(obj)
     return [content.url, content]
@@ -987,6 +989,10 @@ export class Dril extends TweetPool {
     public async getNASA(): Promise<TweetPoolContent> {
         const idx = await randomNumber(0, NASA.length - 1)
         return tweetPoolContentFromDril(NASA[idx])
+    }
+
+    public isNASA(url: string): boolean {
+        return NASA_URLS.has(url)
     }
 
     protected brainKeyForChannel(chanId: string): string {

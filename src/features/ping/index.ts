@@ -16,6 +16,7 @@ import { Bot } from "../../bot"
 import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
 import { GlobalFeature, MessageContext } from "../feature"
 import { pushReroll, Rerollable, RerolledMessage } from "../reroll"
+import { sourceVersion } from "../../util/version"
 import { Dril } from "./dril"
 import { Twit } from "./twits"
 import { TweetPoolContent, TweetPool } from "./tweetpool"
@@ -130,14 +131,26 @@ export class PingFeature extends GlobalFeature implements Rerollable {
 
     public async reroll(params: any, originalMessage: Discord.Message): Promise<RerolledMessage> {
         if (isDrilRerollParams(params)) {
-            const embeds = await this.getEmbeds(originalMessage.channel.id, params)
+            const toots = await this.getToots(originalMessage.channel.id, params)
+            const embeds = this.getEmbeds(params, toots)
             return Promise.resolve({text: "",  embeds})
         } else {
             throw new Error(`unknown parameter ${params} passed to PingFeature reroll`)
         }
     }
 
-    private async getEmbeds(channelId: string, params: TwitterRerollParams): Promise<Discord.MessageEmbed[]> {
+    private getEmbeds(params: TwitterRerollParams,
+                      toots: TweetPoolContent[]): Discord.MessageEmbed[] {
+        let source: TweetPool
+        if (params.type === "nasa" || params.type === "drilme") {
+            source = this.dril
+        } else {
+            source = this.twit
+        }
+        return toots.map(t => source.embedForContent(t))
+    }
+
+    private async getToots(channelId: string, params: TwitterRerollParams): Promise<TweetPoolContent[]> {
         // it's good-ass dril content you seek
         let tweets: TweetPoolContent[] = []
         let source: TweetPool
@@ -152,14 +165,40 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             }
             tweets = await source.getTweets(channelId, params.count)
         }
-        const embeds = tweets.map(t => source.embedForContent(t))
-        return embeds
+        return tweets
     }
 
-    private async tweetAsync(context: MessageContext<this>, params: TwitterRerollParams): Promise<void> {
-        const embeds = await this.getEmbeds(context.message.channel.id, params)
+    private async tweetAsync(context: MessageContext<this>,
+                             params: TwitterRerollParams): Promise<void> {
+        const toots = await this.getToots(context.message.channel.id, params)
+        const embeds = this.getEmbeds(params, toots)
         const uploadedMsg = await context.sendReply("", embeds[0])
+        if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
+            const emojis = await this.autoAirhornEmojis(context)
+            if (emojis !== null) {
+                await uploadedMsg.react(emojis.airhorn)
+                await uploadedMsg.react(emojis.nasa)
+            }
+        }
         pushReroll(this, uploadedMsg, context.message, params, "delete")
         return
     }
+
+    private async autoAirhornEmojis(context: MessageContext<this>): Promise<AutoAirhornEmojis | null> {
+        if (context.message.guild === null) {
+            return null
+        }
+        const guild = await context.message.guild.fetch()
+        const airhorn = guild.emojis.cache.find(e => e.name === "airhorn")
+        const nasa = guild.emojis.cache.find(e => e.name === "nasa")
+        if (airhorn && nasa) {
+            return { airhorn, nasa }
+        }
+        return null
+    }
+}
+
+interface AutoAirhornEmojis {
+    airhorn: Discord.GuildEmoji
+    nasa: Discord.GuildEmoji
 }
