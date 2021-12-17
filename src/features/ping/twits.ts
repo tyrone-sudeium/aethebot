@@ -189,6 +189,14 @@ const CONTENT: TweetPoolContent[] = [
         avatar: "https://cdn.discordapp.com/attachments/550619622450135046/740517908244856903/ZKzY7QRK_bigger.png",
         image: "https://cdn.discordapp.com/attachments/550619622450135046/740518221769080912/unknown.png",
     },
+    {
+        content: "god: i have made Mankind\nangels: you fucked up a perfectly good monkey is what you did. look at it. it's got anxiety",
+        retweets: 50220,
+        likes: 89131,
+        url: "https://twitter.com/jon_snow_420/status/659443020908003328",
+        author: "failings spectre (@jon_snow_420)",
+        avatar: "https://media.discordapp.net/attachments/293954139845820416/921202881347072030/zoAyRuJP_normal.jpg",
+    },
 ]
 
 const TOOTS_BY_URL = new Map(CONTENT.map(obj => [obj.url, obj]))
