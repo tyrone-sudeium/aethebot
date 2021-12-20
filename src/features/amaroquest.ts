@@ -135,6 +135,7 @@ const NUMBER_FORMATTER = new Intl.NumberFormat("en-US")
 interface XIVAPICharacter {
     Character: {
         Avatar: string
+        ID: number
         Name: string
         ClassJobs: {
             ClassID: number
@@ -200,8 +201,9 @@ function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.Me
     const embed = new Discord.MessageEmbed()
     const totalExp = NUMBER_FORMATTER.format(TOTAL_EXP)
     const cumulativeExp = NUMBER_FORMATTER.format(data.cumulativeExp)
+    const completion = (data.cumulativeExp / TOTAL_EXP) * 100
     embed.setAuthor(data.name, data.avatarURL, data.url)
-    embed.setTitle(`${data.position} Place`)
+    embed.setTitle(`${data.position} Place (${completion.toFixed(2)}%)`)
     embed.setFooter(`${cumulativeExp} / ${totalExp} Total EXP`)
     embed.setColor(COLORS[idx])
     return embed
@@ -232,11 +234,14 @@ export class AmaroQuestFeature extends GlobalFeature {
 
         if (tokens.length < 2) {
             let leaderboard: LeaderboardData[] = []
-            for (const leaderboardCharId of amaroQuesters) {
-                const charData: XIVAPICharacter = await getJSON(`https://xivapi.com/character/${leaderboardCharId}`)
+            const dataPromises: Promise<XIVAPICharacter>[] = amaroQuesters
+                .map(id => getJSON(`https://xivapi.com/character/${id}`))
+
+            const data = await Promise.all(dataPromises)
+            for (const charData of data) {
                 const name = charData.Character.Name
                 const cumulativeExp = totalExpForToon(charData)
-                const url = `https://na.finalfantasyxiv.com/lodestone/character/${leaderboardCharId}/`
+                const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.Character.ID}/`
                 const avatarURL = charData.Character.Avatar
                 leaderboard.push({name, cumulativeExp, url, avatarURL, position: ""})
             }
