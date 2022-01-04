@@ -69,7 +69,7 @@ export class TimehelperFeature extends GlobalFeature {
             }
             const date = result.start.date()
             const unixTime = date.getTime() / 1000.0
-            embed.addField(`"${result.text}""`, `<t:${unixTime.toFixed(0)}:F>`)
+            embed.addField(`"${result.text}"`, `<t:${unixTime.toFixed(0)}:F>`)
         }
         if (embed.fields && embed.fields.length > 0) {
             context.message.channel.send(embed)
