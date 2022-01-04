@@ -59,7 +59,6 @@ export class TimehelperFeature extends GlobalFeature {
         if (!results || results.length === 0) {
             return false
         }
-        const format = "MMM Do ha z"
         const embed = new Discord.MessageEmbed()
         embed.setColor("#FF5200")
         for (const result of results) {
@@ -69,13 +68,8 @@ export class TimehelperFeature extends GlobalFeature {
                 continue
             }
             const date = result.start.date()
-            const zonesStrs = outZones.map(z => Moment(date).tz(z).format(format))
-            const zonesStr = Array.from(new Set(zonesStrs)).join(", ")
-            embed.addField(`${Moment(date).tz(timezone).format(format)}`, `${zonesStr}`)
-            if (results.length === 1) {
-                embed.setFooter("In your timezone: ")
-                embed.setTimestamp(date)
-            }
+            const unixTime = date.getTime() / 1000.0
+            embed.addField(`"${result.text}""`, `<t:${unixTime.toFixed(0)}:F>`)
         }
         if (embed.fields && embed.fields.length > 0) {
             context.message.channel.send(embed)
