@@ -111,6 +111,12 @@ const NASA: CursedDrilContent[] = [
         likes: 1739,
         id: "545617546796605440",
     },
+    {
+        content: "heads up hotshot. gonna drop two fuckin cents on this fuckin itunes. yeah you gotta be a fuckin nasa astronaut to use this shit. yea alright",
+        retweets: 570,
+        likes: 1437,
+        id: "545788766779355136",
+    },
 ]
 
 const CONTENT: CursedDrilContent[] = [
@@ -941,6 +947,72 @@ const CONTENT: CursedDrilContent[] = [
         retweets: 7673,
         likes: 36735,
         id: "1138611519363506176",
+    },
+    {
+        content: "summoner draws a venn diagram on the floor with circles labeled \"rude\" & \"illegal\". my fat face emerges from the center and begs for treats",
+        retweets: 3881,
+        likes: 8324,
+        id: "331764878664671234",
+    },
+    {
+        content: "its fucked up how there are like 1000 christmas songs but only 1 song aboutr the boys being back in town",
+        retweets: 62189,
+        likes: 109152,
+        id: "670963270317154304",
+    },
+    {
+        content: "[man leans into doorway of WTC bathroom]\n\"Hey, you gotta finish up in there.  9/11 is happening.\"\n\"Alright. Just a sec.\"",
+        retweets: 5853,
+        likes: 17463,
+        id: "457675646970634240",
+    },
+    {
+        content: "its true. each cow's udder has one teat that will shoot piss instead of milk and ruin the whole batch. they call it the Farmer's Gamble",
+        retweets: 2074,
+        likes: 5433,
+        id: "402793480986324992",
+    },
+    {
+        content: "yeah like im just going to put bottles of my own damn urine up on the mantel. you fucking idiot. this is celeb urine",
+        retweets: 712,
+        likes: 2745,
+        id: "663286798316126208",
+    },
+    {
+        content: "( me after seeing two guys in any context whatsoever) Well well well if it isnt the Blowjob Brothers",
+        retweets: 7776,
+        likes: 68153,
+        id: "1464841223215083523",
+    },
+    {
+        content: "Im fucking the wall. a tectonic shift 900 miles away causes it to slice off my thin prick and drop it on mexican soil. Its their problem now",
+        retweets: 2199,
+        likes: 19093,
+        id: "1085660285359218695",
+    },
+    {
+        content: "my big sons have made a mess of the garage again after being riled up by  the good word of the Lord",
+        retweets: 2829,
+        likes: 7560,
+        id: "537598363534123008",
+    },
+    {
+        content: "CONGRATULATIONS\nLegendary Babe Ruth\n\"Posthumous conversion to Islam\"\nNow thats a home run",
+        retweets: 2532,
+        likes: 26920,
+        id: "1402101044725706754",
+    },
+    {
+        content: "my tweets bring people together, and unite this country even more than 9/11 did. every time i post its like 9/11 happening again",
+        retweets: 7166,
+        likes: 49080,
+        id: "1158835118049415168",
+    },
+    {
+        content: "hopping on some tech support forums to accuse people with minor hardware issues of being Mad",
+        retweets: 786,
+        likes: 3016,
+        id: "751281763876352000",
     },
     NO,
     NEVER,
