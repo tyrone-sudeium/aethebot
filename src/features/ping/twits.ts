@@ -29,7 +29,7 @@ const CONTENT: TweetPoolContent[] = [
         avatar: "https://cdn.discordapp.com/attachments/550619622450135046/740475457002012682/EONsIIb6_400x400.png",
     },
     {
-        content: "The whole internet loves Milkshake Duck, a lovely duck that drinks milkshakes! *5 seconds later* We regret to inform you the duck is racist",
+        content: "The whole internet loves Milkshake Duck, a lovely duck that drinks milkshakes! \\*5 seconds later\\* We regret to inform you the duck is racist",
         retweets: 14340,
         likes: 38224,
         url: "https://twitter.com/pixelatedboat/status/741904787361300481",
@@ -96,7 +96,7 @@ const CONTENT: TweetPoolContent[] = [
         image: "https://cdn.discordapp.com/attachments/550619622450135046/740510726606815312/EcYpIQKX0AAxpLU.png",
     },
     {
-        content: "*opens briefcase* shall we dispense with the small talk and get down to business?",
+        content: "\\*opens briefcase\\* shall we dispense with the small talk and get down to business?",
         retweets: 538,
         likes: 2260,
         url: "https://twitter.com/robotrowboat/status/1276630335288197123",
@@ -184,7 +184,7 @@ const CONTENT: TweetPoolContent[] = [
         content: "i see u know ur pinot well",
         retweets: 7,
         likes: 23,
-        url: "https://twitter.com/robwhisman/status/735281634656669696",
+        url: "https://twitter.com/robwhisman/status/735317544156991488",
         author: "a big pretty Lizard (@birdcardigan)",
         avatar: "https://cdn.discordapp.com/attachments/550619622450135046/740517908244856903/ZKzY7QRK_bigger.png",
         image: "https://cdn.discordapp.com/attachments/550619622450135046/740518221769080912/unknown.png",
@@ -206,7 +206,7 @@ const CONTENT: TweetPoolContent[] = [
         avatar: "https://cdn.discordapp.com/attachments/293954139845820416/921995248803127306/KhbtX6JF_bigger.png",
     },
     {
-        content: "\*Cracks Diet Pepsi\* Ahh...Refreshing Diet Peppi \*Slowly Sips, Then Gulps, The Diet Pappo\*\* Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
+        content: "\\*Cracks Diet Pepsi Ahh...Refreshing Diet Peppi \\*Slowly Sips, Then Gulps, The Diet Pappo\\*\\* Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
         retweets: 7373,
         likes: 15369,
         url: "https://twitter.com/tree_bro/status/79444819902074880",
@@ -214,7 +214,7 @@ const CONTENT: TweetPoolContent[] = [
         avatar: "https://cdn.discordapp.com/attachments/767671918505099294/935753034443677786/BRO_bigger.jpg",
     },
     {
-        content: "Hello sir, I-\*briefcase full of jellybeans falls open\*",
+        content: "Hello sir, I-\\*briefcase full of jellybeans falls open\\*",
         retweets: 8469,
         likes: 22017,
         url: "https://twitter.com/brendlewhat/status/165631372327784448",
