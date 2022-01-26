@@ -271,7 +271,7 @@ const CONTENT: CursedDrilContent[] = [
         id: "228886158501896192",
     },
     {
-        content: "im the guy who airbrushes the nipples out of pro wrestling ads. i make $85k a year. but i have a secret *removs shades to reveal nipple eyes",
+        content: "im the guy who airbrushes the nipples out of pro wrestling ads. i make $85k a year. but i have a secret \\*removs shades to reveal nipple eyes",
         retweets: 874,
         likes: 1663,
         id: "128618655989776385",
@@ -313,7 +313,7 @@ const CONTENT: CursedDrilContent[] = [
         id: "179736293641682944",
     },
     {
-        content: "oh nothin, i was just buying some ear medication for my sick uncle... *LOWERS SHADES TO LOOK YOU DEAD IN THE EYE* who's a Model by the way,",
+        content: "oh nothin, i was just buying some ear medication for my sick uncle... \\*LOWERS SHADES TO LOOK YOU DEAD IN THE EYE\\* who's a Model by the way,",
         retweets: 4029,
         likes: 9669,
         id: "197502223226384387",
@@ -571,7 +571,7 @@ const CONTENT: CursedDrilContent[] = [
         id: "330795580735500290",
     },
     {
-        content: "well, at leas i have my dignity.  *trrips over shoelace, somersaults itno 3500mph faceplant, pants and dirty diaper fly off ass across room*",
+        content: "well, at leas i have my dignity.  \\*trrips over shoelace, somersaults itno 3500mph faceplant, pants and dirty diaper fly off ass across room\\*",
         retweets: 146,
         likes: 285,
         id: "12295173117",
@@ -661,7 +661,7 @@ const CONTENT: CursedDrilContent[] = [
         id: "112909631675834368",
     },
     {
-        content: "hm lets see.. *Logs On To Dark Net* bomb recipes... voyeur upskirt.. snuff vids..DILBERT?? WHo thef fuck put dilbert on dark net",
+        content: "hm lets see.. \\*Logs On To Dark Net\\* bomb recipes... voyeur upskirt.. snuff vids..DILBERT?? WHo thef fuck put dilbert on dark net",
         retweets: 1962,
         likes: 5695,
         id: "35713808747986944",
@@ -709,7 +709,7 @@ const CONTENT: CursedDrilContent[] = [
         id: "553306506377330689",
     },
     {
-        content: "icant come to work today.. on account of JERRY DUTY *SHoves every seinfeld disk into dvd player at once*",
+        content: "icant come to work today.. on account of JERRY DUTY \\*SHoves every seinfeld disk into dvd player at once\\*",
         retweets: 2223,
         likes: 3741,
         id: "10849247486287872",
