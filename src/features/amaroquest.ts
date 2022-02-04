@@ -154,6 +154,11 @@ interface LeaderboardData {
     url: string
     avatarURL: string
     position: string
+    prevExp: number | null
+}
+
+interface History {
+    [charId: string]: number
 }
 
 function totalExpForToon(toon: XIVAPICharacter): number {
@@ -204,6 +209,18 @@ function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.Me
     const completion = (data.cumulativeExp / TOTAL_EXP) * 100
     embed.setAuthor(data.name, data.avatarURL, data.url)
     embed.setTitle(`${data.position} Place (${completion.toFixed(2)}%)`)
+    if (data.prevExp && data.cumulativeExp > data.prevExp) {
+        const diff = data.cumulativeExp - data.prevExp
+        const diffPerc = completion - ((data.prevExp / TOTAL_EXP) * 100)
+        const diffPercStr = diffPerc.toFixed(2)
+        if (diff > 1000000) {
+            embed.setDescription(`Up **${(diff / 1000000.0).toFixed(1)}M** (${diffPercStr}%) since last time`)
+        } else if (diff > 10000) {
+            embed.setDescription(`Up **${(diff / 1000).toFixed(0)}K** (${diffPercStr}%) since last time`)
+        } else {
+            embed.setDescription(`Up **${diff}** (${diffPercStr}%) since last time`)
+        }
+    }
     embed.setFooter(`${cumulativeExp} / ${totalExp} Total EXP`)
     embed.setColor(COLORS[idx])
     return embed
@@ -213,6 +230,25 @@ export class AmaroQuestFeature extends GlobalFeature {
     public handleMessage(context: MessageContext<this>): boolean {
         this.handleMessageAsync(context)
         return false
+    }
+
+    private async getHistory(context: MessageContext<this>): Promise<History> {
+        if (context.message.channel.type === "dm" || !context.message.guild) {
+            return {}
+        }
+        const redisKey = `aq:${context.message.guild.id}:history`
+        const historyStr = await this.bot.brain.get(redisKey) ?? "{}"
+        const history: History = JSON.parse(historyStr)
+        return history
+    }
+
+    private async setHistory(history: History, context: MessageContext<this>): Promise<void> {
+        if (context.message.channel.type === "dm" || !context.message.guild) {
+            return
+        }
+        const redisKey = `aq:${context.message.guild.id}:history`
+        const historyStr = JSON.stringify(history)
+        await this.bot.brain.set(redisKey, historyStr)
     }
 
     private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
@@ -231,6 +267,7 @@ export class AmaroQuestFeature extends GlobalFeature {
 
         const amaroQuestersStr = await this.bot.brain.get(`aq:${context.message.guild.id}`) ?? "[]"
         const amaroQuesters: number[] = JSON.parse(amaroQuestersStr)
+        const history = await this.getHistory(context)
 
         if (tokens.length < 2) {
             let leaderboard: LeaderboardData[] = []
@@ -243,8 +280,11 @@ export class AmaroQuestFeature extends GlobalFeature {
                 const cumulativeExp = totalExpForToon(charData)
                 const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.Character.ID}/`
                 const avatarURL = charData.Character.Avatar
-                leaderboard.push({name, cumulativeExp, url, avatarURL, position: ""})
+                const prevExp = history[charData.Character.ID] ?? null
+                history[charData.Character.ID] = cumulativeExp
+                leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp})
             }
+            await this.setHistory(history, context)
             leaderboard = sortLeaderboard(leaderboard)
             const embeds = leaderboard.map(embedForLeaderboardData)
             // This isn't great... Discord doesn't guarantee message ordering, plus this is spam
