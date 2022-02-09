@@ -33,7 +33,6 @@ export interface TweetPoolContent {
 }
 
 export abstract class TweetPool {
-    protected abstract get list(): Map<string, TweetPoolContent>
     protected abstract get persistenceVersion(): number
     public constructor(
         public brain: Brain
@@ -42,28 +41,29 @@ export abstract class TweetPool {
     public async getTweets(channelId: string, count: number): Promise<TweetPoolContent[]> {
         let toots: string[] = []
         const selected: TweetPoolContent[] = []
+        const list = await this.fetchList()
         try {
             const tootsJSONStr = await this.brain.get(this.brainKeyForChannel(channelId))
             if (tootsJSONStr) {
                 const json = JSON.parse(tootsJSONStr)
                 if (!json.v || json.v !== this.persistenceVersion) {
-                    toots = shuffle(Array.from(this.list.keys()))
+                    toots = shuffle(Array.from(list.keys()))
                 } else {
                     toots = json.toots
                 }
             } else {
-                toots = shuffle(Array.from(this.list.keys()))
+                toots = shuffle(Array.from(list.keys()))
             }
         } catch (err) {
-            toots = shuffle(Array.from(this.list.keys()))
+            toots = shuffle(Array.from(list.keys()))
         }
         while (selected.length < count) {
             if (toots.length === 0) {
-                toots = shuffle(Array.from(this.list.keys()))
+                toots = shuffle(Array.from(list.keys()))
             }
 
             const tweetId = toots.pop() || ""
-            const toot = this.list.get(tweetId)
+            const toot = list.get(tweetId)
             if (toot) {
                 selected.push(toot)
             }
@@ -92,4 +92,5 @@ export abstract class TweetPool {
     }
 
     protected abstract brainKeyForChannel(channelId: string): string
+    protected abstract async fetchList(): Promise<Map<string, TweetPoolContent>>
 }

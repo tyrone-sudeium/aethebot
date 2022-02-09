@@ -1071,8 +1071,8 @@ export class Dril extends TweetPool {
         return `${BRAIN_KEYS.TOOT_LIST}:${chanId}`
     }
 
-    protected get list(): Map<string, TweetPoolContent> {
-        return TOOTS_BY_URL
+    protected fetchList(): Promise<Map<string, TweetPoolContent>> {
+        return Promise.resolve(TOOTS_BY_URL)
     }
 
     protected get persistenceVersion(): number {

@@ -38,6 +38,7 @@ import { FashionReportFeature } from "./fashion_report"
 import { TimPostFeature } from "./timpost"
 import { ReactionRolesFeature } from "./reaction_roles"
 import { AmaroQuestFeature } from "./amaroquest"
+import { TwitThisFeature } from "./ping/twit_this"
 
 export { GlobalFeature }
 
@@ -65,6 +66,7 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     UptimeFeature,
     FashionReportFeature,
     AmaroQuestFeature,
+    TwitThisFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [

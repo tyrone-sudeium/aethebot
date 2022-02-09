@@ -13,6 +13,7 @@
  */
 
 import { TweetPoolContent, TweetPool } from "./tweetpool"
+import { fetchCustomToots } from "./twit_this"
 
 const BRAIN_KEYS = {
     TOOT_LIST: "twit:toot_list",
@@ -299,8 +300,14 @@ const CONTENT: TweetPoolContent[] = [
 const TOOTS_BY_URL = new Map(CONTENT.map(obj => [obj.url, obj]))
 
 export class Twit extends TweetPool {
-    protected get list(): Map<string, TweetPoolContent> {
-        return TOOTS_BY_URL
+    protected async fetchList(): Promise<Map<string, TweetPoolContent>> {
+        const builtins = TOOTS_BY_URL
+        const customsObj = await fetchCustomToots(this.brain)
+        const customs = new Map(Object.entries(customsObj))
+        for (const [key, value] of builtins) {
+            customs.set(key, value)
+        }
+        return customs
     }
 
     protected get persistenceVersion(): number {
