@@ -49,7 +49,7 @@ const CONTENT: TweetPoolContent[] = [
         content: "Judge: Now wait a second Mike. if the other players were hacking, wouldn't that make their kills on you unfair?\nMe: That's right your honor.",
         retweets: 531,
         likes: 1820,
-        url: "https://en.wikipedia.org/wiki/Cemetery",
+        url: "http://twitter.com/animaldrumss/status/491058831028678656",
         author: "Mike F (@mikefossey)",
         avatar: "https://cdn.discordapp.com/attachments/550619622450135046/740483003515666452/unknown.png",
     },
@@ -297,11 +297,18 @@ const CONTENT: TweetPoolContent[] = [
     },
 ]
 
-const TOOTS_BY_URL = new Map(CONTENT.map(obj => [obj.url, obj]))
+export const TOOTS_BY_ID = new Map(CONTENT.map(obj => {
+    const url = new URL(obj.url)
+    const pathComponents = url.pathname.split("/")
+    if (url.host !== "twitter.com") {
+        throw new Error("idiot developer error: tweet urls must be on twitter dot com")
+    }
+    return [pathComponents[pathComponents.length - 1], obj]
+}))
 
 export class Twit extends TweetPool {
     protected async fetchList(): Promise<Map<string, TweetPoolContent>> {
-        const builtins = TOOTS_BY_URL
+        const builtins = TOOTS_BY_ID
         const customsObj = await fetchCustomToots(this.brain)
         const customs = new Map(Object.entries(customsObj))
         for (const [key, value] of builtins) {
@@ -311,7 +318,7 @@ export class Twit extends TweetPool {
     }
 
     protected get persistenceVersion(): number {
-        return 1
+        return 2
     }
 
     protected brainKeyForChannel(chanId: string): string {

@@ -15,6 +15,7 @@ import { GlobalFeature, MessageContext } from "../feature"
 import { wait } from "../../util/wait"
 import { Brain } from "../../brain"
 import { Dril } from "./dril"
+import { TOOTS_BY_ID } from "./twits"
 import { TweetPoolContent } from "./tweetpool"
 
 interface PersistedTwits {
@@ -89,7 +90,7 @@ export class TwitThisFeature extends GlobalFeature {
 
         const persistedTwits = await fetchCustomToots(this.bot.brain)
 
-        if (persistedTwits[tweetId]) {
+        if (persistedTwits[tweetId] || TOOTS_BY_ID.has(tweetId)) {
             context.sendNegativeReply("already added a tweet with that id")
             return
         }
@@ -112,25 +113,26 @@ export class TwitThisFeature extends GlobalFeature {
         if (!embed.author ||
             !embed.author.name ||
             !embed.author.proxyIconURL ||
-            !embed.description ||
-            embed.fields.length < 2)
+            !embed.description)
         {
             context.sendNegativeReply("couldn't parse it. did discord change their shit?")
             return
         }
         const retweetsField = embed.fields.find(field => field.name === "Retweets")
         const likesField = embed.fields.find(field => field.name === "Likes")
-        if (!retweetsField || !likesField) {
-            context.sendNegativeReply("couldn't parse it. did discord change their shit?")
-            return
+        let retweets = 0
+        let likes = 0
+        if (retweetsField) {
+            retweets = parseInt(retweetsField.value, 10)
         }
-        const retweets = parseInt(retweetsField.value, 10)
-        const likes = parseInt(likesField.value, 10)
+        if (likesField) {
+            likes = parseInt(likesField.value, 10)
+        }
         if (isNaN(retweets) || isNaN(likes)) {
             context.sendNegativeReply("couldn't parse it. did discord change their shit?")
             return
         }
-        const description = embed.description.replace("*", "\\*")
+        const description = embed.description.replace(/\*/g, "\\*")
         const content: TweetPoolContent = {
             avatar: embed.author.proxyIconURL,
             author: embed.author.name,

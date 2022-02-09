@@ -33,7 +33,7 @@ export class FlatFileBrain implements Brain {
     public save(): Promise<void> {
         return new Promise((resolve, reject) => {
             this.savingLock = true
-            FS.writeFile(this.filePath, JSON.stringify(this.storage), "utf8", err => {
+            FS.writeFile(this.filePath, JSON.stringify(this.storage, undefined, 2), "utf8", err => {
                 this.savingLock = false
                 if (err) {
                     reject(err)

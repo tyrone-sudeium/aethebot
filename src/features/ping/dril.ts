@@ -1031,10 +1031,7 @@ function tweetPoolContentFromDril(dril: CursedDrilContent): TweetPoolContent {
 
 const NASA_URLS = new Set(NASA.map(t => tweetPoolContentFromDril(t).url))
 
-const TOOTS_BY_URL = new Map(CONTENT.map(obj => {
-    const content = tweetPoolContentFromDril(obj)
-    return [content.url, content]
-}))
+const TOOTS_BY_ID = new Map(CONTENT.map(obj => [obj.id, tweetPoolContentFromDril(obj)]))
 
 interface PersistedJSON {
     v: number
@@ -1072,10 +1069,10 @@ export class Dril extends TweetPool {
     }
 
     protected fetchList(): Promise<Map<string, TweetPoolContent>> {
-        return Promise.resolve(TOOTS_BY_URL)
+        return Promise.resolve(TOOTS_BY_ID)
     }
 
     protected get persistenceVersion(): number {
-        return 2
+        return 3
     }
 }
