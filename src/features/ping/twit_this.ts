@@ -18,11 +18,11 @@ import { Dril } from "./dril"
 import { TOOTS_BY_ID } from "./twits"
 import { TweetPoolContent } from "./tweetpool"
 
-interface PersistedTwits {
+export interface PersistedTwits {
     [id: string]: TweetPoolContent
 }
 
-const BRAIN_KEY = "twit:custom_toots"
+export const BRAIN_KEY = "twit:custom_toots"
 
 export async function fetchCustomToots(brain: Brain): Promise<PersistedTwits> {
     const persistedTwitsStr = await brain.get(BRAIN_KEY)

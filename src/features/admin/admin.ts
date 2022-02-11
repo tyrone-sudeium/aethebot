@@ -14,10 +14,12 @@
 import { Bot } from "../../bot"
 import { User } from "../../model/user"
 import { GlobalFeature, MessageContext } from "../feature"
+import * as TwitThis from "../ping/twit_this"
 
 export type AdminAction = |
 "ListServers" |
-"Redis"
+"Redis" |
+"Twit"
 
 export async function canPerformAction(action: AdminAction, context: MessageContext<GlobalFeature>): Promise<boolean> {
     const user = new User(context.feature.bot, context.message.author.id)
@@ -54,7 +56,11 @@ export class AdminFeature extends GlobalFeature {
 
     private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
         const tokens = this.commandTokens(context)
-        if (tokens.length > 1 && tokens[1].toLowerCase() === "servers") {
+        if (tokens.length < 2) {
+            context.sendNegativeReply("unknown command")
+            return
+        }
+        if (tokens[1].toLowerCase() === "servers") {
             if (!(await canPerformAction("ListServers", context))) {
                 return
             }
@@ -63,6 +69,47 @@ export class AdminFeature extends GlobalFeature {
                 .join(", ")
             context.sendReply(servers)
             return
+        } else if (tokens[1].toLowerCase() === "twit") {
+            if (tokens.length < 3) {
+                context.sendNegativeReply()
+                return
+            }
+            const commands = new Set(["remove", "size"])
+            const command = tokens[2].toLowerCase()
+            if (!commands.has(command)) {
+                context.sendNegativeReply()
+                return
+            }
+            if (command === "remove") {
+                if (tokens.length < 4) {
+                    context.sendNegativeReply()
+                    return
+                }
+                const key = tokens[3].toLowerCase()
+                const strData = await this.bot.brain.get(TwitThis.BRAIN_KEY)
+                if (!strData) {
+                    context.sendNegativeReply("no custom twits")
+                    return
+                }
+                const json: TwitThis.PersistedTwits = JSON.parse(strData)
+                if (!json[key]) {
+                    context.sendNegativeReply(`no custom tweet stored with id '${key}'`)
+                    return
+                }
+                delete json[key]
+                const newJson = JSON.stringify(json)
+                await this.bot.brain.set(TwitThis.BRAIN_KEY, newJson)
+                context.sendReply("ok")
+                return
+            } else if (command === "size") {
+                const strData = await this.bot.brain.get(TwitThis.BRAIN_KEY)
+                let size = 0
+                if (strData) {
+                    size = new Buffer(strData, "utf8").byteLength
+                }
+                context.sendReply(`${size} bytes.`)
+                return
+            }
         }
 
         context.sendNegativeReply("unknown command")

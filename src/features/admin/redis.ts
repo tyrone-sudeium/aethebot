@@ -11,7 +11,14 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+// NOTE: This feature is not intended to be the pattern for admin commands. It
+// only exists as its own GlobalFeature subclass since its lifecycle is complex:
+// we have to determine whether it should be loaded or not depending on whether
+// the bot is started with a Redis client. Regular admin commands should go in
+// admin.ts instead.
+
 import { RedisClient } from "redis"
+import { MessageAttachment } from "discord.js"
 import { Bot } from "../../bot"
 import { MessageContext } from "../feature"
 import { canPerformAction } from "./admin"
@@ -52,12 +59,13 @@ export class RedisAdminFeature extends GlobalFeature {
                 context.sendNegativeReply(err.message)
                 return
             }
-            const tripleBacktick = "```"
             try {
                 const jsonValue = JSON.parse(res)
-                const pretty = JSON.stringify(jsonValue, null, 2).slice(0, 1992)
-                context.sendReply(`${tripleBacktick}\n${pretty}\n${tripleBacktick}`)
+                const pretty = JSON.stringify(jsonValue, null, 2)
+                const attachment = new MessageAttachment(new Buffer(pretty, "utf8"), "result.json")
+                context.message.channel.send(attachment)
             } catch (jsonError) {
+                const tripleBacktick = "```"
                 context.sendReply(`${tripleBacktick}\n${res.slice(0, 1992)}\n${tripleBacktick}`)
             }
         })
