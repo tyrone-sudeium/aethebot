@@ -13,6 +13,7 @@
 
 import * as Discord from "discord.js"
 import { getJSON } from "../util/http"
+import { log } from "../log"
 import { GlobalFeature, MessageContext } from "./feature"
 
 const EXP_CURVE = [
@@ -175,7 +176,7 @@ function totalExpForToon(toon: XIVAPICharacter): number {
         if (job.Level === 0) {
             continue
         }
-        const expEarned = EXP_CURVE.slice(0, job.Level - 1).reduce((a,x) => a + x)
+        const expEarned = EXP_CURVE.slice(0, job.Level - 1).reduce((a,x) => a + x, 0)
         exp = exp + expEarned + job.ExpLevel
         classesCounted.add(job.ClassID)
     }
@@ -273,16 +274,21 @@ export class AmaroQuestFeature extends GlobalFeature {
             let leaderboard: LeaderboardData[] = []
             const dataPromises: Promise<XIVAPICharacter>[] = amaroQuesters
                 .map(id => getJSON(`https://xivapi.com/character/${id}`))
-
-            const data = await Promise.all(dataPromises)
-            for (const charData of data) {
-                const name = charData.Character.Name
-                const cumulativeExp = totalExpForToon(charData)
-                const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.Character.ID}/`
-                const avatarURL = charData.Character.Avatar
-                const prevExp = history[charData.Character.ID] ?? null
-                history[charData.Character.ID] = cumulativeExp
-                leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp})
+            try {
+                const data = await Promise.all(dataPromises)
+                for (const charData of data) {
+                    const name = charData.Character.Name
+                    const cumulativeExp = totalExpForToon(charData)
+                    const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.Character.ID}/`
+                    const avatarURL = charData.Character.Avatar
+                    const prevExp = history[charData.Character.ID] ?? null
+                    history[charData.Character.ID] = cumulativeExp
+                    leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp})
+                }
+            } catch (error) {
+                log(`amaroquest error: ${error}`)
+                context.sendNegativeReply()
+                return
             }
             await this.setHistory(history, context)
             leaderboard = sortLeaderboard(leaderboard)
