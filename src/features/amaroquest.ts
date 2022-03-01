@@ -287,7 +287,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                 }
             } catch (error) {
                 log(`amaroquest error: ${error}`, "always")
-                context.sendNegativeReply()
+                context.sendReply("oops something's cooked. check the logs")
                 return
             }
             await this.setHistory(history, context)
