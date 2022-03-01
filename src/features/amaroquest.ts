@@ -286,7 +286,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                     leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp})
                 }
             } catch (error) {
-                log(`amaroquest error: ${error}`)
+                log(`amaroquest error: ${error}`, "always")
                 context.sendNegativeReply()
                 return
             }
