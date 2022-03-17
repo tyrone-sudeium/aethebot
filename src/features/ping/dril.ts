@@ -48,6 +48,7 @@ export interface CursedDrilContent {
     retweets: number
     likes: number
     id: string
+    image?: string
 }
 
 const NASA: CursedDrilContent[] = [
@@ -116,6 +117,13 @@ const NASA: CursedDrilContent[] = [
         retweets: 570,
         likes: 1437,
         id: "545788766779355136",
+    },
+    {
+        content: "\"ENJOY IT\"",
+        retweets: 0,
+        likes: 0,
+        id: "555555555555555555",
+        image: "https://cdn.discordapp.com/attachments/767671918505099294/953852156165898340/IMG_1138.png",
     },
 ]
 
@@ -1026,6 +1034,7 @@ function tweetPoolContentFromDril(dril: CursedDrilContent): TweetPoolContent {
         url: `https://twitter.com/dril/status/${dril.id}`,
         author: "wint (@dril)",
         avatar: DRIL_ICON,
+        image: dril.image,
     }
 }
 
