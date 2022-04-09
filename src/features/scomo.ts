@@ -22,15 +22,15 @@ export class ScomoFeature extends GlobalFeature {
             return false
         }
         const days = 1000 * 60 * 60 * 24
-        const earliestParliament = new Date("2019-07-02T00:00:00+1000")
-        const latestElection = new Date(earliestParliament.getTime() + (1095 * days))
+        // const earliestParliament = new Date("2019-07-02T00:00:00+1000")
+        // const latestElection = new Date(earliestParliament.getTime() + (1095 * days))
+        const latestElection = new Date(2022, 4, 21)
         const timeBetween = latestElection.getTime() - new Date().getTime()
         if (timeBetween < 0) {
             return false
         }
         const daysBetween = Math.ceil(timeBetween / days)
-        const replyMsg = `We've got old mate Scomo for at most another ${daysBetween} days. ` +
-            "Or, at least, until Australia _definitely_ re-elects him." +
+        const replyMsg = `Australia re-elects old mate Scomo in ${daysBetween} days.` +
             `\n${scomo}`
         context.sendReply(replyMsg)
         return true
