@@ -24,7 +24,7 @@ export class ScomoFeature extends GlobalFeature {
         const days = 1000 * 60 * 60 * 24
         // const earliestParliament = new Date("2019-07-02T00:00:00+1000")
         // const latestElection = new Date(earliestParliament.getTime() + (1095 * days))
-        const latestElection = new Date(2022, 4, 21)
+        const latestElection = new Date("2022-05-21T00:00:00+1000")
         const timeBetween = latestElection.getTime() - new Date().getTime()
         if (timeBetween < 0) {
             return false
