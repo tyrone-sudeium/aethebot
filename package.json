@@ -41,7 +41,7 @@
     "discord.js": "12",
     "emoji-regex": "^9.2.2",
     "gif-encoder-2": "tyrone-sudeium/gif-encoder-2#feature/type_definitions",
-    "minimist": "^1.2.3",
+    "minimist": "^1.2.6",
     "moment-precise-range-plugin": "^1.2.3",
     "moment-timezone": "^0.5.11",
     "random-number-csprng": "^1.0.2",
