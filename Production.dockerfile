@@ -5,6 +5,9 @@ WORKDIR /app
 # Rely on .dockerignore to remove irrelevant stuff
 ADD . .
 
+ARG COMMIT_SHA=""
+ENV SOURCE_VERSION=${COMMIT_SHA}
+
 # Layer for build (includes dev dependencies, yarn cache)
 RUN yarn install
 
