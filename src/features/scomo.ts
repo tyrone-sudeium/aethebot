@@ -25,14 +25,27 @@ export class ScomoFeature extends GlobalFeature {
         // const earliestParliament = new Date("2019-07-02T00:00:00+1000")
         // const latestElection = new Date(earliestParliament.getTime() + (1095 * days))
         const latestElection = new Date("2022-05-21T00:00:00+1000")
-        const timeBetween = latestElection.getTime() - new Date().getTime()
-        if (timeBetween < 0) {
-            return false
+        const currentTime = new Date().getTime()
+        const timeBetween = latestElection.getTime() - currentTime
+        let timePeriod = ""
+        if (timeBetween < 0 && (timeBetween / days) > -1) {
+            timePeriod = "today"
+        } else {
+            const daysBetween = Math.ceil(timeBetween / days)
+            if (daysBetween === 1) {
+                timePeriod = `in ${daysBetween} day`
+            } else if (daysBetween > 1) {
+                timePeriod = `in ${daysBetween} days`
+            }
         }
-        const daysBetween = Math.ceil(timeBetween / days)
-        const replyMsg = `Australia re-elects old mate Scomo in ${daysBetween} days.` +
+        if (timePeriod === "") {
+            context.sendReply(scomo);
+            return true;
+        } else {
+            const replyMsg = `Australia re-elects old mate Scomo ${timePeriod}.` +
             `\n${scomo}`
-        context.sendReply(replyMsg)
+            context.sendReply(replyMsg)
+        }
         return true
     }
 }
