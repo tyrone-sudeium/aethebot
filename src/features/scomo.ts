@@ -39,11 +39,12 @@ export class ScomoFeature extends GlobalFeature {
             }
         }
         if (timePeriod === "") {
-            context.sendReply(scomo);
-            return true;
+            context.sendReply(scomo)
+            return true
         } else {
             const replyMsg = `Australia re-elects old mate Scomo ${timePeriod}.` +
-            `\n${scomo}`
+            `\n${scomo}` +
+            "\n\nRemember to vote! How to vote Liberal: https://www.liberal.org.au/how-to-vote"
             context.sendReply(replyMsg)
         }
         return true
