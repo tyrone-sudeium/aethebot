@@ -13,7 +13,7 @@
 
 import { GlobalFeature, MessageContext } from "./feature"
 
-const scomo = "https://cdn.discordapp.com/attachments/293954139845820416/579468190971854849/scomo.jpg"
+const scomo = "https://cdn.discordapp.com/attachments/64208948344922112/978188239137550346/scomo.jpg"
 
 export class ScomoFeature extends GlobalFeature {
     public handleMessage(context: MessageContext<this>): boolean {
