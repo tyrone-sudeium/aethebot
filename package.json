@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/tyrone-sudeium/aethebot#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.1.0",
+    "@discordjs/opus": "^0.8.0",
     "@types/ws": "^7.2.1",
     "@tyrone-sudeium/napi-gif-encoder": "^0.0.1",
     "anchorme": "^1.1.2",
