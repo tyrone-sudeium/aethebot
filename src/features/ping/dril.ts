@@ -1022,6 +1022,12 @@ const CONTENT: CursedDrilContent[] = [
         likes: 3016,
         id: "751281763876352000",
     },
+    {
+        content: "turning a big dial taht says \"Racism\" on it and constantly looking back at the audience for approval like a contestant on the price is right",
+        retweets: 9576,
+        likes: 38200,
+        id: "841892608788041732",
+    },
     NO,
     NEVER,
 ].concat(NASA)
