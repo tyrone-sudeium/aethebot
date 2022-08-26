@@ -1,4 +1,4 @@
-FROM node:14.15.4
+FROM node:14.20.0
 LABEL maintainer="tyrone@sudeium.com"
 
 WORKDIR /app

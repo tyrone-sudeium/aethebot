@@ -18,7 +18,7 @@ jobs:
 
     - uses: actions/setup-node@v1
       with:
-        version: 14.15.4
+        version: 14.20.0
 
     - uses: actions/cache@v1
       name: Cache node_modules
