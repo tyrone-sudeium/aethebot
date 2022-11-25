@@ -79,13 +79,13 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
       - name: Deploy via SSH
-        id: ssh_key
+        id: ssh_deploy
         env:
           SSH_KEY: ${{ secrets.CHARON_SSH_KEY }}
         run: |
           mkdir -p ~/.ssh
           MACHINE_IP="$(tailscale ip -4 charon)"
-          ssh-keyscan -t ed25519 $MACHINE_IP >> ~/.ssh/known-hosts
+          ssh-keyscan -t ed25519 $MACHINE_IP >> ~/.ssh/known_hosts
           printf "%s" "$SSH_KEY" > ~/.ssh/key
           chmod 600 ~/.ssh/key
           ssh -i ~/.ssh/key tyrone@$MACHINE_IP ~/aethebot/restart.sh
