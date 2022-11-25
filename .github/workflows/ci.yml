@@ -67,3 +67,25 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: COMMIT_SHA=${{ github.sha }}
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Charon
+    needs: build
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    steps:
+      - name: Setup Tailscale
+        id: tailscale
+        uses: tailscale/github-action@main
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+      - name: Deploy via SSH
+        id: ssh_key
+        env:
+          SSH_KEY: ${{ secrets.CHARON_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          MACHINE_IP="$(tailscale ip -4 charon)"
+          ssh-keyscan $MACHINE_IP >> ~/.ssh/known-hosts
+          printf "%s" "$SSH_KEY" > ~/.ssh/key
+          chmod 600 ~/.ssh/key
+          ssh -i ~/.ssh/key tyrone@$MACHINE_IP ~/aethebot/restart.sh
