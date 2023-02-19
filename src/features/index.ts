@@ -39,6 +39,7 @@ import { TimPostFeature } from "./timpost"
 import { ReactionRolesFeature } from "./reaction_roles"
 import { AmaroQuestFeature } from "./amaroquest"
 import { TwitThisFeature } from "./ping/twit_this"
+import { FFXIVCertificateFeature } from "./ffxiv_certificate_helper"
 
 export { GlobalFeature }
 
@@ -67,6 +68,7 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     FashionReportFeature,
     AmaroQuestFeature,
     TwitThisFeature,
+    FFXIVCertificateFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [

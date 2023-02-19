@@ -35,6 +35,10 @@ interface HTTPOptions {
     outputStream?: NodeJS.WritableStream
 }
 
+export function queryStringFromObject(object: {[key: string]: number | string | boolean | null}): string {
+    return Object.entries(object).map(([key, value]) => `${key}=${value}`).join("&")
+}
+
 export async function getHTTPData(url: string): Promise<Buffer>
 export async function getHTTPData(url: string, options?: HTTPOptions): Promise<Buffer | undefined>
 
