@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "dist",
+    "alwaysStrict": true,
+    "strict": true,
+    "target": "es2020",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
+    "lib": [
+      "ES2020.String",
+      "DOM"
+    ]
+  },
+  "files": [
+    "src/types/index.d.ts",
+    "src/index.ts",
+    "src/workers/vince.ts"
+  ]
+}
