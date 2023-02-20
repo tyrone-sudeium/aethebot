@@ -13,7 +13,7 @@
 
 import * as Path from "path"
 import * as Discord from "discord.js"
-import { createCanvas, Image, loadImage } from "canvas"
+import { createCanvas, Image, loadImage } from "@napi-rs/canvas"
 import { removeBotMentions } from "../../util/remove_mentions"
 import { GlobalFeature, MessageContext } from "../feature"
 import { Drawable } from "./drawable"

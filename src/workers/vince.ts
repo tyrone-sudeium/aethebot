@@ -13,7 +13,7 @@
 
 import * as OS from "os"
 import * as Path from "path"
-import { createCanvas, Image, loadImage } from "canvas"
+import { createCanvas, Image, loadImage } from "@napi-rs/canvas"
 import { GIFEncoder } from "@tyrone-sudeium/napi-gif-encoder"
 import { Drawable } from "../features/memegen/drawable"
 import { MemeTile } from "../features/memegen/meme_tile"

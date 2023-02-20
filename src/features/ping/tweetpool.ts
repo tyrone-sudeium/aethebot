@@ -92,5 +92,5 @@ export abstract class TweetPool {
     }
 
     protected abstract brainKeyForChannel(channelId: string): string
-    protected abstract async fetchList(): Promise<Map<string, TweetPoolContent>>
+    protected abstract fetchList(): Promise<Map<string, TweetPoolContent>>
 }

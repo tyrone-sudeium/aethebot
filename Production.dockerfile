@@ -1,4 +1,4 @@
-FROM node:14.20.0
+FROM node:14.20.0-alpine
 LABEL maintainer="tyrone@sudeium.com"
 
 WORKDIR /app
@@ -7,6 +7,10 @@ ADD . .
 
 ARG COMMIT_SHA=""
 ENV SOURCE_VERSION=${COMMIT_SHA}
+
+# Add ffmpeg, runtime requirement for reddit/tiktok
+# NOTE: Adds ~100MB :(
+# RUN apk --no-cache add ffmpeg
 
 # Layer for build (includes dev dependencies, yarn cache)
 RUN yarn install

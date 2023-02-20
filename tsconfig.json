@@ -15,7 +15,8 @@
       "./src/types"
     ],
     "lib": [
-      "ES2020.String"
+      "ES2020.String",
+      "DOM"
     ]
   },
   "files": [

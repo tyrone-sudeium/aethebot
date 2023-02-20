@@ -12,7 +12,7 @@
  */
 
 import * as Discord from "discord.js"
-import { log } from "../log"
+import { assertIsError, log } from "../log"
 import { FeatureBase, GlobalFeature, MessageContext } from "./feature"
 
 export interface RerolledMessage {
@@ -155,7 +155,8 @@ export class RerollFeature extends GlobalFeature {
                 context.sendNegativeReply()
                 return
             }
-        } catch (err) {
+        } catch (err: unknown) {
+            assertIsError(err)
             log(err)
         }
     }

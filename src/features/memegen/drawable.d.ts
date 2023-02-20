@@ -11,10 +11,10 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { CanvasRenderingContext2D } from "canvas"
+import { SKRSContext2D } from "@napi-rs/canvas"
 
 export interface Drawable {
     height: number
     width: number
-    drawInContext(ctx: CanvasRenderingContext2D, offset?: {x: number; y: number}): void
+    drawInContext(ctx: SKRSContext2D, offset?: {x: number; y: number}): void
 }

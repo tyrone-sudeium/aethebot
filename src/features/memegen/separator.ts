@@ -12,7 +12,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { CanvasRenderingContext2D } from "canvas"
+import { SKRSContext2D } from "@napi-rs/canvas"
 import { Drawable } from "./drawable"
 
 export class Separator implements Drawable {
@@ -23,7 +23,7 @@ export class Separator implements Drawable {
         this.width = width
         this.height = height
     }
-    public drawInContext(ctx: CanvasRenderingContext2D, offset?: {x: number; y: number}): void {
+    public drawInContext(ctx: SKRSContext2D, offset?: {x: number; y: number}): void {
         ctx.fillStyle = this.color
         offset = offset || {x: 0, y: 0}
         ctx.fillRect(offset.x, offset.y, this.width, this.height)

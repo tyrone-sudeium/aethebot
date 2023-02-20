@@ -19,7 +19,13 @@ type LogWhen =
     | "dev"
     | "always"
 
-export function log(msg: string, when: LogWhen = "dev"): void {
+export function assertIsError(error: unknown): asserts error is Error {
+    if (!(error instanceof Error)) {
+        throw error
+    }
+}
+
+export function log(msg: string | Error, when: LogWhen = "dev"): void {
     const debug = (process.env.NODE_ENV || "development") === "development"
     if (when === "always") {
         console.log(msg)

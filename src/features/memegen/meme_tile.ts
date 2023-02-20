@@ -11,7 +11,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Image, CanvasRenderingContext2D } from "canvas"
+import * as Path from "path"
+import { Image, SKRSContext2D, GlobalFonts } from "@napi-rs/canvas"
 import { Rect } from "../../util/rect"
 import { Drawable } from "./drawable"
 
@@ -20,8 +21,15 @@ interface WrapTextResult {
     adjustedFontSize: number
 }
 
-function renderTextInRect(ctx: CanvasRenderingContext2D,
+let fontsRegistered = false
+
+function renderTextInRect(ctx: SKRSContext2D,
                           text: string, font: string, rect: Rect, maxFontSize?: number): void {
+    if (!fontsRegistered) {
+        const fontPath = Path.join(__dirname, "..", "..", "..", "res", "font", "OpenSans-SemiBold.ttf")
+        GlobalFonts.registerFromPath(fontPath, "OpenSans")
+        fontsRegistered = true
+    }
     // start with a large font size
     let fontSize = maxFontSize || rect.height
     let res = wrappedTextAtSize(ctx, text, font, rect.width, fontSize)
@@ -57,7 +65,7 @@ function renderTextInRect(ctx: CanvasRenderingContext2D,
     }
 }
 
-function wrappedTextAtSize(ctx: CanvasRenderingContext2D,
+function wrappedTextAtSize(ctx: SKRSContext2D,
                            text: string, fontFace: string, maxWidth: number, fontSize: number): WrapTextResult | null {
     const words = text.split(" ")
     const lines = []
@@ -113,11 +121,11 @@ export class MemeTile implements Drawable {
         this.width = width
     }
 
-    public drawInContext(ctx: CanvasRenderingContext2D, offset?: {x: number; y: number}): void {
+    public drawInContext(ctx: SKRSContext2D, offset?: {x: number; y: number}): void {
         offset = offset || {x: 0, y: 0}
         const textRect = new Rect(offset.x, offset.y, this.width / 2, this.height)
         ctx.fillStyle = "#000"
-        renderTextInRect(ctx, this.text, "Arial", textRect, 36)
+        renderTextInRect(ctx, this.text, "OpenSans", textRect, 36)
         ctx.drawImage(this.image, this.width / 2, offset.y, this.width / 2, this.height)
     }
 }
