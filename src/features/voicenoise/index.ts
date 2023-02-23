@@ -130,6 +130,23 @@ export class VoiceNoiseFeature extends GlobalFeature {
         })
     }
 
+    private async updateDeafenStatus(connection: Discord.VoiceConnection): Promise<void> {
+        if (!this.bot.user) {
+            return
+        }
+        if (connection.channel.permissionsFor(this.bot.user)?.has("DEAFEN_MEMBERS")) {
+            // Has server deafen permission. Server deafen self if not already.
+            if (!connection.voice.serverDeaf) {
+                await connection.voice.setDeaf(true, "AetheBot doesn't need, or want to listen to you.")
+            }
+        } else {
+            // Doesn't have admin permission. Self deafen.
+            if (!connection.voice.selfDeaf) {
+                await connection.voice.setSelfDeaf(true)
+            }
+        }
+    }
+
     private updatePlaybackQueue(chanId: string): void {
         const queue = this.pendingPlayback.get(chanId)
         if (!queue) {
@@ -159,6 +176,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         } else if (top.state === VoicePlaybackStatus.Connecting) {
             if (top.connection) {
                 top.state = VoicePlaybackStatus.Playing
+                this.updateDeafenStatus(top.connection)
                 const files = top.noise.files
                 const file = files[Math.floor(Math.random() * files.length)]
                 const filePath = pathForNoiseFile(file)
