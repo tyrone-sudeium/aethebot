@@ -1,5 +1,5 @@
 # Build stage. Adds all the gigantic dev dependencies in order to build.
-FROM node:14.20.0-alpine
+FROM node:18.14.2-alpine
 LABEL maintainer="tyrone@sudeium.com"
 
 WORKDIR /app
@@ -10,7 +10,7 @@ RUN yarn install \
     && yarn build -p tsconfig.prod.json
 
 # Run stage. The smallest possible contents that can still run the app.
-FROM node:14.20.0-alpine
+FROM node:18.14.2-alpine
 
 WORKDIR /app
 

@@ -1,4 +1,4 @@
-FROM node:14.20.0-alpine
+FROM node:18.14.2-alpine
 LABEL maintainer="tyrone@sudeium.com"
 
 # Add ffmpeg, runtime requirement for reddit/tiktok
