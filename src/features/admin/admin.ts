@@ -18,6 +18,7 @@ import { GlobalFeature, MessageContext } from "../feature"
 import * as TwitThis from "../ping/twit_this"
 
 export type AdminAction = |
+"Any" |
 "ListServers" |
 "Redis" |
 "Twit"
@@ -26,7 +27,7 @@ export async function canPerformAction(action: AdminAction, context: MessageCont
     const user = new User(context.feature.bot, context.message.author.id)
     await user.load()
     if (!user.isAdmin) {
-        context.sendNegativeReply("you are not an admin")
+        context.sendNegativeReply()
         return false
     }
     if (context.message.channel.type !== Discord.ChannelType.DM) {
@@ -56,6 +57,9 @@ export class AdminFeature extends GlobalFeature {
     }
 
     private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
+        if (!(await canPerformAction("Any", context))) {
+            return
+        }
         const tokens = this.commandTokens(context)
         if (tokens.length < 2) {
             context.sendNegativeReply("unknown command")
@@ -71,6 +75,9 @@ export class AdminFeature extends GlobalFeature {
             context.sendReply(servers)
             return
         } else if (tokens[1].toLowerCase() === "twit") {
+            if (!(await canPerformAction("Twit", context))) {
+                return
+            }
             if (tokens.length < 3) {
                 context.sendNegativeReply()
                 return

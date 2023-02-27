@@ -247,18 +247,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
             this.pendingPlayback.set(channel.id, playQueue)
         }
         playQueue.push(intent)
-        // this.updatePlaybackQueue(channel.id)
     }
-
-    // private updateAllPlaybackQueues(): void {
-    //     this.pendingPlayback.forEach((queue, chanId) => {
-    //         if (queue.length === 0) {
-    //             return
-    //         } else {
-    //             this.updatePlaybackQueue(chanId)
-    //         }
-    //     })
-    // }
 
     private async updateDeafenStatus(channel: Discord.VoiceChannel): Promise<void> {
         if (!this.bot.user) {
@@ -281,69 +270,4 @@ export class VoiceNoiseFeature extends GlobalFeature {
             }
         }
     }
-
-    // private updatePlaybackQueue(chanId: string): void {
-    //     const queue = this.pendingPlayback.get(chanId)
-    //     if (!queue) {
-    //         return
-    //     }
-    //     const top = queue[0]
-    //     if (top.state === VoicePlaybackStatus.Waiting) {
-    //         if (!this.connections.get(top.channel.id)) {
-    //             top.state = VoicePlaybackStatus.Connecting
-    //             top.channel.join().then(conn => {
-    //                 this.connections.set(top.channel.id, conn)
-    //                 top.connection = conn
-    //                 this.updatePlaybackQueue(chanId)
-    //             }).catch(() => {
-    //                 // Connection failed, just kill everything with fire
-    //                 // console.error("Discord voice connection failed:")
-    //                 // console.error(error)
-    //                 top.channel.leave()
-    //                 this.connections.delete(top.channel.id)
-    //                 this.pendingPlayback.set(chanId, [])
-    //             })
-    //         } else {
-    //             top.connection = this.connections.get(top.channel.id)
-    //             top.state = VoicePlaybackStatus.Connecting
-    //             this.updatePlaybackQueue(chanId)
-    //         }
-    //     } else if (top.state === VoicePlaybackStatus.Connecting) {
-    //         if (top.connection) {
-    //             top.state = VoicePlaybackStatus.Playing
-    //             this.updateDeafenStatus(top.connection)
-    //             const files = top.noise.files
-    //             const file = files[Math.floor(Math.random() * files.length)]
-    //             const filePath = pathForNoiseFile(file)
-    //             let d: Discord.StreamDispatcher
-    //             if (file.endsWith(".opus")) {
-    //                 // Standard .opus file, demux with Prism, don't transcode
-    //                 const stream = FS.createReadStream(filePath)
-    //                 d = top.connection.play(stream, { type: "ogg/opus", volume: false })
-    //                 stream.on("error", console.error)
-    //             } else {
-    //                 d = top.connection.play(filePath)
-    //             }
-    //             d.on("error", console.error)
-    //             d.on("debug", console.log)
-    //             d.on("finish", () => {
-    //                 top.state = VoicePlaybackStatus.Finished
-    //                 this.updatePlaybackQueue(chanId)
-    //             })
-    //         }
-    //     } else if (top.state === VoicePlaybackStatus.Playing) {
-    //         // Ignore it, it's still playing
-    //     } else if (top.state === VoicePlaybackStatus.Finished) {
-    //         // Pop from the top
-    //         queue.shift()
-    //         if (queue.length === 0) {
-    //             if (this.shouldLeaveChannel(top.channel)) {
-    //                 top.channel.leave()
-    //                 this.connections.delete(top.channel.id)
-    //             }
-    //         } else {
-    //             this.updatePlaybackQueue(chanId)
-    //         }
-    //     }
-    // }
 }
