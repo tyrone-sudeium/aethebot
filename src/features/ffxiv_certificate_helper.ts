@@ -39,6 +39,7 @@ interface PriceInfo {
     pricePerCert: number
     price: number
     worldName: string
+    itemId: number
 }
 
 const DATA_CENTERS = [
@@ -113,12 +114,18 @@ export class FFXIVCertificateFeature extends GlobalFeature {
         }
 
         this.getPricesFromUniversalis(dc).then(prices => {
-            const embed = new Discord.EmbedBuilder()
-            embed.setTitle(`Best Prices on ${stupidTitleCase(dc)}`)
-            for (const priceInfo of prices) {
-                embed.addFields({name: priceInfo.itemName, value: formatPriceInfo(priceInfo), inline: false})
-            }
-            context.sendReply("", [embed])
+            const embeds = prices.map((priceInfo, index) => {
+                const embed = new Discord.EmbedBuilder()
+                const thumb = `https://universalis-ffxiv.github.io/universalis-assets/icon2x/${priceInfo.itemId}.png`
+                embed.setAuthor({
+                    name: `#${index+1} ${priceInfo.itemName}`,
+                    iconURL: thumb,
+                    url: `https://universalis.app/market/${priceInfo.itemId}`,
+                })
+                embed.setFooter({text: formatPriceInfo(priceInfo)})
+                return embed
+            })
+            context.sendReply(`Best Prices on ${stupidTitleCase(dc)}`, embeds)
         }).catch(err => {
             log(`ffxiv_certificate_helper error: ${err}`, "always")
             context.sendReply("oops something's cooked. check the logs")
@@ -171,6 +178,7 @@ export class FFXIVCertificateFeature extends GlobalFeature {
                         pricePerCert,
                         price,
                         worldName: data.listings[0].worldName,
+                        itemId,
                     }
                     // This reads a bit galaxy-brain but basically, disallows duplicates.
                     // Duplicates are possible because people can make _multiple listings_ at the same price.
