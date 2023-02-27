@@ -11,12 +11,15 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import assert from "assert"
 import * as Discord from "discord.js"
+import { GatewayIntentBits } from "discord.js"
 import { Brain } from "./brain"
 import { GlobalFeature, GlobalFeatureConstructor, GlobalFeatureLoader } from "./features"
 import { MessageContext } from "./features/feature"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
+import { queryStringFromObject } from "./util/http"
 
 export class Bot {
     public brain: Brain
@@ -54,7 +57,7 @@ export class Bot {
     }
 
     public fetchUser(id: string): Promise<Discord.User> {
-        return this.client.users.fetch(id, true)
+        return this.client.users.fetch(id)
     }
 
     // Returns a Discord channel for the given ID, or null if that channel is
@@ -83,17 +86,35 @@ export class Bot {
     }
 
     private makeClient(): Discord.Client {
-        const client = new Discord.Client({partials: ["MESSAGE", "REACTION"]})
-        client.on("message", this.receiveMessage.bind(this))
+        const client = new Discord.Client({
+            intents: [
+                GatewayIntentBits.Guilds,
+                GatewayIntentBits.GuildEmojisAndStickers,
+                GatewayIntentBits.GuildVoiceStates,
+                GatewayIntentBits.GuildMessages,
+                GatewayIntentBits.GuildMessageReactions,
+                GatewayIntentBits.DirectMessages,
+                GatewayIntentBits.DirectMessageReactions,
+                GatewayIntentBits.MessageContent,
+            ],
+            partials: [Discord.Partials.Message, Discord.Partials.Reaction, Discord.Partials.Channel],
+        })
+        client.on("messageCreate", this.receiveMessage.bind(this))
         client.on("messageReactionAdd", this.onMessageReactionAdd.bind(this))
         client.on("messageReactionRemove", this.onMessageReactionRemove.bind(this))
         client.on("ready", () => {
+            assert(this.client.application)
             this.user = this.client.user
             if (process.env.NODE_ENV !== "production") {
-                this.client.fetchApplication().then(app => {
-                    log("Join this bot to servers at " +
-                        `https://discordapp.com/oauth2/authorize?&client_id=${app.id}&scope=bot&permissions=0`)
+                const query = queryStringFromObject({
+                    // This is a query parameter, eslint, fucking relax
+                    // eslint-disable-next-line quote-props
+                    "client_id": this.client.application.id,
+                    scope: "bot",
+                    permissions: "0",
                 })
+                const url = `https://discordapp.com/oauth2/authorize?${query}`
+                log(`Join this bot to servers at ${url}`)
             }
             this.loadFeatures()
         })
@@ -129,7 +150,8 @@ export class Bot {
         }
     }
 
-    private onMessageReactionAdd(msg: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): void {
+    private onMessageReactionAdd(msg: Discord.MessageReaction | Discord.PartialMessageReaction,
+                                 user: Discord.User | Discord.PartialUser): void {
         for (const [, feature] of this.loadedFeatures) {
             if (feature.onMessageReactionAdd !== undefined) {
                 feature.onMessageReactionAdd(msg, user)
@@ -137,7 +159,8 @@ export class Bot {
         }
     }
 
-    private onMessageReactionRemove(msg: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): void {
+    private onMessageReactionRemove(msg: Discord.MessageReaction | Discord.PartialMessageReaction,
+                                    user: Discord.User | Discord.PartialUser): void {
         for (const [, feature] of this.loadedFeatures) {
             if (feature.onMessageReactionRemove !== undefined) {
                 feature.onMessageReactionRemove(msg, user)
@@ -146,8 +169,8 @@ export class Bot {
     }
 
     private voiceStateUpdate(oldState: Discord.VoiceState, newState: Discord.VoiceState): void {
-        const newUserChannel: Discord.VoiceChannel | null = newState.channel
-        const oldUserChannel: Discord.VoiceChannel | null = oldState.channel
+        const newUserChannel: Discord.VoiceBasedChannel | null = newState.channel
+        const oldUserChannel: Discord.VoiceBasedChannel | null = oldState.channel
         const updatedChannel = newUserChannel || oldUserChannel || null
 
         if (!updatedChannel) {

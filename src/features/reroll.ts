@@ -17,7 +17,7 @@ import { FeatureBase, GlobalFeature, MessageContext } from "./feature"
 
 export interface RerolledMessage {
     text: string
-    embeds?: Discord.MessageEmbed[]
+    embeds?: Discord.EmbedBuilder[]
 }
 
 export interface Rerollable {
@@ -111,6 +111,10 @@ export class RerollFeature extends GlobalFeature {
     private async doReroll(context: MessageContext<this>): Promise<void> {
         const requestMsg = context.message
         const item = await this.lastItemForChannel(requestMsg.channel.id)
+        if (requestMsg.channel.type === Discord.ChannelType.GuildStageVoice) {
+            // ???
+            return
+        }
         if (!item) {
             context.sendNegativeReply()
             return
@@ -135,18 +139,15 @@ export class RerollFeature extends GlobalFeature {
             }
             if ((feature as RerollableFeature).reroll) {
                 const msgObj = await (feature as RerollableFeature).reroll(item.params, humanMessage)
-                if (botMessage.channel.type !== "dm") {
-                    msgObj.text = `<@${originalPoster.id}> ${msgObj.text}`
-                }
                 if (item.type === "edit") {
                     if (msgObj.embeds && msgObj.embeds.length === 1) {
-                        await botMessage.edit(msgObj.text, msgObj.embeds[0])
+                        await botMessage.edit({content: msgObj.text, embeds: [msgObj.embeds[0]]})
                     } else {
                         await botMessage.edit(msgObj.text)
                     }
                 } else if (item.type === "delete") {
                     await botMessage.delete()
-                    const newMsg = await requestMsg.channel.send(msgObj.text, msgObj.embeds)
+                    const newMsg = await requestMsg.channel.send({content: msgObj.text, embeds: msgObj.embeds})
                     if (newMsg instanceof Discord.Message) {
                         await this.pushRerollForFeature(feature.name, newMsg, humanMessage, item.params, item.type)
                     }

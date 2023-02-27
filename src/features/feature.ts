@@ -11,6 +11,8 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import { Stream } from "stream"
+import assert from "assert"
 import * as Discord from "discord.js"
 import randomNumber from "random-number-csprng"
 import { Bot } from "../bot"
@@ -26,32 +28,19 @@ const NEGATIVES = [
     "nah fuck ya",
 ]
 
-function reply(channel: Discord.TextChannel | Discord.DMChannel | Discord.NewsChannel,
-               mention: Discord.User,
-               replyStr: string,
-               embed?: Discord.MessageEmbed): Promise<Discord.Message> {
-    if (channel.type === "dm") {
-        if (embed) {
-            return channel.send(replyStr, embed)
-        } else {
-            return channel.send(replyStr)
-        }
-    } else {
-        const spacer = replyStr.length > 0 ? " " : ""
-        if (embed) {
-            return channel.send(`<@${mention.id}>${spacer}${replyStr}`, embed)
-        } else {
-            return channel.send(`<@${mention.id}>${spacer}${replyStr}`)
-        }
-    }
+interface FileAttachment {
+    data: Buffer | Stream | string
+    name?: string
 }
 
 export class MessageContext<F extends FeatureBase> {
     private myMessage: Discord.Message
     private myFeature: F
+    private myIsDM = false
     public constructor(message: Discord.Message, feature: F) {
         this.myFeature = feature
         this.myMessage = message
+        this.myIsDM = message.channel.type === Discord.ChannelType.DM
     }
 
     public get message(): Discord.Message {
@@ -62,8 +51,60 @@ export class MessageContext<F extends FeatureBase> {
         return this.myFeature
     }
 
-    public async sendReply(str: string, embed?: Discord.MessageEmbed): Promise<Discord.Message> {
-        return reply(this.message.channel, this.message.author, str, embed)
+    public get isDM(): boolean {
+        return this.myIsDM
+    }
+
+    /**
+     * Sends a message to the channel without any reply or mention.
+     * @param str message to send
+     * @returns The `Discord.Message` that was sent
+     */
+    public async sendPlain(str: string, embeds?: Discord.JSONEncodable<Discord.APIEmbed>[]): Promise<Discord.Message> {
+        const channel = this.myMessage.channel
+        // Shouldn't be possible
+        assert(channel.type !== Discord.ChannelType.GuildStageVoice)
+
+        return channel.send({content: str, embeds})
+    }
+
+    /**
+     * Replies to the message using Discord's reply system if not in a DM.
+     * @param str message to send
+     * @param embeds Discord embed objects
+     * @returns The `Discord.Message` that was sent
+     */
+    public async sendReply(str: string, embeds?: Discord.JSONEncodable<Discord.APIEmbed>[]): Promise<Discord.Message> {
+        const channel = this.myMessage.channel
+        if (channel.type === Discord.ChannelType.DM) {
+            if (embeds && embeds.length > 0) {
+                return channel.send({content: str, embeds})
+            } else {
+                return channel.send(str)
+            }
+        } else {
+            if (embeds && embeds.length > 0) {
+                return this.myMessage.reply({content: str, embeds})
+            } else {
+                return this.myMessage.reply(str)
+            }
+        }
+    }
+
+    /**
+     * Sends a reply like `sendReply` but with file attachments.
+     * @param content message to send
+     * @param filesData Files to send
+     * @returns The `Discord.Message` that was sent
+     */
+    public async sendReplyFiles(content: string | undefined, filesData: FileAttachment[]): Promise<Discord.Message> {
+        const channel = this.myMessage.channel
+        const files = filesData.map(data => new Discord.AttachmentBuilder(data.data, {name: data.name}))
+        if (channel.type === Discord.ChannelType.DM) {
+            return channel.send({content, files})
+        } else {
+            return this.myMessage.reply({content, files})
+        }
     }
 
     /**
@@ -81,9 +122,12 @@ export class MessageContext<F extends FeatureBase> {
     }
 }
 
+export type DiscordReaction = Discord.MessageReaction | Discord.PartialMessageReaction
+export type DiscordUser = Discord.User | Discord.PartialUser
+
 export interface FeatureBase {
-    onMessageReactionAdd?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean
-    onMessageReactionRemove?(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean
+    onMessageReactionAdd?(reaction: DiscordReaction, user: DiscordUser): boolean
+    onMessageReactionRemove?(reaction: DiscordReaction, user: DiscordUser): boolean
 }
 
 export abstract class FeatureBase {
@@ -100,7 +144,7 @@ export abstract class FeatureBase {
         this.name = name
     }
 
-    public voiceChannelStateChanged?(channel: Discord.VoiceChannel): void
+    public voiceChannelStateChanged?(channel: Discord.VoiceBasedChannel): void
 
     public handlesMessage(context: MessageContext<this>): boolean {
         const message = context.message
@@ -112,7 +156,7 @@ export abstract class FeatureBase {
             return false
         }
         // Handle all DMs by default
-        if (message.channel.type === "dm") {
+        if (message.channel.type === Discord.ChannelType.DM) {
             return true
         }
         // Handle messages where the bot is specifically mentioned

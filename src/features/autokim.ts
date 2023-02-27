@@ -11,8 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import * as Discord from "discord.js"
-import { ServerFeature } from "./feature"
+import { ServerFeature, DiscordReaction, DiscordUser } from "./feature"
 
 export class AutoKimFeature extends ServerFeature {
     public handlesMessage(): boolean {
@@ -23,7 +22,7 @@ export class AutoKimFeature extends ServerFeature {
         return false
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction, user: Discord.User | Discord.PartialUser): boolean {
+    public onMessageReactionAdd(reaction: DiscordReaction, user: DiscordUser): boolean {
         if (!this.bot.user) {
             return false
         }
@@ -31,13 +30,17 @@ export class AutoKimFeature extends ServerFeature {
         return true
     }
 
-    private async handleReaction(reaction: Discord.MessageReaction,
-                                 user: Discord.User | Discord.PartialUser): Promise<void> {
+    private async handleReaction(reaction: DiscordReaction,
+                                 user: DiscordUser): Promise<void> {
         if (!this.bot.user) {
             return
         }
         if (reaction.partial) {
-            await reaction.fetch()
+            reaction = await reaction.fetch()
+        }
+        if (reaction.emoji.name === null) {
+            // ?????????
+            return
         }
         if (reaction.emoji.name !== "happy" && reaction.emoji.name.toLowerCase() !== "kekw") {
             // Don't fetch message partials for irrelevant emoji

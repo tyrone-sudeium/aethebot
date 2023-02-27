@@ -113,12 +113,12 @@ export class FFXIVCertificateFeature extends GlobalFeature {
         }
 
         this.getPricesFromUniversalis(dc).then(prices => {
-            const embed = new Discord.MessageEmbed()
+            const embed = new Discord.EmbedBuilder()
             embed.setTitle(`Best Prices on ${stupidTitleCase(dc)}`)
             for (const priceInfo of prices) {
-                embed.addField(priceInfo.itemName, formatPriceInfo(priceInfo), false)
+                embed.addFields({name: priceInfo.itemName, value: formatPriceInfo(priceInfo), inline: false})
             }
-            context.message.channel.send(embed)
+            context.sendReply("", [embed])
         }).catch(err => {
             log(`ffxiv_certificate_helper error: ${err}`, "always")
             context.sendReply("oops something's cooked. check the logs")

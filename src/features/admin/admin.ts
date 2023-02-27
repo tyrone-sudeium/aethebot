@@ -11,6 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { User } from "../../model/user"
 import { GlobalFeature, MessageContext } from "../feature"
@@ -28,7 +29,7 @@ export async function canPerformAction(action: AdminAction, context: MessageCont
         context.sendNegativeReply("you are not an admin")
         return false
     }
-    if (context.message.channel.type !== "dm") {
+    if (context.message.channel.type !== Discord.ChannelType.DM) {
         context.sendNegativeReply("don't do admin commands in public you nong")
         return false
     }

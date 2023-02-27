@@ -147,7 +147,7 @@ interface XIVAPICharacter {
 }
 
 const ORDINALS = ["First", "Second", "Third", "Fourth", "Fifth"]
-const COLORS = ["#FFD700", "#C0C0C0", "#804000", "#0000A0", "#0000A0"]
+const COLORS = ["#FFD700", "#C0C0C0", "#804000", "#0000A0", "#0000A0"] as Discord.HexColorString[]
 
 interface LeaderboardData {
     name: string
@@ -203,12 +203,12 @@ function sortLeaderboard(leaderboard: LeaderboardData[]): LeaderboardData[] {
     return leaderboard
 }
 
-function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.MessageEmbed {
-    const embed = new Discord.MessageEmbed()
+function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.EmbedBuilder {
+    const embed = new Discord.EmbedBuilder()
     const totalExp = NUMBER_FORMATTER.format(TOTAL_EXP)
     const cumulativeExp = NUMBER_FORMATTER.format(data.cumulativeExp)
     const completion = (data.cumulativeExp / TOTAL_EXP) * 100
-    embed.setAuthor(data.name, data.avatarURL, data.url)
+    embed.setAuthor({name: data.name, iconURL: data.avatarURL, url: data.url})
     embed.setTitle(`${data.position} Place (${completion.toFixed(2)}%)`)
     if (data.prevExp && data.cumulativeExp > data.prevExp) {
         const diff = data.cumulativeExp - data.prevExp
@@ -222,7 +222,7 @@ function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.Me
             embed.setDescription(`Up **${diff}** (${diffPercStr}%) since last time`)
         }
     }
-    embed.setFooter(`${cumulativeExp} / ${totalExp} Total EXP`)
+    embed.setFooter({text: `${cumulativeExp} / ${totalExp} Total EXP`})
     embed.setColor(COLORS[idx])
     return embed
 }
@@ -234,7 +234,7 @@ export class AmaroQuestFeature extends GlobalFeature {
     }
 
     private async getHistory(context: MessageContext<this>): Promise<History> {
-        if (context.message.channel.type === "dm" || !context.message.guild) {
+        if (context.message.channel.type === Discord.ChannelType.DM || !context.message.guild) {
             return {}
         }
         const redisKey = `aq:${context.message.guild.id}:history`
@@ -244,7 +244,7 @@ export class AmaroQuestFeature extends GlobalFeature {
     }
 
     private async setHistory(history: History, context: MessageContext<this>): Promise<void> {
-        if (context.message.channel.type === "dm" || !context.message.guild) {
+        if (context.message.channel.type === Discord.ChannelType.DM || !context.message.guild) {
             return
         }
         const redisKey = `aq:${context.message.guild.id}:history`
@@ -262,7 +262,10 @@ export class AmaroQuestFeature extends GlobalFeature {
             return
         }
 
-        if (context.message.channel.type === "dm" || !context.message.guild) {
+        if (context.message.channel.type === Discord.ChannelType.DM || !context.message.guild) {
+            return
+        }
+        if (context.message.channel.type === Discord.ChannelType.GuildStageVoice) {
             return
         }
 
@@ -271,6 +274,10 @@ export class AmaroQuestFeature extends GlobalFeature {
         const history = await this.getHistory(context)
 
         if (tokens.length < 2) {
+            if (amaroQuesters.length === 0) {
+                context.sendNegativeReply("nobody on the leaderboard. use `amaroquest add [character-id]`")
+                return
+            }
             let leaderboard: LeaderboardData[] = []
             const dataPromises: Promise<XIVAPICharacter>[] = amaroQuesters
                 .map(id => getJSON(`https://xivapi.com/character/${id}`))
@@ -293,10 +300,7 @@ export class AmaroQuestFeature extends GlobalFeature {
             await this.setHistory(history, context)
             leaderboard = sortLeaderboard(leaderboard)
             const embeds = leaderboard.map(embedForLeaderboardData)
-            // This isn't great... Discord doesn't guarantee message ordering, plus this is spam
-            for (const embed of embeds) {
-                await context.message.channel.send(embed)
-            }
+            await context.sendReply("", embeds)
             return
         }
 

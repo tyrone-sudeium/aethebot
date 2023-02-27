@@ -59,7 +59,7 @@ export class TimehelperFeature extends GlobalFeature {
         if (!results || results.length === 0) {
             return false
         }
-        const embed = new Discord.MessageEmbed()
+        const embed = new Discord.EmbedBuilder()
         embed.setColor("#FF5200")
         for (const result of results) {
             if (!result.start.isCertain("hour")) {
@@ -69,10 +69,11 @@ export class TimehelperFeature extends GlobalFeature {
             }
             const date = result.start.date()
             const unixTime = date.getTime() / 1000.0
-            embed.addField(`"${result.text}"`, `<t:${unixTime.toFixed(0)}:F>`)
+            // embed.addField(, )
+            embed.addFields({name: `"${result.text}"`, value: `<t:${unixTime.toFixed(0)}:F>`})
         }
-        if (embed.fields && embed.fields.length > 0) {
-            context.message.channel.send(embed)
+        if (embed.data.fields && embed.data.fields.length > 0) {
+            context.sendPlain("", [embed])
         }
         return false
     }

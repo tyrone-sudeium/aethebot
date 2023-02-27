@@ -37,7 +37,6 @@ export class RegionalIndicatorFeature extends GlobalFeature {
 
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
-        const message = context.message
         if (tokens.length < 3) {
             return false
         }
@@ -54,13 +53,13 @@ export class RegionalIndicatorFeature extends GlobalFeature {
             context.sendReply("nah mate, alphabet characters only")
             return true
         }
-        if (message.channel.type !== "dm" && words.length > 20) {
+        if (!context.isDM && words.length > 20) {
             context.sendReply("nah mate, way too long, i'm not your personal spambot")
             return true
         }
 
         const shitpost = tokens.slice(2).map( s => Array.from(s).map(emojiForCharacter).join(" ")).join("\n")
-        message.channel.send(shitpost)
+        context.sendPlain(shitpost)
         return true
     }
 }

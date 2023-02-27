@@ -35,7 +35,7 @@ interface WorkerJob {
     id: string
     lines: string[]
     /** Message from the original requester */
-    originalMessage: Discord.Message
+    originalContext: MessageContext<VinceMcMahonFeature>
     /** Message sent by the bot saying "please wait" */
     pendingMessage: Discord.Message
 }
@@ -78,7 +78,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
             const workerJob: WorkerJob = {
                 id: uuid(),
                 lines,
-                originalMessage: context.message,
+                originalContext: context,
                 pendingMessage: msg,
             }
             this.pendingJobs.set(workerJob.id, workerJob)
@@ -126,16 +126,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
         }
         this.pendingJobs.delete(jobId)
         const attachment = value.filePath as string
-
-        const msgOptions: Discord.MessageOptions = {
-            files: [attachment],
-        }
-        const message = job.originalMessage
-        if (job.originalMessage.channel.type === "dm") {
-            await message.channel.send(msgOptions)
-        } else {
-            await message.channel.send(`<@${message.author.id}>`, msgOptions)
-        }
+        await job.originalContext.sendReplyFiles(undefined, [{data: attachment, name: "vince.gif"}])
         job.pendingMessage.delete()
         await new Promise(resolve => FS.unlink(attachment, resolve))
     }

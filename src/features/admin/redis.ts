@@ -18,7 +18,6 @@
 // admin.ts instead.
 
 import { RedisClient } from "redis"
-import { MessageAttachment } from "discord.js"
 import { Bot } from "../../bot"
 import { MessageContext } from "../feature"
 import { canPerformAction } from "./admin"
@@ -62,8 +61,7 @@ export class RedisAdminFeature extends GlobalFeature {
             try {
                 const jsonValue = JSON.parse(res)
                 const pretty = JSON.stringify(jsonValue, null, 2)
-                const attachment = new MessageAttachment(new Buffer(pretty, "utf8"), "result.json")
-                context.message.channel.send(attachment)
+                context.sendReplyFiles(undefined, [{data: Buffer.from(pretty, "utf8"), name: "result.json"}])
             } catch (jsonError) {
                 const tripleBacktick = "```"
                 context.sendReply(`${tripleBacktick}\n${res.slice(0, 1992)}\n${tripleBacktick}`)

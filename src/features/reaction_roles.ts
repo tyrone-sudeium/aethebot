@@ -18,7 +18,7 @@ import { Bot } from "../bot"
 import { removeBotMentions } from "../util/remove_mentions"
 import { log } from "../log"
 import { parseEmoji } from "../util/parse_emoji"
-import { ServerFeature, MessageContext } from "./feature"
+import { ServerFeature, MessageContext, DiscordReaction, DiscordUser } from "./feature"
 
 export class ReactionRolesFeature extends ServerFeature {
     private context?: ReactionRolesContext
@@ -43,14 +43,14 @@ export class ReactionRolesFeature extends ServerFeature {
         return true
     }
 
-    public onMessageReactionAdd(reaction: Discord.MessageReaction,
-                                user: Discord.User | Discord.PartialUser): boolean {
+    public onMessageReactionAdd(reaction: DiscordReaction,
+                                user: DiscordUser): boolean {
         this.handleReaction(reaction, user, "add")
         return true
     }
 
-    public onMessageReactionRemove(reaction: Discord.MessageReaction,
-                                   user: Discord.User | Discord.PartialUser): boolean {
+    public onMessageReactionRemove(reaction: DiscordReaction,
+                                   user: DiscordUser): boolean {
         this.handleReaction(reaction, user, "remove")
         return true
     }
@@ -95,13 +95,16 @@ export class ReactionRolesFeature extends ServerFeature {
             // Ignore messages not in a guild
             return
         }
+        if (context.message.channel.type !== Discord.ChannelType.GuildText) {
+            return
+        }
         const guild = context.message.guild
         const roles = await guild.roles.fetch()
         const newReactRoleMsg: ReactionRoleMessage = {
             id: "PENDING",
             map: {},
         }
-        const embed = new Discord.MessageEmbed()
+        const embed = new Discord.EmbedBuilder()
         for (const commandLine of tokenizedLines.splice(1)) {
             if (commandLine.length < 3) {
                 this.sendHelp(context)
@@ -110,7 +113,7 @@ export class ReactionRolesFeature extends ServerFeature {
             const emojiId = commandLine[0]
             const roleInput = commandLine[1]
             const desc = commandLine.splice(2).join(" ")
-            const role = roles.cache.find(r => r.name === roleInput)
+            const role = roles.find(r => r.name === roleInput)
             const regex = emojiRegex()
             const customEmoji = parseEmoji(emojiId)
             if (!regex.test(emojiId) && customEmoji.length === 0) {
@@ -140,13 +143,15 @@ export class ReactionRolesFeature extends ServerFeature {
                 desc,
                 roleId,
             }
-            embed.addField(emojiId, desc, false)
+            // embed.addField(emojiId, desc, false)
+            embed.addFields({name: emojiId, value: desc, inline: false})
         }
 
         // Create the message and post it to the channel.
         const title = "Add or remove one of these reactions on this message to join or leave a role!"
-        const message = await context.message.channel.send(title, {
-            embed,
+        const message = await context.message.channel.send({
+            content: title,
+            embeds: [embed],
         })
         newReactRoleMsg.id = message.id
 
@@ -165,8 +170,8 @@ export class ReactionRolesFeature extends ServerFeature {
         }
     }
 
-    private async handleReaction(reaction: Discord.MessageReaction,
-                                 user: Discord.User | Discord.PartialUser,
+    private async handleReaction(reaction: DiscordReaction,
+                                 user: DiscordUser,
                                  operation: "add" | "remove"): Promise<void> {
         if (this.bot.user && this.bot.user.id === user.id) {
             // Ignore reactions from the bot itself
@@ -195,9 +200,12 @@ export class ReactionRolesFeature extends ServerFeature {
         if (reaction.emoji.id) {
             // If it has an ID it is a custom emoji
             emojiStr = `<:${reaction.emoji.identifier}>`
-        } else {
+        } else if (reaction.emoji.name) {
             // Unicode emoji
             emojiStr = reaction.emoji.name
+        } else {
+            // ???
+            return
         }
         const roleData = reactionRoleMessage.map[emojiStr]
         // Remove any reactions that aren't in the map

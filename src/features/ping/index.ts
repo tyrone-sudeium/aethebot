@@ -79,12 +79,12 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         } else if (joinedMessage === "drillme") {
             // ...th-that's lewd
             const embed = this.dril.embedForContent(this.dril.getNo())
-            context.sendReply("", embed)
+            context.sendReply("", [embed])
             return true
         } else if (joinedMessage === "logoff") {
             // show yourself coward
             const embed = this.dril.embedForContent(this.dril.logoff())
-            context.sendReply("", embed)
+            context.sendReply("", [embed])
             return true
         } else if (joinedMessage === "geans") {
             // denam geans
@@ -93,7 +93,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         } else if (joinedMessage === "coronavirus" || joinedMessage === "covid" || joinedMessage === "beervirus") {
             // flatten the curve
             const embed = this.dril.embedForContent(this.dril.getBeerVirus())
-            context.sendReply("", embed)
+            context.sendReply("", [embed])
         } else if (joinedMessage === "drilbomb" || (messageWithoutEmoji === "bomb" && isDrilEmoji)) {
             // Dril bomb. RIP dril bomb -- a casualty of embed limitations
             // Seems like discord.js and/or the Discord API cannot handle multiple embeds per message
@@ -139,7 +139,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
     }
 
     private getEmbeds(params: TwitterRerollParams,
-                      toots: TweetPoolContent[]): Discord.MessageEmbed[] {
+                      toots: TweetPoolContent[]): Discord.EmbedBuilder[] {
         let source: TweetPool
         if (params.type === "nasa" || params.type === "drilme") {
             source = this.dril
@@ -171,7 +171,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                              params: TwitterRerollParams): Promise<void> {
         const toots = await this.getToots(context.message.channel.id, params)
         const embeds = this.getEmbeds(params, toots)
-        const uploadedMsg = await context.sendReply("", embeds[0])
+        const uploadedMsg = await context.sendReply("", [embeds[0]])
         if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
             const emojis = await this.autoAirhornEmojis(context)
             if (emojis !== null) {

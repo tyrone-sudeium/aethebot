@@ -12,7 +12,6 @@
  */
 
 import * as Path from "path"
-import * as Discord from "discord.js"
 import { createCanvas, Image, loadImage } from "@napi-rs/canvas"
 import { removeBotMentions } from "../../util/remove_mentions"
 import { GlobalFeature, MessageContext } from "../feature"
@@ -54,11 +53,11 @@ export class GalaxyBrainFeature extends GlobalFeature {
             return false
         }
 
-        this.replyMeme(lines, context.message)
+        this.replyMeme(lines, context)
         return true
     }
 
-    private async replyMeme(lines: string[], message: Discord.Message): Promise<void> {
+    private async replyMeme(lines: string[], context: MessageContext<this>): Promise<void> {
         const images = await this.loadImages(lines.length)
         const tiles = images.map((img, idx) => new MemeTile(lines[idx], img, WIDTH))
         let drawables: Drawable[] = []
@@ -78,19 +77,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
             y = y + drawable.height
         }
         const attachment = canvas.toBuffer("image/png")
-        const msgOptions: Discord.MessageOptions = {
-            files: [
-                {
-                    attachment,
-                    name: "meme.png",
-                },
-            ],
-        }
-        if (message.channel.type === "dm") {
-            await message.channel.send(msgOptions)
-        } else {
-            await message.channel.send(`<@${message.author.id}>`, msgOptions)
-        }
+        context.sendReplyFiles(undefined, [{data: attachment, name: "meme.png"}])
     }
 
     private async loadImages(count: number): Promise<Image[]> {

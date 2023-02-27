@@ -69,21 +69,22 @@ export class ShitcoinFeature extends GlobalFeature {
         }
 
         this.messageEmbed().then(embed => {
-            if (!embed || !embed.fields) {
+            if (!embed || !embed.data.fields) {
                 return
             }
-            if (embed.fields.length > 0) {
-                context.message.channel.send("", {
-                    embed,
-                })
+            if (embed.data.fields.length > 0) {
+                // context.message.channel.send("", {
+                //     embed,
+                // })
+                context.sendReply("", [embed])
             }
         }).catch(log)
 
         return false
     }
 
-    private async messageEmbed(): Promise<Discord.MessageEmbed> {
-        const embed = new Discord.MessageEmbed()
+    private async messageEmbed(): Promise<Discord.EmbedBuilder> {
+        const embed = new Discord.EmbedBuilder()
         const previous = await this.previousPrice()
         const previousFormatted = NUMBER_FORMATTER.format(Number(previous))
         const current = await this.currentPrice()
@@ -91,10 +92,11 @@ export class ShitcoinFeature extends GlobalFeature {
         const ageStr = await this.bot.brain.get(BRAIN_KEYS.AGE)
         if (previous) {
             const btcPreviousDate = Moment().subtract(UPDATE_FREQUENCY, "milliseconds")
-            embed.addField(btcPreviousDate.fromNow(), `${previousFormatted} / BTC`, true)
+            embed.addFields({name: btcPreviousDate.fromNow(), value: `${previousFormatted} / BTC`, inline: true})
         }
         if (current) {
-            embed.addField("Current", `${currentFormatted} / BTC`, true)
+            // embed.addField("Current", `${currentFormatted} / BTC`, true)
+            embed.addFields({name: "Current", value: `${currentFormatted} / BTC`, inline: true})
         }
         if (ageStr) {
             const btcPriceDate = Moment(parseInt(ageStr, 10))
@@ -109,7 +111,7 @@ export class ShitcoinFeature extends GlobalFeature {
                     prefix = "📉"
                 }
             }
-            embed.setFooter(`${prefix}Last updated ${intervalStr}`)
+            embed.setFooter({text: `${prefix}Last updated ${intervalStr}`})
         }
         return embed
     }

@@ -43,7 +43,7 @@ export class ServerFeaturesManager extends GlobalFeature {
 
     public handleMessage(context: MessageContext<this>): boolean {
         const message = context.message
-        const isDM = message.channel.type === "dm"
+        const isDM = message.channel.type === Discord.ChannelType.DM
         if (!isDM && message.guild) {
             const features = this.features.get(message.guild.id)
             if (features) {
@@ -162,7 +162,7 @@ export class ServerFeaturesManager extends GlobalFeature {
     }
 
     private async asyncHandler(context: MessageContext<this>, tokens: string[], ctor: Ctor): Promise<void> {
-        const isDM = context.message.channel.type === "dm"
+        const isDM = context.message.channel.type === Discord.ChannelType.DM
 
         const ok = await this.validatePermission(context)
         if (!ok) {

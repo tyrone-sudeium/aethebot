@@ -30,7 +30,7 @@ export class TimPostFeature extends ServerFeature {
             posts.push(`https://i.redd.it/${match[1]}.gif`)
         }
         const message = `Un-timposting it: ${posts.join("\n")}`
-        context.message.channel.send(message)
+        context.sendPlain(message)
         return true
     }
 }

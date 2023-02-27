@@ -76,14 +76,24 @@ export abstract class TweetPool {
         return selected
     }
 
-    public embedForContent(toot: TweetPoolContent): Discord.MessageEmbed {
-        const embed = new Discord.MessageEmbed()
-        embed.setAuthor(toot.author, toot.avatar, toot.url)
+    public embedForContent(toot: TweetPoolContent): Discord.EmbedBuilder {
+        const embed = new Discord.EmbedBuilder()
+        embed.setAuthor({name: toot.author, iconURL: toot.avatar, url: toot.url})
         embed.setDescription(toot.content)
-        embed.setFooter("Twitter", TWITTER_ICON)
+        embed.setFooter({text: "Twitter", iconURL: TWITTER_ICON})
         embed.setColor([29, 161, 242])
-        embed.addField("Retweets", toot.retweets, true)
-        embed.addField("Likes", toot.likes, true)
+        embed.addFields(
+            {
+                name: "Retweets",
+                value: `${toot.retweets}`,
+                inline: true,
+            },
+            {
+                name: "Likes",
+                value: `${toot.likes}`,
+                inline: true,
+            },
+        )
 
         if (toot.image) {
             embed.setImage(toot.image)

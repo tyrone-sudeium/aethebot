@@ -32,13 +32,14 @@
   "homepage": "https://github.com/tyrone-sudeium/aethebot#readme",
   "dependencies": {
     "@discordjs/opus": "^0.9",
+    "@discordjs/voice": "^0.14.0",
     "@napi-rs/canvas": "^0.1",
     "@types/ws": "^7.2.1",
     "@tyrone-sudeium/napi-gif-encoder": "^0.0.1",
     "anchorme": "^1.1.2",
     "array-flatten": "^3.0.0",
     "chrono-node": "^2.3.1",
-    "discord.js": "12",
+    "discord.js": "^14",
     "emoji-regex": "^9.2.2",
     "minimist": "^1.2.6",
     "moment-precise-range-plugin": "^1.2.3",
@@ -46,6 +47,7 @@
     "random-number-csprng": "^1.0.2",
     "redis": "^3.1.2",
     "strict-event-emitter-types": "^2.0.0",
+    "tweetnacl": "^1.0.3",
     "uuid": "^3.3.3",
     "xml2js": "^0.4.19"
   },

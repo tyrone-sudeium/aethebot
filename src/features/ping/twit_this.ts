@@ -73,7 +73,7 @@ export class TwitThisFeature extends GlobalFeature {
             const dril = new Dril(this.bot.brain)
             const no = dril.getNo()
             const embed = dril.embedForContent(no)
-            context.sendReply("", embed)
+            context.sendReply("", [embed])
             return true
         }
 
