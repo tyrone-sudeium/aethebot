@@ -16,7 +16,7 @@ import * as Discord from "discord.js"
 import { GatewayIntentBits } from "discord.js"
 import { Brain } from "./brain"
 import { GlobalFeature, GlobalFeatureConstructor, GlobalFeatureLoader } from "./features"
-import { MessageContext } from "./features/feature"
+import { FeatureBase, MessageContext } from "./features/feature"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
 import { queryStringFromObject } from "./util/http"
@@ -52,6 +52,11 @@ export class Bot {
         }
     }
 
+    public get applicationId(): string {
+        assert(this.client.isReady())
+        return this.client.application.id
+    }
+
     public login(): void {
         this.client.login(this.token)
     }
@@ -85,6 +90,18 @@ export class Bot {
         return this.loadedFeatures.get(name) as F || null
     }
 
+    public getAllSlashCommands(): Discord.SlashCommandBuilder[] {
+        const slashCommands: Discord.SlashCommandBuilder[] = []
+        for (const FeatureCtor of this.features) {
+            const FeatureClass = FeatureCtor as typeof FeatureBase
+            if (!FeatureClass.slashCommands) {
+                continue
+            }
+            slashCommands.push(...FeatureClass.slashCommands)
+        }
+        return slashCommands
+    }
+
     private makeClient(): Discord.Client {
         const client = new Discord.Client({
             intents: [
@@ -110,7 +127,7 @@ export class Bot {
                     // This is a query parameter, eslint, fucking relax
                     // eslint-disable-next-line quote-props
                     "client_id": this.client.application.id,
-                    scope: "bot",
+                    scope: "bot applications.commands",
                     permissions: "0",
                 })
                 const url = `https://discordapp.com/oauth2/authorize?${query}`
@@ -122,6 +139,7 @@ export class Bot {
         client.on("error", error => {
             log(`Discord.js error: ${error}`)
         })
+        client.on(Discord.Events.InteractionCreate, this.onInteractionCreate.bind(this))
         return client
     }
 
@@ -147,6 +165,30 @@ export class Bot {
             if (feature.handlesMessage(context)) {
                 feature.handleMessage(context)
             }
+        }
+    }
+
+    private onInteractionCreate(interaction: Discord.Interaction<Discord.CacheType>): void {
+        if (!interaction.isCommand()) {
+            return
+        }
+        for (const FeatureCtor of this.features) {
+            const FeatureClass = FeatureCtor as typeof FeatureBase
+            if (!FeatureClass.slashCommands) {
+                continue
+            }
+            const slashCommand = FeatureClass.slashCommands.find(s => s.name === interaction.commandName)
+            if (!slashCommand) {
+                continue
+            }
+            const feature = this.loadedFeatures.get(FeatureClass.name)
+            if (!feature) {
+                // Feature isn't loaded by this bot. Ignore the interaction.
+                return
+            }
+            assert(feature.handleInteraction !== undefined)
+            feature.handleInteraction(interaction)
+            return
         }
     }
 

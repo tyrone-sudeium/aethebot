@@ -36,7 +36,7 @@ interface HTTPOptions {
 }
 
 export function queryStringFromObject(object: {[key: string]: number | string | boolean | null}): string {
-    return Object.entries(object).map(([key, value]) => `${key}=${value}`).join("&")
+    return Object.entries(object).map(([key, value]) => encodeURI(`${key}=${value}`)).join("&")
 }
 
 export async function getHTTPData(url: string): Promise<Buffer>

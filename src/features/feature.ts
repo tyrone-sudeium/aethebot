@@ -136,6 +136,8 @@ export abstract class FeatureBase {
         return this.internalBot
     }
 
+    public static slashCommands?: Discord.SlashCommandBuilder[]
+
     public name: string
     private internalBot: Bot
 
@@ -210,6 +212,7 @@ export abstract class FeatureBase {
         return tokens
     }
 
+    public async handleInteraction?(interaction: Discord.Interaction<Discord.CacheType>): Promise<void>
     public abstract handleMessage(context: MessageContext<this>): boolean
 }
 

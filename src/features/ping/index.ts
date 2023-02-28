@@ -46,6 +46,13 @@ function isDrilRerollParams(params: any): params is TwitterRerollParams {
 }
 
 export class PingFeature extends GlobalFeature implements Rerollable {
+    public static slashCommands?: Discord.SlashCommandBuilder[] | undefined = [
+        new Discord.SlashCommandBuilder()
+            .setName("drilme")
+            .setDescription("Pipe steaming hot @dril tweets directly from Hell into your squad chat")
+        ,
+    ]
+
     private dril: Dril
     private twit: Twit
 
@@ -53,6 +60,25 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         super(bot, name)
         this.dril = new Dril(bot.brain)
         this.twit = new Twit(bot.brain)
+    }
+
+    public async handleInteraction(interaction: Discord.Interaction<Discord.CacheType>): Promise<void> {
+        if (!interaction.isChatInputCommand()) {
+            return
+        }
+        const params: TwitterRerollParams = {type: "drilme", count: 1}
+        const toots = await this.getToots(interaction.channelId, params)
+        const embeds = this.getEmbeds(params, toots)
+        const resp = await interaction.reply({embeds})
+        const msgComponent = await resp.awaitMessageComponent()
+        const uploadedMsg = msgComponent.message
+        if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
+            const emojis = this.autoAirhornEmojis(interaction.guild)
+            if (emojis !== null) {
+                await uploadedMsg.react(emojis.airhorn)
+                await uploadedMsg.react(emojis.nasa)
+            }
+        }
     }
 
     public handleMessage(context: MessageContext<this>): boolean {
@@ -173,7 +199,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const embeds = this.getEmbeds(params, toots)
         const uploadedMsg = await context.sendReply("", [embeds[0]])
         if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
-            const emojis = await this.autoAirhornEmojis(context)
+            const emojis = this.autoAirhornEmojis(context.message.guild)
             if (emojis !== null) {
                 await uploadedMsg.react(emojis.airhorn)
                 await uploadedMsg.react(emojis.nasa)
@@ -183,11 +209,10 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         return
     }
 
-    private async autoAirhornEmojis(context: MessageContext<this>): Promise<AutoAirhornEmojis | null> {
-        if (context.message.guild === null) {
+    private autoAirhornEmojis(guild: Discord.Guild | null): AutoAirhornEmojis | null {
+        if (guild === null) {
             return null
         }
-        const guild = await context.message.guild.fetch()
         const airhorn = guild.emojis.cache.find(e => e.name === "airhorn")
         const nasa = guild.emojis.cache.find(e => e.name === "nasa")
         if (airhorn && nasa) {
