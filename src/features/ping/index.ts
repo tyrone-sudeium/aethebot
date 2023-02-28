@@ -79,9 +79,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         if (prediction) {
             text = `<@${interaction.user.id}>'s guess: ${prediction}`
         }
-        const resp = await interaction.reply({content: text, embeds})
-        const msgComponent = await resp.awaitMessageComponent()
-        const uploadedMsg = msgComponent.message
+        const uploadedMsg = await interaction.reply({content: text, embeds, fetchReply: true})
         if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
             const emojis = this.autoAirhornEmojis(interaction.guild)
             if (emojis !== null) {
