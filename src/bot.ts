@@ -16,7 +16,7 @@ import * as Discord from "discord.js"
 import { GatewayIntentBits } from "discord.js"
 import { Brain } from "./brain"
 import { GlobalFeature, GlobalFeatureConstructor, GlobalFeatureLoader } from "./features"
-import { FeatureBase, MessageContext } from "./features/feature"
+import { FeatureBase, MessageContext, SlashCommand } from "./features/feature"
 import { UptimeFeature } from "./features/uptime"
 import { log } from "./log"
 import { queryStringFromObject } from "./util/http"
@@ -90,8 +90,8 @@ export class Bot {
         return this.loadedFeatures.get(name) as F || null
     }
 
-    public getAllSlashCommands(): Discord.SlashCommandBuilder[] {
-        const slashCommands: Discord.SlashCommandBuilder[] = []
+    public getAllSlashCommands(): SlashCommand[] {
+        const slashCommands: SlashCommand[] = []
         for (const FeatureCtor of this.features) {
             const FeatureClass = FeatureCtor as typeof FeatureBase
             if (!FeatureClass.slashCommands) {

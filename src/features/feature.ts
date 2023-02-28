@@ -130,13 +130,18 @@ export interface FeatureBase {
     onMessageReactionRemove?(reaction: DiscordReaction, user: DiscordUser): boolean
 }
 
+export interface SlashCommand {
+    name: string
+    toJSON(): Discord.RESTPostAPIChatInputApplicationCommandsJSONBody
+}
+
 export abstract class FeatureBase {
 
     public get bot(): Bot {
         return this.internalBot
     }
 
-    public static slashCommands?: Discord.SlashCommandBuilder[]
+    public static slashCommands?: SlashCommand[]
 
     public name: string
     private internalBot: Bot

@@ -14,7 +14,7 @@
 import * as Discord from "discord.js"
 import { Bot } from "../../bot"
 import { parseEmoji, removeEmoji } from "../../util/parse_emoji"
-import { GlobalFeature, MessageContext } from "../feature"
+import { GlobalFeature, MessageContext, SlashCommand } from "../feature"
 import { pushReroll, Rerollable, RerolledMessage } from "../reroll"
 import { Dril } from "./dril"
 import { Twit } from "./twits"
@@ -46,10 +46,15 @@ function isDrilRerollParams(params: any): params is TwitterRerollParams {
 }
 
 export class PingFeature extends GlobalFeature implements Rerollable {
-    public static slashCommands?: Discord.SlashCommandBuilder[] | undefined = [
+    public static slashCommands?: SlashCommand[] | undefined = [
         new Discord.SlashCommandBuilder()
             .setName("drilme")
             .setDescription("Pipe steaming hot @dril tweets directly from Hell into your squad chat")
+            .addStringOption(option =>
+                option.setName("prediction")
+                    .setDescription("An optional prediction. Only LOSERS make predictions that match multiple tweets.")
+                    .setRequired(false)
+            )
         ,
     ]
 
@@ -69,7 +74,12 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const params: TwitterRerollParams = {type: "drilme", count: 1}
         const toots = await this.getToots(interaction.channelId, params)
         const embeds = this.getEmbeds(params, toots)
-        const resp = await interaction.reply({embeds})
+        const prediction = interaction.options.getString("prediction")
+        let text: string | undefined
+        if (prediction) {
+            text = `<@${interaction.user.id}>'s guess: ${prediction}`
+        }
+        const resp = await interaction.reply({content: text, embeds})
         const msgComponent = await resp.awaitMessageComponent()
         const uploadedMsg = msgComponent.message
         if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
