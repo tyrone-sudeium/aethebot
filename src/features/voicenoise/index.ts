@@ -14,6 +14,7 @@
 
 import * as FS from "fs"
 import * as Path from "path"
+import assert from "assert"
 import * as Discord from "discord.js"
 import {
     AudioPlayer,
@@ -27,7 +28,7 @@ import {
     entersState,
     joinVoiceChannel,
 } from "@discordjs/voice"
-import { GlobalFeature, MessageContext } from "../feature"
+import { GlobalFeature, MessageContext, SlashCommand } from "../feature"
 import { assertIsError, log } from "../../log"
 import { Noise, NOISES } from "./noises"
 
@@ -58,9 +59,91 @@ interface PlaybackContext {
 }
 
 export class VoiceNoiseFeature extends GlobalFeature {
-    private pendingPlayback = new Map<string, VoicePlaybackIntent[]>()
+    public static slashCommands?: SlashCommand[] | undefined = [
+        new Discord.SlashCommandBuilder()
+            .setName("noise")
+            .setDescription("Be super annoying or funny(?) in voice chat")
+            .addStringOption(option =>
+                option.setName("query")
+                    .setDescription("ID of the noise or some other text that matches one.")
+                    .setRequired(true)
+                    .setAutocomplete(true))
+        ,
+    ]
 
+    private pendingPlayback = new Map<string, VoicePlaybackIntent[]>()
     private context = new Map<string, PlaybackContext>()
+
+    public async handleInteraction(interaction: Discord.Interaction<Discord.CacheType>): Promise<void> {
+        if (interaction.isAutocomplete()) {
+            const focusedValue = interaction.options.getFocused()
+            const choices = NOISES.filter(n => {
+                if (n.desc) {
+                    return n.id.includes(focusedValue.toUpperCase()) ||
+                        n.desc.toUpperCase().includes(focusedValue.toUpperCase())
+                } else {
+                    return n.id.includes(focusedValue.toUpperCase())
+                }
+            })
+            choices.splice(25)
+            await interaction.respond(choices.map(n => ({name: n.desc ?? n.id, value: n.id})))
+            return
+        }
+        if (!interaction.isChatInputCommand()) {
+            return
+        }
+        const query = interaction.options.getString("query")
+        if (!query) {
+            // This is required? lul.
+            await interaction.reply({content: "⚠️ Missing query. Try `/noise [noise ID]`", ephemeral: true})
+            return
+        }
+        let noise: Noise | undefined = NOISES.find(n => n.id === query?.toUpperCase())
+        if (!noise) {
+            noise = this.noiseForMessage(query)
+        }
+        if (!noise) {
+            await interaction.reply({content: `⚠️ No noises match "${query}".`, ephemeral: true})
+            return
+        }
+
+        const author = interaction.member
+        assert(author !== null)
+        const guild = interaction.guild
+        if(!guild) {
+            return
+        }
+        const member = await guild.members.fetch(author.user.id)
+        const authorVoiceChannel = member.voice.channel
+        if (!authorVoiceChannel) {
+            if (noise.fallbackImageURL) {
+                await interaction.reply({embeds: [new Discord.EmbedBuilder().setImage(noise.fallbackImageURL)]})
+            } else {
+                await interaction.reply({content: "⚠️ Join a voice channel first.", ephemeral: true})
+            }
+            return
+        }
+        if (authorVoiceChannel.type === Discord.ChannelType.GuildStageVoice) {
+            await interaction.reply({content: "⚠️ I don't support stages.", ephemeral: true})
+            return
+        }
+        if (!authorVoiceChannel.joinable) {
+            await interaction.reply({content: "⚠️ I don't have permission to join your channel", ephemeral: true})
+            return
+        }
+
+        this.pushPlaybackIntent(authorVoiceChannel, {
+            channel: authorVoiceChannel,
+            noise,
+            state: VoicePlaybackStatus.Waiting,
+        })
+
+        const ctx = this.context.get(authorVoiceChannel.id)
+        if (!ctx || !ctx.current) {
+            this.playNextIntentOnChannel(authorVoiceChannel)
+        }
+        await interaction.reply({content: "✅ OK.", ephemeral: true})
+    }
 
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
@@ -230,13 +313,13 @@ export class VoiceNoiseFeature extends GlobalFeature {
         return false
     }
 
-    private noiseForMessage(message: string): Noise | null {
+    private noiseForMessage(message: string): Noise | undefined {
         for (const noise of NOISES) {
             if (noise.regex.find(r => r.test(message))) {
                 return noise
             }
         }
-        return null
+        return undefined
     }
 
     private pushPlaybackIntent(channel: Discord.VoiceChannel,

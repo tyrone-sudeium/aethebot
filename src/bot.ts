@@ -169,7 +169,7 @@ export class Bot {
     }
 
     private onInteractionCreate(interaction: Discord.Interaction<Discord.CacheType>): void {
-        if (!interaction.isCommand()) {
+        if (!interaction.isCommand() && !interaction.isAutocomplete()) {
             return
         }
         for (const FeatureCtor of this.features) {
