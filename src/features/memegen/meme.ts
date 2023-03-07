@@ -23,10 +23,6 @@ const ORDINALS = [
     "Second",
     "Third",
     "Fourth",
-    "Fifth",
-    "Sixth",
-    "Seventh",
-    "Eighth",
 ]
 
 const MEME_TEMPLATES = [
@@ -136,7 +132,7 @@ export class MemeFeature extends GlobalFeature {
             } else if (template === "BRAIN") {
                 const feature = this.bot.loadedFeatureForName<GalaxyBrainFeature>("GalaxyBrainFeature")
                 if (!feature) {
-                    await res.reply({content: "⚠️ Vince feature not loaded in this bot.", ephemeral: true})
+                    await res.reply({content: "⚠️ Galaxy Brain feature not loaded in this bot.", ephemeral: true})
                     return
                 }
                 const memeData = await feature.generateMeme(lines)
