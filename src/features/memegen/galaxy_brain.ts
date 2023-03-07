@@ -14,7 +14,8 @@
 import * as Path from "path"
 import { createCanvas, Image, loadImage } from "@napi-rs/canvas"
 import { removeBotMentions } from "../../util/remove_mentions"
-import { GlobalFeature, MessageContext } from "../feature"
+import { GlobalFeature, MessageContext, SlashCommand } from "../feature"
+import { log } from "../../log"
 import { Drawable } from "./drawable"
 import { MemeTile } from "./meme_tile"
 import { Separator } from "./separator"
@@ -57,7 +58,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
         return true
     }
 
-    private async replyMeme(lines: string[], context: MessageContext<this>): Promise<void> {
+    public async generateMeme(lines: string[]): Promise<Buffer | undefined> {
         const images = await this.loadImages(lines.length)
         const tiles = images.map((img, idx) => new MemeTile(lines[idx], img, WIDTH))
         let drawables: Drawable[] = []
@@ -66,7 +67,8 @@ export class GalaxyBrainFeature extends GlobalFeature {
         const canvas = createCanvas(WIDTH, totalHeight)
         const ctx = canvas.getContext("2d")
         if (!ctx) {
-            return
+            log("couldn't create canvas context", "always")
+            return undefined
         }
         ctx.fillStyle = "#fff"
         ctx.fillRect(0, 0, WIDTH, totalHeight)
@@ -76,8 +78,16 @@ export class GalaxyBrainFeature extends GlobalFeature {
             drawable.drawInContext(ctx, offset)
             y = y + drawable.height
         }
-        const attachment = canvas.toBuffer("image/png")
-        context.sendReplyFiles(undefined, [{data: attachment, name: "meme.png"}])
+        return canvas.toBuffer("image/png")
+    }
+
+    private async replyMeme(lines: string[], context: MessageContext<this>): Promise<void> {
+        const attachment = await this.generateMeme(lines)
+        if (!attachment) {
+            context.sendNegativeReply("something's cooked, check the logs")
+            return
+        }
+        await context.sendReplyFiles(undefined, [{data: attachment, name: "meme.png"}])
     }
 
     private async loadImages(count: number): Promise<Image[]> {

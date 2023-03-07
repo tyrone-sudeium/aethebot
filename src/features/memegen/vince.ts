@@ -31,7 +31,8 @@ const PENDING_TEXTS = [
     "got it, will drop it in here soon™",
 ]
 
-interface WorkerJob {
+interface WorkerJobChat {
+    type: "chat"
     id: string
     lines: string[]
     /** Message from the original requester */
@@ -39,6 +40,16 @@ interface WorkerJob {
     /** Message sent by the bot saying "please wait" */
     pendingMessage: Discord.Message
 }
+
+interface WorkerJobSlashCommand {
+    type: "slashcommand"
+    id: string
+    lines: string[]
+    /** Modal form that requested this image */
+    modal: Discord.ModalSubmitInteraction<Discord.CacheType>
+}
+
+type WorkerJob = WorkerJobChat | WorkerJobSlashCommand
 
 export class VinceMcMahonFeature extends GlobalFeature {
     private worker: ChildProcess
@@ -76,6 +87,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
         const pendingMsg = PENDING_TEXTS[Math.floor(Math.random() * PENDING_TEXTS.length)]
         context.sendReply(pendingMsg).then(msg => {
             const workerJob: WorkerJob = {
+                type: "chat",
                 id: uuid(),
                 lines,
                 originalContext: context,
@@ -87,6 +99,17 @@ export class VinceMcMahonFeature extends GlobalFeature {
 
         // this.replyMeme(lines, context.message)
         return true
+    }
+
+    public queueNewJobFromModal(modal: Discord.ModalSubmitInteraction<Discord.CacheType>, lines: string[]): void {
+        const workerJob: WorkerJob = {
+            type: "slashcommand",
+            id: uuid(),
+            lines,
+            modal,
+        }
+        this.pendingJobs.set(workerJob.id, workerJob)
+        this.worker.send({id: workerJob.id, lines: workerJob.lines})
     }
 
     private newWorker(): ChildProcess {
@@ -126,8 +149,12 @@ export class VinceMcMahonFeature extends GlobalFeature {
         }
         this.pendingJobs.delete(jobId)
         const attachment = value.filePath as string
-        await job.originalContext.sendReplyFiles(undefined, [{data: attachment, name: "vince.gif"}])
-        job.pendingMessage.delete()
+        if (job.type === "chat") {
+            await job.originalContext.sendReplyFiles(undefined, [{data: attachment, name: "vince.gif"}])
+            job.pendingMessage.delete()
+        } else {
+            await job.modal.reply({files: [new Discord.AttachmentBuilder(attachment, {name: "vince.gif"})]})
+        }
         await new Promise(resolve => FS.unlink(attachment, resolve))
     }
 

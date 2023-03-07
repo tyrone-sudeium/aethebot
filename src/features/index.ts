@@ -38,6 +38,7 @@ import { ReactionRolesFeature } from "./reaction_roles"
 import { AmaroQuestFeature } from "./amaroquest"
 import { TwitThisFeature } from "./ping/twit_this"
 import { FFXIVCertificateFeature } from "./ffxiv_certificate_helper"
+import { MemeFeature } from "./memegen/meme"
 
 export { GlobalFeature }
 
@@ -67,6 +68,7 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     AmaroQuestFeature,
     TwitThisFeature,
     FFXIVCertificateFeature,
+    MemeFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
