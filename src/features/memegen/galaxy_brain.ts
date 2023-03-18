@@ -14,7 +14,7 @@
 import * as Path from "path"
 import { createCanvas, Image, loadImage } from "@napi-rs/canvas"
 import { removeBotMentions } from "../../util/remove_mentions"
-import { GlobalFeature, MessageContext, SlashCommand } from "../feature"
+import { GlobalFeature, MessageContext } from "../feature"
 import { log } from "../../log"
 import { Drawable } from "./drawable"
 import { MemeTile } from "./meme_tile"

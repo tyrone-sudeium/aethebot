@@ -192,6 +192,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         const cleanup = (): void => {
             const c = this.context.get(channelId)
             if (c) {
+                c.connection.removeAllListeners()
                 c.connection.destroy()
                 c.player.stop()
                 this.context.delete(channelId)
@@ -217,9 +218,11 @@ export class VoiceNoiseFeature extends GlobalFeature {
                     // Seems to be reconnecting to a new channel - ignore disconnect
                 } catch (error) {
                     // Seems to be a real disconnect which SHOULDN'T be recovered from
+                    log(`voicenoise: ${channelId} disconnected`, "always")
                     cleanup()
                 }
             })
+            connection.on(VoiceConnectionStatus.Destroyed, () => log(`voicenoise: ${channelId} destroyed`, "always"))
             const player = createAudioPlayer()
             connection.subscribe(player)
             player.on("error", error => {
@@ -235,7 +238,8 @@ export class VoiceNoiseFeature extends GlobalFeature {
         try {
             await entersState(ctx.connection, VoiceConnectionStatus.Ready, 5_000)
         } catch (error) {
-            log(`voicenoise: connection to channel ${channelId} never became ready`, "always")
+            const st = ctx.connection.state.status
+            log(`voicenoise: connection to channel ${channelId} (${st}) never became ready`, "always")
             cleanup()
             return
         }
@@ -274,6 +278,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
             const ctx = this.context.get(channel.id)
             if (this.shouldLeaveChannel(intent.channel)) {
                 if (ctx) {
+                    ctx.connection.removeAllListeners()
                     ctx.connection.destroy()
                     ctx.player.stop()
                     this.context.delete(channel.id)
