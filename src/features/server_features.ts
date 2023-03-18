@@ -14,6 +14,7 @@
 import * as Discord from "discord.js"
 import { Bot } from "../bot"
 import { allServerFeatures, ServerFeatureConstructor } from "../features"
+import { log } from "../log"
 import { User } from "../model/user"
 import { isNotNullary } from "../util/predicates"
 import { GlobalFeature, MessageContext, ServerFeature } from "./feature"
@@ -108,7 +109,12 @@ export class ServerFeaturesManager extends GlobalFeature {
             reaction = await reaction.fetch()
         }
         if (message.partial) {
-            message = await message.fetch()
+            try {
+                message = await message.fetch()
+            } catch (err) {
+                log(`ignoring react on message ${message.id}`)
+                return
+            }
         }
         if (!message.guild) {
             return

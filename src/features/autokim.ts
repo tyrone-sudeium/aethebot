@@ -54,6 +54,13 @@ export class AutoKimFeature extends ServerFeature {
             // Fetch the full message if our cache only has partial
             await reaction.message.fetch()
         }
+        const channel = reaction.message.channel
+        if (!channel.isDMBased() &&
+            (!channel.permissionsFor(this.bot.user)?.has("AddReactions") ||
+            !channel.permissionsFor(this.bot.user)?.has("UseExternalEmojis")))
+        {
+            return
+        }
         const users = await reaction.users.fetch()
         // Auto-Kim any message that gets a Kim
         if (reaction.emoji.name === "happy" && !users.has(this.bot.user.id)) {
