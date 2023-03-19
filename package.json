@@ -32,7 +32,7 @@
   "homepage": "https://github.com/tyrone-sudeium/aethebot#readme",
   "dependencies": {
     "@discordjs/opus": "^0.9",
-    "@discordjs/voice": "^0.14.0",
+    "@discordjs/voice": "^0.15.0",
     "@napi-rs/canvas": "^0.1",
     "@types/ws": "^7.2.1",
     "@tyrone-sudeium/napi-gif-encoder": "^0.0.1",

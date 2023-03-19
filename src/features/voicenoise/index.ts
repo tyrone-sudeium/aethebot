@@ -232,6 +232,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
             })
             ctx = {connection, player}
             this.context.set(channelId, ctx)
+            connection.on("stateChange", (old, n) => log(`voicenoise: ${channelId} ${old.status} -> ${n.status}`))
         }
         ctx.current = intent
 

@@ -17,7 +17,7 @@ import { allServerFeatures, ServerFeatureConstructor } from "../features"
 import { log } from "../log"
 import { User } from "../model/user"
 import { isNotNullary } from "../util/predicates"
-import { GlobalFeature, MessageContext, ServerFeature } from "./feature"
+import { DiscordReaction, DiscordUser, GlobalFeature, MessageContext, ServerFeature } from "./feature"
 
 const BRAIN_KEYS = {
     FEATURES: "sf:features",
@@ -101,18 +101,23 @@ export class ServerFeaturesManager extends GlobalFeature {
         return true
     }
 
-    private async handleReaction(reaction: Discord.MessageReaction,
-                                 user: Discord.User | Discord.PartialUser,
+    private async handleReaction(reaction: DiscordReaction,
+                                 user: DiscordUser,
                                  action: "add" | "remove"): Promise<void> {
-        let message = reaction.message
         if (reaction.partial) {
-            reaction = await reaction.fetch()
+            try {
+                reaction = await reaction.fetch()
+            } catch (err) {
+                log(`ignoring react ${reaction} from ${user.id}`)
+                return
+            }
         }
+        let message = reaction.message
         if (message.partial) {
             try {
                 message = await message.fetch()
             } catch (err) {
-                log(`ignoring react on message ${message.id}`)
+                log(`ignoring react on message ${message.id} from ${user.id}`)
                 return
             }
         }
