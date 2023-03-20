@@ -136,8 +136,15 @@ export class Bot {
             this.loadFeatures()
         })
         client.on("voiceStateUpdate", this.voiceStateUpdate.bind(this))
-        client.on("error", error => {
-            log(`Discord.js error: ${error}`)
+        client.on(Discord.Events.Error, error => {
+            log(`Discord.js error: ${error}`, "always")
+        })
+        client.on(Discord.Events.Warn, w => {
+            log(`Discord.js warn: ${w}`, "always")
+        })
+        client.on(Discord.Events.Invalidated, () => {
+            log("Discord.js session invalidated!", "always")
+            this.reconnect()
         })
         client.on(Discord.Events.InteractionCreate, this.onInteractionCreate.bind(this))
         return client
