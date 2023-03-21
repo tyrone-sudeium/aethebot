@@ -29,6 +29,7 @@ export class Bot {
     private loadedFeatures: Map<string, GlobalFeature> = new Map()
     private client: Discord.Client
     private customFeatureLoaders: GlobalFeatureLoader[] = []
+    private connectionCheckTimer?: NodeJS.Timer
 
     public constructor(token: string, brain: Brain) {
         this.token = token
@@ -147,6 +148,18 @@ export class Bot {
             this.reconnect()
         })
         client.on(Discord.Events.InteractionCreate, this.onInteractionCreate.bind(this))
+        if (this.connectionCheckTimer) {
+            clearInterval(this.connectionCheckTimer)
+        }
+        this.connectionCheckTimer = setInterval(() => {
+            client.ws.shards.each(sh => {
+                const current = new Date().getTime()
+                if (sh.status !== Discord.Status.Ready && current - sh.lastPingTimestamp > 60000) {
+                    log("ws not ready in over 60 seconds! restarting...", "always")
+                    this.reconnect()
+                }
+            })
+        }, 10000)
         return client
     }
 
