@@ -57,7 +57,8 @@ export class AutoKimFeature extends ServerFeature {
         const channel = reaction.message.channel
         if (!channel.isDMBased() &&
             (!channel.permissionsFor(this.bot.user)?.has("AddReactions") ||
-            !channel.permissionsFor(this.bot.user)?.has("UseExternalEmojis")))
+            !channel.permissionsFor(this.bot.user)?.has("UseExternalEmojis") ||
+            !channel.permissionsFor(this.bot.user)?.has("ReadMessageHistory")))
         {
             return
         }
