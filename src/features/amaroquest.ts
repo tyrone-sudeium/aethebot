@@ -108,28 +108,38 @@ const EXP_CURVE = [
     10838000,
 ]
 
-const ADVENTURER_CLASSES = [
-    1, // GLA/PLD
-    2, // PGL/MNK
-    3, // MRD/WAR
-    4, // LNC/DRG
-    5, // ARC/BRD
-    6, // CNJ/WHM
-    7, // THM/BLM
-    26, // ACN/SCH/SMN
-    29, // ROG/NIN
-    31, // MCH
-    32, // DRK
-    33, // AST
-    34, // SAM
-    35, // RDM
-    37, // GNB
-    38, // DNC
-    39, // RPR
-    40, // SGE
-]
+const ADVENTURER_CLASSES: {[id: number]: {id: number; startsAt: number}} = {
+    1: { id: 1, startsAt: 1 }, // GLA/PLD
+    2: { id: 2, startsAt: 1 }, // PGL/MNK
+    3: { id: 3, startsAt: 1 }, // MRD/WAR
+    4: { id: 4, startsAt: 1 }, // LNC/DRG
+    5: { id: 5, startsAt: 1 }, // ARC/BRD
+    6: { id: 6, startsAt: 1 }, // CNJ/WHM
+    7: { id: 7, startsAt: 1 }, // THM/BLM
+    26: { id: 26, startsAt: 1 }, // ACN/SCH/SMN
+    29: { id: 29, startsAt: 1 }, // ROG/NIN
+    31: { id: 31, startsAt: 30 }, // MCH
+    32: { id: 32, startsAt: 30 }, // DRK
+    33: { id: 33, startsAt: 30 }, // AST
+    34: { id: 34, startsAt: 50 }, // SAM
+    35: { id: 35, startsAt: 50 }, // RDM
+    37: { id: 37, startsAt: 60 }, // GNB
+    38: { id: 38, startsAt: 60 }, // DNC
+    39: { id: 39, startsAt: 70 }, // RPR
+    40: { id: 40, startsAt: 70 }, // SGE
+}
 
-const TOTAL_EXP = EXP_CURVE.reduce((a,x) => a + x) * ADVENTURER_CLASSES.length
+function expEarned(level: number, startsAt = 1): number {
+    if (level < startsAt) {
+        return 0
+    }
+    const curve = EXP_CURVE.slice(startsAt - 1)
+    return curve.slice(0, level - startsAt).reduce((a,x) => a + x, 0)
+}
+
+const TOTAL_EXP = Object.entries(ADVENTURER_CLASSES)
+    .map(([,cls]) => expEarned(90, cls.startsAt))
+    .reduce((a,n) => a + n)
 
 const NUMBER_FORMATTER = new Intl.NumberFormat("en-US")
 
@@ -170,14 +180,15 @@ function totalExpForToon(toon: XIVAPICharacter): number {
         if (classesCounted.has(job.ClassID)) {
             continue
         }
-        if (!ADVENTURER_CLASSES.includes(job.ClassID)) {
+        const cls = ADVENTURER_CLASSES[job.ClassID]
+        if (!cls) {
             continue
         }
         if (job.Level === 0) {
             continue
         }
-        const expEarned = EXP_CURVE.slice(0, job.Level - 1).reduce((a,x) => a + x, 0)
-        exp = exp + expEarned + job.ExpLevel
+        const earned = expEarned(job.Level, cls.startsAt)
+        exp = exp + earned + job.ExpLevel
         classesCounted.add(job.ClassID)
     }
     return exp
