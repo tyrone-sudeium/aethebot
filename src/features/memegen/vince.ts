@@ -11,9 +11,9 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { ChildProcess, fork } from "child_process"
 import * as FS from "fs"
 import * as Path from "path"
+import * as NodeWorker from "node:worker_threads"
 import { v4 as uuid } from "uuid"
 import * as Discord from "discord.js"
 import { Bot } from "../../bot"
@@ -52,7 +52,7 @@ interface WorkerJobSlashCommand {
 type WorkerJob = WorkerJobChat | WorkerJobSlashCommand
 
 export class VinceMcMahonFeature extends GlobalFeature {
-    private worker: ChildProcess
+    private worker: Worker | NodeWorker.Worker
     private pendingJobs: Map<string, WorkerJob> = new Map()
 
     public constructor(bot: Bot, name: string) {
@@ -94,7 +94,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
                 pendingMessage: msg,
             }
             this.pendingJobs.set(workerJob.id, workerJob)
-            this.worker.send({id: workerJob.id, lines: workerJob.lines})
+            this.worker.postMessage({id: workerJob.id, lines: workerJob.lines})
         })
 
         // this.replyMeme(lines, context.message)
@@ -109,34 +109,39 @@ export class VinceMcMahonFeature extends GlobalFeature {
             modal,
         }
         this.pendingJobs.set(workerJob.id, workerJob)
-        this.worker.send({id: workerJob.id, lines: workerJob.lines})
+        this.worker.postMessage({id: workerJob.id, lines: workerJob.lines})
     }
 
-    private newWorker(): ChildProcess {
+    private newWorker(): Worker | NodeWorker.Worker {
         const workerModule = Path.resolve(`${__dirname}/../../workers/vince.js`)
-        const worker = fork(workerModule, [], {
-            execArgv: [],
-            stdio: ["ignore", "pipe", "pipe", "ipc"],
-        })
-        if (worker.stdout) {
-            worker.stdout.on("data", chunk => {
-                log(chunk.toString("utf8"))
+        if (global.Worker) {
+            // Web Worker API is available (Bun or Deno?)
+            const worker = new Worker(workerModule)
+            worker.addEventListener("message", ev => {
+                this.onWorkerMessage(ev.data)
             })
-        }
-        if (worker.stderr) {
-            worker.stderr.on("data", chunk => {
-                log(chunk.toString("utf8"))
+            worker.addEventListener("error", (ev: ErrorEvent) => {
+                this.onWorkerError(ev.message)
             })
+            worker.addEventListener("terminate", () => {
+                this.onWorkerExit()
+            })
+            return worker
+        } else {
+            // Use Node's worker_threads API
+            const worker = new NodeWorker.Worker(workerModule)
+            worker.on("message", value => {
+                this.onWorkerMessage(value)
+            })
+            worker.on("error", err => {
+                this.onWorkerError(err.message)
+            })
+            worker.on("exit", () => this.onWorkerExit())
+            return worker
         }
-        worker.on("message", (value: any) => {
-            this.onWorkerMessage(value)
-        })
-        worker.on("error", this.onWorkerError.bind(this))
-        worker.on("exit", this.onWorkerExit.bind(this))
-        return worker
     }
 
-    private onWorkerError(error: Error): void {
+    private onWorkerError(error: string): void {
         log(`vince worker error: ${error}`)
         this.worker = this.newWorker()
     }
@@ -160,7 +165,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
 
     private onWorkerExit(): void {
         // workers shouldn't exit :(
-        log(`worker ${this.worker.pid} exited...`)
+        log("vince: worker exited...")
         this.worker = this.newWorker()
     }
 }

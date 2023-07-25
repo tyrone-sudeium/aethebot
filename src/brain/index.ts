@@ -11,7 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
-import { Brain } from "./brain"
+import type { Brain } from "./brain"
 import { FlatFileBrain } from "./flat_file"
 import { MemoryBrain } from "./memory"
 import { RedisBrain } from "./redis"

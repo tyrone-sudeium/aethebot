@@ -13,6 +13,7 @@
 
 import * as OS from "os"
 import * as Path from "path"
+import * as NodeWorker from "node:worker_threads"
 import { createCanvas, Image, loadImage } from "@napi-rs/canvas"
 import { GIFEncoder } from "@tyrone-sudeium/napi-gif-encoder"
 import { Drawable } from "../features/memegen/drawable"
@@ -85,17 +86,22 @@ async function generateGif(message: Message, id: string): Promise<string> {
     return filePath
 }
 
-if (process.send) {
-    process.on("message", (value: Message) => {
-        generateGif(value, value.id).then(path => {
-            // Fucking hell, TypeScript.
-            if (process.send) {
-                process.send({id: value.id, filePath: path})
-            }
-        })
+
+if (NodeWorker && NodeWorker.parentPort) {
+    const parentPort = NodeWorker.parentPort
+    NodeWorker.parentPort.on("message", value => {
+        if (value && value.id && value.lines) {
+            generateGif(value, value.id).then(path => {
+                parentPort.postMessage({id: value.id, filePath: path})
+            })
+        }
     })
 } else {
-    // eslint-disable-next-line no-console
-    console.error("Worker must be spawned with fork")
-    process.exit(1)
+    onmessage = async function(ev): Promise<void> {
+        const value: Message = ev.data
+        if (value && value.id && value.lines) {
+            const path = await generateGif(value, value.id)
+            postMessage({id: value.id, filePath: path})
+        }
+    }
 }

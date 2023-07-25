@@ -2,6 +2,8 @@
 
 ## Setup
 
+### Using Node.js
+
 Install [Yarn Classic](https://classic.yarnpkg.com) (1.x). Yarn is a hard
 *requirement* for AetheBot, `npm` will not work, and support for `npm` is not in
 scope for this project.
@@ -21,7 +23,40 @@ Inside this file, paste the token like this:
 DISCORD_TOKEN=[token]
 ```
 
+To run, recommend using Visual Studio Code, since it'll use the `development.env` file.
+See section below.
+
+### Using Bun
+
+Install [Bun](https://bun.sh) 0.7.0 or newer.
+
+Create a Discord Bot account 
+[here](https://discordapp.com/developers/applications/me).
+
+Copy the token it generated.
+
+Create a `.env.local` file in the root of this repo.
+
+Inside this file, paste the token like this:
+
+```
+DISCORD_TOKEN=[token]
+```
+
+Run with Bun:
+
+```
+bun run src/index.ts --brainPath ./brain.json
+```
+
+Not working (as of 0.7.0):
+
+- Voice Noise (missing `node:dgram` `createSocket` support): [oven-sh/bun#1630](https://github.com/oven-sh/bun/issues/1630)
+- Debugger: [oven-sh/bun#1106](https://github.com/oven-sh/bun/issues/1106)
+
 ## Debugging in Visual Studio Code
+
+Currently only works with Node.js.
 
 ### With Node Installed
 
