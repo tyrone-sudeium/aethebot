@@ -21,6 +21,8 @@ import { Twit } from "./twits"
 import { TweetPoolContent, TweetPool } from "./tweetpool"
 
 const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
+const REVOLVER = "https://cdn.discordapp.com/attachments/293954139845820416/1143764395294466058/revolver2.gif"
+
 const GREETINGS = [
     /^ping[\!\?\.]*$/i,
     /^hi[\!\?\.]*$/i,
@@ -86,6 +88,10 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 await uploadedMsg.react(emojis.airhorn)
                 await uploadedMsg.react(emojis.nasa)
             }
+        }
+        const remaining = await this.dril.getRemaining(interaction.channelId)
+        if (remaining === 0) {
+            await interaction.followUp({content: REVOLVER})
         }
     }
 
@@ -211,6 +217,12 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             if (emojis !== null) {
                 await uploadedMsg.react(emojis.airhorn)
                 await uploadedMsg.react(emojis.nasa)
+            }
+        }
+        if (params.type === "drilme") {
+            const remaining = await this.dril.getRemaining(context.message.channel.id)
+            if (remaining === 0) {
+                await context.sendPlain(REVOLVER)
             }
         }
         pushReroll(this, uploadedMsg, context.message, params, "delete")

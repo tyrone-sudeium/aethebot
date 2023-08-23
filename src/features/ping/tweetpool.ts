@@ -38,6 +38,28 @@ export abstract class TweetPool {
         public brain: Brain
     ) { }
 
+    /**
+     * Returns the number of posts remaining in the pool, WITHOUT reshuffling if it's zero.
+     * @param channelId Discord channel ID scope
+     */
+    public async getRemaining(channelId: string): Promise<number> {
+        try {
+            const tootsJSONStr = await this.brain.get(this.brainKeyForChannel(channelId))
+            if (tootsJSONStr) {
+                const json: TweetListPersistence = JSON.parse(tootsJSONStr)
+                if (!json.v || json.v !== this.persistenceVersion) {
+                    return 0
+                } else {
+                    return json.toots.length
+                }
+            } else {
+                return 0
+            }
+        } catch (err) {
+            return 0
+        }
+    }
+
     public async getTweets(channelId: string, count: number): Promise<TweetPoolContent[]> {
         let toots: string[] = []
         const selected: TweetPoolContent[] = []
