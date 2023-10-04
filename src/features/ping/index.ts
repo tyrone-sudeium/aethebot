@@ -20,7 +20,6 @@ import { Dril } from "./dril"
 import { Twit } from "./twits"
 import { TweetPoolContent, TweetPool } from "./tweetpool"
 
-const CAKKAW = "https://tyrone-sudeium.github.io/aethebot-static/res/cakkaw20.png"
 const REVOLVER = "https://tyrone-sudeium.github.io/aethebot-static/res/revolver2.gif"
 
 const GREETINGS = [
@@ -112,11 +111,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         const isDrilEmoji = emoji.length === 1 && emoji[0].name === "dril"
         const isNasaEmoji = emoji.length === 1 && emoji[0].name === "nasa"
         const messageWithoutEmoji = removeEmoji(joinedMessage)
-        // If the message matches the shitheap of variants of "cakaw"
-        if (/[ck]a+w?c?k+a+w+/.exec(joinedMessage) != null) {
-            context.sendReply(CAKKAW)
-            return true
-        } else if (joinedMessage === "drillme") {
+        if (joinedMessage === "drillme") {
             // ...th-that's lewd
             const embed = this.dril.embedForContent(this.dril.getNo())
             context.sendReply("", [embed])
