@@ -72,6 +72,7 @@ jobs:
     name: Deploy to Charon
     needs: build
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    environment: aethebot
     steps:
       - name: Setup Tailscale
         id: tailscale
