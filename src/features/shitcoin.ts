@@ -38,8 +38,8 @@ interface CoindeskPriceResponse {
 
 const UPDATE_FREQUENCY = 600000
 const CURRENCY_CODE = "AUD"
-const DOWN_IMG = "https://cdn.discordapp.com/attachments/293954139845820416/410699758282342401/unknown.png"
-const UP_IMG = "https://cdn.discordapp.com/attachments/293954139845820416/410702466871721984/unknown.png"
+const DOWN_IMG = "https://tyrone-sudeium.github.io/aethebot-static/res/unknown.png"
+const UP_IMG = "https://tyrone-sudeium.github.io/aethebot-static/res/unknown.png"
 
 const BRAIN_KEYS = {
     AGE: "sc:btc:age",

@@ -27,7 +27,7 @@ export const NOISES: Noise[] = [
         desc: "Family guy ostrich.",
     },
     {
-        fallbackImageURL: "https://cdn.discordapp.com/attachments/293954139845820416/373612584722628608/thebest.gif",
+        fallbackImageURL: "https://tyrone-sudeium.github.io/aethebot-static/res/thebest.gif",
         files: ["thebest4.opus"],
         id: "THEBEST4",
         regex: [/^the\s?best$/i],

@@ -38,7 +38,7 @@ const BEERVIRUS: CursedDrilContent = {
     id: "1242643171462402049",
 }
 
-const DRIL_ICON = "https://cdn.discordapp.com/attachments/293954139845820416/697810031256666152/VXyQHfn0_bigger.jpg"
+const DRIL_ICON = "https://tyrone-sudeium.github.io/aethebot-static/res/VXyQHfn0_bigger.jpg"
 const BRAIN_KEYS = {
     TOOT_LIST: "dril:toot_list",
 }
@@ -123,7 +123,7 @@ const NASA: CursedDrilContent[] = [
         retweets: 0,
         likes: 0,
         id: "555555555555555555",
-        image: "https://cdn.discordapp.com/attachments/767671918505099294/953852156165898340/IMG_1138.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/IMG_1138.png",
     },
 ]
 

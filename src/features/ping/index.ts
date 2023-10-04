@@ -20,8 +20,8 @@ import { Dril } from "./dril"
 import { Twit } from "./twits"
 import { TweetPoolContent, TweetPool } from "./tweetpool"
 
-const CAKKAW = "https://cdn.discordapp.com/attachments/310722644116897792/342599893963243521/cakkaw20.png"
-const REVOLVER = "https://cdn.discordapp.com/attachments/293954139845820416/1143764395294466058/revolver2.gif"
+const CAKKAW = "https://tyrone-sudeium.github.io/aethebot-static/res/cakkaw20.png"
+const REVOLVER = "https://tyrone-sudeium.github.io/aethebot-static/res/revolver2.gif"
 
 const GREETINGS = [
     /^ping[\!\?\.]*$/i,

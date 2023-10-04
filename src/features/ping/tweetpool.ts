@@ -15,7 +15,7 @@ import * as Discord from "discord.js"
 import { Brain } from "../../brain"
 import { shuffle } from "../../util/shuffle"
 
-const TWITTER_ICON = "https://cdn.discordapp.com/attachments/293954139845820416/697810035769606206/twitter-footer.png"
+const TWITTER_ICON = "https://tyrone-sudeium.github.io/aethebot-static/res/twitter-footer.png"
 
 export interface TweetListPersistence {
     v: number
