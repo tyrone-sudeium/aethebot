@@ -26,7 +26,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 188,
         likes: 2468,
         content: "I will fuck chewbacca and I will die that way",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/HeroicGirls/status/1001161285994676226",
@@ -34,8 +34,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52752,
         likes: 143498,
         content: "Seeing Zooey Deschanel without bangs or glasses made me accept that maybe people couldn't figure out that Clark Kent was Superman.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDeTW4jvWkAEsEbD.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1301734320529317888%2FGFB8iZl0_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDeTW4jvWkAEsEbD.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1301734320529317888%252FGFB8iZl0_bigger.jpg",
     },
     {
         url: "https://twitter.com/CNN/status/1001516854341505024",
@@ -43,8 +43,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11442,
         likes: 31673,
         content: "Archaeologists working at the ancient Roman city of Pompeii, Italy, uncovered the remains of a 30-year-old man who appears to have survived the initial eruption of Vesuvius in 79 A.D., only to be killed when he was struck by a large slab of stone cnn.it/2GZKWvX",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDeYaRWVXkAAz8_G.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1669780523911110656%2FK9gaaM1g_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDeYaRWVXkAAz8_G.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669780523911110656%252FK9gaaM1g_bigger.jpg",
     },
     {
         url: "https://twitter.com/SanofiUS/status/1001824999496404992",
@@ -52,7 +52,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52126,
         likes: 149648,
         content: "People of all races, religions and nationalities work at Sanofi every day to improve the lives of people around the world. While all pharmaceutical treatments have side effects, racism is not a known side effect of any Sanofi medication.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675918812753932289%2Fb2sIqEAW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675918812753932289%252Fb2sIqEAW_bigger.jpg",
     },
     {
         url: "https://twitter.com/garyfromteenmom/status/1001880290166439936",
@@ -60,8 +60,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1020,
         likes: 7305,
         content: "when ur boss makes a normie joke but u want that promotion",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDedkz9XXkAETJAU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1035175907265323008%2F8JgwA2CN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDedkz9XXkAETJAU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1035175907265323008%252F8JgwA2CN_bigger.jpg",
     },
     {
         url: "https://twitter.com/GraceParra360/status/1001904740257550339",
@@ -69,8 +69,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 561,
         likes: 2376,
         content: "Aged like fine wine",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDed7BqZU0AAMyqB.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1217570934510387200%2FO3Hxh3A-_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDed7BqZU0AAMyqB.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1217570934510387200%252FO3Hxh3A-_bigger.jpg",
     },
     {
         url: "https://twitter.com/Edcrab_/status/1001929790029553670",
@@ -78,8 +78,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 377,
         likes: 1343,
         content: "you, foolish: I'm feeling optimistic and hopeful for the future\nme, wise:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDeeRxjYX0AA-5uv.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1014883731805437952%2FKStQ26OL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDeeRxjYX0AA-5uv.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1014883731805437952%252FKStQ26OL_bigger.jpg",
     },
     {
         url: "https://twitter.com/SplAdamSage/status/1002984414622748673",
@@ -87,7 +87,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6074,
         likes: 11986,
         content: "A horse named \"Bofa Deez Nuts\" wins at Oklahoma City Race Park, impossibly professional announcer is NOT fazed and executes it completely deadpan.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1161671750444343296%2FNhPHzW23_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1161671750444343296%252FNhPHzW23_bigger.jpg",
     },
     {
         url: "https://twitter.com/iamcardib/status/1003321303028428800",
@@ -95,7 +95,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14936,
         likes: 98963,
         content: "Cause i be watching ASMR and porn all day 🤦🏽‍♀️",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1664299223121027073%2FFelEs5Ko_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664299223121027073%252FFelEs5Ko_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/1003347116675104769",
@@ -103,7 +103,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3489,
         likes: 24887,
         content: "Airports are cool bc you can have like a mental breakdown while drinking a Bloody Mary at 7am then go sleep on the floor like a hobo and no one says anything",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/meganamram/status/1003478279490363393",
@@ -111,7 +111,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2517,
         likes: 22477,
         content: "mr. gorbachev, tear up this ass",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/ArfMeasures/status/1003613509832278016",
@@ -119,7 +119,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 37276,
         likes: 143009,
         content: "GOD: 8\nANGEL: 9!\nGOD: We shouldn't do this drunk\nANGEL: 10 lol\nGOD: 15!!\nANGEL \\*mouthful of pizza\\* 25\nGOD: 30!!\nCENTIPEDE: \\*tearing up\\* stop giving me legs, I look stupid\nGOD: ONE HUNDRED LOL\nANGEL: LMAO",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1348255282833534976%2FPk7ewKKA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
         url: "https://twitter.com/caitiedelaney/status/1003652179675136001",
@@ -127,7 +127,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1867,
         likes: 8091,
         content: "“LMAO WHO DID THIS” — me as a homicide detective",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1713241627555414016%2Fl3JKM2Fk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1713241627555414016%252Fl3JKM2Fk_bigger.jpg",
     },
     {
         url: "https://twitter.com/wesleysnipes/status/1003693142007091200",
@@ -135,8 +135,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 31255,
         likes: 108172,
         content: "For everyone that sends me this photo 300 times a day ... I SEENT IT!!! I SEENT IT! I SEENT IT! 😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDe3VlSkX0AAqX0R.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1382524154168020992%2FzZZbDV_M_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDe3VlSkX0AAqX0R.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1382524154168020992%252FzZZbDV_M_bigger.jpg",
     },
     {
         url: "https://twitter.com/RandBallsStu/status/1003817212283686914",
@@ -144,8 +144,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 37817,
         likes: 125758,
         content: "Paragraph 1: ok\nParagraph 2: ok\nParagraph 3: wait\nParagraph 4: OH\nParagraph 5: \\*airplane flies overhead with a banner reading WELCOME TO HELL MOM\\*",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDe5FfoNVQAAguZc.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1616527357946331156%2FI5gT7MVf_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDe5FfoNVQAAguZc.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1616527357946331156%252FI5gT7MVf_bigger.jpg",
     },
     {
         url: "https://twitter.com/Darnn/status/1003935966443311104",
@@ -153,7 +153,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4870,
         likes: 17889,
         content: "chillin' out, maxin', relaxin' all cool\ni was shooting some b-ball outside of the school\nwhen a couple of roads that were up to no good\nstarted to diverge in a yellow wood",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1083081218898493440%2F-F9RVM8y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1083081218898493440%252F-F9RVM8y_bigger.jpg",
     },
     {
         url: "https://twitter.com/dubstep4dads/status/1004441995681468416",
@@ -161,7 +161,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6107,
         likes: 35242,
         content: "if ur friend falls asleep a fun prank is to put his hand in a bucket of warm monster energy so he has dreams about riding dirtbikes and fighting his stepdad",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3737013477%2F8a3fed4bd60ab1d4fdfcd4a0fb38a8d5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3737013477%252F8a3fed4bd60ab1d4fdfcd4a0fb38a8d5_bigger.gif",
     },
     {
         url: "https://twitter.com/badkuthi69/status/1005965433239949312",
@@ -169,8 +169,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1405,
         likes: 10929,
         content: "the arcade fire show is packed",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDfXoOVIXUAAvKq6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1495168883971526657%2FTbl3liwi_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDfXoOVIXUAAvKq6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495168883971526657%252FTbl3liwi_bigger.jpg",
     },
     {
         url: "https://twitter.com/no1border/status/1006256763014995973",
@@ -178,7 +178,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35759,
         likes: 130654,
         content: "So grandad was at a sportsman’s dinner and bought a 10ft X 4ft picture of the forth rail bridge. Seemingly he forgot he could just open da blinds 🤣🤣 granny not happy with him 🤦‍♂️😂😂",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1404346399437770758%2FqjSdoZfk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1404346399437770758%252FqjSdoZfk_bigger.jpg",
     },
     {
         url: "https://twitter.com/cULTMOTHER/status/1006268705263800320",
@@ -186,7 +186,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 106189,
         likes: 462471,
         content: "told my boyfriend I was going to start my period and he said, \"AGAIN??\"\n\nit's like, you know what, you're right, I'm cancelling my subscription.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1428949223807102983%2FIJRCAR_V_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1428949223807102983%252FIJRCAR_V_bigger.jpg",
     },
     {
         url: "https://twitter.com/LRonMexico/status/1006285198164717568",
@@ -194,8 +194,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4288,
         likes: 21307,
         content: "Pitbull insinuating he died of alcohol poisoning from his own vodka brand and came back as a beach dog is exactly what I needed to get through this day",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDfXaPEvVQAAcR_G.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649214674288754689%2FporD1zof_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDfXaPEvVQAAcR_G.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649214674288754689%252FporD1zof_bigger.jpg",
     },
     {
         url: "https://twitter.com/youngcogan/status/1006298676950654986",
@@ -203,8 +203,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1779,
         likes: 6241,
         content: "i think im having a stroke",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDfcXT5pX0AA6j8k.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1496560475022278662%2FQzMFyHe-_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDfcXT5pX0AA6j8k.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496560475022278662%252FQzMFyHe-_bigger.jpg",
     },
     {
         url: "https://twitter.com/jakecurrie/status/1006520863661985794",
@@ -212,8 +212,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9637,
         likes: 51106,
         content: "so they just have a fuckload of spiders",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDffhYskXUAIzgDS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F525020971569119233%2FqX-01mFR_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDffhYskXUAIzgDS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F525020971569119233%252FqX-01mFR_bigger.jpeg",
     },
     {
         url: "https://twitter.com/KimKardashian/status/1006691477471125504",
@@ -221,7 +221,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2919,
         likes: 35853,
         content: "I had a very good convo with @jack this weekend at Kanye’s bday and I think he really heard me out on the edit button.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1589659852271280128%2FKhrL02UB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589659852271280128%252FKhrL02UB_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheCheish/status/1006992933890023424",
@@ -229,7 +229,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 72095,
         likes: 301325,
         content: "Mother: can you please fix my computer \n\nMe: \\*leans back in chair\\* well... well ... well ... if it isn’t Miss ‘Get Off That Computer’ Years 1994 to 2006",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1197050943373815808%2FioR5FerY_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1197050943373815808%252FioR5FerY_bigger.jpg",
     },
     {
         url: "https://twitter.com/notacroc/status/1007666819061174273",
@@ -237,7 +237,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6099,
         likes: 29128,
         content: "Waiter: and for you?\n\nMe: \\*after rehearsing in my head for 15 minutes\\* the chimney changas",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F925875391947882496%2FqMYwlxPQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925875391947882496%252FqMYwlxPQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/gldivittorio/status/1008519430631034881",
@@ -245,7 +245,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3183,
         likes: 28906,
         content: "My therapist asked me to identify some habitual coping mechanisms I use during depressive episodes and I had to look this woman in the eye and tell her that when I get really sad my first instinct is to make fun of Elon Musk",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1612665728896827393%2Fsh8AqIsu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1612665728896827393%252Fsh8AqIsu_bigger.jpg",
     },
     {
         url: "https://twitter.com/garbii93/status/1008920070893047808",
@@ -253,7 +253,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7241,
         likes: 27689,
         content: "Jesus: h-\nPontius Pilate:",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F854799819105345537%2FEhmyxiZK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F854799819105345537%252FEhmyxiZK_bigger.jpg",
     },
     {
         url: "https://twitter.com/ChickenColeman/status/1008946607641907200",
@@ -261,7 +261,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14888,
         likes: 90715,
         content: "this fine ass lady was standing behind me at the atm so i took out $400 instead of $20 so tomorrow i’m putting $380 back when my bank open. smh",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715952259799130112%2FFSPdpni-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715952259799130112%252FFSPdpni-_bigger.jpg",
     },
     {
         url: "https://twitter.com/jessehawken/status/1009271740571283456",
@@ -269,7 +269,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51196,
         likes: 164081,
         content: "2016: \"Come on, you're talking like Trump's going to put people in concentration camps\"\n\n2018: \"First of all, I think it's offensive that you refer to them as 'concentration camps'\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F559505710107459584%2FmG8rNZEr_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F559505710107459584%252FmG8rNZEr_bigger.jpeg",
     },
     {
         url: "https://twitter.com/courtenlow/status/1009475001509203971",
@@ -277,7 +277,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 881,
         likes: 3140,
         content: "It's no longer \"It's 5 o'clock somewhere\" it's now \"it's 2018 everywhere\" start drinking whatever time you want.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1393154117753769986%2Fc9Kl1Dzc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1393154117753769986%252Fc9Kl1Dzc_bigger.jpg",
     },
     {
         url: "https://twitter.com/aparnapkin/status/1009519971423043584",
@@ -285,7 +285,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2888,
         likes: 16457,
         content: "The Statue of Liberty should replace her torch with a gaslight until further notice",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557082422788997121%2FlTCsPchv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
         url: "https://twitter.com/kpfeffss/status/1010079699479871490",
@@ -293,7 +293,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 66879,
         likes: 531621,
         content: "I took an uber alone at 2am and when I got out my uber driver was like “have fun, get that dick!” and I said “hell yes thank you!!” because I didn’t have the heart to tell her I was being dropped at my moms house cause we have to wake up early to celebrate my dogs birthday",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1304947085859454977%2F1K7YLLqF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304947085859454977%252F1K7YLLqF_bigger.jpg",
     },
     {
         url: "https://twitter.com/GrantBrisbee/status/1010240159642578944",
@@ -301,7 +301,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3480,
         likes: 16029,
         content: "ME, AGE 20: Ha ha, I like the riffs, but these Rage Against the Machine lyrics are kind of corny. \n\nME, AGE 40 (at a cocktail party): You know, some of those who work forces are actually, no joke, the same who burn crosses.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1223524134631534592%2FP21_dygc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1223524134631534592%252FP21_dygc_bigger.jpg",
     },
     {
         url: "https://twitter.com/riplimewire/status/1011377618980139009",
@@ -309,7 +309,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7226,
         likes: 43749,
         content: "dreamt I went on twitter and saw a random person post a picture of me with the caption “God just be making anybody 😩😩😩😩”  and it had 200k likes",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1735328771782172672%2Fg2kE9AP0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735328771782172672%252Fg2kE9AP0_bigger.jpg",
     },
     {
         url: "https://twitter.com/AbbieEvansXO/status/1011703318752657408",
@@ -317,7 +317,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15994,
         likes: 86336,
         content: "Date: I love car chase action scenes\n\nMe, a fruit stand vendor: I think we're done here",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F767475161620701188%2F-VYkYPEq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F767475161620701188%252F-VYkYPEq_bigger.jpg",
     },
     {
         url: "https://twitter.com/Kaneryyy/status/1012038043816153090",
@@ -325,8 +325,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 101441,
         likes: 265855,
         content: "2009: \"As Twitter grows, it will increasingly become a place where companies build brands, do research, send information to customers, conduct e-commerce and create communities for their users.\" - Time\n\n2018:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDgt7KITUwAA2kGq.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1727472505844015104%2FhPt-EMsf_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDgt7KITUwAA2kGq.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727472505844015104%252FhPt-EMsf_bigger.jpg",
     },
     {
         url: "https://twitter.com/KarenKilgariff/status/1012429065981054977",
@@ -334,7 +334,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8774,
         likes: 57718,
         content: "once at a party I was stuck in a boring group conversation then I remembered I had a banana in my purse so I pulled it out answered it like a phone and said “Sorry guys I have to take this” and walked away we are the masters of our own fate",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839755301767151617%2FRlpQkbi4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
         url: "https://twitter.com/guaph/status/1012774091944812545",
@@ -342,8 +342,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2320,
         likes: 23850,
         content: "sadly it's not. they really do call the hospital for white people the mayo clinic",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDg4Hu0SWAAAAf4p.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585300361157480448%2FNev2SCi3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDg4Hu0SWAAAAf4p.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585300361157480448%252FNev2SCi3_bigger.jpg",
     },
     {
         url: "https://twitter.com/Milenasanchezx/status/1013511444783140865",
@@ -351,7 +351,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2310,
         likes: 6567,
         content: "I just took a picture of my 3 year old and she said \n\n“Send it to me” \n\nTo👏🏽Where?👏🏽",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1434134591598702597%2FtP4A9hFn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1434134591598702597%252FtP4A9hFn_bigger.jpg",
     },
     {
         url: "https://twitter.com/westonhaney/status/1013865471614111744",
@@ -359,8 +359,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3325,
         likes: 17930,
         content: "Her: Honey, do you think I’m a good cook?\n\nMe: Is CHEP a Brambles company?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDhH5RJYWAAAhWZS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1614030137732861952%2FIiWbAPD7_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDhH5RJYWAAAhWZS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1614030137732861952%252FIiWbAPD7_bigger.jpg",
     },
     {
         url: "https://twitter.com/djolder/status/1013883582664855552",
@@ -368,7 +368,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 38,
         likes: 489,
         content: "Why do dogs feel the need to look you in the eye while they drop a deuce like what kinda serial killer shit is that",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730118851629551617%2F0ru6KXzI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730118851629551617%252F0ru6KXzI_bigger.jpg",
     },
     {
         url: "https://twitter.com/1followernodad/status/1013897659499728896",
@@ -376,7 +376,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 707,
         likes: 8452,
         content: "Sorry the guy you’re sleeping with won’t call himself your boyfriend but will call himself a content creator",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726076187133566976%2FFP9s_k8Z_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdamBroud/status/1014183979618988032",
@@ -384,7 +384,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13730,
         likes: 76650,
         content: "[Disney Pitch Meeting]\n\nWriter: So kids love puppies\n\nExec: Haha true\n\nWriter: This movie is about skinning alive 101 of them\n\nExec: First off, it's perfect",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1635315795877318657%2FUxtTNsCV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635315795877318657%252FUxtTNsCV_bigger.jpg",
     },
     {
         url: "https://twitter.com/claire_clara_/status/1014451832557535232",
@@ -392,8 +392,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10760,
         likes: 50852,
         content: "Wondered why the car blowers didn't seem very effective then realised half of them were set to 'email' instead of 'bacon'.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDhQOjSwWkAE0_Po.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1488616771481485319%2FsuPNfc2C_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDhQOjSwWkAE0_Po.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1488616771481485319%252FsuPNfc2C_bigger.jpg",
     },
     {
         url: "https://twitter.com/dayonnethedon/status/1014522790505058304",
@@ -401,7 +401,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1730,
         likes: 5298,
         content: "Listen to how @stephenasmith pronounces the word “memes” 😂",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1616986121698770944%2F7abwxGco_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1616986121698770944%252F7abwxGco_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/1014914558031376385",
@@ -409,7 +409,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 164,
         likes: 2889,
         content: "i love having a body because it's like one of those play doh extruders where you put salad in and get free hair out",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/JustAboutGlad/status/1014921299213344768",
@@ -417,7 +417,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18,
         likes: 195,
         content: "Say this in bed if you really want to drive him WILD: \"I listened to your podcast\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715583173495832576%2F6pEZijv9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715583173495832576%252F6pEZijv9_bigger.jpg",
     },
     {
         url: "https://twitter.com/modernxmike/status/1015039437393223680",
@@ -425,7 +425,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3122,
         likes: 15974,
         content: "I didn’t realize until today that “Weird” Al was a parody of normal (“Norm” Al). I’m 31 years old.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F707011153814102016%2FUOTiXsag_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F707011153814102016%252FUOTiXsag_bigger.jpg",
     },
     {
         url: "https://twitter.com/MichaelShindler/status/1015312217569480706",
@@ -433,7 +433,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1867,
         likes: 15144,
         content: "You: \\*owns the libs\\*\nMe, a MILLENNIAL: \\*rents the libs\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1620307189205196800%2FPFYVJA3H_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620307189205196800%252FPFYVJA3H_bigger.jpg",
     },
     {
         url: "https://twitter.com/jodecicry/status/1015718409626161152",
@@ -441,7 +441,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 269,
         likes: 2244,
         content: "Jenny Holzer just a feminist Dril there I said it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1538494061165916161%2FDQk60tn3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538494061165916161%252FDQk60tn3_bigger.jpg",
     },
     {
         url: "https://twitter.com/bigjalenciaga/status/1016701635484057600",
@@ -449,7 +449,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 105084,
         likes: 379079,
         content: "My future husband is probably fake laughing at his girlfriend’s lame ass jokes rn. Be patient King, a true clown is on the way.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1728059763626225664%2FH2M82L0k_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728059763626225664%252FH2M82L0k_bigger.jpg",
     },
     {
         url: "https://twitter.com/KylePlantEmoji/status/1016764092118269952",
@@ -457,7 +457,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6517,
         likes: 36495,
         content: "FRIEND: my gf has got legs for days\n\nME: [astonished whisper] night mermaid",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444206738970906624%2Fc-UeeQJr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
         url: "https://twitter.com/RedDlicious/status/1016838837279035393",
@@ -465,7 +465,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15527,
         likes: 86207,
         content: "The dick vein on a Snickers really makes it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1170108947249995782%2FZcQ0YNa6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1170108947249995782%252FZcQ0YNa6_bigger.jpg",
     },
     {
         url: "https://twitter.com/ClickHole/status/1017074807635136512",
@@ -473,8 +473,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3032,
         likes: 10472,
         content: "Hardcore Gamers Only: ‘Overwatch’ Is Increasing Its Difficulty By Adding A Senior-Citizen Character That’s A Financial Drain And Emotional Burden On Their Whole Team clckhl.co/FO7Vuqs",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDh1gJaaW4AEK_mW.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531984552566177799%2FiclKv7Y0_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDh1gJaaW4AEK_mW.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531984552566177799%252FiclKv7Y0_bigger.jpg",
     },
     {
         url: "https://twitter.com/piersmorgan/status/1017141762547167232",
@@ -482,7 +482,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1715,
         likes: 8997,
         content: "FUCK.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1665249352938389505%2FowNJOcYL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665249352938389505%252FowNJOcYL_bigger.jpg",
     },
     {
         url: "https://twitter.com/cottoncandaddy/status/1017357644313423873",
@@ -490,7 +490,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 47503,
         likes: 219329,
         content: "white ppl will feel unsafe walking by a black man on the sidewalk but will literally try to talk to the devil through a ouija board",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1325933597438586880%2FamQVzDkm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325933597438586880%252FamQVzDkm_bigger.jpg",
     },
     {
         url: "https://twitter.com/ryanfuckett/status/1017552101814173696",
@@ -498,8 +498,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52212,
         likes: 133993,
         content: "gn",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDh8SPP_VAAAJEc8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1116319041759731714%2F8hVKUYRt_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDh8SPP_VAAAJEc8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1116319041759731714%252F8hVKUYRt_bigger.jpg",
     },
     {
         url: "https://twitter.com/EricaFails/status/1017605626904698880",
@@ -507,8 +507,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 628,
         likes: 2397,
         content: "WHO USED THE MONKEY PAW TO ASK FOR A PAIR OF WOMEN'S PANTS WITH POCKETS",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDhzbU64UYAABwDm.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1561572498826792960%2FzN0sP0sN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDhzbU64UYAABwDm.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561572498826792960%252FzN0sP0sN_bigger.jpg",
     },
     {
         url: "https://twitter.com/_Monta_/status/1017623664123109377",
@@ -516,7 +516,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8028,
         likes: 23619,
         content: "If I shoot my shot and you tell me you have a man...Imma tell my homegirl to get in his inbox to see if he feels the same way",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734211320944132096%2FC6XMJeAW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734211320944132096%252FC6XMJeAW_bigger.jpg",
     },
     {
         url: "https://twitter.com/DungeonsDonald/status/1017801791558152192",
@@ -524,8 +524,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 540,
         likes: 1618,
         content: "#TrumpBabyBlimp #dnd",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDh_1VCmV4AACmyB.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F732305619231727616%2FzzGu7xjm_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDh_1VCmV4AACmyB.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F732305619231727616%252FzzGu7xjm_bigger.jpg",
     },
     {
         url: "https://twitter.com/johnlegend/status/1017857271999578112",
@@ -533,7 +533,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3213,
         likes: 38620,
         content: "The president wakes up every morning, gets dressed, looks in the mirror at his scrotum-level tie length and says, \"Perfect!\" That will never not bother me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719868718707355648%2FyNuFYFqX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719868718707355648%252FyNuFYFqX_bigger.jpg",
     },
     {
         url: "https://twitter.com/electrolemon/status/1017903696401727489",
@@ -541,7 +541,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2177,
         likes: 17766,
         content: "it is embarrassing as fuck that russia's disinformation campaign against america is bolstered by someone who uses the name \"guccifer.\" as in a portmanteau of \"gucci\" and \"lucifer.\" this is like if jfk was assassinated by someone named \"xX_bong_jamez_bong_Xx\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/alshipley/status/1018110911482138624",
@@ -549,7 +549,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2323,
         likes: 21724,
         content: "i was trying to remember what the site 'dropbox' was called this morning and all i could come up with for about 5 minutes was 'da share zone'",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1712572257535467520%2F7z5NZ-ha_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712572257535467520%252F7z5NZ-ha_bigger.jpg",
     },
     {
         url: "https://twitter.com/Halalcoholism/status/1018150375155617792",
@@ -557,7 +557,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 495,
         likes: 2517,
         content: "|￣￣￣￣￣￣￣￣￣￣￣￣|\n     RABBITS DONT HAVE\n    OPPOSABLE THUMBS.\n     I DONT CARE IF THIS\n  MEME IS CUTE, IT RESTS\n      ON AN INHERENTLY \n        FLAWED PREMISE.\n|＿＿＿＿＿＿＿＿＿＿＿＿| \n             (\\__/)    ||\n             (•ㅅ•)   ||\n            /  づ",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F811012915859890176%2FEh3qPzb3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F811012915859890176%252FEh3qPzb3_bigger.jpg",
     },
     {
         url: "https://twitter.com/PostMalone/status/1018731670474670080",
@@ -565,7 +565,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 55922,
         likes: 207649,
         content: "is meatball an fruit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1646336437690802177%2FxVL6iZOR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1646336437690802177%252FxVL6iZOR_bigger.jpg",
     },
     {
         url: "https://twitter.com/jennifermerr/status/1020019959596965888",
@@ -573,7 +573,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1057,
         likes: 16696,
         content: "boys that follow me on twitter and then hook up with me despite knowing damn well that I’m gonna tweet about them are easily braver than the troops",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1123055541654130688%2F20jHniEn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1123055541654130688%252F20jHniEn_bigger.jpg",
     },
     {
         url: "https://twitter.com/poastsbymatt/status/1020390339235012608",
@@ -581,7 +581,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 153658,
         likes: 525054,
         content: "\\*using Ouija board\\*\n\n\"hello, is there anyone there\"\n\n\\*Y\\*\n\n\\*O\\*\n\n\\*U\\*\n\n\\*U\\*\n\n\\*U\\*\n\n\\*U\\*\n\n\"ah damnit this is a Soulja board\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1335974751240675329%2FcOOdUS7H_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1335974751240675329%252FcOOdUS7H_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewtoothpaste/status/1020629781753270272",
@@ -589,7 +589,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1653,
         likes: 9269,
         content: "regular person: I need more damn money. This shit sucks\ninternet commenter: Be frugal. Cook a large pot of beans and eat that for an entire week.\nrich person: I agree with the wise commenter. Also go to the doctor less please",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590769094382469120%2FoPUz9D_J_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
         url: "https://twitter.com/ntabebe/status/1022292630951092225",
@@ -597,7 +597,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 309,
         likes: 2743,
         content: "a great many cultural misreadings of Grimes appear to stem from the presumption that she is “goth.” wise old sages such as i can assure you that it all makes more sense when you grasp that she is INDUSTRIAL, which is totally different",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1696391341687648256%2FsuSW2KGs_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696391341687648256%252FsuSW2KGs_bigger.jpg",
     },
     {
         url: "https://twitter.com/Kristen_Arnett/status/1022631905089466369",
@@ -605,7 +605,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 111,
         likes: 622,
         content: "\\*tips hat at duck\\* mallardy",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1261154545448574977%2FezzjAD9N_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1261154545448574977%252FezzjAD9N_bigger.jpg",
     },
     {
         url: "https://twitter.com/itstae13/status/1023480297902370819",
@@ -613,7 +613,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 137130,
         likes: 487708,
         content: "Stop getting rid of your pets because they aren’t what you expected Clifford was literally the smallest puppy and turned out to be a 30 FOOT RED DOG AND EMILY ELIZABETH STILL MADE IT WORK",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1217599602053877760%2FuHDkuxlJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1217599602053877760%252FuHDkuxlJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/souljaboy/status/1023613348317810688",
@@ -621,7 +621,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 76653,
         likes: 282554,
         content: "Crank That Soulja Boy",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1727513129406607360%2Fpksu_awl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727513129406607360%252Fpksu_awl_bigger.jpg",
     },
     {
         url: "https://twitter.com/scumbelievable/status/1023707279487655938",
@@ -629,7 +629,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1816,
         likes: 6709,
         content: "my chupacabra don't\nmy chupacabra don't\nmy chupacabra don't want none unless you got goats, hon",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1623046958867787776%2F1KsvCkX3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1623046958867787776%252F1KsvCkX3_bigger.jpg",
     },
     {
         url: "https://twitter.com/quendergeer/status/1024216954683490304",
@@ -637,7 +637,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1182,
         likes: 4224,
         content: "Will i understand the DSM-V if I haven't seen the first four",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1568892935093063687%2FItqwaQ9b_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1568892935093063687%252FItqwaQ9b_bigger.jpg",
     },
     {
         url: "https://twitter.com/alyssalimp/status/1024291542666756096",
@@ -645,8 +645,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15544,
         likes: 127151,
         content: "me making sure the barista sees me put money in the tip jar",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDjcDui9XcAADG-l.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F916469867880075265%2Fd9cC1LlQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDjcDui9XcAADG-l.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F916469867880075265%252Fd9cC1LlQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/gogglepossum/status/1025043000471302144",
@@ -654,8 +654,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14807,
         likes: 65429,
         content: "Sad to see the remaining members for daft punk hunted for sport",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDjmvJL3WsAA-h4d.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F933349354810822657%2FmcICHb24_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDjmvJL3WsAA-h4d.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F933349354810822657%252FmcICHb24_bigger.jpg",
     },
     {
         url: "https://twitter.com/iDoraemoe/status/1025233186014412800",
@@ -663,8 +663,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6060,
         likes: 13974,
         content: "猫🐱发现负鼠在吃自己的食物",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDjpcIqRUUAAQaaI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F872462414423367680%2FmOjqfTZS_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDjpcIqRUUAAQaaI.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F872462414423367680%252FmOjqfTZS_bigger.jpg",
     },
     {
         url: "https://twitter.com/christapeterso/status/1025460729032237056",
@@ -672,7 +672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 368,
         likes: 2913,
         content: "A butthole dr my sister interned for thinks anal fissures are getting more common bc because people are texting and stuff on the toilet and so trying too hard is tearing their butts. If you are suffering from posters' butthole go to the doctor but also stop tweeting on the pot",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1636596486388744198%2FbxBLhhgI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1636596486388744198%252FbxBLhhgI_bigger.jpg",
     },
     {
         url: "https://twitter.com/LowArctic/status/1025503513026195457",
@@ -680,7 +680,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1846,
         likes: 11627,
         content: "Queer Eye but it’s five Native elders trying to convince a New Age hippie spiritualist that their practice is entirely fake",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1290173001330130944%2FeDowcvJk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1290173001330130944%252FeDowcvJk_bigger.jpg",
     },
     {
         url: "https://twitter.com/yucktales/status/1028287672849244160",
@@ -688,8 +688,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1352,
         likes: 7176,
         content: "the two genders",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDkU2L8xX4AA-2cK.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1732454214352162816%2FsF-xmxmX_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDkU2L8xX4AA-2cK.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1732454214352162816%252FsF-xmxmX_bigger.jpg",
     },
     {
         url: "https://twitter.com/aparnapkin/status/1028488930780315649",
@@ -697,7 +697,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2412,
         likes: 21521,
         content: "I wonder if spiders stop halfway through a web like \"ugh will i ever be inspired again i'm a hack\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557082422788997121%2FlTCsPchv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
         url: "https://twitter.com/ausmazehanat/status/1028819442099269632",
@@ -705,8 +705,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5979,
         likes: 27998,
         content: "Guys, this is my brother's barbecue pit.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDkcZ03iXsAAfsxC.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1496559580721168397%2Fi5ir2RLK_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDkcZ03iXsAAfsxC.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496559580721168397%252Fi5ir2RLK_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsDanSheehan/status/1029181667296985088",
@@ -714,7 +714,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4874,
         likes: 33221,
         content: "Gen Xer: I miss Crystal Pepsi, the silly clear soda\n\nMillennial: I miss Four Loko, the drink made of devil's blood that almost killed my friend Brad",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649502618123927553%2FJ4ZFkyoQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/mushroomhaus/status/1030550049888120833",
@@ -722,8 +722,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17638,
         likes: 51048,
         content: "Can't drink the sarcophagus juice, can't eat the tomb cheese, what even is the point of archaeology",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDkyUNigVsAAnjfM.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1378824626919313410%2Faox_N6Vx_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDkyUNigVsAAnjfM.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1378824626919313410%252Faox_N6Vx_bigger.png",
     },
     {
         url: "https://twitter.com/The_Law_Boy/status/1030583248114642946",
@@ -731,7 +731,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11449,
         likes: 52427,
         content: "[Plato returns from the dead]\n\nPlato: so who's that girl, are you together?\nMe: nah, it's purely platonic.\nPlato: ...what does platonic mean?\nMe: it means we don't have sex.\nPlato: what the fuck",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1029746079846354944%2F2NWE7cEG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1029746079846354944%252F2NWE7cEG_bigger.jpg",
     },
     {
         url: "https://twitter.com/ashleyfeinberg/status/1031301138006659073",
@@ -739,7 +739,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 127,
         likes: 1430,
         content: "CAN WE GET THE SPECIAL COUNSEL TO FIGURE OUT WHY LENA DUNHAM’S PETS KEEP DYING AND WHO KEEPS GIVING HER MORE PETS",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F829782486955782148%2FvMthq5x2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F829782486955782148%252FvMthq5x2_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaboukie/status/1031364823966085120",
@@ -747,7 +747,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 720,
         likes: 10688,
         content: "sister mary jo let me argue “i wish i was aborted so i could’ve gone straight to heaven” in a theology class debate without giving me a detention and shes had my undying respect since",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649264177876459522%2FAUhQZoPc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
         url: "https://twitter.com/anildash/status/1031533689388376064",
@@ -755,7 +755,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15440,
         likes: 68431,
         content: "when I find myself in times of trouble\nbrother Mario comes to me\nspeaking words of wisdom \"it's a me\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1629958424397053954%2FIrihp2SV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1629958424397053954%252FIrihp2SV_bigger.jpg",
     },
     {
         url: "https://twitter.com/emptywheel/status/1031646577503424512",
@@ -763,7 +763,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 265,
         likes: 911,
         content: "Wow. Scott Pruitt's outgoing calls are almost as expensive as Donald Trump's extramarital sex.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1773870183%2Fimage1327265832_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1773870183%252Fimage1327265832_bigger.png",
     },
     {
         url: "https://twitter.com/father/status/1031664257253826560",
@@ -771,7 +771,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 342,
         likes: 1796,
         content: "enough twitter, about to go get deadbeat dad wasted",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736248939416809472%2FpBVf0mg-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736248939416809472%252FpBVf0mg-_bigger.jpg",
     },
     {
         url: "https://twitter.com/blakegriffin23/status/103195046920204288",
@@ -779,7 +779,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23864,
         likes: 54908,
         content: "Accidentally hit a squirrel yesterday in my car. Feel so guilty I could barely sleep. Casey Anthony is a monster.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F679451601124249600%2FHY1mTQnm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F679451601124249600%252FHY1mTQnm_bigger.jpg",
     },
     {
         url: "https://twitter.com/martynreding/status/1031967172401225728",
@@ -787,8 +787,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35461,
         likes: 69851,
         content: "When the design team loses a debate with the legal team.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDlJIq1_XsAEyo_m.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1635386827552047107%2FCVchUip8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDlJIq1_XsAEyo_m.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635386827552047107%252FCVchUip8_bigger.jpg",
     },
     {
         url: "https://twitter.com/hannahhhhxoxo/status/1032152165467521024",
@@ -796,8 +796,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 167842,
         likes: 730034,
         content: "i just convinced a tinder boy we had the same number so i didnt have to text him",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDlLw42EU4AADDqH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1500210443398303753%2FHxV4lYZC_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDlLw42EU4AADDqH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500210443398303753%252FHxV4lYZC_bigger.jpg",
     },
     {
         url: "https://twitter.com/johnistoasted/status/1032339281988276224",
@@ -805,8 +805,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 302,
         likes: 2376,
         content: "This truck just tried to sell me weed",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDlObFzWX0AAi9VA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1555923859638976512%2FZtvTwwLF_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDlObFzWX0AAi9VA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1555923859638976512%252FZtvTwwLF_bigger.jpg",
     },
     {
         url: "https://twitter.com/hannahhhhxoxo/status/1032454030365261825",
@@ -814,8 +814,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2259,
         likes: 41706,
         content: "update for yall who didnt think he believed me",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDlQDdyQUwAAM7d1.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1500210443398303753%2FHxV4lYZC_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDlQDdyQUwAAM7d1.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500210443398303753%252FHxV4lYZC_bigger.jpg",
     },
     {
         url: "https://twitter.com/chuchugoogoo/status/1032827658281857025",
@@ -823,8 +823,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30,
         likes: 282,
         content: "when you do your homework and nail the interview",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDlVXRexXoAA34vi.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1436489363018354688%2FQ1Da5Kgq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDlVXRexXoAA34vi.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1436489363018354688%252FQ1Da5Kgq_bigger.jpg",
     },
     {
         url: "https://twitter.com/PleaseBeGneiss/status/1033010780352929792",
@@ -832,7 +832,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 32645,
         likes: 157530,
         content: "[restaurant]\n\nRACCOON (in trench coat): one egg\n\nWAITER: one egg? \\*suspicious\\* you’re not from around here, are you?\n\nRACCOON: t-two eggs?\n\nWAITER: ah yes, that’s a normal quantity of eggs\n\nRACCOON: \\*excitedly\\* five eggs!\n\nWAITER: \\*eyes narrow\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1565491884872544261%2F8-gEqo1s_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565491884872544261%252F8-gEqo1s_bigger.jpg",
     },
     {
         url: "https://twitter.com/OctopusCaveman/status/1033578911697784832",
@@ -840,7 +840,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 129608,
         likes: 672238,
         content: "My 5 year old son just asked “what if we put a slice of turkey in the DVD player and it played a movie about the turkey’s whole life” and none of the parenting books I’ve read have prepared me for this question.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675955181610217478%2FhRvDhMYv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675955181610217478%252FhRvDhMYv_bigger.jpg",
     },
     {
         url: "https://twitter.com/flatpepsimax/status/1033699646676328450",
@@ -848,7 +848,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13476,
         likes: 58138,
         content: "\"i will face god and walk backwards into hell\" is a dril quote that people keep mistaking for serious literature but \"that's how it is on this bitch of an earth\" is a fucking beckett line that i consistently keep thinking is dril",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1732343498748149760%2Fy97V3LkA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1732343498748149760%252Fy97V3LkA_bigger.jpg",
     },
     {
         url: "https://twitter.com/ProjectENDO/status/1033900957954965504",
@@ -856,8 +856,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19890,
         likes: 46048,
         content: "I have one minute of free time a day and this is how I choose to spend it",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDlknVTQXsAAt73Y.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1505682056986038274%2FuKx-ueVN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDlknVTQXsAAt73Y.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1505682056986038274%252FuKx-ueVN_bigger.jpg",
     },
     {
         url: "https://twitter.com/sm_osment/status/1034165534131212289",
@@ -865,7 +865,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 56896,
         likes: 312193,
         content: "today i asked my class to come up with a pair of terms that share a denotative meaning but whose connotative meanings differ and one student offered BUTT DIAL and BOOTY CALL anyway that student's the professor now",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1614790166664585216%2F6e-H5Okv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1614790166664585216%252F6e-H5Okv_bigger.jpg",
     },
     {
         url: "https://twitter.com/Shen_the_Bird/status/1035653429681631232",
@@ -873,7 +873,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 592,
         likes: 3258,
         content: "[clumsily rollerblades in] alright this is a robbery",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125628501233631233%2FpVeG9nac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdamL1226/status/1037075067090296832",
@@ -881,7 +881,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 22024,
         likes: 166609,
         content: "White people love saying “oh that was terrible” after throwing a frisbee",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531061496637169665%2Fptk4OKBy_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531061496637169665%252Fptk4OKBy_bigger.jpg",
     },
     {
         url: "https://twitter.com/jerrykuch/status/1037520671331340288",
@@ -889,8 +889,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4,
         likes: 18,
         content: "Words fail.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDmYDiwwUUAAvBtz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F52471641%2FClem-Looks-Surly_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDmYDiwwUUAAvBtz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F52471641%252FClem-Looks-Surly_bigger.jpg",
     },
     {
         url: "https://twitter.com/LoserCrew/status/1039294149667770368",
@@ -898,7 +898,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 164981,
         likes: 693022,
         content: "I fucking love toast, what absolute genius took a bite of bread and was like \"cook it again\", unreal",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430256350039351302%2Fq8n4wBCt_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430256350039351302%252Fq8n4wBCt_bigger.jpg",
     },
     {
         url: "https://twitter.com/erikiri_/status/1039564040249458688",
@@ -906,7 +906,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13427,
         likes: 50832,
         content: "yall ever think about how your fingers are slowly 3D printing your nails",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717798246880366592%2FVsYqljI6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717798246880366592%252FVsYqljI6_bigger.jpg",
     },
     {
         url: "https://twitter.com/curledbitch/status/1039706681670660096",
@@ -914,7 +914,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 185120,
         likes: 546434,
         content: "THIS SHIT MAKES ME LAUGH SO FUCKING MUCH",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1272475841616728064%2FHH9wyFlU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1272475841616728064%252FHH9wyFlU_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephemcneal/status/1040297065916653569",
@@ -922,8 +922,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28,
         likes: 163,
         content: "Today in mommy blogger instagram: Katie Bower says she didnt realize people were in the buildings and died until a year(!!!!!) after 9/11???",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDm_gqUPWwAcbTgf.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1625837849277857798%2FlwBUpISb_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDm_gqUPWwAcbTgf.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625837849277857798%252FlwBUpISb_bigger.jpg",
     },
     {
         url: "https://twitter.com/Travon/status/1040356386293465088",
@@ -931,7 +931,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10937,
         likes: 69590,
         content: "I hope they cast a black Superman. It would nice for a brotha to finally be faster than a speeding bullet.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1665532931694280707%2FOsYsxcRu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665532931694280707%252FOsYsxcRu_bigger.jpg",
     },
     {
         url: "https://twitter.com/sogodly_/status/1040707430072705025",
@@ -939,7 +939,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 112,
         likes: 347,
         content: "So you tryna tell me Noah took too 2 bed bug, 2 mosquitos and 2 roaches and threw them in the Ark",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655656911654494212%2FRudcpYTV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655656911654494212%252FRudcpYTV_bigger.jpg",
     },
     {
         url: "https://twitter.com/rhymeswithbeg/status/1041417370617741312",
@@ -947,7 +947,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5309,
         likes: 39646,
         content: "Me: what’s the wifi password\n\nMy mom:",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1178486895246024704%2FvELkCqbw_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1178486895246024704%252FvELkCqbw_bigger.jpg",
     },
     {
         url: "https://twitter.com/saramvalentine/status/1042111571693129728",
@@ -955,7 +955,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46116,
         likes: 188899,
         content: "Everyone hates millennials until it’s time to convert a PDF into a Word document",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1648372973605208094%2FNt0DXL7c_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1648372973605208094%252FNt0DXL7c_bigger.jpg",
     },
     {
         url: "https://twitter.com/electrolemon/status/1043183150216765440",
@@ -963,7 +963,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14848,
         likes: 40806,
         content: "piped.video/CG7YHFT4hjw",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/jaboukie/status/1043313489647788033",
@@ -971,7 +971,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 558,
         likes: 6100,
         content: "remember when you would go to mcdonalds and fill your cup with every flavor and that shit used to bang... someone thousands of years ago did that with spices and made curry... ugh their fucking mind, i stan",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649264177876459522%2FAUhQZoPc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
         url: "https://twitter.com/jonnysun/status/1044044609536630784",
@@ -979,7 +979,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 94,
         likes: 1073,
         content: "when the kool aid man says “oh yeah!”, why does the kool aid not spill out his mouth? does that mean the kool aid is not actually inside him, but contained exterior of his glass body? does that make his insides solid glass? does he hold kool aid bc he longs to drink but never can",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1314628602198028289%2FZbkd7FYQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314628602198028289%252FZbkd7FYQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/anoticingsenpa1/status/1044309743181778946",
@@ -987,7 +987,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 871,
         likes: 2957,
         content: "I poured root beer into a square glass to make beer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1541244834454945794%2FEoXS7WJd_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1541244834454945794%252FEoXS7WJd_bigger.jpg",
     },
     {
         url: "https://twitter.com/_lildubois/status/1045907408474664961",
@@ -995,7 +995,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 126662,
         likes: 281673,
         content: "well, well, well, if it isn't the consequences of my own actions",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1731839909101707264%2FTZP0f7VF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731839909101707264%252FTZP0f7VF_bigger.jpg",
     },
     {
         url: "https://twitter.com/tiemoose/status/1046750567647842304",
@@ -1003,7 +1003,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57576,
         likes: 221954,
         content: "[Dracula giving his son \"the talk\"]\n\nDracula: you see when two monsters love each other very much, they-\n\nDracula's son: they do the mash\n\nDracula: \\*nodding\\* they do the monster mash",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1300190139591909376%2FPHruJucY_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1300190139591909376%252FPHruJucY_bigger.jpg",
     },
     {
         url: "https://twitter.com/david_j_roth/status/1046981260260855817",
@@ -1011,7 +1011,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 983,
         likes: 7975,
         content: "DAVID LETTERMAN: /rapping stack of notecards on his desk  The Curvy Wife Guy. Paul, you know about the Curvy Wife Guy? \nPAUL SHAFFER: Ha ha ha\nLETTERMAN: The Curvy Wife Guy\n/Band plays four bars of Commodores' \"Brick House\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1224136390415437825%2FDe8p8pCJ_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1224136390415437825%252FDe8p8pCJ_bigger.png",
     },
     {
         url: "https://twitter.com/featuresjourno/status/1048711036067618816",
@@ -1019,8 +1019,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5366,
         likes: 20665,
         content: "And this, despite the trolls, is why I love Twitter",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDo3FIDsXUAADPAa.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1290600291746877441%2FA7XWg0yW_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDo3FIDsXUAADPAa.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1290600291746877441%252FA7XWg0yW_bigger.jpg",
     },
     {
         url: "https://twitter.com/GuyLodge/status/1049615673482194945",
@@ -1028,8 +1028,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 508,
         likes: 3728,
         content: "RECALL ME BY YOUR NAME, guys, this is pathetically easy.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDpAU-XKW0AEx6c1.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1514896420565884936%2FcOP_t966_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDpAU-XKW0AEx6c1.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1514896420565884936%252FcOP_t966_bigger.jpg",
     },
     {
         url: "https://twitter.com/samir/status/1049755320501903360",
@@ -1037,7 +1037,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 884,
         likes: 6113,
         content: "horse:  is ur name liam\n\nliam neeson: yea?\n\nhorse: lol i know u we worked together on a different movie\n\nliam neeson: does anybody else hear this horse talking to me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F791645957431648256%2F1rzMcwxX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F791645957431648256%252F1rzMcwxX_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/1049777148611817472",
@@ -1045,7 +1045,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 631,
         likes: 8220,
         content: "It's annoying that world is going to end RIGHT as I've become hot",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/imbobswaget/status/1049887962723479553",
@@ -1053,8 +1053,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 239,
         likes: 1297,
         content: "it’s my house crest",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDpHziDxW4AMGmJg.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874855064820645888%2FwGWTk6gJ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDpHziDxW4AMGmJg.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874855064820645888%252FwGWTk6gJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/SICKOFWOLVES/status/1051866645390606336",
@@ -1062,7 +1062,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7341,
         likes: 27829,
         content: "IF YOU DO ENOUGH UNPAID OVERTIME YOU GET A TOMBSTONE THAT SAYS GREAT TEAM MEMBER",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1577055302075105280%2F2UFuCDBF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577055302075105280%252F2UFuCDBF_bigger.jpg",
     },
     {
         url: "https://twitter.com/piloht/status/1051904634795814912",
@@ -1070,7 +1070,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51405,
         likes: 166901,
         content: "cells be like\n\n o\n\nfuck it \nmitosis time\n\n o\n 0\n 8\noo",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490489629820260355%2FbYm6uldm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490489629820260355%252FbYm6uldm_bigger.jpg",
     },
     {
         url: "https://twitter.com/OJTheKing/status/1052394521387028480",
@@ -1078,7 +1078,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 244,
         likes: 875,
         content: "Ain’t nothing like taking a shower with that peppermint Dr. Bronners and laying on sheets fresh out of the dryer. I be feeling like a big ass mint out my granny purse",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1633863305621110784%2FjwUBk0nP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633863305621110784%252FjwUBk0nP_bigger.jpg",
     },
     {
         url: "https://twitter.com/yc/status/1052623207839277056",
@@ -1086,7 +1086,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 47,
         likes: 774,
         content: "Venmo timeline is only good when it shows you that your ex‘s new partner is cheap",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1088177304914800640%2FIrqF-iTN_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1088177304914800640%252FIrqF-iTN_bigger.jpg",
     },
     {
         url: "https://twitter.com/JuliusIrvington/status/1052934698312323074",
@@ -1094,7 +1094,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 729,
         likes: 3793,
         content: "cigarettes have almost no calories and are low in sodium. no one is talking about this",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1135032059934781440%2FFHiIxRBL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135032059934781440%252FFHiIxRBL_bigger.jpg",
     },
     {
         url: "https://twitter.com/RYLANDDUNCAN/status/1053017921792946176",
@@ -1102,7 +1102,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2326,
         likes: 14261,
         content: "I wish Gritty wasn't to do with hockey, cities should just have monsters in them",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1322750383991697409%2FPighUb9D_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1322750383991697409%252FPighUb9D_bigger.jpg",
     },
     {
         url: "https://twitter.com/realDonaldTrump/status/1053285828892463109",
@@ -1110,7 +1110,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10085,
         likes: 67039,
         content: "When referring to the USA, I will always capitalize the word Country!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874276197357596672%2FkUuht00m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
         url: "https://twitter.com/Kristen_Arnett/status/1053397631223939073",
@@ -1118,7 +1118,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11,
         likes: 135,
         content: "ooooh baby do you know what that’s worth\non halloween we toast the antichrists birth",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1261154545448574977%2FezzjAD9N_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1261154545448574977%252FezzjAD9N_bigger.jpg",
     },
     {
         url: "https://twitter.com/bransonreese/status/1055524171764129793",
@@ -1126,7 +1126,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 56,
         likes: 578,
         content: "I’ve to piss",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655613791823073280%2FY-aQDM3J_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655613791823073280%252FY-aQDM3J_bigger.jpg",
     },
     {
         url: "https://twitter.com/Dustinkcouch/status/1057094474227240960",
@@ -1134,7 +1134,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 104843,
         likes: 363240,
         content: "nasa employee: oh hey u guys are back early \n\nastronaut: moon's haunted\n\nnasa employee: what? \n\nastronaut: \\*loading a pistol and getting back on the rocket-ship\\* moon's haunted",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1549557453217566720%2FpsocqQf-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1549557453217566720%252FpsocqQf-_bigger.jpg",
     },
     {
         url: "https://twitter.com/PhilJamesson/status/1058125138233843719",
@@ -1142,7 +1142,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1117,
         likes: 5989,
         content: "peach (crying): i don't need you to be Super Mario. i just need you to be there for me. i just need you to be you\n\nmario: wahoo",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1284614944856702976%2FR-_HVa-0_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1284614944856702976%252FR-_HVa-0_bigger.png",
     },
     {
         url: "https://twitter.com/Grimezsz/status/1058450348291969024",
@@ -1150,7 +1150,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 236,
         likes: 1833,
         content: "Canada shud be absorbed by the usa \nThen we’d be bigger than Russia",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730078462621458432%2FLhMpo9ug_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730078462621458432%252FLhMpo9ug_bigger.jpg",
     },
     {
         url: "https://twitter.com/unfuxwhitable/status/1059941051912347654",
@@ -1158,7 +1158,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 65514,
         likes: 249960,
         content: "how did ONE hour make it go from dark at 9pm to dark at 6pm……somebody lying",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1651009265228972032%2FPKePptbL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651009265228972032%252FPKePptbL_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaboukie/status/1059998368150274051",
@@ -1166,7 +1166,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1480,
         likes: 12750,
         content: "there’s so many blue check why aight people tweeting “remember politics don’t actually change your life. there’s still sunday football, potpourri, mild salsa, and your beautiful son & daughter breighaedyn & kaehayeighœtelinen” rn",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649264177876459522%2FAUhQZoPc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
         url: "https://twitter.com/RajivAKaria/status/1060100699466485761",
@@ -1174,8 +1174,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10479,
         likes: 69500,
         content: "I’ve honestly read this 15 times",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDrY79UcX4AIV6Gp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1025044993591922688%2F49gqXQlo_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDrY79UcX4AIV6Gp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1025044993591922688%252F49gqXQlo_bigger.jpg",
     },
     {
         url: "https://twitter.com/bugposting/status/1060323496461590529",
@@ -1183,7 +1183,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11881,
         likes: 110281,
         content: "cool that ariana grande forgives her exes. also cool that every day I relish in the memory of mine calling, furious, asking why i let him believe björk was pronounced “bork” for 2 years and that he just embarrassed himself at a party",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1603874060714270735%2F1WY2ADDu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603874060714270735%252F1WY2ADDu_bigger.jpg",
     },
     {
         url: "https://twitter.com/JDShapiro/status/1060388732350726145",
@@ -1191,7 +1191,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4766,
         likes: 35248,
         content: "The saddest part of medieval times is the horses think it’s all real",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1414624752610660357%2FKY17aGKK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1414624752610660357%252FKY17aGKK_bigger.jpg",
     },
     {
         url: "https://twitter.com/hamstertalk/status/1060389337521643520",
@@ -1199,8 +1199,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9864,
         likes: 50907,
         content: "Someone posted this to our neighborhood message board and I will never recover.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDrdCelzU4AApIiU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1021948542481563649%2F7QMrSps1_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDrdCelzU4AApIiU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1021948542481563649%252F7QMrSps1_bigger.jpg",
     },
     {
         url: "https://twitter.com/hawillisdc/status/1062538244544495617",
@@ -1208,7 +1208,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11548,
         likes: 90233,
         content: "once a year i think about how in highschool a girl made her instagram caption the juicy j lyric: \"she eat your heart out like jeffrey dahmer\" and a girl commented: \"my uncle was murdered by dahmer…please delete this.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1482170126434807810%2FagMlHNB6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482170126434807810%252FagMlHNB6_bigger.jpg",
     },
     {
         url: "https://twitter.com/ivyanthony95/status/1062696852112531456",
@@ -1216,8 +1216,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 62867,
         likes: 152357,
         content: "Getting 4 hours of sleep vs. 8 hours",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDr91JyUU8AA1ZSD.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1725582542785466368%2F5XNw2UIl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDr91JyUU8AA1ZSD.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1725582542785466368%252F5XNw2UIl_bigger.jpg",
     },
     {
         url: "https://twitter.com/phoebe_bridgers/status/1063098528975740928",
@@ -1225,7 +1225,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1527,
         likes: 7292,
         content: "welcome to the black parade is the bohemian rhapsody of my generation",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1099440461574373383%2FnVsMtHi__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
         url: "https://twitter.com/DanielPryorr/status/1063533815631659008",
@@ -1233,8 +1233,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7756,
         likes: 33797,
         content: "OH MY GOD 😂😭",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDsJuXY0WoAANCZi.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1501644314144690178%2FuOu0KYDv_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDsJuXY0WoAANCZi.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1501644314144690178%252FuOu0KYDv_bigger.jpg",
     },
     {
         url: "https://twitter.com/CraigSJ/status/1064603805319380992",
@@ -1242,7 +1242,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8,
         likes: 95,
         content: "Everyone wished he'd mackle a little less, and he listened. That's crazy.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1573349605298900993%2F6ihvZ5KX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573349605298900993%252F6ihvZ5KX_bigger.jpg",
     },
     {
         url: "https://twitter.com/iamchrisscott/status/1065407753139748864",
@@ -1250,7 +1250,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1439,
         likes: 16384,
         content: "Tonight at the start of yoga a woman let the instructor know she was pregnant to which the instructor inexplicably replied “We’re all pregnant” and then another woman said “No we’re not” and then we began.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1001804370181312514%2Fa1Ax781j_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1001804370181312514%252Fa1Ax781j_bigger.jpg",
     },
     {
         url: "https://twitter.com/prawn_meat/status/1065721461740986368",
@@ -1258,7 +1258,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1504,
         likes: 9188,
         content: "donkey kong being a villain in industrial settings and a hero in jungle settings is a perfect illustration of what the unabomber was talking about",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1593424851863101441%2FXFR-D-LO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593424851863101441%252FXFR-D-LO_bigger.jpg",
     },
     {
         url: "https://twitter.com/jakealmond/status/1065782779290505218",
@@ -1266,8 +1266,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33426,
         likes: 114226,
         content: "Every day on Twitter...",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDspryW6VAAAIX3S.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1666476383327887362%2FF9Z8HCr6_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDspryW6VAAAIX3S.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1666476383327887362%252FF9Z8HCr6_bigger.jpg",
     },
     {
         url: "https://twitter.com/iamspacegirl/status/1066102146230362113",
@@ -1275,7 +1275,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 22506,
         likes: 145802,
         content: "God \\*giggling\\*: They are gonna be so tiny.\n\nAngel \\*writing\\*: ants... tiny... got it.\n\nGod \\*suddenly tearing up\\*: but omg so strong.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1473759585206947846%2Fb1717dWh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1473759585206947846%252Fb1717dWh_bigger.jpg",
     },
     {
         url: "https://twitter.com/yungmimosas/status/1066134272862507008",
@@ -1283,7 +1283,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12088,
         likes: 81288,
         content: "gas lowkey be smellin good i wish i was honda crv",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1703244987893194752%2FVIlvYlY6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703244987893194752%252FVIlvYlY6_bigger.jpg",
     },
     {
         url: "https://twitter.com/MAMETCHl/status/1066178407405301760",
@@ -1291,8 +1291,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18479,
         likes: 64495,
         content: "im crying my ass off at this species of goat (gulabi) that is so beautiful and cute as a baby and then the adult is like",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDsvThPkXQAEjg0i.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711165235325751297%2FP4sEzMoD_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDsvThPkXQAEjg0i.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711165235325751297%252FP4sEzMoD_bigger.jpg",
     },
     {
         url: "https://twitter.com/joeygllghr/status/1067310214259499008",
@@ -1300,7 +1300,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 77292,
         likes: 279352,
         content: "Regular back:\n-will hurt eventually\n-boring\n-stupid bones\n\nBackstreet's back: \n-alright",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1283496105469071360%2FDBT7pgmv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1283496105469071360%252FDBT7pgmv_bigger.jpg",
     },
     {
         url: "https://twitter.com/thesarahkelly/status/1067479527704666113",
@@ -1308,7 +1308,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1807,
         likes: 13132,
         content: "Anything I do not want to do is emotional labor. Anything I do want to do is self care. I will not be expanding on this rn.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1659954821494112257%2Fqmf5O-lv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1659954821494112257%252Fqmf5O-lv_bigger.jpg",
     },
     {
         url: "https://twitter.com/awhalefact/status/1067784201318137857",
@@ -1316,7 +1316,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1041,
         likes: 4895,
         content: "whales don’t need no man",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1399955499177713667%2Fq91gOYde_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1399955499177713667%252Fq91gOYde_bigger.jpg",
     },
     {
         url: "https://twitter.com/andrewnolan2/status/1070165183564255232",
@@ -1324,8 +1324,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46851,
         likes: 215977,
         content: "One of my blinds broke in my bedroom so I just went to CVS",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDtn9ioqUUAAyo-8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1322442434266222592%2FHLpXEsFX_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDtn9ioqUUAAyo-8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1322442434266222592%252FHLpXEsFX_bigger.jpg",
     },
     {
         url: "https://twitter.com/murrman5/status/1070337836732305408",
@@ -1333,7 +1333,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7607,
         likes: 54110,
         content: "wife hoping for a normal day: good morning\nme: im gonna try to become left handed",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1361726998905835524%2FVf0PO52y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
         url: "https://twitter.com/SadiqoJN/status/1070995854272675840",
@@ -1341,7 +1341,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30736,
         likes: 110230,
         content: "Why do bash “dead-beat” dads for not being there for their kids but we never question if the child has bad vibes? Or if they’re just unpleasant to be around?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1463622363782828034%2F7GpArHc9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1463622363782828034%252F7GpArHc9_bigger.jpg",
     },
     {
         url: "https://twitter.com/AOC/status/1071439571777409026",
@@ -1349,7 +1349,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2960,
         likes: 33633,
         content: "I’m not sure, but maybe we can look into establishing GrinchCon - a tea + coffee crawl where people can spread peace and quiet everywhere they go 😇",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F923274881197895680%2FAbHcStkl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F923274881197895680%252FAbHcStkl_bigger.jpg",
     },
     {
         url: "https://twitter.com/Meg_Cramer/status/1071510279895347201",
@@ -1357,8 +1357,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7744,
         likes: 38485,
         content: "what",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDt7E5fUWsAAhL7y.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1256008587157082112%2FeEOZyY9m_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDt7E5fUWsAAhL7y.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1256008587157082112%252FeEOZyY9m_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheToddWilliams/status/1071531845576142849",
@@ -1366,7 +1366,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1564,
         likes: 7802,
         content: "HER: I think we should break up\n\nME: But...why?\n\nHER: I don't know if it's your terrible puns or the fact that you don't \"believe\" in the color blue\n\nME {quietly to self}: Cyans fiction\n\nHER: Or both",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587415715149221888%2FV7uRfADk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587415715149221888%252FV7uRfADk_bigger.jpg",
     },
     {
         url: "https://twitter.com/woodmuffin/status/1072304627595599872",
@@ -1374,7 +1374,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5393,
         likes: 21115,
         content: "No Looney Tunes character stands the test of time better than Wile E. Coyote: a self-defeating dipshit who can't stop ordering packages from a shitty, indifferent corporation",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2088678303%2FSlime-Dad-small_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2088678303%252FSlime-Dad-small_bigger.gif",
     },
     {
         url: "https://twitter.com/elle91/status/1072675636790083584",
@@ -1382,7 +1382,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 324,
         likes: 2338,
         content: "[On a date]\nHim: I love a woman with a sense of humor, I'm a sucker for a good pun.\nMe: omg same. lol Jeremy if you were sliced  up into little pieces and soaked in coffee liqueur and then layered between ladyfingers you'd be a jeramisu.\nHim:\nMe:\nHim:\nMe: jeramisu",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F987072717970124800%2FxctiOEAU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F987072717970124800%252FxctiOEAU_bigger.jpg",
     },
     {
         url: "https://twitter.com/DouthatNYT/status/1072883802136039425",
@@ -1390,7 +1390,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14,
         likes: 76,
         content: "This is your reminder that \"Fight Club\" is still the most important political movie about the post-Cold War world.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585443655174742017%2FwMV0zVeQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585443655174742017%252FwMV0zVeQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/gothbabys/status/1073690674510422017",
@@ -1398,7 +1398,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15246,
         likes: 51531,
         content: "“are you subtweeting me?”\n“i do subtweet sir”\n“are you subtweeting me sir?”\n(to mutual) “is the timeline discourse on my side if i say aye?”\n“nay”\n“no sir i do not subtweet at you but i subtweet sir!”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717111997400010752%2FkOZZ_YqF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717111997400010752%252FkOZZ_YqF_bigger.jpg",
     },
     {
         url: "https://twitter.com/shanley/status/1073733159655632897",
@@ -1406,7 +1406,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 1,
         content: "you got a fucking google you dumb bitch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1312220027786080262%2Fz8OScrJ4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
         url: "https://twitter.com/catesish/status/1075455284963917829",
@@ -1414,8 +1414,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9928,
         likes: 38323,
         content: "i know the internet has fundamentally broken me cause i just laughed about this for a solid 45 seconds",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDuzI2JcWoAA_LJ5.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F773351298997620736%2FLzMwQ3eG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDuzI2JcWoAA_LJ5.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F773351298997620736%252FLzMwQ3eG_bigger.jpg",
     },
     {
         url: "https://twitter.com/FrogCroakley/status/1075687062240677889",
@@ -1423,7 +1423,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15537,
         likes: 70415,
         content: "♬ He's boiling an egg ♬\n♬ He's boiling it twice ♬\n♬ He's boiled it again ♬\n♬ He's losing his mind ♬\n♬ Santa Claus is repeatedly boiling an egg ♬",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1190256109635936256%2FYzGOMfhV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190256109635936256%252FYzGOMfhV_bigger.jpg",
     },
     {
         url: "https://twitter.com/_cingraham/status/1076200218108997632",
@@ -1431,8 +1431,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 64,
         likes: 313,
         content: "[at the USDA]\n\nme: [chanting] hogs, hogs-\n\nIowa farmers: hogs, HOGS\n\nUSDA-NASS: [pounding keyboard] HOGS, HOGS, HOGS!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDu9tkFIX0AYOqJ6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1105133182574223360%2Fm_h-lhSu_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDu9tkFIX0AYOqJ6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1105133182574223360%252Fm_h-lhSu_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/1076296547644583936",
@@ -1440,7 +1440,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6996,
         likes: 61033,
         content: "\"WELL ACTUALLY\": a sequel to \"LOVE ACTUALLY\" about why it's problematic",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/hoverbird/status/1076353573758386176",
@@ -1448,8 +1448,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 750,
         likes: 4069,
         content: "The Bailey’s Irish Cream origin story is just straight up a @dril tweet",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDu_53lDVsAAk74F.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F453590893774118912%2FE00Ns3Dq_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDu_53lDVsAAk74F.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F453590893774118912%252FE00Ns3Dq_bigger.png",
     },
     {
         url: "https://twitter.com/jk_rowling/status/1076458808703180800",
@@ -1457,7 +1457,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6311,
         likes: 26193,
         content: "And lo, unto her did appear a host of Corbyn defenders, who did descend upon her mentions, and she was not sore afraid, because she was used to it. And the host did sing with one voice, ‘ungodly woman, thou foolest us not.  We know the true reason thou despisest Saint Jeremy.’ 1",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1691882354527154176%2Fv3dki8sB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691882354527154176%252Fv3dki8sB_bigger.jpg",
     },
     {
         url: "https://twitter.com/rodger/status/1076663917743464455",
@@ -1465,8 +1465,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 468,
         likes: 3380,
         content: "no one blocks like",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDvEUH2SVYAAXabv.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717907544427970560%2Fk3skU96z_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDvEUH2SVYAAXabv.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717907544427970560%252Fk3skU96z_bigger.jpg",
     },
     {
         url: "https://twitter.com/Shen_the_Bird/status/1077333828555890688",
@@ -1474,7 +1474,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16926,
         likes: 109173,
         content: "elf: [squinting at christmas list] how the fuck do you make a juul",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125628501233631233%2FpVeG9nac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
         url: "https://twitter.com/ped_red/status/1077335233534423040",
@@ -1482,7 +1482,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 50776,
         likes: 222964,
         content: "Doc martens just emo timbs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733335998489395200%2FLs4w74ct_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733335998489395200%252FLs4w74ct_bigger.jpg",
     },
     {
         url: "https://twitter.com/TrevorLess/status/1077409320541872129",
@@ -1490,7 +1490,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 240,
         likes: 2691,
         content: "Need to “just take a quick break” from your family this holiday season? Just sit on the toilet for 7-10 minutes looking at this app and become insane by reading people’s dumb ass thoughts",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874355577052430337%2FezLCKYK2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874355577052430337%252FezLCKYK2_bigger.jpg",
     },
     {
         url: "https://twitter.com/XLNB/status/1078553842898235393",
@@ -1498,7 +1498,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8068,
         likes: 38642,
         content: "I just opened up my bag of Ghost Pepper Potato Chips from Trader Joe’s and there’s a whole ass potato in the bag. I’m not kidding. An entire potato. I can’t even take the bag back cuz who the hell is gonna believe a full potato was in it. They’re just gonna say I put it in there.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1408133381221588993%2Fjl3p6aes_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408133381221588993%252Fjl3p6aes_bigger.jpg",
     },
     {
         url: "https://twitter.com/yungeateat/status/1079132458698842114",
@@ -1506,8 +1506,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 45414,
         likes: 212473,
         content: "A BOY NIECE",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC54l5NmWgAQonRZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1235485043453288448%2FsHmo7TBK_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC54l5NmWgAQonRZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1235485043453288448%252FsHmo7TBK_bigger.jpg",
     },
     {
         url: "https://twitter.com/elhosiny_ahmed/status/1080168956659466241",
@@ -1515,7 +1515,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6920,
         likes: 5101,
         content: "asked siri what one trillion to the 10th power was",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1625150985290276864%2F6rvl-z_b_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625150985290276864%252F6rvl-z_b_bigger.jpg",
     },
     {
         url: "https://twitter.com/maplecocaine/status/1080665226410889217",
@@ -1523,7 +1523,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30605,
         likes: 115636,
         content: "Each day on twitter there is one main character. The goal is to never be it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1108913612226211840%2FDeCW_v7o_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1108913612226211840%252FDeCW_v7o_bigger.png",
     },
     {
         url: "https://twitter.com/sarahschauer/status/1080940452600258560",
@@ -1531,7 +1531,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4336,
         likes: 33216,
         content: "\\*concert\\*\nFleetwood Mac: thunder only happens when it's raining\n\nNeil Degrasse Tyson, at normal speaking volume from the back: no",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1495140751058997250%2FoC5BO6Di_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495140751058997250%252FoC5BO6Di_bigger.jpg",
     },
     {
         url: "https://twitter.com/plowrong/status/1081319980497547265",
@@ -1539,7 +1539,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2439,
         likes: 24552,
         content: "Driving lessons are so weird like you climb into a metal box with a divorced man and he teaches you not to kill anyone",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1716009792840273920%2F8tI--fhq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1716009792840273920%252F8tI--fhq_bigger.jpg",
     },
     {
         url: "https://twitter.com/cher/status/1082481250944741376",
@@ -1547,7 +1547,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 34360,
         likes: 101776,
         content: "I Need To Shoot My Phone",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1710170486720573440%2F9xJUi3tz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
         url: "https://twitter.com/6thgrade4ever/status/1082688913490280448",
@@ -1555,7 +1555,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4278,
         likes: 16370,
         content: "Did Christ not stan the cancelled? Did he, in the darkness of Gethsemane, ask his Father to miss him with that?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2023455999%2FKNiUo_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2023455999%252FKNiUo_bigger.gif",
     },
     {
         url: "https://twitter.com/mightyatom/status/1082854869206093824",
@@ -1563,7 +1563,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 32,
         content: "Keep missing the hitbox on my evening’s singular mug of wine",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1542971448716709889%2FJOZORzUr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542971448716709889%252FJOZORzUr_bigger.jpg",
     },
     {
         url: "https://twitter.com/rgoodlaw/status/1082999681112858624",
@@ -1571,8 +1571,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25,
         likes: 329,
         content: "This (photo) is how I spent last night.\n\nVery nice hospital in The Hague with anaphylactic allergic reaction. All clear now.\n\nDid I miss an Oval Office speech?\n\nI assume no bombshelly news —like Trump campaign chair consorting with Russian intel agents— happened while I was out.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDweWcsiV4AEYnRd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1553378670978400256%2FU6IxxRx5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDweWcsiV4AEYnRd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1553378670978400256%252FU6IxxRx5_bigger.jpg",
     },
     {
         url: "https://twitter.com/tedcruz/status/1083030582291058689",
@@ -1580,7 +1580,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1561,
         likes: 13590,
         content: "Pretty cool: A good friend is studying in Yeshiva in Israel. His rabbi told him he liked my beard, elaborating “It gives Cruz a Talmudic & Rabbinic look & presence that will put the fear of the Lord into Israel’s enemies & promote Middle East peace.”  Wow. Perhaps a bit much....",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717966605903179776%2FscSx1uhK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717966605903179776%252FscSx1uhK_bigger.jpg",
     },
     {
         url: "https://twitter.com/RiverClegg/status/1083061045420281856",
@@ -1588,7 +1588,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12108,
         likes: 59728,
         content: "Jeff Bezos is getting divorced after realizing that marriage counts as a union.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707218814339862528%2FPSzElCha_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707218814339862528%252FPSzElCha_bigger.jpg",
     },
     {
         url: "https://twitter.com/hankschulman/status/1083246093217935361",
@@ -1596,8 +1596,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8,
         likes: 80,
         content: "If there's one thing I can predict, because this is how life works now, these two stories will change places on the sfgate.com most-read list before sunup.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDwh2ihMV4AAu0vm.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F586717320019517443%2FfEQlSBFc_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDwh2ihMV4AAu0vm.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F586717320019517443%252FfEQlSBFc_bigger.jpg",
     },
     {
         url: "https://twitter.com/stellmoney/status/1083447026321260544",
@@ -1605,7 +1605,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21821,
         likes: 152496,
         content: "my apartment's pest control guy always refers to Richie (my cat) as a \"fellow industry professional\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717714372104179712%2F0rzuTXbY_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717714372104179712%252F0rzuTXbY_bigger.jpg",
     },
     {
         url: "https://twitter.com/Shen_the_Bird/status/1084293210497785856",
@@ -1613,7 +1613,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20028,
         likes: 85011,
         content: "[first day as a priest] \n\nguy: father i must confess my sins\n\nme: what's the tea my child",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125628501233631233%2FpVeG9nac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsDanSheehan/status/1084348733817384960",
@@ -1621,7 +1621,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1854,
         likes: 10456,
         content: "You: Hurt people hurt people\n\nMe, nodding: and sea turtles see turtles",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649502618123927553%2FJ4ZFkyoQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/perlucidum/status/1084537059337891845",
@@ -1629,7 +1629,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1383,
         likes: 13908,
         content: "finding out james blake is 6'5\" really ruins his music boy you are a tall white man what are you even sad about",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1698790844264845312%2FtgYD0ZOW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1698790844264845312%252FtgYD0ZOW_bigger.jpg",
     },
     {
         url: "https://twitter.com/babadookspinoza/status/1084596547415871488",
@@ -1637,7 +1637,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 41693,
         likes: 140772,
         content: "The year is 2035. Marie Kondo holds up the condemned man to the crowd. “Does this man spark joy?” The crowd jeers, “No he does not!” She nods silently and throws him into the pit.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1399101894090502147%2FnhZZNx_9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1399101894090502147%252FnhZZNx_9_bigger.jpg",
     },
     {
         url: "https://twitter.com/MonicaLewinsky/status/1084633066067259392",
@@ -1645,8 +1645,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 129,
         likes: 1190,
         content: "😳",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDw1hOACXQAAErik.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1405260393933463555%2FohKj4uxu_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDw1hOACXQAAErik.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1405260393933463555%252FohKj4uxu_bigger.jpg",
     },
     {
         url: "https://twitter.com/JamilahLemieux/status/1084643636489449472",
@@ -1654,8 +1654,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1810,
         likes: 9527,
         content: "Looks like the 2016 election",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDtM5RClWwAEJsJ6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1509384066927276034%2FqKBGp74c_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDtM5RClWwAEJsJ6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1509384066927276034%252FqKBGp74c_bigger.jpg",
     },
     {
         url: "https://twitter.com/PaulyCasillas/status/1084661289903841280",
@@ -1663,8 +1663,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 278,
         likes: 1774,
         content: "Hitting the weed pen in the club",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDw19saFVAAE99di.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1593821959388729344%2F_WXTTHqO_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDw19saFVAAE99di.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593821959388729344%252F_WXTTHqO_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/1085280373368606720",
@@ -1672,7 +1672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1240,
         likes: 7875,
         content: "almost at that point in the day where that girl that carries around the ar-15 everywhere weights in on the Gillette ad by shaving her gun or something",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/KateAronoff/status/1086733210233569280",
@@ -1680,7 +1680,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13835,
         likes: 47257,
         content: "If I owe you an email, please find some comfort in the fact that my every waking hour is haunted by my debt to you",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686227922883878912%2FNW1f-FnO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686227922883878912%252FNW1f-FnO_bigger.jpg",
     },
     {
         url: "https://twitter.com/daniellevalore/status/1087014015002443777",
@@ -1688,8 +1688,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1653,
         likes: 12410,
         content: "Because I only ever use one emoji, my phone has stored only one emoji as a person of color, and thus I have unintentionally created this work of art I call “Diversity Meeting”.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDxXZe_nWkAA6egL.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585061673752215553%2FB0k5M5lE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDxXZe_nWkAA6egL.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585061673752215553%252FB0k5M5lE_bigger.jpg",
     },
     {
         url: "https://twitter.com/mariokartdwi/status/1087097379751288833",
@@ -1697,7 +1697,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1025,
         likes: 13464,
         content: "dudes w floor mattresses consistently lay pipe but yall aren’t ready for that conversation",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1424919349169729543%2FFhagbedf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1424919349169729543%252FFhagbedf_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/1087143660389466112",
@@ -1705,7 +1705,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3770,
         likes: 38104,
         content: "yeah, sure, i like sorkin. sorkin my own dick",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/lauralexx/status/1087335140152492032",
@@ -1713,8 +1713,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7268,
         likes: 38574,
         content: "Shit magnet has been purchased! Now we will always remember our trip to Crabonela.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDxb9itTW0AEKt8J.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1533011673618993155%2Fn5VPg_Rc_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDxb9itTW0AEKt8J.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1533011673618993155%252Fn5VPg_Rc_bigger.jpg",
     },
     {
         url: "https://twitter.com/APompliano/status/1087521397188964352",
@@ -1722,7 +1722,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 151,
         likes: 971,
         content: "The Sears pension plan is responsible for 90,000 people and underfunded by at least $1.4 billion.\n\nThe government is going to have to bail them out now.\n\nIt is irresponsible for these poorly performing pensions to not have exposure to Bitcoin.\n\nCall yours and demand it!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1547787118243561478%2FPxWzJo1H_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547787118243561478%252FPxWzJo1H_bigger.jpg",
     },
     {
         url: "https://twitter.com/oskrNYC/status/1088186327726731265",
@@ -1730,7 +1730,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4030,
         likes: 20870,
         content: "Keep your Glenns Close and your Glennemies Closer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715040716278177795%2FboqANyES_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715040716278177795%252FboqANyES_bigger.jpg",
     },
     {
         url: "https://twitter.com/django/status/1088618347208560640",
@@ -1738,7 +1738,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 367,
         likes: 3142,
         content: "I wonder if when you walk into a celebrity's house, there's a wall full of photos of them standing with various pizzeria owners",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1712119568104030208%2Fhf4t1kUS_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712119568104030208%252Fhf4t1kUS_bigger.jpg",
     },
     {
         url: "https://twitter.com/toreyvanoot/status/1090366478535278602",
@@ -1746,8 +1746,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25183,
         likes: 130755,
         content: "CAPTION OF THE YEAR:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDyHCgbGWwAAnCYp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1512132518555832322%2FZByepZqC_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDyHCgbGWwAAnCYp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1512132518555832322%252FZByepZqC_bigger.jpg",
     },
     {
         url: "https://twitter.com/StephenAtHome/status/1090425465809104901",
@@ -1755,7 +1755,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8304,
         likes: 73792,
         content: "Who hasn't been in a Starbucks bathroom and thought, \"the guy in charge of this should be in charge of everything.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F627669832549441536%2Fhv1AMpO0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F627669832549441536%252Fhv1AMpO0_bigger.jpg",
     },
     {
         url: "https://twitter.com/RichNeville/status/1091104164023857152",
@@ -1763,8 +1763,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51775,
         likes: 217553,
         content: "Found something new to say when I leave a room.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDyRhcmhW0AU0OXX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2793336657%2F6552a14281c923ddd0aad0c95124d484_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDyRhcmhW0AU0OXX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2793336657%252F6552a14281c923ddd0aad0c95124d484_bigger.jpeg",
     },
     {
         url: "https://twitter.com/bugposting/status/1091441228355375104",
@@ -1772,7 +1772,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1354,
         likes: 10705,
         content: "i don’t trust anyone who self-describes as “open minded”, either you want to start a fight about religion or you’re going to try to swing a threesome. please don’t make me guess",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1603874060714270735%2F1WY2ADDu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603874060714270735%252F1WY2ADDu_bigger.jpg",
     },
     {
         url: "https://twitter.com/99Febro/status/1091736259100319751",
@@ -1780,7 +1780,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14903,
         likes: 59177,
         content: "Mercutio, dying, yelling at both Tybalt and Romeo: Both your houses are fucking canceled",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1037071824906059777%2FjAeki-WV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1037071824906059777%252FjAeki-WV_bigger.jpg",
     },
     {
         url: "https://twitter.com/doublequibble/status/1091806542633074693",
@@ -1788,7 +1788,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9446,
         likes: 37712,
         content: "\\*rammstein guy asking his wife what she wants for breakfast\\*\ndo\ndo hash\ndo hash browns\ndo hash browns sound good\ndo hash browns sound good",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1630086481422213120%2F5J9t4UW0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1630086481422213120%252F5J9t4UW0_bigger.jpg",
     },
     {
         url: "https://twitter.com/iamcardib/status/1092340085742276610",
@@ -1796,7 +1796,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 95703,
         likes: 483720,
         content: "Don’t make me get my leash",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1664299223121027073%2FFelEs5Ko_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664299223121027073%252FFelEs5Ko_bigger.jpg",
     },
     {
         url: "https://twitter.com/sethdmichaels/status/1093886405300940800",
@@ -1804,7 +1804,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 243,
         likes: 2183,
         content: "it was unfamiliar when a few people started using it, but over time it became a more recognized and more accepted part of the discourse, somehow",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1577393182018502656%2FDfQM8KIP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577393182018502656%252FDfQM8KIP_bigger.jpg",
     },
     {
         url: "https://twitter.com/THE_shitface/status/1095375848134270977",
@@ -1812,7 +1812,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3955,
         likes: 24014,
         content: "Welcome to Twitter ladies. A married man, who mainly follows, and interacts with only women, will be assigned to you shortly",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1619191771837394945%2FsjoIYPGQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1619191771837394945%252FsjoIYPGQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/bennymofodavis/status/1095996361764270080",
@@ -1820,7 +1820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51610,
         likes: 155264,
         content: "At age 23, Oprah was fired from her first reporting job\n\nAt age 30, Harrison Ford was a carpenter\n\nMorgan Freeman landed his first major movie role at age 52\n\nThey all had time\n\nBecause climate change wasn't as pressing an issue for their generation\n\nYou? Probably no time.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590185902214901761%2FnRcMPRiL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590185902214901761%252FnRcMPRiL_bigger.jpg",
     },
     {
         url: "https://twitter.com/KhiryArion/status/1096215011184144385",
@@ -1828,7 +1828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 53373,
         likes: 328449,
         content: "so I asked my mom why is she still talking to my old boo and she asked me “why are you still talking to my ex husband?”. Ma’am.. that is my father 😂",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1175322343377260544%2Ft0dgrx4R_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1175322343377260544%252Ft0dgrx4R_bigger.jpg",
     },
     {
         url: "https://twitter.com/PDChina/status/1096221209010683904",
@@ -1836,8 +1836,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3289,
         likes: 8706,
         content: "Brrr! Tourists wear funny animal-like hats to withstand the cold in Harbin, Northeast China's #Heilongjiang province, on Feb 12, when temperatures fell as low as -22C",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDzaPTr9UcAERnL2.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1246469365089939456%2FjAjE_fKB_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDzaPTr9UcAERnL2.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1246469365089939456%252FjAjE_fKB_bigger.jpg",
     },
     {
         url: "https://twitter.com/mikaylaariel/status/1096976292300378112",
@@ -1845,8 +1845,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17079,
         likes: 100037,
         content: "Pyramid scheme influencers be like:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDzk-HAZWsAEPRR-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1433549144023523330%2FMCwEY1m8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDzk-HAZWsAEPRR-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1433549144023523330%252FMCwEY1m8_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdamFriedland/status/1098015581884870656",
@@ -1854,7 +1854,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 264,
         likes: 3695,
         content: "Gentle reminder to all the Bernie bros to practice self-care. Arguing with centrist women online is emotional labor",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2299066549%2Fix5ralhalzu2lfn7v69m_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2299066549%252Fix5ralhalzu2lfn7v69m_bigger.jpeg",
     },
     {
         url: "https://twitter.com/grouchomarn/status/1100075398887600130",
@@ -1862,8 +1862,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24486,
         likes: 93758,
         content: "this is one of my favorite posts of all time",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD0RAvccWkAAVlKN.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1725971482147176448%2FHOw4pQdJ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD0RAvccWkAAVlKN.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1725971482147176448%252FHOw4pQdJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/whatsJo/status/1101104272639492101",
@@ -1871,7 +1871,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 255,
         likes: 1186,
         content: "[inventing balloons] I need one more thing that wants to leave me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1396617705038487554%2FVeCTplTv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1396617705038487554%252FVeCTplTv_bigger.jpg",
     },
     {
         url: "https://twitter.com/ericabuist/status/1101767340352516096",
@@ -1879,7 +1879,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3502,
         likes: 19481,
         content: "Shut up or Britain will vote for it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1284046595856781312%2FoXH5ZxL__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1284046595856781312%252FoXH5ZxL__bigger.jpg",
     },
     {
         url: "https://twitter.com/ChaseMit/status/1102810862815862784",
@@ -1887,8 +1887,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5552,
         likes: 40237,
         content: "This looks like a scientist explaining to his clones what went wrong",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD034ohIU4AEn20M.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730660937215209472%2Fini9I9hp_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD034ohIU4AEn20M.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730660937215209472%252Fini9I9hp_bigger.jpg",
     },
     {
         url: "https://twitter.com/yellowcardigan/status/1103442178787999745",
@@ -1896,7 +1896,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28013,
         likes: 158547,
         content: "My therapist: <laughs at a joke I said>\n\nMe (to myself): This is great. I’m going to get a good grade in therapy, something that is both normal to want and possible to achieve,",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1583263263688646656%2FZQ_Gv0xR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1583263263688646656%252FZQ_Gv0xR_bigger.jpg",
     },
     {
         url: "https://twitter.com/csittenfeld/status/1105258710161653761",
@@ -1904,7 +1904,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 127,
         likes: 1444,
         content: "Tonight I defined portmanteau for my children with the sentence \"I sharted in my jorts\" in case anyone ever tries to tell you being an English major doesn't pay off",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F940668424585224192%2FCXftR5OC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F940668424585224192%252FCXftR5OC_bigger.jpg",
     },
     {
         url: "https://twitter.com/MittRomney/status/1105455525074997249",
@@ -1912,7 +1912,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1630,
         likes: 23442,
         content: "My team surprised me with a cake made out of my favorite snack—twinkies! Looking forward to all this year has in store.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F964489716622966784%2FxbtCe2td_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F964489716622966784%252FxbtCe2td_bigger.jpg",
     },
     {
         url: "https://twitter.com/screaminbutcalm/status/1105577845642878976",
@@ -1920,7 +1920,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 39480,
         likes: 137997,
         content: "Me sowing: Haha fuck yeah!!! Yes!! \n\nMe reaping: Well this fucking sucks. What the fuck.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1015657708387815425%2FhrE2bQrS_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1015657708387815425%252FhrE2bQrS_bigger.jpg",
     },
     {
         url: "https://twitter.com/mitchysuch/status/1105952972066959363",
@@ -1928,7 +1928,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 457,
         likes: 4602,
         content: "No one talks about the correlation of pop punk songs disparaging the suburbs and the modern gentrification of urban centers",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1245539238453657601%2FNkBjlA4T_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1245539238453657601%252FNkBjlA4T_bigger.jpg",
     },
     {
         url: "https://twitter.com/yashar/status/1106037454253973505",
@@ -1936,7 +1936,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12,
         likes: 889,
         content: "I’m sorry to tell you it’s much more than 10. But this is for a couple!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649119295182614528%2FzQ0dgO8X_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649119295182614528%252FzQ0dgO8X_bigger.jpg",
     },
     {
         url: "https://twitter.com/AOC/status/1106168024732704768",
@@ -1944,7 +1944,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26,
         likes: 1742,
         content: "This is for a bed and breakfast 😂",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F923274881197895680%2FAbHcStkl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F923274881197895680%252FAbHcStkl_bigger.jpg",
     },
     {
         url: "https://twitter.com/ComedyCentral/status/1106222609534992384",
@@ -1952,8 +1952,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 600,
         likes: 3696,
         content: "Beto O’Rourke, photographed by Annie-morph Leibovitz.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD1oXmcjXQAA2ucT.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1544369685273223169%2FxmWzZ3cf_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD1oXmcjXQAA2ucT.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1544369685273223169%252FxmWzZ3cf_bigger.jpg",
     },
     {
         url: "https://twitter.com/hunteryharris/status/1106233479937908742",
@@ -1961,8 +1961,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 149,
         likes: 1424,
         content: "i .............................. nytimes.com/2019/03/14/style…",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD1oha8aX4AIGPGh.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1178512579414646784%2FdgDa7TwP_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD1oha8aX4AIGPGh.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1178512579414646784%252FdgDa7TwP_bigger.png",
     },
     {
         url: "https://twitter.com/jiatolentino/status/1106246974951563264",
@@ -1970,7 +1970,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 157,
         likes: 3819,
         content: "A brief survey of my own text messages is making me wonder if I'm gonna talk like this forever. Like am I going to be 90 years old schlepping my walker around the nursing home & poking my head into friends rooms like \"hello my good bitch, the edible you gave me was tight\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F753964758320185344%2FKouQNWEy_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F753964758320185344%252FKouQNWEy_bigger.jpg",
     },
     {
         url: "https://twitter.com/ArielDumas/status/1106353356090548230",
@@ -1978,7 +1978,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4075,
         likes: 54134,
         content: "No one: \n\nYour mom: your dad was in the hospital last week but he’s fine now",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711528373191614464%2Fv_TS382n_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711528373191614464%252Fv_TS382n_bigger.jpg",
     },
     {
         url: "https://twitter.com/The_Law_Boy/status/1106556937318088705",
@@ -1986,7 +1986,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2015,
         likes: 15626,
         content: "ME: [never once in the 14 years of YouTube's existence watching a video about how Islam is taking over the West]\n\nYOUTUBE: you know what I think you'd like",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1029746079846354944%2F2NWE7cEG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1029746079846354944%252F2NWE7cEG_bigger.jpg",
     },
     {
         url: "https://twitter.com/brokeangeI/status/1106911249168773121",
@@ -1994,7 +1994,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14038,
         likes: 47042,
         content: "╭━━━━━━━━━━━━╮\n┃🌔 CO — STAR                   ┃\n┃𝗬𝗼𝘂𝗿 𝗱𝗮𝘆 𝗮𝘁 𝗮 𝗴𝗹𝗮𝗻𝗰𝗲             ┃\n┃I see you’ve got ur clown   ┃\n┃suit on like you always do  ┃\n╰━━━━━━━━━━━━╯",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1735778058290835456%2F0j3XjsX9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735778058290835456%252F0j3XjsX9_bigger.jpg",
     },
     {
         url: "https://twitter.com/hunteryharris/status/1108030277547364352",
@@ -2002,7 +2002,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 53,
         likes: 607,
         content: "elizabeth holmes had split ends and didn't fill in her brows of course she was lying. next question",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1178512579414646784%2FdgDa7TwP_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1178512579414646784%252FdgDa7TwP_bigger.png",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/1108102037072433153",
@@ -2010,7 +2010,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42398,
         likes: 94433,
         content: "me, lightly touching miette with the side of my foot: miette move out of the way please so I don’t trip on you\n\nmiette, her eyes enormous: you KICK miette? you kick her body like the football? oh! oh! jail for mother! jail for mother for One Thousand Years!!!!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/1kinflk/status/1108442364899717121",
@@ -2018,7 +2018,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13377,
         likes: 62783,
         content: "To see if you had scoliosis???",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730091481765908480%2FtnZpz-k5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730091481765908480%252FtnZpz-k5_bigger.jpg",
     },
     {
         url: "https://twitter.com/cdiersing/status/1110630898817531904",
@@ -2026,7 +2026,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3398,
         likes: 33385,
         content: "Guy with the megaphone: No justice!\n\nCrowd: No peace!\n\nGuy with megaphone: You were at my wedding! \n\nCrowd (louder this time): Denise!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1294107770287984651%2FNW4L9vuC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1294107770287984651%252FNW4L9vuC_bigger.jpg",
     },
     {
         url: "https://twitter.com/i_zzzzzz/status/1111190076426457088",
@@ -2034,7 +2034,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23735,
         likes: 72431,
         content: "DOCTOR: It says here you took 3 years off to \"soak in tub\" ?\nME: (pleasantly) Yes, due to my agonies.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2395504744%2F9uggn50z83n3mr1x406e_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
         url: "https://twitter.com/DrJenGunter/status/1112019556787118080",
@@ -2042,8 +2042,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4716,
         likes: 25611,
         content: "I made a Venn diagram",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD26vy35UcAAGbGC.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1359592011758637057%2FuXF0OFy7_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD26vy35UcAAGbGC.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1359592011758637057%252FuXF0OFy7_bigger.jpg",
     },
     {
         url: "https://twitter.com/AndrewYang/status/1113942729933848576",
@@ -2051,7 +2051,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1277,
         likes: 11743,
         content: "The only thing standing between me and the White House is popularity.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1554153385087029248%2Fox_Lf6Xu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554153385087029248%252Fox_Lf6Xu_bigger.jpg",
     },
     {
         url: "https://twitter.com/sternbergh/status/1113979302914211840",
@@ -2059,8 +2059,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26904,
         likes: 154343,
         content: "ladies and gentlemen, may I present to you: twitter",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD3WmROKWwAcCCOR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F652084683145129985%2Fm_vMlgZl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD3WmROKWwAcCCOR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F652084683145129985%252Fm_vMlgZl_bigger.jpg",
     },
     {
         url: "https://twitter.com/caraweinberger/status/1114579952991723521",
@@ -2068,7 +2068,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2329,
         likes: 17847,
         content: "[man gets down on one knee] this is actually more of a comment than a question",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1235621040421732353%2Fzqyl5dFX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1235621040421732353%252Fzqyl5dFX_bigger.jpg",
     },
     {
         url: "https://twitter.com/yurirando/status/1114630784990625792",
@@ -2076,8 +2076,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1660,
         likes: 9662,
         content: "tibetan foxes have the exact energy of when you go into arby's stoned and ask about their 5 for $5 promotion, which has been gone for longer than anyone has worked there. the tibetan sand fox's face is the face the cashier makes at you, and the face you make at the cashier",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD3f2etXUEAAGzyp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1301369135541055488%2FtCetEL6o_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD3f2etXUEAAGzyp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1301369135541055488%252FtCetEL6o_bigger.jpg",
     },
     {
         url: "https://twitter.com/Fred_Delicious/status/1115997333496451073",
@@ -2085,8 +2085,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3357,
         likes: 26980,
         content: "I made this thinking it would be funny but now I'm on the verge of a panic attack",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD3zRTg4X4AE5gXd.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1486036052875923461%2FOYNxOPRB_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD3zRTg4X4AE5gXd.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1486036052875923461%252FOYNxOPRB_bigger.jpg",
     },
     {
         url: "https://twitter.com/6thgrade4ever/status/1116401071776256000",
@@ -2094,7 +2094,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 551,
         likes: 4091,
         content: "CHOTINER: So how many tacos did you eat?\nME: About four, I think.\nCHOTINER: Ok. On Instagram--\nME: Or six, maybe.\nCHOTINER: Yeah. Do you think some people might call that a lot?\nME: Well, that's why I got the small chips.\nCHOTINER: Right. It's about discipline.\nME: Exactly.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2023455999%2FKNiUo_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2023455999%252FKNiUo_bigger.gif",
     },
     {
         url: "https://twitter.com/bucketof1ove/status/1117132317640802307",
@@ -2102,8 +2102,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9366,
         likes: 52784,
         content: "damn they finally got rid of morrissey",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD4AisXeUcAERRJx.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736639595595370496%2FZBDFHu_3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD4AisXeUcAERRJx.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736639595595370496%252FZBDFHu_3_bigger.jpg",
     },
     {
         url: "https://twitter.com/gloomfather/status/1118621889822429185",
@@ -2111,7 +2111,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17869,
         likes: 69805,
         content: "Lol that’s funny dude. Reminds me of something one of my mentally ill twitter friends said several months ago.. hang on just give me 45 minutes to find it so I can read it out loud for you,",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F947231118134149120%2FyOGboOCh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F947231118134149120%252FyOGboOCh_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/1118896869734617088",
@@ -2119,7 +2119,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 402,
         likes: 12174,
         content: "what is this, robin thicke? because of all the blurred lines!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/paulxt/status/1118898154638675968",
@@ -2127,8 +2127,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1807,
         likes: 8925,
         content: "please nobody show radiohead this",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD4cf728UYAAA9wV.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1312582421896859648%2F3AC018pV_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD4cf728UYAAA9wV.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312582421896859648%252F3AC018pV_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/1118949283255005184",
@@ -2136,7 +2136,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12799,
         likes: 66381,
         content: "White man: you can’t sit here!\n\nRosa parks: why not?\n\nWhite man: because you already have a place......in my heart.\n\n\\*ancestry dot com logo with a soft fade out\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/desusnice/status/1119040658419773440",
@@ -2144,7 +2144,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10881,
         likes: 43175,
         content: "for all they gassed it up in school the whole checks and balances system is a wild flop",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/maggieNYT/status/1119051035992051712",
@@ -2152,7 +2152,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 191,
         likes: 1695,
         content: "I hope you read it, Chris - among other things, it affirms most of the real-time reporting that the NYT and other outlets did, reporting the White House sought to undermine at the time. It's a fascinating read and one that everyone should spend time on.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1648723427891478531%2F4ZY_MwpB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1648723427891478531%252F4ZY_MwpB_bigger.jpg",
     },
     {
         url: "https://twitter.com/thechrisbarron/status/1119058135107473408",
@@ -2160,7 +2160,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46,
         likes: 560,
         content: "Hey. I just want to say, I’m Chris Barron, the guy from the Spin Doctors. @ChrisRBarron is not me and I don’t share his political views.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F917821501813985280%2FvVdXkqce_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F917821501813985280%252FvVdXkqce_bigger.jpg",
     },
     {
         url: "https://twitter.com/phoebe_bridgers/status/1119668833902415872",
@@ -2168,7 +2168,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5647,
         likes: 29358,
         content: "hey there delilah are you mad at me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1099440461574373383%2FnVsMtHi__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
         url: "https://twitter.com/AthertonKD/status/1120376944061583360",
@@ -2176,7 +2176,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10840,
         likes: 35767,
         content: "Oh, you're experiencing a structural problem? Have you ever considered trying different personal choices instead?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1323149280174088192%2F7tSU5Oy5_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323149280174088192%252F7tSU5Oy5_bigger.png",
     },
     {
         url: "https://twitter.com/BrandyLJensen/status/1120444666036486144",
@@ -2184,8 +2184,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 177,
         likes: 4339,
         content: "I’m deleting this tweet because the wave of vitriol it sparked is wild but want to transparent about it, so here’s a screenshot for posterity. My main point was that I made sacrifices to be tilted like a pig and that it is 100% possible if you make some compromises",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD4yeetcW0AEtlm8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1573820742482944003%2FY308jbzf_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD4yeetcW0AEtlm8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
         url: "https://twitter.com/jon_bois/status/1120506927631433730",
@@ -2193,7 +2193,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1598,
         likes: 12779,
         content: "i hate to be that guy, but if i was a baseball player i could definitely escape. especially if i was an outfielder. just wait for a grounder and hop the fence when no one’s looking. i’d be miles away before anyone noticed",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1535742187220217856%2FblbLWhI8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1535742187220217856%252FblbLWhI8_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsDanSheehan/status/1120931789252390912",
@@ -2201,7 +2201,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1839,
         likes: 14365,
         content: "One time my dad saw a car for sale on a guy’s lawn in Wisconsin and thought it was a car that could transition into being a boat (???) so he told the guy he’d love to “buy this thing and drive it straight into the lake” which must’ve seemed like a massive power move at the time",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649502618123927553%2FJ4ZFkyoQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/pbump/status/1121235581135196160",
@@ -2209,7 +2209,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12181,
         likes: 95857,
         content: "Today someone sent me hate email in all caps so I told him that I had a disorder where I couldn't read capital letters and he retyped the whole thing in lowercase.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1554893308790546434%2FGg2fE0f6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554893308790546434%252FGg2fE0f6_bigger.jpg",
     },
     {
         url: "https://twitter.com/pcd2009/status/1121439800584802310",
@@ -2217,8 +2217,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2905,
         likes: 17184,
         content: "i know this hasn't been a topic of conversation since 2004 but can we take a moment to acknowledge the official release of paris hilton's sex tape opens with a dedication to 9/11",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD5AmSOaWkAIWozb.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F656590442759327744%2F33PeEjPV_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD5AmSOaWkAIWozb.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F656590442759327744%252F33PeEjPV_bigger.jpg",
     },
     {
         url: "https://twitter.com/DrFresch/status/1121981727797157888",
@@ -2226,7 +2226,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 600,
         likes: 3402,
         content: "it’s so weird to think how LMFAO was just a dude and his uncle\n\nimagine chillin and ur uncle pulls up in those pants like bro let’s do this",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1561848910192058368%2F1eiIP823_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561848910192058368%252F1eiIP823_bigger.jpg",
     },
     {
         url: "https://twitter.com/gertrudeprkns/status/1122933807353610242",
@@ -2234,8 +2234,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1925,
         likes: 7866,
         content: "Jim Carrey Robotnik looks like he and his wife trawl Tinder in search of \"a third troubador to join us for schnapps and decadence in our Steampunk Boudoir\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD5V2PBoW0AAeF0K.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F620705514226348032%2FADYwlfMP_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD5V2PBoW0AAeF0K.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F620705514226348032%252FADYwlfMP_bigger.png",
     },
     {
         url: "https://twitter.com/clefabledude/status/1123189486211469314",
@@ -2243,7 +2243,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 392,
         likes: 5476,
         content: "wife: this might be racist-\n\nme: 😥 😳\n\nwife: against italians but-\n\nme: 😌",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1333117169350152198%2F8kt6fsob_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1333117169350152198%252F8kt6fsob_bigger.jpg",
     },
     {
         url: "https://twitter.com/RainsNeerMyth/status/1123222105385000961",
@@ -2251,7 +2251,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15888,
         likes: 60458,
         content: "Detective Pikachu and Sonic are the start of the super smash brothers cinematic universe",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1486763257901850630%2F9vC4NU5r_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1486763257901850630%252F9vC4NU5r_bigger.jpg",
     },
     {
         url: "https://twitter.com/SonicFox/status/1123298107373105152",
@@ -2259,7 +2259,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 973,
         likes: 8236,
         content: "do not associate me with the sonic the hedgehog movie if you dont want your shins to be deleted",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1720492000762589184%2FU-0e2Iz4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720492000762589184%252FU-0e2Iz4_bigger.jpg",
     },
     {
         url: "https://twitter.com/edcasey/status/1123346927519559680",
@@ -2267,8 +2267,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 34,
         likes: 377,
         content: "This is it, my Nextdoor magnum opus...",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD5btuM9U8AA9P1Y.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F681225373258928128%2FnA5OVZKW_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD5btuM9U8AA9P1Y.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F681225373258928128%252FnA5OVZKW_bigger.jpg",
     },
     {
         url: "https://twitter.com/kima_jones/status/1125566581897957376",
@@ -2276,8 +2276,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21,
         likes: 294,
         content: "This typo is about to finish me off for good",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD57Q1xSVUAEfyOR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734677339416547329%2FOdu4qst8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD57Q1xSVUAEfyOR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734677339416547329%252FOdu4qst8_bigger.jpg",
     },
     {
         url: "https://twitter.com/SHAQ/status/1125736720",
@@ -2285,7 +2285,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18913,
         likes: 25703,
         content: "I cant sleep gotta get 2 walmart",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1579949436527988737%2FRDqn1udJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1579949436527988737%252FRDqn1udJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/RobbyRav/status/1126695591025602561",
@@ -2293,7 +2293,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 339,
         likes: 2123,
         content: "Damn imagine you found the love of your life...then you see her tweeting about not washing her legs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730373108064813056%2FypPYxW0M_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730373108064813056%252FypPYxW0M_bigger.jpg",
     },
     {
         url: "https://twitter.com/hereiamja/status/1127329954155442176",
@@ -2301,7 +2301,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 22294,
         likes: 87410,
         content: "Dumplings imply the existence of a large dumple",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1561476404239278082%2FATbxPgoC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561476404239278082%252FATbxPgoC_bigger.jpg",
     },
     {
         url: "https://twitter.com/ntabebe/status/1127963164849655808",
@@ -2309,7 +2309,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 40,
         content: "i don't think the british monarchy can survive the fact that it's gonna have kings for a while. modern people can handle a quaint old lady as a beloved figurehead, but middle-aged bald guys who think they're hereditarily better than you? unsustainable",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1696391341687648256%2FsuSW2KGs_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696391341687648256%252FsuSW2KGs_bigger.jpg",
     },
     {
         url: "https://twitter.com/paulcherry69/status/1129956552188813312",
@@ -2317,7 +2317,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6868,
         likes: 45297,
         content: "just invented the sequel to the game ‘fuck marry kill’ it’s called ‘stan cancel mute’",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1186058510070665218%2FqrIhqHgy_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1186058510070665218%252FqrIhqHgy_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/1129971978327216128",
@@ -2325,7 +2325,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6383,
         likes: 29878,
         content: "ppl get drunk on their birthday to distract from the fact that’s it’s also your annual performance review with the universe",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/fair_played/status/1130163111468687366",
@@ -2333,7 +2333,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 64582,
         likes: 233896,
         content: "judas:",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1623118113675034625%2FWSNiU4WZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1623118113675034625%252FWSNiU4WZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheBrandonMorse/status/1131550049920536576",
@@ -2341,7 +2341,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 53393,
         likes: 175803,
         content: "I’ve never seen something more human from a robot than this.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1601990616073789441%2FBoRZ7dht_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1601990616073789441%252FBoRZ7dht_bigger.jpg",
     },
     {
         url: "https://twitter.com/nachosarah/status/1137211118449938432",
@@ -2349,8 +2349,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1499,
         likes: 15763,
         content: "trust me it doesn’t work",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD8fP8AxUwAAD8DT.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1317747551647506432%2FIenaGQsm_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD8fP8AxUwAAD8DT.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1317747551647506432%252FIenaGQsm_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/1139855703785426946",
@@ -2358,7 +2358,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2551,
         likes: 22091,
         content: "Apparently the moon is slowly backing away from the earth (at a rate of like 2 inches per year) and honestly there’s no loyalty in this solar system. You’re nothing without us you cratered bitch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/davideastUK/status/1140200486462722048",
@@ -2366,8 +2366,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25414,
         likes: 69522,
         content: "[middle english period group chat]\n\nfeudalismluvr: havin roast beef w/gravé tonite\ngroats4days: lol gravé\nsaxon_69: gravé\ndomesday_bloke: gravé\nyas_faerie_kween: gravé\n\n[le_borte_d'arthur has changed the group name to \"gravé\"]",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD8uvY5CXoAIzFsS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655195512713379840%2F4LCPHnUx_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD8uvY5CXoAIzFsS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655195512713379840%252F4LCPHnUx_bigger.jpg",
     },
     {
         url: "https://twitter.com/andrealongchu/status/1142799107666448385",
@@ -2375,7 +2375,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 955,
         likes: 7385,
         content: "a lot of writers on here like to complain about how hard writing is but personally i just open up the dirty window and let the sun illuminate the words that i cannot find",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490707597195939844%2Fc81ojfyR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490707597195939844%252Fc81ojfyR_bigger.jpg",
     },
     {
         url: "https://twitter.com/NINETIREDBUGS/status/1142842921277960197",
@@ -2383,8 +2383,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12175,
         likes: 75239,
         content: "whenever i see any of u flirting publicly on twitter dot com this is how i feel",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD9wxk-DXUAAvcC7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1471854491624431622%2FmozGwigd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD9wxk-DXUAAvcC7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1471854491624431622%252FmozGwigd_bigger.jpg",
     },
     {
         url: "https://twitter.com/whysimonewhy/status/1143280089133699072",
@@ -2392,7 +2392,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4699,
         likes: 34311,
         content: "When hot mean girls become public leftists",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1207768548648652809%2FBBWNzAMk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1207768548648652809%252FBBWNzAMk_bigger.jpg",
     },
     {
         url: "https://twitter.com/midmerch/status/1143312170312015873",
@@ -2400,7 +2400,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1834,
         likes: 21548,
         content: "Saying Louis CK got a standing ovation without revealing the venue didn’t have chairs is some PT Barnum level marketing.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1735096093468512256%2FQUUW92rw_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735096093468512256%252FQUUW92rw_bigger.jpg",
     },
     {
         url: "https://twitter.com/UnionSaltBae/status/1143508855315468288",
@@ -2408,7 +2408,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3717,
         likes: 12587,
         content: "I must not reply. Replying is the mind-killer. Replying is the little-death that brings total obliteration. I will face the bad tweet. I will permit the bad tweet to pass over me and through me.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1328462736796291074%2Fnzm1NdZj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1328462736796291074%252Fnzm1NdZj_bigger.jpg",
     },
     {
         url: "https://twitter.com/TweetPotato314/status/1143594317954670592",
@@ -2416,7 +2416,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18079,
         likes: 91795,
         content: "me: did you steal my thesaurus \n\nhorse: nope",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1603829425048518657%2FQ8zljuFK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603829425048518657%252FQ8zljuFK_bigger.jpg",
     },
     {
         url: "https://twitter.com/mineifiwildout/status/1144455043480817664",
@@ -2424,7 +2424,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1357,
         likes: 8438,
         content: "rip to ur grandma but i’m different",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1683621641937633280%2F3Qt-_FV8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
         url: "https://twitter.com/emmaswiftsings/status/1147873756901191680",
@@ -2432,8 +2432,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 125,
         likes: 1493,
         content: "Every boyfriend I’ve ever had",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD-bAxfOU4AAxuti.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1673525054175313920%2F77vOMNUH_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD-bAxfOU4AAxuti.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1673525054175313920%252F77vOMNUH_bigger.jpg",
     },
     {
         url: "https://twitter.com/wbuik/status/1147898217478180864",
@@ -2441,7 +2441,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1172,
         likes: 9298,
         content: "Aw shit...I just realized that the U.S. is to the world what Boston is to the U.S.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/DopeLikeBlaze/status/1147946319862030338",
@@ -2449,7 +2449,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 22491,
         likes: 83675,
         content: "I just feel like there’s another way",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1500732276627410944%2FUUxp4G6e_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500732276627410944%252FUUxp4G6e_bigger.jpg",
     },
     {
         url: "https://twitter.com/nickscalera/status/1148217076441591808",
@@ -2457,7 +2457,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4769,
         likes: 22602,
         content: "I’m advising commuters not to use the street elevator at Pentagon Metro  this morning. #wmata",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1169638779914772488%2FQNBZqSxb_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1169638779914772488%252FQNBZqSxb_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewisgooden/status/1149028915899330560",
@@ -2465,7 +2465,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12823,
         likes: 114050,
         content: "Excuse me @Delta but this is outrageous. I just got sucked through the toilet hole in one of your aircrafts and am now hurtling through the sky, can I get my money back? This never happens on Southwest.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1226241124504887300%2F4_UvLvg8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1226241124504887300%252F4_UvLvg8_bigger.jpg",
     },
     {
         url: "https://twitter.com/DickFooDog/status/1150921816455573505",
@@ -2473,8 +2473,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 199675,
         likes: 520569,
         content: "tired of these mfs",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FD_jlSlaVUAA0gZQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655371963647545344%2FBn5F9hxE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FD_jlSlaVUAA0gZQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655371963647545344%252FBn5F9hxE_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsLumberzack/status/1150964043718508544",
@@ -2482,7 +2482,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18280,
         likes: 134173,
         content: "oh fuck yeah I’m WOKE\n\nW- white guy\nO- overestimating my\nK- knowledge on\nE- extremely complex issues",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1408173285804843010%2FO-m9vydi_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408173285804843010%252FO-m9vydi_bigger.jpg",
     },
     {
         url: "https://twitter.com/JayNedaj/status/1152074356593266690",
@@ -2490,7 +2490,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 88210,
         likes: 337564,
         content: "Kids be like “Watch this” then do a jump and spin wasting my fucking time",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711518257239183360%2FM3jMhr8t_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711518257239183360%252FM3jMhr8t_bigger.jpg",
     },
     {
         url: "https://twitter.com/prophethusband/status/1152227602532360192",
@@ -2498,7 +2498,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3145,
         likes: 23779,
         content: "bro we’re in out late 20s we aren’t “socially awkward” we are fucking losers",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1454540910965010435%2FfxyWMWqA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1454540910965010435%252FfxyWMWqA_bigger.jpg",
     },
     {
         url: "https://twitter.com/SunderCR/status/1153142124017147905",
@@ -2506,7 +2506,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28880,
         likes: 76130,
         content: "tarzan's last thought as he plummets to the jungle floor",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1532268954747654145%2F3tee0Ecv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1532268954747654145%252F3tee0Ecv_bigger.jpg",
     },
     {
         url: "https://twitter.com/KylePlantEmoji/status/1153780921608183808",
@@ -2514,7 +2514,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5053,
         likes: 45441,
         content: "[first day at Domino's]\n\nManager: oh and one more thing: don't fuck the pizzas\n\nMe: haha\n\nAsst Manager: seriously, don't fuck them\n\nCook: dont fuck the pizzas dude\n\nMe: I'm n-\n\nCustomer: that guy's not gonna fuck my pizza is he?\n\nManager: not if he wants to keep his job he wont.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444206738970906624%2Fc-UeeQJr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
         url: "https://twitter.com/ben_rosen/status/1155175985186136064",
@@ -2522,7 +2522,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3889,
         likes: 30685,
         content: "The Sopranos should be called Jersey Boys and Jersey Boys should be called The Sopranos",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1016451004923985920%2FQjtIqSUB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
         url: "https://twitter.com/robdubbin/status/1155490752237101056",
@@ -2530,7 +2530,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21149,
         likes: 102156,
         content: "MY MAN: (comes home)\nME: (nervous) how was the store\nMY MAN: fine\nME: oh thank g —\nMY MAN: ran into jolene\nME: oh no\nMY MAN: she mentioned you left kind of an intense voicemail",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1624592674534588417%2FY_8AoWuP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624592674534588417%252FY_8AoWuP_bigger.jpg",
     },
     {
         url: "https://twitter.com/i_zzzzzz/status/1155528692677976070",
@@ -2538,7 +2538,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 504,
         likes: 3793,
         content: "I think all student loans should be forgiven but each person's forgiveness ceremony should be extremely long and insanely Catholic",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2395504744%2F9uggn50z83n3mr1x406e_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
         url: "https://twitter.com/WillieMcNabb/status/1158045307562856448",
@@ -2546,7 +2546,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7590,
         likes: 31604,
         content: "Legit question for rural Americans - How do I kill the 30-50 feral hogs that run into my yard within 3-5 mins while my small kids play?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1558073899627184130%2FD9Gi0d8p_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1558073899627184130%252FD9Gi0d8p_bigger.jpg",
     },
     {
         url: "https://twitter.com/anchorlines/status/1158504416565223425",
@@ -2554,7 +2554,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 412,
         likes: 3319,
         content: "because maybe\nyou're gonna be the one that saves me\nand after all\nyou're my feral hog",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1714422283299692544%2FDFGJ8Tj8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1714422283299692544%252FDFGJ8Tj8_bigger.jpg",
     },
     {
         url: "https://twitter.com/VoltaireLaFlare/status/1158528892841467904",
@@ -2562,7 +2562,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57,
         likes: 329,
         content: "calling them feral hogs is a good start but we’re not going to get anywhere if they still get qualified immunity",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490380853217832969%2FF6Qgdu2n_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490380853217832969%252FF6Qgdu2n_bigger.jpg",
     },
     {
         url: "https://twitter.com/josiahhughes/status/1159114818814537729",
@@ -2570,7 +2570,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20912,
         likes: 100019,
         content: "to me the most cursed “tik tok” is the passage of time itself",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F855108224592236544%2FREUok_O4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F855108224592236544%252FREUok_O4_bigger.jpg",
     },
     {
         url: "https://twitter.com/quakerraina/status/1160572377132126213",
@@ -2578,7 +2578,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6303,
         likes: 39053,
         content: "The Beatles didn’t make good music they just happened to exist in the first decade that women were allowed to be horny",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1591958462388310016%2FnPGYAUhA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591958462388310016%252FnPGYAUhA_bigger.jpg",
     },
     {
         url: "https://twitter.com/DJJudd/status/1161353495775272960",
@@ -2586,8 +2586,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4032,
         likes: 17434,
         content: "“I shook Robert Kennedy’s hand in 1968,” a woman tells Pete Buttigieg. “So you’re good luck?” he asks. “Not really— he was shot a month later,” she tells him.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEB30yLMWkAAcbEa.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1319806776368386048%2FM1FoteJU_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEB30yLMWkAAcbEa.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1319806776368386048%252FM1FoteJU_bigger.jpg",
     },
     {
         url: "https://twitter.com/KateAronoff/status/1161749959101812736",
@@ -2595,7 +2595,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 993,
         likes: 7216,
         content: "millennials trying to fit in while talking to boomers and gen x about a potential recession: yeah totally it'd be a huge bummer if all my .....assets..... lost.... value",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686227922883878912%2FNW1f-FnO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686227922883878912%252FNW1f-FnO_bigger.jpg",
     },
     {
         url: "https://twitter.com/CaucasianJames/status/1162059800022306824",
@@ -2603,7 +2603,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12189,
         likes: 96150,
         content: "i really hope we never have flying cars. imagine walking home after a bad day and a kia soul flies over u blasting party rock anthem",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F933947605104685056%2FmumGVsyS_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F933947605104685056%252FmumGVsyS_bigger.jpg",
     },
     {
         url: "https://twitter.com/rlycalm/status/1165375820300349440",
@@ -2611,8 +2611,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 176,
         likes: 1762,
         content: "this the toilet taint",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FECw_IQcUYAA-_37.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1583590037949939712%2F43czXiY5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FECw_IQcUYAA-_37.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1583590037949939712%252F43czXiY5_bigger.jpg",
     },
     {
         url: "https://twitter.com/nickciarelli/status/1165659110013976577",
@@ -2620,7 +2620,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2816,
         likes: 24416,
         content: "Jeremy renner is like if a normal guy who works at Dicks sporting goods was granted many wishes by god",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1259563606170980352%2FpgmN5BI7_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1259563606170980352%252FpgmN5BI7_bigger.jpg",
     },
     {
         url: "https://twitter.com/champagneswathi/status/1168226772057546753",
@@ -2628,7 +2628,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23832,
         likes: 133651,
         content: "if your boyfriend has an android.. ur single to me 😤 tf is he gonna do?? tell me to (1/2) fuck (2/2) off ???",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1654291814038355970%2Fg4UXAKhK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1654291814038355970%252Fg4UXAKhK_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/1170764345812357122",
@@ -2636,7 +2636,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35,
         likes: 529,
         content: "every time I start my period early and am wondering why I wake up the next morning and see that franzen’s been at it again",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/decentbirthday/status/1171264135578996736",
@@ -2644,8 +2644,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57545,
         likes: 369964,
         content: "I thought my GrubHub driver died for a second",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEEEqhaTWwAAQtDl.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1090993904533622785%2FFW6wG3hM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEEEqhaTWwAAQtDl.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1090993904533622785%252FFW6wG3hM_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsDanSheehan/status/1171519055552860160",
@@ -2653,8 +2653,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5015,
         likes: 48392,
         content: "Left this up for my roommates but if anyone needs to quote tweet it and say “same” to go viral, I understand",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEEISXrvU8AAqlzN.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649502618123927553%2FJ4ZFkyoQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEEISXrvU8AAqlzN.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/iwearaonesie/status/1172919286752432128",
@@ -2662,7 +2662,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 37088,
         likes: 229283,
         content: "wife: We just ate, why are you making pancakes?\nme: They’re for the dogs\nwife: Why are you making pancakes for the dogs?\nme: They don’t know how",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F601730971394842625%2FmnkC56rU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F601730971394842625%252FmnkC56rU_bigger.jpg",
     },
     {
         url: "https://twitter.com/mrnickharvey/status/1173133451668729856",
@@ -2670,8 +2670,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25208,
         likes: 153277,
         content: "No shit Sherlock",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEEfOp5VXkAAHWiX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1487019076442632200%2FAn79y0W-_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEEfOp5VXkAAHWiX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1487019076442632200%252FAn79y0W-_bigger.jpg",
     },
     {
         url: "https://twitter.com/callmedgoodz/status/1173393740691582977",
@@ -2679,7 +2679,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1232,
         likes: 15303,
         content: "who is the share to facebook button on pornhub really helping",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1594153162268704768%2FSiIjXsh0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1594153162268704768%252FSiIjXsh0_bigger.jpg",
     },
     {
         url: "https://twitter.com/CAshmanActor/status/1173581080957530112",
@@ -2687,7 +2687,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1551,
         likes: 7480,
         content: "German snakes be like hißß",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1612408132046651399%2FFgzDRe6j_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1612408132046651399%252FFgzDRe6j_bigger.jpg",
     },
     {
         url: "https://twitter.com/bijanstephen/status/1173609230890414082",
@@ -2695,7 +2695,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1418,
         likes: 6075,
         content: "how old were you when you realized seal's \"kissed by a rose\" was about cocaine",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1642118781127229442%2Fd5WsKKfF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1642118781127229442%252Fd5WsKKfF_bigger.jpg",
     },
     {
         url: "https://twitter.com/nvrslps/status/1173613587052617728",
@@ -2703,8 +2703,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 756,
         likes: 4048,
         content: "I checked Genius and this exchange killed me",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEEmDVcnWwAIlrZA.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1449037504414371846%2FVuI7ZFvd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEEmDVcnWwAIlrZA.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1449037504414371846%252FVuI7ZFvd_bigger.jpg",
     },
     {
         url: "https://twitter.com/shanley/status/1173643114000437248",
@@ -2712,7 +2712,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2,
         likes: 9,
         content: "this.... this explains so much",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1312220027786080262%2Fz8OScrJ4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
         url: "https://twitter.com/tigersgoroooar/status/1173696996516888577",
@@ -2720,7 +2720,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27975,
         likes: 151035,
         content: "i refuse to ever teach my daughters the archaic concept of “losing one’s virginity” as if some baby-dicked boy who drives a Honda Civic is really taking something special from you lmaaaoo grow up and overthrow the government",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1667059815078608897%2Fu4uoTub-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1667059815078608897%252Fu4uoTub-_bigger.jpg",
     },
     {
         url: "https://twitter.com/dalykyle/status/1174360934237855749",
@@ -2728,8 +2728,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11709,
         likes: 53395,
         content: "Thinking, as I often do, about the time Yahoo News thought \"Zooey Deschanel divorces Death Cab for Cutie frontman Ben Gibbard\" meant she had left a man named Death Cab to pursue a relationship with the lead singer of the band Cutie",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEEwrC73XUAAwmXa.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1182370057042714625%2F5h1ZW1PB_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEEwrC73XUAAwmXa.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1182370057042714625%252F5h1ZW1PB_bigger.jpg",
     },
     {
         url: "https://twitter.com/murrman5/status/1179046435737800705",
@@ -2737,7 +2737,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44264,
         likes: 185337,
         content: "[me telling my story how I survived a plane crash and lived on a deserted island for a year] it was crazy\n[friend who once got a text from me where I accidentally called the grinch the grink] was the grink there?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1361726998905835524%2FVf0PO52y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
         url: "https://twitter.com/amfmpm/status/1179947212698206209",
@@ -2745,7 +2745,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7933,
         likes: 42407,
         content: "fourth law of robotics is ya gotta make it so the eyes go red when they turn evil",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1671584700228411396%2FhVWfmsIG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671584700228411396%252FhVWfmsIG_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/1180291618550755329",
@@ -2753,8 +2753,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 942,
         likes: 10430,
         content: "Drop a pin so I can fade you",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEGE2Qa1WwAEUYM9.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEGE2Qa1WwAEUYM9.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/turtlekiosk/status/1180960593567727616",
@@ -2762,7 +2762,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18798,
         likes: 123053,
         content: "guy with only ps4 and mattress on the floor who doesnt leave his apartment probably has the lowest carbon footprint but no one wants to talk about that",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709382139362357248%2Fhu8bLEhg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709382139362357248%252Fhu8bLEhg_bigger.jpg",
     },
     {
         url: "https://twitter.com/jeremypgordon/status/1181773495165947904",
@@ -2770,7 +2770,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2760,
         likes: 16414,
         content: "[Cher \"Believe\" voice] Can you retweet and like all my posts",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1570440487802208256%2FsEAxWXLM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1570440487802208256%252FsEAxWXLM_bigger.jpg",
     },
     {
         url: "https://twitter.com/electrolemon/status/1182047291084959744",
@@ -2778,7 +2778,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4980,
         likes: 26102,
         content: "not trying to start a feud or anything but I’m a little annoyed @HBO & Nicholas Britell asked Pusha T to write lyrics to the Succession theme, since they asked me to first and turned my version down piped.video/e-6K2CjJ6dk",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/MrsJellySantos/status/1186084130116771840",
@@ -2786,7 +2786,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8662,
         likes: 33304,
         content: "Twitter has ruined everything. I can’t stop wondering if these people washed their legs before smashing grapes.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1698172471004782592%2FCJCKdYfF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1698172471004782592%252FCJCKdYfF_bigger.jpg",
     },
     {
         url: "https://twitter.com/mayainthemoment/status/1186675307358457857",
@@ -2794,7 +2794,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10420,
         likes: 76793,
         content: "I saw a man getting ready to fight someone and he took out his airpods and gave them to his friends like they were hoops",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719054534964649984%2FCslGKXOA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719054534964649984%252FCslGKXOA_bigger.jpg",
     },
     {
         url: "https://twitter.com/markpopham/status/1186995263807864832",
@@ -2802,7 +2802,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1513,
         likes: 8396,
         content: "keeping track of things with the following rhyme:\n\nif the Naomi be Klein\nyou’re doing just fine\nIf the Naomi be Wolf\nOh, buddy. Ooooof.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F731881902102204416%2Fv5uXueMT_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F731881902102204416%252Fv5uXueMT_bigger.jpg",
     },
     {
         url: "https://twitter.com/MARSBEENTHUGGIN/status/1187113234714841088",
@@ -2810,7 +2810,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 84365,
         likes: 319006,
         content: "that’s wild asf how animals just eat meat with no honey mustard, bbq sauce or nothing.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1487566019933712384%2FFlY3kBch_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1487566019933712384%252FFlY3kBch_bigger.jpg",
     },
     {
         url: "https://twitter.com/DVSblast/status/1187526674008686592",
@@ -2818,7 +2818,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 69,
         likes: 337,
         content: "YALL REALLY INSTALL A MICROPHONE THAT LISTENS TO U SLEEP JUST SO U CAN PRETEND TO BE A STAR TREK WITH A ROBOT ASSISTANT? WHAT IMPORTANT INSTRUCTIONS U GOT FOR IT ANYWAY? \"ALEXA, REMIND ME NOT TO COOK & EAT MY KIDS\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F607981569916026881%2FroZR_wmK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F607981569916026881%252FroZR_wmK_bigger.jpg",
     },
     {
         url: "https://twitter.com/killakow/status/1188805278621413376",
@@ -2826,7 +2826,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7,
         likes: 255,
         content: "Me: So Nephew Kyle is Bill Simmons’ real nephew, but Cousin Sal is not his cousin. Rather, he’s Jimmy Kimmel’s cousin. Simmons was on the writing staff toward the beginning of Kimmel’s show\n\nMacArthur Genius Grant Committee Chair: \\*typing furiously\\* Hold on you’re going too fast",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F954193843095834624%2F1uL7Wy7U_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F954193843095834624%252F1uL7Wy7U_bigger.jpg",
     },
     {
         url: "https://twitter.com/tonyhawk/status/1189666915087601664",
@@ -2834,8 +2834,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25258,
         likes: 247429,
         content: "Kid at skatepark (as I arrive): “you a good skater?\nme: sometimes\nhim: you ever been here?\nme: no\nhim: you travel a lot?\nme: yes, perhaps too much \nhim: are you a YouTuber?\nme: no, I’m just a skater and a dad\nhim: wanna see me do a jump?\nme: absolutely\n..and I then shot this pic",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEIKLvMTXkAEtEgr.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1325015260%2F1979_driveway_fs_stink_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEIKLvMTXkAEtEgr.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325015260%252F1979_driveway_fs_stink_bigger.jpg",
     },
     {
         url: "https://twitter.com/tonyhawk/status/1189698031483965440",
@@ -2843,7 +2843,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10464,
         likes: 134276,
         content: "Follow up: I asked him his name and he said Irving. I told him my name is Tony, to which he replied sarcastically “like Tony Hawk haha”\nand then he left.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1325015260%2F1979_driveway_fs_stink_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325015260%252F1979_driveway_fs_stink_bigger.jpg",
     },
     {
         url: "https://twitter.com/SofiaParedes79/status/1191406812853129217",
@@ -2851,8 +2851,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11996,
         likes: 62668,
         content: "When I'm bored I go around putting \nthese stickers on paper towel \ndispensers",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEIi6LnqWoAIdQlb.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1461603425922256896%2FWcGs9Etj_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEIi6LnqWoAIdQlb.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1461603425922256896%252FWcGs9Etj_bigger.jpg",
     },
     {
         url: "https://twitter.com/jack/status/1191733943781003267",
@@ -2860,7 +2860,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3128,
         likes: 23315,
         content: "Twitter\n\n                          from\n                      TWITTER",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1661201415899951105%2FazNjKOSH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1661201415899951105%252FazNjKOSH_bigger.jpg",
     },
     {
         url: "https://twitter.com/stylesp/status/1191856191569313792",
@@ -2868,7 +2868,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 111,
         likes: 691,
         content: "When I don’t know if someone is a lady or man I just call them fam .. 🤦🏽‍♂️🤷🏾‍♂️ i ain’t sure if that’s appropriate but that’s the best I can think of ..",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1552314014318923776%2F5lqmF9UC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1552314014318923776%252F5lqmF9UC_bigger.jpg",
     },
     {
         url: "https://twitter.com/roob_drummer/status/1193903792334524416",
@@ -2876,7 +2876,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 41035,
         likes: 212587,
         content: "snowing hard this morning. Bus driver slid through a red light. Only thing he said was “we slidin” i cant stop thinking about this",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1514230742620033026%2FA7zoDS5b_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1514230742620033026%252FA7zoDS5b_bigger.jpg",
     },
     {
         url: "https://twitter.com/alsarath/status/1194303665953280001",
@@ -2884,7 +2884,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1793,
         likes: 7358,
         content: "guillotine:\n-gory\n-hard to clean\n-gets out of hand\n\nwicker man:\n-family friendly\n-songs\n-grows the seed and blows the mead and springs the wood anew",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1202239627052113922%2FW0AtB0PH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1202239627052113922%252FW0AtB0PH_bigger.jpg",
     },
     {
         url: "https://twitter.com/fyeahmfabello/status/1196551284914098177",
@@ -2892,8 +2892,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5249,
         likes: 19031,
         content: "I want to chat briefly about this text that I received from a friend last week:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEJsBDNCWkAEaRby.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1172247296865636354%2FKkIlSVcK_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEJsBDNCWkAEaRby.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1172247296865636354%252FKkIlSVcK_bigger.jpg",
     },
     {
         url: "https://twitter.com/matthewamiller/status/1197522995943788545",
@@ -2901,7 +2901,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1158,
         likes: 10963,
         content: "Memo to the file: my google search history shows I searched \"Trump nude photos\" because I was trying to figure out what the hell Nunes keeps talking about, not because I actually, you know.....[shudder].",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1130525676765949952%2FIBeJ-JTQ_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1130525676765949952%252FIBeJ-JTQ_bigger.png",
     },
     {
         url: "https://twitter.com/FredTaming/status/1197578895697969152",
@@ -2909,7 +2909,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16958,
         likes: 106102,
         content: "me: face down, ass up\n\nfuneral director: absolutely not",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1588697275467010048%2FvZNkjKUu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1588697275467010048%252FvZNkjKUu_bigger.jpg",
     },
     {
         url: "https://twitter.com/maura/status/1197603300427714560",
@@ -2917,8 +2917,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 132,
         likes: 1111,
         content: "woman on the verge of a breakthrough (pixels, 2019)",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEJ692fDVUAE2MCQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1674130339336278058%2Fegx1w6nm_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEJ692fDVUAE2MCQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1674130339336278058%252Fegx1w6nm_bigger.jpg",
     },
     {
         url: "https://twitter.com/annamerlan/status/1197634950536794112",
@@ -2926,7 +2926,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 688,
         likes: 6958,
         content: "It’s me, Amanda Palmer. Please behold my ten-part play about a trio of French mimes having a mournful orgy inside a rusty harmonium. If you do not cover this you’re an enemy of women",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1471897111314587651%2Fji-rbKQD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1471897111314587651%252Fji-rbKQD_bigger.jpg",
     },
     {
         url: "https://twitter.com/melissagira/status/1197712279443259392",
@@ -2934,7 +2934,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4,
         likes: 56,
         content: "You know this all ends with Quillette launching a “punk cabaret” vertical",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1643684896001466374%2FI6jozc0g_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1643684896001466374%252FI6jozc0g_bigger.jpg",
     },
     {
         url: "https://twitter.com/jdmaccoby/status/1197923319879745542",
@@ -2942,8 +2942,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9254,
         likes: 55877,
         content: "A+ correction",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEJ_g5iFX0AAV_gI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1014170796577775616%2Fj1ZuAkPd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEJ_g5iFX0AAV_gI.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1014170796577775616%252Fj1ZuAkPd_bigger.jpg",
     },
     {
         url: "https://twitter.com/HoneyEyedOlive/status/1199492759884681216",
@@ -2951,7 +2951,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 55396,
         likes: 304412,
         content: "one time someone said pavlov probably thought about feeding his dogs every time he heard someone ring a bell and i haven’t been the same since",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1651628507032883201%2FOgdCNNvg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651628507032883201%252FOgdCNNvg_bigger.jpg",
     },
     {
         url: "https://twitter.com/amyslanchik/status/1200177630793863169",
@@ -2959,8 +2959,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1792,
         likes: 11801,
         content: "Kiefer Police Chief Johnny O’Mara says one of his officers picked up five cups of coffee today at the Glenpool @Starbucks for his dispatchers, as a thank you for working on Thanksgiving. \n\n“PIG” was printed on all five labels, he says. @NewsOn6",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEKfjMTMW4AQ-sCP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1069428537227124738%2FCKuk4CH7_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEKfjMTMW4AQ-sCP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1069428537227124738%252FCKuk4CH7_bigger.jpg",
     },
     {
         url: "https://twitter.com/jpbrammer/status/1200483435602731011",
@@ -2968,7 +2968,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 75,
         likes: 2479,
         content: "remembering that time the New York DMV put a random 40-year-old Dominican man on my official driver's license and when I complained they said well is this not you",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1190049285842329600%2FqwCL5mdU_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
         url: "https://twitter.com/shutupaida/status/1200513509869543424",
@@ -2976,7 +2976,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 124,
         likes: 1161,
         content: "i hate when people pray over my food. don’t you know it taste better if it got a dash of devil in it?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686195092887875584%2FDW3Q4tlO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686195092887875584%252FDW3Q4tlO_bigger.jpg",
     },
     {
         url: "https://twitter.com/Goldfarb232/status/1200515100651773959",
@@ -2984,7 +2984,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 31,
         likes: 334,
         content: "Epstein (in Hell): I guess i'm thankful for the people stood by me,\nxxxtentacion: bro pass the stuffing \nnancy reagan: mr xxxtentacion, would you like . to suck cranberry sauce from my tits",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1202321800165810176%2F9qNgEdiE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1202321800165810176%252F9qNgEdiE_bigger.jpg",
     },
     {
         url: "https://twitter.com/DylanGelula/status/1200548126504804352",
@@ -2992,7 +2992,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2919,
         likes: 38380,
         content: "\"i wish trader joes was on instacart!\" -me living out my little pretend life as my phone sells my medical history to Chevron",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1622415502151647235%2FRUbpFLE2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1622415502151647235%252FRUbpFLE2_bigger.jpg",
     },
     {
         url: "https://twitter.com/sh_wnee/status/1202354525329338369",
@@ -3000,7 +3000,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3274,
         likes: 23908,
         content: "how did the grape afford surgery",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1572625467080859650%2FrTzAQN-p_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1572625467080859650%252FrTzAQN-p_bigger.jpg",
     },
     {
         url: "https://twitter.com/larrycebula/status/1202753209502072832",
@@ -3008,7 +3008,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1778,
         likes: 22077,
         content: "Friend took me for coffee, to talk.\n\nHim: Wife and I are having a baby. Your kids seem cool. Parenting--how do you do it? Any tips?\n\nMe: Whenever you see a stack of free paper napkins take a big handful.\n\nHim:\n\nMe:\n\nHim: That's it?\n\nMe: It is the only thing I am sure of.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1573161342978371586%2FKGBBTuYY_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573161342978371586%252FKGBBTuYY_bigger.jpg",
     },
     {
         url: "https://twitter.com/97Vercetti/status/1205229773171109893",
@@ -3016,7 +3016,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 63961,
         likes: 363378,
         content: "no cop has ever told me “be safe” .. my weed man say it every time i leave his place .. says a lot about society",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587247017264283648%2FMiHFAxC4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587247017264283648%252FMiHFAxC4_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1205902608667299840",
@@ -3024,7 +3024,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15204,
         likes: 100513,
         content: "hello, i’m an adult in a christmas movie. i don’t believe in santa but have also never bought my children even one of the presents they receive every year. they just appear and i am fine with this reality. this is neither confusing nor horrifying",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/jpbrammer/status/1206685008255225857",
@@ -3032,7 +3032,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 67,
         likes: 664,
         content: "hate the Christmas lyric “do you know what I know?” smug little shit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1190049285842329600%2FqwCL5mdU_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
         url: "https://twitter.com/KylePlantEmoji/status/1207216555165016064",
@@ -3040,7 +3040,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35120,
         likes: 252581,
         content: "White dudes will be like \"there he is, the man, the myth, the legend!\" And it's just Garrett",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444206738970906624%2Fc-UeeQJr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
         url: "https://twitter.com/Stephenlough95/status/1207326872230670336",
@@ -3048,8 +3048,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6295,
         likes: 55231,
         content: "Me: \"Can I have some friends over ?\"\n\nMy mother: \"who is coming?\"\n\nMe:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEMFJYxoXsAEhXSn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1539172118818086915%2FpDhZnrd0_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEMFJYxoXsAEhXSn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1539172118818086915%252FpDhZnrd0_bigger.jpg",
     },
     {
         url: "https://twitter.com/davidfarrier/status/1207450843844243456",
@@ -3057,8 +3057,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8814,
         likes: 36891,
         content: "this is my review of cats",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEMG6ItjU4AAziHs.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1391161879926480898%2Fqx3bATDZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEMG6ItjU4AAziHs.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1391161879926480898%252Fqx3bATDZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/James__Mackey/status/1207454443664330752",
@@ -3066,7 +3066,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 60,
         likes: 1250,
         content: "\"I'm 37 now, I've just seen the Cats movie.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1482592486736687104%2Fx1_tK71M_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482592486736687104%252Fx1_tK71M_bigger.jpg",
     },
     {
         url: "https://twitter.com/dancingofpens/status/1207468526258270209",
@@ -3074,8 +3074,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 43315,
         likes: 397430,
         content: "These random boys added me to a group chat for people named Garrett and I get to stay bc they’re being very kind and it’s probably the best thing that’s happened all day",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEMHKOPRWoAAda4b.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1448743955953332230%2F6XOWYdZa_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEMHKOPRWoAAda4b.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1448743955953332230%252F6XOWYdZa_bigger.jpg",
     },
     {
         url: "https://twitter.com/crocodilethumbs/status/1207481625480708098",
@@ -3083,7 +3083,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8506,
         likes: 53867,
         content: "do you think the kool aid man moves into bigger pitchers as he outgrows them like a hermit crab",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1384725131273011200%2FAzDSiB7__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1384725131273011200%252FAzDSiB7__bigger.jpg",
     },
     {
         url: "https://twitter.com/KylePlantEmoji/status/1207481908201803777",
@@ -3091,7 +3091,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7906,
         likes: 71356,
         content: "I tried explaining impeachment and the first thought I had was \"he's been cancelled, but his account hasn't been suspended\" and I need to lie down and think about who I am and what I'm doing",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444206738970906624%2Fc-UeeQJr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
         url: "https://twitter.com/Dauragon/status/1207494481492221952",
@@ -3099,8 +3099,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1262,
         likes: 4261,
         content: "This movie turned my guy into dr manhattan",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEMG6ItjU4AAziHs.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F813766420551049218%2FsoSRqBXW_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEMG6ItjU4AAziHs.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F813766420551049218%252FsoSRqBXW_bigger.jpg",
     },
     {
         url: "https://twitter.com/bestinsio/status/1208167182951239682",
@@ -3108,7 +3108,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 55531,
         likes: 269639,
         content: "subway rat made eye contact with me and said “join us. when the train comes we slide under the tracks and feel it rumble over us like a warm thunderstorm. we live forever and we love to live” I said no thank you I am too large he turned away from me I cried",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1560730432970395649%2FsnjkrDzX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560730432970395649%252FsnjkrDzX_bigger.jpg",
     },
     {
         url: "https://twitter.com/quendergeer/status/1208339200443113472",
@@ -3116,7 +3116,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1854,
         likes: 7830,
         content: "The existence of Tyler, the Creator presupposes the existences of a Tyler, the Destroyer. In this essay i shall",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1568892935093063687%2FItqwaQ9b_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1568892935093063687%252FItqwaQ9b_bigger.jpg",
     },
     {
         url: "https://twitter.com/minakimes/status/1208497177057587200",
@@ -3124,7 +3124,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1657,
         likes: 40412,
         content: "handsomely",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1638917569909514241%2FpuGr_V_P_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638917569909514241%252FpuGr_V_P_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaketropolis/status/1210271698899132417",
@@ -3132,7 +3132,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6629,
         likes: 36946,
         content: "wish it was 1871 so i could cough into a hankerchief once, notice it is spotted with blood, and then die tragically and sexily a few weeks later from the consumption",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1495618642859462662%2FZ7R-8rfa_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495618642859462662%252FZ7R-8rfa_bigger.jpg",
     },
     {
         url: "https://twitter.com/eliyudin/status/1210386089246154752",
@@ -3140,7 +3140,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12,
         likes: 344,
         content: "Not having sex for a year has made me see things differently. Mostly I see things like before, but hornier",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1721050692641533952%2FThxD4Mjs_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721050692641533952%252FThxD4Mjs_bigger.jpg",
     },
     {
         url: "https://twitter.com/shutupaida/status/1210420190317600768",
@@ -3148,7 +3148,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9730,
         likes: 80933,
         content: "we both depressed, now we fucking under this weighted blanket",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686195092887875584%2FDW3Q4tlO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686195092887875584%252FDW3Q4tlO_bigger.jpg",
     },
     {
         url: "https://twitter.com/errrelizabethh/status/1211631845839949825",
@@ -3156,8 +3156,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33820,
         likes: 105222,
         content: "Going into 2020 a virgin!!!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FENCUvYjW4AMMJB0.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1669475648023265280%2FaivaJjJe_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FENCUvYjW4AMMJB0.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669475648023265280%252FaivaJjJe_bigger.jpg",
     },
     {
         url: "https://twitter.com/chordgang/status/1211711827845025804",
@@ -3165,7 +3165,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3589,
         likes: 30424,
         content: "the word queer has too much baggage for some people to ever be comfortable with its use, and any acronym is going to either exclude people or be incredibly unwieldy. I'm therefore suggesting a new term for people with non-normative sexual/gender identities.\n\nthe word is jellicle",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736577306867408896%2F6JnpDv9V_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736577306867408896%252F6JnpDv9V_bigger.jpg",
     },
     {
         url: "https://twitter.com/husbandu/status/1211871548816187392",
@@ -3173,8 +3173,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3199,
         likes: 32553,
         content: "losing it at this rn",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FENFuvuJXkAI48yP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1467729075347374083%2FXvS6rdEy_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FENFuvuJXkAI48yP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1467729075347374083%252FXvS6rdEy_bigger.jpg",
     },
     {
         url: "https://twitter.com/SlimiHendrix/status/1212138440315359232",
@@ -3182,7 +3182,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 118,
         likes: 787,
         content: "this is one of the most powerful tweets i’ve ever seen",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1516878181151744003%2FFVJszvaG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516878181151744003%252FFVJszvaG_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaketropolis/status/1213227590267363330",
@@ -3190,7 +3190,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13828,
         likes: 104581,
         content: "so i can fuck your wife while you're deployed",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1495618642859462662%2FZ7R-8rfa_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495618642859462662%252FZ7R-8rfa_bigger.jpg",
     },
     {
         url: "https://twitter.com/GemOfAmara/status/1214143485281882112",
@@ -3198,8 +3198,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2093,
         likes: 15321,
         content: "no one:\nevery writers' room in history: I've thought of a great title for this episode",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FENmBBJcUwAAsXYA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1110038615994912770%2FgX2rMsbd_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FENmBBJcUwAAsXYA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1110038615994912770%252FgX2rMsbd_bigger.png",
     },
     {
         url: "https://twitter.com/sullydish/status/1214264659383062530",
@@ -3207,7 +3207,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6,
         likes: 93,
         content: "She decided to include what she calls a \"myth\" about \"large sex organs\" among African-Americans. As a test to see just how fact-checked these essays were, I merely asked her what sources she had that this is indeed a \"myth.\" 2/",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205562537%2F1ccdefbf621cd2d56ea6cabb700f6a3c_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205562537%252F1ccdefbf621cd2d56ea6cabb700f6a3c_bigger.png",
     },
     {
         url: "https://twitter.com/380kmh/status/1214268546253033474",
@@ -3215,8 +3215,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12642,
         likes: 92974,
         content: "apparently a freight train in Minnesota was leaking corn",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FENnyzgWXUAA0RLH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1681482242315501568%2FsGA8p7XM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FENnyzgWXUAA0RLH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1681482242315501568%252FsGA8p7XM_bigger.jpg",
     },
     {
         url: "https://twitter.com/AthertonKD/status/1214309411637739520",
@@ -3224,7 +3224,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42,
         likes: 429,
         content: "there are thankfully few writers of Andrew Sullivan's calipers",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1323149280174088192%2F7tSU5Oy5_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323149280174088192%252F7tSU5Oy5_bigger.png",
     },
     {
         url: "https://twitter.com/NewDadNotes/status/1216170133514792966",
@@ -3232,7 +3232,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3018,
         likes: 20450,
         content: "[watching Star Wars]\n\nDaughter: that was dumb to call it the Death Star.\n\nMe: why?\n\nDaughter: cause it tells the Rebels they need to blow it up.\n\nMe: oh.\n\nDaughter: I’m gonna call mine the Hope Star.\n\nMe: smart lol wait-what?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1349781186911068162%2FYknkAJ4U_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1349781186911068162%252FYknkAJ4U_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyofPhysics/status/1218281779733266432",
@@ -3240,7 +3240,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8393,
         likes: 90287,
         content: "Me, as an undergrad, just starting upper level courses: THERE IS A PROFOUNDLY BEAUTIFUL REASON FOR ALL LAWS OF PHYSICS \n\nMe, as a perpetual graduate student: Light goes that fast because it wants to",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1250929542354604037%2FoikaA5to_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1250929542354604037%252FoikaA5to_bigger.jpg",
     },
     {
         url: "https://twitter.com/sarahclazarus/status/1218339538021408768",
@@ -3248,7 +3248,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15914,
         likes: 139577,
         content: "regular weekend: damn hope I have time to do laundry \n\nthree day weekend: 𝓂𝒶𝓎𝒷𝑒 𝐼’𝓁𝓁 𝓌𝓇𝒾𝓉𝑒 𝒶 𝒷𝑜𝑜𝓀",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1622646445051645952%2Fjo8BC7He_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1622646445051645952%252Fjo8BC7He_bigger.jpg",
     },
     {
         url: "https://twitter.com/xpatriciah/status/1218429351517196288",
@@ -3256,8 +3256,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2918,
         likes: 24783,
         content: "best tinder bio I’ve ever read",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEOi7CWEXkAAQlzV.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1500840337375436801%2FVlftfE21_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEOi7CWEXkAAQlzV.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500840337375436801%252FVlftfE21_bigger.jpg",
     },
     {
         url: "https://twitter.com/alicecbennett/status/1219575123742728192",
@@ -3265,8 +3265,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10008,
         likes: 45243,
         content: "My vet has the news on precisely how little salami cats can have as a treat",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEOzNGufWoAEuKCZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1602045064905199617%2F_EYeg4WZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEOzNGufWoAEuKCZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1602045064905199617%252F_EYeg4WZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/jpbrammer/status/1219730782496993281",
@@ -3274,7 +3274,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2578,
         likes: 20456,
         content: "writing my Latino novel: \"We fled late in the night, or /la noche/ as Mami calls it. I'm always embarrassed when Mami says shit like that, but I forgive her because she's one of eleven kids and is from /el barrio./ Anyway it was late at night, and Yolanda Saldivar was chasing us-",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1190049285842329600%2FqwCL5mdU_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
         url: "https://twitter.com/EffiMai/status/1219010655677812737",
@@ -3282,8 +3282,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2133,
         likes: 8620,
         content: "No WONDER THIS WON THE WORST SEX AWARD THIS YEAR WHAT THE EVER LOVING FUCK",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEOrLun_X4AAsHrT.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1109224761194958849%2FI3CfMgR3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEOrLun_X4AAsHrT.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1109224761194958849%252FI3CfMgR3_bigger.jpg",
     },
     {
         url: "https://twitter.com/MulherTamarindo/status/1219939120996343809",
@@ -3291,7 +3291,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 123,
         likes: 3332,
         content: "What a terrible day to know how to read",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1706382088398684160%2FZ5zsAeyt_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706382088398684160%252FZ5zsAeyt_bigger.jpg",
     },
     {
         url: "https://twitter.com/imbeccable/status/1220035569914458113",
@@ -3299,7 +3299,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 48,
         content: "rip mr peanut, honey roasted to death",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F549796276527988736%2FgS7Of_Il_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F549796276527988736%252FgS7Of_Il_bigger.jpeg",
     },
     {
         url: "https://twitter.com/willystaley/status/1220104068892327937",
@@ -3307,7 +3307,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 621,
         likes: 13725,
         content: "The guy who owns Tito's Vodka is named Tito Beveridge....what the fuck",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F901090690838523904%2F-PwM3MQL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F901090690838523904%252F-PwM3MQL_bigger.jpg",
     },
     {
         url: "https://twitter.com/selentelechia/status/1221851332958535680",
@@ -3315,7 +3315,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7858,
         likes: 27949,
         content: "famous: well-known for Good reasons \n\ninfamous: well-known for Bad reasons\n\ntherefore\n\nflammable: catches on fire for Good reasons\n\ninflammable: catches on fire for Bad reasons",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1621222343958822926%2Fx9Pxuqnh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1621222343958822926%252Fx9Pxuqnh_bigger.jpg",
     },
     {
         url: "https://twitter.com/SheriffAlert/status/1221881862244749315",
@@ -3323,8 +3323,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 55125,
         likes: 292710,
         content: "Large boulder the size of a small boulder is completely blocking east-bound lane Highway 145 mm78 at Silverpick Rd. Please use caution and watch for emergency vehicles in the area.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEPT_DtWXUAA2fo1.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F438442693635493888%2FbT4_bZBP_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEPT_DtWXUAA2fo1.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F438442693635493888%252FbT4_bZBP_bigger.jpeg",
     },
     {
         url: "https://twitter.com/_OfficialR62/status/1222531875262074880",
@@ -3332,8 +3332,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 47632,
         likes: 230557,
         content: "some people just do not learn",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEPYvit4WoAkPRGE.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724858403162292224%2FAcZNY8yE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEPYvit4WoAkPRGE.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724858403162292224%252FAcZNY8yE_bigger.jpg",
     },
     {
         url: "https://twitter.com/Funy0nion/status/1222658083698155520",
@@ -3341,7 +3341,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7186,
         likes: 25627,
         content: "jello being vacuumed through a tube be like shldopslddldpsshlosphsosspslosspspdls",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1691292099361030144%2F9k0fAvQ1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691292099361030144%252F9k0fAvQ1_bigger.jpg",
     },
     {
         url: "https://twitter.com/waxmittert/status/1222671784635518976",
@@ -3349,8 +3349,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2850,
         likes: 33592,
         content: "BIIIIIIIIIIIITCH!!!!!! Is that MEDICAL fondue?!?????!?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEPfNgAfWsAIvOAL.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1528854806642688000%2Fyi67LAC3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEPfNgAfWsAIvOAL.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1528854806642688000%252Fyi67LAC3_bigger.jpg",
     },
     {
         url: "https://twitter.com/threelisabeth/status/1222930624610291713",
@@ -3358,7 +3358,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 25,
         content: "me at 8am on my day off: wow, a whole day stretches before me... what wonders await, how many things will i do!\n\nme at noon on my day off: 4 hours deep into a stranger's \"troubleshooting your homemade yogurt\" wordpress blog posts",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1248963935383977991%2FGrp9F1wZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248963935383977991%252FGrp9F1wZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/1224314158025527296",
@@ -3366,7 +3366,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20249,
         likes: 83200,
         content: "It’s wild that you can just do anything. Date the wrong person, choose the wrong career. You can go outside and start eating dirt if you want, and the universe lets you. Not even a pop up like “Are you sure?”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/heWIZARD/status/1224397204766412800",
@@ -3374,7 +3374,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9598,
         likes: 45803,
         content: "There are only 6 kinds of tweet:\n\n1. I feel drunk but I'm sober\n2. I'm young and I'm underpaid\n3. I'm tired but I'm working, yeah\n4. I care but I'm restless\n5. I'm here but I'm really gone\n6. I'm wrong and I'm sorry, baby",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1283882262509961217%2FAsXgdiwS_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1283882262509961217%252FAsXgdiwS_bigger.jpg",
     },
     {
         url: "https://twitter.com/OATMlLKLATTE/status/1227632928236195841",
@@ -3382,7 +3382,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8471,
         likes: 26497,
         content: "ａｓｋ　ｎｏｔ　ｆｏｒ\nｗｈｏｍ　ｔｈｅ　ｂａｊａ　ｂｌａｓｔｓ；\nｉｔ　ｂｌａｓｔｓ　ｆｏｒ\nｔｈｅｅ",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1722646400066818048%2FnS0Fcmnl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1722646400066818048%252FnS0Fcmnl_bigger.jpg",
     },
     {
         url: "https://twitter.com/mollylambert/status/1227722925102354432",
@@ -3390,7 +3390,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 433,
         likes: 5076,
         content: "Quibi is short for Quick Bites ergo Hulu is short for Huge Lunch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1544438124880674816%2FL0wRHOC8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1544438124880674816%252FL0wRHOC8_bigger.jpg",
     },
     {
         url: "https://twitter.com/REALpunknews/status/1231942056953729025",
@@ -3398,7 +3398,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 210,
         likes: 983,
         content: "Nü-Metal Doctor Asks You to Open Mouth and Say, “Ooh WA-AH-AH-AH-AH!” thehardtimes.net/music/nu-me…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1155255609127657472%2FJtCuxwpz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1155255609127657472%252FJtCuxwpz_bigger.jpg",
     },
     {
         url: "https://twitter.com/Meg_D_ItsMe/status/1231953703747432448",
@@ -3406,8 +3406,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 161,
         likes: 1019,
         content: "🎶Law & Order: Massachusetts 🎶\n.\n.\n.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FERjHV_rWkAEkJp6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1414358956810461188%2FPFgkmlyT_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FERjHV_rWkAEkJp6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1414358956810461188%252FPFgkmlyT_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/1233086829039144960",
@@ -3415,7 +3415,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 363,
         likes: 5653,
         content: "men love driving cars with their feet sticking out the bottom and saying shit like yabba dabba doo²\n\n² Posted during the first half of the 2019-2020 coronavirus outbreak, but preceding The Incident, we begin to see Leon's posting ability decline.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/anchorlines/status/1233152148545982464",
@@ -3423,8 +3423,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 139,
         likes: 1600,
         content: "did my mom send this",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FER0JV7mXkAs4ccz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1714422283299692544%2FDFGJ8Tj8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FER0JV7mXkAs4ccz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1714422283299692544%252FDFGJ8Tj8_bigger.jpg",
     },
     {
         url: "https://twitter.com/jillreports/status/1233870486670495745",
@@ -3432,8 +3432,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14435,
         likes: 82872,
         content: "I was sent to a Costco to see if people are stocking up (even though health officials say it’s not necessary) in case COVID-19 gets more serious here. This guy came out of the store with 16 boxes of condoms and a big jar of coconut oil. We all have priorities.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FER-WqccUYAAKItI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1018740713511505920%2Fvlu1ZYM1_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FER-WqccUYAAKItI.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1018740713511505920%252Fvlu1ZYM1_bigger.jpg",
     },
     {
         url: "https://twitter.com/wyntermitchell/status/1233950408097193984",
@@ -3441,8 +3441,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 724,
         likes: 6807,
         content: "I love black people.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FER_fVOkVAAAP5yF.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1588671304797851649%2FpVeudxK8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FER_fVOkVAAAP5yF.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1588671304797851649%252FpVeudxK8_bigger.jpg",
     },
     {
         url: "https://twitter.com/Grosdoriane/status/1235359816236838912",
@@ -3450,8 +3450,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14389,
         likes: 58806,
         content: "A while back, Dunkin Donuts used Rob Gronkowski in some ads. But my friend and I had no idea he was a football player, so we thought Dunkin came up with an Original Character named \"Gronk\" to advertise their energy drink.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FESThMsuWAAAT3GC.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1679934800419799049%2F7uAmt5w2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FESThMsuWAAAT3GC.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679934800419799049%252F7uAmt5w2_bigger.jpg",
     },
     {
         url: "https://twitter.com/RATM/status/1237036386886303744",
@@ -3459,8 +3459,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13754,
         likes: 32293,
         content: "Washing in the name of...\n\nOn this occasion it's best you do what they tell ya",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FESrVU1cWAAYkhN2.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1329062274955403266%2F3SdjoaPg_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FESrVU1cWAAYkhN2.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1329062274955403266%252F3SdjoaPg_bigger.jpg",
     },
     {
         url: "https://twitter.com/ArfMeasures/status/1237043496227409920",
@@ -3468,7 +3468,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17499,
         likes: 137590,
         content: "Interviewer: Why do you want to work for Facebook?\n\nMe: I'm keen on protecting people's data and want them to have a good user experience\n\nInterviewer:\n\nMe:\n\nInterviewer:\n\nMe: haha I'm joking I don't give a shit\n\nInterviewer: haha omg I was like whaaatttt lmao",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1348255282833534976%2FPk7ewKKA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1237054627603873796",
@@ -3476,7 +3476,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14613,
         likes: 89935,
         content: "the killers: it’s called mr. brightside. verse 1 is about being cheated on\n\nproducer: geez does it get resolved in the 2nd verse?\n\nthe killers: no, we literally just sing all of that again. won’t change a word\n\nproducer: sounds bad\n\nthe killers: its the greatest song ever written",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/caseyjohnston/status/1237756028810297344",
@@ -3484,7 +3484,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 124,
         likes: 1579,
         content: "absolutely killing me that all-purpose cleaning sprays made by mrs meyers, seventh generation, et al are still on grocery store shelves. when the cards are down and shit hits the fan no one is an organic hippie anymore",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1338127761249013762%2FhGPAUxKM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1338127761249013762%252FhGPAUxKM_bigger.jpg",
     },
     {
         url: "https://twitter.com/Snowden/status/1237818171446513666",
@@ -3492,7 +3492,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6270,
         likes: 32896,
         content: "Social distancing is underrated.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F648888480974508032%2F66_cUYfj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F648888480974508032%252F66_cUYfj_bigger.jpg",
     },
     {
         url: "https://twitter.com/SJKSalisbury/status/1239185697271136259",
@@ -3500,7 +3500,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2257,
         likes: 12521,
         content: "Thankfully I haven't had to go out and panic buy any food as I've been saving some plums in my icebox for this very occasion.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444922167595094019%2FxEoEhbWA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444922167595094019%252FxEoEhbWA_bigger.jpg",
     },
     {
         url: "https://twitter.com/perfectsweeties/status/1239538676968742912",
@@ -3508,7 +3508,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1586,
         likes: 12720,
         content: "long ago Andy Samberg cast out the awkward and mean parts of his personality which went on to take shape in the form of Michael Cera and Jesse Eisenberg. they now exist as a living matroyshka. every night Cera must climb inside Eisenberg who must then himself climb inside Samberg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1433189217652387840%2FXS4KC_wg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1433189217652387840%252FXS4KC_wg_bigger.jpg",
     },
     {
         url: "https://twitter.com/magn0liadana/status/1239577067513098240",
@@ -3516,7 +3516,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9411,
         likes: 130702,
         content: "in my first zoom class prof started sharing screen and one of her folders is just in all caps DIVORCE",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1262871218069270529%2F-pBw6qip_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1262871218069270529%252F-pBw6qip_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1239932974050795521",
@@ -3524,7 +3524,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 61216,
         likes: 193343,
         content: "“i can’t go because of coronavirus” \n- whiny\n- boring\n- weak \n\n“i’ve sworn an oath of solitude til the blight is purged from these lands”\n- heroic, valiant\n- they will assume you have a sword\n- impossible to check if you really have a sword because of coronavirus",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/darthmewwww/status/1239991921910730754",
@@ -3532,7 +3532,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 176155,
         likes: 502423,
         content: "Day 4 of quarantine",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1727865013921095680%2F8APS27xj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727865013921095680%252F8APS27xj_bigger.jpg",
     },
     {
         url: "https://twitter.com/tentwentysixpm/status/1240089341864493057",
@@ -3540,8 +3540,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18383,
         likes: 106378,
         content: "what THE FUCK",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FETWurq_WoAI6Lcu.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1658287941100408833%2FAK9_L_PD_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FETWurq_WoAI6Lcu.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1658287941100408833%252FAK9_L_PD_bigger.jpg",
     },
     {
         url: "https://twitter.com/whitneyarner/status/1240266026014650369",
@@ -3549,7 +3549,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18,
         likes: 112,
         content: "I had a dream that there was a thing on here where whenever Cuomo did something to dunk on de Blasio everyone posted \"eggs up for Cuomo 🥚🥚🥚🥚🥚🥚🥚🥚🥚\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1676748452451975170%2FUBr4izVz_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1676748452451975170%252FUBr4izVz_bigger.png",
     },
     {
         url: "https://twitter.com/wownicebuttdude/status/1240293295328296961",
@@ -3557,7 +3557,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 43,
         content: "had 3 coffees and a bunch of american cheese for breakfast \"to see what happens\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1510626471978704900%2F1TWO2-6a_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1510626471978704900%252F1TWO2-6a_bigger.jpg",
     },
     {
         url: "https://twitter.com/inLaurasWords/status/1240687424377720835",
@@ -3565,7 +3565,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44613,
         likes: 574544,
         content: "A funny thing about quarantining is hearing your partner in full work mode for the first time. Like, I’m married to a “let’s circle back” guy — who knew?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1281733338353541120%2FM6V3qKFW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1281733338353541120%252FM6V3qKFW_bigger.jpg",
     },
     {
         url: "https://twitter.com/heyitsgarrett/status/1242124476671651843",
@@ -3573,7 +3573,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 21,
         content: "I've never played Animal Crossing, but based on what I've read on Twitter, you play a depressed millennial who moves to a deserted island to collect fish. Everyone congratulates you for catching these fish, except for Tom Nook who is an asshole.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1519415326370263040%2FlCqlnYlL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1519415326370263040%252FlCqlnYlL_bigger.jpg",
     },
     {
         url: "https://twitter.com/JamesBlunt/status/1242751811594878976",
@@ -3581,7 +3581,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 49377,
         likes: 475282,
         content: "During lockdown, while many other artists are doing mini-concerts from their homes, I thought I’d do you all a favour and not.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686031452868108289%2F61rnyMp5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686031452868108289%252F61rnyMp5_bigger.jpg",
     },
     {
         url: "https://twitter.com/jerrysaltz/status/1246165131232452610",
@@ -3589,8 +3589,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 579,
         likes: 3141,
         content: "Commencing Day 16 Of Sheltering-in-Place. Coffee-run to gas-station complete. Eighteen large to-go.  Put in car, drive them home, deloused, decontaminated, showered, and placed in fridge for use. \nStay safe out there, outlaws and creative-gypsies.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEUtEk1iXsAMVFLW.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1673352406527008769%2Fr9yOaIgl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEUtEk1iXsAMVFLW.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1673352406527008769%252Fr9yOaIgl_bigger.jpg",
     },
     {
         url: "https://twitter.com/Phil_Lewis_/status/1248238519551754240",
@@ -3598,7 +3598,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11047,
         likes: 45650,
         content: "When you’re in full codeswitch mode but slip up a little bit:",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1620771933770993666%2FG1SEtN9d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620771933770993666%252FG1SEtN9d_bigger.jpg",
     },
     {
         url: "https://twitter.com/romainrevert/status/1249798306454212610",
@@ -3606,8 +3606,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 272896,
         likes: 1283242,
         content: "Due to less air pollution the sky is so clear ! I can see the Universal logo !",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEVgs4OlXkAAW7hc.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F657315512720994304%2FuxUFG1Ig_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEVgs4OlXkAAW7hc.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F657315512720994304%252FuxUFG1Ig_bigger.jpg",
     },
     {
         url: "https://twitter.com/CBThorburn/status/1251103369428680705",
@@ -3615,8 +3615,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25001,
         likes: 100639,
         content: "Editor: You get those photos of Elliott Gould and Grover?\nPhotographer: Sure did boss, real fuckin sexy just like you asked.\nEditor: what",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEVzP4ZbWkAEVAcg.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1645887952973705227%2Fy_s62dvr_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEVzP4ZbWkAEVAcg.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1645887952973705227%252Fy_s62dvr_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoseCanseco/status/1251580548759224320",
@@ -3624,7 +3624,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3320,
         likes: 12973,
         content: "Can Bigfoot or aliens get Coronavirus I need to know because I have had contact with them",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1398509855703375879%2FCK7sAPUh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1398509855703375879%252FCK7sAPUh_bigger.jpg",
     },
     {
         url: "https://twitter.com/Grimezsz/status/1252692434007412737",
@@ -3632,7 +3632,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9186,
         likes: 74424,
         content: "Having a baby is like the dark souls of tamagotchi",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730078462621458432%2FLhMpo9ug_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730078462621458432%252FLhMpo9ug_bigger.jpg",
     },
     {
         url: "https://twitter.com/1followernodad/status/1255226565312557063",
@@ -3640,7 +3640,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4462,
         likes: 47039,
         content: "best lyric of all time is when elton John was like “if I was a sculptor, but then again no” like pls I’m on the edge of my seat .. what were you going to do as a sculptor Elton!?!!!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726076187133566976%2FFP9s_k8Z_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
         url: "https://twitter.com/1followernodad/status/1255226565312557063",
@@ -3648,7 +3648,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4462,
         likes: 47039,
         content: "best lyric of all time is when elton John was like “if I was a sculptor, but then again no” like pls I’m on the edge of my seat .. what were you going to do as a sculptor Elton!?!!!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726076187133566976%2FFP9s_k8Z_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
         url: "https://twitter.com/Manna_Festo/status/1255263066868133893",
@@ -3656,7 +3656,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8,
         likes: 421,
         content: "He never even tells us what he'd do as a man who makes potions in a traveling show. Just leaves that whole storyline dangling.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F994756648597012481%2FH99mbsH9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F994756648597012481%252FH99mbsH9_bigger.jpg",
     },
     {
         url: "https://twitter.com/AllieGoertz/status/1255574173197275136",
@@ -3664,7 +3664,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36,
         likes: 457,
         content: "Why would anyone try to end the lockdown before we reach Day 69?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1643064561447366656%2FL-viwKun_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1643064561447366656%252FL-viwKun_bigger.jpg",
     },
     {
         url: "https://twitter.com/omgitsdef/status/1259181086132895744",
@@ -3672,7 +3672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35945,
         likes: 348121,
         content: "Today is 5/9, or as some guys call it 5/11",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1633162933235597312%2F6A65GO-z_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633162933235597312%252F6A65GO-z_bigger.jpg",
     },
     {
         url: "https://twitter.com/C_GraceT/status/1260022115618615301",
@@ -3680,8 +3680,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6214,
         likes: 71869,
         content: "she was the blueprint for....so many Twitter users",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEXx_bULUYAEkShe.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1000352509104402432%2FoDYvea9v_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEXx_bULUYAEkShe.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1000352509104402432%252FoDYvea9v_bigger.jpg",
     },
     {
         url: "https://twitter.com/neontaster/status/1262956956320497664",
@@ -3689,8 +3689,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 358,
         likes: 2269,
         content: "My plans                       2020",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEYbsb3oWoAAsJbv.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1695176282294673409%2FgGg9Qau8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEYbsb3oWoAAsJbv.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695176282294673409%252FgGg9Qau8_bigger.jpg",
     },
     {
         url: "https://twitter.com/zedonarrival/status/1264411831323570178",
@@ -3698,7 +3698,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13619,
         likes: 158112,
         content: "thinking about how my ex used to say lana del rey was miserable that she'd never get the opportunity to fuck JFK and took it out on the rest of us with her music",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1250533175945805824%2FDDDfH1FW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1250533175945805824%252FDDDfH1FW_bigger.jpg",
     },
     {
         url: "https://twitter.com/noreaga/status/1264681543320166401",
@@ -3706,7 +3706,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21355,
         likes: 47355,
         content: "She in racial chat rooms showing feet!!!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1248536670019842049%2FKcMLzziq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248536670019842049%252FKcMLzziq_bigger.jpg",
     },
     {
         url: "https://twitter.com/PonchoRebound/status/1266007690985312256",
@@ -3714,8 +3714,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7214,
         likes: 38016,
         content: "My dude found out exactly how expensive this hobby can get…",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEZHDSIxXQAATUIH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709587947954012160%2FRg8T0J3S_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEZHDSIxXQAATUIH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709587947954012160%252FRg8T0J3S_bigger.png",
     },
     {
         url: "https://twitter.com/UtilityLimb/status/126780301211992064",
@@ -3723,7 +3723,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14405,
         likes: 24146,
         content: "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1641418276%2Ftumblr_lule5ckvND1qz4yoco1_1280_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1641418276%252Ftumblr_lule5ckvND1qz4yoco1_1280_bigger.png",
     },
     {
         url: "https://twitter.com/TheOnion/status/1267861765070688261",
@@ -3731,8 +3731,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2268,
         likes: 11171,
         content: "De Blasio: ‘It Is An Honor To Have My Daughter Doxxed By The Greatest Police Force In The World’ bit.ly/2Mm1Zx4",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEZhZgdfXsAwErcd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1517492889852461056%2FbEnqsvVR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEZhZgdfXsAwErcd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1517492889852461056%252FbEnqsvVR_bigger.jpg",
     },
     {
         url: "https://twitter.com/naomiosaka/status/1268590075786326017",
@@ -3740,7 +3740,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18705,
         likes: 85691,
         content: "I hate when random people say athletes shouldn’t get involved with politics and just entertain. Firstly, this is a human rights issue. Secondly, what gives you more right to speak than me? By that logic if you work at IKEA you are only allowed to talk about the “GRÖNLID” 🤷🏽‍♀️?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1412641855636791299%2F1O-cwb-x_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1412641855636791299%252F1O-cwb-x_bigger.jpg",
     },
     {
         url: "https://twitter.com/TweetPotato314/status/1268704153934716928",
@@ -3748,7 +3748,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23894,
         likes: 136966,
         content: "me: how many are in a dozen \n\nbaker: 13\n\nme: why\n\nbaker: cause fuck 12",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1603829425048518657%2FQ8zljuFK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603829425048518657%252FQ8zljuFK_bigger.jpg",
     },
     {
         url: "https://twitter.com/JennyENicholson/status/1271267475963838467",
@@ -3756,7 +3756,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 77652,
         likes: 344695,
         content: "We're gonna have to retire the expression \"avoid it like the plague\" because it turns out humans do not do that",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715626776976896000%2FP_o_YczX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715626776976896000%252FP_o_YczX_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1275817084547731456",
@@ -3764,7 +3764,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16951,
         likes: 118635,
         content: "british cooking shows: tell us about this wee tart youve made, the crust is just lovely\n\namerican cooking shows: we’ve replaced your knives with philips head screwdrivers & released raccoons in the kitchen. the clock is set for 30 seconds, please bake us peace in the middle east",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/speechleyish/status/1275990670663012352",
@@ -3772,7 +3772,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20276,
         likes: 70591,
         content: "Writing about US food the way the NYT covers Asian fruit: In a nation torn by racial conflict, one unlikely food unites. To those accustomed to chopsticks, the greasy parcel known as a 'burger', a sort of split bao, is crude and messy. Yet it encapsulates a nation's violent past.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1659572289376223232%2F-jZmjYmL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1659572289376223232%252F-jZmjYmL_bigger.jpg",
     },
     {
         url: "https://twitter.com/kcander44/status/1276320399165284352",
@@ -3780,7 +3780,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5662,
         likes: 45042,
         content: "Me: What do you want to name your character?\n\nKid (almost 4): City Jeans.\n\nMe: I've literally been paid to come up with character names for a video game and never thought of one that good.\n\nKid: Incredible Good Fun Francis Dances.\n\nMe: Fuck.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1392160091852341251%2FIarcgdux_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1392160091852341251%252FIarcgdux_bigger.jpg",
     },
     {
         url: "https://twitter.com/BudrykZack/status/1278421408020942855",
@@ -3788,7 +3788,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1345,
         likes: 14447,
         content: "Always the last place you'd think to look",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730785407548153856%2F6YjNcsgT_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730785407548153856%252F6YjNcsgT_bigger.jpg",
     },
     {
         url: "https://twitter.com/gabbifish/status/1278881963307266048",
@@ -3796,7 +3796,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 117,
         content: "Coffee tastes like chocolate juice makes me go fast",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1433174211380621322%2F3PdTGyFw_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1433174211380621322%252F3PdTGyFw_bigger.jpg",
     },
     {
         url: "https://twitter.com/outsidethenba/status/1281338197230919680",
@@ -3804,7 +3804,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3341,
         likes: 26915,
         content: "nba gossip is now called bubble tea",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F463327359%2Fjerry_sloan_with_clowns_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F463327359%252Fjerry_sloan_with_clowns_bigger.jpg",
     },
     {
         url: "https://twitter.com/susanorlean/status/1284292676083474437",
@@ -3812,7 +3812,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1551,
         likes: 20884,
         content: "Maybe I am drinking too much during THE FUCKING PANDEMIC",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1044597548063719425%2FK9BPsVnD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1044597548063719425%252FK9BPsVnD_bigger.jpg",
     },
     {
         url: "https://twitter.com/susanorlean/status/1284300529393434624",
@@ -3820,7 +3820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1082,
         likes: 22018,
         content: "I am@being shunned by my family because I am drunk. Yes ok I am fine with that FUCK YOU YOU FUCKING FUCKERS",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1044597548063719425%2FK9BPsVnD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1044597548063719425%252FK9BPsVnD_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyceCarolOates/status/1289052525304455168",
@@ -3828,7 +3828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28,
         likes: 198,
         content: "traditionally \"Ivy League\" refers to the highest quality undergraduate education.  Harvard Law, where Dershowitz taught, is not Harvard College & I think that I am correct, but tell  me if I  am not, that Harvard Law is not, strictly speaking, \"Ivy League.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2683616680%2Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
         url: "https://twitter.com/Komaniecki_R/status/1289555120603234308",
@@ -3836,8 +3836,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 732,
         likes: 3922,
         content: "Ludacris: Has starred in the majority of the Fast and the Furious franchise\n\nMozart: Has never appeared in a F&F movie, possibly did not even own a sports car",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEeVZhvMXsAA--Ns.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717019577543208960%2FM5pY66Uy_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEeVZhvMXsAA--Ns.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717019577543208960%252FM5pY66Uy_bigger.jpg",
     },
     {
         url: "https://twitter.com/Ian___Online/status/1291814278601768961",
@@ -3845,7 +3845,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13742,
         likes: 115904,
         content: "Youth Pastor: ...You know who else had a wet ass pussy?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1204134152330792962%2FBuejmes0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1204134152330792962%252FBuejmes0_bigger.jpg",
     },
     {
         url: "https://twitter.com/Beavs/status/1298817413895553024",
@@ -3853,8 +3853,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51,
         likes: 403,
         content: "upset that i saw this image and immediately started singing this.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEgZTZs2U8AEOE6P.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1407929084252889088%2FhhAid2j6_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEgZTZs2U8AEOE6P.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1407929084252889088%252FhhAid2j6_bigger.jpg",
     },
     {
         url: "https://twitter.com/matrixreloaded_/status/1300456741491167232",
@@ -3862,7 +3862,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8080,
         likes: 21379,
         content: "people on here will tweet anything. “Charlie Brown had hoes.” No he didn’t. That isn’t true.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1265439083742011397%2FXj3EeL5__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1265439083742011397%252FXj3EeL5__bigger.jpg",
     },
     {
         url: "https://twitter.com/nameshiv/status/1301521850552315904",
@@ -3870,7 +3870,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 48392,
         likes: 295082,
         content: "OMG my brother in law, the gift that never stops giving, was tired of being sent to get rice every day so he decided buy in bulk, talked to the shop about it, wires got crossed, now there is a literal TRUCK FILLED WITH RICE outside the house and my sister is losing her shit lmfao",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1348287713741475840%2FYG2hfMqe_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348287713741475840%252FYG2hfMqe_bigger.jpg",
     },
     {
         url: "https://twitter.com/dominicknero/status/1301535382119604226",
@@ -3878,8 +3878,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1531,
         likes: 8756,
         content: "weird thing for nintendo to announce on mario's 35th anniversary but okay i guess",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEg_7gfsXgAET1Sy.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1682099872210583553%2FAQYdmQKT_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEg_7gfsXgAET1Sy.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1682099872210583553%252FAQYdmQKT_bigger.jpg",
     },
     {
         url: "https://twitter.com/rishipuff/status/1301644102224707585",
@@ -3887,7 +3887,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 71610,
         likes: 544102,
         content: "i feel so bad when i overtake an old person on the sidewalk like man i really didn't mean to flex on you with my youthful stride",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1703810984299913216%2FEVKsKBB5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703810984299913216%252FEVKsKBB5_bigger.jpg",
     },
     {
         url: "https://twitter.com/_NikSpace/status/1305116194505138177",
@@ -3895,7 +3895,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19042,
         likes: 199391,
         content: "Bruh I’m sorry, but there is not a single situation where a Baby can where Jeans & I won’t laugh. The fuck is that kid wearing such a serious fabric for Lmao. Baby Legs in jeans look funny as hell, it’s literally inches of Denim. Idk why it’s so funny",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1609191359784620035%2FhUrMAafP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1609191359784620035%252FhUrMAafP_bigger.jpg",
     },
     {
         url: "https://twitter.com/ChuckGrassley/status/1307453788815536135",
@@ -3903,7 +3903,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3494,
         likes: 20756,
         content: "I assumed deer dead bc it was night and no carcas",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F921098191507984385%2FXYteQA6t_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F921098191507984385%252FXYteQA6t_bigger.jpg",
     },
     {
         url: "https://twitter.com/rubydrummr/status/1310287396408299521",
@@ -3911,8 +3911,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 67357,
         likes: 639752,
         content: "I can’t believe I did it. Over 2500 miles on a bicycle, 36 days 😩 LMFAO",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEi8Tb-aXkAcUbWn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1613103099576713216%2FTVwx3-a2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEi8Tb-aXkAcUbWn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1613103099576713216%252FTVwx3-a2_bigger.jpg",
     },
     {
         url: "https://twitter.com/lolennui/status/1311596481824976898",
@@ -3920,7 +3920,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24597,
         likes: 182145,
         content: "Very troubling that the song \"Monster Mash\" isn't the Monster Mash — it's a song about the Monster Mash, which is not itself heard on the track, and is fundamentally unknowable to us.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1702704292594110464%2FU4DfWVaL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
         url: "https://twitter.com/feminazgul/status/1313144345797763074",
@@ -3928,7 +3928,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 670,
         likes: 4567,
         content: "dear “posers” who wear our shirts but can’t even name three songs: keep it up. we love you. we appreciate the support. impale the gatekeepers on spears and leave them posted alongside your path as a warning to others.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1260545246494175232%2FTZJJYqSM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1260545246494175232%252FTZJJYqSM_bigger.jpg",
     },
     {
         url: "https://twitter.com/gossipbabies/status/1313146396598509575",
@@ -3936,7 +3936,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13831,
         likes: 155864,
         content: "Kayleigh McEnany teighsts poseightyve for Coveighd-19",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F884636314074841088%2Fq5SwB7bJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F884636314074841088%252Fq5SwB7bJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/AsteadWH/status/1313287855213600768",
@@ -3944,7 +3944,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 339,
         likes: 4552,
         content: "idk why but saying someone engaged in a clownish undertaking feels like a bigger roast than just calling them a clown",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1408100807996755972%2FJfQ5VMQf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408100807996755972%252FJfQ5VMQf_bigger.jpg",
     },
     {
         url: "https://twitter.com/GatorsDaily/status/1314551373388804096",
@@ -3952,8 +3952,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2709,
         likes: 11282,
         content: "ITS FLAT FUCK FRIDAY YOU FUCKING LOSERS",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEj45ge6XsAAmDwW.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1185213289590120452%2FyX-rWH9I_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEj45ge6XsAAmDwW.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1185213289590120452%252FyX-rWH9I_bigger.jpg",
     },
     {
         url: "https://twitter.com/kbartzz/status/1318154278532452352",
@@ -3961,8 +3961,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 725,
         likes: 3161,
         content: "Work have been sending this out \"to help support our mental health while working from home\" and I cannot cope",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEksGIMDXUAUdNNV.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F806619236311384065%2F7mMyzR4l_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEksGIMDXUAUdNNV.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F806619236311384065%252F7mMyzR4l_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewmagary/status/1318263844209381377",
@@ -3970,7 +3970,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20,
         likes: 360,
         content: "Are YOU Jeffrey Toobin's penis? Please drop us a line! tips@defector.com",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1706830900057546753%2FNTCwKYfJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706830900057546753%252FNTCwKYfJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/rysimmons/status/1318275865978036225",
@@ -3978,8 +3978,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 284,
         likes: 3249,
         content: "last one",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEkt05TEX0AIf3lf.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1535807692450713600%2FByQxLTAl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEkt05TEX0AIf3lf.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1535807692450713600%252FByQxLTAl_bigger.jpg",
     },
     {
         url: "https://twitter.com/meredithaggerty/status/1318315019021537280",
@@ -3987,7 +3987,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 121,
         content: "Generational stereotyping is bad and wrong but it's extremely boomer to be horny at work.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1138666398807404544%2FTQbkvXTL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1138666398807404544%252FTQbkvXTL_bigger.jpg",
     },
     {
         url: "https://twitter.com/snowboiiii/status/1324817801903804416",
@@ -3995,7 +3995,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 29,
         likes: 229,
         content: "they need to make a movie like ‘joker’ but for waluigi",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1437365771823460352%2FMDsinz6Q_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1437365771823460352%252FMDsinz6Q_bigger.jpg",
     },
     {
         url: "https://twitter.com/Olivianuzzi/status/1324897299529609222",
@@ -4003,7 +4003,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 551,
         likes: 3482,
         content: "“Don’t cry because it’s over. Smile because it happened,” a former White House official told me. “Live. Laugh. Love.” \n\nThis person added, “Sometimes you own the libs; sometimes the libs own you.” \n\nnymag.com/intelligencer/2020…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1337405786109202433%2FIYi2d3Jz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1337405786109202433%252FIYi2d3Jz_bigger.jpg",
     },
     {
         url: "https://twitter.com/oliviacraighead/status/1325498874090442753",
@@ -4011,7 +4011,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10579,
         likes: 84057,
         content: "alex trebek was proof that you can be a kind person who also bullies nerds, 100% legend",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1216810165091041283%2Fyvd_xCnG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1216810165091041283%252Fyvd_xCnG_bigger.jpg",
     },
     {
         url: "https://twitter.com/jpbrammer/status/1325513001542234112",
@@ -4019,7 +4019,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 91,
         likes: 938,
         content: "if Rudy Giuliani is the lawyer they're going to end up arguing this case in food court",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1190049285842329600%2FqwCL5mdU_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
         url: "https://twitter.com/mrotzie/status/1326998703685705734",
@@ -4027,7 +4027,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 37978,
         likes: 195460,
         content: "For what it's worth, canceling our Thanksgiving celebrations to prevent the spread of COVID gives us a great opportunity to talk to our kids about how entering someone else's home to intentionally spread a deadly disease is foundational to the holiday in the first place.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1389665007957282819%2F_emgCKIW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1389665007957282819%252F_emgCKIW_bigger.jpg",
     },
     {
         url: "https://twitter.com/LudwigK/status/1328110898393665536",
@@ -4035,7 +4035,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6582,
         likes: 43069,
         content: "Hi, sorry I haven't responded to your text, video games basically don't have loading screens anymore",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1601722758177517569%2FZ1aluake_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1601722758177517569%252FZ1aluake_bigger.jpg",
     },
     {
         url: "https://twitter.com/Jimmy_Sherwood/status/1330497605428711425",
@@ -4043,8 +4043,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18322,
         likes: 170939,
         content: "bigots not knowing what a transcriber does is now my lifeblood - this is the 3rd time this has happened, lmfao",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEnbgQtiW4AAboyu.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1536439467996811265%2FUxeGIQ4Q_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEnbgQtiW4AAboyu.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1536439467996811265%252FUxeGIQ4Q_bigger.jpg",
     },
     {
         url: "https://twitter.com/wownicebuttdude/status/1331250674559049730",
@@ -4052,8 +4052,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6,
         likes: 58,
         content: "really overwhelmed by this autofill situation",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEnmNW0wWEAgBMUx.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1510626471978704900%2F1TWO2-6a_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEnmNW0wWEAgBMUx.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1510626471978704900%252F1TWO2-6a_bigger.jpg",
     },
     {
         url: "https://twitter.com/nicolehe/status/1331625498540126212",
@@ -4061,7 +4061,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12,
         likes: 116,
         content: "unfortunately all twitter users are inherently unloveable, that’s why we are here",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1543354047540887553%2FydxacB4c_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1543354047540887553%252FydxacB4c_bigger.jpg",
     },
     {
         url: "https://twitter.com/MahyarTousi/status/1334826853861830659",
@@ -4069,7 +4069,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1325,
         likes: 7030,
         content: "The French Prime Minister struggling to find his glasses despite already wearing them is just the sort of content I needed today 😎",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1704412303863558144%2FMCxVEKCv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704412303863558144%252FMCxVEKCv_bigger.jpg",
     },
     {
         url: "https://twitter.com/MoreAndAgain/status/1334964560382537729",
@@ -4077,7 +4077,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1590,
         likes: 16924,
         content: "Y'all. . . why did my sister just tell me. . .\n\nMarisa Tomei's name is an anagram for \"it's-a ME, Mario!\"\n\n😂 😂 😂 😂 😂",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1634318527254462467%2FYdjOAbBK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1634318527254462467%252FYdjOAbBK_bigger.jpg",
     },
     {
         url: "https://twitter.com/Heisenherr/status/1335016292881928196",
@@ -4085,8 +4085,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 43463,
         likes: 334790,
         content: "The kids asked if they could write “Let It Snow” on the windows... the bottom is what can be seen from the road.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEobuO75XMAAv0Xa.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1356239936354193410%2FKNXDLkes_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEobuO75XMAAv0Xa.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1356239936354193410%252FKNXDLkes_bigger.jpg",
     },
     {
         url: "https://twitter.com/Choplogik/status/1336409980346327040",
@@ -4094,8 +4094,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1418,
         likes: 10107,
         content: "aw man what",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEovhws8VoAAZt9O.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1588221800462581764%2FhXwo17is_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEovhws8VoAAZt9O.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1588221800462581764%252FhXwo17is_bigger.jpg",
     },
     {
         url: "https://twitter.com/rinbcage/status/1338230609211232258",
@@ -4103,7 +4103,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8994,
         likes: 43325,
         content: "Philip K Dick movies all have names like CORTICAL IMPASSE and are based on short stories called like \"Let's See What's Going On Down at the Brain Factory\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1674274263149182976%2Frmy5fmKb_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1674274263149182976%252Frmy5fmKb_bigger.png",
     },
     {
         url: "https://twitter.com/Lewiswbt1/status/1339375850609909761",
@@ -4111,7 +4111,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6509,
         likes: 25162,
         content: "(DMing a mutual) hey man I'm imagining Dracula saying your latest tweet and it's freaking me out. Could you possibly delete it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1344828787280773123%2FUgSyKhhH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1344828787280773123%252FUgSyKhhH_bigger.jpg",
     },
     {
         url: "https://twitter.com/neoliberal_dad/status/1340435792397787137",
@@ -4119,8 +4119,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 489,
         likes: 8230,
         content: "Some pics from probably the most memorable night of this year for me!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEpovP6VW8AAOeoH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1389319587901149184%2FK19p0IwY_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEpovP6VW8AAOeoH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1389319587901149184%252FK19p0IwY_bigger.jpg",
     },
     {
         url: "https://twitter.com/OffColorDecals/status/1342190814672392192",
@@ -4128,8 +4128,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3204,
         likes: 22827,
         content: "Here's a wholesome Christmas Eve post for y'all. The Lego aisle at Target was completely sold out except for one set that, curiously, nobody seemed interested in buying this year: the police station.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEqBrH_eWMAEqwZr.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1327065966967132161%2FOZYsG0Oc_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEqBrH_eWMAEqwZr.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1327065966967132161%252FOZYsG0Oc_bigger.png",
     },
     {
         url: "https://twitter.com/bevtgooden/status/1344456254316564484",
@@ -4137,7 +4137,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9283,
         likes: 143275,
         content: "I’ll never forget how my friend, a museum curator, told a guy she’d just met what her job is and he responded with “I’m a curator too.” She asked of what and he said,\n\n“vibes.”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736874899686248448%2FEwCkC2Ju_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736874899686248448%252FEwCkC2Ju_bigger.jpg",
     },
     {
         url: "https://twitter.com/edburmila/status/1345050273035804674",
@@ -4145,7 +4145,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 320,
         likes: 1632,
         content: "Every member of the political class is like “dignity of work” and “get a real job” and then they file these disclosures where they got paid $5 million to sing “Africa” at the annual Raytheon karaoke party",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F968950178194624512%2F1othNBMu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F968950178194624512%252F1othNBMu_bigger.jpg",
     },
     {
         url: "https://twitter.com/reniadeb/status/1345388882146316288",
@@ -4153,8 +4153,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14198,
         likes: 126710,
         content: "in england, they don't say i'll kick your ass, they say i'll see you on the",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEqrsWzYXMAAz5fm.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1508134136355168265%2FQP65TZs__bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEqrsWzYXMAAz5fm.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1508134136355168265%252FQP65TZs__bigger.jpg",
     },
     {
         url: "https://twitter.com/BAKKOOONN/status/1345874002456166400",
@@ -4162,7 +4162,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 41,
         likes: 499,
         content: "jake tapper is a real news pussy. you take that back",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1272710694127845376%2F2moaAJ97_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1272710694127845376%252F2moaAJ97_bigger.jpg",
     },
     {
         url: "https://twitter.com/Komaniecki_R/status/1349156027309182978",
@@ -4170,8 +4170,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1481,
         likes: 9745,
         content: "Musicians, if a pianist ever bullies you, just ask them if they can play this",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FErkqIY4XUAMfdur.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717019577543208960%2FM5pY66Uy_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FErkqIY4XUAMfdur.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717019577543208960%252FM5pY66Uy_bigger.jpg",
     },
     {
         url: "https://twitter.com/Pale_0ntologist/status/1349770620779814913",
@@ -4179,8 +4179,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5486,
         likes: 59593,
         content: "Excuse me while I write 150,000 words on these two images",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FErtYxovXIAAkXh7.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1331028030307885056%2FFtAzrsee_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FErtYxovXIAAkXh7.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1331028030307885056%252FFtAzrsee_bigger.jpg",
     },
     {
         url: "https://twitter.com/jwehrens/status/1350843941323735040",
@@ -4188,7 +4188,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13,
         likes: 200,
         content: "i can now say this without fear of being murdered: i don't like the phil spector production style that much. too muddy.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717744318830571520%2FYCxb5B8E_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717744318830571520%252FYCxb5B8E_bigger.jpg",
     },
     {
         url: "https://twitter.com/GuyFieri/status/1352319386007330817",
@@ -4196,8 +4196,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 59864,
         likes: 418468,
         content: "Not me. Us.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEsRnT-JXIAE1B_3.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1162445050590183424%2FWL2lQ7OR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEsRnT-JXIAE1B_3.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1162445050590183424%252FWL2lQ7OR_bigger.jpg",
     },
     {
         url: "https://twitter.com/Puff_Iya/status/1353022643566489601",
@@ -4205,7 +4205,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11698,
         likes: 109465,
         content: "Is this why my stimulus taking so fucking long? Get yo ass back in those meetings!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733901827005947904%2F_Sb2Awkc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733901827005947904%252F_Sb2Awkc_bigger.jpg",
     },
     {
         url: "https://twitter.com/thetzechun/status/1354496309919674374",
@@ -4213,8 +4213,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1340,
         likes: 17303,
         content: "Post one picture that changed your entire concept of what television could be",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEswjNsPXYAAKW3s.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1074423369037017088%2Fs5Hya9lt_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEswjNsPXYAAKW3s.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1074423369037017088%252Fs5Hya9lt_bigger.jpg",
     },
     {
         url: "https://twitter.com/mitchysuch/status/1354548730859499526",
@@ -4222,7 +4222,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52,
         likes: 514,
         content: "Instead of becoming a millionaire off GameStop I invested in therapy and became a millionaire in feelings",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1245539238453657601%2FNkBjlA4T_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1245539238453657601%252FNkBjlA4T_bigger.jpg",
     },
     {
         url: "https://twitter.com/DannyVegito/status/1354562663053991947",
@@ -4230,8 +4230,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26270,
         likes: 246673,
         content: "it’s been a weird day",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEsxfjdlW4AAJWth.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726746619515645952%2FaugGI7A9_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEsxfjdlW4AAJWth.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726746619515645952%252FaugGI7A9_bigger.jpg",
     },
     {
         url: "https://twitter.com/actioncookbook/status/1354607297994092544",
@@ -4239,8 +4239,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 448,
         likes: 2615,
         content: "GENIE: are you sure you really want to do this?\nME: I’m sure.\nGENIE: [sighs] fine. Here’s what it would look like if Guy Fieri had a Wario",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEswDsVsUUAADy6O.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1520031180422361090%2FFvKdpvRc_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEswDsVsUUAADy6O.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520031180422361090%252FFvKdpvRc_bigger.jpg",
     },
     {
         url: "https://twitter.com/bluishorange/status/1356083892718104584",
@@ -4248,7 +4248,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15,
         likes: 67,
         content: "how come they didn't have the gunfight at the excellent corral",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1377787051119144960%2Ft36QU3BK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377787051119144960%252Ft36QU3BK_bigger.jpg",
     },
     {
         url: "https://twitter.com/SheriffAlert/status/1357718112599240706",
@@ -4256,8 +4256,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33100,
         likes: 243755,
         content: "A large boulder the size of a large boulder is blocking the southbound lane Hwy 145 mm28 in Stoner Creek area of Montezuma County. Expect delays. #largeboulder",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEteURYcXIAAINqf.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F438442693635493888%2FbT4_bZBP_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEteURYcXIAAINqf.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F438442693635493888%252FbT4_bZBP_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DanWilbur/status/1357732002921873410",
@@ -4265,8 +4265,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2932,
         likes: 26249,
         content: "Every photo of Matt Gaetz looks like Jack Nicholson as the Joker when he puts on regular foundation.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEteiD0QWQAcVsIb.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1641184509998530562%2FHrRjqLZo_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEteiD0QWQAcVsIb.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1641184509998530562%252FHrRjqLZo_bigger.jpg",
     },
     {
         url: "https://twitter.com/cher/status/1357839400541982721",
@@ -4274,7 +4274,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 728,
         likes: 9683,
         content: "Never Told Story,but Swear It’s True🤚🏼.Have Touchy Neck So Try Things.1. Night I See Kinda Weird Guy Selling Pillows & Order 1. It Was like Sleeping On Rocks,So I Sent It Back.I Thought I Shouldn’t Say Anything.When I Saw Him with trump Still Kept🤬.Now I Don’t Care”Pillow Sucks”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1710170486720573440%2F9xJUi3tz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
         url: "https://twitter.com/bestinsio/status/1359154678727073796",
@@ -4282,7 +4282,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3231,
         likes: 50911,
         content: "if I were in the stanford prison experiment I’d just stay calm and have fun with it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1560730432970395649%2FsnjkrDzX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560730432970395649%252FsnjkrDzX_bigger.jpg",
     },
     {
         url: "https://twitter.com/bigfatmoosepssy/status/1362131837057970177",
@@ -4290,7 +4290,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5357,
         likes: 26333,
         content: "When God sings with his creations, will a turtle not be part of the choir?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1696356488808148992%2F3aqv9XgD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696356488808148992%252F3aqv9XgD_bigger.jpg",
     },
     {
         url: "https://twitter.com/phoebe_bridgers/status/1363002431810899968",
@@ -4298,7 +4298,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6783,
         likes: 127831,
         content: "you’re telling me edward is a hundred and something year old vampire genius and his favorite song is clair de fucking lune",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1099440461574373383%2FnVsMtHi__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
         url: "https://twitter.com/_sashayed/status/1363557945267617797",
@@ -4306,7 +4306,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5304,
         likes: 77083,
         content: "in ur COVID relationship which of u is the beautiful shut-in who tends the garden and which of u is the nasty little goblin who ventures into town every Tuesday to endure the jeers of townsfolk at the grocery store",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1113816338064125952%2F5RrCFimB_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1113816338064125952%252F5RrCFimB_bigger.png",
     },
     {
         url: "https://twitter.com/JoseCanseco/status/1365826972346064899",
@@ -4314,8 +4314,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1848,
         likes: 17293,
         content: "My beautiful daughter poop love her very much",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEvRkYkEVIAIXyWb.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1398509855703375879%2FCK7sAPUh_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEvRkYkEVIAIXyWb.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1398509855703375879%252FCK7sAPUh_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdamFriedland/status/1365843319457275906",
@@ -4323,7 +4323,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 576,
         likes: 10485,
         content: "Not an anti Vax guy but I won’t be taking the Johnson & Johnson vaccine. I’m not a baby",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2299066549%2Fix5ralhalzu2lfn7v69m_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2299066549%252Fix5ralhalzu2lfn7v69m_bigger.jpeg",
     },
     {
         url: "https://twitter.com/IJamEcono/status/1367168369808580610",
@@ -4331,7 +4331,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8321,
         likes: 49362,
         content: "Somehow the Hand Sanitizer Cam at NBA games is hornier than the Kiss Cam",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1356643969476620289%2F0TefRoEz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1356643969476620289%252F0TefRoEz_bigger.jpg",
     },
     {
         url: "https://twitter.com/AsteadWH/status/1367488516574371847",
@@ -4339,7 +4339,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 853,
         likes: 4959,
         content: "The Senate getting bills from the House",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1408100807996755972%2FJfQ5VMQf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408100807996755972%252FJfQ5VMQf_bigger.jpg",
     },
     {
         url: "https://twitter.com/andizeisler/status/1367578845457444869",
@@ -4347,7 +4347,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 48,
         likes: 756,
         content: "I know the rhetoric about getting “shots into American arms” is meant to   invoke a patriotic can-do spirit but it just makes me wonder what would happen if the vaccine had to be injected into our butts instead",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1477073715636568066%2FAPcqFMSW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1477073715636568066%252FAPcqFMSW_bigger.jpg",
     },
     {
         url: "https://twitter.com/meakoopa/status/1369857463768481801",
@@ -4355,7 +4355,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51,
         likes: 873,
         content: "almost finished my great masterpiece, which is a spreadsheet of which male singers 1982-2006 were hot enough to be The Guy In The Video or whether The Guy In The Video had to be a different, hotter man",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1687151258866499591%2FXKAUiCpq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687151258866499591%252FXKAUiCpq_bigger.jpg",
     },
     {
         url: "https://twitter.com/meakoopa/status/1369858863948791810",
@@ -4363,7 +4363,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10,
         likes: 407,
         content: "good news for bryan adams, bad news for phil collins, surprising data for meatloaf",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1687151258866499591%2FXKAUiCpq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687151258866499591%252FXKAUiCpq_bigger.jpg",
     },
     {
         url: "https://twitter.com/paddyraffcomedy/status/1370327066063863808",
@@ -4371,7 +4371,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1260,
         likes: 5215,
         content: "\\*reading an article in 30 AD’\n\n‘Meet Jesus, the man who started with NOTHING & built one of the world’s fastest growing religions!’\n\nMe: wow!\n\n\\*top of paragraph 3\\*\n\n‘With a little help from his father, God’\n\nMe: fucking knew it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1706952507958640640%2FIc3wbgWq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706952507958640640%252FIc3wbgWq_bigger.jpg",
     },
     {
         url: "https://twitter.com/Kristen_Arnett/status/1370446780542910474",
@@ -4379,8 +4379,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12675,
         likes: 107339,
         content: "waiting for the vaccine like",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEwTOFQzWgAIloZE.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1261154545448574977%2FezzjAD9N_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEwTOFQzWgAIloZE.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1261154545448574977%252FezzjAD9N_bigger.jpg",
     },
     {
         url: "https://twitter.com/Mottel/status/1372003384732045316",
@@ -4388,8 +4388,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 599,
         likes: 2767,
         content: "I lol'd \nQuarantine 🤝Passover",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEwpVztPWQAMLkCN.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1679240144245739521%2FpsMkpEmc_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEwpVztPWQAMLkCN.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679240144245739521%252FpsMkpEmc_bigger.jpg",
     },
     {
         url: "https://twitter.com/jeremythunder/status/1379798729901887491",
@@ -4397,7 +4397,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14699,
         likes: 84873,
         content: "This is art",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1651690988740517894%2FPB5nPO2I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651690988740517894%252FPB5nPO2I_bigger.jpg",
     },
     {
         url: "https://twitter.com/MigueldOliveira/status/1382973774941859843",
@@ -4405,8 +4405,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 630,
         likes: 3756,
         content: "My orchestrator told me to add something because the cellos need more support. \n\nJust emailed him back this.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEzFPUHFWYAMva0M.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1568710840978636801%2FAybJN-oI_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEzFPUHFWYAMva0M.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1568710840978636801%252FAybJN-oI_bigger.jpg",
     },
     {
         url: "https://twitter.com/AaronLinguini/status/1386059199336046596",
@@ -4414,8 +4414,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19489,
         likes: 185274,
         content: "Psychology textbook diagrams never cease to amaze me",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FEzxFfwnXsAA6LEE.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1418923757993930756%2F7ssri34L_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEzxFfwnXsAA6LEE.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1418923757993930756%252F7ssri34L_bigger.jpg",
     },
     {
         url: "https://twitter.com/AaronLinguini/status/1386062176432148487",
@@ -4423,7 +4423,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 503,
         likes: 11397,
         content: "You know in video games, where you choose your dialogue and it’ll lead to different results?\n\nA bird shat on your car.\n\nChoose your dialogue:\n\n“Birds hate me” —> depression\n\n“Birds are inconsiderate pricks” —> no depression",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1418923757993930756%2F7ssri34L_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1418923757993930756%252F7ssri34L_bigger.jpg",
     },
     {
         url: "https://twitter.com/phoebe_bridgers/status/1386205749668323331",
@@ -4431,7 +4431,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20713,
         likes: 220279,
         content: "hot girl summer implies the existence of cold bitch winter",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1099440461574373383%2FnVsMtHi__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
         url: "https://twitter.com/Miexriir/status/1387113304959504384",
@@ -4439,8 +4439,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23820,
         likes: 191012,
         content: "I asked the nurse giving my vaccine if I could use a bandaid I brought from home and she was like “I don’t see why not” and now she sees why not",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE0AEMqDUUAMxing.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F998394124872040448%2FqTWfM6nd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE0AEMqDUUAMxing.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F998394124872040448%252FqTWfM6nd_bigger.jpg",
     },
     {
         url: "https://twitter.com/ihavedisease/status/1387523254294745090",
@@ -4448,7 +4448,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24999,
         likes: 182927,
         content: "Birds are just named stuff like Hotbreasted Milf and no one does anything about it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1250670884429238272%2FFZlWt1-f_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1250670884429238272%252FFZlWt1-f_bigger.jpg",
     },
     {
         url: "https://twitter.com/ScienceNews/status/1387830788792754177",
@@ -4456,7 +4456,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1410,
         likes: 4961,
         content: "In the desert, an ass hole is a welcome sight for many parched creatures.  sciencenews.org/article/wild…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1210648820541018113%2Fj4qqEa6F_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1210648820541018113%252Fj4qqEa6F_bigger.png",
     },
     {
         url: "https://twitter.com/KFosterStomberg/status/1388209346648084483",
@@ -4464,8 +4464,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8371,
         likes: 49245,
         content: "The underside of the Washington St bridge has taken a strong anti-NFT stance",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE0Po_KKWEAMQy5B.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1144969944486072320%2FlBCCo9uk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE0Po_KKWEAMQy5B.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1144969944486072320%252FlBCCo9uk_bigger.jpg",
     },
     {
         url: "https://twitter.com/luxmberg/status/1389143790984773632",
@@ -4473,7 +4473,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4596,
         likes: 35985,
         content: "your honor that was a bit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729707228758720512%2FSrrHFkIB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729707228758720512%252FSrrHFkIB_bigger.jpg",
     },
     {
         url: "https://twitter.com/ronnui_/status/1389287494437511173",
@@ -4481,7 +4481,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24045,
         likes: 200239,
         content: "Having a headache is so embarrassing, like bro you are the one that decides when things hurt just turn it off",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1314620756282740738%2F6cjkmFkM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314620756282740738%252F6cjkmFkM_bigger.jpg",
     },
     {
         url: "https://twitter.com/Joebob/status/1390358265658232837",
@@ -4489,8 +4489,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10673,
         likes: 152252,
         content: "I think there’s been an accident",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE0uLeIpWEAMyIEy.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1485210358700810241%2Ft3dblWBa_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE0uLeIpWEAMyIEy.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1485210358700810241%252Ft3dblWBa_bigger.png",
     },
     {
         url: "https://twitter.com/gregkellyusa/status/1390430448057307142",
@@ -4498,8 +4498,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 747,
         likes: 6134,
         content: "Everyone busting my CRACKERS over the “pants”—(partially my fault because I called attention to them with the Bugle Boy comment). The truth is, they’re BALMAIN (the most prestigious brand in PANTS)—my shoes are by Ferragamo.  Basically, I’m a Sharp Dressed Man.  Thank you !",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE0vNHynWUAg1IzZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1546276260455845892%2F-HJoMtnB_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE0vNHynWUAg1IzZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1546276260455845892%252F-HJoMtnB_bigger.jpg",
     },
     {
         url: "https://twitter.com/harlotposting/status/1391195422673145856",
@@ -4507,7 +4507,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4960,
         likes: 35294,
         content: "if they had twitter in england i would be like “NFT? mate there’s no such thing as enough tea🤣” and mfs would go crazy for it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1543076880038866947%2FBg9TIQTK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1543076880038866947%252FBg9TIQTK_bigger.jpg",
     },
     {
         url: "https://twitter.com/HistoryMuppet/status/1391940076913971201",
@@ -4515,8 +4515,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9740,
         likes: 75698,
         content: "Kermit the Frog unrecognizable in The Great Muppet Caper",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE1EqH0oWUAACmgB.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1727874268925435904%2FyMOHxb-__bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE1EqH0oWUAACmgB.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727874268925435904%252FyMOHxb-__bigger.jpg",
     },
     {
         url: "https://twitter.com/maxgotjokes/status/1392227234858115078",
@@ -4524,8 +4524,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3311,
         likes: 36640,
         content: "this came to me in a vision",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE1IvSpQXEAEGX8t.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1678829443471536131%2Fd6bWVbSs_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE1IvSpQXEAEGX8t.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1678829443471536131%252Fd6bWVbSs_bigger.jpg",
     },
     {
         url: "https://twitter.com/Thinkwert/status/1394088233835900931",
@@ -4533,8 +4533,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23675,
         likes: 258530,
         content: "(𝘩𝘢𝘤𝘬𝘦𝘳 𝘷𝘰𝘪𝘤𝘦) I’m in",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE1jL28ZWYAQx92B.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1476016799217074181%2FPaN7WU1i_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE1jL28ZWYAQx92B.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1476016799217074181%252FPaN7WU1i_bigger.jpg",
     },
     {
         url: "https://twitter.com/lucyj_ford/status/1394556650334339074",
@@ -4542,7 +4542,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6496,
         likes: 88196,
         content: "saying ‘i have money tied up in investments’ to describe having asos returns i haven’t sent back yet",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730365177302814720%2FtFgZX5Xy_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730365177302814720%252FtFgZX5Xy_bigger.jpg",
     },
     {
         url: "https://twitter.com/amore_orless/status/1395126688543961089",
@@ -4550,7 +4550,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1531,
         likes: 24320,
         content: "every swimsuit for women now is like, ok you must feel comfortable showing your entire ass, have absolutely no vulva, and know how to tie the most advanced sailor knot around your torso. also it’s $90 for just the bottoms",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1708226657570734080%2FzpO_IFqd_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1708226657570734080%252FzpO_IFqd_bigger.jpg",
     },
     {
         url: "https://twitter.com/materialgirlrap/status/1396523110841692174",
@@ -4558,7 +4558,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14918,
         likes: 53779,
         content: "I literally had a nightmare that everyone on the Internet was doing something called “wiseposting” but I just couldn’t get it right and so people would bombard my replies with the sentence “mmmm, no, very unwise”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734551768204193792%2FDaZOZ-6a_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734551768204193792%252FDaZOZ-6a_bigger.jpg",
     },
     {
         url: "https://twitter.com/SaysSimonson/status/1397297130046464005",
@@ -4566,7 +4566,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 56,
         likes: 465,
         content: "When bitcoin is up the crypto guys I follow are like “new paradigm. The global order is finished. If you were left behind, I hope you own a gun.” And when it’s down they’re either like “wow. Hm.,” or posting meaningless Chinese proverbs like “Every step makes a footprint.”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1666632101909655554%2FTwpqBMhx_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1666632101909655554%252FTwpqBMhx_bigger.jpg",
     },
     {
         url: "https://twitter.com/corietjohnson/status/1397333127152902148",
@@ -4574,7 +4574,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 31918,
         likes: 253529,
         content: "sadly i do think my last words will be \"not me dying\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1728595519994482688%2FdG_iDXF0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728595519994482688%252FdG_iDXF0_bigger.jpg",
     },
     {
         url: "https://twitter.com/WrittenByHanna/status/1400559430601777153",
@@ -4582,7 +4582,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 70,
         likes: 913,
         content: "Y’all need to go outside and eat some ass or whatever I can’t believe this bee controversy has taken over my TL",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1677372182408593408%2FIAYYkVZO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1677372182408593408%252FIAYYkVZO_bigger.jpg",
     },
     {
         url: "https://twitter.com/lolennui/status/1400587392059383811",
@@ -4590,7 +4590,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11456,
         likes: 96863,
         content: "so we’re just powering through hot drunk trainwreck summer without processing all the grief, I love this for us it’s like Hemingway going to the French Riviera after WWI",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1702704292594110464%2FU4DfWVaL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
         url: "https://twitter.com/lolennui/status/1400587967371137024",
@@ -4598,7 +4598,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57,
         likes: 3124,
         content: "sorry I didn’t finish Ernie’s biography, that went awesome and ended well right",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1702704292594110464%2FU4DfWVaL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
         url: "https://twitter.com/MikeBeauvais/status/1401026078316056578",
@@ -4606,8 +4606,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1951,
         likes: 25391,
         content: "Before she left, Naomi Wolf left us with one of the funniest tweets in the history of this garbage site.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE3FxyqYXoAA4tSP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F644289035859423232%2Fs4DaYVj2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE3FxyqYXoAA4tSP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F644289035859423232%252Fs4DaYVj2_bigger.jpg",
     },
     {
         url: "https://twitter.com/Shen_the_Bird/status/1405641119833247749",
@@ -4615,7 +4615,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1194,
         likes: 10660,
         content: "attorney: [reading my will] my darling wife, to whom i bequeath the totality of my...updog\n\n[whole room groans]\n\nattorney: it says to pause to allow anyone to inquire as to what updog is",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125628501233631233%2FpVeG9nac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
         url: "https://twitter.com/atdanwhite/status/1405653227912241158",
@@ -4623,8 +4623,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1750,
         likes: 39750,
         content: "So funny that this ad is not for the shirt. Nothing to do with the shirt. Shirt isn’t even mentioned. We’re just supposed to pretend that’s a normal shirt.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE4HiKGfWYAEGzqn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1699914475221213184%2Fa_2fw90a_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE4HiKGfWYAEGzqn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699914475221213184%252Fa_2fw90a_bigger.jpg",
     },
     {
         url: "https://twitter.com/xtineengels/status/1407492626778144769",
@@ -4632,7 +4632,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 554,
         likes: 3617,
         content: "let the bodies keep the score \nlet the bodies keep the score\nlet the bodies keep the score",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1679518638871572481%2F8j2vGuPq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679518638871572481%252F8j2vGuPq_bigger.jpg",
     },
     {
         url: "https://twitter.com/richardmarx/status/1407551011825324038",
@@ -4640,7 +4640,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 872,
         likes: 16486,
         content: "Aww, man. That’s so sweet. How’d the rest of his dentist appointment go?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1547817087443226630%2FV74lmYb2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547817087443226630%252FV74lmYb2_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheTarquin/status/1407831740630982658",
@@ -4648,7 +4648,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2247,
         likes: 12560,
         content: "John McAfee didn't even start his career as a drug fueled international fugitive until he was in his 60s. So just remember that it's never too late to chase your dreams.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F742242329319219206%2Fkz40y9Yp_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F742242329319219206%252Fkz40y9Yp_bigger.jpg",
     },
     {
         url: "https://twitter.com/NateSilver538/status/1409169222698082311",
@@ -4656,7 +4656,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21,
         likes: 785,
         content: "Recently there's been the emergence of a small but distinct group of dudes (mostly) on here whom you might call anti-contrarians.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1672433855641296896%2FhY52yFX5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1672433855641296896%252FhY52yFX5_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1409857730656022529",
@@ -4664,7 +4664,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 34709,
         likes: 187715,
         content: "in the 90’s, computers would scream every time you went online. that was foreshadowing",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/GusVcomic/status/1412427832718880771",
@@ -4672,7 +4672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1040,
         likes: 21428,
         content: "I’m Boston Sober (an alcoholic)",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1443252447254757377%2F3K8bWF8h_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1443252447254757377%252F3K8bWF8h_bigger.jpg",
     },
     {
         url: "https://twitter.com/ilovefamiIyguy/status/1412807214834847749",
@@ -4680,8 +4680,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 54803,
         likes: 570663,
         content: "My gummy vitamins melted together so I’m just gonna take a bite out of this every day instead of letting them go to waste",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE5tMq6vXoAEVQYk.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1737245824122236928%2FUBwjBShp_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE5tMq6vXoAEVQYk.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1737245824122236928%252FUBwjBShp_bigger.jpg",
     },
     {
         url: "https://twitter.com/arithisandthat/status/1413485785978970112",
@@ -4689,7 +4689,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9764,
         likes: 113197,
         content: "A podcast where parents try to explain what their adult children do for a living",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1511523307475984391%2FtW-691-f_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1511523307475984391%252FtW-691-f_bigger.jpg",
     },
     {
         url: "https://twitter.com/cal50/status/1416501462562115586",
@@ -4697,8 +4697,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19644,
         likes: 147756,
         content: "generations are mostly fake but i have arbitrarily decided that the millennial / gen-z line is whether this joke lands",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE6hskoRWUAA5IOi.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1487476161517133826%2F1RbJu5y3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE6hskoRWUAA5IOi.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1487476161517133826%252F1RbJu5y3_bigger.jpg",
     },
     {
         url: "https://twitter.com/rajandelman/status/1418085145907761153",
@@ -4706,7 +4706,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 940,
         likes: 5185,
         content: "Olympics news is so wild. Every item is like \"entire Danish swim team lost in lava pits,\" or \"opening ceremony producer resigns after people recall his history of eating stop signs,\" or \"God begs us to stop\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1480657954286313473%2FcA-mSl1I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1480657954286313473%252FcA-mSl1I_bigger.jpg",
     },
     {
         url: "https://twitter.com/ralter/status/1419134846866231298",
@@ -4714,7 +4714,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2290,
         likes: 32485,
         content: "someBODY once told me \nthe beach was gonna old me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1507109427127664657%2F8LvqEpFE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1507109427127664657%252F8LvqEpFE_bigger.jpg",
     },
     {
         url: "https://twitter.com/KrangTNelson/status/1420560586136592384",
@@ -4722,7 +4722,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1064,
         likes: 26982,
         content: "remembering the 2012 london olympics when the main storyline of the american athletes was “there’s this one swimmer who is insanely dumb”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1567978320079343617%2FWJkYD4tq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567978320079343617%252FWJkYD4tq_bigger.jpg",
     },
     {
         url: "https://twitter.com/mikescollins/status/1420568274799050755",
@@ -4730,8 +4730,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5537,
         likes: 53002,
         content: "two wicked big roads split apaht\nand fuckin sorry I could not travel both",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE7bfUO5XIAYCNbZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1404604896175927302%2FuUz5o8Rh_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE7bfUO5XIAYCNbZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1404604896175927302%252FuUz5o8Rh_bigger.jpg",
     },
     {
         url: "https://twitter.com/jasonlipshutz/status/1421616327400345600",
@@ -4739,7 +4739,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7,
         likes: 166,
         content: "“Let me make this clear: this is NOT Woodstock ‘99. Fuck all that bullshit.” - Fred Durst before launching into “Break Stuff” at Lollapalooza!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1606368248529813523%2FjtoybCe0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1606368248529813523%252FjtoybCe0_bigger.jpg",
     },
     {
         url: "https://twitter.com/tagaq/status/1421829532525514754",
@@ -4747,8 +4747,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 261,
         likes: 2771,
         content: "Raspberry bidet",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE7tabLPWYAM_fTN.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F560166290623827970%2Fj6ZPLa4q_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE7tabLPWYAM_fTN.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F560166290623827970%252Fj6ZPLa4q_bigger.jpeg",
     },
     {
         url: "https://twitter.com/ThiefOfTweets/status/1423725029892792321",
@@ -4756,8 +4756,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9764,
         likes: 91816,
         content: "Thrilling chase underway",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE8IWXK5XsAAZxBV.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1548398363363553282%2FSY1qr6VE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE8IWXK5XsAAZxBV.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1548398363363553282%252FSY1qr6VE_bigger.jpg",
     },
     {
         url: "https://twitter.com/emonormie/status/1424381913800839170",
@@ -4765,7 +4765,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12398,
         likes: 78954,
         content: "“obsessed with these vibes” i say entering a situation so wretched and foul",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729684808475820032%2FCQF_e0Do_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729684808475820032%252FCQF_e0Do_bigger.jpg",
     },
     {
         url: "https://twitter.com/Kyle_Ramos/status/1424434478483533826",
@@ -4773,7 +4773,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2968,
         likes: 20744,
         content: "One of the funniest things I’ve ever witnessed was when this strobe light at G1C was malfunctioning and it was terrorizing this guy SPECIFICALLY 🤣🤣",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1560059470239055873%2FUIe1vUMC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560059470239055873%252FUIe1vUMC_bigger.jpg",
     },
     {
         url: "https://twitter.com/TashP351/status/1425145264310980611",
@@ -4781,8 +4781,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16895,
         likes: 211131,
         content: "My friends daughters hamster has been missing and feared dead for almost 2 weeks now.\nLast night she forgot to wash up the paint tray after a day of decorating. \nWe now think the hamster may still be alive…",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE8ciED3WUAM0TLG.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1735956549502148608%2FevHR1Zlg_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE8ciED3WUAM0TLG.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735956549502148608%252FevHR1Zlg_bigger.jpg",
     },
     {
         url: "https://twitter.com/haleshannon/status/1425195319365496833",
@@ -4790,8 +4790,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 415,
         likes: 5017,
         content: "I wasn't feeling well and was lying down in bed. My 10yo was next to me, playing on my phone. I didn't realize she was using it to text my husband, pretending to be me.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE8dPjVUUcAEq2Gu.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F695304666209325056%2FBdm-dupx_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE8dPjVUUcAEq2Gu.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F695304666209325056%252FBdm-dupx_bigger.jpg",
     },
     {
         url: "https://twitter.com/sarahrxdriguez/status/1425267281202909184",
@@ -4799,7 +4799,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24733,
         likes: 383601,
         content: "i was a vaccine checker tonight at my venue and i swear to god i’m not fucking with you, one couple came up to me and asked “vaccine for what”…… WHAT DO YOU MEAN VACCINE FOR WHAT",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686150133858066432%2FoJRl65pt_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686150133858066432%252FoJRl65pt_bigger.jpg",
     },
     {
         url: "https://twitter.com/abram_facts/status/1425279024943747074",
@@ -4807,7 +4807,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1194,
         likes: 15473,
         content: "i can see why he had to resign",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1327102481323732994%2FxDK332Lh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1327102481323732994%252FxDK332Lh_bigger.jpg",
     },
     {
         url: "https://twitter.com/ryanqnorth/status/1425563276914667536",
@@ -4815,8 +4815,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 111,
         likes: 1051,
         content: "GOOGLE: Of course, sir, here's the download time calculation you requested.  But... while Monsieur is here, could he perhaps be interested in a... different kind of data transfer?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE8ic35lXsAY8Z3g.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1323627652700229632%2F--rGNJoi_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE8ic35lXsAY8Z3g.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323627652700229632%252F--rGNJoi_bigger.png",
     },
     {
         url: "https://twitter.com/reillymackay/status/1425831118184587265",
@@ -4824,8 +4824,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14144,
         likes: 110929,
         content: "woke up from an incomprehensible dream where this was the hot new meme",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE8mR2CfVUAoKpD9.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1624538316048564224%2F1oRYjXSq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE8mR2CfVUAoKpD9.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624538316048564224%252F1oRYjXSq_bigger.jpg",
     },
     {
         url: "https://twitter.com/Richard_Vixen/status/1429200338305835009",
@@ -4833,8 +4833,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19854,
         likes: 152900,
         content: "When y’all got nothing in common but you vibe",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE9WKIePWYAA5fWC.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1501936402019192842%2F1cJkUmWM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE9WKIePWYAA5fWC.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1501936402019192842%252F1cJkUmWM_bigger.jpg",
     },
     {
         url: "https://twitter.com/ggooooddddoogg/status/1430169228204781579",
@@ -4842,7 +4842,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3194,
         likes: 32581,
         content: "sorry i can’t come into work today the cuban government has used a targeted energy weapon on me producing symptoms identical to a hangover",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1040265455880097793%2Fv9SK6CMW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1040265455880097793%252Fv9SK6CMW_bigger.jpg",
     },
     {
         url: "https://twitter.com/fixyourheartsor/status/1430954697003839495",
@@ -4850,7 +4850,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28431,
         likes: 128317,
         content: "guest rapper on gorillaz song: i been in ends since ten kicking product round the bend, my mum died of tuberculosis i'm slipping into psychosis\n\nDamon Albarn on the chorus: ooooooh flimsy steve, where did you go, what have you seen",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1669519263344865282%2FVrbrqK9Y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669519263344865282%252FVrbrqK9Y_bigger.jpg",
     },
     {
         url: "https://twitter.com/MattGertz/status/1431758496756862980",
@@ -4858,7 +4858,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1883,
         likes: 41393,
         content: "I met Pope Francis in the Vatican yesterday, briefly. I said, “Holy Father, I wrote a lot of good tweets.” He took my name tag in his hands, looked at it, and said, “the Florida congressman who likes young girls?” C’est la vie…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1211274521099096064%2F0i86noPZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1211274521099096064%252F0i86noPZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/KeetPotato/status/1432311986788913152",
@@ -4866,7 +4866,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 43775,
         likes: 355977,
         content: "cows are very calm considering the whole floor is food",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1295356472348508160%2FhZlM_K3__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295356472348508160%252FhZlM_K3__bigger.jpg",
     },
     {
         url: "https://twitter.com/mxmclain/status/1435565817261920259",
@@ -4874,8 +4874,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1487,
         likes: 12628,
         content: "The body of Christ seasonally spiced",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE-wngDLWEAEZrNJ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1591195347975544832%2FpiAZVjAt_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE-wngDLWEAEZrNJ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591195347975544832%252FpiAZVjAt_bigger.jpg",
     },
     {
         url: "https://twitter.com/laylology/status/1436079500584960006",
@@ -4883,7 +4883,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4428,
         likes: 86735,
         content: "yikes, unfollowing him now. i'm a big fan of his paintings, i had no idea he started the war on terror",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1660134194297577474%2FwOJVZhVC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660134194297577474%252FwOJVZhVC_bigger.jpg",
     },
     {
         url: "https://twitter.com/NICKIMINAJ/status/1437532566945341441",
@@ -4891,7 +4891,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23946,
         likes: 139647,
         content: "My cousin in Trinidad won’t get the vaccine cuz his friend got it & became impotent. His testicles became swollen. His friend was weeks away from getting married, now the girl called off the wedding. So just pray on it & make sure you’re comfortable with ur decision, not bullied",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717601605833695232%2FtmJ6cbTv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717601605833695232%252FtmJ6cbTv_bigger.jpg",
     },
     {
         url: "https://twitter.com/rajat_suresh/status/1437589483931713536",
@@ -4899,7 +4899,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1900,
         likes: 49700,
         content: "Told nicki Minaj some sensitive info about my testicles. She’s a really good friend so I can trust her not to tell anyone about it 💪",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1221209331787583489%2FlU3_VwYV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1221209331787583489%252FlU3_VwYV_bigger.jpg",
     },
     {
         url: "https://twitter.com/ihythreat/status/1437948281884233731",
@@ -4907,7 +4907,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 72211,
         likes: 414662,
         content: "y’all be scared to double text lmaoo not me ding ding tis i again",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1466195131195961352%2FjAFm_g5U_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1466195131195961352%252FjAFm_g5U_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoannaNewSum41/status/1440021745881210883",
@@ -4915,7 +4915,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9,
         likes: 134,
         content: "69 love songs and none of them pass the bechdel test...",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692975755834134528%2FlH7OrHCO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692975755834134528%252FlH7OrHCO_bigger.jpg",
     },
     {
         url: "https://twitter.com/TommySiegel/status/1440443307826376714",
@@ -4923,8 +4923,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 411,
         likes: 1633,
         content: "i’ve seen a lot of discussion and debate around neutral milk hotel lately, so i just wanted to share this comprehensive guide. i hope this clears things up.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FE_17jRJVIAE4DCG.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1504848930558857219%2Fw4EVHn-r_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FE_17jRJVIAE4DCG.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1504848930558857219%252Fw4EVHn-r_bigger.jpg",
     },
     {
         url: "https://twitter.com/bedbugOFFICIAL/status/1442957582436638721",
@@ -4932,7 +4932,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2077,
         likes: 12379,
         content: "They probably should've done Feel Good Inc instead",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1569457058260619265%2FBq2bObd9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1569457058260619265%252FBq2bObd9_bigger.jpg",
     },
     {
         url: "https://twitter.com/LilNasX/status/1444367077767192576",
@@ -4940,7 +4940,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 22401,
         likes: 423866,
         content: "life is so crazy. 5 years ago i used to just sit on twitter in my room all day but now i’m rich and i sit on twitter in my room all day.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733518696197623808%2FrlghFYSn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733518696197623808%252FrlghFYSn_bigger.jpg",
     },
     {
         url: "https://twitter.com/DollyParton/status/1448394032535715847",
@@ -4948,7 +4948,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36444,
         likes: 202562,
         content: "When her beauty is beyond compare with flaming locks of auburn hair 🚩🚩🚩",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655982161713823754%2F56KBq8og_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655982161713823754%252F56KBq8og_bigger.jpg",
     },
     {
         url: "https://twitter.com/Usher/status/1448719154366730241",
@@ -4956,8 +4956,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1501,
         likes: 15713,
         content: "You’re only as good as the company you keep.. this is what 43 looks like for me",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFBriWCAVUAMIEmU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1712600208201187328%2FkNxwyoP5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFBriWCAVUAMIEmU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712600208201187328%252FkNxwyoP5_bigger.jpg",
     },
     {
         url: "https://twitter.com/sweetstench/status/1451308342031183872",
@@ -4965,7 +4965,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4804,
         likes: 25602,
         content: "Stinky Tokens",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1575617314699071488%2FAEEs1ctG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1575617314699071488%252FAEEs1ctG_bigger.jpg",
     },
     {
         url: "https://twitter.com/JamesBlunt/status/1451599236701868035",
@@ -4973,8 +4973,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17941,
         likes: 220118,
         content: "I could’ve told her that.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFCUdz8BXIAcCYZX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686031452868108289%2F61rnyMp5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFCUdz8BXIAcCYZX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686031452868108289%252F61rnyMp5_bigger.jpg",
     },
     {
         url: "https://twitter.com/Mmm_it_me/status/1454106606853976064",
@@ -4982,8 +4982,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3187,
         likes: 21768,
         content: "@kaaauthor what do you think of our Halloween costume? 😁",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFC4GP8aUUAEoxO9.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1620475686262546436%2Fzy9nFjhd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFC4GP8aUUAEoxO9.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620475686262546436%252Fzy9nFjhd_bigger.jpg",
     },
     {
         url: "https://twitter.com/subtoconnorpls/status/1454134186416222218",
@@ -4991,8 +4991,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 139,
         likes: 8232,
         content: "why does he have sweet baby rays bbq on the decorative shelf 2",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFC4fVYRWUAUY9NO.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1481379465087361024%2FNbCG5BLJ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFC4fVYRWUAUY9NO.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1481379465087361024%252FNbCG5BLJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/mattiekahn/status/1455890581734010886",
@@ -5000,7 +5000,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2,
         likes: 44,
         content: "How am I? I’m reading the corporate bio of Ed Sheeran’s wife on the Deloitte website",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F657364119452971008%2FPK73MENJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F657364119452971008%252FPK73MENJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/georgehahn/status/1456047407817449474",
@@ -5008,7 +5008,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 334,
         likes: 6069,
         content: "When I first heard of QAnon, I thought it was a support group for women who found out their husbands were gay.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1650965769390366720%2F428q7_39_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1650965769390366720%252F428q7_39_bigger.jpg",
     },
     {
         url: "https://twitter.com/lindseyadler/status/1457066177751130118",
@@ -5016,7 +5016,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 298,
         likes: 5120,
         content: "the stranger next to me at a karaoke bar last night was scrolling a facebook group called “MEN ENJOYING FEET” while waiting for his song to come up, then he sung “under the sea,” which is a song about a mermaid who wishes she had feet",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1687807787026259969%2F82CIyo9d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687807787026259969%252F82CIyo9d_bigger.jpg",
     },
     {
         url: "https://twitter.com/jdesmondharris/status/1460404986542649345",
@@ -5024,8 +5024,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6,
         likes: 299,
         content: "Good news: My eye doctor was very impressed that I diagnosed myself with astigmatism based on a meme\nBad news: It’s not quite bad enough to fix with contacts. So I guess I’ll let you know when I’m on the road and you can use caution",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFERmmB5VcAIo1GK.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1483272529061941249%2FadSTXa-u_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFERmmB5VcAIo1GK.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1483272529061941249%252FadSTXa-u_bigger.jpg",
     },
     {
         url: "https://twitter.com/memescentrai/status/1462476304788381705",
@@ -5033,8 +5033,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 158,
         likes: 1495,
         content: "Gen Z Poets are gonna be built differently",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFEvCcu6X0AU0F6m.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1686869656332615680%2FAsnjt2ED_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFEvCcu6X0AU0F6m.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686869656332615680%252FAsnjt2ED_bigger.jpg",
     },
     {
         url: "https://twitter.com/andrealongchu/status/1462954139269451779",
@@ -5042,7 +5042,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 54,
         likes: 1341,
         content: "i dont like to get political on here but never having had sex doesn't make you a \"virgin.\" getting married in your twenties makes you a virgin",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490707597195939844%2Fc81ojfyR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490707597195939844%252Fc81ojfyR_bigger.jpg",
     },
     {
         url: "https://twitter.com/textfiles/status/1467240407926988806",
@@ -5050,7 +5050,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13,
         likes: 158,
         content: "I've got a tiny subset of friends/previous friends/acquaintances who are looking at NFTs with the inevitable curiosity they display for everything, but the Venn diagram of that group to \"would lose weekends huffing nitrous/think microdosing's a neat productivity hack\" is a circle",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1658519865211093004%2F8BK0rPx8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1658519865211093004%252F8BK0rPx8_bigger.jpg",
     },
     {
         url: "https://twitter.com/OgCantMiss/status/1467466318018498562",
@@ -5058,8 +5058,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1364,
         likes: 6974,
         content: "A classic",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFF181rJWUAEMD0N.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F783989375134601216%2FgECLiKXl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFF181rJWUAEMD0N.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F783989375134601216%252FgECLiKXl_bigger.jpg",
     },
     {
         url: "https://twitter.com/xanabon/status/1468010141249380354",
@@ -5067,7 +5067,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25462,
         likes: 157823,
         content: "you want me to go to a meeting? the thing that killed Julius Caesar?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1513335399011205122%2F9uqU4G5A_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1513335399011205122%252F9uqU4G5A_bigger.jpg",
     },
     {
         url: "https://twitter.com/samvanhallgren/status/1469298453914304513",
@@ -5075,8 +5075,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 415,
         likes: 3177,
         content: "Kudos to the @LandsEnd designer who got this past corporate.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFGP_JljXMAc7h-0.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1625521358921781248%2F0U3LeIrE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFGP_JljXMAc7h-0.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625521358921781248%252F0U3LeIrE_bigger.jpg",
     },
     {
         url: "https://twitter.com/tonyhawk/status/1469340569587568645",
@@ -5084,7 +5084,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21394,
         likes: 226603,
         content: "At coffee shop this morning:\nGirl behind counter: (not joking) “has anyone told you that you look like Tony Hawk?”\nMe: yes, so much that I sometimes write about it.\nHer: haha, here’s your coffee\nOther girl by exit: (leans toward me as I walk out): “you really do look like him”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1325015260%2F1979_driveway_fs_stink_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325015260%252F1979_driveway_fs_stink_bigger.jpg",
     },
     {
         url: "https://twitter.com/jdcmedlock/status/1470547171078389762",
@@ -5092,7 +5092,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 243,
         likes: 3071,
         content: "We should forgive all student debt so we can stop having this discourse",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1343045735936245768%2FcRORtnYI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1343045735936245768%252FcRORtnYI_bigger.jpg",
     },
     {
         url: "https://twitter.com/BGrueskin/status/1473315181199605762",
@@ -5100,8 +5100,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 378,
         likes: 1645,
         content: "Correction of the year. \n\nh/t @sarafischer",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFHJEWQVXwAMBlg4.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1681016681525649409%2FlrCrgXa5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFHJEWQVXwAMBlg4.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1681016681525649409%252FlrCrgXa5_bigger.jpg",
     },
     {
         url: "https://twitter.com/AUgetoffmygold/status/1476295252323545089",
@@ -5109,7 +5109,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 31,
         content: "11. AXE disavows the Capitol attack",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1407768129845956612%2FJvBH4p9C_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1407768129845956612%252FJvBH4p9C_bigger.jpg",
     },
     {
         url: "https://twitter.com/Cpin42/status/1477537308756877315",
@@ -5117,7 +5117,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9423,
         likes: 105251,
         content: "Yeah I stole your ape pics. What are you gonna do, draw some police",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2649324061%2F93bcd3c7da4abc48a21143452606fcec_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2649324061%252F93bcd3c7da4abc48a21143452606fcec_bigger.jpeg",
     },
     {
         url: "https://twitter.com/arc3lm/status/1478129385307729920",
@@ -5125,7 +5125,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9,
         likes: 55,
         content: "goblin at night, filled with fright. goblin in morning, its more of a warning",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1385446439749226496%2FHqVLMy-Q_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1385446439749226496%252FHqVLMy-Q_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheRichardKarn/status/1478504258148257794",
@@ -5133,8 +5133,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8926,
         likes: 81611,
         content: "I’ve thought long and hard about NFT’s and I’ve decided it’s not something I need to do🙏💕",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFISzyWlVEAAQGea.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000290931846%2Fc37c005d29612d24f5b2cb99ad9a5343_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFISzyWlVEAAQGea.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000290931846%252Fc37c005d29612d24f5b2cb99ad9a5343_bigger.jpeg",
     },
     {
         url: "https://twitter.com/PowerfulHag/status/1481042736610689024",
@@ -5142,8 +5142,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 830,
         likes: 2158,
         content: "Japanese writer about to type the funniest two words combined ever: \"I'm going to name my character something foreign-sounding\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFI24LvSacAAtLqV.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1640666461650960384%2FUUAGxcJQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFI24LvSacAAtLqV.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1640666461650960384%252FUUAGxcJQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/CroixAlmer/status/1483171582507954182",
@@ -5151,8 +5151,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 37309,
         likes: 197065,
         content: "i made an algorithm look at 1,000 memes on Twitter and then produce its own, and this is what i got.\n\ni am shaking and crying.\n2022 is just beginning, i can't do this. this can't be how 2022 begins.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFJVIFRqXMAQLiV0.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1699471208335474688%2FIIN7HsYD_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFJVIFRqXMAQLiV0.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699471208335474688%252FIIN7HsYD_bigger.jpg",
     },
     {
         url: "https://twitter.com/JeffMightBWrong/status/1483460030762471436",
@@ -5160,8 +5160,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11709,
         likes: 75564,
         content: "Damn...CAPTCHAs getting hard.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFJZO72lWQAQMrWi.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1708282560101662720%2F2MAnOyGZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFJZO72lWQAQMrWi.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1708282560101662720%252F2MAnOyGZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/chandlerjdean/status/1483806684543860738",
@@ -5169,7 +5169,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1381,
         likes: 39618,
         content: "Googling “can I take expired advil,” not liking the results I saw, then adding “be real”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490792436116987907%2F-SVGv4Iv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490792436116987907%252F-SVGv4Iv_bigger.jpg",
     },
     {
         url: "https://twitter.com/mind_probiotic/status/1484021742511210497",
@@ -5177,8 +5177,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9373,
         likes: 63981,
         content: "a shrimp? am i to accept, as god's own truth, that the sea's very own abominable and chittering roach, was the one who took wok into hand and fried this rice?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFJhMCpFXEAIhhKw.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1475254230403407876%2FnZyorAWv_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFJhMCpFXEAIhhKw.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1475254230403407876%252FnZyorAWv_bigger.jpg",
     },
     {
         url: "https://twitter.com/wife_geist/status/1484236520672444421",
@@ -5186,7 +5186,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4759,
         likes: 59033,
         content: "when someone visibly coughs blood into a handkerchief in a period piece that’s conspicuous consumption",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1320806229413908483%2FqURj8zLe_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1320806229413908483%252FqURj8zLe_bigger.jpg",
     },
     {
         url: "https://twitter.com/barranr/status/1485373731963039744",
@@ -5194,8 +5194,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46443,
         likes: 544517,
         content: "I’ve been standing here for 30 minutes. Nothing!!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFJ0biMoagAAOIiH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730826466819227648%2FybVTcLQ7_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFJ0biMoagAAOIiH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730826466819227648%252FybVTcLQ7_bigger.jpg",
     },
     {
         url: "https://twitter.com/GianmarcoSoresi/status/1486792040792924161",
@@ -5203,7 +5203,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 850,
         likes: 38957,
         content: "My girlfriend asked my Alexa to play The Joe Rogan Experience as a joke and that little snitch said \"resuming The Joe Rogan Experience\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444809097048514565%2FxRk56a9m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444809097048514565%252FxRk56a9m_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyceCarolOates/status/1488920061129764867",
@@ -5211,7 +5211,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 112,
         likes: 787,
         content: "when I was first married to my (Jewish) husband two Jewish women friends of mine took me aside & said with wry smiles: \"Welcome to the club.\" soon, I knew what they meant.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2683616680%2Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
         url: "https://twitter.com/greenTetra_/status/1489766391225933826",
@@ -5219,7 +5219,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2917,
         likes: 33895,
         content: "theres been a horrible success at the accident factory",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736845378979262464%2FLOxOoOKE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736845378979262464%252FLOxOoOKE_bigger.jpg",
     },
     {
         url: "https://twitter.com/evankindley/status/1490894441862742017",
@@ -5227,8 +5227,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 323,
         likes: 3652,
         content: "I can’t stop singing this question to the tune of “What Shall We Do with the Drunken Sailor?”",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFLC4hODUYAAJLGu.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1731354748169932800%2Fjh48-oQN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFLC4hODUYAAJLGu.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731354748169932800%252Fjh48-oQN_bigger.jpg",
     },
     {
         url: "https://twitter.com/vicbekiempis/status/1491175929519144960",
@@ -5236,7 +5236,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6,
         likes: 15,
         content: "the best part from the #bitcoin laundering presentment is that morgan and lichtenstein allegedly had a bag of cell phones under their bed labeled \"burner phones\" and 1 of them had a text file named \"passport_ideas\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1460360124820824067%2FCbBaoUvb_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1460360124820824067%252FCbBaoUvb_bigger.jpg",
     },
     {
         url: "https://twitter.com/misterpatches/status/1491239499476910080",
@@ -5244,7 +5244,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 177,
         likes: 1057,
         content: "\"An Extremely Online elder millennial mysteriously  receives their Substack newsletters a day early —  but can they use the knowledge to save those fated to be Twitter's main character?\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1379417081653964806%2FYMU0UFoQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1379417081653964806%252FYMU0UFoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/jpep20/status/1491429236422627332",
@@ -5252,7 +5252,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4013,
         likes: 38391,
         content: "My boss on Zoom: “Joe you been quiet today. Do you want to say anything?”\n\nMe: “Betty White passed away so she could come back as Rihanna’s baby”\n\nMy boss: “Gang that’s my fault I should know better”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1723016003896930304%2F43kyOnQ2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1723016003896930304%252F43kyOnQ2_bigger.jpg",
     },
     {
         url: "https://twitter.com/knockovercity/status/1491569547203293188",
@@ -5260,8 +5260,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2752,
         likes: 22275,
         content: "P.O.D.? Nah I don't listen to",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFLMemC2WYAAY8dy.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1481923514831716352%2FiI2FWieh_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFLMemC2WYAAY8dy.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1481923514831716352%252FiI2FWieh_bigger.jpg",
     },
     {
         url: "https://twitter.com/chompie1337/status/1492258983914188808",
@@ -5269,7 +5269,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9807,
         likes: 123092,
         content: "dentist: so, are you flossing?\nme: are you using a unique password for every account?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736937375614246912%2FLfOgP9E6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736937375614246912%252FLfOgP9E6_bigger.jpg",
     },
     {
         url: "https://twitter.com/Eve6/status/1496312820731949059",
@@ -5277,7 +5277,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3664,
         likes: 68236,
         content: "one cool thing about spotify is you can still listen to your favorite problematic artists and they won’t make any money",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733161989474488320%2FsvniHfk1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733161989474488320%252FsvniHfk1_bigger.jpg",
     },
     {
         url: "https://twitter.com/sureshtrumpet/status/1498980877296099338",
@@ -5285,8 +5285,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1692,
         likes: 8190,
         content: "Same energy 🤷🏾 #SOTU2022",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFM1zHa8XMAY3b2v.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1365823413038813186%2FYfAtOecc_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFM1zHa8XMAY3b2v.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1365823413038813186%252FYfAtOecc_bigger.jpg",
     },
     {
         url: "https://twitter.com/peterliakhov/status/1499341576518217730",
@@ -5294,7 +5294,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18475,
         likes: 71088,
         content: "A snapshot of the Russian economy: an investment expert goes live on air and says his current career trajectory is to work as \"Santa Claus\" and then drinks to the death of the stock market. With subtitles.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1620133377386110976%2FFgLgV_3d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620133377386110976%252FFgLgV_3d_bigger.jpg",
     },
     {
         url: "https://twitter.com/tmcw/status/1499500654133452803",
@@ -5302,7 +5302,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 149,
         likes: 2545,
         content: "interviewer, looking at resume: i see no gaps here, you must be burned out as fuck\njob candidate: yes",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1172554769237336065%2FCIdcAG0d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1172554769237336065%252FCIdcAG0d_bigger.jpg",
     },
     {
         url: "https://twitter.com/MikeTyson/status/1500140734468395011",
@@ -5310,7 +5310,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10929,
         likes: 110711,
         content: "I don’t understand why people would want to get rid of pigeons. They don’t bother no one.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1597309336350380033%2Fub7VkPLo_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1597309336350380033%252Fub7VkPLo_bigger.jpg",
     },
     {
         url: "https://twitter.com/Scholf_A_Loaf/status/1501268580935028738",
@@ -5318,7 +5318,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20972,
         likes: 220726,
         content: "“Spotify’s down? What am I supposed to listen to now?“\n\nWomen, my brother.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1720964737431900160%2FBiKaYL5i_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720964737431900160%252FBiKaYL5i_bigger.jpg",
     },
     {
         url: "https://twitter.com/pragdua/status/1503668343152074752",
@@ -5326,8 +5326,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 38295,
         likes: 376157,
         content: "electricity went out and i had a small meltdown at work today",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFN4aYpNacAYOobt.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590071246200324097%2FjQihie6N_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFN4aYpNacAYOobt.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590071246200324097%252FjQihie6N_bigger.jpg",
     },
     {
         url: "https://twitter.com/AShihipar/status/1505222469652787203",
@@ -5335,8 +5335,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1253,
         likes: 13321,
         content: "screaming at this painting of the March family of little women enjoying dunkin in the concord dunkin",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFOOf12iXwAUOudd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1426784661863374849%2FvLQtowjp_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFOOf12iXwAUOudd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1426784661863374849%252FvLQtowjp_bigger.png",
     },
     {
         url: "https://twitter.com/Writing_Abigail/status/1508160045820829698",
@@ -5344,7 +5344,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20395,
         likes: 334908,
         content: "My husband ordered bees. 🐝 \n\n20,000 bees.\n\nThe postal service has lost his order.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1672302045108248580%2FdkBmiZDh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1672302045108248580%252FdkBmiZDh_bigger.jpg",
     },
     {
         url: "https://twitter.com/brokeymcpoverty/status/1508287851406016513",
@@ -5352,7 +5352,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 72,
         likes: 687,
         content: "three 6 mafia went to the oscars slapped not a SINGLE person",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1227626363588313088%2FMXw3gRtq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1227626363588313088%252FMXw3gRtq_bigger.jpg",
     },
     {
         url: "https://twitter.com/jrvsscarlet/status/1509371311222452226",
@@ -5360,8 +5360,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 40596,
         likes: 411160,
         content: "Be careful out there everyone. I had 2 Morbius tickets in my car and someone broke in and left 4 more.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFPJdJroVsAUZ5WE.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1550091488385986561%2F1AwTe9tx_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFPJdJroVsAUZ5WE.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1550091488385986561%252F1AwTe9tx_bigger.jpg",
     },
     {
         url: "https://twitter.com/LaurenKGurley/status/1509618311155363840",
@@ -5369,8 +5369,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2915,
         likes: 22813,
         content: "I just spoke to Chris Smalls, president of Amazon Labor Union, outside NLRB in Brooklyn about the fact that the union is leading Amazon 738-600. \n\nHe said of Amazon’s lawyers in the vote count room “I love watching them squirm. They’re drinking mad water.”",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFPM92PTXsAMwon6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1471880300338630656%2FwOmL2Dky_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFPM92PTXsAMwon6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1471880300338630656%252FwOmL2Dky_bigger.jpg",
     },
     {
         url: "https://twitter.com/WaltHickey/status/1509629653044154372",
@@ -5378,8 +5378,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13,
         likes: 79,
         content: "I want you meet my hero, the person who complained to the FCC about ABC yanking the closed caption feed during the Will Smith-Chris Rock altercation meaning they were not able to understand what the hell happened. \n\ninsider.com/fcc-complaints-w…",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFPNH8zRXMAA6k4K.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1343387746853937159%2FBXb3Kpr8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFPNH8zRXMAA6k4K.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1343387746853937159%252FBXb3Kpr8_bigger.jpg",
     },
     {
         url: "https://twitter.com/Brohamulet/status/1510698419089772555",
@@ -5387,8 +5387,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44034,
         likes: 575530,
         content: "Absolutely insane choice for a name",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFPcUMznWQAEx_wn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1393031284860112900%2FcrOa9wgR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFPcUMznWQAEx_wn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1393031284860112900%252FcrOa9wgR_bigger.jpg",
     },
     {
         url: "https://twitter.com/mdburnell/status/1510772913120677899",
@@ -5396,7 +5396,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16522,
         likes: 176408,
         content: "That is a really specific category but I suppose someone had to win it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F902116319860072448%2F8vhKsRsg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F902116319860072448%252F8vhKsRsg_bigger.jpg",
     },
     {
         url: "https://twitter.com/ebenbenson/status/1511864029437902852",
@@ -5404,8 +5404,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4561,
         likes: 56577,
         content: "I can’t stop laughing at this I haven’t stopped laughing at this for the last 45 minutes",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFPs4UhCXsAw9cIg.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1411457218881404934%2FDs-5WElk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFPs4UhCXsAw9cIg.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1411457218881404934%252FDs-5WElk_bigger.jpg",
     },
     {
         url: "https://twitter.com/SbondyNBA/status/1511898681875783687",
@@ -5413,7 +5413,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 105,
         likes: 1234,
         content: "Kevin Durant told he hasn't lost to the Knicks since 2013. He pumps his fists: \n\n\"I got something to talk about on twitter now.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1647366178422026241%2FVzXwcvNq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1647366178422026241%252FVzXwcvNq_bigger.jpg",
     },
     {
         url: "https://twitter.com/mariebardi/status/1513193744752906245",
@@ -5421,8 +5421,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1527,
         likes: 20638,
         content: "Al’s headphones continue to be iconic, but I need a full investigation on whatever the fuck is supposed to be on his iPhone case",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFP_xcJwX0AQLuxP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1701382888489414656%2FRZslQGTl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFP_xcJwX0AQLuxP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1701382888489414656%252FRZslQGTl_bigger.jpg",
     },
     {
         url: "https://twitter.com/katepenniman/status/1513276477562888194",
@@ -5430,8 +5430,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 91,
         likes: 2051,
         content: "hope this helps :)",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFQA87qQWUAIAVpJ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1721815758068494336%2FYlX1iQ8G_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFQA87qQWUAIAVpJ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721815758068494336%252FYlX1iQ8G_bigger.jpg",
     },
     {
         url: "https://twitter.com/BBCPolitics/status/1513519439509082126",
@@ -5439,7 +5439,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 351,
         likes: 1970,
         content: "Lord Pickles apologises for getting the number of people who died in the Grenfell Tower fire wrong while giving evidence \n\nbbc.in/3E4kdgY",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1150756359497015298%2FxXj2IfkW_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1150756359497015298%252FxXj2IfkW_bigger.png",
     },
     {
         url: "https://twitter.com/HelloCullen/status/1513555761699299328",
@@ -5447,8 +5447,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2,
         likes: 145,
         content: "cops keep pulling me over and begging me to have sex with their partners",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFQE66jOWUAERRaR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1315149339904286720%2F0Cxkqh2D_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFQE66jOWUAERRaR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1315149339904286720%252F0Cxkqh2D_bigger.jpg",
     },
     {
         url: "https://twitter.com/images_ai/status/1513682405739094018",
@@ -5456,8 +5456,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7,
         likes: 30,
         content: "\"a face you always see in dreams\"\n\n#CompVis",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFQGuG4gXMAkUoNa.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719335806605664256%2FqzibwU-V_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFQGuG4gXMAkUoNa.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719335806605664256%252FqzibwU-V_bigger.jpg",
     },
     {
         url: "https://twitter.com/hmcghee/status/1513686397089107980",
@@ -5465,8 +5465,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5275,
         likes: 70249,
         content: "Everything.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFQGxwNKXMAEUOHc.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839837801399078912%2FhS6qb6M4_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFQGxwNKXMAEUOHc.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839837801399078912%252FhS6qb6M4_bigger.jpg",
     },
     {
         url: "https://twitter.com/biz/status/1513724325873868806",
@@ -5474,7 +5474,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16,
         likes: 104,
         content: "What’s next? (It’s always something!)",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1599941885484707840%2FYATEabA3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1599941885484707840%252FYATEabA3_bigger.jpg",
     },
     {
         url: "https://twitter.com/emmabarrie/status/1514660173142368260",
@@ -5482,7 +5482,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11495,
         likes: 126239,
         content: "Too much body positivity on my feed. Humans are disgusting. Skin is gross. We have so many holes. There’s a skeleton inside. Uncomfortable just seeing one of us in public.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1223065055530377217%2FCK3SG7vH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1223065055530377217%252FCK3SG7vH_bigger.jpg",
     },
     {
         url: "https://twitter.com/ChuckGrassley/status/1515409114855358475",
@@ -5490,8 +5490,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 422,
         likes: 3840,
         content: "Grassley to Beth: Sunday we hv our Easter family gathering are u ready to roll ?\n\nBeth to GRASSLEY’ “ready 10/4”  Beth is my old faithful vacuum cleaner",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFQfQjhPXMAUD7hu.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F921098191507984385%2FXYteQA6t_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFQfQjhPXMAUD7hu.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F921098191507984385%252FXYteQA6t_bigger.jpg",
     },
     {
         url: "https://twitter.com/bellabee13/status/1516036609174654977",
@@ -5499,7 +5499,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4757,
         likes: 26393,
         content: "“Bless me Father for I have sinned. I can’t stop thinking about the barenaked ladies.”\n\nPriest: “And how long has it been since your last confession?”\n\n“It’s been…”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1720488387340099585%2FyB8E4Bva_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720488387340099585%252FyB8E4Bva_bigger.jpg",
     },
     {
         url: "https://twitter.com/zachsilberberg/status/1516081266441003015",
@@ -5507,7 +5507,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17398,
         likes: 271280,
         content: "i know exactly how i want to die. i want to get hit by the carpool karaoke car so james corden will have to stop doing it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709792200765120512%2FrXbVAH9d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709792200765120512%252FrXbVAH9d_bigger.jpg",
     },
     {
         url: "https://twitter.com/TourCNTower/status/1516402495995719690",
@@ -5515,8 +5515,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1286,
         likes: 4643,
         content: "Tonight the #CNTower will be lit blue for Irritable Bowel Syndrome (IBS) Awareness Month / Ce soir la #TourCN sera illuminée en bleu pour le Mois de sensibilisation au syndrome du colon irritable",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFQtYBxpXwAMKBP2.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707746312576221184%2FG-sTMoj9_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFQtYBxpXwAMKBP2.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707746312576221184%252FG-sTMoj9_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/1516425582954917891",
@@ -5524,7 +5524,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6355,
         likes: 82155,
         content: "to my crying infant: please stop trauma dumping",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/silviakillings/status/1516426656491216905",
@@ -5532,7 +5532,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3,
         likes: 15,
         content: "I wonder what the fridge thinks of Joe Kahn",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1516148748187017223%2F7ZTDb4Qa_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516148748187017223%252F7ZTDb4Qa_bigger.jpg",
     },
     {
         url: "https://twitter.com/Dobrenkz/status/1516864412962885633",
@@ -5540,7 +5540,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23540,
         likes: 181192,
         content: "therapist: whats your attachment style?\nme: I dunno...pdf?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1426930799899643908%2F5jkzRhxh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1426930799899643908%252F5jkzRhxh_bigger.jpg",
     },
     {
         url: "https://twitter.com/gabagoolmarx/status/1517858108743340032",
@@ -5548,8 +5548,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5265,
         likes: 43870,
         content: "It’s called emotional labor, T. It used to mean you had to smile at work or something but now a bunch a online weirdos say it means you don’t gotta be a good friend to someone no more.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFRCD57_XwAAt3Vq.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1697797207984836608%2Fs-XGmeyW_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFRCD57_XwAAt3Vq.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697797207984836608%252Fs-XGmeyW_bigger.jpg",
     },
     {
         url: "https://twitter.com/Eve6/status/1517946752309080073",
@@ -5557,7 +5557,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14,
         likes: 807,
         content: "just had an interviewer ask me if it was “hard for us to be referred to as a nineties band” and i’m kicking myself for not saying life is hard and so am i",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733161989474488320%2FsvniHfk1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733161989474488320%252FsvniHfk1_bigger.jpg",
     },
     {
         url: "https://twitter.com/monosynth/status/1520127653323313153",
@@ -5565,7 +5565,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2185,
         likes: 20594,
         content: "bats playing the long game",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1706735253048770560%2FuC_RD3pP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706735253048770560%252FuC_RD3pP_bigger.jpg",
     },
     {
         url: "https://twitter.com/DrewciferScott/status/1520395288770318337",
@@ -5573,8 +5573,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20073,
         likes: 134864,
         content: "i’m a bitch, i’m a lover, i’m a…",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFRlkad3XsAUmoqw.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1510104137026867203%2FbH1BA7ql_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFRlkad3XsAUmoqw.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1510104137026867203%252FbH1BA7ql_bigger.jpg",
     },
     {
         url: "https://twitter.com/spiritnght2/status/1521566347125211136",
@@ -5582,7 +5582,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10090,
         likes: 243326,
         content: "my boss denied me a raise before my shift today. what’s some music you have never wanted to hear in a coffee shop?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1316959766455947266%2FGCpkKo2D_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1316959766455947266%252FGCpkKo2D_bigger.jpg",
     },
     {
         url: "https://twitter.com/The_Law_Boy/status/1521589951695147012",
@@ -5590,7 +5590,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1756,
         likes: 33215,
         content: "it is time to make roe v. wade permanent by putting it on the blockchain",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1029746079846354944%2F2NWE7cEG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1029746079846354944%252F2NWE7cEG_bigger.jpg",
     },
     {
         url: "https://twitter.com/jzux/status/1521899642631380997",
@@ -5598,7 +5598,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12389,
         likes: 206669,
         content: "imagine your roommate eats the plums you were saving for breakfast and then writes a bitchy little poem talking about how good they were. and then it becomes one of the most famous poems of all time",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1304589362051645441%2FYo_o5yi5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304589362051645441%252FYo_o5yi5_bigger.jpg",
     },
     {
         url: "https://twitter.com/jamesdgreig/status/1522221217612132354",
@@ -5606,7 +5606,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4251,
         likes: 69775,
         content: "Me: oh, the coco pops monkey \\*definitely\\* has he/they energy 😂\n\nMy mum: your cousin just bought a house",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1469017362427002887%2FyqsCFaZs_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1469017362427002887%252FyqsCFaZs_bigger.jpg",
     },
     {
         url: "https://twitter.com/GeorgeGreenwood/status/1522509469707612160",
@@ -5614,7 +5614,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 31,
         likes: 680,
         content: "My dad has just described my parents new car as being “too woke” because it warns you of upcoming obstacles…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719693587653312512%2FlY7Lvi9x_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719693587653312512%252FlY7Lvi9x_bigger.jpg",
     },
     {
         url: "https://twitter.com/_sn_n/status/1522705352806047745",
@@ -5622,8 +5622,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7977,
         likes: 137555,
         content: "A FaceApp morph of all Supreme Court justices since 1980",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFSG8cj6WQAALXC0.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1641850361802571776%2FUFxKjNBo_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFSG8cj6WQAALXC0.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1641850361802571776%252FUFxKjNBo_bigger.jpg",
     },
     {
         url: "https://twitter.com/jxxf/status/1522993091409768448",
@@ -5631,7 +5631,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24100,
         likes: 249496,
         content: "Optimist: The glass is ½ full.\nPessimist: The glass is ½ empty.\nExcel: The glass is January 2nd.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3348427561%2F9d7f08f1e103a16c8debd169301b9944_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3348427561%252F9d7f08f1e103a16c8debd169301b9944_bigger.jpeg",
     },
     {
         url: "https://twitter.com/yurirando/status/1524125063267897344",
@@ -5639,8 +5639,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20,
         likes: 195,
         content: "the other day i did a bunch of whippets and was struck by the fact i didn't know anything about which important romans, or indeed any historical figures, were fat. this is what i said to my friend about it",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFSbHqSQUcAA73M8.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1301369135541055488%2FtCetEL6o_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFSbHqSQUcAA73M8.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1301369135541055488%252FtCetEL6o_bigger.jpg",
     },
     {
         url: "https://twitter.com/alyssalimp/status/1524399397815083010",
@@ -5648,7 +5648,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2395,
         likes: 66498,
         content: "I get so proud when the roomba runs out of charge and makes it’s way back to the charging station like yes girl self care!!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F916469867880075265%2Fd9cC1LlQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F916469867880075265%252Fd9cC1LlQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/OneRadChee/status/1526740335451418626",
@@ -5656,8 +5656,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2945,
         likes: 16790,
         content: "why did the crypto crash happen?\n\nbitcoin turned 13, and libertarians lost interest",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFTASJgeWUAAumwZ.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1539684067830120450%2FJZInWf1h_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFTASJgeWUAAumwZ.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1539684067830120450%252FJZInWf1h_bigger.jpg",
     },
     {
         url: "https://twitter.com/kohack_v/status/1526857627611074560",
@@ -5665,7 +5665,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 56958,
         likes: 212757,
         content: "俺が牛乳を注ぐ女だ\n\n#Blender #Unity",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1377703459009355776%2Fba1xxC5d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377703459009355776%252Fba1xxC5d_bigger.jpg",
     },
     {
         url: "https://twitter.com/omgskr/status/1527842813316153345",
@@ -5673,7 +5673,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10522,
         likes: 88266,
         content: "You want me to get a husband???The thing that killed everyone on Dateline???",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1442664430328639491%2FDPIlBPQr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1442664430328639491%252FDPIlBPQr_bigger.jpg",
     },
     {
         url: "https://twitter.com/makeupaguy/status/1529117214636396547",
@@ -5681,7 +5681,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23837,
         likes: 298162,
         content: "guy who pronounces LGBT as \"el jibbity\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1658931221458563075%2FO4HC0sVE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1658931221458563075%252FO4HC0sVE_bigger.jpg",
     },
     {
         url: "https://twitter.com/jzux/status/1529807426786041858",
@@ -5689,7 +5689,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17897,
         likes: 130435,
         content: "ask not what your country can do for you. they literally won’t do it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1304589362051645441%2FYo_o5yi5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304589362051645441%252FYo_o5yi5_bigger.jpg",
     },
     {
         url: "https://twitter.com/SamGrittner/status/1530982739607953410",
@@ -5697,8 +5697,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2281,
         likes: 27228,
         content: "When I retweet myself",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFT8kr-cXwAAeuRD.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1624870235076456451%2FRK3XxngP_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFT8kr-cXwAAeuRD.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624870235076456451%252FRK3XxngP_bigger.jpg",
     },
     {
         url: "https://twitter.com/brian_bahe/status/1531750018100695041",
@@ -5706,7 +5706,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2328,
         likes: 35680,
         content: "Pride month taught me it was ok to be a corporation",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1618368867562295297%2FOausEUET_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1618368867562295297%252FOausEUET_bigger.jpg",
     },
     {
         url: "https://twitter.com/PleaseBeGneiss/status/1533569440503111681",
@@ -5714,7 +5714,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17317,
         likes: 207836,
         content: "it’s a hard pill to swallow but i think we need to accept that our lives just won’t be same again. the risk will never be zero. we will always be on the verge of another morbius release",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1565491884872544261%2F8-gEqo1s_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565491884872544261%252F8-gEqo1s_bigger.jpg",
     },
     {
         url: "https://twitter.com/rachelysanders/status/1533840888996286465",
@@ -5722,7 +5722,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5781,
         likes: 65423,
         content: "i love how in the winter my personal goals are like “change careers” and “find meaning in life” and then in summer literally just “look hot” and “go swimming”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1276548377552072706%2FYx85RTvX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1276548377552072706%252FYx85RTvX_bigger.jpg",
     },
     {
         url: "https://twitter.com/ConnorColson/status/1534239013871095808",
@@ -5730,7 +5730,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18333,
         likes: 226536,
         content: "Too many of you were told as kids you'd make a great lawyer without realizing that adult was calling you a dick.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1466774046574616578%2FVaztHOS8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1466774046574616578%252FVaztHOS8_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/1535397883842703360",
@@ -5738,7 +5738,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27871,
         likes: 233578,
         content: "the ai art thing is fake. i’m the guy who has to draw all the requests like the chess player inside the mechanical turk. you’re torturing me. i spend every waking hour drawing shit like “joe biden asuka wedding” and “donkey kong nuremberg trials” please stop. i need to sleep",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/Shen_the_Bird/status/1536893216615694338",
@@ -5746,7 +5746,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6868,
         likes: 100384,
         content: "girlfriend: now don't start weird conversations with my dad tonight\n\nme: fine\n\n[later]\n\nme: [immediately] ah rugs, the coward's carpet",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125628501233631233%2FpVeG9nac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
         url: "https://twitter.com/lolennui/status/1536936843945590784",
@@ -5754,7 +5754,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5521,
         likes: 56391,
         content: "oh we’re in a “bear market”?? well I think we’re in a platypus store. that’s what you sound like. that’s you.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1702704292594110464%2FU4DfWVaL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
         url: "https://twitter.com/JJWatt/status/1537208767250460672",
@@ -5762,8 +5762,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6076,
         likes: 101187,
         content: "you might want to think about intercepting some profits sometime soon…",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFVVDOdvUUAArVb3.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709943737940664320%2Fm9NHJEId_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFVVDOdvUUAArVb3.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709943737940664320%252Fm9NHJEId_bigger.jpg",
     },
     {
         url: "https://twitter.com/quietbutjudgy/status/1539637101188091904",
@@ -5771,7 +5771,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 107,
         likes: 2584,
         content: "oh no! Not totally the same, but my mom read my diary  and stole a couple of lines I wrote about losing my virginity and put it in her e-sig on her Sims erotica website. It was there for YEARS before I found it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2297413163%2Fimage_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2297413163%252Fimage_bigger.jpg",
     },
     {
         url: "https://twitter.com/solomonmissouri/status/1540489314123087872",
@@ -5779,7 +5779,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 50,
         likes: 205,
         content: "Lucifer was the Angel of light… could be his… we should make abortions widely available just to be sure 🤧",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1493440915062595589%2Fyxva1L8i_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1493440915062595589%252Fyxva1L8i_bigger.jpg",
     },
     {
         url: "https://twitter.com/snailfraud/status/1542256075038138368",
@@ -5787,7 +5787,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7414,
         likes: 49803,
         content: "sending friends tweets I think they might like is the same thing as those crows that leave little gifts of bottle caps and string",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1324862755304837122%2FS24UvNv__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1324862755304837122%252FS24UvNv__bigger.jpg",
     },
     {
         url: "https://twitter.com/yourpalmel/status/1542366005933924352",
@@ -5795,7 +5795,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 29085,
         likes: 373451,
         content: "Literaleigh is a beautiful name for a girl ❤️",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1663034049924038656%2FdorjRlUF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1663034049924038656%252FdorjRlUF_bigger.jpg",
     },
     {
         url: "https://twitter.com/ben_rosen/status/1542545127658250240",
@@ -5803,7 +5803,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2598,
         likes: 29094,
         content: "and on top of everything else gru is about to rise",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1016451004923985920%2FQjtIqSUB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
         url: "https://twitter.com/KennyDucey/status/1542700263680741377",
@@ -5811,8 +5811,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 370,
         likes: 4352,
         content: "This is legitimately one of the funniest things I've ever seen (via @connorwitt)",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFWjFtKFXkAcLtki.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1653936781224452098%2F7McqoyiC_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFWjFtKFXkAcLtki.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1653936781224452098%252F7McqoyiC_bigger.jpg",
     },
     {
         url: "https://twitter.com/ameliaelizalde/status/1542959084680253442",
@@ -5820,7 +5820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3680,
         likes: 52376,
         content: "[nancy pelosi email voice] GRU is RISING. can I count on you for $15?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1706541172070744064%2FUKGwwTfH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706541172070744064%252FUKGwwTfH_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/1543039645012869123",
@@ -5828,7 +5828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 772,
         likes: 17596,
         content: "jordan peterson got suspended on here for misgendering someone then he posted a fifteen minute video crying about how pride is a sin and that he’s banned from twitter and that he’d rather die than correct it. so basically to me he's like socrates,",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/biggestjoel/status/1543400860524466181",
@@ -5836,7 +5836,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9409,
         likes: 155747,
         content: "i didn't \"watch\" the rise of gru i sat my white ass down and LISTENED",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1347804971320958976%2FTzsmRl7g_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1347804971320958976%252FTzsmRl7g_bigger.jpg",
     },
     {
         url: "https://twitter.com/KevB123/status/1543804298215268358",
@@ -5844,7 +5844,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2995,
         likes: 41316,
         content: "July 4th shouldn’t be celebrated as a pro-American holiday. It should be celebrated as it was intended. As an anti-British holiday",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726998454910562315%2FWMiyXqBE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726998454910562315%252FWMiyXqBE_bigger.jpg",
     },
     {
         url: "https://twitter.com/roastmalone_/status/1544047752488751104",
@@ -5852,7 +5852,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26652,
         likes: 234283,
         content: "due to the increase in gas prices a man hanging from the passenger side of his best friend’s ride is no longer a scrub, he is a man making smart financial decisions and I’m intrigued",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1520548346527584256%2FqfGSIM1e_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520548346527584256%252FqfGSIM1e_bigger.jpg",
     },
     {
         url: "https://twitter.com/BradWetherell/status/1545176475443367938",
@@ -5860,7 +5860,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15554,
         likes: 152959,
         content: "Doing teletherapy from your childhood home is kind of like “reporting to you live from the scene of the accident”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F530875306186264576%2F-qn0JRy4_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F530875306186264576%252F-qn0JRy4_bigger.jpeg",
     },
     {
         url: "https://twitter.com/Wordesse/status/1545390264537083904",
@@ -5868,7 +5868,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12583,
         likes: 154651,
         content: "\"You have a Master's degree\", I whisper to myself as I struggle to find the end of a roll of tape.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1455403568140218372%2FJXRcb9ID_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455403568140218372%252FJXRcb9ID_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaketropolis/status/1545470192205037569",
@@ -5876,8 +5876,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4819,
         likes: 56753,
         content: "Yes, Your Holiness. The Anglican and the Shintoist have been dealt with. No, Your Holiness, the public still believes me to be senile.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFXKc8eKWYAAPKCP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1495618642859462662%2FZ7R-8rfa_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFXKc8eKWYAAPKCP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495618642859462662%252FZ7R-8rfa_bigger.jpg",
     },
     {
         url: "https://twitter.com/jbfan911/status/1546003206618103810",
@@ -5885,7 +5885,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6958,
         likes: 128360,
         content: "The worst part about a fender bender is getting out of your car and having to meet a new person",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1680724106654744576%2FGDQ9vcR5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680724106654744576%252FGDQ9vcR5_bigger.jpg",
     },
     {
         url: "https://twitter.com/Shen_the_Bird/status/1546285435156037635",
@@ -5893,7 +5893,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16595,
         likes: 169118,
         content: "wikipedia: please. please just give me one dollar i'm begging you give me anything\n\nme: [trying to look up the hamburglar's full name] shut the fuck up",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125628501233631233%2FpVeG9nac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaubreyYT/status/1546331025101492224",
@@ -5901,8 +5901,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1216,
         likes: 22272,
         content: "What the fuck am I looking at",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFXWr3yJWIAIVj8E.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1636192392788180992%2Fnh7mObp3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFXWr3yJWIAIVj8E.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1636192392788180992%252Fnh7mObp3_bigger.jpg",
     },
     {
         url: "https://twitter.com/alyankovic/status/1546611438650793985",
@@ -5910,7 +5910,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7054,
         likes: 128373,
         content: "Hey!  Stay in your lane!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F246073324%2FIL2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F246073324%252FIL2_bigger.jpg",
     },
     {
         url: "https://twitter.com/JillKrajewski/status/1546626633054015490",
@@ -5918,8 +5918,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7845,
         likes: 68606,
         content: "it's here–the deepest, sharpest infrared view of the universe to date",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFXa4sM7XoAE2ubZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649140027010547715%2Fk6ViC1qO_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFXa4sM7XoAE2ubZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649140027010547715%252Fk6ViC1qO_bigger.jpg",
     },
     {
         url: "https://twitter.com/ethanisdoomed/status/1548293662420848641",
@@ -5927,8 +5927,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9100,
         likes: 86733,
         content: "Blame it all on my roots… I showed up in croots",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFXyk4PoVsAIpnDA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1699746169709039617%2FHZ27M-5C_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFXyk4PoVsAIpnDA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699746169709039617%252FHZ27M-5C_bigger.jpg",
     },
     {
         url: "https://twitter.com/shanley/status/1551357476758487040",
@@ -5936,7 +5936,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 3,
         content: "oh, everyone let elon just be sick and just get sicker and sicker and sicker and now you're upset about this? \n\nbtw bipolar people often cheat with friends, their wives, their colleagues when manic, it is called hypersexuality and it is extremely well understood and documented",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1312220027786080262%2Fz8OScrJ4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
         url: "https://twitter.com/zachsilberberg/status/1551622048702668803",
@@ -5944,8 +5944,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7003,
         likes: 50105,
         content: "no way. no fucking way",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFYh3-UzXoAYaTms.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709792200765120512%2FrXbVAH9d_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFYh3-UzXoAYaTms.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709792200765120512%252FrXbVAH9d_bigger.jpg",
     },
     {
         url: "https://twitter.com/jzux/status/1552723820821225472",
@@ -5953,7 +5953,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25041,
         likes: 133658,
         content: "i am not having a baja blast i am actually kind of having a baja hard time",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1304589362051645441%2FYo_o5yi5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304589362051645441%252FYo_o5yi5_bigger.jpg",
     },
     {
         url: "https://twitter.com/i_zzzzzz/status/1553616443668848642",
@@ -5961,7 +5961,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 373,
         likes: 6480,
         content: "Some of todays husbands would rather listen to Kid A than take care of A Kid",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2395504744%2F9uggn50z83n3mr1x406e_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
         url: "https://twitter.com/TheAndrewNadeau/status/1555205338214850563",
@@ -5969,7 +5969,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3163,
         likes: 70242,
         content: "got fired from my job as the guy that draws the chalk outline at crime scenes for, quote, “adding too much detail to the dick area”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1234276076127444997%2FZH66vp75_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1234276076127444997%252FZH66vp75_bigger.jpg",
     },
     {
         url: "https://twitter.com/lilgrapefruits/status/1555226972195721217",
@@ -5977,7 +5977,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4530,
         likes: 79023,
         content: "My favorite dessert is peach cobbler because it sounds like a job a victorian orphan would have if he was gay",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1704210637554077696%2FnrpMZnHi_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704210637554077696%252FnrpMZnHi_bigger.jpg",
     },
     {
         url: "https://twitter.com/highitsg/status/1558127807309303808",
@@ -5985,8 +5985,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21381,
         likes: 247107,
         content: "oh god oh fuck he escaped",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFZ-U-4vUcAASIHe.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1610053521608683521%2FvYJAGuTL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFZ-U-4vUcAASIHe.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1610053521608683521%252FvYJAGuTL_bigger.jpg",
     },
     {
         url: "https://twitter.com/rajandelman/status/1558504209070391297",
@@ -5994,7 +5994,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 230,
         likes: 2644,
         content: "If you see a baby grand  \nVanessa Carlton's at hand; \nIf you spy a guitar,\nMichelle Branch is the star",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1480657954286313473%2FcA-mSl1I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1480657954286313473%252FcA-mSl1I_bigger.jpg",
     },
     {
         url: "https://twitter.com/lllaurenA/status/1559315846433910786",
@@ -6002,7 +6002,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15403,
         likes: 131824,
         content: "“If you have a truck with balls hanging from it, and your truck wasn’t born with balls, and you put the balls on an elective process, you have a trans truck. Congratulations”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1538048799947427845%2FPtWAV67o_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538048799947427845%252FPtWAV67o_bigger.jpg",
     },
     {
         url: "https://twitter.com/heartbreaklace_/status/1560642717582905344",
@@ -6010,7 +6010,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4743,
         likes: 46944,
         content: "alvin the chipmunk wears the A on his shirt because he’s an adulterer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1727684364648300544%2Fsw6-SWFv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727684364648300544%252Fsw6-SWFv_bigger.jpg",
     },
     {
         url: "https://twitter.com/stevanzetti/status/1562535568981954560",
@@ -6018,8 +6018,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7331,
         likes: 142140,
         content: "Be on the lookout for Elon Musk's missing child",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFa890cyWAAAYU7B.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649964923412201472%2FRDjpuQRD_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFa890cyWAAAYU7B.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649964923412201472%252FRDjpuQRD_bigger.jpg",
     },
     {
         url: "https://twitter.com/zachbdunn/status/1562674319884292096",
@@ -6027,7 +6027,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10692,
         likes: 119840,
         content: "NEW JAMES BOND MOVIE: James if you can't overcome your generational trauma you'll never discover what it means to truly sacrifice\n\nOLD JAMES BOND MOVIE: My name is Rebecca Ass",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1527123096053743616%2FdxMrYd2X_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1527123096053743616%252FdxMrYd2X_bigger.jpg",
     },
     {
         url: "https://twitter.com/rabcyr_alt/status/1563605900278972418",
@@ -6035,8 +6035,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10114,
         likes: 80084,
         content: "rabioli",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFbIip7OVsAEAv6M.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692776966540148737%2FVcTp3B0P_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFbIip7OVsAEAv6M.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692776966540148737%252FVcTp3B0P_bigger.jpg",
     },
     {
         url: "https://twitter.com/ipaddlearound/status/1564987611445338112",
@@ -6044,7 +6044,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3421,
         likes: 35777,
         content: "anytime you feel the urge to look at ur phone while driving, pick up a book instead.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1721523675172679680%2Fno1nRObE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721523675172679680%252Fno1nRObE_bigger.jpg",
     },
     {
         url: "https://twitter.com/bobby/status/1565005591663230977",
@@ -6052,7 +6052,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6826,
         likes: 124614,
         content: "tiktok zoomers love the \"corn kid\" song which is the most doggo bacon early 2010s internet humor imaginable. sorry children you've become your worst fear, your moment in the sun is almost over.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1628928708659535874%2FD7Xj1hiR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628928708659535874%252FD7Xj1hiR_bigger.jpg",
     },
     {
         url: "https://twitter.com/POTUS/status/1565512354493857802",
@@ -6060,7 +6060,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36062,
         likes: 362301,
         content: "democracy",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1380530524779859970%2FTfwVAbyX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1380530524779859970%252FTfwVAbyX_bigger.jpg",
     },
     {
         url: "https://twitter.com/davidmackau/status/1565781474288214016",
@@ -6068,8 +6068,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8439,
         likes: 177590,
         content: "if you were the guy who saluted the nicole kidman amc ad at the May 28 screening of top gun at the universal citywalk amc in los angeles, please please please dm me i am begging you",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFbrFerhWIAAWXDD.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1654546369766383617%2Fx7g-_Y-__bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFbrFerhWIAAWXDD.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1654546369766383617%252Fx7g-_Y-__bigger.jpg",
     },
     {
         url: "https://twitter.com/asherperlman/status/1567904815568814080",
@@ -6077,8 +6077,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4538,
         likes: 65258,
         content: "Obama killing all of his houseplants is the most I’ve ever related to a president",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFcJRHdIagAIAnEz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1594856077153157120%2FoBwFgKGW_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFcJRHdIagAIAnEz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1594856077153157120%252FoBwFgKGW_bigger.jpg",
     },
     {
         url: "https://twitter.com/_realhotgirl_/status/1569020491108597763",
@@ -6086,7 +6086,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 45508,
         likes: 269968,
         content: "how i see his red flags : \n\n         🚩   🚩        🚩   🚩\n      🚩            🚩              🚩\n    🚩                                 🚩\n      🚩                            🚩\n           🚩                    🚩      \n                🚩          🚩\n                        🚩",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1728742353286975488%2F_sCddJhU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728742353286975488%252F_sCddJhU_bigger.jpg",
     },
     {
         url: "https://twitter.com/PleaseBeGneiss/status/1569126168787566592",
@@ -6094,7 +6094,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42092,
         likes: 449086,
         content: "reservations are so embarrassing like hi i’m here for my spaghetti appointment",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1565491884872544261%2F8-gEqo1s_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565491884872544261%252F8-gEqo1s_bigger.jpg",
     },
     {
         url: "https://twitter.com/VoltaireLaFlare/status/1569447391664775169",
@@ -6102,7 +6102,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 406,
         likes: 8242,
         content: "harvard kennedy students be like damn i got a war crime due at 9",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490380853217832969%2FF6Qgdu2n_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490380853217832969%252FF6Qgdu2n_bigger.jpg",
     },
     {
         url: "https://twitter.com/JemarTisby/status/1569727675333492740",
@@ -6110,7 +6110,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6019,
         likes: 54900,
         content: "Someone who is not Christian described their general experience with white evangelicals as \"people who don't have any questions.\" I immediately knew what they meant, and I'm going to thinking about that statement a long time.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1618057627690205184%2FvKHROh3c_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1618057627690205184%252FvKHROh3c_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheUniverse/status/1569768600172646400",
@@ -6118,7 +6118,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 19,
         content: "actually now because of climate change there are NOT more fish in the sea",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1453469853843529730%2FfScPOhxv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1453469853843529730%252FfScPOhxv_bigger.jpg",
     },
     {
         url: "https://twitter.com/pillowfort/status/1570042112347099137",
@@ -6126,7 +6126,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15230,
         likes: 125375,
         content: "trans exclusionary and pro monarchy call that serf and terf",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1627411021836025869%2FtHU-5ro5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1627411021836025869%252FtHU-5ro5_bigger.jpg",
     },
     {
         url: "https://twitter.com/toothpasta/status/1570924682106503168",
@@ -6134,7 +6134,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 224,
         likes: 3925,
         content: "hey does anyone know whose chris steakhouse this is",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1598478548662210562%2FXJH3X2Gy_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1598478548662210562%252FXJH3X2Gy_bigger.jpg",
     },
     {
         url: "https://twitter.com/electricalWSOP/status/1571229671685238784",
@@ -6142,8 +6142,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 207,
         likes: 3369,
         content: "Yeah misspelled haha funny but if I ever start tweeting inspirational quotes of myself, I insist that one of my friends do me in with a shovel.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFc4hDj0akAA3k7k.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F881500343%2Fmoneyfire_bigger.GIF",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFc4hDj0akAA3k7k.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F881500343%252Fmoneyfire_bigger.GIF",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1576007008264007681",
@@ -6151,7 +6151,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 577,
         likes: 4385,
         content: "mary shelley: we’re going on a trip?\n\npercy shelley: not you. you always invent frankenstein, oscar wilde gets really scared\n\nmary shelley: please i promise i wont invent frankenstein again\n\n[after 1 beer]\n\nmary shelley: you idiots wanna hear a ghost story about a little freak",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/EwdatsGROSS/status/1576914552205496321",
@@ -6159,8 +6159,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8722,
         likes: 70583,
         content: "My 2 coping mechanisms",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFeJTbYYWYAE2WD-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1615782305351483402%2Fh3HspUXb_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFeJTbYYWYAE2WD-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1615782305351483402%252Fh3HspUXb_bigger.jpg",
     },
     {
         url: "https://twitter.com/ben_rosen/status/1577109603170471936",
@@ -6168,7 +6168,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9897,
         likes: 117106,
         content: "INTERVIEWER: can you explain this gap in your resume\n\nODYSSEUS: ok it’s actually a really long story",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1016451004923985920%2FQjtIqSUB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
         url: "https://twitter.com/depthsofwiki/status/1577711613070790738",
@@ -6176,8 +6176,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6623,
         likes: 109512,
         content: "love how the \"kayak\" wikipedia article has a section that's just roasting this child",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFeUoP61XwAU5Sd6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1289218536464961536%2FqpIJWvo8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFeUoP61XwAU5Sd6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1289218536464961536%252FqpIJWvo8_bigger.jpg",
     },
     {
         url: "https://twitter.com/DylanGelula/status/1577713723162054657",
@@ -6185,7 +6185,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 101,
         likes: 5208,
         content: "does anyone have a good rec for a trauma therapist in NYC area? i found out someone i work with cheated on his wife",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1622415502151647235%2FRUbpFLE2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1622415502151647235%252FRUbpFLE2_bigger.jpg",
     },
     {
         url: "https://twitter.com/Eve6/status/1577834081034784768",
@@ -6193,8 +6193,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 252,
         likes: 3110,
         content: "Lead singers when the drummer is getting more attention after the show",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFeWXu8lUYAAiVxn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733161989474488320%2FsvniHfk1_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFeWXu8lUYAAiVxn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733161989474488320%252FsvniHfk1_bigger.jpg",
     },
     {
         url: "https://twitter.com/nickpupo/status/1577870037683240969",
@@ -6202,7 +6202,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7909,
         likes: 246281,
         content: "My dad wants me to marry an Italian woman but he won’t say it explicitly. I’ll be like “dad I met a girl” and he’ll be like “Is she…loud?”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1653521192110944257%2FzMHbnlsL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1653521192110944257%252FzMHbnlsL_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyceCarolOates/status/1579485068799930368",
@@ -6210,7 +6210,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 198,
         likes: 1857,
         content: "percent of persons who urge others, on Twitter, to \"do better\" who are actually \"doing better\" themselves: 0%.\npercent of these persons who are actually \"doing worse\": 78%--82%.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2683616680%2Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
         url: "https://twitter.com/lilgrapefruits/status/1580256851475959808",
@@ -6218,8 +6218,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 502,
         likes: 8216,
         content: "Infinite Jest",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFe4zMVtaUAA_s8o.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1704210637554077696%2FnrpMZnHi_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFe4zMVtaUAA_s8o.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704210637554077696%252FnrpMZnHi_bigger.jpg",
     },
     {
         url: "https://twitter.com/evcon/status/1580582126797619203",
@@ -6227,8 +6227,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 617,
         likes: 9941,
         content: "the Thin Instagram Line represents our hard working social media managers who put their lives on the line every day serving up relatable brand content to target audiences, ignoring upset boomers, and saying \"it's been literal years since i was an intern\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFe9a4y9XkAA8CsC.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1696915129575616512%2FUYe66WH-_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFe9a4y9XkAA8CsC.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696915129575616512%252FUYe66WH-_bigger.jpg",
     },
     {
         url: "https://twitter.com/aamnaqureshi_/status/1580647787464560640",
@@ -6236,7 +6236,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2043,
         likes: 24390,
         content: "my editor, gently: what did you mean by this ?\nme, sobbing: I don’t know😭",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1663969438733934593%2FpEI59Ev5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1663969438733934593%252FpEI59Ev5_bigger.jpg",
     },
     {
         url: "https://twitter.com/jestom/status/1582860248305455104",
@@ -6244,7 +6244,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4994,
         likes: 74961,
         content: "the fact that we can even have a lesbian emu farmer influencer who is also a god fearing conservative racist shows the failure of identity based representation politics",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1639037270287081472%2F2yzQErei_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1639037270287081472%252F2yzQErei_bigger.jpg",
     },
     {
         url: "https://twitter.com/Citizenflaba/status/1582895268717940736",
@@ -6252,7 +6252,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 119,
         likes: 7064,
         content: "I find it funny that there was 2 emu farmer influencers and I wasn’t aware of the second racist one until now and am relieved it wasn’t “my” wholesome emu farmer influencer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1423773646019956738%2FonH-MeUm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1423773646019956738%252FonH-MeUm_bigger.jpg",
     },
     {
         url: "https://twitter.com/ErnieLies/status/1583277460027678722",
@@ -6260,7 +6260,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10342,
         likes: 92656,
         content: "Beetlejuice is a horror movie about what If you knew a guy who wouldn’t stop doing bits.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1697964655677673473%2FHNUVJrnd_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697964655677673473%252FHNUVJrnd_bigger.jpg",
     },
     {
         url: "https://twitter.com/JamesCoyne/status/1583387554354958336",
@@ -6268,7 +6268,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7647,
         likes: 83343,
         content: "\"slut era\" the UK whispers as it appoints yet another PM",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1722042681264840704%2FWzGei1Jj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1722042681264840704%252FWzGei1Jj_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1585804925103091712",
@@ -6276,7 +6276,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 776,
         likes: 7710,
         content: "finally! a website that’s owned by someone who is bad",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/terronk/status/1586370485146689536",
@@ -6284,7 +6284,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52,
         likes: 1501,
         content: "Twitter laid me off today. If you know of any open positions for engineering managers or software engineers, let me know. I was the guy who made all the stock ticker symbols like $TWTR and $TSLA into links but then forgot to make the links do anything.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1389719412194775043%2FeB6MqYrr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1389719412194775043%252FeB6MqYrr_bigger.jpg",
     },
     {
         url: "https://twitter.com/ZoeSchiffer/status/1586486009000140801",
@@ -6292,8 +6292,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 40,
         likes: 631,
         content: "The last message in Twitter’s main company Slack channel: who’s our new CEO?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFgRUngdUUAANI8p.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715480824580382720%2FVpt6IE1t_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFgRUngdUUAANI8p.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715480824580382720%252FVpt6IE1t_bigger.jpg",
     },
     {
         url: "https://twitter.com/pjjacobson/status/1586776283710717953",
@@ -6301,8 +6301,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10485,
         likes: 91450,
         content: "i did it, i was sickos for halloween.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFgVcZ6vX0AA_FLQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F878282666671456260%2FmOz2UlBt_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFgVcZ6vX0AA_FLQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F878282666671456260%252FmOz2UlBt_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaboukie/status/1587967238497337345",
@@ -6310,7 +6310,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 943,
         likes: 16755,
         content: "got my $8 ready",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649264177876459522%2FAUhQZoPc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
         url: "https://twitter.com/MrErikJackson/status/1587975337367015428",
@@ -6318,8 +6318,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6219,
         likes: 56277,
         content: "I’m gonna miss this place",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFgmfJyxXEAETgBB.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F959230163744673793%2F_h_O4io3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFgmfJyxXEAETgBB.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F959230163744673793%252F_h_O4io3_bigger.jpg",
     },
     {
         url: "https://twitter.com/DannyVegito/status/1588237959236653057",
@@ -6327,7 +6327,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4307,
         likes: 55271,
         content: "Elon Musk may be a libertarian but he’s begging for 8 dollars with the intensity of a lifelong democratic senator",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726746619515645952%2FaugGI7A9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726746619515645952%252FaugGI7A9_bigger.jpg",
     },
     {
         url: "https://twitter.com/atrubek/status/1588292974785761280",
@@ -6335,8 +6335,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2043,
         likes: 16845,
         content: "Excellent crime happening in my new neighborhood",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFgrACtYXoAQhBP1.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1374877088126271493%2FNfh9MvJk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFgrACtYXoAQhBP1.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1374877088126271493%252FNfh9MvJk_bigger.jpg",
     },
     {
         url: "https://twitter.com/bencjenkins/status/1588345653611986944",
@@ -6344,8 +6344,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4512,
         likes: 65367,
         content: "Friend in Hamburg just sent me this like he'd just papped a celebrity.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFgrvx2IVEAAtQR_.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1518389958192812033%2F6d3oYqJO_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFgrvx2IVEAAtQR_.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1518389958192812033%252F6d3oYqJO_bigger.jpg",
     },
     {
         url: "https://twitter.com/donmoyn/status/1588739470601654272",
@@ -6353,8 +6353,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7805,
         likes: 63766,
         content: "Verification worthless as of next week, so some are choosing to go out like heroes",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFgxWIKvXwAIL6hY.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F684804969459912704%2FPs0Nu_hj_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFgxWIKvXwAIL6hY.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F684804969459912704%252FPs0Nu_hj_bigger.png",
     },
     {
         url: "https://twitter.com/willystaley/status/1588895660262428672",
@@ -6362,7 +6362,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 915,
         likes: 10472,
         content: "Imagine posting “night water hits different” on Mastodon and getting two updoots and one retoot. Get real. You’re not going anywhere.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F901090690838523904%2F-PwM3MQL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F901090690838523904%252F-PwM3MQL_bigger.jpg",
     },
     {
         url: "https://twitter.com/jamieloftusHELP/status/1591306825655517184",
@@ -6370,7 +6370,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 64,
         likes: 3245,
         content: "why does every public radio story start with five seconds of a reporter stepping on leaves or struggling to get on the zoom call",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1493397413532372996%2FVnwwjvvQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1493397413532372996%252FVnwwjvvQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/RoyCoCEO/status/1592580455899201541",
@@ -6378,7 +6378,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6361,
         likes: 77260,
         content: "My value add: saying “thanks guys” at the end of a call after not speaking the entire meeting",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1479865281333932032%2FLlTvxTrH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1479865281333932032%252FLlTvxTrH_bigger.jpg",
     },
     {
         url: "https://twitter.com/matt_levine/status/1593648716992299010",
@@ -6386,7 +6386,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27,
         likes: 634,
         content: "\"oh i'd probably be in the cool house,\" thanks, great, get me a hedge fund full of slytherins",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F827563076861952002%2Faoo1vUGJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F827563076861952002%252Faoo1vUGJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/deleuzesionaI/status/1596269067719299072",
@@ -6394,7 +6394,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2053,
         likes: 8215,
         content: "i went to the intersection of desire and suffering and everyone knew you",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1584312259790229505%2Ftky8-5hz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1584312259790229505%252Ftky8-5hz_bigger.jpg",
     },
     {
         url: "https://twitter.com/KimmyMonte/status/1596981098512515072",
@@ -6402,7 +6402,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1559,
         likes: 7229,
         content: "gimme yule \ngimme fire\ndon me now with gay attire",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692591133984010240%2FwZh4X8wG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692591133984010240%252FwZh4X8wG_bigger.jpg",
     },
     {
         url: "https://twitter.com/MasterTimBlais/status/1597171130108108807",
@@ -6410,8 +6410,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 267,
         likes: 1972,
         content: "DID YOU KNOW: during WWII one RAF commander ordered adorable freckles painted on all the aircraft so german gunners would feel bad about shooting them. The strategy was a massive success and the freckled plane remains a symbol of survivorship today",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFipKraaUAAAr4A-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715944101902766080%2FEGe_P6fN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFipKraaUAAAr4A-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715944101902766080%252FEGe_P6fN_bigger.jpg",
     },
     {
         url: "https://twitter.com/computer_gay/status/1597230863745716225",
@@ -6419,7 +6419,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9260,
         likes: 88006,
         content: "no it's not",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1689437096048529408%2FSBQ8zneO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1689437096048529408%252FSBQ8zneO_bigger.jpg",
     },
     {
         url: "https://twitter.com/jpbrammer/status/1597232032588783616",
@@ -6427,8 +6427,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6343,
         likes: 89331,
         content: "this image is like if you typed “divorced” into an AI art generator",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFipFkIsVsAAM0O_.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1190049285842329600%2FqwCL5mdU_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFipFkIsVsAAM0O_.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
         url: "https://twitter.com/mmmmmdddddooooo/status/1597410363242295296",
@@ -6436,7 +6436,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 472,
         likes: 6483,
         content: "it's always so immediately obvious when you meet someone who is a precum baby (not from a sperm cell that was in the main/primary load). probably about 7-8% of the gen population.\n\nabsent gazes, poor circulation, and always awful conversationalists. i do wish them the best though",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1672290742880935937%2FVPYRcBlL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1672290742880935937%252FVPYRcBlL_bigger.jpg",
     },
     {
         url: "https://twitter.com/tqbf/status/1598513757805858820",
@@ -6444,8 +6444,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11378,
         likes: 75979,
         content: "I’m sorry, I simply cannot be cynical about a technology that can accomplish this.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFi8PygHWYAUV8jU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1440053758084272132%2FdF6N7UBk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFi8PygHWYAUV8jU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1440053758084272132%252FdF6N7UBk_bigger.jpg",
     },
     {
         url: "https://twitter.com/elspethreeve/status/1598865363017805825",
@@ -6453,7 +6453,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 493,
         likes: 8072,
         content: "It's true: in 2014, I taught Matt Taibbi keyboard shortcuts for copy and paste. If I had not done that, maybe all this could have been averted. I am deeply sorry.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1540529294535000064%2FJIfarLTX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1540529294535000064%252FJIfarLTX_bigger.jpg",
     },
     {
         url: "https://twitter.com/elspethreeve/status/1598871443105673216",
@@ -6461,7 +6461,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 67,
         likes: 694,
         content: "A memory: Racket staff gather at a conference table to discuss how our new political satire site will make fun of Buzzfeed. Can't agree why Buzzfeed is bad. Realize Taibbi has never seen a viral video. We play Honey Badger. \"Wow,\" he says, \"people just put this on the internet?\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1540529294535000064%2FJIfarLTX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1540529294535000064%252FJIfarLTX_bigger.jpg",
     },
     {
         url: "https://twitter.com/MNateShyamalan/status/1599428757428658176",
@@ -6469,7 +6469,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7436,
         likes: 90313,
         content: "me: you don’t like any of my gifts\n\nher: no! the five golden rings were nice. it’s just-\n\nme: too many birds?\n\nher: really bird heavy this year",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649213569999818752%2F7xsxQv4__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
         url: "https://twitter.com/Chinchillazllla/status/1602428890294648832",
@@ -6477,7 +6477,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12629,
         likes: 96911,
         content: "Chappelle introduced him as the richest man in the world and the crowd booed him so hard they altered reality",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1592976002795323392%2FU0fweigA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1592976002795323392%252FU0fweigA_bigger.jpg",
     },
     {
         url: "https://twitter.com/revrrlewis/status/1607054472945205250",
@@ -6485,8 +6485,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5511,
         likes: 52761,
         content: "Donner Lake, CA is uhhhhhh not named after Santa's reindeer",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFk1nhr6X0AMKXcG.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1621373073902518272%2F1SzFmb7W_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFk1nhr6X0AMKXcG.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1621373073902518272%252F1SzFmb7W_bigger.jpg",
     },
     {
         url: "https://twitter.com/Voodoo_Pork/status/1607134763315339266",
@@ -6494,8 +6494,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 332,
         likes: 2689,
         content: "Merry Christmas, everyone",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFk2wjQeWQAAIa7b.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1445460714894749697%2FAaDj7b2p_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFk2wjQeWQAAIa7b.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1445460714894749697%252FAaDj7b2p_bigger.jpg",
     },
     {
         url: "https://twitter.com/nntaleb/status/1609751283119935490",
@@ -6503,7 +6503,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1252,
         likes: 13391,
         content: "Peterson, you idiot, stay out of this.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1200820286964346880%2FZz6YSFus_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1200820286964346880%252FZz6YSFus_bigger.jpg",
     },
     {
         url: "https://twitter.com/feydemon/status/1613566112888659974",
@@ -6511,8 +6511,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10299,
         likes: 74900,
         content: "me exploring the UK",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFmSJ062XgAEygG3.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734501708045144064%2FM1VXABkG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFmSJ062XgAEygG3.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734501708045144064%252FM1VXABkG_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaboukie/status/1614036417457577985",
@@ -6520,7 +6520,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 542,
         likes: 7617,
         content: "ur mom got out lol",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649264177876459522%2FAUhQZoPc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
         url: "https://twitter.com/cybramir/status/1615030448274706433",
@@ -6528,8 +6528,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24430,
         likes: 111916,
         content: "honey we’re having guests please bring out our finest teapot",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFmm9oaOWABc-D5e.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729731486906036224%2FGDyAiv6s_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFmm9oaOWABc-D5e.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729731486906036224%252FGDyAiv6s_bigger.jpg",
     },
     {
         url: "https://twitter.com/gilbertjasono/status/1623163539803316224",
@@ -6537,7 +6537,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8,
         likes: 88,
         content: "BIDEN: And here's something my friends in the Republican Party won't admit. (whispering) Fleishman is in trouble. No, I'm serious",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F458305950198161408%2F10hxE-eI_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F458305950198161408%252F10hxE-eI_bigger.png",
     },
     {
         url: "https://twitter.com/youngtiddy/status/1625522838458494977",
@@ -6545,7 +6545,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3314,
         likes: 33717,
         content: "don’t get me wrong i’m an alcoholic but why are u cracking open a soda at 8am",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1449530135158292486%2F_YqUOC-j_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1449530135158292486%252F_YqUOC-j_bigger.jpg",
     },
     {
         url: "https://twitter.com/marshallvore/status/1626967430370299908",
@@ -6553,8 +6553,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1657,
         likes: 45114,
         content: "a group of Japanese men approached me today in Kyoto to nervously ask if I was ed Sheeran which was obviously a big blow to whatever progress I’ve made in therapy",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFpQmQG4aIAAN85I.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1699843141778698240%2F8aCgazWV_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFpQmQG4aIAAN85I.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699843141778698240%252F8aCgazWV_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsPhetz/status/1627756837973143553",
@@ -6562,8 +6562,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 468,
         likes: 16651,
         content: "I knew this show actually sucked ass",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFpb0LwcaAAAIkor.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1393200153910079494%2FLM_U6BJV_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFpb0LwcaAAAIkor.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1393200153910079494%252FLM_U6BJV_bigger.jpg",
     },
     {
         url: "https://twitter.com/GianmarcoSoresi/status/1627862056698347520",
@@ -6571,7 +6571,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1672,
         likes: 12479,
         content: "“What would the Founding Fathers think” buddy I don’t care what my regular father thinks",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444809097048514565%2FxRk56a9m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444809097048514565%252FxRk56a9m_bigger.jpg",
     },
     {
         url: "https://twitter.com/bobby/status/1630377937923985408",
@@ -6579,7 +6579,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1716,
         likes: 35361,
         content: "spotify needs an irony mode. please do not incorporate LMFAO - Party Rock Anthem into my algorithm, i am holding the phone up to my pregnant wife's stomach and telling her i'm turning our kid stupid.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1628928708659535874%2FD7Xj1hiR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628928708659535874%252FD7Xj1hiR_bigger.jpg",
     },
     {
         url: "https://twitter.com/roastmalone_/status/1630397947761528834",
@@ -6587,7 +6587,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5287,
         likes: 56117,
         content: "never really understood why a bad bitch like miss piggy threw herself at that goofy green frog but there is something about a skinny musician that makes women lose their better judgement",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1520548346527584256%2FqfGSIM1e_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520548346527584256%252FqfGSIM1e_bigger.jpg",
     },
     {
         url: "https://twitter.com/yungkatelynne/status/1633638148977704962",
@@ -6595,8 +6595,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5758,
         likes: 93895,
         content: "it’s not much but it’s honest work",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFqsBvVdXoAA6lor.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1477460326123819014%2FBQemgUou_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFqsBvVdXoAA6lor.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1477460326123819014%252FBQemgUou_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyceCarolOates/status/1638163185046892545",
@@ -6604,7 +6604,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 75,
         likes: 713,
         content: "Implausibility of skeletons is that they are only whole & upright in medical school displays. Otherwise just loosened bones .",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2683616680%2Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
         url: "https://twitter.com/fussybabybitch/status/1639409818334294016",
@@ -6612,8 +6612,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13198,
         likes: 98724,
         content: "Found out Microsoft Teams has its own in-app stickers that you can edit and customize to your workplace needs but also more importantly that this is a default completely unedited one",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFsBaiFOacAEYJg4.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1581144504983486464%2F3rxmw3aq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFsBaiFOacAEYJg4.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1581144504983486464%252F3rxmw3aq_bigger.jpg",
     },
     {
         url: "https://twitter.com/franklinisbored/status/1646517950747381762",
@@ -6621,7 +6621,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 365,
         likes: 3255,
         content: "Gm. Due to an unfortunate IRL issue, I have had to sell off a lot of BAYC apes to pay off BendDAO loans while the liquidity was available. I won't get involved in NFT trading/twitter for a while, and will just focus on my private life for the time being with my remaining apes.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1631857268630192129%2FcV5jmxVS_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1631857268630192129%252FcV5jmxVS_bigger.png",
     },
     {
         url: "https://twitter.com/pixelatedboat/status/1649049178767777798",
@@ -6629,7 +6629,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1313,
         likes: 7369,
         content: "Musk’s unmanned rocket may have exploded but it’s an important first step towards his ultimate goal of exploding a manned rocket",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F875489341291675649%2Fhc8K1aT0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
         url: "https://twitter.com/TVsCarlKinsella/status/1655097905399693312",
@@ -6637,7 +6637,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2241,
         likes: 43175,
         content: "FRANZ FERDINAND: do they remember me \nME: \\*encouragingly\\* sort of. There’s a band named after you.\nFRANZ FERDINAND: are they good \nME: \\*encouragingly\\* sort of",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1687872671877361664%2FBJvheFlI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687872671877361664%252FBJvheFlI_bigger.jpg",
     },
     {
         url: "https://twitter.com/zachsilberberg/status/1655567526347063298",
@@ -6645,7 +6645,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5377,
         likes: 37430,
         content: "yooo how was the date last night? cant help but notice that your leitmotif has incorporated a playful glockenspiel this morning 👀",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709792200765120512%2FrXbVAH9d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709792200765120512%252FrXbVAH9d_bigger.jpg",
     },
     {
         url: "https://twitter.com/Nick_Cerveza/status/1656384398906777603",
@@ -6653,7 +6653,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4586,
         likes: 19690,
         content: "(plastic vampire teeth falling out of my mouth) divorth??",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715769973228883968%2FEt5VDBhG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715769973228883968%252FEt5VDBhG_bigger.jpg",
     },
     {
         url: "https://twitter.com/dekubrush/status/1661983066355580929",
@@ -6661,8 +6661,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6239,
         likes: 37698,
         content: "Where did you come from, where did you go?\n\nWhere did you come from",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFxCMyThXgAAMAPI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1528462170580828165%2FoOnHezTd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFxCMyThXgAAMAPI.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1528462170580828165%252FoOnHezTd_bigger.jpg",
     },
     {
         url: "https://twitter.com/jeeyonshim/status/1666125851640074240",
@@ -6670,8 +6670,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11301,
         likes: 122665,
         content: "Guess who taught himself how to open the rice cooker and woke me up by screaming in between mouthfuls of hot rice",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFx9EoVcagAY39TZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1659033452518453248%2FWH-e2U8D_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFx9EoVcagAY39TZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1659033452518453248%252FWH-e2U8D_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephenasmith/status/1672344468463271937",
@@ -6679,7 +6679,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 276,
         likes: 2477,
         content: "I do not consider Batman a superhero. He is just a man in a suit. Aquaman...different situation.\n\nStill, I do not understand the desire to explore the deep sea for fun. We are not supposed to be down there. \npiped.video/watch?v=K7yH05ef…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724515058376400896%2FLM2zVPsV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724515058376400896%252FLM2zVPsV_bigger.jpg",
     },
     {
         url: "https://twitter.com/emmabaccellieri/status/1674071335234949120",
@@ -6687,8 +6687,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3873,
         likes: 28602,
         content: "RIP Emily Dickinson, you would have really loved Mountain Dew Summer Freeze 💙",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FFzt-_sNX0AElgKM.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1542401097456914433%2F_A9uOV7V_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FFzt-_sNX0AElgKM.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542401097456914433%252F_A9uOV7V_bigger.jpg",
     },
     {
         url: "https://twitter.com/FBIWFO/status/1678524780230656000",
@@ -6696,8 +6696,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4673,
         likes: 23639,
         content: "Justice is better than revenge. You may not be Superman, but you can help the #FBI protect the country. If you have information about a federal crime, speak now. Call 1-800-225-5324 or visit tips.fbi.gov to submit a tip.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FF0tRZIYX0AENqu1.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1079823183442632704%2F5ahh3aFR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FF0tRZIYX0AENqu1.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1079823183442632704%252F5ahh3aFR_bigger.jpg",
     },
     {
         url: "https://twitter.com/hansmollman/status/1679601346750689283",
@@ -6705,7 +6705,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1955,
         likes: 25554,
         content: "when the waiter asks if u want to see the dessert menu:",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1673842892874346497%2FOL3P9FPn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1673842892874346497%252FOL3P9FPn_bigger.jpg",
     },
     {
         url: "https://twitter.com/tomwalkerisgood/status/1680793340642746370",
@@ -6713,7 +6713,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4587,
         likes: 22267,
         content: "KOKO: Koko birkin bag. Practical Koko possession bag\nRESEARCHER: No, Koko. You can’t have a Birkin bag.\nKOKO: Good Birkin good Koko give beautiful Koko deserve gorilla\nRESEARCHER: Koko, we simply can’t afford a Birkin bag. It is an unjustifiable expense.\nKOKO: jealousy professor",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1392276275499175940%2FvNdpx6Ay_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1392276275499175940%252FvNdpx6Ay_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsDanSheehan/status/1693284404922114509",
@@ -6721,7 +6721,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1649,
         likes: 35046,
         content: "Nephew has been doing a bit where when he gets on elevators with adults, in an attempt to fit in he’ll say “I didn’t get the promotion”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649502618123927553%2FJ4ZFkyoQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyceCarolOates/status/1704987226902245615",
@@ -6729,8 +6729,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 265,
         likes: 3682,
         content: "we bow our heads in homage to this, which is truly nonpareil.  only Hemingway's (alleged) short-short story (\"For sale: baby shoes, never worn\") comes close.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FF6ircCzWcAE8EEp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2683616680%2Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FF6ircCzWcAE8EEp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
         url: "https://twitter.com/len0killer/status/1707217656254714342",
@@ -6738,7 +6738,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3737,
         likes: 34425,
         content: "Put me in a human centipede situation and I’ll be cracking jokes, keeping morale up and staying focused on my goals",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1679518598380027904%2FzIBXiftF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679518598380027904%252FzIBXiftF_bigger.jpg",
     },
     {
         url: "https://twitter.com/buckadeath/status/1713359687431663701",
@@ -6746,7 +6746,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4238,
         likes: 41078,
         content: "Bars 🔥🔥🔥",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1496215896095956996%2Fyy1C3ga8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496215896095956996%252Fyy1C3ga8_bigger.jpg",
     },
     {
         url: "https://twitter.com/cher/status/194552615672102912",
@@ -6754,7 +6754,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17065,
         likes: 38929,
         content: "I was looking at tweets & saw that i really hurt someones feelings ! Im sorry. \nIt was light blue background with white egg shape . Bye",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1710170486720573440%2F9xJUi3tz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
         url: "https://twitter.com/KDTrey5/status/19970390110",
@@ -6762,7 +6762,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 53179,
         likes: 81191,
         content: "I'm watching the History channel in the club and I'm wondering how do these people kno what's goin on on the sun..ain't nobody ever been",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563699994393280512%2Fu4KNGaIR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
         url: "https://twitter.com/KrisJenner/status/200413753290924032",
@@ -6770,7 +6770,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 151708,
         likes: 230649,
         content: "I just sharted myself. That's when u fart and u shit yourself on accident!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1148230318911963136%2FQO3WaOWg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1148230318911963136%252FQO3WaOWg_bigger.jpg",
     },
     {
         url: "https://twitter.com/david_j_roth/status/212767135901024256",
@@ -6778,7 +6778,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14067,
         likes: 34687,
         content: "PF Chang's waiter: \"[Recites specials] Stephen A. Smith: (Acts surprised) \"To me, that's preposterous. Crab Rangoon, things of that nature.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1224136390415437825%2FDe8p8pCJ_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1224136390415437825%252FDe8p8pCJ_bigger.png",
     },
     {
         url: "https://twitter.com/Horse_ebooks/status/218439593240956928",
@@ -6786,7 +6786,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 94941,
         likes: 105449,
         content: "Everything happens so much",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1096005346%2F1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1096005346%252F1_bigger.jpg",
     },
     {
         url: "https://twitter.com/cher/status/236855826340532224",
@@ -6794,7 +6794,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36837,
         likes: 54972,
         content: "Whats going on with mycareer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1710170486720573440%2F9xJUi3tz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
         url: "https://twitter.com/ichlugebullets/status/248065287541366784",
@@ -6802,7 +6802,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 503,
         likes: 1265,
         content: "Ernest Hemmingway was once bet he couldn't write a story in six words. His response is legendary: \"Please buy my dead baby's shoes\".",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1606630711284350977%2FiaII0T9W_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1606630711284350977%252FiaII0T9W_bigger.jpg",
     },
     {
         url: "https://twitter.com/ThatKevinSmith/status/2554608773",
@@ -6810,7 +6810,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7556,
         likes: 17676,
         content: "Ten years in and we bone like we're cheating on each other WITH each other. A decade-plus and her clit/brown/taint-area still pOwns my dick.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F107763943%2Ftwitter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F107763943%252Ftwitter_bigger.jpg",
     },
     {
         url: "https://twitter.com/realDonaldTrump/status/258262904091058176",
@@ -6818,7 +6818,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 39194,
         likes: 78545,
         content: "The Coca Cola company is not happy with me--that's okay, I'll still keep drinking that garbage.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874276197357596672%2FkUuht00m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
         url: "https://twitter.com/realDonaldTrump/status/258640349872926720",
@@ -6826,7 +6826,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28061,
         likes: 36378,
         content: "Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again--just watch. He can do much better!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874276197357596672%2FkUuht00m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
         url: "https://twitter.com/fivethirtynate/status/264786332725956608",
@@ -6834,7 +6834,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 298,
         likes: 216,
         content: "Go to the ocean. Cup your hands and drink its salty foam. This is your sample size. What lurks within its abyssal depths?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2799403489%2F3e831177b2360f3b21c4c2912b89dffa_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2799403489%252F3e831177b2360f3b21c4c2912b89dffa_bigger.jpeg",
     },
     {
         url: "https://twitter.com/KDTrey5/status/26802158502416384",
@@ -6842,7 +6842,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 71956,
         likes: 113080,
         content: "Scarlett johanneson I will drink ur bath water...#random",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563699994393280512%2Fu4KNGaIR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
         url: "https://twitter.com/shockproofbeats/status/269367619931500544",
@@ -6850,7 +6850,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8241,
         likes: 17801,
         content: "I'd love to get in touch with Emilio Esteves. Does anyone have his emailio addressteves?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1282765412539695104%2F4Z-HDQsh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1282765412539695104%252F4Z-HDQsh_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/289148349003730947",
@@ -6858,7 +6858,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7515,
         likes: 22329,
         content: ".@parisreview So is Paris any good or not",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewtoothpaste/status/293454323403350019",
@@ -6866,7 +6866,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14014,
         likes: 23587,
         content: "\"Anime is real,\" Barack Obama said in his inauguration speech earlier. \"Pokémon are real. Geodude is real, and strong, and he's my friend.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590769094382469120%2FoPUz9D_J_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
         url: "https://twitter.com/wolfpupy/status/303090219811479552",
@@ -6874,7 +6874,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 77,
         likes: 101,
         content: "i bet elliott smith would have had a funny twitter",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1657771440618471424%2FYV0PJcVc_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1657771440618471424%252FYV0PJcVc_bigger.png",
     },
     {
         url: "https://twitter.com/TamiCru/status/305088281966698496",
@@ -6882,7 +6882,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1118,
         likes: 2005,
         content: "you're telling me a chicken fried this rice?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F777305330560733185%2FEMSk5Ko4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F777305330560733185%252FEMSk5Ko4_bigger.jpg",
     },
     {
         url: "https://twitter.com/humblebogman/status/306573778719240192",
@@ -6890,7 +6890,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16875,
         likes: 27427,
         content: "How much for the horse tornado?\nSir, that's a carousel.\nI must have it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1614115432029454337%2FScgrQNnj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1614115432029454337%252FScgrQNnj_bigger.jpg",
     },
     {
         url: "https://twitter.com/DannyDeVito/status/308104521538740224",
@@ -6898,7 +6898,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10472,
         likes: 29089,
         content: "Antonin Scalia retire bitch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F400232403%2FPhoto_6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F400232403%252FPhoto_6_bigger.jpg",
     },
     {
         url: "https://twitter.com/fanfiction_txt/status/329292717735686144",
@@ -6906,7 +6906,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 68587,
         likes: 97901,
         content: "Obama chuckled. \"You mean the Chaos Emeralds?\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1377884439884128256%2FjiHNSEl5_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377884439884128256%252FjiHNSEl5_bigger.png",
     },
     {
         url: "https://twitter.com/SHAQ/status/3435123096",
@@ -6914,7 +6914,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 93938,
         likes: 143407,
         content: "im at knots berry farms n my butts 2 big 2 fit in da seats on ride. ahhhhhh (dats me yellin)",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1579949436527988737%2FRDqn1udJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1579949436527988737%252FRDqn1udJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/kthorjensen/status/349537131628212224",
@@ -6922,7 +6922,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2286,
         likes: 4687,
         content: "I'm sorry Mrs. Jackson / chemtrails are real / they're putting toxins way up in the sky / info wars dot com will tell you why",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1251282880866603008%2FyHdM03YX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1251282880866603008%252FyHdM03YX_bigger.jpg",
     },
     {
         url: "https://twitter.com/britneyspears/status/35767743634481152",
@@ -6930,7 +6930,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 149670,
         likes: 222180,
         content: "Does anyone think global warming is a good thing? I love Lady Gaga.  I think she's a really interesting artist.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1323418800876777474%2F0w4orMOC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323418800876777474%252F0w4orMOC_bigger.jpg",
     },
     {
         url: "https://twitter.com/murrman5/status/367689548266209281",
@@ -6938,7 +6938,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10603,
         likes: 22269,
         content: "\\*shipwrecked diary\\*\nDay 1: alone, doing well. Mentally sound. Met a crab\nDay 2: I have married the crab. \nDay 3: I have eaten my wife.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1361726998905835524%2FVf0PO52y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
         url: "https://twitter.com/ProBirdRights/status/368542088897372161",
@@ -6946,7 +6946,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18345,
         likes: 38383,
         content: "I am feel uncomfortable when we are not about me?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1296150384675680256%2Fx7KAA4L9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1296150384675680256%252Fx7KAA4L9_bigger.jpg",
     },
     {
         url: "https://twitter.com/HumanPog/status/369516678511484928",
@@ -6954,7 +6954,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5125,
         likes: 12640,
         content: "lol i just remembered the time this kid at the arcade whispered \"please not in front of my dad\" before i fatalitied him",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F835234907869839360%2FfJc7xUKI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F835234907869839360%252FfJc7xUKI_bigger.jpg",
     },
     {
         url: "https://twitter.com/davedittell/status/372490479696220161",
@@ -6962,7 +6962,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9591,
         likes: 20239,
         content: "the boss hands me a gun,\n\"you know what to do.\"\nI nod.\noutside, I frantically google:\n\nboss gun why\nhow to kill\nis killing ok\nregift gun ok",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1058196994185879554%2FyXiKLfr__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058196994185879554%252FyXiKLfr__bigger.jpg",
     },
     {
         url: "https://twitter.com/frankcifaldi/status/385084302897057792",
@@ -6970,8 +6970,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5230,
         likes: 7251,
         content: "Morning affirmations. Recite these instructions out loud upon waking up to maintain toughness and mental clarity.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBVgYIhsCEAEjAb4.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1597753788751695872%2FqAFxIt5I_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBVgYIhsCEAEjAb4.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1597753788751695872%252FqAFxIt5I_bigger.jpg",
     },
     {
         url: "https://twitter.com/hodgesboi15/status/388859485974171649",
@@ -6979,7 +6979,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 160182,
         likes: 202735,
         content: "If I pay $40 for a haunted house I better die",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F786549777089650688%2FZO6WpwyV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F786549777089650688%252FZO6WpwyV_bigger.jpg",
     },
     {
         url: "https://twitter.com/bridger_w/status/389972441126035456",
@@ -6987,8 +6987,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17942,
         likes: 39986,
         content: "I continue to be taunted by my grandfather's killer",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBWl13nACIAEX0RY.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1255573234%2Ftweet_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBWl13nACIAEX0RY.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1255573234%252Ftweet_bigger.jpg",
     },
     {
         url: "https://twitter.com/ch000ch/status/391611930865303552",
@@ -6996,7 +6996,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 58421,
         likes: 115602,
         content: "hi, grandma? can u come pick me up from my rap battle? it's over. no, i lost. he saw u drop me off & did a pretty devastating rhyme about it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000134131441%2Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/shutupmikeginn/status/403359911481839617",
@@ -7004,7 +7004,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16331,
         likes: 63083,
         content: "My \"Not involved in human trafficking\" T-shirt has people asking a lot of questions already answered by my shirt.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1700614780074250240%2FjQDbBOt3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1700614780074250240%252FjQDbBOt3_bigger.jpg",
     },
     {
         url: "https://twitter.com/rihanna/status/41352422525767680",
@@ -7012,7 +7012,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36752,
         likes: 46701,
         content: "Good luck with bookin that stage u speak of",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585851311701970945%2FfC9dfWVm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585851311701970945%252FfC9dfWVm_bigger.jpg",
     },
     {
         url: "https://twitter.com/carmeloanthony/status/418105548845121536",
@@ -7020,7 +7020,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27210,
         likes: 22521,
         content: "@__Kingsleyy5 I didn't ask for your glazed donut face ass to root for me anyway!!!!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1336430445383327745%2FkMWB9JJ9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1336430445383327745%252FkMWB9JJ9_bigger.jpg",
     },
     {
         url: "https://twitter.com/TechnicalTaIk/status/433683609867022337",
@@ -7028,8 +7028,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 346,
         likes: 1372,
         content: "This is a fridge where you put your groceries in a gel that keeps them cool",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBgTA8fsIAAEEVS-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1162050122689257473%2FIx6_YoFF_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBgTA8fsIAAEEVS-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1162050122689257473%252FIx6_YoFF_bigger.jpg",
     },
     {
         url: "https://twitter.com/chelseaanet/status/443120166482612224",
@@ -7037,7 +7037,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24417,
         likes: 59826,
         content: "Asked a Target employee if I could open this camera before I buy it and he said he wouldn't even care if I killed someone in front of him.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1214647555314683904%2FFygvrOJ1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214647555314683904%252FFygvrOJ1_bigger.jpg",
     },
     {
         url: "https://twitter.com/imbethmccoll/status/443430834117558272",
@@ -7045,7 +7045,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 818,
         likes: 2532,
         content: "haha how about we make a pact if we're both single in 6 seconds we get married?? haha look how nervous u are. times runnin  out tho",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1694003470095851520%2FkwCYaQZk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
         url: "https://twitter.com/chelseaanet/status/445293618475966464",
@@ -7053,8 +7053,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17311,
         likes: 32165,
         content: "Leaving my browser history open in case anyone in this coffee shop tries to steal my laptop when I'm in the bathroom.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBi4AL8MCAAAZ0Mo.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1214647555314683904%2FFygvrOJ1_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBi4AL8MCAAAZ0Mo.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214647555314683904%252FFygvrOJ1_bigger.jpg",
     },
     {
         url: "https://twitter.com/MarthaStewart/status/463333915739316224",
@@ -7062,8 +7062,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36605,
         likes: 50410,
         content: "L",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBm4XvWRIcAEi4Te.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1455119021196599296%2FVJKGfdqG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBm4XvWRIcAEi4Te.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455119021196599296%252FVJKGfdqG_bigger.jpg",
     },
     {
         url: "https://twitter.com/radtoria/status/465645553271861248",
@@ -7071,7 +7071,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 543,
         likes: 1415,
         content: "picture a potato but sexy\n\nlol i just tricked u into thinking of me naked",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724320803012128768%2FjyAOK8fx_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724320803012128768%252FjyAOK8fx_bigger.jpg",
     },
     {
         url: "https://twitter.com/david8hughes/status/473127276653985792",
@@ -7079,7 +7079,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46076,
         likes: 78635,
         content: "[sees girl reading The Catcher in the Rye]\n\"Ah I love that book. The way he just [clenches fist] catches all that frickin rye.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719119003808116736%2FFT0RS0dh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719119003808116736%252FFT0RS0dh_bigger.jpg",
     },
     {
         url: "https://twitter.com/GrowlyGrego/status/474566121643712512",
@@ -7087,7 +7087,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1722,
         likes: 4248,
         content: "There once was a man from Nantucket\nWho worked at a job in Nantucket\nAt night he went home\n& slept in his home\nI clarify, this was Nantucket",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1372221846494572551%2FuMpwZ4vQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1372221846494572551%252FuMpwZ4vQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/MELANIATRUMP/status/480709395706179584",
@@ -7095,8 +7095,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11912,
         likes: 12725,
         content: ". @realDonaldTrump \"Honey~see you soon!\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBqvSo_rCIAAoT1z.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F726781589192069126%2Fzg456hZZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBqvSo_rCIAAoT1z.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F726781589192069126%252Fzg456hZZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/486930173498241025",
@@ -7104,8 +7104,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8649,
         likes: 26949,
         content: "Just discovered this stunning short story in my drafts",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FBsHsaabIYAIhipy.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FBsHsaabIYAIhipy.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/bridger_w/status/490356269962637312",
@@ -7113,7 +7113,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3215,
         likes: 7238,
         content: "Honestly, Officer, I wouldn't have pulled over had I known you were just going to criticize me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1255573234%2Ftweet_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1255573234%252Ftweet_bigger.jpg",
     },
     {
         url: "https://twitter.com/fro_vo/status/490637159703932928",
@@ -7121,7 +7121,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9160,
         likes: 15783,
         content: "\"Hey Cyclops are you still dating Jean?\"\n\"No Storm, we broke up. You could say she's my...\"\n\\*lowers sunglasses\\*\n\\*eye beams obliterate Storm\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675639479162355712%2FWSWbEpMj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675639479162355712%252FWSWbEpMj_bigger.jpg",
     },
     {
         url: "https://twitter.com/Hegelbon/status/492741034749620224",
@@ -7129,7 +7129,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13228,
         likes: 29106,
         content: "STEPHEN A: Skip I want to ADDRESS this issue. \n[BAYLESS nods]\nYou KNOW I am sensitive to the Holocaust\nBAYLESS: Absolutely\nSTEPHEN A: BUT!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1522409073173536768%2FR4XNnFI7_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1522409073173536768%252FR4XNnFI7_bigger.jpg",
     },
     {
         url: "https://twitter.com/wouldstepback/status/499613096697413632",
@@ -7137,7 +7137,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18291,
         likes: 17863,
         content: "from that ledge my friend",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/ristolable/status/499692323630886912",
@@ -7145,7 +7145,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14383,
         likes: 34826,
         content: "What my girlfriend thought, first 4 dates:\n1. Nice shirt.\n2. Wow. A second nice shirt.\n3. Okay, first shirt again.\n4. He has two shirts.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729582833574748160%2FucPgBdFO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729582833574748160%252FucPgBdFO_bigger.jpg",
     },
     {
         url: "https://twitter.com/KDTrey5/status/505221400148197376",
@@ -7153,7 +7153,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4004,
         likes: 6914,
         content: "@KaylanaReese I'm gonna go outside and light myself on fire. What are we doing to our beautiful queens",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563699994393280512%2Fu4KNGaIR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
         url: "https://twitter.com/FINALLEVEL/status/50925812135899137",
@@ -7161,7 +7161,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2733,
         likes: 6476,
         content: "\nThe Ultimate Orgasm: You have to believe you're absolutely about to die..",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F909984858818170881%2FjagXDTlf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F909984858818170881%252FjagXDTlf_bigger.jpg",
     },
     {
         url: "https://twitter.com/jonnysun/status/512013757367980032",
@@ -7169,7 +7169,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8770,
         likes: 16432,
         content: "\\*jesus givs u bread\\*\nthis is my body\n\\*jesus givs u wine\\*\nthis is my blood\n\\*jesus puts ur hand in soggy noodles\\*\nand these r my BRAAAINS ooOO",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1314628602198028289%2FZbkd7FYQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314628602198028289%252FZbkd7FYQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/glazerboohoohoo/status/515243252199342080",
@@ -7177,8 +7177,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15978,
         likes: 33317,
         content: "Tombstone of two of the best breakdancers",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FByaDAdKCcAA-B5S.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1728279848882167808%2FYuSqooHp_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FByaDAdKCcAA-B5S.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728279848882167808%252FYuSqooHp_bigger.jpg",
     },
     {
         url: "https://twitter.com/realDonaldTrump/status/516382177798680576",
@@ -7186,7 +7186,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 70915,
         likes: 114552,
         content: "Every time I speak of the haters and losers I do so with great love and affection. They cannot help the fact that they were born fucked up!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874276197357596672%2FkUuht00m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
         url: "https://twitter.com/Stev_D/status/524686327233921025",
@@ -7194,7 +7194,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11916,
         likes: 40962,
         content: "We're a modest company with modest goals: \n1: sell a quality product at a fair price\n2: drain the world's oceans so we can find and kill god",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1137343078870716416%2FOD2bfmck_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1137343078870716416%252FOD2bfmck_bigger.jpg",
     },
     {
         url: "https://twitter.com/behindyourback/status/528264854906621952",
@@ -7202,7 +7202,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1622,
         likes: 3875,
         content: "For Halloween I'm dressing up as my potential and getting wasted.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692323268571652096%2FKPbINh_k_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692323268571652096%252FKPbINh_k_bigger.jpg",
     },
     {
         url: "https://twitter.com/tarashoe/status/532068919616368640",
@@ -7210,7 +7210,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7096,
         likes: 16679,
         content: "love how during intense moments in space-themed movies they'll show the dashboard panels, as though you'll be like ah. ah i see the issue",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F732336250795909120%2FwaMCOQRL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F732336250795909120%252FwaMCOQRL_bigger.jpg",
     },
     {
         url: "https://twitter.com/ojedge/status/538257725466365952",
@@ -7218,7 +7218,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6055,
         likes: 9657,
         content: "Do you, Karen, take David the Optometrist to be your lawfully wedded husband, for better or worse? Better... or worse? Better... or worse?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F953756620953210881%2FWAcE8O46_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F953756620953210881%252FWAcE8O46_bigger.jpg",
     },
     {
         url: "https://twitter.com/thepunningman/status/539714048246697986",
@@ -7226,7 +7226,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16692,
         likes: 35059,
         content: "\"The bond's Name. James Name\"\nPleased to... what?\n\"Bond Name's the james\"\nAre you alright?\n\"Bames Nond's having a stronk, call a Bondulance\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F925665229920456706%2FIouKOUHL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925665229920456706%252FIouKOUHL_bigger.jpg",
     },
     {
         url: "https://twitter.com/Pundamentalism/status/540422155264335872",
@@ -7234,7 +7234,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 941,
         likes: 1202,
         content: "me: parents out?\nbae: no\nme: can i come over?\nbae: no\nme: why?\nbae: sir, this is british aerospace engineering. we don't 'have people over'.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F956163595607224320%2F-3SNN-qj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F956163595607224320%252F-3SNN-qj_bigger.jpg",
     },
     {
         url: "https://twitter.com/butterwolf/status/545481878523088896",
@@ -7242,7 +7242,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5270,
         likes: 10883,
         content: "MEN REPLYING TO WOMEN ONLINE",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1388976204687069189%2FyH-021aR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1388976204687069189%252FyH-021aR_bigger.jpg",
     },
     {
         url: "https://twitter.com/thepunningman/status/552111533787205632",
@@ -7250,7 +7250,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9188,
         likes: 16158,
         content: "[on deathbed]\n\n\"Tell my Wif... \\*cough\\*\"\n\nYes? Tell her what?\n\n\"Tell my Wifi provider their broadband speeds were moderate at best\"\n\n[dies]",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F925665229920456706%2FIouKOUHL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925665229920456706%252FIouKOUHL_bigger.jpg",
     },
     {
         url: "https://twitter.com/HumanPog/status/553666189667610624",
@@ -7258,7 +7258,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3225,
         likes: 8615,
         content: ".@walmart i dropped my wedding band in your bargain dvd bin and the manager carla said tough shit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F835234907869839360%2FfJc7xUKI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F835234907869839360%252FfJc7xUKI_bigger.jpg",
     },
     {
         url: "https://twitter.com/10ehC/status/553703519229071360",
@@ -7266,8 +7266,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21038,
         likes: 32317,
         content: "Guy dropped his glove on the floor here at MoMA and everyone is nervously stepping around it, unsure if it's art.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FB68mXr0IMAEsaXd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1248340894849421321%2FmNkqc-wK_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FB68mXr0IMAEsaXd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248340894849421321%252FmNkqc-wK_bigger.jpg",
     },
     {
         url: "https://twitter.com/chargers/status/5596520",
@@ -7275,7 +7275,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 104406,
         likes: 140569,
         content: "soo hungry need to find my wife and head to pf changs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734258885383577600%2FAPkr0Z9V_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734258885383577600%252FAPkr0Z9V_bigger.jpg",
     },
     {
         url: "https://twitter.com/dandotjs/status/559811589357187074",
@@ -7283,7 +7283,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1523,
         likes: 2550,
         content: "[commercial for college]\n\n\\*person shoveling money into furnace\\*\n\nNarrator: Don't you wish there was a better way?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1589147899497160704%2F4PPN1CCB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589147899497160704%252F4PPN1CCB_bigger.jpg",
     },
     {
         url: "https://twitter.com/dyldonot/status/560567494847766528",
@@ -7291,7 +7291,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8658,
         likes: 10260,
         content: "[picks up crying baby]\nit's ok buddy, when you grow up you'll learn how to do this on the inside",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1482757776409604105%2FMu1Nphqv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482757776409604105%252FMu1Nphqv_bigger.jpg",
     },
     {
         url: "https://twitter.com/behindyourback/status/563138952123920384",
@@ -7299,7 +7299,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2233,
         likes: 4890,
         content: "While I appreciate that you're bringing sexy back, if we're not also discussing who took sexy away, we're only enabling future sexy problems",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692323268571652096%2FKPbINh_k_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692323268571652096%252FKPbINh_k_bigger.jpg",
     },
     {
         url: "https://twitter.com/AbrasiveGhost/status/563769140130086912",
@@ -7307,7 +7307,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1831,
         likes: 3582,
         content: "What did u do last night?\n\nMe: I drowned my swallows in whiskey\n\nDon't u mean sorrows?\n\nMe [covering tub of dead birds]: is that the saying?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1677378025212502030%2Fn5X2-l3s_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1677378025212502030%252Fn5X2-l3s_bigger.jpg",
     },
     {
         url: "https://twitter.com/StanfordGSB/status/564839950521090048",
@@ -7315,8 +7315,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 420,
         likes: 888,
         content: "Elizabeth Holmes on taking risks & embracing failure: stanford.io/1Cvvxir",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FB9QpqQ2CUAEqukv.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F997216596597784577%2F2Mhi4lR2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FB9QpqQ2CUAEqukv.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F997216596597784577%252F2Mhi4lR2_bigger.jpg",
     },
     {
         url: "https://twitter.com/BacklineNurse/status/567851453114503168",
@@ -7324,7 +7324,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6157,
         likes: 12297,
         content: "[inventing the parrot]\nHOW ABOUT LIKE A TYE DYE CHICKEN WHO SCREAMS ACTUAL WORDS AT YOU",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675861361010659329%2FG3PLjy3c_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675861361010659329%252FG3PLjy3c_bigger.jpg",
     },
     {
         url: "https://twitter.com/HelenKennedy/status/570589112652201984",
@@ -7332,8 +7332,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6594,
         likes: 14320,
         content: "Best reason to go off the record.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FB-sjviwVEAATpy8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F841120715478827008%2FPJkWzk4u_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FB-sjviwVEAATpy8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F841120715478827008%252FPJkWzk4u_bigger.jpg",
     },
     {
         url: "https://twitter.com/CornOnTheGoblin/status/572901684617322496",
@@ -7341,7 +7341,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1078,
         likes: 2991,
         content: "Growing up everyone said I couldn't be a cowboy when I got older but here I am sleeping outside with a gun",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F466431119534329858%2F7ncWKKow_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F466431119534329858%252F7ncWKKow_bigger.jpeg",
     },
     {
         url: "https://twitter.com/ch000ch/status/573191831363686400",
@@ -7349,7 +7349,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13251,
         likes: 29759,
         content: "hello 9-1-1? my girlfriend's been kidnapped\n\"stay calm sir, what's ur girlfriend's name\"\noh she goes to another school u wouldn't know her",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000134131441%2Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DancesWithTamis/status/574308651231375360",
@@ -7357,7 +7357,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1812,
         likes: 5370,
         content: "Radiohead's album ok computer explores the controversial idea that it's ok to be on the computer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1683524320893747201%2F_Se4ueR8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683524320893747201%252F_Se4ueR8_bigger.jpg",
     },
     {
         url: "https://twitter.com/tastefactory/status/574985539276959744",
@@ -7365,7 +7365,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1796,
         likes: 3969,
         content: "COWARDLY LION: Give me courage\nSCARECROW: Give me a brain\nROB THOMAS: Gimme a heart, make it real or else forget about it\nTIN MAN: Oh ok Rob",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839971048179269634%2Fyccn3pMU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839971048179269634%252Fyccn3pMU_bigger.jpg",
     },
     {
         url: "https://twitter.com/JosephScrimshaw/status/575157956104204288",
@@ -7373,7 +7373,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11872,
         likes: 22419,
         content: "Actually Frankenstein was the name of the scientist. I, the person correcting you on this trivial point, am the monster.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1201776450%2FJSwithYodatwit_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1201776450%252FJSwithYodatwit_bigger.jpg",
     },
     {
         url: "https://twitter.com/jenlaw_11/status/575781816491098112",
@@ -7381,7 +7381,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1064,
         likes: 1957,
         content: "One day son, all this will be yours\n\\*gestures towards massive student loan debt and a shitty car\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1369361181954170880%2FS-Pdyr92_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1369361181954170880%252FS-Pdyr92_bigger.jpg",
     },
     {
         url: "https://twitter.com/davedittell/status/576925648104464384",
@@ -7389,7 +7389,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6455,
         likes: 15453,
         content: "I vaccinated your baby while you were at hot yoga",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1058196994185879554%2FyXiKLfr__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058196994185879554%252FyXiKLfr__bigger.jpg",
     },
     {
         url: "https://twitter.com/TheAlexP/status/578044824462356481",
@@ -7397,7 +7397,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3431,
         likes: 5437,
         content: "\\*dog pokes me with nose\\*\n\n\\*stop, it's late\\*\n\n(Dog looks at me with sad eyes)\n\n\\*ugh, ok\\*\n\n[sets up poker table for him and his friends]",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1135389411800207360%2FH3OD9dR2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135389411800207360%252FH3OD9dR2_bigger.jpg",
     },
     {
         url: "https://twitter.com/SCbchbum/status/579150849181507584",
@@ -7405,7 +7405,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5586,
         likes: 9769,
         content: "Every Scooby Doo episode would literally be 2 minutes long if the gang went to the mask store 1st & asked a few questions.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1661602355065016321%2Funz9zd1r_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1661602355065016321%252Funz9zd1r_bigger.jpg",
     },
     {
         url: "https://twitter.com/lazerdoov/status/579484417820766208",
@@ -7413,7 +7413,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 607,
         likes: 1426,
         content: "The best way to get over a cold is to get a younger hotter cold",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1240473523987968000%2FbwwpZfmA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1240473523987968000%252FbwwpZfmA_bigger.jpg",
     },
     {
         url: "https://twitter.com/manyeyes_music/status/579505237637107712",
@@ -7421,7 +7421,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1452,
         likes: 3191,
         content: "never in a million years would I ask a tambourine man to play a song for me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711740738533314560%2FzCiz0W2__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711740738533314560%252FzCiz0W2__bigger.jpg",
     },
     {
         url: "https://twitter.com/nevona/status/580455180916912129",
@@ -7429,8 +7429,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18668,
         likes: 34338,
         content: "hi i'm ted cruz, definitely not three toddlers stacked no sir",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCA4w6QXWYAACftn.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1427114069568466947%2F3pxtF6HK_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCA4w6QXWYAACftn.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1427114069568466947%252F3pxtF6HK_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/581955225235292160",
@@ -7438,7 +7438,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36236,
         likes: 46632,
         content: "Am I a good person? No. But do I try to be better every single day? Also no",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/BAKKOOONN/status/585949245229760512",
@@ -7446,8 +7446,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 40733,
         likes: 68036,
         content: "i enjoying mysekf by the lake, but then i remembered instances of regret in my life, and pain i have caused others",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCCG1ufrUMAA5id8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1272710694127845376%2F2moaAJ97_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCCG1ufrUMAA5id8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1272710694127845376%252F2moaAJ97_bigger.jpg",
     },
     {
         url: "https://twitter.com/pixelatedboat/status/586296714035908610",
@@ -7455,7 +7455,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6358,
         likes: 11093,
         content: "Spiderman, Spiderman/\nDoes whatever a spider can/\nAttends college/\nWorks as a photographer/\nJust like a spider",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F875489341291675649%2Fhc8K1aT0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
         url: "https://twitter.com/sageboggs/status/587387874493857792",
@@ -7463,7 +7463,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2106,
         likes: 4645,
         content: "boss: you're fired\nmime: why\nboss:\nmime: oh right",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F549735728540692481%2Fy8ffOyJU_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F549735728540692481%252Fy8ffOyJU_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DancesWithTamis/status/587762201605177344",
@@ -7471,7 +7471,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 705,
         likes: 2492,
         content: "The balcony scene from Romeo and Juliet except it's my parents yelling at each other because my dad's been taking a shit for over an hour",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1683524320893747201%2F_Se4ueR8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683524320893747201%252F_Se4ueR8_bigger.jpg",
     },
     {
         url: "https://twitter.com/jwblvd/status/591441444818190336",
@@ -7479,7 +7479,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 608,
         likes: 1307,
         content: "[spelling bee]\n\nYour word is \"pneumonia\".\n\n\"Can you use it in a sentence?\"\n\nOf course, you can use any word in a sentence. No more hints.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F729528048324882432%2F5N4oUWTO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F729528048324882432%252F5N4oUWTO_bigger.jpg",
     },
     {
         url: "https://twitter.com/BAKKOOONN/status/592532872625434627",
@@ -7487,8 +7487,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6699,
         likes: 15311,
         content: "how many babies did you send to space, bush. you fucker. how many babies are still up there",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCDkZfdyUUAAPfOd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1272710694127845376%2F2moaAJ97_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCDkZfdyUUAAPfOd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1272710694127845376%252F2moaAJ97_bigger.jpg",
     },
     {
         url: "https://twitter.com/SortaBad/status/594156562828001283",
@@ -7496,8 +7496,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7537,
         likes: 18971,
         content: "Last month my mom asked what \"af\" meant and I said it meant \"like REALLY something\" without saying what it stood for",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCD7ePngUsAEMVcH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1438341517714751489%2F5k7Bc1XZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCD7ePngUsAEMVcH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/SortaBad/status/596017781499240448",
@@ -7505,7 +7505,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 497,
         likes: 1091,
         content: "Sir that parking space is reserved for those with disability\n\n\"Um bro how about DIS ABILITY to find really awesome parking spaces\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1438341517714751489%2F5k7Bc1XZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/AnthonyQuintano/status/596055500107739138",
@@ -7513,7 +7513,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 17,
         content: "Stop treating the Hamburglar like a piece of meat",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1716122349525700608%2FED3AUsLU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1716122349525700608%252FED3AUsLU_bigger.jpg",
     },
     {
         url: "https://twitter.com/shutupmikeginn/status/596096575887147008",
@@ -7521,8 +7521,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9385,
         likes: 22255,
         content: "How I significantly improved my Netflix",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCEXCrTjUgAAY7AC.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1700614780074250240%2FjQDbBOt3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCEXCrTjUgAAY7AC.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1700614780074250240%252FjQDbBOt3_bigger.jpg",
     },
     {
         url: "https://twitter.com/weinerdog4life/status/596557764924547073",
@@ -7530,7 +7530,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3019,
         likes: 5664,
         content: "The guy who discovered boomerangs must have been terrified",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1732836530295644160%2FdkKPcyOl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1732836530295644160%252FdkKPcyOl_bigger.jpg",
     },
     {
         url: "https://twitter.com/EliTerry/status/597222233036173312",
@@ -7538,7 +7538,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 474,
         likes: 1201,
         content: "mothers day is a ploy by the mom industry so you buy more moms. i have dozens of moms i don't need. 5 lindas, a couple alices, a stupid pam",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F806643003800465408%2F2HfRy9Bp_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F806643003800465408%252F2HfRy9Bp_bigger.jpg",
     },
     {
         url: "https://twitter.com/PeachCoffin/status/597401504090345472",
@@ -7546,7 +7546,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28,
         likes: 142,
         content: "I like my coffee like I like my men \\*pours coffee down drain, turns on garbage disposal, makes tea\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F920153895099355136%2FjRJTS-YQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F920153895099355136%252FjRJTS-YQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/LeahTiscione/status/597938447601377281",
@@ -7554,7 +7554,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2830,
         likes: 6595,
         content: "I thought reverse psychology was when you made your therapist cry",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563330281838284805%2FaUtIY2vj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563330281838284805%252FaUtIY2vj_bigger.jpg",
     },
     {
         url: "https://twitter.com/yc/status/598166106369564672",
@@ -7562,7 +7562,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2169,
         likes: 5405,
         content: "Jesus was the first person to make a big deal about his deactivation and then come back three days later",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1088177304914800640%2FIrqF-iTN_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1088177304914800640%252FIrqF-iTN_bigger.jpg",
     },
     {
         url: "https://twitter.com/danimgrace/status/598204691374280704",
@@ -7570,7 +7570,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15568,
         likes: 28065,
         content: "Take your husband’s last name. Take his first name. Take his social. Assume his identity. Hide the body in a closet. You’re the husband now.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1601056035250348034%2Fa2Gea2OL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1601056035250348034%252Fa2Gea2OL_bigger.jpg",
     },
     {
         url: "https://twitter.com/rudetanks/status/599285047783469056",
@@ -7578,7 +7578,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 406,
         likes: 1424,
         content: "Whats a dentists favorite time of day? The time of day he get into his BMW to go home from the dentists office after touching mouths all day",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1201634527610839041%2FzMcFzDcM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1201634527610839041%252FzMcFzDcM_bigger.jpg",
     },
     {
         url: "https://twitter.com/Lesbian_Makima/status/600340091689684992",
@@ -7586,8 +7586,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 120,
         likes: 221,
         content: "i'm sorry",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCFTWGiZWAAEhVCV.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1690607692497260544%2FO-CvRQ19_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCFTWGiZWAAEhVCV.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1690607692497260544%252FO-CvRQ19_bigger.jpg",
     },
     {
         url: "https://twitter.com/david_j_roth/status/600526639802490881",
@@ -7595,8 +7595,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2986,
         likes: 8118,
         content: "If I type a K into the search bar, it autofills \"Kevin Smith Huge Jorts\" because of how often I revisit this image:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCFV_y-YVAAIv-kS.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1224136390415437825%2FDe8p8pCJ_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCFV_y-YVAAIv-kS.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1224136390415437825%252FDe8p8pCJ_bigger.png",
     },
     {
         url: "https://twitter.com/MalkyDungeon/status/601730628195885056",
@@ -7604,8 +7604,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9078,
         likes: 17074,
         content: "when you just want to get home with no bullshit but you know a fuckin magical riddle is about to be sprung on you",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCFnG0T3WoAAMheQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1185379772144193537%2FbKTWgT-4_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCFnG0T3WoAAMheQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1185379772144193537%252FbKTWgT-4_bigger.jpg",
     },
     {
         url: "https://twitter.com/HeyVeronica/status/601794594318196736",
@@ -7613,8 +7613,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19,
         likes: 45,
         content: "this has haunted me for days",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCFoA_fLWEAAtv4G.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1352128185501155328%2F2W8INqHt_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCFoA_fLWEAAtv4G.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1352128185501155328%252F2W8INqHt_bigger.jpg",
     },
     {
         url: "https://twitter.com/realDonaldTrump/status/602571404861636608",
@@ -7622,7 +7622,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11596,
         likes: 14840,
         content: "I would like to wish everyone, including all haters and losers (of which, sadly, there are many) a truly happy and enjoyable Memorial Day!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F874276197357596672%2FkUuht00m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephenasmith/status/603384079044759552",
@@ -7630,7 +7630,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 92193,
         likes: 140734,
         content: "TAke a look, y'all: IMG_4346.jpeg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724515058376400896%2FLM2zVPsV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724515058376400896%252FLM2zVPsV_bigger.jpg",
     },
     {
         url: "https://twitter.com/MattOswaltVA/status/607393691024506880",
@@ -7638,7 +7638,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10965,
         likes: 34274,
         content: "saw girl I have crush on with her new fiance at Ikea but you know what they say, when God closes a Stǿrås Innjørdën he opens a Főnstǝrviviǵ",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1542182011619532800%2F5MrDhGZG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542182011619532800%252F5MrDhGZG_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoyceCarolOates/status/608300696073576448",
@@ -7646,8 +7646,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3337,
         likes: 4400,
         content: "So barbaric that this should still be allowed...  No conservation laws in effect wherever this is?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCHEZuxbUYAAxElY.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2683616680%2Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCHEZuxbUYAAxElY.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
         url: "https://twitter.com/mminthecity/status/610842664397877249",
@@ -7655,8 +7655,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 551,
         likes: 518,
         content: "2015 in one photo.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCHomKpSUYAAnUy7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736119791490887680%2F0-rYklgr_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCHomKpSUYAAnUy7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736119791490887680%252F0-rYklgr_bigger.jpg",
     },
     {
         url: "https://twitter.com/NekoCase/status/611019852497743872",
@@ -7664,7 +7664,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 29,
         likes: 143,
         content: "Foreskins fucking rule. Shut up, America.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1516399282466660354%2FcIa8kpQ5_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516399282466660354%252FcIa8kpQ5_bigger.jpg",
     },
     {
         url: "https://twitter.com/moody/status/611203581123936257",
@@ -7672,7 +7672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 99,
         likes: 199,
         content: "3rd Eye blind singer: \"I f-ing hate libertarians. A white dude standing on a bridge made with other people's $$$ going, Don't Tread on Me.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1561518280384417793%2FAVLNLW6P_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561518280384417793%252FAVLNLW6P_bigger.jpg",
     },
     {
         url: "https://twitter.com/MrGeorgeWallace/status/611755620534870016",
@@ -7680,7 +7680,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 337,
         likes: 699,
         content: "I'll straight up wear cargo shorts to ride a bike and biker shorts to load cargo I don't give a shit anymore",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531004841392078848%2F_YGRLXyD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531004841392078848%252F_YGRLXyD_bigger.jpg",
     },
     {
         url: "https://twitter.com/KeetPotato/status/611897837232779264",
@@ -7688,7 +7688,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5822,
         likes: 10189,
         content: "wife: \"you promised you wouldnt buy anything stupid with our lottery winnings\"\nme: [covering penguin's ears] \"he can hear you linda\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1295356472348508160%2FhZlM_K3__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295356472348508160%252FhZlM_K3__bigger.jpg",
     },
     {
         url: "https://twitter.com/Thynebear/status/613118181109035009",
@@ -7696,7 +7696,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1264,
         likes: 2775,
         content: "Waitress: Excuse me, there's no smoking in here.\nMe: I'm not smoking, I'm vaping.\nWaitress: What's the difference?\n[fixing my fedora] Well-",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F425213804935254017%2Fm6QSnCnV_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F425213804935254017%252Fm6QSnCnV_bigger.jpeg",
     },
     {
         url: "https://twitter.com/RandiLawson/status/613455523309031424",
@@ -7704,7 +7704,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1832,
         likes: 2899,
         content: "Please stop calling us your \"squad\" Linda this is book club",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1199318545944993794%2FW7FfmrdV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1199318545944993794%252FW7FfmrdV_bigger.jpg",
     },
     {
         url: "https://twitter.com/DylanLathrop/status/613741423830020097",
@@ -7712,8 +7712,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 4,
         content: "senior leadership looking all the same smh",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCIRyHPsWIAA-Irm.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1722441790903730176%2FRp--D4Zd_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCIRyHPsWIAA-Irm.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1722441790903730176%252FRp--D4Zd_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/616350667892989952",
@@ -7721,7 +7721,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 774,
         likes: 1947,
         content: "buzzfeed: 2 shoes you've GOT to buy\n\nvox: why these shoes are for sale and what it means\n\ngawker: this baby sucks and we're glad it's dead",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/seantgreen/status/618271941036642304",
@@ -7729,7 +7729,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1412,
         likes: 2834,
         content: "One of Jesus' most impressive accomplishments was being 33 years old and still having 12 really close friends.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1404947722411466754%2Fs-7yhT9P_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1404947722411466754%252Fs-7yhT9P_bigger.jpg",
     },
     {
         url: "https://twitter.com/cockerham/status/618516660148776960",
@@ -7737,7 +7737,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3,
         likes: 7,
         content: "How many times has eating crow helped to prevent a murder?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F477507652084178944%2FYcN7G-tx_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F477507652084178944%252FYcN7G-tx_bigger.jpeg",
     },
     {
         url: "https://twitter.com/mdob11/status/618920196892327936",
@@ -7745,7 +7745,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3536,
         likes: 4715,
         content: "Me: Siri, why am I alone?\nSiri: \\*opens front facing camera\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3342348711%2Fc72f0d33fb2fa9871256b74f4d9ceef0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3342348711%252Fc72f0d33fb2fa9871256b74f4d9ceef0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/jasonwagar/status/619221725859983360",
@@ -7753,8 +7753,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2792,
         likes: 2911,
         content: "@311Toronto It’s now after 3 pm and I guess Animal Services hasn’t been by, because someone’s having some fun now:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCJfq4FcWoAE-85e.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1593645152500940807%2FnOzzLGru_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCJfq4FcWoAE-85e.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593645152500940807%252FnOzzLGru_bigger.jpg",
     },
     {
         url: "https://twitter.com/brendohare/status/621105496280432640",
@@ -7762,8 +7762,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1029,
         likes: 2914,
         content: "This picture gave me hope...for the future...if they, the two great enemies, can get along and laugh...why cant we?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCJ6cKFNWgAAll_m.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2710017410%2Ff760d57ff677b42c7561106d30554f3e_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCJ6cKFNWgAAll_m.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2710017410%252Ff760d57ff677b42c7561106d30554f3e_bigger.jpeg",
     },
     {
         url: "https://twitter.com/KarenKilgariff/status/621563442277715969",
@@ -7771,8 +7771,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 494,
         likes: 1454,
         content: "When the other person cancels first",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCKA8pk_UYAAj5RA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839755301767151617%2FRlpQkbi4_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCKA8pk_UYAAj5RA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
         url: "https://twitter.com/BostonGlobe/status/622124738744348672",
@@ -7780,7 +7780,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1848,
         likes: 2305,
         content: "Ed Reinhold, FBI, says FBI has investifarted about 70 leads already. Live Video: trib.al/O4giUV3",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1628433409159663619%2FzyA36zyr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628433409159663619%252FzyA36zyr_bigger.jpg",
     },
     {
         url: "https://twitter.com/SortaBad/status/624254625374302208",
@@ -7788,7 +7788,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 277,
         likes: 1142,
         content: "Taylor Swift and Katy Perry have both slept with John Mayer so maybe the \"bad blood\" they share refers to hepatitis",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1438341517714751489%2F5k7Bc1XZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/eaxford/status/625080669027237888",
@@ -7796,7 +7796,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 653,
         likes: 1444,
         content: "So much of being an adult is bringing a bottle of wine someone brought to your house to someone else's house",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F646365893929205760%2FAlNFmc-X_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F646365893929205760%252FAlNFmc-X_bigger.jpg",
     },
     {
         url: "https://twitter.com/MatCro/status/625292396000071680",
@@ -7804,7 +7804,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30726,
         likes: 56201,
         content: "GF: I'm sick of you pretending you're a detective. We should split up\n\nME: Good idea. We can cover more ground that way.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F666964096043114498%2FRxL9Wf_M_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F666964096043114498%252FRxL9Wf_M_bigger.jpg",
     },
     {
         url: "https://twitter.com/TylerIAm/status/625543710147801088",
@@ -7812,7 +7812,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13417,
         likes: 35461,
         content: "She just having a little sex bro, she gonna text you back no worries",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729529742347345920%2FZZPeYelf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729529742347345920%252FZZPeYelf_bigger.jpg",
     },
     {
         url: "https://twitter.com/MarkAgee/status/626116848489205760",
@@ -7820,7 +7820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7407,
         likes: 12201,
         content: "WOMAN: I do not want to have sex with you\nMAN: Women are so mysterious",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1118378818400661504%2Fn5Kvdd4k_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118378818400661504%252Fn5Kvdd4k_bigger.jpg",
     },
     {
         url: "https://twitter.com/murrman5/status/626402087233040384",
@@ -7828,7 +7828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4060,
         likes: 9232,
         content: "\"when people say different color bell peppers taste different\"\n[doctor nodding] I meant anything bothering you physically",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1361726998905835524%2FVf0PO52y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
         url: "https://twitter.com/audipenny/status/626622583371202560",
@@ -7836,7 +7836,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 629,
         likes: 1260,
         content: "[me, trying to impress someone I like]\n\\*ignores them\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1060421119667130369%2Fnr0b1UWY_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1060421119667130369%252Fnr0b1UWY_bigger.jpg",
     },
     {
         url: "https://twitter.com/ElizaBayne/status/628354394673643520",
@@ -7844,7 +7844,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 401,
         likes: 1289,
         content: "Probably the worst thing you can hear when you're wearing a bikini is \"Good for you!\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F862505597744402432%2Fb2DNoA9I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F862505597744402432%252Fb2DNoA9I_bigger.jpg",
     },
     {
         url: "https://twitter.com/ch000ch/status/628429562154758144",
@@ -7852,7 +7852,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3915,
         likes: 9981,
         content: "sorry, standing outside your house with a sign that says \"prom?\" was probably a confusing way to ask u what prom means",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000134131441%2Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/mdob11/status/628522851201486848",
@@ -7860,7 +7860,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2262,
         likes: 4572,
         content: "The best way to get over someone is to wait fifty years, then quietly die in your sleep.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3342348711%2Fc72f0d33fb2fa9871256b74f4d9ceef0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3342348711%252Fc72f0d33fb2fa9871256b74f4d9ceef0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/PaulyCasillas/status/628670412403007490",
@@ -7868,8 +7868,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8146,
         likes: 11618,
         content: "Okay we get it you vape",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCLl8aExUcAQrDME.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1593821959388729344%2F_WXTTHqO_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCLl8aExUcAQrDME.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593821959388729344%252F_WXTTHqO_bigger.jpg",
     },
     {
         url: "https://twitter.com/Lubchansky/status/633769883667431424",
@@ -7877,8 +7877,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 137,
         likes: 226,
         content: "OKAY THE NY TIMES HAS GONE TOO FAR",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCMuaWHqUEAA3d_3.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1717666667818274816%2FOMfHVvry_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCMuaWHqUEAA3d_3.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717666667818274816%252FOMfHVvry_bigger.jpg",
     },
     {
         url: "https://twitter.com/cuddlymisha/status/634846169932386304",
@@ -7886,8 +7886,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3500,
         likes: 4513,
         content: "LITERALLY SAME",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCM9tOOoWUAAxNWq.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F835149588742955008%2FzComjxbG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCM9tOOoWUAAxNWq.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F835149588742955008%252FzComjxbG_bigger.jpg",
     },
     {
         url: "https://twitter.com/AtmanDoesFood/status/635230113177579521",
@@ -7895,7 +7895,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 680,
         likes: 1925,
         content: "100% of the people who describe their life as a \"journey\" have DUIs.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1481705481890668546%2FHGqM0AAT_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1481705481890668546%252FHGqM0AAT_bigger.jpg",
     },
     {
         url: "https://twitter.com/MrGeorgeWallace/status/635550070763487232",
@@ -7903,7 +7903,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 956,
         likes: 1901,
         content: "Shout out to political bumper stickers, changing nobody's mind and lowering the value of your car and whatnot.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531004841392078848%2F_YGRLXyD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531004841392078848%252F_YGRLXyD_bigger.jpg",
     },
     {
         url: "https://twitter.com/diss1/status/636094419339493376",
@@ -7911,7 +7911,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 590,
         likes: 1554,
         content: "they're called \"Medium posts\" because they're neither rare nor well done",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F817113297925312513%2FkO0YE5Yl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F817113297925312513%252FkO0YE5Yl_bigger.jpg",
     },
     {
         url: "https://twitter.com/KDTrey5/status/6378280602",
@@ -7919,7 +7919,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14464,
         likes: 17549,
         content: "Can I get sum DMs or sum @ replies...I Dont feel loved lol",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563699994393280512%2Fu4KNGaIR_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
         url: "https://twitter.com/ZaaackKoootzer/status/638466040045830145",
@@ -7927,8 +7927,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 510,
         likes: 695,
         content: "FB comments on @motherboard's Anita Sarkeesian post has become two guys threatening to fight each other/comparing abs",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCNxJeejXAAE-Jjb.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1651845451354701824%2FKkW39enM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCNxJeejXAAE-Jjb.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651845451354701824%252FKkW39enM_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/638798808688758784",
@@ -7936,8 +7936,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1409,
         likes: 1622,
         content: "kermit's new girlfriend looks like she got a snapchat full of lip-syncing videos",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCN14IazXAAAMJd7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCN14IazXAAAMJd7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/Book_Krazy/status/638920412953313280",
@@ -7945,7 +7945,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7138,
         likes: 14208,
         content: "WAITER: Room for dessert?\n\n[flashback to the room at home  that hides all my desserts]\n\nME: [nervous laugh] Haha I don't have one of those.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F927306237733195777%2FtxsemBVI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F927306237733195777%252FtxsemBVI_bigger.jpg",
     },
     {
         url: "https://twitter.com/PaperWash/status/640009335138086913",
@@ -7953,7 +7953,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6301,
         likes: 11233,
         content: "idea for haunted house: dimly lit grocery store sprinkled with people you haven't talked to since high school",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1375947175847456779%2F3svbgpbK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1375947175847456779%252F3svbgpbK_bigger.jpg",
     },
     {
         url: "https://twitter.com/SharkJelly/status/640244241822826496",
@@ -7961,7 +7961,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19422,
         likes: 26002,
         content: "[My Wedding]\n\nMe: I do\n\nGuests: Awww\n\nMe: Or do I?\n\nGuests: Ooooo",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F682495376297975808%2FdDNUfv08_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F682495376297975808%252FdDNUfv08_bigger.jpg",
     },
     {
         url: "https://twitter.com/LizHackett/status/640949325074333696",
@@ -7969,7 +7969,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1161,
         likes: 3482,
         content: "It is a truth universally acknowledged that if two people are at Home Depot one of them is pissed about it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3251514622%2F2d42d6603ac07a3853696e84f03ce3f8_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3251514622%252F2d42d6603ac07a3853696e84f03ce3f8_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DanMentos/status/641308760795934720",
@@ -7977,7 +7977,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4607,
         likes: 9920,
         content: "his palms are sweaty, knees weak, palms are sweaty. he forgot his lyrics already, palms are sweaty",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F548378022768701441%2F2zz0Vk61_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
         url: "https://twitter.com/meganamram/status/641691747270172673",
@@ -7985,7 +7985,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 546,
         likes: 1104,
         content: "\"Whoever denied it, supplied it\" also works with climate change",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/BuckyIsotope/status/641814603538677760",
@@ -7993,7 +7993,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12246,
         likes: 26196,
         content: "\\*knock on door\\*\n“Sir have you found Jesus?”\nUh, no. Goodbye.\n\\*shuts door\\*\n\\*Jesus steps out from behind door with gun\\*\nGood answer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1214363231038263296%2F6kWmdpPD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214363231038263296%252F6kWmdpPD_bigger.jpg",
     },
     {
         url: "https://twitter.com/KalvinMacleod/status/642475424241463296",
@@ -8001,7 +8001,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 944,
         likes: 1914,
         content: "Parenting is like being a juggler except all the balls are screaming.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F927353050896805888%2FjCrOzhU0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F927353050896805888%252FjCrOzhU0_bigger.jpg",
     },
     {
         url: "https://twitter.com/wouIdstepback/status/643452512628969472",
@@ -8009,7 +8009,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 38,
         likes: 80,
         content: "from that hedge my friend",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F643911014702972929%2FuTMUUlAw_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F643911014702972929%252FuTMUUlAw_bigger.jpg",
     },
     {
         url: "https://twitter.com/grumbist/status/643574736384098304",
@@ -8017,7 +8017,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 69558,
         likes: 93928,
         content: "im VERY laid back. i only care about 2 things:\n\nevery person on earth & their opinion of me\nthe crushing psychological weight of being alive",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F723075755408797697%2FATWvRJIm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F723075755408797697%252FATWvRJIm_bigger.jpg",
     },
     {
         url: "https://twitter.com/alexamellman/status/644668333200027648",
@@ -8025,8 +8025,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 12,
         content: "SANTA, I'M GONNA RIP YOUR HEAD OFF AND SHIT DOWN YOUR NECK!!!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCPJSbWnWgAAIusg.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3053354354%2F85a68cd6abc71732879857a295d59b39_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCPJSbWnWgAAIusg.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3053354354%252F85a68cd6abc71732879857a295d59b39_bigger.jpeg",
     },
     {
         url: "https://twitter.com/KimmyMonte/status/644981272658382848",
@@ -8034,7 +8034,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 985,
         likes: 2379,
         content: "You know when you meet someone and you just know their phone screen is cracked without even seeing it?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692591133984010240%2FwZh4X8wG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692591133984010240%252FwZh4X8wG_bigger.jpg",
     },
     {
         url: "https://twitter.com/girlfr0g/status/645720815611211776",
@@ -8042,7 +8042,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5209,
         likes: 8748,
         content: "[spelling bee]\nJUDGE: your word is \"bananas\"\nGWEN STEFANI: oh hell yes",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1695878161857482752%2F3d3uZa3b_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695878161857482752%252F3d3uZa3b_bigger.jpg",
     },
     {
         url: "https://twitter.com/jasongay/status/646301750346010624",
@@ -8050,7 +8050,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 29606,
         likes: 41011,
         content: "There's a guy in this coffee shop sitting at a table, not on his phone, not on a laptop, just drinking coffee, like a psychopath.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715202244583264256%2FQYwN0SCn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715202244583264256%252FQYwN0SCn_bigger.jpg",
     },
     {
         url: "https://twitter.com/shockleysmith/status/646504583502655488",
@@ -8058,7 +8058,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 3,
         content: "My apartment building has its own slack channel and I am pretty sure that's how Terminator 2 started",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1228060567992057856%2Foqlgju-C_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1228060567992057856%252Foqlgju-C_bigger.jpg",
     },
     {
         url: "https://twitter.com/DanMentos/status/648883036163993604",
@@ -8066,7 +8066,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9422,
         likes: 15664,
         content: "\"Grandpa what was it like before emojis?\"\nWell, we used words called adjectives\n\"That doesn't seem very 💯\"\nNo, it was not very 💯 at all",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F548378022768701441%2F2zz0Vk61_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
         url: "https://twitter.com/T_Rozzay3/status/64889433505284096",
@@ -8074,7 +8074,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25560,
         likes: 57452,
         content: "Osama shouldve hooped instead of tryna kill ppl cause he tall as hell!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1666313436526006274%2Fw68bfBse_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1666313436526006274%252Fw68bfBse_bigger.jpg",
     },
     {
         url: "https://twitter.com/tastefactory/status/649387028153413632",
@@ -8082,7 +8082,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1182,
         likes: 3802,
         content: "[at airport]\nCustoms Official: Do you have anything to declare?\nSouthern Belle: No",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839971048179269634%2Fyccn3pMU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839971048179269634%252Fyccn3pMU_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheSun/status/649473426294489088",
@@ -8090,8 +8090,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13487,
         likes: 50587,
         content: "We’ll be having sex with robots in the next 10 years thesun.uk/6016BzwMk",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCQNko9WWsAAcEGj.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724021641833750528%2FXH5bmccq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCQNko9WWsAAcEGj.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724021641833750528%252FXH5bmccq_bigger.jpg",
     },
     {
         url: "https://twitter.com/sharonodea/status/649575258123579392",
@@ -8099,8 +8099,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3320,
         likes: 2913,
         content: "Founder of #Peeple, an app designed to collect unsolicited feedback doesn't appear to like unsolicited feedback.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCQPBPooW8AANg4m.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1407028427698454534%2F0jxfy3wP_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCQPBPooW8AANg4m.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1407028427698454534%252F0jxfy3wP_bigger.jpg",
     },
     {
         url: "https://twitter.com/tastefactory/status/650353022200057856",
@@ -8108,7 +8108,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14018,
         likes: 30954,
         content: "YANKEE DOODLE: \\*sticks feather in his cap\\* This is called macaroni\nYANKEE DOODLE'S FRIEND: Ok, cool. Listen man, everybody's worried about u",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839971048179269634%2Fyccn3pMU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839971048179269634%252Fyccn3pMU_bigger.jpg",
     },
     {
         url: "https://twitter.com/zacharylevine/status/650502306782285824",
@@ -8116,7 +8116,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 542,
         likes: 821,
         content: "If the Brewers win tomorrow they'll finish with 69 wins. If they lose, they'll finish with a .420 winning percentage.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1343234990885236737%2F-SrokcZ-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1343234990885236737%252F-SrokcZ-_bigger.jpg",
     },
     {
         url: "https://twitter.com/aka_fatman/status/650773591760310272",
@@ -8124,7 +8124,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2053,
         likes: 4477,
         content: "Therapist: It's been 8 years since the death of your parents. How are you coping?\n\nBruce Wayne: I dress as a bat and beat up strangers now.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1003079228269580293%2FYYhkrK41_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1003079228269580293%252FYYhkrK41_bigger.jpg",
     },
     {
         url: "https://twitter.com/jonnysun/status/651579335875366912",
@@ -8132,7 +8132,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10554,
         likes: 17943,
         content: "hey sory i just saw this mesage u sent last month even tho all my notifications make sounds and my phone is in my hand even when im sleeping",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1314628602198028289%2FZbkd7FYQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314628602198028289%252FZbkd7FYQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheNardvark/status/652602408456093696",
@@ -8140,7 +8140,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 40383,
         likes: 51165,
         content: "“Can I get 2 boxes of Sudafed?”\n\n“Sorry, by law you can only buy one at a time.”\n\n“Okay then just the one box of Sudafed and these 7 guns.”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707006388336033792%2Fhf_m_FpA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707006388336033792%252Fhf_m_FpA_bigger.jpg",
     },
     {
         url: "https://twitter.com/bumf_online/status/652821378152837120",
@@ -8148,8 +8148,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2091,
         likes: 3265,
         content: "can someone please tell me what the fuck is going on",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCQ9JlNeVEAAeeR_.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F641432875993182208%2FgjPFMuOp_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCQ9JlNeVEAAeeR_.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F641432875993182208%252FgjPFMuOp_bigger.png",
     },
     {
         url: "https://twitter.com/JamilahLemieux/status/654117070485983232",
@@ -8157,7 +8157,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4379,
         likes: 5337,
         content: "How are you losing a debate you aren't even in?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1509384066927276034%2FqKBGp74c_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1509384066927276034%252FqKBGp74c_bigger.jpg",
     },
     {
         url: "https://twitter.com/bobvulfov/status/654461175753674752",
@@ -8165,7 +8165,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25191,
         likes: 52449,
         content: "BUILDING INSPECTOR: what's this called\nDARTH VADER: the death—\n[inspector's eyes look up from his clipboard]\nDARTH VADER: uh the health star",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1163961107356233729%2FwRdxfoXi_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1163961107356233729%252FwRdxfoXi_bigger.jpg",
     },
     {
         url: "https://twitter.com/Cavalorn/status/654934442549620736",
@@ -8173,7 +8173,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 55501,
         likes: 117264,
         content: "'I never thought leopards would eat MY face,' sobs woman who voted for the Leopards Eating People's Faces Party.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F798073892757716992%2Fg9QeeMZF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F798073892757716992%252Fg9QeeMZF_bigger.jpg",
     },
     {
         url: "https://twitter.com/TribalSpaceCat/status/655667757711794176",
@@ -8181,7 +8181,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4772,
         likes: 10792,
         content: "PILOT OVER INTERCOM: alright folks, by a show of hands, who has ever made a small and understandable mistake?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1589046767362113536%2Fmaf-9g9S_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589046767362113536%252Fmaf-9g9S_bigger.jpg",
     },
     {
         url: "https://twitter.com/mynameisntdave/status/656155281026625536",
@@ -8189,8 +8189,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1976,
         likes: 4788,
         content: "Haven't been to the gym in a couple months but I still got that muscle definition that the ladies love!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCRshvPIUYAApBGh.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F793842960018370560%2FUBx6PUzV_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCRshvPIUYAApBGh.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F793842960018370560%252FUBx6PUzV_bigger.jpg",
     },
     {
         url: "https://twitter.com/IrvineWelsh/status/656287007233155073",
@@ -8198,7 +8198,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11,
         likes: 27,
         content: "The second season of BoJack Horseman is as dark as fuck - everything Entourage should have been.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F820116924314988544%2Fm_bEDZIn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F820116924314988544%252Fm_bEDZIn_bigger.jpg",
     },
     {
         url: "https://twitter.com/amydillon/status/656965525134835712",
@@ -8206,7 +8206,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2331,
         likes: 3894,
         content: "\"How do you find anything in here?!\"\n\n-my mugger, giving my purse back",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531453106902421505%2FoEE2uYwc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531453106902421505%252FoEE2uYwc_bigger.jpg",
     },
     {
         url: "https://twitter.com/Ryan_Patricks/status/658380006960287744",
@@ -8214,7 +8214,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 244,
         likes: 656,
         content: "\\*me trying to fit in with guys working on cars\\*\n\n\"Ahh, the screwdriver. The thinking man's hammer.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1536905020020428800%2FNxjLRRbw_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1536905020020428800%252FNxjLRRbw_bigger.jpg",
     },
     {
         url: "https://twitter.com/1followernodad/status/659068672401518592",
@@ -8222,8 +8222,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 541,
         likes: 1185,
         content: "sounds like a seal wrote this headline",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCSV7dxVUkAArrf9.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726076187133566976%2FFP9s_k8Z_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCSV7dxVUkAArrf9.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
         url: "https://twitter.com/justin_klugh/status/659236511565639680",
@@ -8231,7 +8231,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15127,
         likes: 31637,
         content: "JOE BUCK: Welcome to the top of the 47th\n[Sun rises]\n[Sun keeps getting bigger]\nBUCK: yes\n[World engulfed by flames]\nBUCK: oh god yes",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1637917293463191556%2FmBppru0u_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1637917293463191556%252FmBppru0u_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/659761151459225600",
@@ -8239,8 +8239,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8993,
         likes: 14347,
         content: "Here's What It Would Look Like If Disney Princesses Were Tried For War Crimes In The Nuremberg Trials",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCSfxPJTU8AAd21y.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCSfxPJTU8AAd21y.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/bakerbakerbaker/status/661733250608574464",
@@ -8248,7 +8248,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 919,
         likes: 3323,
         content: "if i had a dirtbike i wouldnt even be on this fuckass website",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1703015866948866048%2FFYgtTsgT_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703015866948866048%252FFYgtTsgT_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewjanda/status/662790328999682048",
@@ -8256,7 +8256,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 41561,
         likes: 84250,
         content: "MY MILKSHAKE BRINGS ALL THE BEES TO MY CAR\nI SPILLED\nALL OVER MY CAR\nBEES ARE\nINSIDE OF MY CAR\nTHEY COULD KILL ME\nI'M ALLERGIC TO BEES",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1688607529579036672%2FpvFVRXJO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1688607529579036672%252FpvFVRXJO_bigger.jpg",
     },
     {
         url: "https://twitter.com/corrinamd/status/664796674699718656",
@@ -8264,7 +8264,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35774,
         likes: 46620,
         content: "we got Barnes and Noble tho I think we aight",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1326719833128448000%2FuRd5umhf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1326719833128448000%252FuRd5umhf_bigger.jpg",
     },
     {
         url: "https://twitter.com/HuffPost/status/667743807656632320",
@@ -8272,8 +8272,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3435,
         likes: 2954,
         content: "We apologize for the original image here. Zayn Malik is mentioned in the story, but is obviously not part of ISIS.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCURM_EOW4AArZd-.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1295829554225795072%2F_Ph3zAnF_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCURM_EOW4AArZd-.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295829554225795072%252F_Ph3zAnF_bigger.jpg",
     },
     {
         url: "https://twitter.com/christrebecca/status/667768644491980800",
@@ -8281,8 +8281,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2,
         likes: 9,
         content: "today in victorian christmas cards",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCURj_-jWwAASHfg.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F689577845585252354%2FIKV_IuXe_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCURj_-jWwAASHfg.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F689577845585252354%252FIKV_IuXe_bigger.jpg",
     },
     {
         url: "https://twitter.com/BooDooPerson/status/670652512257630209",
@@ -8290,8 +8290,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 393,
         likes: 858,
         content: "Here: I made this. You might need it, too.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCU6i5-0WUAAn6yt.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587479637508104194%2FwhwHr-YF_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCU6i5-0WUAAn6yt.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587479637508104194%252FwhwHr-YF_bigger.png",
     },
     {
         url: "https://twitter.com/ConorTripler/status/671106116768555008",
@@ -8299,7 +8299,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36648,
         likes: 63007,
         content: "\\*sits 27 hours for an oil on canvas portrait\\*\nomg delete that. Bartholomew i'm serious do not fucking hang that in the Great Hall",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1618830880461520899%2FIrGXqBSI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1618830880461520899%252FIrGXqBSI_bigger.jpg",
     },
     {
         url: "https://twitter.com/Michael1979/status/672509355456090112",
@@ -8307,7 +8307,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8963,
         likes: 16820,
         content: "Me: Bob, it's pronounced CHANGING, not a-changin'.\nBob Dylan: ?\nMe: Can someone teach Bob to say CHANGE?\n\\*David Bowie stands up\\*\nMe: Not you",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2542151234%2F4lzo4nfnjzrohvr2ltku_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2542151234%252F4lzo4nfnjzrohvr2ltku_bigger.jpeg",
     },
     {
         url: "https://twitter.com/davedittell/status/675806988572319744",
@@ -8315,7 +8315,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3439,
         likes: 10540,
         content: "if you fuck up a meal just call it Chicago style and serve it anyway",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1058196994185879554%2FyXiKLfr__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058196994185879554%252FyXiKLfr__bigger.jpg",
     },
     {
         url: "https://twitter.com/drewtoothpaste/status/676423039513329664",
@@ -8323,8 +8323,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 287,
         likes: 670,
         content: "That was my guess too, Google",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCWMjK3-UwAA3s8e.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590769094382469120%2FoPUz9D_J_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCWMjK3-UwAA3s8e.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
         url: "https://twitter.com/lvwrfl/status/681246826746523649",
@@ -8332,7 +8332,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11160,
         likes: 19791,
         content: "my aunt: why u kids always on them phones cant u have a real conversation\nme: \\*puts down phone\\* \\*crosses legs\\* why did u melt the ice caps",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1479144379650609155%2FxX5T2LKN_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1479144379650609155%252FxX5T2LKN_bigger.jpg",
     },
     {
         url: "https://twitter.com/actioncookbook/status/684515262712967170",
@@ -8340,7 +8340,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21098,
         likes: 37869,
         content: "USERS: you're alienating the people who actually use your product\nTWITTER: likes are now florps\nUSERS: what\nTWITTER: timeline goes sideways",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1520031180422361090%2FFvKdpvRc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520031180422361090%252FFvKdpvRc_bigger.jpg",
     },
     {
         url: "https://twitter.com/BuckyIsotope/status/684758412953964544",
@@ -8348,7 +8348,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19346,
         likes: 39023,
         content: "ME: Is he going to make it?\nDOCTOR: No. I’m afraid he’s down with the sickness\nME: \\*crying\\* oohwahahahah\nDOCTOR: \\*holds hand\\* oohwahahahah",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1214363231038263296%2F6kWmdpPD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214363231038263296%252F6kWmdpPD_bigger.jpg",
     },
     {
         url: "https://twitter.com/dubstep4dads/status/686663474676502528",
@@ -8356,7 +8356,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5614,
         likes: 12150,
         content: "BOSS: sir your resume is just a hand drawn picture of a guy doing sick BMX tricks\nME: yeah. that's me\nBOSS: [under his breath] holy shit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3737013477%2F8a3fed4bd60ab1d4fdfcd4a0fb38a8d5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3737013477%252F8a3fed4bd60ab1d4fdfcd4a0fb38a8d5_bigger.gif",
     },
     {
         url: "https://twitter.com/AndrewMichaan/status/687762219484884993",
@@ -8364,7 +8364,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1752,
         likes: 4112,
         content: "The internet is 90% complaining and entitlement and I hate it and I deserve better.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1371262608137883648%2FWhBlgjrP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1371262608137883648%252FWhBlgjrP_bigger.jpg",
     },
     {
         url: "https://twitter.com/BacklineNurse/status/688157036752678913",
@@ -8372,7 +8372,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57,
         likes: 205,
         content: "INVENTING CANDLES: hey put this stick in this jar of fat and light it on fire lol\nMOTHS: I don't know why but this sounds incredible",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675861361010659329%2FG3PLjy3c_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675861361010659329%252FG3PLjy3c_bigger.jpg",
     },
     {
         url: "https://twitter.com/SortaBad/status/689135584569233409",
@@ -8380,8 +8380,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2346,
         likes: 5932,
         content: "Hey girl are you a metamorphic amphibole because you're gonna be",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCZBNKQ2UAAAOLe8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1438341517714751489%2F5k7Bc1XZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCZBNKQ2UAAAOLe8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/ninatreemonkey/status/689942070568550401",
@@ -8389,7 +8389,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 545,
         likes: 1094,
         content: "So much of my adult life has been spent pretending I wasn't going for a high five",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729661022011588608%2F8nJ7EdYL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729661022011588608%252F8nJ7EdYL_bigger.jpg",
     },
     {
         url: "https://twitter.com/mtobey/status/689961243214479362",
@@ -8397,7 +8397,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36259,
         likes: 80432,
         content: "\"Anybody here named Jeff?\"\nJeff: \"Yes\"\nGeoff: \"Yeos\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1680258637707526144%2F29KgGC8u_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680258637707526144%252F29KgGC8u_bigger.jpg",
     },
     {
         url: "https://twitter.com/MarthaStewart/status/690386333446082560",
@@ -8405,7 +8405,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 385,
         likes: 906,
         content: "I cannot wait for beloved Twitter to allow more characters per tweet so I can say everything I want to about each photo or message",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1455119021196599296%2FVJKGfdqG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455119021196599296%252FVJKGfdqG_bigger.jpg",
     },
     {
         url: "https://twitter.com/stormzy/status/692008072470884352",
@@ -8413,7 +8413,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15174,
         likes: 16520,
         content: "They're Japanese innit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1669842641268142083%2FPO7nuhpW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669842641268142083%252FPO7nuhpW_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephenjmolloy/status/692446206111399936",
@@ -8421,7 +8421,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24076,
         likes: 47650,
         content: "\\*air horn sound\\*\n\\*second air horn sound\\*\nMe: \"This isn't deodorant.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F954098242081443840%2FQjvjRvfl_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F954098242081443840%252FQjvjRvfl_bigger.jpg",
     },
     {
         url: "https://twitter.com/itskaywayyyy/status/692918396963438592",
@@ -8429,8 +8429,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 918,
         likes: 1650,
         content: "#FeelTheBern",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCZ29m3NWEAUOjLL.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1633616778340204545%2Fsap3YWt6_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCZ29m3NWEAUOjLL.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633616778340204545%252Fsap3YWt6_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/693085454720114688",
@@ -8438,7 +8438,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5423,
         likes: 12971,
         content: "“What attracted you to our company?”\n\nWell, I heard you pay money in exchange for work",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/CLAUDIAPOSTING/status/694994701674532864",
@@ -8446,7 +8446,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3374,
         likes: 7454,
         content: "so we beat on, boys against the current, borne ceaselessly back into the town",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1712799496868872192%2FJ7VNYCCY_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712799496868872192%252FJ7VNYCCY_bigger.jpg",
     },
     {
         url: "https://twitter.com/JohnCleese/status/695734288252342272",
@@ -8454,7 +8454,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 407,
         likes: 1406,
         content: "I don't understand.Why do I have to put @ in front of things? I am not @John Cleese.I AM John Cleese.I don't live AT me,I'm already there...",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2622284361%2F1emzqsaz3t5glbyndf66_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2622284361%252F1emzqsaz3t5glbyndf66_bigger.jpeg",
     },
     {
         url: "https://twitter.com/gveks/status/695763561960730624",
@@ -8462,8 +8462,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6152,
         likes: 5251,
         content: "It's only Feb but we may already have the #designfail of the year. Year of the Monkey...?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCafZRBQVIAAoAgs.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F729902770455650304%2FPw5YEsYA_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCafZRBQVIAAoAgs.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F729902770455650304%252FPw5YEsYA_bigger.jpg",
     },
     {
         url: "https://twitter.com/DVNJr/status/695772559002959872",
@@ -8471,8 +8471,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52,
         likes: 79,
         content: "''Don't blame Jebby. I'm the one who told him-- whenever you ask people to clap, you should say please.\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCafhdKoW0AAS7tm.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1049933683308843009%2Fu-wNIfMz_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCafhdKoW0AAS7tm.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1049933683308843009%252Fu-wNIfMz_bigger.jpg",
     },
     {
         url: "https://twitter.com/Goudie15/status/697496675720495105",
@@ -8480,7 +8480,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 29630,
         likes: 42013,
         content: "Why dae folk ask babies stupid shite lit \"Ur gettin big arent ye?\" As if the wee cunts gony be like aye Moira yer spot on am oan the protein",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1052553444479946753%2F7zik1n9R_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1052553444479946753%252F7zik1n9R_bigger.jpg",
     },
     {
         url: "https://twitter.com/skullmandible/status/704335506365095937",
@@ -8488,7 +8488,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2161,
         likes: 5485,
         content: "me: what beautiful moon tonight\nher: let's not waste it\nneil degrasse tyson: actually it's the same moon as every night. no need to fuck",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1191562618936250368%2FKw0VfgAV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1191562618936250368%252FKw0VfgAV_bigger.jpg",
     },
     {
         url: "https://twitter.com/CDCSTD/status/705845299672014848",
@@ -8496,8 +8496,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 4,
         content: "#NetflixAndChill isn't a new concept & neither is #safesex. #BringAndUseCondoms go.usa.gov/cw8GF",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCcuqj2lVIAA4IAi.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1309540517852708864%2FApjLuPP9_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCcuqj2lVIAA4IAi.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1309540517852708864%252FApjLuPP9_bigger.png",
     },
     {
         url: "https://twitter.com/KyleMcDowell86/status/708384759479558144",
@@ -8505,7 +8505,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10460,
         likes: 37814,
         content: "[wakes up with a hangover] uhh what happened last night\n[Carrot Top in bed beside me] Good morning\n[Me] Carrot Top my love, what happened",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F880130075235975168%2F_2GvfpwZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F880130075235975168%252F_2GvfpwZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/missokistic/status/708849785596416000",
@@ -8513,7 +8513,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2205,
         likes: 4874,
         content: "Neil deGrasse Tyson walks into a bar. Everyone leaves. \"EVERYONE?\" he chuckles to himself. \"7.4 billion humans couldn't fit in this space.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3579141312%2F747f961ba02ede59bf47ede2177926f0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3579141312%252F747f961ba02ede59bf47ede2177926f0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/brendohare/status/711756445717495808",
@@ -8521,8 +8521,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3219,
         likes: 9783,
         content: "The last person Dale Earnhardt met before he died was Frankie Muniz",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCeCqtzYW4AAckdn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2710017410%2Ff760d57ff677b42c7561106d30554f3e_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCeCqtzYW4AAckdn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2710017410%252Ff760d57ff677b42c7561106d30554f3e_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DanMentos/status/712884145324601344",
@@ -8530,8 +8530,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12774,
         likes: 24307,
         content: "his palms are sweaty\nknees weak\narms are heavy\nthere's",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCeSsWKQVAAIS7_M.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F548378022768701441%2F2zz0Vk61_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCeSsWKQVAAIS7_M.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
         url: "https://twitter.com/younglilsam/status/713932677720592385",
@@ -8539,8 +8539,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9736,
         likes: 17847,
         content: "my dog swallowed a wasp but he aint even salty",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCehl-unW4AAzacX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655339435905662978%2FDAdFUlfQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCehl-unW4AAzacX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655339435905662978%252FDAdFUlfQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/jenniferdaniel/status/714501409379581952",
@@ -8548,8 +8548,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 14,
         content: "The new @chipotle menu looks different",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCeprOXlWAAA3iZE.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1368383325606273025%2FJ009l51B_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCeprOXlWAAA3iZE.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1368383325606273025%252FJ009l51B_bigger.jpg",
     },
     {
         url: "https://twitter.com/kyleayers/status/714835753138696192",
@@ -8557,8 +8557,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6907,
         likes: 10011,
         content: "Arby's meeting:\n\"So it's fish?\"\n\"Legally? No\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCeubVE0WwAA1gMz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1447981988636291073%2Fiz0RmSib_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCeubVE0WwAA1gMz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1447981988636291073%252Fiz0RmSib_bigger.jpg",
     },
     {
         url: "https://twitter.com/tehviking/status/715231232242507777",
@@ -8566,7 +8566,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1702,
         likes: 2596,
         content: "God grant me the dgaf to lol at the things I can’t even, the swag to yolo the things I can, and the lifehacks to know the difference",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1595154115650326537%2FQAN33Y1F_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1595154115650326537%252FQAN33Y1F_bigger.jpg",
     },
     {
         url: "https://twitter.com/heyitsgarrett/status/716069776129306628",
@@ -8574,8 +8574,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 68,
         likes: 254,
         content: "Rare sighting of UPS trucks mating in the wild. Beautiful",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCe_9oSwUYAAp7Xe.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1519415326370263040%2FlCqlnYlL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCe_9oSwUYAAp7Xe.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1519415326370263040%252FlCqlnYlL_bigger.jpg",
     },
     {
         url: "https://twitter.com/KaptanHindustan/status/716620279959695360",
@@ -8583,8 +8583,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9986,
         likes: 11466,
         content: "RIP Bunny",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCfHyWI_VIAE8wQ8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1670138974889996289%2FVixm5Jbl_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCfHyWI_VIAE8wQ8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1670138974889996289%252FVixm5Jbl_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewtoothpaste/status/718167017509916672",
@@ -8592,7 +8592,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5290,
         likes: 9661,
         content: "GOD: Let there be women\nWOMEN: Cool\nGOD: But no pockets\nWOMEN: What?\nGOD: Put your stuff in a bag lol\nMEN: lol\nGOD: lol",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590769094382469120%2FoPUz9D_J_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
         url: "https://twitter.com/ThomasAwful/status/718889068365488128",
@@ -8600,8 +8600,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8030,
         likes: 17472,
         content: "America's slow but very real decline into a fascist state as told by the Milwaukee Bucks logo",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCfoBzEHVAAAy-JF.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1626500115463643136%2FUJfoPUeo_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCfoBzEHVAAAy-JF.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1626500115463643136%252FUJfoPUeo_bigger.jpg",
     },
     {
         url: "https://twitter.com/sarahjeong/status/719378070461767682",
@@ -8609,7 +8609,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11,
         likes: 77,
         content: "I would read an article about why so many makeup sponges look like butt plugs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1409002235455967234%2FZcTT1Xq-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1409002235455967234%252FZcTT1Xq-_bigger.jpg",
     },
     {
         url: "https://twitter.com/KidRock/status/719983895043829760",
@@ -8617,8 +8617,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7331,
         likes: 14487,
         content: "Hey, authority:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCf3lhMTUUAAB1zn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1461561167105732612%2Frgawd09C_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCf3lhMTUUAAB1zn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1461561167105732612%252Frgawd09C_bigger.jpg",
     },
     {
         url: "https://twitter.com/LeahTiscione/status/721132395798360064",
@@ -8626,7 +8626,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51,
         likes: 156,
         content: "Why is it called a car repair shop and not autocorrect",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563330281838284805%2FaUtIY2vj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563330281838284805%252FaUtIY2vj_bigger.jpg",
     },
     {
         url: "https://twitter.com/joshgondelman/status/721180907252682752",
@@ -8634,7 +8634,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 62,
         likes: 303,
         content: "ME: \"Gimme an Amanda Palmer!\"\nBARTENDER: \\*serves me a 1/2 lemonade, 1/2 poem inspired by a recent news story\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707009141464551424%2FNe9wNDNd_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707009141464551424%252FNe9wNDNd_bigger.jpg",
     },
     {
         url: "https://twitter.com/tenderlove/status/722565868719177729",
@@ -8642,7 +8642,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3501,
         likes: 5337,
         content: "I like to add � and â€™ any time I submit online forms because I know that some developer is going to see it and wonder if they have a bug",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1372299370691842052%2FKHLAURcj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1372299370691842052%252FKHLAURcj_bigger.jpg",
     },
     {
         url: "https://twitter.com/stevevsninjas/status/726216861671559170",
@@ -8650,7 +8650,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5851,
         likes: 11126,
         content: "1.Rage Against The Machine\n2.Hold A Grudge Against The Machine\n3.Get Over The Machine\n4.Sincerely Hope The Machine Finds Happiness",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444698045816324099%2FUjuqiIpM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444698045816324099%252FUjuqiIpM_bigger.jpg",
     },
     {
         url: "https://twitter.com/LindseyGrahamSC/status/727604522156228608",
@@ -8658,7 +8658,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 182625,
         likes: 276202,
         content: "If we nominate Trump, we will get destroyed.......and we will deserve it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1235299656063733760%2Fb1RnM8w3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1235299656063733760%252Fb1RnM8w3_bigger.jpg",
     },
     {
         url: "https://twitter.com/Reese_Mode/status/729825715366051841",
@@ -8666,8 +8666,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1639,
         likes: 1496,
         content: "When you take a selfie after a long day of trying to kill Bart.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCiDcnOUW0AE-WM6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1066242637651460096%2FDCuDuBVX_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCiDcnOUW0AE-WM6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1066242637651460096%252FDCuDuBVX_bigger.jpg",
     },
     {
         url: "https://twitter.com/meladoodle/status/729852807809880065",
@@ -8675,7 +8675,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5674,
         likes: 15423,
         content: "Crazy how women have the stereotype of being chatty when 90% of dudes have 45 minute podcasts that no one listens to...",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1625003710400327680%2FShVhIelr_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625003710400327680%252FShVhIelr_bigger.jpg",
     },
     {
         url: "https://twitter.com/harikondabolu/status/729914225426997248",
@@ -8683,7 +8683,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 864,
         likes: 2040,
         content: "I love Steph Curry so much that I'd wear his jersey. This is a big deal! AN INDIAN DUDE IS WILLING TO PUBLICLY WEAR A JERSEY THAT SAYS CURRY",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1513538053847101442%2FkepzykaJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1513538053847101442%252FkepzykaJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/HeyNikkkay/status/731680150459432960",
@@ -8691,8 +8691,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6575,
         likes: 12991,
         content: "bruh u gonna put that fire out",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCidzM1gXAAUF0cA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1602555157232877569%2FSmjFq97z_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCidzM1gXAAUF0cA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1602555157232877569%252FSmjFq97z_bigger.jpg",
     },
     {
         url: "https://twitter.com/lilghosthands/status/732675903835103233",
@@ -8700,7 +8700,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19,
         likes: 44,
         content: "when u think ur gonna get stuff done but then remember ur depressed",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1555700838496083974%2FkIfRjX_n_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1555700838496083974%252FkIfRjX_n_bigger.jpg",
     },
     {
         url: "https://twitter.com/PDLComics/status/733431319330312193",
@@ -8708,7 +8708,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 108,
         likes: 220,
         content: "First guy to be cremated: \"I dunno, just set me on fire I guess.\"\nAncient funeral home employee: \"Metal. As. Fuck.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1455194115767816196%2FE2x6n-hZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455194115767816196%252FE2x6n-hZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/aparnapkin/status/733742194436276224",
@@ -8716,7 +8716,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 296,
         likes: 847,
         content: "I hope the Blue Man Group realizes they would be just as pretty without all that makeup",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557082422788997121%2FlTCsPchv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
         url: "https://twitter.com/HeerJeet/status/734898469148762112",
@@ -8724,7 +8724,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12,
         likes: 42,
         content: "There's far too much Canadian fiction devoted to humans having sex with bears. That's my position & I can't be moved from it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F771802394195668992%2FsdiSWCGC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F771802394195668992%252FsdiSWCGC_bigger.jpg",
     },
     {
         url: "https://twitter.com/xmasape/status/735306055073206272",
@@ -8732,7 +8732,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 400,
         likes: 1432,
         content: "PETER THIEL: [Reciting quotes about revenge from \"The Count of Monte Cristo\"]\nHULK HOGAN: Can I wear the do-rag in court, brother?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1314269110159769605%2FNX7IRn64_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314269110159769605%252FNX7IRn64_bigger.jpg",
     },
     {
         url: "https://twitter.com/ToLey88/status/735558012933394433",
@@ -8740,8 +8740,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5545,
         likes: 11460,
         content: "I'm taking the rest of the week off.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCjU6HS5XAAEZ-SP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1102988267090264066%2F8jPtZW67_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCjU6HS5XAAEZ-SP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1102988267090264066%252F8jPtZW67_bigger.png",
     },
     {
         url: "https://twitter.com/athleisure_monk/status/738618427909111808",
@@ -8749,7 +8749,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 38751,
         likes: 73073,
         content: "scully: victim died of multiple stab wounds\nmulder: \\*throws her a file\\* ever heard of the knife alien",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1177736415171547137%2F_z4L_C0b_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1177736415171547137%252F_z4L_C0b_bigger.jpg",
     },
     {
         url: "https://twitter.com/JustinKing/status/738751021879558144",
@@ -8757,7 +8757,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 32855,
         likes: 30213,
         content: "Fast & Furious 8 filming in Cleveland. Imagine if you weren't aware and suddenly saw this. (h/t Kasey Crabtree)",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F724766224110866432%2FWeo6mekM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F724766224110866432%252FWeo6mekM_bigger.jpg",
     },
     {
         url: "https://twitter.com/GayRodney/status/738809253515923456",
@@ -8765,7 +8765,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 126,
         likes: 593,
         content: "[Matt McGorry, watching a gay porn film] Gee, this seems cool and all, but I don't see any women in this?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1472421818837393412%2Fg4aUTVoA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1472421818837393412%252Fg4aUTVoA_bigger.jpg",
     },
     {
         url: "https://twitter.com/sixfoot6/status/740237965197115393",
@@ -8773,7 +8773,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 4,
         content: "a bird shitted on me just a little\nit was ok\ni'm ok",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F628606305712734208%2F5bBnotB9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F628606305712734208%252F5bBnotB9_bigger.jpg",
     },
     {
         url: "https://twitter.com/ftrain/status/740276899994308613",
@@ -8781,8 +8781,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 100,
         likes: 402,
         content: "When I was in college I used to just email the President when things bugged me.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCkX96XsUUAAGb4I.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1565884506824998912%2FvfyOHT8R_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCkX96XsUUAAGb4I.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565884506824998912%252FvfyOHT8R_bigger.png",
     },
     {
         url: "https://twitter.com/ohfarrell/status/740679207064342528",
@@ -8790,7 +8790,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17608,
         likes: 27914,
         content: "twitter: gentle reminder that you are stardust✨\n\nme: i am in debt",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F665074062821953536%2F4_QDT0nN_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F665074062821953536%252F4_QDT0nN_bigger.jpg",
     },
     {
         url: "https://twitter.com/HillaryClinton/status/740973710593654784",
@@ -8798,7 +8798,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 424403,
         likes: 606733,
         content: "Delete your account.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1291192333199958017%2FSvH8J8_P_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1291192333199958017%252FSvH8J8_P_bigger.jpg",
     },
     {
         url: "https://twitter.com/gamemakerstk/status/741923072719085568",
@@ -8806,7 +8806,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2810,
         likes: 7197,
         content: "Take me down to the Parallax City where the far moves slow and the near moves quickly",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1682473803379531777%2FDZYwcXtH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1682473803379531777%252FDZYwcXtH_bigger.jpg",
     },
     {
         url: "https://twitter.com/DanMentos/status/743899964376420353",
@@ -8814,7 +8814,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3402,
         likes: 10094,
         content: "billy joel: we didn’t start the fire\ndetective: I haven’t mentioned a fire\nbilly joel: shit",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F548378022768701441%2F2zz0Vk61_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
         url: "https://twitter.com/Larakate/status/744721367547842560",
@@ -8822,7 +8822,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 228,
         likes: 370,
         content: "Please don't riot Oakland. We have no police chief.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1132795761433776128%2FeaFiM8la_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1132795761433776128%252FeaFiM8la_bigger.jpg",
     },
     {
         url: "https://twitter.com/BrandyLJensen/status/744736706721628160",
@@ -8830,8 +8830,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 630,
         likes: 1730,
         content: "When u r drunk and Landslide comes on",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FClXWFWSWMAASpbJ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1573820742482944003%2FY308jbzf_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FClXWFWSWMAASpbJ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
         url: "https://twitter.com/HeyRikus/status/745288603291508736",
@@ -8839,7 +8839,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7877,
         likes: 13381,
         content: "All I'm saying is that if Trump were really a friend of the gays, one of us would have fixed his wig and makeup by now.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1650103191894212608%2FYAEVtUO1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1650103191894212608%252FYAEVtUO1_bigger.jpg",
     },
     {
         url: "https://twitter.com/notwillystroker/status/745824533622337536",
@@ -8847,7 +8847,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 427,
         likes: 1034,
         content: "5 minutes into toy story n chill and I already have a friend in me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F869465572001677312%2FiTu33hjm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F869465572001677312%252FiTu33hjm_bigger.jpg",
     },
     {
         url: "https://twitter.com/davidfarrier/status/746032197342232576",
@@ -8855,8 +8855,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 63445,
         likes: 131076,
         content: "i paid for in-flight wifi so i could tweet this immediately",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FClpwOdGWkAAzkuU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1391161879926480898%2Fqx3bATDZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FClpwOdGWkAAzkuU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1391161879926480898%252Fqx3bATDZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/sadqueer4life/status/746431687580491776",
@@ -8864,7 +8864,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4709,
         likes: 6573,
         content: "i want to DIE\n\nD- do better in life \nI- improve my mental health \nE- emotionally connect w other humans",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1705021004353818624%2FXMybp30m_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1705021004353818624%252FXMybp30m_bigger.jpg",
     },
     {
         url: "https://twitter.com/Papapishu/status/746803108949409793",
@@ -8872,7 +8872,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10301,
         likes: 28166,
         content: "THERAPIST: you've started calling objectively awful things \"insanely good\" to protect yourself from how awful the world is\nME: lol that owns",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1721890148206665728%2Fyr4Vblnk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721890148206665728%252Fyr4Vblnk_bigger.jpg",
     },
     {
         url: "https://twitter.com/melissabroder/status/746890933904375808",
@@ -8880,7 +8880,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 566,
         likes: 1188,
         content: "\\*whispers during sex\\* do u think i'm a loser?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733409320895942656%2FMZP2Olfg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733409320895942656%252FMZP2Olfg_bigger.jpg",
     },
     {
         url: "https://twitter.com/everythingsjake/status/748248455865376768",
@@ -8888,8 +8888,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24118,
         likes: 36473,
         content: "Barack can u handle this?\nJustin can u handle this?\nEnrique can u handle this?\nI don't think they can handle this!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCmJO22zWMAAVS9w.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1403868614999134210%2FPWsI5OiM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCmJO22zWMAAVS9w.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1403868614999134210%252FPWsI5OiM_bigger.jpg",
     },
     {
         url: "https://twitter.com/katiedippold/status/748582543583121408",
@@ -8897,8 +8897,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 120475,
         likes: 344567,
         content: "Tbt to Halloween when I dressed as the babadook but my friend's house had more of a grown ups drinking wine vibe",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCmN_1jUUkAAfWXq.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000657528762%2Fe0f214343194b80c59c005e95069f706_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCmN_1jUUkAAfWXq.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000657528762%252Fe0f214343194b80c59c005e95069f706_bigger.jpeg",
     },
     {
         url: "https://twitter.com/cordjefferson/status/748711242831888384",
@@ -8906,7 +8906,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 379,
         likes: 1354,
         content: "Are you a real 90s kid?\n1. You ate gushers!\n2. You watched Doug!\n3. You heard Marilyn Manson got his ribs removed to suck his own dick.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1549404010339356678%2Fpq1bM6RQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1549404010339356678%252Fpq1bM6RQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/ZK_Elly/status/750517615651540992",
@@ -8914,8 +8914,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4497,
         likes: 11174,
         content: "What in all holy hell is going on with this box of toilet paper I just got from Amazon",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCmpfyFvVMAAdgeH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1056379630834405377%2FDvMiMDJG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCmpfyFvVMAAdgeH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1056379630834405377%252FDvMiMDJG_bigger.jpg",
     },
     {
         url: "https://twitter.com/imbethmccoll/status/750708361595846656",
@@ -8923,8 +8923,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 597,
         likes: 2190,
         content: "saw this stocky horse on my walk . he started posing. at 1st jus a lil leg action then boom. Super model finish",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCmsNP54XEAAHIsN.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1694003470095851520%2FkwCYaQZk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCmsNP54XEAAHIsN.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
         url: "https://twitter.com/GenePark/status/751542778753081344",
@@ -8932,8 +8932,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 289,
         likes: 509,
         content: "It's been 5 years since @USATODAY published this perfection. Why isn't it at the @Newseum yet? #heatstroke",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCm4EHC5XEAAdxzc.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733202086966231040%2FnALgw_BT_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCm4EHC5XEAAdxzc.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733202086966231040%252FnALgw_BT_bigger.jpg",
     },
     {
         url: "https://twitter.com/CABMFVAUGHN/status/753482686648295424",
@@ -8941,8 +8941,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 63789,
         likes: 124701,
         content: "i blocked my ex on everything but she some how managed to message me through direct tv",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCnTogWtUsAIoIl-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1490229242252062721%2FP1KGAqkj_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCnTogWtUsAIoIl-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490229242252062721%252FP1KGAqkj_bigger.jpg",
     },
     {
         url: "https://twitter.com/Crutnacker/status/754811607188766720",
@@ -8950,7 +8950,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 393,
         likes: 752,
         content: "I'm renaming my cats Thoughts and Prayers because they are also useless in dealing with gun violence.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1544300011684614145%2FKuTkb554_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1544300011684614145%252FKuTkb554_bigger.jpg",
     },
     {
         url: "https://twitter.com/dfreelon/status/755054091139633152",
@@ -8958,8 +8958,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3537,
         likes: 4811,
         content: "Okay I just had to get 'em side by side. L: GOP Capitol Hill interns. R: DNCC interns. #2016",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCnp9lY7UMAAt_ar.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1163639149917822976%2FyfHf6S1g_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCnp9lY7UMAAt_ar.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1163639149917822976%252FyfHf6S1g_bigger.jpg",
     },
     {
         url: "https://twitter.com/mattaukamp/status/755511596047298564",
@@ -8967,7 +8967,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 31988,
         likes: 54321,
         content: "One day, Donald Trump is going to look a reporter straight in the eyes on national TV and say \"I never ran for President.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1432961476956987392%2FbCrA0ZZo_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1432961476956987392%252FbCrA0ZZo_bigger.jpg",
     },
     {
         url: "https://twitter.com/nathanrabin/status/756561607631568896",
@@ -8975,7 +8975,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 24,
         content: "Last night at The Gathering, Warren G came out, did \"Regulate\", saw that the place was sufficiently regulated, then left. #seriously #GOTJ",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1635700291445092352%2FKwJtwpi3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635700291445092352%252FKwJtwpi3_bigger.jpg",
     },
     {
         url: "https://twitter.com/brad_frost/status/756640481476382720",
@@ -8983,8 +8983,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2,
         likes: 36,
         content: "Oh my good lord.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCoAggEsWAAAsIRX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F907811115459125248%2Fi8AzK6gR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCoAggEsWAAAsIRX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F907811115459125248%252Fi8AzK6gR_bigger.jpg",
     },
     {
         url: "https://twitter.com/PalmerLuckey/status/760667825082015744",
@@ -8992,7 +8992,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16,
         likes: 57,
         content: "One of the most often misused quotes out there: \"You either die a hero, or you live long enough to see yourself become the villain.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1592034442171719680%2FtrGJr315_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1592034442171719680%252FtrGJr315_bigger.jpg",
     },
     {
         url: "https://twitter.com/DVSblast/status/763733803500236800",
@@ -9000,7 +9000,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 261,
         likes: 774,
         content: "They Call It............\"Fucking\".........Teens Are Hiding Pieces Of Themselves Inside Each Other TO GET HIGH",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F607981569916026881%2FroZR_wmK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F607981569916026881%252FroZR_wmK_bigger.jpg",
     },
     {
         url: "https://twitter.com/Travon/status/764702682539896832",
@@ -9008,8 +9008,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12513,
         likes: 19924,
         content: "The best part of Kevin Hart's wedding pic is him standing 10 feet in the foreground to be as tall as his wife.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCpzE2z0UEAA17nC.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1665532931694280707%2FOsYsxcRu_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCpzE2z0UEAA17nC.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665532931694280707%252FOsYsxcRu_bigger.jpg",
     },
     {
         url: "https://twitter.com/NoticablyBacon/status/766347309248417793",
@@ -9017,7 +9017,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 861,
         likes: 1538,
         content: "Me:Do you think Yogi Bear killed someone for that hat and tie? I mean hes a bear he cant buy it\nBoss:I meant questions about the project",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1289929119728316416%2FdMXp7nzJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1289929119728316416%252FdMXp7nzJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/vulgarswami/status/766424771580002304",
@@ -9025,8 +9025,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 41279,
         likes: 69051,
         content: "Water lowkey thicc",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCqLjQr4WgAACyUA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F836422904162185216%2Flnk_Oc44_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCqLjQr4WgAACyUA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F836422904162185216%252Flnk_Oc44_bigger.jpg",
     },
     {
         url: "https://twitter.com/nytimesarts/status/766649126092206081",
@@ -9034,8 +9034,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11,
         likes: 21,
         content: "How would it feel to rearrange this actual deck chair from the Titanic? nyti.ms/2b2mKij",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCqOvUN4WIAAf4uZ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F964180969702895616%2FwJcdJ1MU_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCqOvUN4WIAAf4uZ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F964180969702895616%252FwJcdJ1MU_bigger.jpg",
     },
     {
         url: "https://twitter.com/5wiim/status/766656527302295556",
@@ -9043,8 +9043,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 22,
         likes: 37,
         content: "Hit it from the back know that shit wet af 😩💦 RT @vulgarswami Water lowkey thicc",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCqLjQr4WgAACyUA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1689439550672633856%2FPmGTY1uo_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCqLjQr4WgAACyUA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1689439550672633856%252FPmGTY1uo_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/768179529487712256",
@@ -9052,8 +9052,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26,
         likes: 256,
         content: "caught someone recharging herself on mother's hate crystal",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCqkfNboWIAAmzs5.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCqkfNboWIAAmzs5.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/Papapishu/status/768286842991022080",
@@ -9061,8 +9061,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4,
         likes: 35,
         content: "Man this deer must have been fucking rich.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCqmAzlNUsAUAKeY.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1721890148206665728%2Fyr4Vblnk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCqmAzlNUsAUAKeY.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721890148206665728%252Fyr4Vblnk_bigger.jpg",
     },
     {
         url: "https://twitter.com/ben_rosen/status/768852936860569600",
@@ -9070,7 +9070,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 890,
         likes: 1951,
         content: "MORPHEUS: you can take the red pill or the blue pill or the jagged little pill\nME: i dont know what that one does\nMORPHEUS: you oughta know",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1016451004923985920%2FQjtIqSUB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
         url: "https://twitter.com/imbethmccoll/status/771422577118089216",
@@ -9078,8 +9078,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1413,
         likes: 6685,
         content: "heading off to your dick appointment after the whole squad collaborated on the texts",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCrSku7fWYAc66g6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1694003470095851520%2FkwCYaQZk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCrSku7fWYAc66g6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
         url: "https://twitter.com/BrandyLJensen/status/771463229495271428",
@@ -9087,7 +9087,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3075,
         likes: 11522,
         content: "\"RIP my Mentions\" -me, gravely, as they lower the casket of my husband, Jonathan Mentions",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1573820742482944003%2FY308jbzf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
         url: "https://twitter.com/ArfMeasures/status/771814692864028672",
@@ -9095,7 +9095,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2368,
         likes: 4835,
         content: "THERAPIST: Ever had a job?\nME: I once worked at a zoo\nT: Great! & what did you take from that?\nME: Definitely not a penguin\nT: What\nM: What",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1348255282833534976%2FPk7ewKKA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
         url: "https://twitter.com/rad_milk/status/771992925727100932",
@@ -9103,7 +9103,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 116,
         likes: 577,
         content: "pretty woman\nwalkin down the street\npretty woman\nplease send pics of feet",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1560056244974497797%2FGN_Zqat7_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560056244974497797%252FGN_Zqat7_bigger.jpg",
     },
     {
         url: "https://twitter.com/bananafitz/status/772899203609726976",
@@ -9111,7 +9111,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1771,
         likes: 3812,
         content: "Me: How can Kool-Aid Man smash through a brick wall fully intact when he's made of glass?\nInterviewer: I meant questions about the job",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1479607651935866883%2FFcQmIgPc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1479607651935866883%252FFcQmIgPc_bigger.jpg",
     },
     {
         url: "https://twitter.com/blade_funner/status/773338613270605825",
@@ -9119,7 +9119,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11350,
         likes: 22211,
         content: "[GOD INVENTING THE WEASEL]\n\nYou know what we need?  An otter you can't fucking trust.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1057975474276712449%2FjEZUsJ6L_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1057975474276712449%252FjEZUsJ6L_bigger.jpg",
     },
     {
         url: "https://twitter.com/pixelatedboat/status/773768496924635136",
@@ -9127,7 +9127,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 570,
         likes: 1976,
         content: "Me, pitching to investors: This simple device takes your blood\nInvestor: And gives you a diagnosis?\nMe: No",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F875489341291675649%2Fhc8K1aT0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
         url: "https://twitter.com/Arr/status/774855950070972417",
@@ -9135,7 +9135,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17091,
         likes: 33503,
         content: "The reason cats are so pissy is they're God's perfect killing machines but they only weigh 8lbs and we keep picking them up and kissing them",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1642623925564874753%2FgrOfuvod_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1642623925564874753%252FgrOfuvod_bigger.jpg",
     },
     {
         url: "https://twitter.com/Bentono10/status/776204140569513984",
@@ -9143,7 +9143,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 215967,
         likes: 470961,
         content: "So today I was lookin at a girl bcuz she had a piece of lettuce in her hair & she looks at me and said \"I have a boyfriend\" ok lettuce head",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1496204531683799044%2FL0Ei36L7_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496204531683799044%252FL0Ei36L7_bigger.jpg",
     },
     {
         url: "https://twitter.com/outsidethenba/status/777222991503433728",
@@ -9151,8 +9151,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1,
         likes: 6,
         content: "life is peachy",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCslAMPVVIAAWEDP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F463327359%2Fjerry_sloan_with_clowns_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCslAMPVVIAAWEDP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F463327359%252Fjerry_sloan_with_clowns_bigger.jpg",
     },
     {
         url: "https://twitter.com/CardboardGerald/status/779164690576347136",
@@ -9160,8 +9160,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11,
         likes: 26,
         content: "wow cool",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCtAmGWvUAAA2oms.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2494527612%2F4076f119-04c9-44aa-a756-b1c0a64725c8_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCtAmGWvUAAA2oms.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2494527612%252F4076f119-04c9-44aa-a756-b1c0a64725c8_bigger.png",
     },
     {
         url: "https://twitter.com/DLoesch/status/781156872",
@@ -9169,7 +9169,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 742,
         likes: 1463,
         content: "Packing involves simple math: 3 day trip = 3 pairs of pannies plus two extra for when I crap myself on the flight there and back.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1706803808041381888%2FD81-F0_6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706803808041381888%252FD81-F0_6_bigger.jpg",
     },
     {
         url: "https://twitter.com/xxjewelsndrugs/status/781475146083213312",
@@ -9177,7 +9177,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19232,
         likes: 25146,
         content: "\"What countries did white people ruin ?\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1692172778215264256%2FHCVsV64I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692172778215264256%252FHCVsV64I_bigger.jpg",
     },
     {
         url: "https://twitter.com/Hanecdote/status/782349934691581953",
@@ -9185,8 +9185,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42298,
         likes: 129190,
         content: "Spent about 15 hours stitching this feminist art meme 😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCtt3HO_WcAAUtY-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1368724497935839237%2F1xbo5YEs_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCtt3HO_WcAAUtY-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1368724497935839237%252F1xbo5YEs_bigger.jpg",
     },
     {
         url: "https://twitter.com/LibyaLiberty/status/782520849815470080",
@@ -9194,8 +9194,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5594,
         likes: 8593,
         content: "#TwitterHubris: a play in four acts. \n\nvia @Anotherfilmnerd",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCtwSjgjXgAA2LBt.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1359876318624677888%2FuMwW3DFi_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCtwSjgjXgAA2LBt.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1359876318624677888%252FuMwW3DFi_bigger.jpg",
     },
     {
         url: "https://twitter.com/cursedimages/status/782754055806341121",
@@ -9203,8 +9203,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1685,
         likes: 3360,
         content: "cursed image 913",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCtzmqH6VYAAvaSB.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F793318791635607552%2FtZPtm-yP_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCtzmqH6VYAAvaSB.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F793318791635607552%252FtZPtm-yP_bigger.jpg",
     },
     {
         url: "https://twitter.com/blasianBronson/status/786344220978139136",
@@ -9212,8 +9212,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30907,
         likes: 58744,
         content: "Her: babe I want sushi\nMe: bone app the teeth",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCumn5i6VIAA5iR-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1678681454514151424%2F1zzj0wth_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCumn5i6VIAA5iR-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1678681454514151424%252F1zzj0wth_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/787799268342001665",
@@ -9221,7 +9221,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4076,
         likes: 26626,
         content: "I call my vagina \"New Yorker cartoon\" because it's dry and a handful of people have laughed at it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/caseyjohnston/status/788918264512466944",
@@ -9229,7 +9229,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7216,
         likes: 21387,
         content: "ppl like \"what's with Hilary's pantsuit, she looks like a interplanetary leader from the future\"\nFUCKING\nDUH\nDRESS FOR THE JOB YOU WANT",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1338127761249013762%2FhGPAUxKM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1338127761249013762%252FhGPAUxKM_bigger.jpg",
     },
     {
         url: "https://twitter.com/imbethmccoll/status/791034411953315840",
@@ -9237,7 +9237,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11731,
         likes: 31366,
         content: "my kindness is NOT weakness. my patience is NOT permission to be cruel. my shoes ARE glow in the dark but i only found out AFTER i got them",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1694003470095851520%2FkwCYaQZk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
         url: "https://twitter.com/KestrelPi/status/791601056522334208",
@@ -9245,7 +9245,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20766,
         likes: 45407,
         content: "To the tune of Eleanor Rigby:\n\nDog in a trenchcoat\nGetting promoted at work but then sheds his disguise\nCanine surprise",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1429484682685657091%2F7Bo_HU5U_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1429484682685657091%252F7Bo_HU5U_bigger.jpg",
     },
     {
         url: "https://twitter.com/gotham146/status/792589168991997955",
@@ -9253,8 +9253,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23022,
         likes: 55641,
         content: "Tbt to Halloween when I went to my friend's house for a grown ups drinking wine party but there was more of a babadook vibe.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCv_Xoh0WYAQEvDf.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F542158169406189570%2F6X2LpzRs_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCv_Xoh0WYAQEvDf.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F542158169406189570%252F6X2LpzRs_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DlCKSLEXIC/status/792757734072520705",
@@ -9262,8 +9262,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16879,
         likes: 34971,
         content: "when you realize the statue of mona lisa looks like keith urban 😳",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCwBw9BwVIAAA8RM.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1693502386621370368%2F9dMdr8jm_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCwBw9BwVIAAA8RM.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1693502386621370368%252F9dMdr8jm_bigger.jpg",
     },
     {
         url: "https://twitter.com/trouteyes/status/794659585885958144",
@@ -9271,8 +9271,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1451,
         likes: 2543,
         content: "Calling all Lamas\nMeet on spooky corner\nRepeat\nMeet on spooky corner\nOver",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCwcyqzdWgAElCKx.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1193647178562056199%2FDVn6idRH_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCwcyqzdWgAElCKx.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1193647178562056199%252FDVn6idRH_bigger.jpg",
     },
     {
         url: "https://twitter.com/AngstromHoot/status/795362873396654080",
@@ -9280,7 +9280,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15334,
         likes: 40788,
         content: "Attenborough has no respect for crabs. Always gives them ridiculous music. They are jesters to him",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1473606779376480256%2F5CLT3mMI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1473606779376480256%252F5CLT3mMI_bigger.jpg",
     },
     {
         url: "https://twitter.com/ConIsles/status/797249045270003712",
@@ -9288,8 +9288,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 38686,
         likes: 71919,
         content: "A story told in four pics",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCxBlxoSVEAAqe69.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1482907870576492545%2Fbayqv7ek_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCxBlxoSVEAAqe69.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482907870576492545%252Fbayqv7ek_bigger.jpg",
     },
     {
         url: "https://twitter.com/JuliusIrvington/status/798393636442558470",
@@ -9297,7 +9297,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2920,
         likes: 6257,
         content: "wait did you say she was \"thicc as hell boi\" or \"thicc as Hellboy\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1135032059934781440%2FFHiIxRBL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135032059934781440%252FFHiIxRBL_bigger.jpg",
     },
     {
         url: "https://twitter.com/droobis/status/799088750529748992",
@@ -9305,8 +9305,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 239,
         likes: 708,
         content: "Phillip K Dick's wikipedia section headers sound exactly like how I imagine my 2017",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCxbuksjWQAAZFB7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3458077651%2F223b087c87d2dd4cfb3dbc0e70c235d5_bigger.gif",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCxbuksjWQAAZFB7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3458077651%252F223b087c87d2dd4cfb3dbc0e70c235d5_bigger.gif",
     },
     {
         url: "https://twitter.com/dwdavison/status/800823370480644096",
@@ -9314,8 +9314,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7835,
         likes: 17895,
         content: "wow, a dark underside",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCx0Ym5eXEAAS7TR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1662094319015043072%2FaOfWpDMy_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCx0Ym5eXEAAS7TR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1662094319015043072%252FaOfWpDMy_bigger.jpg",
     },
     {
         url: "https://twitter.com/wildethingy/status/801170075516596225",
@@ -9323,7 +9323,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9068,
         likes: 15592,
         content: "I am NOT a grammar Nazi! \nI'm alt-write.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587403085047111682%2FoSHxHnAj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587403085047111682%252FoSHxHnAj_bigger.jpg",
     },
     {
         url: "https://twitter.com/sarahjeong/status/801579893112782848",
@@ -9331,7 +9331,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4151,
         likes: 9644,
         content: "the turkey takes his mask off\nit's edward snowden\nobama groans, it's too late to unpardon him now",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1409002235455967234%2FZcTT1Xq-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1409002235455967234%252FZcTT1Xq-_bigger.jpg",
     },
     {
         url: "https://twitter.com/anitathetweeter/status/805421890168913920",
@@ -9339,8 +9339,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6744,
         likes: 10891,
         content: "This horse did not sign up for a photo opportunity with Marine Le Pen, and he wants you to know it",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCy1u1Z7WQAAt2QH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1146488295548948482%2FSUoC25cJ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCy1u1Z7WQAAt2QH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1146488295548948482%252FSUoC25cJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/Phil_Lewis_/status/805822252918984704",
@@ -9348,8 +9348,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3219,
         likes: 4766,
         content: "After this year, I never want to hear \"We're looking for 5-7 years job experience\" ever again.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCy6TP5WW8AAbogx.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1620771933770993666%2FG1SEtN9d_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCy6TP5WW8AAbogx.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620771933770993666%252FG1SEtN9d_bigger.jpg",
     },
     {
         url: "https://twitter.com/SamGrittner/status/807425581096796164",
@@ -9357,7 +9357,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20554,
         likes: 51558,
         content: "I'm disappointed in Sarah Palin more than any other human being. She saw what Russia was doing from her backyard and chose to say nothing.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1624870235076456451%2FRK3XxngP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624870235076456451%252FRK3XxngP_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewtoothpaste/status/808095288644734976",
@@ -9365,7 +9365,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57,
         likes: 479,
         content: "doctor: Have you had diarrhea\nme: not more than usual\ndoctor: What is usual\nme: It means the regular amount you have every day",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590769094382469120%2FoPUz9D_J_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
         url: "https://twitter.com/bryne/status/808481890738896896",
@@ -9373,8 +9373,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14495,
         likes: 33665,
         content: "🚣",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCzhMBayUUAA-xFt.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1444432839827591168%2FKVRemVsm_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCzhMBayUUAA-xFt.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444432839827591168%252FKVRemVsm_bigger.jpg",
     },
     {
         url: "https://twitter.com/cabel/status/808783680353116160",
@@ -9382,8 +9382,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2594,
         likes: 4940,
         content: "Either these descriptions are being trimmed, or this is the greatest copywriter of ALL TIME",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCzlgd4KUUAAQsWh.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F763137848916660224%2FLlcjv9V5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCzlgd4KUUAAQsWh.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F763137848916660224%252FLlcjv9V5_bigger.jpg",
     },
     {
         url: "https://twitter.com/MicahBerteau/status/808862436648329216",
@@ -9391,8 +9391,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52000,
         likes: 120855,
         content: ".@ASOS_HeretoHelp got my jeans from y'all today. Is this a joke?? These are NOT 32/32 jeans. I placed 32/32s next to them for reference 😳😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FCzmoFT3UcAAP8St.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1549902770420887553%2F-_kuK30v_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCzmoFT3UcAAP8St.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1549902770420887553%252F-_kuK30v_bigger.jpg",
     },
     {
         url: "https://twitter.com/levarburton/status/808868797490696192",
@@ -9400,7 +9400,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 290,
         likes: 1142,
         content: "Alan Thicke LOVED hockey! He also was a man with a huge heart. He was on the ice when his heart attacked him. RIP Alan...",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724475754887708672%2FDOlx2N49_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724475754887708672%252FDOlx2N49_bigger.jpg",
     },
     {
         url: "https://twitter.com/HanifJWilliams/status/811205287646400512",
@@ -9408,8 +9408,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2847,
         likes: 4698,
         content: "Yes, your request is within the Sunnah.\nBut it should be worded differently.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC0H65wVUAAMGFxL.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1611295679963447296%2FUqjm89X2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC0H65wVUAAMGFxL.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1611295679963447296%252FUqjm89X2_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/811265565054685186",
@@ -9417,7 +9417,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10238,
         likes: 17188,
         content: "1996: Why do they call the internet “the web”\n\n20 years later, trapped & unable to leave: Oh",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/elliesunakawa/status/811403862234071040",
@@ -9425,8 +9425,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6542,
         likes: 16662,
         content: "\"God bless us, every one!\" —Tiny Timb",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC0KvggrW8AAhY8h.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1181021014647541761%2FXfJ5BnMK_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC0KvggrW8AAhY8h.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1181021014647541761%252FXfJ5BnMK_bigger.png",
     },
     {
         url: "https://twitter.com/edenthecat/status/811761575748980736",
@@ -9434,8 +9434,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 63,
         likes: 234,
         content: "a guy I gave my number to on tinder and never met irl just sent me this after months of not texting",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC0P02LeUQAA0kBg.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587507065224036353%2FtjDN1npS_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC0P02LeUQAA0kBg.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587507065224036353%252FtjDN1npS_bigger.jpg",
     },
     {
         url: "https://twitter.com/JuliusIrvington/status/812434888888635392",
@@ -9443,7 +9443,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 237,
         likes: 849,
         content: "in Britain Arby's is called Arbies and their slogan is \"we've the meats\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1135032059934781440%2FFHiIxRBL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135032059934781440%252FFHiIxRBL_bigger.jpg",
     },
     {
         url: "https://twitter.com/tfswebb/status/812460432355037185",
@@ -9451,7 +9451,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 394,
         likes: 1535,
         content: "SISTER: [opening xmas gift] this is just a copy of bloc party's 2005 album \"silent alarm\"\nME: have you heard it recently tho. it holds up",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1401488590153019397%2FVCCF6kDH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1401488590153019397%252FVCCF6kDH_bigger.jpg",
     },
     {
         url: "https://twitter.com/FBI/status/812643007203659776",
@@ -9459,8 +9459,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 58052,
         likes: 96231,
         content: "Happy holidays from the #FBI",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC0cWgcSUAAA1IGz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1079780911418408961%2FYXYAye0S_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC0cWgcSUAAA1IGz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1079780911418408961%252FYXYAye0S_bigger.jpg",
     },
     {
         url: "https://twitter.com/paleofuture/status/813254620466188288",
@@ -9468,7 +9468,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12235,
         likes: 27770,
         content: "\\*travels to 1946\\*\nme: congrats on crushing those nazis!\nhim: thanks! what's 2016 like?\nme: well\nhim: i bet it has like zero nazis\nme: well",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1233031324828499968%2F3LFRAHzf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1233031324828499968%252F3LFRAHzf_bigger.jpg",
     },
     {
         url: "https://twitter.com/KalvinMacleod/status/814516607787630592",
@@ -9476,7 +9476,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10374,
         likes: 17432,
         content: "BANK TELLER: to open an account I'll need a first name\nME: Robin \nBT: and a last?\nME: Dabanc\nBT: so ur Robin Dabanc\nMe: \\*slowly reveals gun\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F927353050896805888%2FjCrOzhU0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F927353050896805888%252FjCrOzhU0_bigger.jpg",
     },
     {
         url: "https://twitter.com/iriskessler/status/816278466677145600",
@@ -9484,8 +9484,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 116845,
         likes: 384976,
         content: "my sister is about to have a baby and my brother showed up to the hospital in a suit because \"first impressions matter\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC1QA7TiWIAE4N0V.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1702368571467206656%2FKO70YBJL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC1QA7TiWIAE4N0V.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702368571467206656%252FKO70YBJL_bigger.jpg",
     },
     {
         url: "https://twitter.com/marianbull/status/816880793788223488",
@@ -9493,7 +9493,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 123,
         likes: 694,
         content: "he's a young pope\nhe loves his Father\nloves Jesus\nand the Vatican too",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1221850448015056901%2F0qplhGJ-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1221850448015056901%252F0qplhGJ-_bigger.jpg",
     },
     {
         url: "https://twitter.com/mbyhoff/status/817053630784294913",
@@ -9501,7 +9501,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 167,
         likes: 997,
         content: "despite all my rage\ni am still just a pope of young age",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F964253954073874437%2FDVrErBeD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F964253954073874437%252FDVrErBeD_bigger.jpg",
     },
     {
         url: "https://twitter.com/ProdigyNelson/status/817122034996101124",
@@ -9509,8 +9509,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9141,
         likes: 26629,
         content: "It's 4:20 you know what that means",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC1cAKGZWgAAtmQj.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1565066595851976707%2Flq_Og7fy_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC1cAKGZWgAAtmQj.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565066595851976707%252Flq_Og7fy_bigger.jpg",
     },
     {
         url: "https://twitter.com/knifedog311/status/817446287599489024",
@@ -9518,8 +9518,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1444,
         likes: 4803,
         content: "if ur ever feeling sad, just remember that criss angel has been waging a wizard war against david copperfield on twitter for over 6 years",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC1gk6upUoAA7lzX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655579078030761985%2FgTLrRaqP_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC1gk6upUoAA7lzX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655579078030761985%252FgTLrRaqP_bigger.jpg",
     },
     {
         url: "https://twitter.com/_cingraham/status/817457217372848128",
@@ -9527,8 +9527,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 73,
         likes: 139,
         content: "The crack team of cyber experts at Wikileaks are evidently still trying to master the nuances of LinkedIn",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC1gw8FBUQAAuscC.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1105133182574223360%2Fm_h-lhSu_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC1gw8FBUQAAuscC.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1105133182574223360%252Fm_h-lhSu_bigger.jpg",
     },
     {
         url: "https://twitter.com/robknopper1/status/818871248432361473",
@@ -9536,8 +9536,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1969,
         likes: 6288,
         content: "i usually go paperless but this tweet deserved to be emailed, printed out, and posted on the literal @sfsymphony percussion room wall.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC103DtNW8AMxyTc.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F587793752917471233%2FSbc41yzu_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC103DtNW8AMxyTc.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F587793752917471233%252FSbc41yzu_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephcd/status/818938867415969793",
@@ -9545,7 +9545,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1396,
         likes: 2894,
         content: "here is megagroup Backstreet Boys turning into a Linksys router",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1118613513252081664%2FOUSuHNuY_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
         url: "https://twitter.com/sarahjeong/status/821471790035677184",
@@ -9553,7 +9553,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 115,
         likes: 377,
         content: "\"He tweeted what?\" Obama chuckled, as he held the Chaos Emeralds up to the light",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1409002235455967234%2FZcTT1Xq-_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1409002235455967234%252FZcTT1Xq-_bigger.jpg",
     },
     {
         url: "https://twitter.com/no_talent_shan/status/821606828006055936",
@@ -9561,8 +9561,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 51,
         likes: 423,
         content: "how u think your drunk nudes look vs how they look the next morning",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC2bvDOLXUAAihNS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655381384746135553%2F3Zcz9K4X_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC2bvDOLXUAAihNS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655381384746135553%252F3Zcz9K4X_bigger.jpg",
     },
     {
         url: "https://twitter.com/LukeMones/status/821718426037194757",
@@ -9570,7 +9570,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 937,
         likes: 4067,
         content: "GIRLFRIEND: Do you want to move in together?\nME: That is a decision best left to the states.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F760284907902013440%2Fnz7TXnVB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F760284907902013440%252Fnz7TXnVB_bigger.jpg",
     },
     {
         url: "https://twitter.com/EliTerry/status/823286330146713600",
@@ -9578,8 +9578,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6553,
         likes: 19185,
         content: "I also endured this hardship. i fed my son Tevin dog food and accidentally set fire to my daughter, whatshername.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC2zmjNJVQAAgepQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F806643003800465408%2F2HfRy9Bp_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC2zmjNJVQAAgepQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F806643003800465408%252F2HfRy9Bp_bigger.jpg",
     },
     {
         url: "https://twitter.com/KeetPotato/status/823848392027701249",
@@ -9587,7 +9587,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5611,
         likes: 12489,
         content: "therapist: do any sounds annoy you\nme: real sounds or imaginary sounds\ntherapist: [curious] lets say imaginary\nme: spider wearing flip flops",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1295356472348508160%2FhZlM_K3__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295356472348508160%252FhZlM_K3__bigger.jpg",
     },
     {
         url: "https://twitter.com/CharlesFinch/status/823942113838542848",
@@ -9595,8 +9595,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27538,
         likes: 65222,
         content: "These have got to be the two dumbest people alive",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC286-H6UAAAYz8C.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1558642671597391872%2F7JxoQ3sk_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC286-H6UAAAYz8C.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1558642671597391872%252F7JxoQ3sk_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/824002958731972609",
@@ -9604,7 +9604,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1057,
         likes: 6176,
         content: "badlands national park savagely elbows the grand canyon out of the way to become the national park I most want to fuck",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/Alex_jonsie/status/826124303175471105",
@@ -9612,8 +9612,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 95920,
         likes: 227890,
         content: "I started crying in class because I tried to draw a chameleon from memory",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC3b7q83UMAAhjcd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1670151196412346368%2FvTjgJ_7l_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC3b7q83UMAAhjcd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1670151196412346368%252FvTjgJ_7l_bigger.jpg",
     },
     {
         url: "https://twitter.com/CashAndJewels/status/828025127468167169",
@@ -9621,8 +9621,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5096,
         likes: 10624,
         content: "one of the reasons i love memes is because these two things are basically saying the same exact thing",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC328c32WIAA8v5G.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1358184189716164608%2F39VcAgKG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC328c32WIAA8v5G.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1358184189716164608%252F39VcAgKG_bigger.jpg",
     },
     {
         url: "https://twitter.com/thepunningman/status/829012482945597442",
@@ -9630,8 +9630,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20877,
         likes: 38851,
         content: "Today is gonna be the day that they're gonna throw it back to you",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC4E-ZSGW8AA0Bnu.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F925665229920456706%2FIouKOUHL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC4E-ZSGW8AA0Bnu.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925665229920456706%252FIouKOUHL_bigger.jpg",
     },
     {
         url: "https://twitter.com/hateshaliek/status/829097929080123392",
@@ -9639,7 +9639,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9799,
         likes: 18895,
         content: "i started singing 'chemtrails' in the tune to the ducktales theme a half hour ago so i just had to make this real quick:",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733305656457981952%2F_ZG1IubI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733305656457981952%252F_ZG1IubI_bigger.jpg",
     },
     {
         url: "https://twitter.com/Grindr/status/829404603493949440",
@@ -9647,7 +9647,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18386,
         likes: 44036,
         content: "🤔",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531896348416483329%2FbPsiy7hP_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531896348416483329%252FbPsiy7hP_bigger.jpg",
     },
     {
         url: "https://twitter.com/EveryoneIsDril/status/831011010643316736",
@@ -9655,7 +9655,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 275,
         likes: 836,
         content: "",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F659134187627155456%2Fy28o-Vdu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F659134187627155456%252Fy28o-Vdu_bigger.jpg",
     },
     {
         url: "https://twitter.com/carlinspace/status/831541951686078465",
@@ -9663,7 +9663,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1751,
         likes: 2974,
         content: "Roses are red\nViolets are phony\nSome\nBODY ONCE TOLD ME\nTHE WORLD WAS GONNA ROLL ME",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587473701238251520%2FG21u33lL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587473701238251520%252FG21u33lL_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/831586851127455749",
@@ -9671,7 +9671,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1055,
         likes: 4108,
         content: "ah this fantasy job where im paid millions of dollars to yell and play video games is great. whats next. i think ill make some nazi videos",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/AliceAvizandum/status/833020025929924608",
@@ -9679,7 +9679,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10468,
         likes: 33054,
         content: "FRANCE: we're fancy\nWORLD: ok\nFRANCE: a fried ham sandwich is our national lunch\nWORLD:\nFRANCE: a fried ham sandwich with an egg is its wife",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649185723000430594%2FyqeslvMy_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649185723000430594%252FyqeslvMy_bigger.jpg",
     },
     {
         url: "https://twitter.com/arturovasquez__/status/833417230591234049",
@@ -9687,8 +9687,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17679,
         likes: 22270,
         content: "rt to ruin someone's day",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC5DkijTUEAAcEft.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1651083980073213953%2FqU0A-i1i_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC5DkijTUEAAcEft.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651083980073213953%252FqU0A-i1i_bigger.jpg",
     },
     {
         url: "https://twitter.com/drewtoothpaste/status/833715622060163072",
@@ -9696,7 +9696,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1395,
         likes: 6583,
         content: "Cat owner: I love cats!\nDog owner: who rescued who lol\nSnake owner: I have served with pride as moderator on 7 forums in the past 13 years,",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1590769094382469120%2FoPUz9D_J_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
         url: "https://twitter.com/gabegundacker/status/833857935168110592",
@@ -9704,7 +9704,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 331,
         likes: 1757,
         content: "🌯Burritos 🌯are 🌯not 🌯clapping 🌯 hands 🌯",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1307004575887421440%2F7-rjgcgq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1307004575887421440%252F7-rjgcgq_bigger.jpg",
     },
     {
         url: "https://twitter.com/AsaAkira/status/837005713398431744",
@@ -9712,7 +9712,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 600,
         likes: 2567,
         content: "I just had a $20 smoothie so yah I'd say sucking dick for money has been worth it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F796536495221907456%2FpHIkaLfV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F796536495221907456%252FpHIkaLfV_bigger.jpg",
     },
     {
         url: "https://twitter.com/urbanautomaton/status/839789732167053312",
@@ -9720,8 +9720,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20232,
         likes: 32415,
         content: "someone at the British Library is doing fine work",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC6eITypWYAAClr3.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F481471450641993730%2Fq858ERm5_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC6eITypWYAAClr3.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F481471450641993730%252Fq858ERm5_bigger.jpeg",
     },
     {
         url: "https://twitter.com/Rodrant64/status/839978073952927745",
@@ -9729,7 +9729,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19639,
         likes: 51163,
         content: "he should try not being dead",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1494485341687873537%2FrYl7zVNK_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1494485341687873537%252FrYl7zVNK_bigger.jpg",
     },
     {
         url: "https://twitter.com/MattOswaltVA/status/842089429359505408",
@@ -9737,8 +9737,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3447,
         likes: 15970,
         content: "I've never watched Trump speak without seeing 2 people behind him who look like they've been banned from an Applebees",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC6-z30MUwAEoFRW.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1542182011619532800%2F5MrDhGZG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC6-z30MUwAEoFRW.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542182011619532800%252F5MrDhGZG_bigger.jpg",
     },
     {
         url: "https://twitter.com/chuchugoogoo/status/842486671849459712",
@@ -9746,7 +9746,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6410,
         likes: 19010,
         content: "sorry folks, PBS has to go. they just don't get results, it's been 26 years and we still don't know where in the world is Carmen San Diego",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1436489363018354688%2FQ1Da5Kgq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1436489363018354688%252FQ1Da5Kgq_bigger.jpg",
     },
     {
         url: "https://twitter.com/pixelatedboat/status/849406960667508736",
@@ -9754,8 +9754,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1107,
         likes: 3884,
         content: "Weird that everyone's mad at Pepsi but no one complained about this Coke campaign:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC8mzHwiXUAAW_5W.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F875489341291675649%2Fhc8K1aT0_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC8mzHwiXUAAW_5W.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
         url: "https://twitter.com/SamuelAAdams/status/849668254360629248",
@@ -9763,8 +9763,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 96,
         likes: 303,
         content: "Everyone knows Kurt Cobain died 23 years ago today. What this tweet presupposes is: Maybe he didn’t?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC8qgw4fVoAAVl-S.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724819498882957312%2FzDkGKKE3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC8qgw4fVoAAVl-S.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724819498882957312%252FzDkGKKE3_bigger.jpg",
     },
     {
         url: "https://twitter.com/goatmoonryong/status/850103130486439938",
@@ -9772,8 +9772,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18760,
         likes: 37920,
         content: "using twitter on your phone while you have it open on your laptop",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC8wr6JRVwAAw9Pw.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1074784764534681600%2FZIhO2EjE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC8wr6JRVwAAw9Pw.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1074784764534681600%252FZIhO2EjE_bigger.jpg",
     },
     {
         url: "https://twitter.com/martynkelly/status/850264603065950212",
@@ -9781,8 +9781,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3240,
         likes: 5421,
         content: "Design convos # 39: 'Let's design a heart-shaped headphone splitter. It'll look cute. And def not like a pair of balls being electrocuted'",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC8y-6M7UIAAC_Oy.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1611065439584493568%2F9PPmB_il_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC8y-6M7UIAAC_Oy.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1611065439584493568%252F9PPmB_il_bigger.jpg",
     },
     {
         url: "https://twitter.com/annabroges/status/850385985623949313",
@@ -9790,8 +9790,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36285,
         likes: 84568,
         content: "good news everyone the search is over",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC80tgsWXcAAcV4G.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585762028555313153%2FwKIqqpRr_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC80tgsWXcAAcV4G.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585762028555313153%252FwKIqqpRr_bigger.jpg",
     },
     {
         url: "https://twitter.com/electrolemon/status/851803292652814336",
@@ -9799,7 +9799,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16888,
         likes: 42695,
         content: "UNITED: eat these nickels\nMAN: no\nCNN: BREAKING: Man Beaten For Not Eating Nickels On Flight\nWHITE GUY ON TWITTER: shoulda eaten the nickels",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/dlicj/status/852917524073242626",
@@ -9807,7 +9807,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6348,
         likes: 20462,
         content: "me: (texting boss) we still on for work today?\nboss: yes. you dont have to text me this every morning. we're \"on\" for work every day mon-fri",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F997355735980834816%2FXw7LfJac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F997355735980834816%252FXw7LfJac_bigger.jpg",
     },
     {
         url: "https://twitter.com/JucheMane/status/852949235981012994",
@@ -9815,7 +9815,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9389,
         likes: 28264,
         content: "Pitchfork: King PU$$Y Eater revolutionizes our perception of bodies and spaces with his hit single \"Goop on Ya Grinch\" [7.6]",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1334926195872378881%2FlXNEhO3T_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1334926195872378881%252FlXNEhO3T_bigger.jpg",
     },
     {
         url: "https://twitter.com/rustymk2/status/853269692659761156",
@@ -9823,7 +9823,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12858,
         likes: 25221,
         content: "Lil Yachty said, \"She blow that dick like a cello...\" \n\nThis is why we need to continue pushing music education in schools.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1493046070598934533%2FiO4HqqQH_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1493046070598934533%252FiO4HqqQH_bigger.jpg",
     },
     {
         url: "https://twitter.com/brunchproblems/status/855118485386481664",
@@ -9831,8 +9831,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12918,
         likes: 34587,
         content: "Nice try, 100 spiders working together to operate a keyboard.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC939noTVwAAkVwj.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1304894854971809792%2FGvzHDcXE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC939noTVwAAkVwj.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304894854971809792%252FGvzHDcXE_bigger.jpg",
     },
     {
         url: "https://twitter.com/ctrlcreep/status/855265438569304064",
@@ -9840,7 +9840,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 232,
         likes: 491,
         content: "\"Remember,\" your therapist says, \"this is an algo-judgment free space. What you confess here won't be used to alter the ads served to you,",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F855460243152801793%2FcxX82P3V_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F855460243152801793%252FcxX82P3V_bigger.jpg",
     },
     {
         url: "https://twitter.com/DennisFarrell/status/857268898508541955",
@@ -9848,7 +9848,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 29117,
         likes: 62613,
         content: "Imagine being held at gunpoint (bear with me) by a literate animal, and the only hope of rescue is (BEAR WITH ME) tweeting a coded message",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1092721476720046082%2F3PJleh7f_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1092721476720046082%252F3PJleh7f_bigger.jpg",
     },
     {
         url: "https://twitter.com/cher/status/857672300560134144",
@@ -9856,7 +9856,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2429,
         likes: 5918,
         content: "Who Looks At a TUBA,& Thinks….\n“DAMN…IM GONNA SHRED🔥ON THAT MO FO”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1710170486720573440%2F9xJUi3tz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
         url: "https://twitter.com/kennyg/status/859452839554420736",
@@ -9864,8 +9864,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 50815,
         likes: 102059,
         content: "Even a G gets left on read sometimes 😔",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC-1jzTRW0AYqjXV.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1699997277467615232%2FCwBzbPmX_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC-1jzTRW0AYqjXV.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699997277467615232%252FCwBzbPmX_bigger.jpg",
     },
     {
         url: "https://twitter.com/robbie_couch/status/859526631647576064",
@@ -9873,8 +9873,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44329,
         likes: 120526,
         content: "1995: The internet will revolutionize the way we think and communicate\n\n2017:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC-2m6dnXkAIX_7I.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1633622952381153281%2FR97UCrqw_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC-2m6dnXkAIX_7I.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633622952381153281%252FR97UCrqw_bigger.jpg",
     },
     {
         url: "https://twitter.com/bigstarsandwich/status/859588377917652995",
@@ -9882,8 +9882,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3382,
         likes: 8771,
         content: "Holy f\\*\\*k, it worked! #LiamNeeson",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC-3fEpQWsAAyYDe.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F665213776124231680%2F3Qv1d2uQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC-3fEpQWsAAyYDe.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F665213776124231680%252F3Qv1d2uQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/leyawn/status/860199590599020544",
@@ -9891,8 +9891,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12383,
         likes: 29696,
         content: "just filed a new patent",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC_AK1dUWAAAfOq_.png",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F3205550236%2F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC_AK1dUWAAAfOq_.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
         url: "https://twitter.com/bobvulfov/status/861808496098127873",
@@ -9900,7 +9900,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 135346,
         likes: 313091,
         content: "[concert]\nSINGER: hows everyone doin tonight\nCROWD: woo\nME (from the back in a normal speaking voice): it's actually been a tough few months",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1163961107356233729%2FwRdxfoXi_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1163961107356233729%252FwRdxfoXi_bigger.jpg",
     },
     {
         url: "https://twitter.com/jeremydlarson/status/862750126523265026",
@@ -9908,7 +9908,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36,
         likes: 169,
         content: "What happened to the other 4,999 powermen",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1131233615575175170%2F4_9dWCee_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1131233615575175170%252F4_9dWCee_bigger.png",
     },
     {
         url: "https://twitter.com/spookperson/status/863079164848488448",
@@ -9916,8 +9916,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8,
         likes: 128,
         content: "can check",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FC_pF65ZVYAQoM57.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1462899495377670148%2FkPuqd9ti_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC_pF65ZVYAQoM57.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
         url: "https://twitter.com/ftopinion/status/865568477733675008",
@@ -9925,8 +9925,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 128,
         likes: 249,
         content: "Millennials aren't buying diamonds - why?\n on.ft.com/2rlEF9S",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDAMd8QBXgAAAAiQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1635250708080467969%2Fnk9-v-ez_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDAMd8QBXgAAAAiQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635250708080467969%252Fnk9-v-ez_bigger.png",
     },
     {
         url: "https://twitter.com/spookperson/status/865701296002564096",
@@ -9934,8 +9934,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3478,
         likes: 12789,
         content: "we got the bastard",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDAOWvKaVwAEnfKR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1462899495377670148%2FkPuqd9ti_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDAOWvKaVwAEnfKR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
         url: "https://twitter.com/cabel/status/865909530437099524",
@@ -9943,8 +9943,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 394,
         likes: 1536,
         content: "75% sure if I go up and talk to this dude playing his wooden flute by the river he's gonna give me a side quest",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDARUGAvUQAE0jVj.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F763137848916660224%2FLlcjv9V5_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDARUGAvUQAE0jVj.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F763137848916660224%252FLlcjv9V5_bigger.jpg",
     },
     {
         url: "https://twitter.com/ClickHole/status/867058810770210817",
@@ -9952,7 +9952,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7860,
         likes: 14954,
         content: "Heartbreaking: Hibachi Chef Tries To Make Meal On A Regular Table",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1531984552566177799%2FiclKv7Y0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531984552566177799%252FiclKv7Y0_bigger.jpg",
     },
     {
         url: "https://twitter.com/R_jackPotter/status/867107810529742849",
@@ -9960,8 +9960,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27082,
         likes: 113277,
         content: "To get my mates down the pub I cut and pasted one pint 5 times and told them there were 5 pints waiting first 5 down gets a free one 😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDAiV8RNXoAAaV1O.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1548699365346365442%2F0dFG9DKG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDAiV8RNXoAAaV1O.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1548699365346365442%252F0dFG9DKG_bigger.jpg",
     },
     {
         url: "https://twitter.com/yarezawa/status/867111752433102849",
@@ -9969,8 +9969,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46763,
         likes: 123444,
         content: "I'm gonna be thinking about this for months",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDAiZiVhWAAUr4U6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1158188009688379393%2F4CSz4ogg_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDAiZiVhWAAUr4U6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1158188009688379393%252F4CSz4ogg_bigger.jpg",
     },
     {
         url: "https://twitter.com/MarisaKabas/status/867348385719885824",
@@ -9978,8 +9978,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1561,
         likes: 4793,
         content: "Ofjared, Ofdonald",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDAlwwXqXgAElyqS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDAlwwXqXgAElyqS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/fkabudu/status/867359569512681472",
@@ -9987,7 +9987,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4884,
         likes: 6131,
         content: "To be fair my friend followed a guy on Instagram, liked 2 pics and thought she had made her stance clear lmao",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F882367610670555136%2FW9pPyp63_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F882367610670555136%252FW9pPyp63_bigger.jpg",
     },
     {
         url: "https://twitter.com/cciccone/status/867390080268156928",
@@ -9995,8 +9995,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 39868,
         likes: 119373,
         content: "Dress for the job you want. #widow",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDAmWrRjWAAA1wV4.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707375617618964480%2F2s2GhcXL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDAmWrRjWAAA1wV4.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707375617618964480%252F2s2GhcXL_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/868278574033379328",
@@ -10004,7 +10004,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 263,
         likes: 1131,
         content: "Wine Is Simply Juice That Has Gone Too Far",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/Snowden/status/868479120677720064",
@@ -10012,8 +10012,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5330,
         likes: 12298,
         content: "oh i wouldn't be so sure",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDA102EYXkAMfzFV.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F648888480974508032%2F66_cUYfj_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDA102EYXkAMfzFV.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F648888480974508032%252F66_cUYfj_bigger.jpg",
     },
     {
         url: "https://twitter.com/AndresPlazaR/status/868480353773780993",
@@ -10021,7 +10021,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 0,
         likes: 17,
         content: "There are two separate issues: one thing is being against the law, and the other one is being the right thing to do. Can be both.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1354597466625241097%2FezaDo539_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1354597466625241097%252FezaDo539_bigger.jpg",
     },
     {
         url: "https://twitter.com/ashleyfeinberg/status/868856787163901952",
@@ -10029,8 +10029,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 317,
         likes: 1890,
         content: "Someone didn't read the book",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDA7Mo6uU0AE9YnM.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F829782486955782148%2FvMthq5x2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDA7Mo6uU0AE9YnM.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F829782486955782148%252FvMthq5x2_bigger.jpg",
     },
     {
         url: "https://twitter.com/rachelysanders/status/870360638853443586",
@@ -10038,7 +10038,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 144,
         likes: 446,
         content: "leaving a non-binding climate agreement seems sort of like breaking up with an extremely hot person with whom you’re in an open relationship",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1276548377552072706%2FYx85RTvX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1276548377552072706%252FYx85RTvX_bigger.jpg",
     },
     {
         url: "https://twitter.com/hamyojo/status/870371718128205824",
@@ -10046,8 +10046,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44543,
         likes: 113244,
         content: "Cracking open a cold one with the boys",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDBQubtMUIAAXFxz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1669161608117903360%2FPTCQffpD_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDBQubtMUIAAXFxz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669161608117903360%252FPTCQffpD_bigger.jpg",
     },
     {
         url: "https://twitter.com/spookperson/status/870684285946150912",
@@ -10055,7 +10055,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 91,
         likes: 477,
         content: "career goals: old woman in a horse skull mask that drags a human femur across a burnt out engine block to call the rains down",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1462899495377670148%2FkPuqd9ti_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
         url: "https://twitter.com/spookperson/status/870684729883860994",
@@ -10063,7 +10063,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24,
         likes: 156,
         content: "career goals: old man sacrificed to the flaming heart of a great starship to keep the reactor burning for another cycle",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1462899495377670148%2FkPuqd9ti_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
         url: "https://twitter.com/DanMentos/status/874667610763214848",
@@ -10071,7 +10071,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13849,
         likes: 53445,
         content: "lol my boss just called me into his office and told me I've been spending too much time on twitter. Hold on he's saying something else now",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F548378022768701441%2F2zz0Vk61_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
         url: "https://twitter.com/GooseyMane/status/874731026605637632",
@@ -10079,8 +10079,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30731,
         likes: 82839,
         content: "Don't talk shit online",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDCOrOkLUIAIkY7L.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1477196842987307011%2FQ8fpPqFg_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDCOrOkLUIAIkY7L.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1477196842987307011%252FQ8fpPqFg_bigger.jpg",
     },
     {
         url: "https://twitter.com/SomeChrisTweets/status/874747648128843776",
@@ -10088,8 +10088,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3250,
         likes: 11076,
         content: "DEVIL: \"You will master multi-instrumentation and soft-spoken songwriting, but in exchange you will forget how to wear h--\"\nSUFJAN: \"Deal.\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDCO4opyVoAAk033.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1450346944358928387%2FfkIRuhnp_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDCO4opyVoAAk033.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1450346944358928387%252FfkIRuhnp_bigger.jpg",
     },
     {
         url: "https://twitter.com/LAKUTIS/status/874824426545709056",
@@ -10097,7 +10097,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 202,
         likes: 638,
         content: "Even knowing all we know now about jurassic park i think id still go",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F620668218361819136%2Fsg0-ixxx_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F620668218361819136%252Fsg0-ixxx_bigger.jpg",
     },
     {
         url: "https://twitter.com/pbump/status/875059797716086784",
@@ -10105,8 +10105,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14732,
         likes: 41209,
         content: "Oh, it’s your first day on Twitter? Here, this is Twitter.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDCTWPl_UAAAdUWH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1554893308790546434%2FGg2fE0f6_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDCTWPl_UAAAdUWH.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554893308790546434%252FGg2fE0f6_bigger.jpg",
     },
     {
         url: "https://twitter.com/CerromeRussell/status/875702564406349826",
@@ -10114,7 +10114,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 411,
         likes: 1000,
         content: "White people are gonna mess around and get their greatest athlete killed",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1708729921290326016%2F3ZZP-k6C_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1708729921290326016%252F3ZZP-k6C_bigger.jpg",
     },
     {
         url: "https://twitter.com/BMcCarthy32/status/877412303209021440",
@@ -10122,7 +10122,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8393,
         likes: 40033,
         content: "Its ridiculous but when I start against the Mets I'm very aware that Jerry Seinfeld's mood is in my hands.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1724479756543184896%2FH4blozr__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724479756543184896%252FH4blozr__bigger.jpg",
     },
     {
         url: "https://twitter.com/kerbiegibbs/status/878762071516741632",
@@ -10130,8 +10130,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 164687,
         likes: 574347,
         content: "My dog's ear is like the perfect picture to show your hairdresser if you want beachy waves and caramel highlights",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDDH9cFuW0AE7iX3.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1564721680571932683%2F_bbh43cI_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDDH9cFuW0AE7iX3.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1564721680571932683%252F_bbh43cI_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephcd/status/880512544934432768",
@@ -10139,7 +10139,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 79,
         likes: 484,
         content: "still cant believe data vis rejected my 404 page design",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1118613513252081664%2FOUSuHNuY_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
         url: "https://twitter.com/bransonreese/status/880637097165697026",
@@ -10147,8 +10147,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3634,
         likes: 11774,
         content: "The Little Submarine",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDDimxWmXgAIQYB7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655613791823073280%2FY-aQDM3J_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDDimxWmXgAIQYB7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655613791823073280%252FY-aQDM3J_bigger.jpg",
     },
     {
         url: "https://twitter.com/meanasskie/status/880780466634326017",
@@ -10156,7 +10156,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27604,
         likes: 69488,
         content: "Imagine being Jay-Z side chick and you can't even brag to your friends because they gone beat your ass.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1076713117478998016%2FnkaEOudt_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1076713117478998016%252FnkaEOudt_bigger.jpg",
     },
     {
         url: "https://twitter.com/bakerbakerbaker/status/880820080032063489",
@@ -10164,8 +10164,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 39743,
         likes: 108725,
         content: "me faving tweets about depression",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDDlNL50UQAA_ESB.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1703015866948866048%2FFYgtTsgT_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDDlNL50UQAA_ESB.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703015866948866048%252FFYgtTsgT_bigger.jpg",
     },
     {
         url: "https://twitter.com/JoelBleiman/status/881191238346702848",
@@ -10173,7 +10173,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14653,
         likes: 45601,
         content: "You: Jon Bon Jovi\nMe, an intellectual: Jonathan Bonathan Jovi",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1311208580155166720%2F737LBOjk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1311208580155166720%252F737LBOjk_bigger.jpg",
     },
     {
         url: "https://twitter.com/veryADVANCED/status/881537750402576384",
@@ -10181,8 +10181,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 70299,
         likes: 165260,
         content: "on this night, in that elevator, 3 albums were made.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDDvZ6KKXgAIFi_A.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1537940305772572673%2FO2y2dylo_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDDvZ6KKXgAIFi_A.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1537940305772572673%252FO2y2dylo_bigger.jpg",
     },
     {
         url: "https://twitter.com/vesselskirt/status/883873278892195845",
@@ -10190,7 +10190,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2338,
         likes: 11257,
         content: "[standing in the crowd after Martin Luther nails his Ninety-Five Theses to the chapel door] what does this say I'm blocked",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F999133866651664384%2F_uXlWKYE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F999133866651664384%252F_uXlWKYE_bigger.jpg",
     },
     {
         url: "https://twitter.com/ageitgey/status/885598368566607872",
@@ -10198,8 +10198,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9224,
         likes: 20836,
         content: "Rank how well your AI demo went:\n- Great\n- Good\n- Ok\n- Bad\n- Very Bad\n- Miyazaki",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDEpGU1mUAAAqkF5.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1246188382633459712%2Fz07u4b1Z_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDEpGU1mUAAAqkF5.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1246188382633459712%252Fz07u4b1Z_bigger.jpg",
     },
     {
         url: "https://twitter.com/WTAE/status/885962148794454016",
@@ -10207,8 +10207,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3019,
         likes: 3906,
         content: "Couple attempts the 'Dirty Dancing' lift, ends up hospitalized dlvr.it/PVdnWs",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDEuR4FWVYAAmBmS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1702651725117579264%2F7lFPUJZs_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDEuR4FWVYAAmBmS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702651725117579264%252F7lFPUJZs_bigger.jpg",
     },
     {
         url: "https://twitter.com/steinkobbe/status/886239657478029312",
@@ -10216,8 +10216,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 398,
         likes: 2171,
         content: "It's not selling bad. It's actually selling so much that the rankings pages can't keep up. That's how the rankings works, morons.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDEyOQ58XgAIEszD.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1377384580446044164%2FcS30sfZ-_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDEyOQ58XgAIEszD.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377384580446044164%252FcS30sfZ-_bigger.jpg",
     },
     {
         url: "https://twitter.com/rockymomax/status/886252423119032320",
@@ -10225,7 +10225,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 229,
         likes: 658,
         content: "MORGAN FREEMAN: I'm here to narrate your life\nME: nice!\n[2 hrs later]\nMORGAN FREEMAN: he's still eating chicken nuggets and crying",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1061717129068793863%2F-G31stmU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1061717129068793863%252F-G31stmU_bigger.jpg",
     },
     {
         url: "https://twitter.com/heyitsgarrett/status/887164239202340864",
@@ -10233,7 +10233,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2,
         likes: 32,
         content: "I love to get LIT!!!\n\nLikes on\nInstagram &\nTwitter",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1519415326370263040%2FlCqlnYlL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1519415326370263040%252FlCqlnYlL_bigger.jpg",
     },
     {
         url: "https://twitter.com/rmj_equals_hero/status/887328459105722368",
@@ -10241,8 +10241,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42011,
         likes: 134079,
         content: "tell me this doesn't look like a squirrel cumming",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDFBsWokUwAMhU2g.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000334394199%2F70221d0a0f7458089d286a23b4a4f3aa_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDFBsWokUwAMhU2g.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000334394199%252F70221d0a0f7458089d286a23b4a4f3aa_bigger.jpeg",
     },
     {
         url: "https://twitter.com/pbump/status/887662967281643520",
@@ -10250,8 +10250,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 239,
         likes: 1755,
         content: "I... worked on this story for a year... and... she just... she tweeted it out.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDFGcwp6UAAAfmh2.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1554893308790546434%2FGg2fE0f6_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDFGcwp6UAAAfmh2.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554893308790546434%252FGg2fE0f6_bigger.jpg",
     },
     {
         url: "https://twitter.com/carlinspace/status/887725098781646848",
@@ -10259,7 +10259,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7767,
         likes: 27925,
         content: "Trent Reznor's name backwards is Ron Zertnert.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587473701238251520%2FG21u33lL_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587473701238251520%252FG21u33lL_bigger.jpg",
     },
     {
         url: "https://twitter.com/hexprax/status/887751302662373376",
@@ -10267,7 +10267,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52,
         likes: 276,
         content: "Insane when people get mad over crying babies. Babies cry dipshit . U cried when u were a baby the only difference is u never stopped bitch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F759813636692992000%2Fz_aTOH6j_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F759813636692992000%252Fz_aTOH6j_bigger.jpg",
     },
     {
         url: "https://twitter.com/mineifiwildout/status/888123827615449088",
@@ -10275,7 +10275,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16427,
         likes: 51995,
         content: "ur mcm doesn't even wear basketball shorts under his jeans LMFAOOOOOO he gon b unprepared as shit if a random game of 21 occurs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1683621641937633280%2F3Qt-_FV8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephenjhuggins/status/889813190577672193",
@@ -10283,8 +10283,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3331,
         likes: 6495,
         content: "A weapon to surpass Metal Gear",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDFlAX9NWAAA5lOh.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1073671104395399169%2FklNIWK2c_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDFlAX9NWAAA5lOh.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1073671104395399169%252FklNIWK2c_bigger.jpg",
     },
     {
         url: "https://twitter.com/smeezi/status/890067258877378561",
@@ -10292,7 +10292,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46802,
         likes: 126878,
         content: "me: skincare!\nmy other organs: please help us .",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1736151734169317377%2FHNjsnccd_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736151734169317377%252FHNjsnccd_bigger.jpg",
     },
     {
         url: "https://twitter.com/helen/status/890413508063580161",
@@ -10300,8 +10300,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5606,
         likes: 15785,
         content: "I'm sold",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDFtiXKmU0AAibgQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1574819499215159296%2FClICM3t6_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDFtiXKmU0AAibgQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1574819499215159296%252FClICM3t6_bigger.jpg",
     },
     {
         url: "https://twitter.com/judecomputer/status/890646479110496257",
@@ -10309,7 +10309,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10581,
         likes: 32545,
         content: "Do YOU know what your kids are saying?\n\nlmao = love mao\nlol = liquidation of landlords\ntbt = talkin bout theory\nfml = feeling Marx's love",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1673893846978265088%2Fj4u4DjMk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1673893846978265088%252Fj4u4DjMk_bigger.jpg",
     },
     {
         url: "https://twitter.com/lucianwintrich/status/891445109929246720",
@@ -10317,8 +10317,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3148,
         likes: 14857,
         content: "They break into our country, steal  resources, then do shit like this. And libs still wonder why we are pushing for immigration controls...",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDF8MmY3XsAAcISw.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1022261850489085952%2FPYPwm9JL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDF8MmY3XsAAcISw.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1022261850489085952%252FPYPwm9JL_bigger.jpg",
     },
     {
         url: "https://twitter.com/electrolemon/status/891729212586852352",
@@ -10326,7 +10326,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6772,
         likes: 32653,
         content: "YOU: [bad, sexistly] women be shoppin!!!\nME: [woke, wise beyond his years] susan be anthony",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/cushbomb/status/891857975492698115",
@@ -10334,8 +10334,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5670,
         likes: 21325,
         content: "Jokes are over. No more jokes.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDGCEEmSXcAAXTbq.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1604277956888514560%2F6cnIHDig_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDGCEEmSXcAAXTbq.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1604277956888514560%252F6cnIHDig_bigger.jpg",
     },
     {
         url: "https://twitter.com/hatwell/status/891976643962687489",
@@ -10343,8 +10343,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5641,
         likes: 19732,
         content: "oh cool you can play this toilet on hard mode",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDGDv_4fXgAA5SMv.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1612055954866016257%2Fo38mvq3f_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDGDv_4fXgAA5SMv.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1612055954866016257%252Fo38mvq3f_bigger.jpg",
     },
     {
         url: "https://twitter.com/kujikawaii/status/892106042548654087",
@@ -10352,7 +10352,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26891,
         likes: 74157,
         content: "me: i have depression\n\nsomeone: u should get out more! go outside\n\nme: \\*goes to the beach\\* now its a tropical depression",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1619362046847467522%2FUa7-7p8x_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1619362046847467522%252FUa7-7p8x_bigger.jpg",
     },
     {
         url: "https://twitter.com/Ethan_Booker/status/892392732223787009",
@@ -10360,7 +10360,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6533,
         likes: 26907,
         content: "--HBO'S CONFEDERATE--\nSOME BRIT ACTOR LIKE RALPH FIENNES:(staring out plantation window) sometimes I feel like I'm the slave\nACTRESS: \\*nude\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1475100698073341957%2FVZS9tLWn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1475100698073341957%252FVZS9tLWn_bigger.jpg",
     },
     {
         url: "https://twitter.com/urbanfriendden/status/892487830106198017",
@@ -10368,8 +10368,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27980,
         likes: 56500,
         content: "the four types of people on twitter",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDGLA7MrXgAAOIBN.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1547563755424272390%2Fs6LSGxtq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDGLA7MrXgAAOIBN.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547563755424272390%252Fs6LSGxtq_bigger.jpg",
     },
     {
         url: "https://twitter.com/shanley/status/892496210635837441",
@@ -10377,7 +10377,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 198,
         likes: 808,
         content: "am i sad when i lose followers? \ndo you mourn when parasites alight from your interior organs to take comfort in another host?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1312220027786080262%2Fz8OScrJ4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
         url: "https://twitter.com/rennavate/status/892510512478527489",
@@ -10385,8 +10385,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17502,
         likes: 49684,
         content: "Them: \"If you hate Twitter so much, why don't you delete your account?\"\nMe:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDGLViXeUMAAX9LA.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1248785442331213824%2FVIV8J6UX_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDGLViXeUMAAX9LA.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248785442331213824%252FVIV8J6UX_bigger.jpg",
     },
     {
         url: "https://twitter.com/thhamilton/status/896370068690526212",
@@ -10394,8 +10394,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2560,
         likes: 6105,
         content: "This suggests a level of political stability and control over long-term infrastructure policy which I would not have expected of pirates.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDHCL0PVXYAEvnV6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1372969963292610572%2FNzR3lD_W_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDHCL0PVXYAEvnV6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1372969963292610572%252FNzR3lD_W_bigger.jpg",
     },
     {
         url: "https://twitter.com/swin24/status/897072082625986561",
@@ -10403,7 +10403,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16585,
         likes: 43075,
         content: "Neo-nazis: purge the soil of filth, Hitler is not bad\n\nBLM: the state should kill fewer black people\n\nIdiot pundit: mah gawd theyre the same",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1095115146207391744%2FHdjylBeo_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1095115146207391744%252FHdjylBeo_bigger.jpg",
     },
     {
         url: "https://twitter.com/ByYourLogic/status/897114876065308675",
@@ -10411,7 +10411,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 466,
         likes: 3488,
         content: "WSJ actually does some good reporting but all their op-eds are like \"It's Prejudiced Not To Bury Your Maid Alive In Your Tomb With You\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1705134318027452416%2FhbR00-YU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1705134318027452416%252FhbR00-YU_bigger.jpg",
     },
     {
         url: "https://twitter.com/spookperson/status/897172785776148480",
@@ -10419,8 +10419,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 441,
         likes: 3138,
         content: "lol",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDHNl5B_UQAAI3PU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1462899495377670148%2FkPuqd9ti_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDHNl5B_UQAAI3PU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
         url: "https://twitter.com/vrunt/status/897186867162095617",
@@ -10428,8 +10428,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19952,
         likes: 74820,
         content: "oh my god",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDHNysa6VoAALA-A.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711848960581591041%2FQ3mlPMP__bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDHNysa6VoAALA-A.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711848960581591041%252FQ3mlPMP__bigger.jpg",
     },
     {
         url: "https://twitter.com/CrimespreeJon/status/897236522210078720",
@@ -10437,8 +10437,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4566,
         likes: 11909,
         content: "no racist crap you nazi assholes",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDHOftCOVwAErbcn.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1278778950462746625%2Fz63DohzZ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDHOftCOVwAErbcn.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1278778950462746625%252Fz63DohzZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/RRihannaGrande/status/901071559015661568",
@@ -10446,7 +10446,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33878,
         likes: 133143,
         content: "texas fellas, is it gay to be in this hurricane? i mean, you're literally getting blown by a dude named harvey..... sound a lil spicy 2 me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557437540449263620%2F0SHr3NRA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557437540449263620%252F0SHr3NRA_bigger.jpg",
     },
     {
         url: "https://twitter.com/TamiCru/status/902377872060555264",
@@ -10454,7 +10454,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44910,
         likes: 148874,
         content: "genie: please no\nmillipede: more legs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F777305330560733185%2FEMSk5Ko4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F777305330560733185%252FEMSk5Ko4_bigger.jpg",
     },
     {
         url: "https://twitter.com/poniesandsodies/status/903492157205430272",
@@ -10462,7 +10462,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 666,
         likes: 2105,
         content: "is snakes just necks",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587534911166205955%2FZQ1xrM8I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587534911166205955%252FZQ1xrM8I_bigger.jpg",
     },
     {
         url: "https://twitter.com/_sainsurance/status/904053901741174784",
@@ -10470,8 +10470,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11226,
         likes: 27103,
         content: "How 27 year old men walk into relationships with emotional baggage  from when they got cheated on when they were 12.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDIvYLDkXkAA4x_a.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1328268082385727488%2FNgAaX0CS_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDIvYLDkXkAA4x_a.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1328268082385727488%252FNgAaX0CS_bigger.jpg",
     },
     {
         url: "https://twitter.com/NightlifeMingus/status/905216839919198208",
@@ -10479,8 +10479,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1273,
         likes: 2467,
         content: "wikipedia's 'list of poems by catullus' is also a litany of relatable sentiments",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDI_52BjV4AA-xtQ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F940408350524637184%2FQy0RgTU2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDI_52BjV4AA-xtQ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F940408350524637184%252FQy0RgTU2_bigger.jpg",
     },
     {
         url: "https://twitter.com/Atunci_CoV/status/905248145873010688",
@@ -10488,8 +10488,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 15635,
         likes: 25801,
         content: "Hermit Crab: I want a new shell. Something that will scare off predators. \nHis friend: I know just the thing",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDJAWY0MWAAACbr6.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1183835025793523713%2FYk1U35E6_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDJAWY0MWAAACbr6.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1183835025793523713%252FYk1U35E6_bigger.png",
     },
     {
         url: "https://twitter.com/dankgdl/status/907035995438305286",
@@ -10497,7 +10497,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9404,
         likes: 34610,
         content: "Once before class my friend said to me \"time to clean house\" and walked into the class his brother was in and just kicked him in the nuts",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734407304177405953%2Fglz5GxU4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734407304177405953%252Fglz5GxU4_bigger.jpg",
     },
     {
         url: "https://twitter.com/BIGBUTTSKI/status/907335295686905858",
@@ -10505,7 +10505,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6400,
         likes: 17574,
         content: "Fuck nihilism bro we out here caring about things",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1628241964247162880%2FN5C33jHb_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628241964247162880%252FN5C33jHb_bigger.jpg",
     },
     {
         url: "https://twitter.com/gucci1017/status/907463392998412288",
@@ -10513,7 +10513,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 120371,
         likes: 138708,
         content: "Time to go harder seriously.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1714284839544012800%2FeM8Md4nI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1714284839544012800%252FeM8Md4nI_bigger.jpg",
     },
     {
         url: "https://twitter.com/JenAshleyWright/status/908013131795857408",
@@ -10521,7 +10521,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 618,
         likes: 3066,
         content: "Can't wait for some tech bro to discover makeup, rename it \"face hacking\" and claim he invented it.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1179722752741298177%2FhkFQgb4R_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1179722752741298177%252FhkFQgb4R_bigger.jpg",
     },
     {
         url: "https://twitter.com/AmznMovieRevws/status/908359858495176704",
@@ -10529,8 +10529,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 503,
         likes: 1523,
         content: "Dora the Explorer.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDJskegYU8AAgvV8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F626581173196578816%2FW2duq99u_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDJskegYU8AAgvV8.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F626581173196578816%252FW2duq99u_bigger.jpg",
     },
     {
         url: "https://twitter.com/Mala_Moot/status/908470596639559680",
@@ -10538,8 +10538,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25621,
         likes: 65747,
         content: "The rest of the day after someone calls you cute",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDJuJMF8XcAEx4Fu.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1709978458250498048%2Fb2uzYsH4_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDJuJMF8XcAEx4Fu.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709978458250498048%252Fb2uzYsH4_bigger.jpg",
     },
     {
         url: "https://twitter.com/OTWGBEATS/status/908535046700720128",
@@ -10547,8 +10547,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 53876,
         likes: 129951,
         content: "My bro did 2k face scan with a blunt in his mouth 😂😂😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDJvDzlFXkAAQe0n.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1596666655601573889%2FCloxuKCz_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDJvDzlFXkAAQe0n.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1596666655601573889%252FCloxuKCz_bigger.jpg",
     },
     {
         url: "https://twitter.com/EliteSonicFan/status/908734944389758976",
@@ -10556,8 +10556,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 314,
         likes: 469,
         content: "If a naked girl can get hundreds of RT's, how many can our troops get?",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDJx5lyjWkAAmgg5.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1302009169466327042%2FDoxIECM9_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDJx5lyjWkAAmgg5.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1302009169466327042%252FDoxIECM9_bigger.jpg",
     },
     {
         url: "https://twitter.com/ashleyfeinberg/status/908783996838055936",
@@ -10565,8 +10565,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 99,
         likes: 533,
         content: "the point at which we all should've realized what was coming was when conservatives laid down in dumpsters for the confederacy/to own libs",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDJymBRCV4AAKkVM.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F829782486955782148%2FvMthq5x2_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDJymBRCV4AAKkVM.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F829782486955782148%252FvMthq5x2_bigger.jpg",
     },
     {
         url: "https://twitter.com/shanley/status/908787842054098944",
@@ -10574,7 +10574,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8,
         likes: 28,
         content: "THEY DONT WANT YOU TO EXPLORE THE OCEAN",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1312220027786080262%2Fz8OScrJ4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
         url: "https://twitter.com/JenAshleyWright/status/910656592185626624",
@@ -10582,7 +10582,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5960,
         likes: 31202,
         content: "Wait. Why is it called ghosting? Ghosts stick around. THAT'S THEIR WHOLE DEAL.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1179722752741298177%2FhkFQgb4R_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1179722752741298177%252FhkFQgb4R_bigger.jpg",
     },
     {
         url: "https://twitter.com/KingJames/status/911610455877021697",
@@ -10590,7 +10590,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 510540,
         likes: 1229158,
         content: "U bum @StephenCurry30 already said he ain't going! So therefore ain't no invite. Going to White House was a great honor until you showed up!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1421530540063092736%2Fxqtcu8HX_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1421530540063092736%252Fxqtcu8HX_bigger.jpg",
     },
     {
         url: "https://twitter.com/Maxiedome/status/911955635448590341",
@@ -10598,7 +10598,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1664,
         likes: 4397,
         content: "I spilled baked beans all over myself watching Cars 2 in theaters & a black teenager shouted \"this nigga eating beans\" & everyone laughed.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734999243012616192%2F-5Tw1Fkm_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734999243012616192%252F-5Tw1Fkm_bigger.jpg",
     },
     {
         url: "https://twitter.com/IvoryGazelle/status/912324257794928640",
@@ -10606,7 +10606,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 451,
         likes: 1960,
         content: "healthy as a horse? they literally can't walk down the street without shitting themselves but sure, ok",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1058022389496217600%2F_QDEbduj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058022389496217600%252F_QDEbduj_bigger.jpg",
     },
     {
         url: "https://twitter.com/SortaBad/status/912793402382573568",
@@ -10614,7 +10614,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 73101,
         likes: 201811,
         content: "old twitter: send nudes bb \n\nnew 280 char twitter: dearest Penelope, it's been a harsh winter's time since thou booty has graced thy screen",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1438341517714751489%2F5k7Bc1XZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/DesusandMeroVL/status/912876968055521280",
@@ -10622,7 +10622,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 524,
         likes: 1582,
         content: "Nothing but respect for our President LeBron after he calls Trump a bum again.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1004828407073558529%2FXuFL-jEF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1004828407073558529%252FXuFL-jEF_bigger.jpg",
     },
     {
         url: "https://twitter.com/sokane1/status/913080569419853825",
@@ -10630,7 +10630,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 49493,
         likes: 130841,
         content: "\\*sees 280\\*\n\nCONSCIENCE: \"don't do it.\" \n\n\\*still 223 left\\*\n\n\"srsly don't.\" \n\n\\*closes eyes\\*\n\nSOME\nBODY\nONCE\nTOLD\nME\nTHE\nWORLD\nIS\nGONNA\nROLL\nME\nI\nAIN'T\nTHE\nSHARPEST\nTOOL\nIN\nTHE\nSHED\nSHE\nWAS\nLOOKING\nKIND\nOF\nDUMB\nWITH\nHER\nFINGER\nAND\nHER\nTHUMB\nIN\nTHE\nSHAPE\nOF\nAN\nL\nON\nHER\nFOREHEAD\nWELL,",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1671695979827929090%2FjBSmXuj6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671695979827929090%252FjBSmXuj6_bigger.jpg",
     },
     {
         url: "https://twitter.com/jessespector/status/913097176074657797",
@@ -10638,7 +10638,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 796,
         likes: 3532,
         content: "STEPHEN A: Skip I want to ADDRESS this issue. \n[BAYLESS nods]\nYou KNOW I am sensitive to the Holocaust\nBAYLESS: Absolutely\nSTEPHEN A: BUT!\nPF CHANG'S WAITER: [Recites specials]\nSTEPHEN A: [Acts surprised] To me, that's preposterous. Crab Rangoon, things of that nature.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1735024309926555648%2FJvVYNNRZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735024309926555648%252FJvVYNNRZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/JiayangFan/status/913135112774209539",
@@ -10646,8 +10646,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 267,
         likes: 1246,
         content: "Asked Chinese seller on street what he thought these magnets were & he told me he thinks they are \"vintage New York City propaganda badges\"",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDKwbiOCVwAUJtrt.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1603916675455279104%2Fio5mHlHM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDKwbiOCVwAUJtrt.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603916675455279104%252Fio5mHlHM_bigger.jpg",
     },
     {
         url: "https://twitter.com/DanMentos/status/913641882164412417",
@@ -10655,7 +10655,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2783,
         likes: 12924,
         content: "BOB THE BEER DROPPER: I make the worst decisions\nME: hold my beer",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F548378022768701441%2F2zz0Vk61_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
         url: "https://twitter.com/hard_candyjpeg/status/915418584783958016",
@@ -10663,8 +10663,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 56995,
         likes: 226180,
         content: "Deactivating",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDLQ4Uo1VoAAtcqv.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1112808284547895296%2FOx4B_iCo_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDLQ4Uo1VoAAtcqv.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1112808284547895296%252FOx4B_iCo_bigger.png",
     },
     {
         url: "https://twitter.com/saundersjoe/status/916034123562598400",
@@ -10672,8 +10672,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 85211,
         likes: 252513,
         content: "RIP cat who thought sunglasses would stop Medusa",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDLZoLJLVAAAmvIz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1117878872760930304%2FIoqtPOg9_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDLZoLJLVAAAmvIz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1117878872760930304%252FIoqtPOg9_bigger.png",
     },
     {
         url: "https://twitter.com/KidsWriteJokes/status/917292905357864960",
@@ -10681,7 +10681,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3289,
         likes: 9942,
         content: "why does the crow laugh\n\nbeacause they are mad ha ha ha I am also mad",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1364586290537185290%2FBBF_ivA6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1364586290537185290%252FBBF_ivA6_bigger.jpg",
     },
     {
         url: "https://twitter.com/totallyclairezo/status/917413542583824384",
@@ -10689,7 +10689,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 77052,
         likes: 300246,
         content: "two biggest shocks of adult life:\n1. everyone does cocaine \n2. cheese is fucking expensive",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1003235033845522433%2FRvRiCRHt_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1003235033845522433%252FRvRiCRHt_bigger.jpg",
     },
     {
         url: "https://twitter.com/DietBeginsMon/status/917418758838288384",
@@ -10697,8 +10697,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36,
         likes: 90,
         content: "90% of my experience on the internet",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDLtTfMTVoAABAWp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1660851816903458817%2FzYdsOjLw_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDLtTfMTVoAABAWp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660851816903458817%252FzYdsOjLw_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/917489625345646592",
@@ -10706,7 +10706,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16789,
         likes: 97574,
         content: "If anyone ever proposes to me i'm gonna be like get off that knee and stop disrespecting the troops bitch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/bookofruthless/status/918099720106659840",
@@ -10714,8 +10714,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 77431,
         likes: 256231,
         content: "I mean, Kennedy was shot in the head, but ok.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDL2-0_jVwAAQL7S.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F932377953421361154%2FWmpST1xI_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDL2-0_jVwAAQL7S.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F932377953421361154%252FWmpST1xI_bigger.jpg",
     },
     {
         url: "https://twitter.com/jamiesmart/status/918127285387059201",
@@ -10723,8 +10723,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12430,
         likes: 39365,
         content: "I thought Kurt Russell had a tiny personal hairdresser in this photo and tbh my brain was fine with the idea",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDL3X5BhWAAIT5xd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1570453661846839297%2FbtqlKdyp_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDL3X5BhWAAIT5xd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1570453661846839297%252FbtqlKdyp_bigger.jpg",
     },
     {
         url: "https://twitter.com/DHPLover/status/919519501569413120",
@@ -10732,7 +10732,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3873,
         likes: 16855,
         content: "It's always baffled me that James Corden is popular in the US, like finding a previously undiscovered civilisation worshiping a can of soup",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1572316928424771591%2F4tX6WUkE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1572316928424771591%252F4tX6WUkE_bigger.jpg",
     },
     {
         url: "https://twitter.com/Brazos_Elkins/status/920510554669797376",
@@ -10740,7 +10740,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 107794,
         likes: 352468,
         content: "\\*opens instagram\\*\n\nyep, everyone's life is still better than mine\n\n\\*closes instagram\\* \n\n\\*opens twitter\\*\n\nah yes. my fellow trash bretheren.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1671192748974649344%2FHnPqIjSS_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671192748974649344%252FHnPqIjSS_bigger.jpg",
     },
     {
         url: "https://twitter.com/_cingraham/status/920641642226270208",
@@ -10748,7 +10748,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20663,
         likes: 72769,
         content: "Making a list in Word\n\n    1. Word plz make me a list\n2. No wait what are you d\n    2.  2. wtf is this\n         c. no this isn't what\n• WTF",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1105133182574223360%2Fm_h-lhSu_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1105133182574223360%252Fm_h-lhSu_bigger.jpg",
     },
     {
         url: "https://twitter.com/graceL721/status/920828941304287232",
@@ -10756,8 +10756,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 83039,
         likes: 341778,
         content: "!!!!!!!!! WHO DID THIS TO MY INNOCENT MOTHER !!!!!!!!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDMdxCMFV4AAZjTp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F758457437024321536%2FM9r1SZhQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDMdxCMFV4AAZjTp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F758457437024321536%252FM9r1SZhQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/chrs00/status/920934230099623936",
@@ -10765,8 +10765,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18738,
         likes: 54195,
         content: "Timberland not fucking about when it comes to capturing the millennial market.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDMfQkPLW4AATq9P.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1376664989%2Ff0246cf7-dc17-48fa-a7e5-a0ccc9183b9e_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDMfQkPLW4AATq9P.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1376664989%252Ff0246cf7-dc17-48fa-a7e5-a0ccc9183b9e_bigger.png",
     },
     {
         url: "https://twitter.com/TheToddWilliams/status/921024621616549888",
@@ -10774,7 +10774,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28213,
         likes: 85188,
         content: "[blind date]\n\nHER: I'm a ghost writer\n\nME {trying not to look too scared}: When did you die?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1587415715149221888%2FV7uRfADk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587415715149221888%252FV7uRfADk_bigger.jpg",
     },
     {
         url: "https://twitter.com/edgette22/status/921103567771131904",
@@ -10782,7 +10782,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 251397,
         likes: 584520,
         content: ".@KFC follows 11 people.\n\nThose 11 people? 5 Spice Girls and 6 guys named Herb. \n\n11 Herbs & Spices. I need time to process this.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F926807097341128704%2FHt_iWw-K_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F926807097341128704%252FHt_iWw-K_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/921883446229774340",
@@ -10790,7 +10790,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21790,
         likes: 67315,
         content: "julius caesar (dying after being stabbed 23 times): please…name a salad after me",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/flosgelida/status/922210108280623112",
@@ -10798,8 +10798,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14569,
         likes: 34180,
         content: "h-hewwo! doctow! we'we woosing him! he's fwatwining!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDMxZNFfV4AAHFlh.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1630067269140193281%2FFBm0gU1x_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDMxZNFfV4AAHFlh.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1630067269140193281%252FFBm0gU1x_bigger.jpg",
     },
     {
         url: "https://twitter.com/Comey/status/922486295611371526",
@@ -10807,8 +10807,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3340,
         likes: 19428,
         content: "Goodbye Iowa. On the road home. Gotta get back to writing.  Will try to tweet in useful ways.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDM1UZBWUMAAh_pR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1326018792892338177%2FYL02FZsn_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDM1UZBWUMAAh_pR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1326018792892338177%252FYL02FZsn_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheDailyShow/status/922492350353543168",
@@ -10816,7 +10816,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4920,
         likes: 19492,
         content: "tfw you're no longer the worst living president",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1625987909797961730%2F1TPubYPv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625987909797961730%252F1TPubYPv_bigger.jpg",
     },
     {
         url: "https://twitter.com/AndrewDHudson/status/922955338369810432",
@@ -10824,8 +10824,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35259,
         likes: 106950,
         content: "This is the shit I log on for.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDM7-tkEUMAAKG7a.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1439185683449483266%2FIIGpkjCO_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDM7-tkEUMAAKG7a.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1439185683449483266%252FIIGpkjCO_bigger.jpg",
     },
     {
         url: "https://twitter.com/BoyNamedShit/status/922988023817543680",
@@ -10833,7 +10833,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2564,
         likes: 10189,
         content: "Infowars is an anagram of Wario NSFW",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000108080066%2Fba9906c2114f67fe771a497e5610e626_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000108080066%252Fba9906c2114f67fe771a497e5610e626_bigger.jpeg",
     },
     {
         url: "https://twitter.com/desusnice/status/923013276245610496",
@@ -10841,7 +10841,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 813,
         likes: 5493,
         content: "Lyft driver playing sad piano music & he’s either gonna kill me or this is the last episode of an hbo series I’ve apparently been on",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/DaveLeeBBG/status/923040162233294849",
@@ -10849,8 +10849,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2532,
         likes: 5557,
         content: "I like to think whoever wrote the BBC styleguide entry on Americanisms did it in one sitting, filled with rage",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDM9MG4ZU8AETTKz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1682138219343667200%2Fa1p3a5AL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDM9MG4ZU8AETTKz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1682138219343667200%252Fa1p3a5AL_bigger.jpg",
     },
     {
         url: "https://twitter.com/morrishitty/status/924494892700614656",
@@ -10858,7 +10858,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52519,
         likes: 169228,
         content: "“Did you cum?” Yeah out of my cage and I’ve been doing just fine",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1567236271084568576%2F82P5LuHJ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567236271084568576%252F82P5LuHJ_bigger.jpg",
     },
     {
         url: "https://twitter.com/mineifiwildout/status/926115745452437505",
@@ -10866,7 +10866,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 28603,
         likes: 123261,
         content: "how the fuck u carry a child for 9 months n name it papa john",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1683621641937633280%2F3Qt-_FV8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
         url: "https://twitter.com/topherflorence/status/926822260547117056",
@@ -10874,8 +10874,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2925,
         likes: 8585,
         content: "is okcupid trying to figure out if i'm a replicant",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDNy6_QyVQAMq2Uv.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F813151077637861376%2F2NbAbRiQ_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDNy6_QyVQAMq2Uv.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F813151077637861376%252F2NbAbRiQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/nicolewboyce/status/926851623187566592",
@@ -10883,7 +10883,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26525,
         likes: 125191,
         content: "I NEVER restore all old tabs. If I lose them in a restart, they're gone. It is a blessing to be set free from a prison of my own creation",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1628384229271666690%2Fmi0SydYn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628384229271666690%252Fmi0SydYn_bigger.jpg",
     },
     {
         url: "https://twitter.com/CorySchmitz/status/927589662708953090",
@@ -10891,8 +10891,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6333,
         likes: 18409,
         content: "fäther may i have a türnip",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDN914NjXkAAittU.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1306277119715151874%2FXFlVIkvf_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDN914NjXkAAittU.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1306277119715151874%252FXFlVIkvf_bigger.jpg",
     },
     {
         url: "https://twitter.com/ItsDanSheehan/status/927596073929068544",
@@ -10900,7 +10900,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1432,
         likes: 7223,
         content: "Honestly I'm just honored to get murdered by guns in a country that respects its flag so much",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649502618123927553%2FJ4ZFkyoQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/DxpeDon/status/927648342359887873",
@@ -10908,7 +10908,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33333,
         likes: 64213,
         content: "My white neighbor talking about some “man i wonder how our ancestors were able to keep up with their yards when these tools werent invented”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1695407278072164352%2FUUyhJUhh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695407278072164352%252FUUyhJUhh_bigger.jpg",
     },
     {
         url: "https://twitter.com/minakimes/status/928029234001428480",
@@ -10916,7 +10916,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6670,
         likes: 28899,
         content: "if I wanted to deal with 280 characters I'd go read game of thrones",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1638917569909514241%2FpuGr_V_P_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638917569909514241%252FpuGr_V_P_bigger.jpg",
     },
     {
         url: "https://twitter.com/SlimiHendrix/status/928829368406892544",
@@ -10924,8 +10924,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 462,
         likes: 2256,
         content: "“aye my man tryna talk to you he’s over there”",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDOPdYhKXcAA2Ziw.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1516878181151744003%2FFVJszvaG_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDOPdYhKXcAA2Ziw.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516878181151744003%252FFVJszvaG_bigger.jpg",
     },
     {
         url: "https://twitter.com/PatrickLenton/status/928964726817615873",
@@ -10933,7 +10933,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27008,
         likes: 133383,
         content: "Just saw a very stoned young man in the 7/11 look at the selection of chips sadly and say softly “there’s too many of you”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1731102411497132032%2F_BCUfJiQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731102411497132032%252F_BCUfJiQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/everywhereist/status/929041541141794816",
@@ -10941,7 +10941,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 210,
         likes: 1170,
         content: "Me: \\*incredibly angry\\*\nHim: If you embark on a quest of revenge, you should bring two shovels\nMe: It's dig two graves. Not bring two shovels\nHim: That's what I meant\nMe: You can use the same shovel for both graves\nHim: That's not the point\nMe: You don't even know how shovels work",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1644752952287166464%2FY63R5Jx9_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1644752952287166464%252FY63R5Jx9_bigger.jpg",
     },
     {
         url: "https://twitter.com/SICKOFWOLVES/status/929074256096448512",
@@ -10949,7 +10949,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1690,
         likes: 5427,
         content: "INSTEAD OF HAVING HEROES CONSIDER PURCHASING A COOL LIZARD",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1577055302075105280%2F2UFuCDBF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577055302075105280%252F2UFuCDBF_bigger.jpg",
     },
     {
         url: "https://twitter.com/colingotjokes/status/929862019234324481",
@@ -10957,7 +10957,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 108706,
         likes: 375617,
         content: "I forgot you cant make depression jokes outside of twitter lmao my coworker was like “you ready for this year to be over?” I was like “im ready for this life to be over” he was like bro what",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1650528190362796032%2FHmNbxWbq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1650528190362796032%252FHmNbxWbq_bigger.jpg",
     },
     {
         url: "https://twitter.com/existentialcoms/status/930925926975619072",
@@ -10965,7 +10965,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6274,
         likes: 15209,
         content: "we must imagine Sisyphus happy and also as an otter",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F792916557403795456%2Fd-iEnfPD_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F792916557403795456%252Fd-iEnfPD_bigger.jpg",
     },
     {
         url: "https://twitter.com/direlog/status/931264630407794690",
@@ -10973,7 +10973,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3020,
         likes: 10917,
         content: "hey kids. i’m here to tell you about a cool french ‘app’ invented over 200 years ago, called the guillotine",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F756837177229705216%2Fm3JmMcwT_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F756837177229705216%252Fm3JmMcwT_bigger.jpg",
     },
     {
         url: "https://twitter.com/adampknave/status/931632953062391808",
@@ -10981,7 +10981,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 50959,
         likes: 109281,
         content: "Thanks, accidentally hysterical ad campaign gif making person. I'll never be able to read Artisanal \"normally\" again.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1181322119495348226%2FaIkD34yQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1181322119495348226%252FaIkD34yQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/asanyangeltome/status/932523808011022336",
@@ -10989,7 +10989,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 32767,
         likes: 77790,
         content: "WHY IS THIS THE ONLY BULLSHIT I CAN LAUGH AT ANYMORE I CANT BREATHE",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730663613176713216%2FI8myhaDf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730663613176713216%252FI8myhaDf_bigger.jpg",
     },
     {
         url: "https://twitter.com/alicegoldfuss/status/932660162174709760",
@@ -10997,7 +10997,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 959,
         likes: 2913,
         content: "CUT PACKETS INTO PIECES\nTHIS IS MY DEFAULT PORT\n\nFRAGMENTATION\nNO STREAMING\nDON’T GIVE A PING IF THE SIZE IS EXCEEDING",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1149452202827759616%2F1blf87Kn_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1149452202827759616%252F1blf87Kn_bigger.jpg",
     },
     {
         url: "https://twitter.com/1followernodad/status/932830369555955712",
@@ -11005,8 +11005,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 76,
         likes: 853,
         content: "I honestly love how rich people will pay so much for this ugly ass sliced honey baked ham lookin ass shoe",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDPIURfmUEAA_t64.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1726076187133566976%2FFP9s_k8Z_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDPIURfmUEAA_t64.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
         url: "https://twitter.com/chrs00/status/933002294752407553",
@@ -11014,7 +11014,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 778,
         likes: 2498,
         content: "When we say MacDuff was \"untimely ripped from his mother's womb\" what we're actually saying is that the guy was jacked from birth in a way never seen before.  Dude never needed to hit the gym.  Born with muscles.  Hashtag literature.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1376664989%2Ff0246cf7-dc17-48fa-a7e5-a0ccc9183b9e_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1376664989%252Ff0246cf7-dc17-48fa-a7e5-a0ccc9183b9e_bigger.png",
     },
     {
         url: "https://twitter.com/Troyavision/status/933010280967294977",
@@ -11022,8 +11022,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1018,
         likes: 3666,
         content: "we slept on this look.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDPK35qWUMAAPVVR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1605846306781528066%2FCQdqaFne_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDPK35qWUMAAPVVR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1605846306781528066%252FCQdqaFne_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdrianChen/status/933458159221526528",
@@ -11031,8 +11031,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 110,
         likes: 714,
         content: "Sure, they're filled with unnameable dread, but at least they're not stuck on the platform for the third time this week because a Doritos bag caught on fire on the tracks.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDPRPPfoU8AAVrY2.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1502540800722305033%2F6kQ5175r_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDPRPPfoU8AAVrY2.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1502540800722305033%252F6kQ5175r_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdrianChen/status/933459486513225728",
@@ -11040,7 +11040,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 446,
         likes: 1749,
         content: "All of the mid-century paintings in the Whitney that were supposed to convey the crushing alienation of modern life now look like utopias where there were jobs and functioning infrastructure.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1502540800722305033%2F6kQ5175r_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1502540800722305033%252F6kQ5175r_bigger.jpg",
     },
     {
         url: "https://twitter.com/KrangTNelson/status/933547439373635584",
@@ -11048,8 +11048,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 395,
         likes: 3144,
         content: "love watching old people’s fb pics evolve",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDPSgcTsWkAAZJU7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1567978320079343617%2FWJkYD4tq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDPSgcTsWkAAZJU7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567978320079343617%252FWJkYD4tq_bigger.jpg",
     },
     {
         url: "https://twitter.com/aparnapkin/status/933572488440803329",
@@ -11057,7 +11057,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33707,
         likes: 135866,
         content: "THANKSGIVING GAME: nobody gets pie until you go around the table & everyone has to say \"climate change is real\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557082422788997121%2FlTCsPchv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
         url: "https://twitter.com/TJKilbride/status/936282110905716737",
@@ -11065,7 +11065,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 82604,
         likes: 332835,
         content: "A guy in my office is shaking his protein shake and this woman poked her head around the corner and said “do I hear margaritasssss?”... no Janet, it’s 10 am.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1232772902195474435%2FQOiJEHfa_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1232772902195474435%252FQOiJEHfa_bigger.jpg",
     },
     {
         url: "https://twitter.com/dlicj/status/936640184556445697",
@@ -11073,7 +11073,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 13085,
         likes: 39671,
         content: "as soon as one month ends another begins. no break. they are relentless",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F997355735980834816%2FXw7LfJac_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F997355735980834816%252FXw7LfJac_bigger.jpg",
     },
     {
         url: "https://twitter.com/fartgalleries/status/936978899526963200",
@@ -11081,8 +11081,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18843,
         likes: 52887,
         content: "throwback to last year when i made a snowman and it started to melt but refroze overnight",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDQDRRVEXcAAQH35.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1318289097027444737%2FMcRUO63J_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDQDRRVEXcAAQH35.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1318289097027444737%252FMcRUO63J_bigger.png",
     },
     {
         url: "https://twitter.com/markedly/status/937021290115936257",
@@ -11090,7 +11090,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19187,
         likes: 84590,
         content: "[slipping DJ $20] my good sir would you turn it down a skooch",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1591193275427430425%2FBMACMvlV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591193275427430425%252FBMACMvlV_bigger.jpg",
     },
     {
         url: "https://twitter.com/rewordsmith/status/937701875104780288",
@@ -11098,7 +11098,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1798,
         likes: 4666,
         content: "that Schoolhouse Rock how a bill becomes a law song but now it’s death metal and all the lyrics are just incomprehensible screaming",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1075502316839731200%2FAfo66sRx_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1075502316839731200%252FAfo66sRx_bigger.jpg",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/937762751522451462",
@@ -11106,7 +11106,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2684,
         likes: 10448,
         content: "me to cat: c’mere, lemme kiss u on the mouth. I love ya\n\ncat: No — NO — but I will put one of my Fur in every meal you eat till the day you die, and in this way we shall be Together",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/billclitton/status/938365310150701057",
@@ -11114,7 +11114,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8611,
         likes: 26843,
         content: "ok i kno it’s four in the morning... but if we ALL, as an entire generation, get a face tat,,, they have to hire us. we cant all be unemployable",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1542380648316411906%2FYINvjoow_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542380648316411906%252FYINvjoow_bigger.jpg",
     },
     {
         url: "https://twitter.com/Wahlid/status/938483705747664896",
@@ -11122,7 +11122,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 862,
         likes: 5250,
         content: "Lmao vine can come back but not my dad",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1671573430112768001%2FQBHTmUzz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671573430112768001%252FQBHTmUzz_bigger.jpg",
     },
     {
         url: "https://twitter.com/InternetHippo/status/938965027159248896",
@@ -11130,7 +11130,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1944,
         likes: 9601,
         content: "Join me in investing in Icarus, the digital currency that will never stop going up",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1608921145864237061%2F6jLuKzve_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
         url: "https://twitter.com/Shanehasabeard/status/939117861271982081",
@@ -11138,7 +11138,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7175,
         likes: 33421,
         content: "Haha, I feel sorry for all you losers who missed out on the Bitcoin train. You should've bought in years ago, like me: A perfectly normal man who coincidentally hoarded a virtual currency during a time when it's only use was for sex trafficking and purchasing organs.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1289651490106347526%2FjAvd2xkV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1289651490106347526%252FjAvd2xkV_bigger.jpg",
     },
     {
         url: "https://twitter.com/johnmoe/status/939166551709765633",
@@ -11146,8 +11146,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9705,
         likes: 36123,
         content: "The problem is you never know which Gary is going to show up.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDQiW_2lUMAAhKzl.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1655021308667744261%2FAQFo0Wvb_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDQiW_2lUMAAhKzl.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655021308667744261%252FAQFo0Wvb_bigger.jpg",
     },
     {
         url: "https://twitter.com/bewgtweets/status/939276932880977920",
@@ -11155,7 +11155,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57586,
         likes: 188268,
         content: "\\*Flicks cigarette after a long drag\\* Here's the thing. If Santa knows when kids are naughty or nice then he knew Rudolph was being bullied",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585858698177486848%2FKChTgU4f_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585858698177486848%252FKChTgU4f_bigger.jpg",
     },
     {
         url: "https://twitter.com/sadgirlkms/status/940006885914300416",
@@ -11163,7 +11163,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 85154,
         likes: 235104,
         content: "isnt rick and morty that thing you get when you die and your body gets all stiff",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F705154778964369408%2FL-fJASKG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F705154778964369408%252FL-fJASKG_bigger.jpg",
     },
     {
         url: "https://twitter.com/Bmangall20/status/941075338708140032",
@@ -11171,7 +11171,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 155497,
         likes: 663465,
         content: "My coworker told me he got banned from a bar when he lived in North Dakota back in 1973 and didn’t try going back to it for 30 years but he finally did and the moment he stepped in someone yelled “Get the hell out of here Dennis” And that’s probably my favorite story ever",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1624470715348000768%2FGHhEfK5D_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624470715348000768%252FGHhEfK5D_bigger.jpg",
     },
     {
         url: "https://twitter.com/JustZik/status/941440366389202946",
@@ -11179,7 +11179,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30771,
         likes: 132025,
         content: "My no dick getting neighbor stay filing noise complaints on me to the leasing office. plot twist-I be fucking the leasing office lady. My neighbor don’t know that she complaining about noises to the girl that I be making the noises with in the first place. That’s ruff",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1570197370259865601%2FmKdd465I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1570197370259865601%252FmKdd465I_bigger.jpg",
     },
     {
         url: "https://twitter.com/catvalente/status/941846935014727681",
@@ -11187,8 +11187,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17547,
         likes: 74006,
         content: "Jared Kushner always looks like the ghost of a young Victorian boy who died in that house and only appears in photographs and then seven days later you die.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDRIcyn1XUAA_lO7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1593447579462811648%2FGYth2gId_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDRIcyn1XUAA_lO7.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593447579462811648%252FGYth2gId_bigger.jpg",
     },
     {
         url: "https://twitter.com/JAYVERSACE/status/942106432375201792",
@@ -11196,7 +11196,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6029,
         likes: 17605,
         content: "stop calling him zaddy if u taking care of him.. thats yo zon",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1703294357426798592%2FFWqncVIC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703294357426798592%252FFWqncVIC_bigger.jpg",
     },
     {
         url: "https://twitter.com/Julian_Epp/status/942539239912337411",
@@ -11204,7 +11204,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9287,
         likes: 38764,
         content: "Every old person used to say “too much TV will rot your brain” but then watched 16 hours of Fox News everyday and now they think Obama sold power armor to ISIS",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1162893472740913153%2FI9Uq64-r_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1162893472740913153%252FI9Uq64-r_bigger.jpg",
     },
     {
         url: "https://twitter.com/rajandelman/status/942624893509820416",
@@ -11212,7 +11212,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10419,
         likes: 56918,
         content: "Imagine needing three separate ghosts to teach you a lesson",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1480657954286313473%2FcA-mSl1I_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1480657954286313473%252FcA-mSl1I_bigger.jpg",
     },
     {
         url: "https://twitter.com/V_Ben/status/942797795366506496",
@@ -11220,8 +11220,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42839,
         likes: 133645,
         content: "Send dunes",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDRV9eFjXkAAyh-x.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1589332064687587329%2FZQtMXNXz_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDRV9eFjXkAAyh-x.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589332064687587329%252FZQtMXNXz_bigger.jpg",
     },
     {
         url: "https://twitter.com/markedly/status/943188943977238528",
@@ -11229,7 +11229,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 44494,
         likes: 188159,
         content: "Me: \\*accidentally types url wrong one time\\*\n\nNavigation Bar: [every day for 15 years] Do you wanna go to Faceboot today? Huh? You wanna visit a boot with a face on it? Huh, you piece of shit? Is that what you wanna do? Moron.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1591193275427430425%2FBMACMvlV_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591193275427430425%252FBMACMvlV_bigger.jpg",
     },
     {
         url: "https://twitter.com/claytoncubitt/status/943371383643496449",
@@ -11237,8 +11237,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 344,
         likes: 1092,
         content: "In conclusion",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDReHRQXUQAAE5Mz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1565102286623449089%2FMGhRq972_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDReHRQXUQAAE5Mz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565102286623449089%252FMGhRq972_bigger.jpg",
     },
     {
         url: "https://twitter.com/INDIEWASHERE/status/943951631967817728",
@@ -11246,7 +11246,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 41902,
         likes: 145562,
         content: "woW Gotye really disappeared off the face of the planet and literally became somebody that we used to know, iconic",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1734763525854187521%2F-VpaAJPk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734763525854187521%252F-VpaAJPk_bigger.jpg",
     },
     {
         url: "https://twitter.com/beckyjhinch/status/944662386820222977",
@@ -11254,7 +11254,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8860,
         likes: 45533,
         content: "Uber driver just asked if Canada celebrates Christmas on a different day than America. Yeah, our Christ is actually the half brother of Jesus. Doug Christ, born on the 30th.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1327623147529641984%2F59wFAKNw_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1327623147529641984%252F59wFAKNw_bigger.jpg",
     },
     {
         url: "https://twitter.com/pete_schultz/status/944741552005492737",
@@ -11262,7 +11262,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7007,
         likes: 37890,
         content: "As a relatively successful and busy man who lives in the city, my greatest fear is losing my girlfriend to a hometown hunk with a young son who teaches her the true meaning of Christmas",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F956721452325199872%2Fv_4Zp2qd_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F956721452325199872%252Fv_4Zp2qd_bigger.jpg",
     },
     {
         url: "https://twitter.com/isilitke/status/944799454753906688",
@@ -11270,7 +11270,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11286,
         likes: 37841,
         content: "\\*Werner Herzog voice\\*\n\nThe drama lies not in the fact that the child sees her mother kissing Santa Claus, but in the choice that the mother now confronts: admitting either that Santa is a lie or that love is a lie.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1070571168011190272%2FtTfO7VyM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1070571168011190272%252FtTfO7VyM_bigger.jpg",
     },
     {
         url: "https://twitter.com/perfumegenius/status/944802406197616640",
@@ -11278,7 +11278,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 287,
         likes: 2668,
         content: "why would you name a store with diamonds in it Jared",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1396317227280781314%2FviBXGUSj_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1396317227280781314%252FviBXGUSj_bigger.jpg",
     },
     {
         url: "https://twitter.com/sugoishiba/status/945028985595092994",
@@ -11286,8 +11286,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23862,
         likes: 82329,
         content: "i wanna know where the fuck my mom got this from",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDR1q0oFWkAAP1TS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675204434958200832%2Fsp3BLlio_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDR1q0oFWkAAP1TS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675204434958200832%252Fsp3BLlio_bigger.jpg",
     },
     {
         url: "https://twitter.com/mineifiwildout/status/945817914380292097",
@@ -11295,7 +11295,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10272,
         likes: 46582,
         content: "no more tryna pipe girls in 2018 we jus goin to their house to use their printer now",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1683621641937633280%2F3Qt-_FV8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
         url: "https://twitter.com/AdriOfTheDead/status/946899206966521856",
@@ -11303,8 +11303,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2226,
         likes: 6909,
         content: "oh my god little caesars no",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDSQPy79XcAARPUR.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1577127704641638400%2Fkg9uS1OL_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDSQPy79XcAARPUR.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577127704641638400%252Fkg9uS1OL_bigger.jpg",
     },
     {
         url: "https://twitter.com/ArfMeasures/status/947159189029310464",
@@ -11312,7 +11312,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4844,
         likes: 22863,
         content: "HER: You ran over my cat\n\nME: I'm so sorry\n\nHER: You're gonna have to replace him\n\nME [imagines myself napping all day and pushing things off shelves] ok",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1348255282833534976%2FPk7ewKKA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
         url: "https://twitter.com/CdyRnkn/status/947233718258696192",
@@ -11320,7 +11320,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1679,
         likes: 8044,
         content: "Girl: Wow that was the best sex I’ve ever had, but I have to ask.... why are you wearing that goofy chef’s hat??\n\nMe: \\*beet red and physically exhausted slowly takes off hat to reveal ratatouille controlling my every move\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1664724295942311936%2FRc3EDl6d_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664724295942311936%252FRc3EDl6d_bigger.jpg",
     },
     {
         url: "https://twitter.com/coolgrandma98/status/947249815972442118",
@@ -11328,7 +11328,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5244,
         likes: 21395,
         content: "all twitter discourse is just repackaged 2014 tumblr discourse without any of the wild plot twists. wake me up when somebody on twitter dot org steals real human bones from a 19th century grave for witchcraft.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1513403665348022273%2FjxXXPwV6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1513403665348022273%252FjxXXPwV6_bigger.jpg",
     },
     {
         url: "https://twitter.com/torahhorse/status/947312755605782528",
@@ -11336,7 +11336,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 327,
         likes: 1424,
         content: "you should be able to pay a bee to sting someone",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F876873536979075072%2FOcZB6Ch7_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F876873536979075072%252FOcZB6Ch7_bigger.jpg",
     },
     {
         url: "https://twitter.com/BauceSauce/status/948196558344019969",
@@ -11344,8 +11344,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4317,
         likes: 15459,
         content: "in awe at the size of this lad. absolute unit",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDSirpsvXUAAmaP0.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F583536389012193280%2FZVn1XQd4_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDSirpsvXUAAmaP0.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F583536389012193280%252FZVn1XQd4_bigger.jpg",
     },
     {
         url: "https://twitter.com/MrFilmkritik/status/949431055567736833",
@@ -11353,8 +11353,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 21741,
         likes: 48436,
         content: "“IT IS THE DAYTIME, HECTOR. THE DAY. WHEN I SLEEP. WHAT THE FUCK.”",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDS0Of5oWAAE0uoO.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1695200363341582336%2FlyixbrSw_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDS0Of5oWAAE0uoO.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695200363341582336%252FlyixbrSw_bigger.jpg",
     },
     {
         url: "https://twitter.com/chuchugoogoo/status/949683108290486273",
@@ -11362,7 +11362,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1202,
         likes: 5502,
         content: "[red hot chili peppers voice] two factor authentication",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1436489363018354688%2FQ1Da5Kgq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1436489363018354688%252FQ1Da5Kgq_bigger.jpg",
     },
     {
         url: "https://twitter.com/HayesBrown/status/950459321879597061",
@@ -11370,7 +11370,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1048,
         likes: 5393,
         content: "WHEEEEEEEEN\n\nTHEEEEEEEEE\n\nwhite Google man\n\nFiles a suit that is panned\n\nThat's Damore\n\nbuzzfeed.com/ryanmac/google-…",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1320490558603886592%2FaBaqd2nf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1320490558603886592%252FaBaqd2nf_bigger.jpg",
     },
     {
         url: "https://twitter.com/rosyghoul/status/950617537321910278",
@@ -11378,7 +11378,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 53715,
         likes: 160028,
         content: "damn smash mouth was right, the years start coming and they really don’t stop coming",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1710460379094990848%2FfkxQ0uWb_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710460379094990848%252FfkxQ0uWb_bigger.jpg",
     },
     {
         url: "https://twitter.com/ConorJReidy/status/952794837773946880",
@@ -11386,8 +11386,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2776,
         likes: 10417,
         content: "Always good to pick up some practical tips in the Financial Times.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDTkB1rhWkAMXU2T.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1460670039183527939%2FHgCHQu6w_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDTkB1rhWkAMXU2T.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1460670039183527939%252FHgCHQu6w_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/953120812768382976",
@@ -11395,8 +11395,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 844,
         likes: 5019,
         content: "couldnt handle black panther, i get it",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDTcTgS3WsAAe6pK.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDTcTgS3WsAAe6pK.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/brandonjinx/status/953133444820848640",
@@ -11404,7 +11404,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 162,
         likes: 614,
         content: "\\*goes back in time\\* \n\nGUY: Whoa! What’s the future like? Flying cars? Inter-dimensional Travel? World peace?!\n\nME: Na. They eating Tide Pods and everyone mean to each other.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1697446124078968832%2FPThPH-hc_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697446124078968832%252FPThPH-hc_bigger.jpg",
     },
     {
         url: "https://twitter.com/maggieNYT/status/953379611928420358",
@@ -11412,7 +11412,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7,
         likes: 118,
         content: "For those of us unable to see the briefing, did Jackson say what Trump’s height is?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1648723427891478531%2F4ZY_MwpB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1648723427891478531%252F4ZY_MwpB_bigger.jpg",
     },
     {
         url: "https://twitter.com/NeerajKA/status/953392321525141504",
@@ -11420,7 +11420,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1251,
         likes: 3962,
         content: "trying to enjoy crypto wealth",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649930133925425152%2FAS-hyi4h_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649930133925425152%252FAS-hyi4h_bigger.jpg",
     },
     {
         url: "https://twitter.com/burgerkrang/status/953430272808292352",
@@ -11428,8 +11428,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4450,
         likes: 22808,
         content: "this is the best interaction on twitter",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDTtDwvkVQAAxc5h.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730637649734508544%2FQb9wRVZv_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDTtDwvkVQAAxc5h.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730637649734508544%252FQb9wRVZv_bigger.jpg",
     },
     {
         url: "https://twitter.com/CeciMula/status/953495819872882690",
@@ -11437,7 +11437,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 88274,
         likes: 488917,
         content: "I JUST ASKED SIRI IF A CERTAIN BOY WOULD EVER TEXT ME AND SHE SENT A TEXT SAYING WILL YOU EVER TEXT ME TO HIM. My funeral will be held at 8pm this Thursday.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1627509811360169985%2Fl4NnTVVz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1627509811360169985%252Fl4NnTVVz_bigger.jpg",
     },
     {
         url: "https://twitter.com/AskDrRuth/status/954012442232844288",
@@ -11445,7 +11445,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 43,
         likes: 132,
         content: "All this talk about fake news leads me to remind you that faking orgasms occasionally is OK but not on a regular basis. Speak up if you need help achieving sexual satisfaction.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F213278536%2FPicture_1_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F213278536%252FPicture_1_bigger.png",
     },
     {
         url: "https://twitter.com/premeesaurus/status/954047187738025984",
@@ -11453,7 +11453,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2357,
         likes: 8501,
         content: "guys guys i'm in this all-day meeting and someone just didn't want to say \"get your shit together\" so he said \"get your poop in a group\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F709248805011492871%2F01dgKkaG_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F709248805011492871%252F01dgKkaG_bigger.jpg",
     },
     {
         url: "https://twitter.com/KarenKilgariff/status/954202639146786816",
@@ -11461,7 +11461,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1162,
         likes: 9465,
         content: "I heard if you look at someone’s LinkedIn profile they’re sent a notification saying you love them so much you cry about it at night",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F839755301767151617%2FRlpQkbi4_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheCheish/status/955506086647402496",
@@ -11469,8 +11469,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 26681,
         likes: 105782,
         content: "If only there was a letter in PARIS that resembles the Eiffel Tower",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDUKjtwFWsAA2N2Y.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1197050943373815808%2FioR5FerY_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDUKjtwFWsAA2N2Y.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1197050943373815808%252FioR5FerY_bigger.jpg",
     },
     {
         url: "https://twitter.com/eggsandbread/status/956187819302637568",
@@ -11478,8 +11478,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 49359,
         likes: 142565,
         content: "this meme has finally been perfected",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDUUPvrwXUAA60mP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1616151602137530379%2FRKjpAonE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDUUPvrwXUAA60mP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1616151602137530379%252FRKjpAonE_bigger.jpg",
     },
     {
         url: "https://twitter.com/melissabethk/status/956239749009862656",
@@ -11487,8 +11487,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5,
         likes: 46,
         content: "if only more men reviewed lesbian bars on yelp",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDUU-9gkW0AImqKP.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1125867199531556865%2FpJAZFq5q_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDUU-9gkW0AImqKP.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125867199531556865%252FpJAZFq5q_bigger.jpg",
     },
     {
         url: "https://twitter.com/jodecicry/status/956267839622668288",
@@ -11496,7 +11496,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5574,
         likes: 25571,
         content: "The most important lesson I've learned from listening to music is to never leave a rapper a voicemail",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1538494061165916161%2FDQk60tn3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538494061165916161%252FDQk60tn3_bigger.jpg",
     },
     {
         url: "https://twitter.com/bridger_w/status/957444430855745537",
@@ -11504,7 +11504,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8891,
         likes: 48370,
         content: "I feel like LaCroix is what juice would taste like to a ghost",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1255573234%2Ftweet_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1255573234%252Ftweet_bigger.jpg",
     },
     {
         url: "https://twitter.com/citizenkawala/status/959707139366244352",
@@ -11512,7 +11512,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2094,
         likes: 5009,
         content: "Squirrels always act like it's their first day of being a squirrel.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1704636383867113472%2FZJxVnGrI_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704636383867113472%252FZJxVnGrI_bigger.jpg",
     },
     {
         url: "https://twitter.com/Tbone7219/status/959884889410691072",
@@ -11520,7 +11520,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10404,
         likes: 32043,
         content: "Is it fucking Maybelline or not ?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1468039398050705409%2FFos-drg0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1468039398050705409%252FFos-drg0_bigger.jpg",
     },
     {
         url: "https://twitter.com/vrunt/status/960618512568999936",
@@ -11528,8 +11528,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12119,
         likes: 59335,
         content: "false alarm folks its just his bones",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDVQNufMW4AANRl9.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711848960581591041%2FQ3mlPMP__bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDVQNufMW4AANRl9.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711848960581591041%252FQ3mlPMP__bigger.jpg",
     },
     {
         url: "https://twitter.com/decentbirthday/status/961320939655966720",
@@ -11537,7 +11537,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4571,
         likes: 17477,
         content: "[about to make first contact]\n\nastronaut: how will we communicate\n\nme: play mr. brightside\n\nastronaut: that's ridiculous\n\n[meanwhile on UFO]\n\nalien 1: pull it up\n\nalien 2: \\*shuffling through music\\* it's by the killers right",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1090993904533622785%2FFW6wG3hM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1090993904533622785%252FFW6wG3hM_bigger.jpg",
     },
     {
         url: "https://twitter.com/dave_cactus/status/961680274303074304",
@@ -11545,7 +11545,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9622,
         likes: 40580,
         content: "I like when flies won't leave my car on long road trips. Have fun moving to Kansas, you tiny idiot.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1664111997787705344%2F-j74Egk3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664111997787705344%252F-j74Egk3_bigger.jpg",
     },
     {
         url: "https://twitter.com/salmattos/status/961699584182386688",
@@ -11553,8 +11553,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5071,
         likes: 23034,
         content: "Wishbone is a gay icon. Feeling stifled and ignored, he retreated to the worlds of classic literature and theatre. He would fully immerse himself in these elaborate fantasies and was always committed to the lewk.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDVikrB8UMAAH-j3.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1639377242735382528%2FyiFepdDz_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDVikrB8UMAAH-j3.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1639377242735382528%252FyiFepdDz_bigger.jpg",
     },
     {
         url: "https://twitter.com/stephanieskuo/status/961730931349483521",
@@ -11562,8 +11562,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 6665,
         likes: 28078,
         content: "I went into journalism to tell important stories and to give a voice to the voiceless.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDVjBLgeVQAAUsl-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1547694602928340998%2FB4ld13zM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDVjBLgeVQAAUsl-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547694602928340998%252FB4ld13zM_bigger.jpg",
     },
     {
         url: "https://twitter.com/juanbuis/status/962733158042161152",
@@ -11571,8 +11571,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 46764,
         likes: 163016,
         content: "well i'm sold",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDVxQs83XcAAONRd.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1624031047343128577%2FwlqrmYFE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDVxQs83XcAAONRd.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624031047343128577%252FwlqrmYFE_bigger.jpg",
     },
     {
         url: "https://twitter.com/pixelatedboat/status/964743243731673088",
@@ -11580,7 +11580,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3272,
         likes: 25341,
         content: "Trump: \\*gives thumbs up\\*\nAide: Mr. President, this is a Holocaust memorial\nTrump: \\*respectfully rotates thumb 180 degrees\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F875489341291675649%2Fhc8K1aT0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
         url: "https://twitter.com/j__sonic/status/964769441128046592",
@@ -11588,8 +11588,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23997,
         likes: 108510,
         content: "ah yes, the two genders",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDWOMrwTVwAA6BVo.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1680164629249417218%2F6q7vmvCY_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDWOMrwTVwAA6BVo.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680164629249417218%252F6q7vmvCY_bigger.jpg",
     },
     {
         url: "https://twitter.com/spacetwinks/status/965428890830344193",
@@ -11597,7 +11597,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 16620,
         likes: 46806,
         content: "doctor: treatment is simple. go see orville, very funny clown\n\npagliacci: what about pagliacci?\n\ndoctor: pagliacci? man i could not name a more suckass clown\n\npagliacci:\n\ndoctor: just downright dogshit of a clown",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1395407970935185408%2FcCIvbKNh_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1395407970935185408%252FcCIvbKNh_bigger.jpg",
     },
     {
         url: "https://twitter.com/reaghanhunt/status/965816492221747200",
@@ -11605,7 +11605,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 125155,
         likes: 304510,
         content: "why is being alive so expensive. im not even having a good time",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1697343068041625600%2FjDeL64Qz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697343068041625600%252FjDeL64Qz_bigger.jpg",
     },
     {
         url: "https://twitter.com/jaasalzr/status/965933477899091968",
@@ -11613,7 +11613,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27317,
         likes: 112337,
         content: "\\*gets ghosted\\* \n\nMe: thank you for the 15-day free trial",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1359139481614381061%2FG8ZB31l2_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1359139481614381061%252FG8ZB31l2_bigger.jpg",
     },
     {
         url: "https://twitter.com/angrycyberwitch/status/966071877180579841",
@@ -11621,8 +11621,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1079,
         likes: 5387,
         content: "explaining my cv gap",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDWgtKg8W0AEPhe5.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F958069967148199936%2FBSHlmHLa_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDWgtKg8W0AEPhe5.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F958069967148199936%252FBSHlmHLa_bigger.jpg",
     },
     {
         url: "https://twitter.com/extremely_wet/status/966418484086403074",
@@ -11630,7 +11630,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3817,
         likes: 12323,
         content: "millennials love eating. whether it's avocados, the rich or ass, this generation has a voracious appetite that cannot and will not be satiated",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1516280165151686656%2FuPY04YMN_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516280165151686656%252FuPY04YMN_bigger.jpg",
     },
     {
         url: "https://twitter.com/ojedge/status/966599333775794176",
@@ -11638,8 +11638,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12748,
         likes: 44577,
         content: "BOSS: why are you late?\n\nME:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDWoM93MWsAE97of.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F953756620953210881%2FWAcE8O46_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDWoM93MWsAE97of.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F953756620953210881%252FWAcE8O46_bigger.jpg",
     },
     {
         url: "https://twitter.com/Y2SHAF/status/967409477216546816",
@@ -11647,8 +11647,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 107262,
         likes: 344797,
         content: "i honestly thought those were your legs",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDWwmDy0X4AUEiPp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1620142097100578828%2FYr8JH-dR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDWwmDy0X4AUEiPp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620142097100578828%252FYr8JH-dR_bigger.jpg",
     },
     {
         url: "https://twitter.com/GoodZiIIa/status/968597116372140032",
@@ -11656,7 +11656,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 55834,
         likes: 211557,
         content: "[doctor looking at my xrays]\n\ndoctor: this is exactly what i was afraid of\n\nme: what\n\ndoctor: skeletons",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F932151643696635905%2F78ySt6DW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F932151643696635905%252F78ySt6DW_bigger.jpg",
     },
     {
         url: "https://twitter.com/shutupmaeve/status/970743214943756289",
@@ -11664,8 +11664,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23254,
         likes: 74700,
         content: "say it ain't so, \ni will not go\nturn the lights off, \ncarry me home",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDXjFzWnVQAAzZ9H.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1664435627759132672%2Fzg9_XTwV_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDXjFzWnVQAAzZ9H.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664435627759132672%252Fzg9_XTwV_bigger.jpg",
     },
     {
         url: "https://twitter.com/MrFilmkritik/status/971109445492232192",
@@ -11673,8 +11673,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42036,
         likes: 153906,
         content: "I can't stop cackling",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDXoS4cOWAAY80K-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1695200363341582336%2FlyixbrSw_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDXoS4cOWAAY80K-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695200363341582336%252FlyixbrSw_bigger.jpg",
     },
     {
         url: "https://twitter.com/_sashayed/status/971132312984399873",
@@ -11682,7 +11682,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11673,
         likes: 64676,
         content: "some of you youths are gonna be real disappointed when u discover that turning 30 just means you still have all the same weird interests but can't turn your head all the way to the left anymore",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1113816338064125952%2F5RrCFimB_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1113816338064125952%252F5RrCFimB_bigger.png",
     },
     {
         url: "https://twitter.com/egg_dog/status/971305860935962625",
@@ -11690,7 +11690,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12833,
         likes: 41147,
         content: "coffins : the ultimate and final ravioli",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1600528005742338049%2FXF7bak7s_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1600528005742338049%252FXF7bak7s_bigger.jpg",
     },
     {
         url: "https://twitter.com/knguyen/status/971456108895391745",
@@ -11698,8 +11698,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20,
         likes: 349,
         content: "TriBeCa",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDXtOKuYW0AEsD1S.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1546945135983955969%2FqHwMGV6W_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDXtOKuYW0AEsD1S.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1546945135983955969%252FqHwMGV6W_bigger.jpg",
     },
     {
         url: "https://twitter.com/vrunt/status/971485093733765123",
@@ -11707,8 +11707,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12160,
         likes: 49323,
         content: "my work here is done",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDXtoioIVwAAmezS.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1711848960581591041%2FQ3mlPMP__bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDXtoioIVwAAmezS.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711848960581591041%252FQ3mlPMP__bigger.jpg",
     },
     {
         url: "https://twitter.com/thickwithnoass/status/972213080196337664",
@@ -11716,8 +11716,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24142,
         likes: 93967,
         content: "I am a girl\nI dont smoke, drink, or party\nI dont sleep around \nI eat 5,000 ticks per season\nI am immune to rabies\nI am north america's only marsupial\nYES, WE EXIST.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDX3-pBEVwAA3HNw.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1727658056966717440%2F-YcpSjIT_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDX3-pBEVwAA3HNw.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727658056966717440%252F-YcpSjIT_bigger.jpg",
     },
     {
         url: "https://twitter.com/cherrikissu/status/972524442600558594",
@@ -11725,7 +11725,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9345,
         likes: 34640,
         content: "Can websites please stop the trend of giving error messages that are like \"OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!\" And just give me a fucking error code so I can try and fix it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1660469331795353600%2FHqvEXEun_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660469331795353600%252FHqvEXEun_bigger.jpg",
     },
     {
         url: "https://twitter.com/jodecicry/status/972600608879529984",
@@ -11733,8 +11733,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 455,
         likes: 2721,
         content: "My girl Fiona bout to get that back blown out",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDXzC9aeVAAAEQBI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1538494061165916161%2FDQk60tn3_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDXzC9aeVAAAEQBI.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538494061165916161%252FDQk60tn3_bigger.jpg",
     },
     {
         url: "https://twitter.com/poppy_haze/status/973018129923223556",
@@ -11742,7 +11742,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3,
         likes: 12,
         content: "bernie sanders is distributing unadulterated original 4loko to create antifa supersoldiers",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1613595341416169483%2FlytMmwC8_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1613595341416169483%252FlytMmwC8_bigger.png",
     },
     {
         url: "https://twitter.com/prufrockluvsong/status/973670575125262337",
@@ -11750,7 +11750,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 989,
         likes: 2949,
         content: "1st base: kissing \n\n2nd base: petting\n\nbase 10: freaky math stuff",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1638576645014720513%2FT9W8c3Yk_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638576645014720513%252FT9W8c3Yk_bigger.jpg",
     },
     {
         url: "https://twitter.com/mannynotfound/status/975189465886052352",
@@ -11758,7 +11758,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3577,
         likes: 17924,
         content: "the year is 2045. Alexa overhears you make a problematic joke and immediately alerts the US Army. They make a vlog raiding your home and no scope sniping you in close quarters. It goes viral and a portion of the adsense revenue is donated to your families gofundme",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1562254109130260480%2FsN1j8HU0_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1562254109130260480%252FsN1j8HU0_bigger.png",
     },
     {
         url: "https://twitter.com/reaghanhunt/status/975199875137761281",
@@ -11766,7 +11766,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 597,
         likes: 4342,
         content: "men take a high school debate class and then spend the next ten years calling everything they dont like a strawman",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1697343068041625600%2FjDeL64Qz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697343068041625600%252FjDeL64Qz_bigger.jpg",
     },
     {
         url: "https://twitter.com/AcademicsSay/status/975488696530202625",
@@ -11774,7 +11774,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3065,
         likes: 10453,
         content: "Active voice: I love your blog\nPassive voice: Your blog is loved\nPassive-aggressive voice: I love how you have time to write a blog",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F748151916836716546%2FLdn_dhiC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F748151916836716546%252FLdn_dhiC_bigger.jpg",
     },
     {
         url: "https://twitter.com/aparnapkin/status/975495108312338432",
@@ -11782,7 +11782,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 979,
         likes: 7178,
         content: "I like my men like I like my taxes: avoid until legally impossible",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557082422788997121%2FlTCsPchv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
         url: "https://twitter.com/Mormonger/status/975497709548314624",
@@ -11790,7 +11790,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 88332,
         likes: 362336,
         content: "Nobody talks about Jesus' miracle of having 12 close friends in his 30s",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1733935923841400832%2FBBe2wEQg_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733935923841400832%252FBBe2wEQg_bigger.jpg",
     },
     {
         url: "https://twitter.com/iff_or/status/975507648316563457",
@@ -11798,8 +11798,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1997,
         likes: 3757,
         content: "Them: “Where would you like to see yourself in 10 years?”\nMe:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDYmzCSAU0AAixsM.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1464333149010153473%2FIcBKIdBq_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDYmzCSAU0AAixsM.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1464333149010153473%252FIcBKIdBq_bigger.jpg",
     },
     {
         url: "https://twitter.com/Chidubem_OH/status/976544347448664065",
@@ -11807,8 +11807,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4775,
         likes: 8320,
         content: "Bank account: IS THIS YOUR SAVINGS?!!",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDY1h57jXcAAjNnr.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1680507107651592194%2Ft084gasA_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDY1h57jXcAAjNnr.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680507107651592194%252Ft084gasA_bigger.jpg",
     },
     {
         url: "https://twitter.com/acarboni/status/976545648391553024",
@@ -11816,7 +11816,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4732,
         likes: 22338,
         content: "Me: \\*watches a single YouTube tutorial so I can fix my door hinge\\*\nYouTube: WHAT'S UP, HINGE-LOVER? HERE ARE THE TOP 1000 VIDEOS FROM THE HINGER COMMUNITY THIS WEEK. CHECK OUT THIS TRENDING HINGE CONTENT FROM ENGAGING HINGEFLUENCERS",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1221877252960346112%2FH6G2Pw3h_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1221877252960346112%252FH6G2Pw3h_bigger.jpg",
     },
     {
         url: "https://twitter.com/markusoff/status/976556065100738560",
@@ -11824,7 +11824,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7177,
         likes: 23393,
         content: "I have repurposed\nthe data\nthat were in\nyour personal profile\n\nand which\nyou were probably\nsaving\nfor friends\n\nForgive me\nthey were politically useful\nso lucrative\nand [WHICH WILLIAM CARLOS WILLIAMS POEM ARE YOU?? TAKE OUR QUIZ CLICK HERE]\n—Mark Zuckerberg, Facebook",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1297050356657004544%2FG8-Z5NjC_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1297050356657004544%252FG8-Z5NjC_bigger.jpg",
     },
     {
         url: "https://twitter.com/maybachegg/status/976591094723964928",
@@ -11832,8 +11832,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4105,
         likes: 25062,
         content: "You can always tell when someone makes art because this is what their Instagram looks like",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDY2MXTLVQAIAmEs.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1594877247458258945%2F3oIhjIzM_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDY2MXTLVQAIAmEs.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1594877247458258945%252F3oIhjIzM_bigger.jpg",
     },
     {
         url: "https://twitter.com/PajamaStew/status/976593184661782528",
@@ -11841,7 +11841,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 616,
         likes: 3038,
         content: "Nothing you do matters. Duck Hunt was prerecorded. Your zapper gun did nothing. The birds died of natural causes. This is why the dog would laugh at you.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F966241701860790274%2FJ_Vup5KW_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F966241701860790274%252FJ_Vup5KW_bigger.jpg",
     },
     {
         url: "https://twitter.com/CynthiaNixon/status/976606164539633664",
@@ -11849,7 +11849,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 49096,
         likes: 270218,
         content: "“When I announced yesterday that I’m running for gov, one of Cuomo’s top surrogates dismissed me as an “unqualified lesbian.” It’s true that I never received my certificate from the Department of Lesbian Affairs, though in my defense there’s a lot of paperwork required.” 🤷‍♀️",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1001593369246752768%2FDFIkqFON_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1001593369246752768%252FDFIkqFON_bigger.jpg",
     },
     {
         url: "https://twitter.com/i_zzzzzz/status/976660402653319169",
@@ -11857,7 +11857,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1108,
         likes: 9098,
         content: "REPORTER: What's your blood like?\n\nZUCKERBERG: So, that's actually a really important question. My blood is normal blood, it's red, a deep human red, and it... you know, I could go on and on. But the key thing is that I have blood -- gallons and gallons of it -- and it's normal.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2395504744%2F9uggn50z83n3mr1x406e_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
         url: "https://twitter.com/averytuckerlive/status/976662154479742976",
@@ -11865,7 +11865,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7036,
         likes: 43179,
         content: "LA = shitty heaven, NY = fun hell",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707439800935186432%2Fdah-P1FZ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707439800935186432%252Fdah-P1FZ_bigger.jpg",
     },
     {
         url: "https://twitter.com/josefbone/status/976768705576230912",
@@ -11873,8 +11873,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27461,
         likes: 134850,
         content: "why does every male model on ASOS look like they've just bumped into the girl they've been ghosting",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDY4tKENXcAEgOWz.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1660382464748015616%2FgeK0KEyg_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDY4tKENXcAEgOWz.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660382464748015616%252FgeK0KEyg_bigger.jpg",
     },
     {
         url: "https://twitter.com/hummusandpizza/status/976785358208798721",
@@ -11882,7 +11882,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1814,
         likes: 13271,
         content: "at a work conference yesterday we were asked why people don’t ask to work from home more. we could send answers anonymously and they’d appear on a big screen. one answer read in 72pt font: “because I do not like my children”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1226087054649561088%2F3GF3tgT6_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1226087054649561088%252F3GF3tgT6_bigger.jpg",
     },
     {
         url: "https://twitter.com/FelixTandem/status/976855475525505026",
@@ -11890,8 +11890,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17007,
         likes: 72097,
         content: "All hail Christopher Cross: the only man to look like both members of Tenacious D in one lifetime.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDY584BkWkAAplH2.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1715147318171734016%2FgkZbCPiu_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDY584BkWkAAplH2.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715147318171734016%252FgkZbCPiu_bigger.jpg",
     },
     {
         url: "https://twitter.com/_lesleyallan/status/976883644735344640",
@@ -11899,7 +11899,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14257,
         likes: 50964,
         content: "how to tell they’re gay: \n\n• they do not sit in chairs properly. \n\nthe real homosexual agenda is sitting on tables. or floors. or two chairs at once with your feet up on the other chair.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1723868692654534656%2F1_eT0923_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1723868692654534656%252F1_eT0923_bigger.jpg",
     },
     {
         url: "https://twitter.com/broderick/status/977213958405939202",
@@ -11907,7 +11907,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 31,
         likes: 139,
         content: "Russian troll farm boss: Are we making any headway on Tumblr?\n\nRussian troll operative: I, uh, I don't know. They keep posting highres photos of Luigi's penis and saying \"Oh, worm?\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1419661731324956678%2FXFT3yMLU_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1419661731324956678%252FXFT3yMLU_bigger.jpg",
     },
     {
         url: "https://twitter.com/meganamram/status/977237140298854401",
@@ -11915,7 +11915,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 63,
         likes: 1018,
         content: "Who would u rather fukk a snowman or a fireman",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/Iowhangingfruit/status/977331503083397121",
@@ -11923,8 +11923,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12562,
         likes: 55217,
         content: "me and aria were giggling at this painting and this middle aged white man walks by and mutters \"immature girls\" chill how is this not funny",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDZAtzZwWsAEvZSI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1063871980380844032%2FD_wReffv_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZAtzZwWsAEvZSI.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1063871980380844032%252FD_wReffv_bigger.jpg",
     },
     {
         url: "https://twitter.com/Sabbxthh/status/977388392672620545",
@@ -11932,7 +11932,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 36941,
         likes: 117423,
         content: "how in gods name do you excercise as soon as you wake up don’t you take like 3 hours in bed to absorb all the trauma from the fact that you’re still alive",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1721442546860036096%2FJMzoVIaE_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721442546860036096%252FJMzoVIaE_bigger.jpg",
     },
     {
         url: "https://twitter.com/GiganticPawUnit/status/977609545186004993",
@@ -11940,8 +11940,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7909,
         likes: 25892,
         content: "in awe at the size of this lad. absolute unit",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDZEqrQiUQAADwqu.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1536465426070265857%2Fxna1qH-D_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZEqrQiUQAADwqu.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1536465426070265857%252Fxna1qH-D_bigger.jpg",
     },
     {
         url: "https://twitter.com/woag_/status/978645788858507266",
@@ -11949,8 +11949,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 25653,
         likes: 74505,
         content: "i think a fight is about to break out in the subway i'm on",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDZTZJkrVoAAQ4mc.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1589322944076988416%2FFSTA53QE_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZTZJkrVoAAQ4mc.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589322944076988416%252FFSTA53QE_bigger.jpg",
     },
     {
         url: "https://twitter.com/gilbertjasono/status/978667487536566273",
@@ -11958,7 +11958,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5264,
         likes: 27744,
         content: "SENATE BAILIFF: Raise your right hand. Do you swear to tell the truth, the whole truth, and—\n\nMARK ZUCKERBERG [with a big fake smile]: So, that’s a great question, and it’s something everyone at Facebook is really passionate about",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F458305950198161408%2F10hxE-eI_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F458305950198161408%252F10hxE-eI_bigger.png",
     },
     {
         url: "https://twitter.com/misandrism/status/978683141140475905",
@@ -11966,8 +11966,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11403,
         likes: 42515,
         content: "hurt by nin vs hurt by johnny cash",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDZT7HQQXcAUiGy1.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1729385316040204288%2F5yPTloea_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZT7HQQXcAUiGy1.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729385316040204288%252F5yPTloea_bigger.jpg",
     },
     {
         url: "https://twitter.com/electrolemon/status/978729859361923072",
@@ -11975,7 +11975,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5567,
         likes: 15036,
         content: "the other day @raesanni tweeted that the trump administration firings list sounded like an animaniacs song and i asked if i could make that song. here is that song",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/meganamram/status/978730051855200256",
@@ -11983,7 +11983,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1254,
         likes: 8451,
         content: "the human body is like a horrible time machine that only goes at one speed and rots while you're inside it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F890366092%2Fn31883_33925212_8870_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
         url: "https://twitter.com/aaprocter/status/978868907711848448",
@@ -11991,7 +11991,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3282,
         likes: 20473,
         content: "Look. Whatever they tell you, all museum people got into this field cos they want to touch the art. It's not about \"preserving\" or \"inspiring people\". We'd lick it if we could.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1240690310658875397%2FAU1D7HTQ_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1240690310658875397%252FAU1D7HTQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/FINALLEVEL/status/979146559672680449",
@@ -11999,7 +11999,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 108,
         likes: 553,
         content: "Media criticism is an Art Form?????  I’m Done.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F909984858818170881%2FjagXDTlf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F909984858818170881%252FjagXDTlf_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheAndrewNadeau/status/979163770168709120",
@@ -12007,7 +12007,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2081,
         likes: 10414,
         content: "WIFE: I’m leaving you.\nME: Is it because of all the improv?\nWIFE: Yes.\nME:\nWIFE:\nME: \\*Quietly\\* “Yes, and”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1234276076127444997%2FZH66vp75_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1234276076127444997%252FZH66vp75_bigger.jpg",
     },
     {
         url: "https://twitter.com/ADDiane/status/979763149510344705",
@@ -12015,7 +12015,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11508,
         likes: 41104,
         content: "Moses was technically the first person to download files to his tablet from the cloud.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1720670356602863616%2FgYcKPxp8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720670356602863616%252FgYcKPxp8_bigger.jpg",
     },
     {
         url: "https://twitter.com/nopoweradeinusa/status/980034600666767360",
@@ -12023,7 +12023,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1601,
         likes: 13744,
         content: "I've never seen a drug dealer with a current generation gaming console, they're always 1 generation behind like every drug dealer you go to now has an xbox 360 with skate 3 and that's it",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1038167853755551744%2FESObCK83_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1038167853755551744%252FESObCK83_bigger.jpg",
     },
     {
         url: "https://twitter.com/longlive_nixon/status/980467915911778305",
@@ -12031,7 +12031,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 221128,
         likes: 461746,
         content: "‘walk it like I talk it’ crossover featuring dr.seuss",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1274920243555598339%2F5H2bqcj__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1274920243555598339%252F5H2bqcj__bigger.jpg",
     },
     {
         url: "https://twitter.com/YusufYuie/status/980550236107091968",
@@ -12039,8 +12039,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 14623,
         likes: 30041,
         content: "My mans dying and nobody cares 😂😂😂😂😂😂😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDZudPUIXcAEME8M.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1634134884745609216%2Fm2jJi81L_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZudPUIXcAEME8M.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1634134884745609216%252Fm2jJi81L_bigger.jpg",
     },
     {
         url: "https://twitter.com/saltydkdan/status/980899446316830722",
@@ -12048,8 +12048,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18054,
         likes: 40424,
         content: "A Japanese user suggested that this meme would be better if I changed my icon to Kid Goku\n\nWhich is fucking genius",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDZza2GfU8AARpEx.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1731038907247005696%2FklGuD-4a_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZza2GfU8AARpEx.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731038907247005696%252FklGuD-4a_bigger.jpg",
     },
     {
         url: "https://twitter.com/chrissyteigen/status/981184202992336896",
@@ -12057,7 +12057,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 12628,
         likes: 159197,
         content: "I’m gonna sign you dumbass up for pottery barn emails",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1243351734757425152%2Fe8JZwf03_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1243351734757425152%252Fe8JZwf03_bigger.jpg",
     },
     {
         url: "https://twitter.com/wolfyneyda/status/982319992933961729",
@@ -12065,7 +12065,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 85719,
         likes: 220250,
         content: "do u ever wanna take a nap but the nap doesn’t wanna take u",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1691662745286938624%2FdumHzNv3_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691662745286938624%252FdumHzNv3_bigger.jpg",
     },
     {
         url: "https://twitter.com/hahaahahahahaha/status/984929590341718017",
@@ -12073,8 +12073,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 635,
         likes: 2495,
         content: "my ride is here",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDassPXPV4AAQcoD.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1476991438969782274%2Fy_Xz3-ge_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDassPXPV4AAQcoD.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1476991438969782274%252Fy_Xz3-ge_bigger.jpg",
     },
     {
         url: "https://twitter.com/Arr/status/985179134677598208",
@@ -12082,7 +12082,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 734,
         likes: 5941,
         content: "Before Twitter, people heard maybe five jokes a day instead of hundreds. That's why back in the 90s someone could go \"spank you very much\" and everyone would be like \"whoa... this guy's good\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1642623925564874753%2FgrOfuvod_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1642623925564874753%252FgrOfuvod_bigger.jpg",
     },
     {
         url: "https://twitter.com/asanyangeltome/status/985266194960867330",
@@ -12090,7 +12090,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 37520,
         likes: 213393,
         content: "children are so strange i just had seven (7) young boys on my front porch demanding to see my cat. they had a leader. i opened the door and before i could greet them he said “where’s your cat. i know he’s in there we see him in the windows and he’s real fat.” idk what to do here",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1730663613176713216%2FI8myhaDf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730663613176713216%252FI8myhaDf_bigger.jpg",
     },
     {
         url: "https://twitter.com/anniearlert/status/985364486315040768",
@@ -12098,8 +12098,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 23083,
         likes: 86041,
         content: "This image from a 1920s magazine was ahead of its time",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDay3xcRX0AMGUPY.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1478787894269874178%2F_kBC4Ci2_bigger.png",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDay3xcRX0AMGUPY.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1478787894269874178%252F_kBC4Ci2_bigger.png",
     },
     {
         url: "https://twitter.com/bristeves/status/986680837012934657",
@@ -12107,7 +12107,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 3035,
         likes: 6474,
         content: "Don’t tell nobody we used to date, I was a different bitch back then. Ain’t no way you could pull me now so you just being disrespectful.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1675243769564745729%2FSoNc8dp1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675243769564745729%252FSoNc8dp1_bigger.jpg",
     },
     {
         url: "https://twitter.com/flossypremium/status/987483501145591808",
@@ -12115,7 +12115,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 24349,
         likes: 81102,
         content: "u gon eat whatever pussy I got in stock",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1617642509798346753%2FHwPBbogM_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1617642509798346753%252FHwPBbogM_bigger.jpg",
     },
     {
         url: "https://twitter.com/aparnapkin/status/987559976561328128",
@@ -12123,7 +12123,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30256,
         likes: 137765,
         content: "Shazam but for whether someone is mad at you",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1557082422788997121%2FlTCsPchv_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
         url: "https://twitter.com/austin_walker/status/988083896767180800",
@@ -12131,8 +12131,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1208,
         likes: 5287,
         content: "Dang, Satan is a cop.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDbZhD3hVwAAgxLJ.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1649141242729562112%2FXThNg4Dw_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDbZhD3hVwAAgxLJ.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649141242729562112%252FXThNg4Dw_bigger.jpg",
     },
     {
         url: "https://twitter.com/jk_rowling/status/988419665570430976",
@@ -12140,7 +12140,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5653,
         likes: 44640,
         content: "Listening to @CNN talking about #royalbaby3 and the reporter said ‘Prince Harry’s route to the throne just became more difficult’ as though it’s an open secret he’s planning to systematically slaughter his closest relatives",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1691882354527154176%2Fv3dki8sB_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691882354527154176%252Fv3dki8sB_bigger.jpg",
     },
     {
         url: "https://twitter.com/TheOnion/status/988467567730855942",
@@ -12148,8 +12148,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10913,
         likes: 39443,
         content: "Raccoon Crushed To Death By Garbage Truck Hits Jackpot With Reincarnation trib.al/iUoOY0S",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDbe-A4gX0AA2DnX.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1517492889852461056%2FbEnqsvVR_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDbe-A4gX0AA2DnX.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1517492889852461056%252FbEnqsvVR_bigger.jpg",
     },
     {
         url: "https://twitter.com/BrandyLJensen/status/988545091001339906",
@@ -12157,7 +12157,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 147,
         likes: 1980,
         content: "I have a working theory that most men are a certain number of rejections away from being red pilled but you can also substitute like, five twitter dunks for one rejection",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1573820742482944003%2FY308jbzf_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
         url: "https://twitter.com/murrman5/status/988823949541892096",
@@ -12165,7 +12165,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1373,
         likes: 7119,
         content: "[halfway thru getting my tattoo of shaggy] I meant the rapper",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1361726998905835524%2FVf0PO52y_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
         url: "https://twitter.com/conangray/status/989557736131018753",
@@ -12173,7 +12173,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 84870,
         likes: 217759,
         content: "i’m a THUG\n\nT - tiny\n\nH - human\n\nU- under\n\nG - great pressure to succeed due to the constant mental conditioning i experienced as a kid resulting in the irrational fear that no matter how hard i work i will never be able to match up to my societal expectations.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1656308676523638784%2Fvs_LggzO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1656308676523638784%252Fvs_LggzO_bigger.jpg",
     },
     {
         url: "https://twitter.com/danozzi/status/989705240235692034",
@@ -12181,7 +12181,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1298,
         likes: 9924,
         content: "Hello here’s my impression of every John Oliver bit....\n\n...that would be like if we trusted a raccoon to fly to Mars. YA CAN’T FLY TO MARS, GARY. YOU’RE A FUCKING PANDA!! A PANDA!!! But if the conflict in Syria isn’t resolved soon...",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1443051031672221701%2FC_EZ4zgO_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1443051031672221701%252FC_EZ4zgO_bigger.jpg",
     },
     {
         url: "https://twitter.com/ch000ch/status/989720916186644480",
@@ -12189,7 +12189,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 18632,
         likes: 78639,
         content: "sorry i said big mood while you were having a severe allergic reaction to peanuts",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F378800000134131441%2Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
         url: "https://twitter.com/electrolemon/status/989957288373858309",
@@ -12197,7 +12197,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 351,
         likes: 7561,
         content: "glad i got moviepass while it was still unlimited. it’s like a subscription service that lets me increase black panther’s global box office by a whole $15 every time i wanna use the nicest bathroom at the mall",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%2Fsticky%2Fdefault_profile_images%2Fdefault_profile_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
         url: "https://twitter.com/AthertonKD/status/989991482873397249",
@@ -12205,7 +12205,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 707,
         likes: 4705,
         content: "Weird that Andrew Sullivan's editors keep giving him 2300 words when he clearly only wants 14.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1323149280174088192%2F7tSU5Oy5_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323149280174088192%252F7tSU5Oy5_bigger.png",
     },
     {
         url: "https://twitter.com/TriciaLockwood/status/990062822007754753",
@@ -12213,7 +12213,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 52,
         likes: 636,
         content: "I wanna see gollum’s pussy",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1430045704%2Ftweeter_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
         url: "https://twitter.com/ArfMeasures/status/990930728098689024",
@@ -12221,7 +12221,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 27481,
         likes: 108746,
         content: "Therapist: What's wrong?\n\nMe: If I do the Borat voice once more, I'll be getting a divorce\n\nTherapist: And who told you that?\n\nMe: \\*tearfully clears throat\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1348255282833534976%2FPk7ewKKA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
         url: "https://twitter.com/drnelk/status/991005177971990528",
@@ -12229,8 +12229,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 9495,
         likes: 25614,
         content: "The Talmud my students are studying addressed this topic of incels and experts demanding redistribution of sex, around 1500 years ago",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDcDB8vbWsAASrzo.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1053287862253375495%2FpQE8eGtt_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDcDB8vbWsAASrzo.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1053287862253375495%252FpQE8eGtt_bigger.jpg",
     },
     {
         url: "https://twitter.com/garyfromteenmom/status/991338839414333440",
@@ -12238,8 +12238,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 20970,
         likes: 84877,
         content: "bröther may i have this cümber",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDcHxak3VAAEmtV-.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1035175907265323008%2F8JgwA2CN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDcHxak3VAAEmtV-.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1035175907265323008%252F8JgwA2CN_bigger.jpg",
     },
     {
         url: "https://twitter.com/pixelatedboat/status/991472289991409664",
@@ -12247,7 +12247,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 253,
         likes: 2393,
         content: "Kanye: I don’t want to just be famous as a rapper\n\\*finger on monkey paw curls\\*",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F875489341291675649%2Fhc8K1aT0_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
         url: "https://twitter.com/Chinchillazllla/status/991548385046990848",
@@ -12255,7 +12255,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7004,
         likes: 45908,
         content: "i'm gonna design sex robots with such advanced AI that they still reject incels",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1592976002795323392%2FU0fweigA_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1592976002795323392%252FU0fweigA_bigger.jpg",
     },
     {
         url: "https://twitter.com/page88/status/991880477064736768",
@@ -12263,7 +12263,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 30,
         likes: 268,
         content: "Twitter, please don’t forget Michael Avenatti when you tell this tale to your grandkids years hence. I know, you think you’ll remember his extraterrestrial confidence, cheekbones & entrance fr/left field, but time can erode even the memory of Hottie Avenatti. Don’t let it happen!",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1679811591028482049%2FMaD3767q_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679811591028482049%252FMaD3767q_bigger.jpg",
     },
     {
         url: "https://twitter.com/gilbertjasono/status/992416691480035329",
@@ -12271,7 +12271,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 835,
         likes: 7395,
         content: "ROMNEY: Ahoy, Sir! I’ll take one heated dog sausage, that famous American meat tube, with your finest Heinz tomato chutney\n\nBALLPARK VENDOR: What",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F458305950198161408%2F10hxE-eI_bigger.png",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F458305950198161408%252F10hxE-eI_bigger.png",
     },
     {
         url: "https://twitter.com/sarahschauer/status/993859556534116353",
@@ -12279,7 +12279,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 17474,
         likes: 107404,
         content: "\\*first date\\*\n\nGuy: I like a girl who's good with money\n\nMe: the city will bury you for FREE if they can't identify your body",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1495140751058997250%2FoC5BO6Di_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495140751058997250%252FoC5BO6Di_bigger.jpg",
     },
     {
         url: "https://twitter.com/CrappyFumes/status/993897183924637696",
@@ -12287,7 +12287,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 7497,
         likes: 41812,
         content: "Hello men- it’s shorts weather now so remember the old rhyme:\nAt or above the knee,\nThat’s what we like to see,\nLonger than the knee\nA juggalo ye be",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1585350725994938395%2FWb3HcPw8_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585350725994938395%252FWb3HcPw8_bigger.jpg",
     },
     {
         url: "https://twitter.com/thedavidcrosby/status/994283745262747648",
@@ -12295,7 +12295,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 34,
         likes: 288,
         content: "I dont hate him ....much too strong a word ...I think he was lame ...a poser",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1295576713%2Fcrosby1_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295576713%252Fcrosby1_bigger.jpg",
     },
     {
         url: "https://twitter.com/y2tnb/status/994300158467825668",
@@ -12303,7 +12303,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 10094,
         likes: 47262,
         content: "isis lowkey fell off",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1704150416231981056%2Fno18swOq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704150416231981056%252Fno18swOq_bigger.jpg",
     },
     {
         url: "https://twitter.com/PhriendlyCody/status/995015426605178880",
@@ -12311,7 +12311,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19239,
         likes: 110793,
         content: "[leaving a smash mouth concert]\n\nwife: did you really think they'd play \"All-Star\" for an entire hour?\n\nme: \\*visibly agitated\\* i guess not",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1120892766194585600%2FCULS3IW7_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1120892766194585600%252FCULS3IW7_bigger.jpg",
     },
     {
         url: "https://twitter.com/emkawo/status/995585847003987968",
@@ -12319,7 +12319,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 4528,
         likes: 19314,
         content: "The three (3) types of British crime shows:\n- title is a surname, makes you sad\n- title is a place name, makes you sad\n- “gosh isn’t murder positively beastly, oh well mustn’t let it ruin the village’s Paintings of Fences & Sheep competition, it’s the 50th anniversary after all”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1297375571324723201%2F2XfreDVS_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1297375571324723201%252F2XfreDVS_bigger.jpg",
     },
     {
         url: "https://twitter.com/desusnice/status/995627896541732869",
@@ -12327,7 +12327,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 490,
         likes: 3204,
         content: "If you out here posting your moms today for the gram and not hitting her pic with facetune do you really love her?",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1719789976%2Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
         url: "https://twitter.com/minakimes/status/995748431162306560",
@@ -12335,7 +12335,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1062,
         likes: 13445,
         content: "still waiting for all of the dudes I have sonned on this website to wish me happy mother's day",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1638917569909514241%2FpuGr_V_P_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638917569909514241%252FpuGr_V_P_bigger.jpg",
     },
     {
         url: "https://twitter.com/jmrphy/status/996003715344715777",
@@ -12343,7 +12343,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 47,
         likes: 171,
         content: "The question of necrophilia does raise some interesting and useful challenges to many comfortably held positions today. For instance, if you're pro-choice in the abortion debate, I find it very difficult to see how you could possibly have ethical objections to necrophilia.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1516823887568379913%2FqTDmK0Uq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516823887568379913%252FqTDmK0Uq_bigger.jpg",
     },
     {
         url: "https://twitter.com/mattdpearce/status/996067309138493441",
@@ -12351,8 +12351,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 367,
         likes: 1432,
         content: "The job titles for candidates on California ballots never disappoint.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDdK97dfVMAAFox9.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1563631805336498177%2F3J9ljpO8_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDdK97dfVMAAFox9.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563631805336498177%252F3J9ljpO8_bigger.jpg",
     },
     {
         url: "https://twitter.com/danblackroyd/status/996494614176542720",
@@ -12360,7 +12360,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 42527,
         likes: 168191,
         content: "Little Caesars: It's hot and it's ready.\n\nMe: Is it good?\n\nLittle Caesars: It's HOT. And it's READY.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1665780717891235841%2F2-MiXSwz_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665780717891235841%252F2-MiXSwz_bigger.jpg",
     },
     {
         url: "https://twitter.com/robotrowboat/status/996745872275886081",
@@ -12368,7 +12368,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 11242,
         likes: 51326,
         content: "[inventing the hot air balloon] I don't give a fuck where I go",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1192244963943362560%2F0GEC33Y__bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1192244963943362560%252F0GEC33Y__bigger.jpg",
     },
     {
         url: "https://twitter.com/JamColley/status/997441647498612737",
@@ -12376,8 +12376,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1744,
         likes: 10231,
         content: "This duck’s bill looks like a smaller, older, less happy duck.",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDdef4rgVAAEcxBp.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1534133345302769664%2FXEO94OxN_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDdef4rgVAAEcxBp.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1534133345302769664%252FXEO94OxN_bigger.jpg",
     },
     {
         url: "https://twitter.com/oldfriend99/status/998052182762053632",
@@ -12385,7 +12385,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 160,
         likes: 1961,
         content: "I had to laugh when I first learned that the character's name was \"Mr Bean\". But when i then found out that we never learn the fellow's first name, i grew enraged.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1703132361590730752%2FjcXCSvOF_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703132361590730752%252FjcXCSvOF_bigger.jpg",
     },
     {
         url: "https://twitter.com/deanjnorris/status/999149383038971904",
@@ -12393,7 +12393,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 57706,
         likes: 151883,
         content: "Sex gifs",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F2751094004%2Fc5809c083fdf5416f4b479c6b7f3a556_bigger.jpeg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2751094004%252Fc5809c083fdf5416f4b479c6b7f3a556_bigger.jpeg",
     },
     {
         url: "https://twitter.com/JohnyLovely_/status/999377840461303814",
@@ -12401,8 +12401,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 75711,
         likes: 152967,
         content: "Y’all : Wyd this weekend \n\nMe:",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDd6A19hVQAATWil.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1712620442198974464%2FXUxz0k6k_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDd6A19hVQAATWil.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712620442198974464%252FXUxz0k6k_bigger.jpg",
     },
     {
         url: "https://twitter.com/katij_25/status/999393166301245440",
@@ -12410,7 +12410,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 8721,
         likes: 33453,
         content: "\\*uses ouiji board\\* “w...e...” “oh my god!” “v...e updated our privacy policy”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1411316334013648897%2FmAEGoeOq_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1411316334013648897%252FmAEGoeOq_bigger.jpg",
     },
     {
         url: "https://twitter.com/mattytalks/status/999719628694749184",
@@ -12418,7 +12418,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19481,
         likes: 82698,
         content: "Long term Twitter use has only 2 possible outcomes:\n1) you become a overbearing politics obsessed scold \n2) your brain becomes so diseased that you can only laugh at stuff like “it’s ya boy tarantula dick”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1374521664306700293%2FS28I2d1S_bigger.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1374521664306700293%252FS28I2d1S_bigger.jpg",
     },
     {
         url: "https://twitter.com/Boom_likean808/status/999788723700191232",
@@ -12426,8 +12426,8 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 35971,
         likes: 82153,
         content: "At first i thought he was wearing the heels",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%2FDd_2ilcVAAAW9Px.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%2F1707752570863661056%2Fr62VoOqy_bigger.jpg",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDd_2ilcVAAAW9Px.jpg",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707752570863661056%252Fr62VoOqy_bigger.jpg",
     },
 ]
 
@@ -12731,7 +12731,7 @@ export class Twit extends TweetPool {
     }
 
     protected get persistenceVersion(): number {
-        return 2
+        return 3
     }
 
     protected brainKeyForChannel(chanId: string): string {
