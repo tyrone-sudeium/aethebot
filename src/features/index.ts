@@ -36,7 +36,6 @@ import { FashionReportFeature } from "./fashion_report"
 import { TimPostFeature } from "./timpost"
 import { ReactionRolesFeature } from "./reaction_roles"
 import { AmaroQuestFeature } from "./amaroquest"
-import { TwitThisFeature } from "./ping/twit_this"
 import { FFXIVCertificateFeature } from "./ffxiv_certificate_helper"
 import { MemeFeature } from "./memegen/meme"
 
@@ -66,7 +65,6 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     UptimeFeature,
     FashionReportFeature,
     AmaroQuestFeature,
-    TwitThisFeature,
     FFXIVCertificateFeature,
     MemeFeature,
 ]
