@@ -74,9 +74,9 @@ function certificateValue(itemId: number): number {
     return 0
 }
 
-log(`MAJORS = [${Array.from(MAJORS).map(i => ITEM_NAMES[i].en)}]`)
-log(`MINORS = [${Array.from(MINORS).map(i => ITEM_NAMES[i].en)}]`)
-log(`ACCESSORIES = [${Array.from(ACCESSORIES).map(i => ITEM_NAMES[i].en)}]`)
+// log(`MAJORS = [${Array.from(MAJORS).map(i => ITEM_NAMES[i].en)}]`)
+// log(`MINORS = [${Array.from(MINORS).map(i => ITEM_NAMES[i].en)}]`)
+// log(`ACCESSORIES = [${Array.from(ACCESSORIES).map(i => ITEM_NAMES[i].en)}]`)
 
 const NUMBER_FORMATTER = new Intl.NumberFormat("en-US")
 const NUM_PRICES = 5
