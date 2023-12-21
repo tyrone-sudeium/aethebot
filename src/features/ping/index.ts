@@ -47,6 +47,9 @@ function isDrilRerollParams(params: any): params is TwitterRerollParams {
     return params.type === "drilme" || params.type === "nasa" || params.type === "twit"
 }
 
+// Maps the slash command name to the TwitterRerollParams.type type
+const NAME_MAP = new Map<string, TwitterRerollParams["type"]>([["drilme", "drilme"], ["twitme", "twit"]])
+
 export class PingFeature extends GlobalFeature implements Rerollable {
     public static slashCommands?: SlashCommand[] | undefined = [
         new Discord.SlashCommandBuilder()
@@ -55,6 +58,15 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             .addStringOption(option =>
                 option.setName("prediction")
                     .setDescription("An optional prediction. Only LOSERS make predictions that match multiple tweets.")
+                    .setRequired(false)
+            )
+        ,
+        new Discord.SlashCommandBuilder()
+            .setName("twitme")
+            .setDescription("Fetch a random Good As Hell tweet from The Great Scrollback of Alexandria (and others)")
+            .addStringOption(option =>
+                option.setName("prediction")
+                    .setDescription("An optional prediction. Good luck!")
                     .setRequired(false)
             )
         ,
@@ -73,7 +85,11 @@ export class PingFeature extends GlobalFeature implements Rerollable {
         if (!interaction.isChatInputCommand()) {
             return
         }
-        const params: TwitterRerollParams = {type: "drilme", count: 1}
+
+        const params: TwitterRerollParams = {
+            type: NAME_MAP.get(interaction.commandName) ?? "drilme",
+            count: 1,
+        }
         const toots = await this.getToots(interaction.channelId, params)
         const embeds = this.getEmbeds(params, toots)
         const prediction = interaction.options.getString("prediction")
@@ -89,9 +105,11 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 await uploadedMsg.react(emojis.nasa)
             }
         }
-        const remaining = await this.dril.getRemaining(interaction.channelId)
-        if (remaining === 0) {
-            await interaction.followUp({content: REVOLVER})
+        if (params.type === "drilme") {
+            const remaining = await this.dril.getRemaining(interaction.channelId)
+            if (remaining === 0) {
+                await interaction.followUp({content: REVOLVER})
+            }
         }
     }
 
