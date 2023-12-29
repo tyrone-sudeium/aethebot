@@ -296,14 +296,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Milenasanchezx/status/1013511444783140865",
-        author: "Milena Sanchez (@Milenasanchezx)",
-        retweets: 2310,
-        likes: 6567,
-        content: "I just took a picture of my 3 year old and she said \n\n“Send it to me” \n\nTo👏🏽Where?👏🏽",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1434134591598702597%252FtP4A9hFn_bigger.jpg",
-    },
-    {
         url: "https://twitter.com/westonhaney/status/1013865471614111744",
         author: "wes haney (@westonhaney)",
         retweets: 3325,
@@ -2703,14 +2695,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1391161879926480898%252Fqx3bATDZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/James__Mackey/status/1207454443664330752",
-        author: "mackey (@James__Mackey)",
-        retweets: 60,
-        likes: 1250,
-        content: "\"I'm 37 now, I've just seen the Cats movie.\"",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482592486736687104%252Fx1_tK71M_bigger.jpg",
-    },
-    {
         url: "https://twitter.com/dancingofpens/status/1207468526258270209",
         author: "Camryn Garrett FRIDAY I'M IN LOVE OUT NOW (@dancingofpens)",
         retweets: 43315,
@@ -3810,14 +3794,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         content: "My beautiful daughter poop love her very much",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FEvRkYkEVIAIXyWb.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1398509855703375879%252FCK7sAPUh_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/AsteadWH/status/1367488516574371847",
-        author: "Astead (@AsteadWH)",
-        retweets: 853,
-        likes: 4959,
-        content: "The Senate getting bills from the House",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408100807996755972%252FJfQ5VMQf_bigger.jpg",
     },
     {
         url: "https://twitter.com/andizeisler/status/1367578845457444869",
@@ -6483,14 +6459,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F956163595607224320%252F-3SNN-qj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/butterwolf/status/545481878523088896",
-        author: "anthony (@butterwolf)",
-        retweets: 5270,
-        likes: 10883,
-        content: "MEN REPLYING TO WOMEN ONLINE",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1388976204687069189%252FyH-021aR_bigger.jpg",
-    },
-    {
         url: "https://twitter.com/thepunningman/status/552111533787205632",
         author: "Sean Leahy (@thepunningman)",
         retweets: 9188,
@@ -7899,14 +7867,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1602555157232877569%252FSmjFq97z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lilghosthands/status/732675903835103233",
-        author: "Dalton Day (@lilghosthands)",
-        retweets: 19,
-        likes: 44,
-        content: "when u think ur gonna get stuff done but then remember ur depressed",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1555700838496083974%252FkIfRjX_n_bigger.jpg",
-    },
-    {
         url: "https://twitter.com/PDLComics/status/733431319330312193",
         author: "poorly drawn lines (@PDLComics)",
         retweets: 108,
@@ -8711,14 +8671,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F587793752917471233%252FSbc41yzu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephcd/status/818938867415969793",
-        author: "Steph Davidson (@stephcd)",
-        retweets: 1396,
-        likes: 2894,
-        content: "here is megagroup Backstreet Boys turning into a Linksys router",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
-    },
-    {
         url: "https://twitter.com/sarahjeong/status/821471790035677184",
         author: "sarah jeong (@sarahjeong)",
         retweets: 115,
@@ -9247,14 +9199,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         content: "My dog's ear is like the perfect picture to show your hairdresser if you want beachy waves and caramel highlights",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDDH9cFuW0AE7iX3.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1564721680571932683%252F_bbh43cI_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/stephcd/status/880512544934432768",
-        author: "Steph Davidson (@stephcd)",
-        retweets: 79,
-        likes: 484,
-        content: "still cant believe data vis rejected my 404 page design",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
         url: "https://twitter.com/bransonreese/status/880637097165697026",
@@ -9993,14 +9937,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DxpeDon/status/927648342359887873",
-        author: "woj but nigga (@DxpeDon)",
-        retweets: 33333,
-        likes: 64213,
-        content: "My white neighbor talking about some “man i wonder how our ancestors were able to keep up with their yards when these tools werent invented”",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695407278072164352%252FUUyhJUhh_bigger.jpg",
-    },
-    {
         url: "https://twitter.com/minakimes/status/928029234001428480",
         author: "Mina Kimes (@minakimes)",
         retweets: 6670,
@@ -10056,14 +9992,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         likes: 10917,
         content: "hey kids. i’m here to tell you about a cool french ‘app’ invented over 200 years ago, called the guillotine",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F756837177229705216%252Fm3JmMcwT_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/adampknave/status/931632953062391808",
-        author: "Adam P. Knave (@adampknave)",
-        retweets: 50959,
-        likes: 109281,
-        content: "Thanks, accidentally hysterical ad campaign gif making person. I'll never be able to read Artisanal \"normally\" again.",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1181322119495348226%252FaIkD34yQ_bigger.jpg",
     },
     {
         url: "https://twitter.com/alicegoldfuss/status/932660162174709760",
@@ -10469,14 +10397,6 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         likes: 118,
         content: "For those of us unable to see the briefing, did Jackson say what Trump’s height is?",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1648723427891478531%252F4ZY_MwpB_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/NeerajKA/status/953392321525141504",
-        author: "Neeraj K Agrawal (@NeerajKA)",
-        retweets: 1251,
-        likes: 3962,
-        content: "trying to enjoy crypto wealth",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649930133925425152%252FAS-hyi4h_bigger.jpg",
     },
     {
         url: "https://twitter.com/burgerkrang/status/953430272808292352",
