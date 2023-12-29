@@ -301,6 +301,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 2310,
         likes: 6567,
         content: "I just took a picture of my 3 year old and she said \n\n“Send it to me” \n\nTo👏🏽Where?👏🏽",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FDhC3RqGWkAA_awx.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1434134591598702597%252FtP4A9hFn_bigger.jpg",
     },
     {
@@ -2708,6 +2709,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 60,
         likes: 1250,
         content: "\"I'm 37 now, I've just seen the Cats movie.\"",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FEMG9aL6UUAE6eKG.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482592486736687104%252Fx1_tK71M_bigger.jpg",
     },
     {
@@ -3817,6 +3819,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 853,
         likes: 4959,
         content: "The Senate getting bills from the House",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FEvpLjfPXYAM4Uta.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408100807996755972%252FJfQ5VMQf_bigger.jpg",
     },
     {
@@ -6488,6 +6491,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 5270,
         likes: 10883,
         content: "MEN REPLYING TO WOMEN ONLINE",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FB5Hw2gQIUAAva0U.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1388976204687069189%252FyH-021aR_bigger.jpg",
     },
     {
@@ -7904,6 +7908,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 19,
         likes: 44,
         content: "when u think ur gonna get stuff done but then remember ur depressed",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FCir8xtxWEAATN7g.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1555700838496083974%252FkIfRjX_n_bigger.jpg",
     },
     {
@@ -8716,6 +8721,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1396,
         likes: 2894,
         content: "here is megagroup Backstreet Boys turning into a Linksys router",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FC110eyKWgAEdkXo.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
@@ -9254,6 +9260,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 79,
         likes: 484,
         content: "still cant believe data vis rejected my 404 page design",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FDDg1ZMPXsAAz4lR.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
@@ -9998,6 +10005,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 33333,
         likes: 64213,
         content: "My white neighbor talking about some “man i wonder how our ancestors were able to keep up with their yards when these tools werent invented”",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FDN-rPJQV4AALRI6.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695407278072164352%252FUUyhJUhh_bigger.jpg",
     },
     {
@@ -10063,6 +10071,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 50959,
         likes: 109281,
         content: "Thanks, accidentally hysterical ad campaign gif making person. I'll never be able to read Artisanal \"normally\" again.",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FDO3TNaVVoAAt2Ju.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1181322119495348226%252FaIkD34yQ_bigger.jpg",
     },
     {
@@ -10476,6 +10485,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         retweets: 1251,
         likes: 3962,
         content: "trying to enjoy crypto wealth",
+        image: "https://tyrone-sudeium.github.io/aethebot-static/res/video.twimg.com2Ftweet_video2FDTshMWgXUAEf20l.gif",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649930133925425152%252FAS-hyi4h_bigger.jpg",
     },
     {
