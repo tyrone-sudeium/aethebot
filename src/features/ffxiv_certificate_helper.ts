@@ -16,6 +16,8 @@ import * as Discord from "discord.js"
 import { ACCESSORIES, MAJORS, MINORS, ITEM_NAMES } from "../model/ffxiv-items"
 import { getJSON, queryStringFromObject } from "../util/http"
 import { log } from "../log"
+import { DataCenter, isDataCenter } from "../model/ffxiv-datacenters"
+import { stupidTitleCase } from "../util/string_stuff"
 import { GlobalFeature, MessageContext } from "./feature"
 
 
@@ -40,25 +42,6 @@ interface PriceInfo {
     price: number
     worldName: string
     itemId: number
-}
-
-const DATA_CENTERS = [
-    "aether",
-    "crystal",
-    "dynamis",
-    "primal",
-    "chaos",
-    "light",
-    "elemental",
-    "gaia",
-    "mana",
-    "meteor",
-    "materia",
-] as const
-type DataCenter = typeof DATA_CENTERS[number]
-
-function isDataCenter(str: string): str is DataCenter {
-    return (DATA_CENTERS as readonly string[]).includes(str)
 }
 
 function certificateValue(itemId: number): number {
@@ -87,15 +70,46 @@ function formatPriceInfo(info: PriceInfo): string {
     return `${price} on ${info.worldName} (${perCert} per cert)`
 }
 
-function stupidTitleCase(str: string): string {
-    return str[0].toUpperCase() + str.slice(1)
-}
-
 function isPriceInfoEqual(p1: PriceInfo, p2: PriceInfo): boolean {
     return p1.itemName === p2.itemName && p1.price === p2.price && p1.worldName === p2.worldName
 }
 
 export class FFXIVCertificateFeature extends GlobalFeature {
+    public async handleInteraction(interaction: Discord.Interaction<Discord.CacheType>): Promise<void> {
+        if (!interaction.isChatInputCommand()) {
+            return
+        }
+        const dc = interaction.options.getString("datacentre")
+        if (!dc) {
+            // This is required? lul.
+            await interaction.reply({content: "⚠️ Missing data centre. Try `/xiv certificates [dc]`", ephemeral: true})
+            return
+        }
+        if (!isDataCenter(dc)) {
+            await interaction.reply({content: `⚠️ \`${dc}\` is not a recognised data centre`, ephemeral: true})
+            return
+        }
+
+        try {
+            const prices = await this.getPricesFromUniversalis(dc)
+            const embeds = prices.map((priceInfo, index) => {
+                const embed = new Discord.EmbedBuilder()
+                const thumb = `https://universalis-ffxiv.github.io/universalis-assets/icon2x/${priceInfo.itemId}.png`
+                embed.setAuthor({
+                    name: `#${index+1} ${priceInfo.itemName}`,
+                    iconURL: thumb,
+                    url: `https://universalis.app/market/${priceInfo.itemId}`,
+                })
+                embed.setFooter({text: formatPriceInfo(priceInfo)})
+                return embed
+            })
+            interaction.reply({embeds, ephemeral: true})
+        } catch(err) {
+            log(`ffxiv_certificate_helper error: ${err}`, "always")
+            interaction.reply({content: "oops something's cooked. check the logs", ephemeral: true})
+        }
+    }
+
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
 

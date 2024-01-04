@@ -38,6 +38,7 @@ import { ReactionRolesFeature } from "./reaction_roles"
 import { AmaroQuestFeature } from "./amaroquest"
 import { FFXIVCertificateFeature } from "./ffxiv_certificate_helper"
 import { MemeFeature } from "./memegen/meme"
+import { FFXIVSlashCommandsFeature } from "./ffxiv_slash_commands"
 
 export { GlobalFeature }
 
@@ -67,6 +68,7 @@ export const allFeatures: GlobalFeatureConstructor<GlobalFeature>[] = [
     AmaroQuestFeature,
     FFXIVCertificateFeature,
     MemeFeature,
+    FFXIVSlashCommandsFeature,
 ]
 
 export const allServerFeatures: ServerFeatureConstructor<ServerFeature>[] = [
