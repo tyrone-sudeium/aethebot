@@ -87,8 +87,14 @@ jobs:
           SSH_KEY: ${{ secrets.CHARON_SSH_KEY }}
         run: |
           mkdir -p ~/.ssh
+          echo 1
           MACHINE_IP="$(tailscale ip -4 charon)"
+          echo 2
           ssh-keyscan -t ed25519 $MACHINE_IP >> ~/.ssh/known_hosts
+          echo 3
           printf "%s" "$SSH_KEY" > ~/.ssh/key
+          echo 4
           chmod 600 ~/.ssh/key
+          echo 5
           ssh -i ~/.ssh/key tyrone@$MACHINE_IP /home/tyrone/aethebot/restart.sh
+          echo 6
