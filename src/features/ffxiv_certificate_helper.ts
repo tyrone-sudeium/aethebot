@@ -89,7 +89,7 @@ export class FFXIVCertificateFeature extends GlobalFeature {
             await interaction.reply({content: `⚠️ \`${dc}\` is not a recognised data centre`, ephemeral: true})
             return
         }
-
+        await interaction.deferReply({ephemeral: true})
         try {
             const prices = await this.getPricesFromUniversalis(dc)
             const embeds = prices.map((priceInfo, index) => {
@@ -103,10 +103,10 @@ export class FFXIVCertificateFeature extends GlobalFeature {
                 embed.setFooter({text: formatPriceInfo(priceInfo)})
                 return embed
             })
-            interaction.reply({embeds, ephemeral: true})
+            interaction.editReply({embeds})
         } catch(err) {
             log(`ffxiv_certificate_helper error: ${err}`, "always")
-            interaction.reply({content: "oops something's cooked. check the logs", ephemeral: true})
+            interaction.editReply({content: "⚠️ Oops something's cooked. Check the logs."})
         }
     }
 
