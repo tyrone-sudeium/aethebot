@@ -36,6 +36,7 @@
     "@napi-rs/canvas": "^0.1",
     "@types/ws": "^7.2.1",
     "@tyrone-sudeium/napi-gif-encoder": "^0.0.1",
+    "@xivapi/nodestone": "^0.2.6",
     "anchorme": "^1.1.2",
     "array-flatten": "^3.0.0",
     "chrono-node": "^2.3.1",

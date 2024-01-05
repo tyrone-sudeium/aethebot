@@ -12,8 +12,8 @@
  */
 
 import * as Discord from "discord.js"
-import { getJSON } from "../util/http"
 import { log } from "../log"
+import { XIVCharacter, getCharacterExpData } from "../util/lodestone/parser"
 import { GlobalFeature, MessageContext } from "./feature"
 
 const EXP_CURVE = [
@@ -143,19 +143,6 @@ const TOTAL_EXP = Object.entries(ADVENTURER_CLASSES)
 
 const NUMBER_FORMATTER = new Intl.NumberFormat("en-US")
 
-interface XIVAPICharacter {
-    Character: {
-        Avatar: string
-        ID: number
-        Name: string
-        ClassJobs: {
-            ClassID: number
-            Level: number
-            ExpLevel: number
-        }[]
-    }
-}
-
 const ORDINALS = ["First", "Second", "Third", "Fourth", "Fifth"]
 const COLORS = ["#FFD700", "#C0C0C0", "#804000", "#0000A0", "#0000A0"] as Discord.HexColorString[]
 
@@ -172,24 +159,24 @@ interface History {
     [charId: string]: number
 }
 
-function totalExpForToon(toon: XIVAPICharacter): number {
+function totalExpForToon(toon: XIVCharacter): number {
     let exp = 0
     const classesCounted: Set<number> = new Set()
-    for (const job of toon.Character.ClassJobs) {
+    for (const job of toon.character.classJobs) {
         // Dumb Arcanist workaround
-        if (classesCounted.has(job.ClassID)) {
+        if (classesCounted.has(job.classId)) {
             continue
         }
-        const cls = ADVENTURER_CLASSES[job.ClassID]
+        const cls = ADVENTURER_CLASSES[job.classId]
         if (!cls) {
             continue
         }
-        if (job.Level === 0) {
+        if (job.level === 0) {
             continue
         }
-        const earned = expEarned(job.Level, cls.startsAt)
-        exp = exp + earned + job.ExpLevel
-        classesCounted.add(job.ClassID)
+        const earned = expEarned(job.level, cls.startsAt)
+        exp = exp + earned + job.expLevel
+        classesCounted.add(job.classId)
     }
     return exp
 }
@@ -290,17 +277,17 @@ export class AmaroQuestFeature extends GlobalFeature {
                 return
             }
             let leaderboard: LeaderboardData[] = []
-            const dataPromises: Promise<XIVAPICharacter>[] = amaroQuesters
-                .map(id => getJSON(`https://xivapi.com/character/${id}`))
+            const dataPromises: Promise<XIVCharacter>[] = amaroQuesters
+                .map(id => getCharacterExpData(id))
             try {
                 const data = await Promise.all(dataPromises)
                 for (const charData of data) {
-                    const name = charData.Character.Name
+                    const name = charData.character.name
                     const cumulativeExp = totalExpForToon(charData)
-                    const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.Character.ID}/`
-                    const avatarURL = charData.Character.Avatar
-                    const prevExp = history[charData.Character.ID] ?? null
-                    history[charData.Character.ID] = cumulativeExp
+                    const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.character.id}/`
+                    const avatarURL = charData.character.avatar
+                    const prevExp = history[charData.character.id] ?? null
+                    history[charData.character.id] = cumulativeExp
                     leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp})
                 }
             } catch (error) {
