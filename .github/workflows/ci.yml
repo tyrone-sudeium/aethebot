@@ -90,7 +90,7 @@ jobs:
           echo 1
           MACHINE_IP="$(tailscale ip -4 charon)"
           echo 2
-          ssh-keyscan -v -t ed25519 "$MACHINE_IP" >> ~/.ssh/known_hosts
+          for i in $(seq 1 5); do ssh-keyscan -v -t ed25519 "$MACHINE_IP" >> ~/.ssh/known_hosts && s=0 && break || s=$? && sleep 5; done; (exit $s)
           echo 3
           printf "%s" "$SSH_KEY" > ~/.ssh/key
           echo 4
