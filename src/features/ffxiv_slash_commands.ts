@@ -30,6 +30,11 @@ export class FFXIVSlashCommandsFeature extends GlobalFeature {
                             .setDescription("Data centre")
                             .setRequired(true)
                             .setChoices(...DATA_CENTERS.map(dc => ({ name: stupidTitleCase(dc), value: dc })))
+                    )
+                    .addBooleanOption(option =>
+                        option.setName("public")
+                            .setDescription("Should I post the results publicly?")
+                            .setRequired(false)
                     ),
             ),
     ]

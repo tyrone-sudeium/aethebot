@@ -89,7 +89,8 @@ export class FFXIVCertificateFeature extends GlobalFeature {
             await interaction.reply({content: `⚠️ \`${dc}\` is not a recognised data centre`, ephemeral: true})
             return
         }
-        await interaction.deferReply({ephemeral: true})
+        const ephemeral = !(interaction.options.getBoolean("public") ?? false)
+        await interaction.deferReply({ephemeral})
         try {
             const prices = await this.getPricesFromUniversalis(dc)
             const embeds = prices.map((priceInfo, index) => {
