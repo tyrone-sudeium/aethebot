@@ -153,6 +153,7 @@ interface LeaderboardData {
     avatarURL: string
     position: string
     prevExp: number | null
+    characterId: number
 }
 
 interface History {
@@ -231,23 +232,128 @@ export class AmaroQuestFeature extends GlobalFeature {
         return false
     }
 
-    private async getHistory(context: MessageContext<this>): Promise<History> {
-        if (context.message.channel.type === Discord.ChannelType.DM || !context.message.guild) {
-            return {}
+    public async handleInteraction(interaction: Discord.Interaction<Discord.CacheType>): Promise<void> {
+        if (!interaction.isChatInputCommand()) {
+            return
         }
-        const redisKey = `aq:${context.message.guild.id}:history`
+        if (interaction.options.getSubcommandGroup() !== "amaroquest") {
+            return
+        }
+        if (interaction.channel?.isDMBased()) {
+            interaction.reply("⚠️ amaroquest is unavailable in DMs.")
+            return
+        }
+        if (!interaction.guildId) {
+            interaction.reply("⚠️ amaroquest only available in a server text channel.")
+            return
+        }
+        const guildId = interaction.guildId
+        const amaroQuestersStr = await this.bot.brain.get(`aq:${guildId}`) ?? "[]"
+        const amaroQuesters: number[] = JSON.parse(amaroQuestersStr)
+        if (interaction.options.getSubcommand() === "show") {
+            const history = await this.getHistory(guildId)
+            interaction.deferReply()
+            let leaderboard: LeaderboardData[] = []
+            try {
+                leaderboard = await this.generateLeaderboard(amaroQuesters, history)
+            } catch (error) {
+                log(`amaroquest error: ${error}`, "always")
+                interaction.reply({
+                    content: "⚠️ internal error: probably the lodestone is down, or the bot needs an update.",
+                    ephemeral: true,
+                })
+                return
+            }
+            for (const entry of leaderboard) {
+                history[entry.characterId] = history.cumulativeExp
+            }
+            await this.setHistory(history, guildId)
+            const embeds = leaderboard.map(embedForLeaderboardData)
+            interaction.editReply({embeds})
+            return
+        }
+
+        const characterId = interaction.options.getInteger("id", true)
+
+        if (interaction.options.getSubcommand() === "add") {
+            if (amaroQuesters.length >= 5) {
+                interaction.reply({
+                    content: "⚠️ I can only track a maximum of 5 amaroquesters per discord server",
+                    ephemeral: true,
+                })
+                return
+            }
+            const idx = amaroQuesters.indexOf(characterId)
+            if (idx < 0) {
+                // Sanity check the character ID on the lodestone
+                try {
+                    await getCharacterExpData(characterId)
+                } catch (error) {
+                    interaction.reply({
+                        content: `⚠️ Lodestone failed to verify character with id \`${characterId}\`: ` +
+                            "double check that this is a valid character.",
+                        ephemeral: true,
+                    })
+                    return
+                }
+                amaroQuesters.push(characterId)
+                await this.bot.brain.set(`aq:${guildId}`, JSON.stringify(amaroQuesters))
+            }
+            interaction.reply({
+                content: "ok",
+                ephemeral: true,
+            })
+            return
+        }
+
+        if (interaction.options.getSubcommand() === "remove") {
+            const idx = amaroQuesters.indexOf(characterId)
+            if (idx < 0) {
+                interaction.reply({
+                    content: `⚠️ character with id \`${characterId}\`` +
+                        "is not on the amaroquest leaderboard in this channel",
+                    ephemeral: true,
+                })
+                return
+            }
+            amaroQuesters.splice(idx, 1)
+            await this.bot.brain.set(`aq:${guildId}`, JSON.stringify(amaroQuesters))
+            interaction.reply({
+                content: "ok",
+                ephemeral: true,
+            })
+        }
+    }
+
+    private async getHistory(guildId: string): Promise<History> {
+        const redisKey = `aq:${guildId}:history`
         const historyStr = await this.bot.brain.get(redisKey) ?? "{}"
         const history: History = JSON.parse(historyStr)
         return history
     }
 
-    private async setHistory(history: History, context: MessageContext<this>): Promise<void> {
-        if (context.message.channel.type === Discord.ChannelType.DM || !context.message.guild) {
-            return
-        }
-        const redisKey = `aq:${context.message.guild.id}:history`
+    private async setHistory(history: History, guildId: string): Promise<void> {
+        const redisKey = `aq:${guildId}:history`
         const historyStr = JSON.stringify(history)
         await this.bot.brain.set(redisKey, historyStr)
+    }
+
+    private async generateLeaderboard(amaroQuesters: number[], history: History): Promise<LeaderboardData[]> {
+        let leaderboard: LeaderboardData[] = []
+        const dataPromises: Promise<XIVCharacter>[] = amaroQuesters
+            .map(id => getCharacterExpData(id))
+        const data = await Promise.all(dataPromises)
+        for (const charData of data) {
+            const name = charData.character.name
+            const cumulativeExp = totalExpForToon(charData)
+            const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.character.id}/`
+            const avatarURL = charData.character.avatar
+            const prevExp = history[charData.character.id] ?? null
+            const characterId = charData.character.id
+            leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp, characterId})
+        }
+        leaderboard = sortLeaderboard(leaderboard)
+        return leaderboard
     }
 
     private async handleMessageAsync(context: MessageContext<this>): Promise<void> {
@@ -269,7 +375,7 @@ export class AmaroQuestFeature extends GlobalFeature {
 
         const amaroQuestersStr = await this.bot.brain.get(`aq:${context.message.guild.id}`) ?? "[]"
         const amaroQuesters: number[] = JSON.parse(amaroQuestersStr)
-        const history = await this.getHistory(context)
+        const history = await this.getHistory(context.message.guild.id)
 
         if (tokens.length < 2) {
             if (amaroQuesters.length === 0) {
@@ -277,26 +383,17 @@ export class AmaroQuestFeature extends GlobalFeature {
                 return
             }
             let leaderboard: LeaderboardData[] = []
-            const dataPromises: Promise<XIVCharacter>[] = amaroQuesters
-                .map(id => getCharacterExpData(id))
             try {
-                const data = await Promise.all(dataPromises)
-                for (const charData of data) {
-                    const name = charData.character.name
-                    const cumulativeExp = totalExpForToon(charData)
-                    const url = `https://na.finalfantasyxiv.com/lodestone/character/${charData.character.id}/`
-                    const avatarURL = charData.character.avatar
-                    const prevExp = history[charData.character.id] ?? null
-                    history[charData.character.id] = cumulativeExp
-                    leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp})
-                }
+                leaderboard = await this.generateLeaderboard(amaroQuesters, history)
             } catch (error) {
                 log(`amaroquest error: ${error}`, "always")
                 context.sendReply("oops something's cooked. check the logs")
                 return
             }
-            await this.setHistory(history, context)
-            leaderboard = sortLeaderboard(leaderboard)
+            for (const entry of leaderboard) {
+                history[entry.characterId] = history.cumulativeExp
+            }
+            await this.setHistory(history, context.message.guild.id)
             const embeds = leaderboard.map(embedForLeaderboardData)
             await context.sendReply("", embeds)
             return
@@ -320,6 +417,14 @@ export class AmaroQuestFeature extends GlobalFeature {
             }
             const idx = amaroQuesters.indexOf(charId)
             if (idx < 0) {
+                // Sanity check the character ID on the lodestone
+                try {
+                    getCharacterExpData(charId)
+                } catch (error) {
+                    context.sendNegativeReply(`⚠️ Lodestone failed to verify character with id \`${charId}\`: ` +
+                        "double check that this is a valid character.")
+                    return
+                }
                 amaroQuesters.push(charId)
                 await this.bot.brain.set(`aq:${context.message.guild.id}`, JSON.stringify(amaroQuesters))
             }

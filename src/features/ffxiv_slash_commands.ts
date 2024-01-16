@@ -14,6 +14,7 @@
 import * as Discord from "discord.js"
 import { DATA_CENTERS } from "../model/ffxiv-datacenters"
 import { stupidTitleCase } from "../util/string_stuff"
+import { AmaroQuestFeature } from "./amaroquest"
 import { GlobalFeature, SlashCommand } from "./feature"
 import { FFXIVCertificateFeature } from "./ffxiv_certificate_helper"
 
@@ -36,11 +37,52 @@ export class FFXIVSlashCommandsFeature extends GlobalFeature {
                             .setDescription("Should I post the results publicly?")
                             .setRequired(false)
                     ),
+            )
+            .addSubcommandGroup(group =>
+                group.setName("amaroquest")
+                    .setDescription("Levelling leaderboard")
+                    .addSubcommand(subcommand =>
+                        subcommand.setName("show")
+                            .setDescription("Shows the levelling leaderboard")
+                    )
+                    .addSubcommand(subcommand =>
+                        subcommand.setName("add")
+                            .setDescription("Add a character to the leaderboard")
+                            .addIntegerOption(option =>
+                                option.setName("id")
+                                    .setDescription("Lodestone ID of character")
+                                    .setMaxValue(4294967295)
+                                    .setMinValue(0)
+                                    .setRequired(true)
+                            )
+                    )
+                    .addSubcommand(subcommand =>
+                        subcommand.setName("remove")
+                            .setDescription("Remove a character from the levelling leaderboard")
+                            .addIntegerOption(option =>
+                                option.setName("id")
+                                    .setDescription("Lodestone ID of character")
+                                    .setMaxValue(4294967295)
+                                    .setMinValue(0)
+                                    .setRequired(true)
+                            )
+                    )
             ),
     ]
 
     public async handleInteraction(interaction: Discord.Interaction<Discord.CacheType>): Promise<void> {
-        if (interaction.isChatInputCommand() && interaction.options.getSubcommand() === "certificates") {
+        if (interaction.isChatInputCommand() && interaction.options.getSubcommandGroup() === "amaroquest") {
+            const feature = this.bot.loadedFeatureForName<AmaroQuestFeature>("AmaroQuestFeature")
+            if (!feature) {
+                await interaction.reply({
+                    content: "⚠️ amaroquest feature not loaded in this bot.",
+                    ephemeral: true,
+                })
+                return
+            }
+            feature.handleInteraction(interaction)
+            return
+        } else if (interaction.isChatInputCommand() && interaction.options.getSubcommand() === "certificates") {
             const feature = this.bot.loadedFeatureForName<FFXIVCertificateFeature>("FFXIVCertificateFeature")
             if (!feature) {
                 await interaction.reply({
