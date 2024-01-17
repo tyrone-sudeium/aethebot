@@ -21,6 +21,7 @@ Inside this file, paste the token like this:
 
 ```
 DISCORD_TOKEN=[token]
+DEFAULT_ADMIN_USER=[your discord user ID]
 ```
 
 To run, recommend using Visual Studio Code, since it'll use the `development.env` file.
@@ -41,6 +42,7 @@ Inside this file, paste the token like this:
 
 ```
 DISCORD_TOKEN=[token]
+DEFAULT_ADMIN_USER=[your discord user ID]
 ```
 
 Run with Bun:
@@ -49,10 +51,28 @@ Run with Bun:
 bun run src/index.ts --brainPath ./brain.json
 ```
 
-Not working (as of 0.7.0):
+Not working (as of 1.0.20):
 
 - Voice Noise (missing `node:dgram` `createSocket` support): [oven-sh/bun#1630](https://github.com/oven-sh/bun/issues/1630)
-- Debugger: [oven-sh/bun#1106](https://github.com/oven-sh/bun/issues/1106)
+
+### Initial Setup
+
+Make sure you have `DEFAULT_ADMIN_USER` set to your Discord user ID, you can find it
+by enabling Developer Mode in Discord, then right clicking yourself in the user list,
+and clicking Copy User ID.
+
+Start the bot using the instructions above. When you do, it will print out a URL into
+standard output that you can use to join the bot to a server. You must have permission
+on the server to do this. Finally, once you've joined the bot to a server, send it a 
+direct message containing exactly: `admin deploy commands` to deploy the slash
+commands. You will need to re-run this any time you change the slash commands.
+
+### Can You Join My Server?
+
+AetheBot is not a hosted service. However, it is open source, and you are free to
+use it in any way as specified in the license, including hosting your own copy of
+the bot. I recommend forking the repo, and editing `src/index.ts` to change the
+features that get loaded into the bot to better suit your specific needs.
 
 ## Debugging in Visual Studio Code
 
