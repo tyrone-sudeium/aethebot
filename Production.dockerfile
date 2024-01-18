@@ -6,7 +6,8 @@ WORKDIR /app
 # Rely on .dockerignore to remove irrelevant stuff
 ADD . .
 
-RUN yarn install \
+RUN corepack enable \
+    && yarn install \
     && yarn build -p tsconfig.prod.json
 
 # Run stage. The smallest possible contents that can still run the app.
@@ -16,20 +17,23 @@ WORKDIR /app
 
 ARG COMMIT_SHA=""
 ENV SOURCE_VERSION=${COMMIT_SHA}
+ENV YARN_NODE_LINKER="node-modules"
 
 # Add ffmpeg, runtime requirement for reddit/tiktok
 # NOTE: Adds ~100MB :(
 # RUN apk --no-cache add ffmpeg
 
-# Copy the built .js files from the previous stage.
+# Copy the built .js and yarn detritus from the previous stage.
 COPY --from=0 /app/dist /app/dist
+COPY --from=builder /app/.yarn ./.yarn
 
 # Add the bare minimum files required to bootstrap the app.
 COPY public ./public
 COPY res ./res
-COPY package.json yarn.lock ./
+COPY package.json yarn.lock .yarnrc.yml .pnp.cjs ./
 
-RUN yarn install --production \
+RUN corepack enable \
+    && yarn workpaces focus --production \
     && yarn cache clean
 
 CMD ["yarn", "start"]

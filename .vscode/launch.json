@@ -9,12 +9,14 @@
       "request": "launch",
       "name": "Launch Using System Node",
       "program": "${workspaceFolder}/dist/index.js",
-      "preLaunchTask": "tsc: build - tsconfig.json",
+      "preLaunchTask": "npm: build",
       "envFile": "${workspaceFolder}/development.env",
       "args": ["--brainPath", "./brain.json"],
       "outFiles": [
         "${workspaceFolder}/dist/**/*.js"
-      ]
+      ],
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["node", "--inspect=0.0.0.0:9229"],
     },
     {
       "type": "node",

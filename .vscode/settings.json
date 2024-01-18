@@ -1,7 +1,14 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    },
-    "eslint.alwaysShowStatus": true
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "npm.packageManager": "yarn"
 }
