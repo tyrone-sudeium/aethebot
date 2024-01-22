@@ -4,11 +4,15 @@
 
 ### Using Node.js
 
-Install [Yarn Classic](https://classic.yarnpkg.com) (1.x). Yarn is a hard
-*requirement* for AetheBot, `npm` will not work, and support for `npm` is not in
-scope for this project.
+The current required version of Node.js is specified in `.node-version`.
 
-Current required version of Node.js is specified in `.node-version`.
+This project uses modern Yarn, which first requires corepack:
+
+```sh
+corepack enable
+```
+
+Now you can run `yarn install` as normal to setup your dependencies.
 
 Create a Discord Bot account 
 [here](https://discordapp.com/developers/applications/me).
@@ -76,7 +80,8 @@ features that get loaded into the bot to better suit your specific needs.
 
 ## Debugging in Visual Studio Code
 
-Currently only works with Node.js.
+Currently only works with Node.js. Always make sure your TypeScript version is
+set to "Use Workspace Version", because Yarn requires a patched TypeScript.
 
 ### With Node Installed
 

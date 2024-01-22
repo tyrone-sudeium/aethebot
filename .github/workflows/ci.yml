@@ -19,20 +19,31 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         version: 18.14.2
+  
+    - name: Yarn config
+      id: yarn-config
+      shell: bash
+      env:
+        YARN_ENABLE_GLOBAL_CACHE: 'false'
+      run: |
+        echo "CACHE_FOLDER=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
 
     - uses: actions/cache@v1
-      name: Cache node_modules
-      id: cache-node-modules
+      name: Cache yarn
+      id: yarn-download-cache
       with:
-        path: node_modules
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}-node_modules
-
-    - name: Yarn
-      if: steps.cache-node-modules.outputs.cache-hit != 'true'
-      run: yarn install
+        path: ${{ steps.yarn-config.outputs.CACHE_FOLDER }}
+        key: yarn-download-cache-${{ hashFiles('./yarn.lock', './.yarnrc.yml') }}
+        restore-keys: |
+          yarn-download-cache
 
     - name: Build and Lint
-      run: yarn typecheck
+      env:
+        YARN_ENABLE_GLOBAL_CACHE: 'false'
+        YARN_ENABLE_MIRROR: 'false'
+      run: |
+        yarn install
+        yarn typecheck
   
   build:
     runs-on: ubuntu-latest
@@ -42,31 +53,48 @@ jobs:
       packages: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      - name: Login to GHCR
-        uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Login to GHCR
+      uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@dbef88086f6cef02e264edb7dbf63250c17cef6c
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+    - name: Extract metadata (tags, labels) for Docker
+      id: meta
+      uses: docker/metadata-action@dbef88086f6cef02e264edb7dbf63250c17cef6c
+      with:
+        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@4a13e500e55cf31b7a5d59a38ab2040ab0f42f56
-        with:
-          context: .
-          file: Production.dockerfile
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          build-args: COMMIT_SHA=${{ github.sha }}
+    - name: Yarn config
+      id: yarn-config
+      shell: bash
+      env:
+        YARN_ENABLE_GLOBAL_CACHE: 'false'
+      run: |
+        echo "CACHE_FOLDER=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+
+    - uses: actions/cache@v1
+      name: Cache yarn
+      id: yarn-download-cache
+      with:
+        path: ${{ steps.yarn-config.outputs.CACHE_FOLDER }}
+        key: yarn-download-cache-${{ hashFiles('./yarn.lock', './.yarnrc.yml') }}
+        restore-keys: |
+          yarn-download-cache
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@4a13e500e55cf31b7a5d59a38ab2040ab0f42f56
+      with:
+        context: .
+        file: Production.dockerfile
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+        build-args: COMMIT_SHA=${{ github.sha }}
   deploy:
     runs-on: ubuntu-latest
     name: Deploy to Charon
