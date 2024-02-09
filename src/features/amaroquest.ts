@@ -265,7 +265,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                 return
             }
             for (const entry of leaderboard) {
-                history[entry.characterId] = history.cumulativeExp
+                history[entry.characterId] = entry.cumulativeExp
             }
             await this.setHistory(history, guildId)
             const embeds = leaderboard.map(embedForLeaderboardData)
@@ -391,7 +391,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                 return
             }
             for (const entry of leaderboard) {
-                history[entry.characterId] = history.cumulativeExp
+                history[entry.characterId] = entry.cumulativeExp
             }
             await this.setHistory(history, context.message.guild.id)
             const embeds = leaderboard.map(embedForLeaderboardData)
