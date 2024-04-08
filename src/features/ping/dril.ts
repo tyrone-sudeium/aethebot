@@ -1028,6 +1028,12 @@ const CONTENT: CursedDrilContent[] = [
         likes: 38200,
         id: "841892608788041732",
     },
+    {
+        content: "\"im not owned! im not owned!!\", i continue to insist as i slowly shrink and transform into a corn cob",
+        retweets: 33000,
+        likes: 63000,
+        id: "134787490526658561",
+    },
     NO,
     NEVER,
 ].concat(NASA)
