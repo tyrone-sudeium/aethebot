@@ -29,7 +29,7 @@ See section below.
 
 ### Using Bun
 
-Install [Bun](https://bun.sh) 0.7.0 or newer.
+Install [Bun](https://bun.sh) 1.1.6 or newer.
 
 Create a Discord Bot account 
 [here](https://discordapp.com/developers/applications/me).

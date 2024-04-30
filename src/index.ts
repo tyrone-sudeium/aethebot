@@ -52,7 +52,7 @@ function makeRedisClient(redisUrl: string): Redis.RedisClient {
 }
 
 if (!argv.website) {
-    const token = process.env.DISCORD_TOKEN as string
+    const token = globalThis.process.env.DISCORD_TOKEN as string
 
     if (!token) {
         log("DISCORD_TOKEN missing from environment.", "always")
@@ -61,7 +61,7 @@ if (!argv.website) {
 
     let brain: Brain
 
-    const redisUrl = process.env.REDIS_URL as string
+    const redisUrl = globalThis.process.env.REDIS_URL as string
     if (redisUrl) {
         const redisClient = makeRedisClient(redisUrl)
         if (argv.bot) {
@@ -93,10 +93,10 @@ if (!argv.website) {
 }
 
 // Start the website
-const baseURL = process.env.WEBSITE_BASE_URL as string | null
+const baseURL = globalThis.process.env.WEBSITE_BASE_URL as string | null
 if (!argv.bot && baseURL) {
     let brain: Brain
-    const redisUrl = process.env.REDIS_URL as string
+    const redisUrl = globalThis.process.env.REDIS_URL as string
     if (redisUrl) {
         const redisClient = makeRedisClient(redisUrl)
         if (argv.website) {

@@ -65,3 +65,6 @@ development.env
 
 # wtf finder
 .DS_Store
+
+# Bun build
+build/

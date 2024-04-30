@@ -113,9 +113,18 @@ export class VinceMcMahonFeature extends GlobalFeature {
     }
 
     private newWorker(): Worker | NodeWorker.Worker {
-        const workerModule = Path.resolve(`${__dirname}/../../workers/vince.js`)
+        let workerModule = Path.resolve(`${__dirname}/../../workers/vince.js`)
         if (global.Worker) {
             // Web Worker API is available (Bun or Deno?)
+            if (process.versions.bun) {
+                if (process.env.NODE_ENV === "production") {
+                    // When running in bun on production the workers are alongside the index.js
+                    workerModule = "./workers/vince.js"
+                } else {
+                    // In dev, we can load the TypeScript src directly!
+                    workerModule = Path.resolve(`${__dirname}/../../workers/vince.ts`)
+                }
+            }
             const worker = new Worker(workerModule)
             worker.addEventListener("message", ev => {
                 this.onWorkerMessage(ev.data)
@@ -142,7 +151,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
     }
 
     private onWorkerError(error: string): void {
-        log(`vince worker error: ${error}`)
+        log(`vince worker error: ${error}`, "always")
         this.worker = this.newWorker()
     }
 
@@ -165,7 +174,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
 
     private onWorkerExit(): void {
         // workers shouldn't exit :(
-        log("vince: worker exited...")
+        log("vince: worker exited...", "always")
         this.worker = this.newWorker()
     }
 }
