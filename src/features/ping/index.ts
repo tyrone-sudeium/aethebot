@@ -59,6 +59,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 option.setName("prediction")
                     .setDescription("An optional prediction. Only LOSERS make predictions that match multiple tweets.")
                     .setRequired(false)
+                    .setMaxLength(1000)
             )
         ,
         new Discord.SlashCommandBuilder()
@@ -68,6 +69,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 option.setName("prediction")
                     .setDescription("An optional prediction. Good luck!")
                     .setRequired(false)
+                    .setMaxLength(1000)
             )
         ,
     ]

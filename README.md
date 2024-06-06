@@ -51,9 +51,11 @@ Run with Bun:
 bun run src/index.ts --brainPath ./brain.json
 ```
 
-Not working (as of 1.0.20):
+Not working (as of 1.1.6):
 
-- Voice Noise (missing `node:dgram` `createSocket` support): [oven-sh/bun#1630](https://github.com/oven-sh/bun/issues/1630)
+- Workers, at least when using `bun build`. Probably works if I package the
+code into the docker image, just like Node, but at that point why not just
+use Node?
 
 ### Initial Setup
 

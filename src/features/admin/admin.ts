@@ -154,7 +154,7 @@ export class AdminFeature extends GlobalFeature {
     }
 
     private async setupDefaultAdminUser(): Promise<void> {
-        const userId = process.env.DEFAULT_ADMIN_USER
+        const userId = globalThis.process.env.DEFAULT_ADMIN_USER
         if (!userId) {
             return
         }
