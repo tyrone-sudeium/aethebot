@@ -84,7 +84,7 @@ const EXP_CURVE = [
     1834000,
     1968000,
     2126000,
-    2137000,
+    2317000,
     2550000,
     2923000,
     3018000,
@@ -105,7 +105,17 @@ const EXP_CURVE = [
     9231000,
     9529000,
     10459000,
-    10838000,
+    10838000, //89->90
+    13278000, // 90->91
+    13659000, // 91->92
+    15348000, // 92->93
+    15912000, // 93->94
+    17534000, // 94->95
+    18263000, // 95->96
+    20322000, // 96->97
+    20957000, // 97->98
+    22979000, // 98->99
+    23789000, // 99->100
 ]
 
 const ADVENTURER_CLASSES: {[id: number]: {id: number; startsAt: number}} = {
@@ -127,6 +137,8 @@ const ADVENTURER_CLASSES: {[id: number]: {id: number; startsAt: number}} = {
     38: { id: 38, startsAt: 60 }, // DNC
     39: { id: 39, startsAt: 70 }, // RPR
     40: { id: 40, startsAt: 70 }, // SGE
+    41: { id: 41, startsAt: 80 }, // VPR
+    42: { id: 42, startsAt: 80 }, // PCT
 }
 
 function expEarned(level: number, startsAt = 1): number {
@@ -283,25 +295,24 @@ export class AmaroQuestFeature extends GlobalFeature {
                 })
                 return
             }
+            interaction.deferReply({ephemeral: true})
             const idx = amaroQuesters.indexOf(characterId)
             if (idx < 0) {
                 // Sanity check the character ID on the lodestone
                 try {
                     await getCharacterExpData(characterId)
                 } catch (error) {
-                    interaction.reply({
+                    interaction.editReply({
                         content: `⚠️ Lodestone failed to verify character with id \`${characterId}\`: ` +
                             "double check that this is a valid character.",
-                        ephemeral: true,
                     })
                     return
                 }
                 amaroQuesters.push(characterId)
                 await this.bot.brain.set(`aq:${guildId}`, JSON.stringify(amaroQuesters))
             }
-            interaction.reply({
+            interaction.editReply({
                 content: "ok",
-                ephemeral: true,
             })
             return
         }
