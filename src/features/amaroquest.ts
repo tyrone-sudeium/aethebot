@@ -150,7 +150,7 @@ function expEarned(level: number, startsAt = 1): number {
 }
 
 const TOTAL_EXP = Object.entries(ADVENTURER_CLASSES)
-    .map(([,cls]) => expEarned(90, cls.startsAt))
+    .map(([,cls]) => expEarned(100, cls.startsAt))
     .reduce((a,n) => a + n)
 
 const NUMBER_FORMATTER = new Intl.NumberFormat("en-US")
