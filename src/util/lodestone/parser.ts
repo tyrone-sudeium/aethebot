@@ -53,6 +53,8 @@ const CLASS_ID_MAP = new Map([
     ["dancer", 38],
     ["reaper", 39],
     ["sage", 40],
+    ["viper", 41],
+    ["pictomancer", 42],
     ["carpenter", 8],
     ["blacksmith", 9],
     ["armorer", 10],
