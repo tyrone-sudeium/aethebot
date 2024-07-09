@@ -31,19 +31,23 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         if (tokens.length < 2) {
             return false
         }
+
         const command = `${tokens[0]} ${tokens[1]}`
         if (!(/^deploy(ment)?\snotifications?$/.test(command))) {
             return false
         }
+
         if (tokens.length > 3) {
             context.sendReply("??")
             return false
         }
+
         if (tokens.length > 2 &&
             (tokens[2].toLowerCase() !== "on" && tokens[2].toLowerCase() !== "off")) {
             context.sendReply("??")
             return false
         }
+
         // Totally valid message now. It WILL get handled eventually by the
         // async method.
         this.handleMessageAsync(context)
@@ -84,9 +88,11 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         if (tokens[2].toLowerCase() === "on") {
             userIdsSet.add(message.author.id)
         }
+
         if (tokens[2].toLowerCase() === "off") {
             userIdsSet.delete(message.author.id)
         }
+
         await this.setUserIds(Array.from(userIdsSet))
         context.sendReply("ok")
     }
@@ -96,6 +102,7 @@ export class DeploymentNotificationsFeature extends GlobalFeature {
         if (!storedJSON) {
             return []
         }
+
         const array = JSON.parse(storedJSON)
         return array
     }

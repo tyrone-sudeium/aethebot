@@ -70,11 +70,13 @@ export class MemeFeature extends GlobalFeature {
         if (!interaction.isChatInputCommand()) {
             return
         }
+
         const template = interaction.options.getString("template")
         if (!isMemeTemplate(template)) {
             await interaction.reply({content: "⚠️ Unknown template.", ephemeral: true})
             return
         }
+
         const modal = new Discord.ModalBuilder()
         for (let i = 0; i < 4; i++) {
             const panelInput = new Discord.TextInputBuilder()
@@ -89,6 +91,7 @@ export class MemeFeature extends GlobalFeature {
                 .addComponents(panelInput)
             modal.addComponents(actionRow)
         }
+
         const moreInput = new Discord.TextInputBuilder()
             .setCustomId(`${template}_MODAL_PANEL_MORE`)
             .setStyle(Discord.TextInputStyle.Paragraph)

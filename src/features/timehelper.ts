@@ -39,14 +39,17 @@ export class TimehelperFeature extends GlobalFeature {
         const mentionRegex = /\<\@\d+\>/g
         const noMentions = tokens.filter(token => !mentionRegex.test(token))
         const cleanMsg = noMentions.join(" ")
+
         const timezone = await this.timezoneForUser(context.message.author.id)
         if (!timezone || !Moment.tz.zone(timezone)) {
             return false
         }
+
         const zoneinfo = Moment.tz.zone(timezone)
         if (!zoneinfo) {
             return false
         }
+
         const zoneoffset = zoneinfo.offset(Number(new Date())) * -1
         const outZones = (await this.userTimezones()).map(z => z.toLowerCase())
         // Filter out the messager's timezone
@@ -55,10 +58,12 @@ export class TimehelperFeature extends GlobalFeature {
             // No timezones to translate to
             return false
         }
+
         const results = Chrono.parse(cleanMsg, { instant: new Date(), timezone: zoneoffset })
         if (!results || results.length === 0) {
             return false
         }
+
         const embed = new Discord.EmbedBuilder()
         embed.setColor("#FF5200")
         for (const result of results) {
@@ -89,6 +94,7 @@ export class TimehelperFeature extends GlobalFeature {
                 })
                 return true
             }
+
             const timezone = tokens[1]
             const removeKeywords = [
                 "remove", "delete", "delet", "nil", "null", "none",
@@ -98,6 +104,7 @@ export class TimehelperFeature extends GlobalFeature {
                 context.sendReply("ok")
                 return true
             }
+
             if (!Moment.tz.zone(timezone)) {
                 context.sendReply("I don't recognise that timezone")
                 return true

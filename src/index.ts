@@ -48,6 +48,7 @@ function makeRedisClient(redisUrl: string): Redis.RedisClient {
     redisClient.on("warning", (warn: any) => {
         log("redis warning: " + warn, "always")
     })
+
     return redisClient
 }
 
@@ -71,6 +72,7 @@ if (!argv.website) {
         } else {
             brain = new RedisBrain(redisClient, sharedSystemMessagesEmitter)
         }
+
         bot = new Bot(token, brain)
         log("Bot using redis brain, connecting to: " + redisUrl, "always")
         bot.addFeature(b => new RedisAdminFeature(b, "RedisAdminFeature", redisClient))
@@ -96,9 +98,11 @@ if (!argv.website) {
 const baseURL = globalThis.process.env.WEBSITE_BASE_URL as string | null
 if (!argv.bot && baseURL) {
     let brain: Brain
+
     const redisUrl = globalThis.process.env.REDIS_URL as string
     if (redisUrl) {
         const redisClient = makeRedisClient(redisUrl)
+
         if (argv.website) {
             const pubsubClient = makeRedisClient(redisUrl)
             const emitter = new RedisPubSubEventEmitter(pubsubClient, redisClient)
@@ -113,6 +117,7 @@ if (!argv.bot && baseURL) {
     } else {
         brain = sharedMemoryBrain
     }
+
     const website = new Website(baseURL)
     website.brain = brain
     website.start()

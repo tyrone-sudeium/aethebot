@@ -38,10 +38,12 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
         if (tokens.length > 2 || tokens.length === 0) {
             return false
         }
+
         const command = tokens[0].toLowerCase()
         if (!/^(dice)|^(rand)|^(random)|^(rng)|^(roll)/.test(command)) {
             return false
         }
+
         let maximum = 100
         if (tokens.length > 1 && tokens[1] && /^\d+d\d+$/.test(tokens[1])) {
             try {
@@ -52,6 +54,7 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
                     context.sendNegativeReply()
                     return true
                 }
+
                 this.respondWithRequest(context, {
                     dice: numberOfDice,
                     sides: diceSides,
@@ -117,6 +120,7 @@ export class DiceFeature extends GlobalFeature implements Rerollable {
         for (let i = 0; i < numberOfDice; i++) {
             rolls.push(await randomNumber(1, sides))
         }
+
         const total = rolls.reduce((a, b) => a + b, 0)
         if (numberOfDice > 1) {
             return `🎲 ${total} [${rolls.join(", ")}]`

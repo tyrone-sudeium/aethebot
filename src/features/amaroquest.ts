@@ -180,13 +180,16 @@ function totalExpForToon(toon: XIVCharacter): number {
         if (classesCounted.has(job.classId)) {
             continue
         }
+
         const cls = ADVENTURER_CLASSES[job.classId]
         if (!cls) {
             continue
         }
+
         if (job.level === 0) {
             continue
         }
+
         const earned = expEarned(job.level, cls.startsAt)
         exp = exp + earned + job.expLevel
         classesCounted.add(job.classId)
@@ -215,12 +218,16 @@ function sortLeaderboard(leaderboard: LeaderboardData[]): LeaderboardData[] {
 }
 
 function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.EmbedBuilder {
-    const embed = new Discord.EmbedBuilder()
     const totalExp = NUMBER_FORMATTER.format(TOTAL_EXP)
     const cumulativeExp = NUMBER_FORMATTER.format(data.cumulativeExp)
     const completion = (data.cumulativeExp / TOTAL_EXP) * 100
+
+    const embed = new Discord.EmbedBuilder()
     embed.setAuthor({name: data.name, iconURL: data.avatarURL, url: data.url})
     embed.setTitle(`${data.position} Place (${completion.toFixed(2)}%)`)
+    embed.setFooter({text: `${cumulativeExp} / ${totalExp} Total EXP`})
+    embed.setColor(COLORS[idx])
+
     if (data.prevExp && data.cumulativeExp > data.prevExp) {
         const diff = data.cumulativeExp - data.prevExp
         const diffPerc = completion - ((data.prevExp / TOTAL_EXP) * 100)
@@ -233,8 +240,7 @@ function embedForLeaderboardData(data: LeaderboardData, idx: number): Discord.Em
             embed.setDescription(`Up **${diff}** (${diffPercStr}%) since last time`)
         }
     }
-    embed.setFooter({text: `${cumulativeExp} / ${totalExp} Total EXP`})
-    embed.setColor(COLORS[idx])
+
     return embed
 }
 
@@ -248,23 +254,29 @@ export class AmaroQuestFeature extends GlobalFeature {
         if (!interaction.isChatInputCommand()) {
             return
         }
+
         if (interaction.options.getSubcommandGroup() !== "amaroquest") {
             return
         }
+
         if (interaction.channel?.isDMBased()) {
             interaction.reply("⚠️ amaroquest is unavailable in DMs.")
             return
         }
+
         if (!interaction.guildId) {
             interaction.reply("⚠️ amaroquest only available in a server text channel.")
             return
         }
+
         const guildId = interaction.guildId
         const amaroQuestersStr = await this.bot.brain.get(`aq:${guildId}`) ?? "[]"
         const amaroQuesters: number[] = JSON.parse(amaroQuestersStr)
+
         if (interaction.options.getSubcommand() === "show") {
             const history = await this.getHistory(guildId)
             interaction.deferReply()
+
             let leaderboard: LeaderboardData[] = []
             try {
                 leaderboard = await this.generateLeaderboard(amaroQuesters, history)
@@ -276,12 +288,15 @@ export class AmaroQuestFeature extends GlobalFeature {
                 })
                 return
             }
+
             for (const entry of leaderboard) {
                 history[entry.characterId] = entry.cumulativeExp
             }
+
             await this.setHistory(history, guildId)
             const embeds = leaderboard.map(embedForLeaderboardData)
             interaction.editReply({embeds})
+
             return
         }
 
@@ -295,7 +310,9 @@ export class AmaroQuestFeature extends GlobalFeature {
                 })
                 return
             }
+
             interaction.deferReply({ephemeral: true})
+
             const idx = amaroQuesters.indexOf(characterId)
             if (idx < 0) {
                 // Sanity check the character ID on the lodestone
@@ -308,9 +325,11 @@ export class AmaroQuestFeature extends GlobalFeature {
                     })
                     return
                 }
+
                 amaroQuesters.push(characterId)
                 await this.bot.brain.set(`aq:${guildId}`, JSON.stringify(amaroQuesters))
             }
+
             interaction.editReply({
                 content: "ok",
             })
@@ -327,6 +346,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                 })
                 return
             }
+
             amaroQuesters.splice(idx, 1)
             await this.bot.brain.set(`aq:${guildId}`, JSON.stringify(amaroQuesters))
             interaction.reply({
@@ -354,6 +374,7 @@ export class AmaroQuestFeature extends GlobalFeature {
         const dataPromises: Promise<XIVCharacter>[] = amaroQuesters
             .map(id => getCharacterExpData(id))
         const data = await Promise.all(dataPromises)
+
         for (const charData of data) {
             const name = charData.character.name
             const cumulativeExp = totalExpForToon(charData)
@@ -363,6 +384,7 @@ export class AmaroQuestFeature extends GlobalFeature {
             const characterId = charData.character.id
             leaderboard.push({name, cumulativeExp, url, avatarURL, position: "", prevExp, characterId})
         }
+
         leaderboard = sortLeaderboard(leaderboard)
         return leaderboard
     }
@@ -393,6 +415,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                 context.sendNegativeReply("nobody on the leaderboard. use `amaroquest add [character-id]`")
                 return
             }
+
             let leaderboard: LeaderboardData[] = []
             try {
                 leaderboard = await this.generateLeaderboard(amaroQuesters, history)
@@ -401,9 +424,11 @@ export class AmaroQuestFeature extends GlobalFeature {
                 context.sendReply("oops something's cooked. check the logs")
                 return
             }
+
             for (const entry of leaderboard) {
                 history[entry.characterId] = entry.cumulativeExp
             }
+
             await this.setHistory(history, context.message.guild.id)
             const embeds = leaderboard.map(embedForLeaderboardData)
             await context.sendReply("", embeds)
@@ -449,6 +474,7 @@ export class AmaroQuestFeature extends GlobalFeature {
                 context.sendNegativeReply("that character is not in amaro quest")
                 return
             }
+
             amaroQuesters.splice(idx, 1)
             await this.bot.brain.set(`aq:${context.message.guild.id}`, JSON.stringify(amaroQuesters))
             context.sendReply("ok")

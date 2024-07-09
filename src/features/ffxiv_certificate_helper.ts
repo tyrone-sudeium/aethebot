@@ -79,6 +79,7 @@ export class FFXIVCertificateFeature extends GlobalFeature {
         if (!interaction.isChatInputCommand()) {
             return
         }
+
         const dc = interaction.options.getString("datacentre")
         if (!dc) {
             // This is required? lul.
@@ -89,6 +90,7 @@ export class FFXIVCertificateFeature extends GlobalFeature {
             await interaction.reply({content: `⚠️ \`${dc}\` is not a recognised data centre`, ephemeral: true})
             return
         }
+
         const ephemeral = !(interaction.options.getBoolean("public") ?? false)
         await interaction.deferReply({ephemeral})
         try {
@@ -113,11 +115,11 @@ export class FFXIVCertificateFeature extends GlobalFeature {
 
     public handleMessage(context: MessageContext<this>): boolean {
         const tokens = this.commandTokens(context)
-
         if (tokens.length < 1 ||
             tokens[0].toLowerCase() !== "certificates") {
             return false
         }
+
         let dc: DataCenter = "elemental"
         if (tokens.length === 2) {
             const potentialDc = tokens[1].toLowerCase()
@@ -160,10 +162,12 @@ export class FFXIVCertificateFeature extends GlobalFeature {
         }
         const queryStr = queryStringFromObject(query)
         const url = `https://universalis.app/api/v2/${dataCenter}/${IDS.join(",")}?${queryStr}`
+
         const resp: UniversalisMarketCurrentDataResponse = await getJSON(url)
         if (!resp.items) {
             throw new Error("nothing returned from Universalis")
         }
+
         const priceInfo: PriceInfo[] = []
         for (const itemId of IDS) {
             const data = resp.items[itemId]
@@ -179,15 +183,18 @@ export class FFXIVCertificateFeature extends GlobalFeature {
                 if (certsPerItem === 0) {
                     continue
                 }
+
                 const pricePerCert = price / certsPerItem
                 if (priceInfo.length < NUM_PRICES || pricePerCert < priceInfo[NUM_PRICES - 1].pricePerCert) {
                     const itemName = ITEM_NAMES[itemId]?.en
                     if (!itemName) {
                         throw new Error("invalid item id, code needs updating pls")
                     }
+
                     if (priceInfo.length >= NUM_PRICES) {
                         priceInfo.pop()
                     }
+
                     const newPrice = {
                         itemName,
                         pricePerCert,

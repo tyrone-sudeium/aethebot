@@ -34,20 +34,26 @@ export class RedisPubSubEventEmitter extends EventEmitter {
     private clientID = uuid()
     public constructor(public redis: RedisClient, public publisher: RedisClient) {
         super()
+
         redis.subscribe(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL)
+
         redis.on("message", (channel: string, message: any) => {
             if (channel !== REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL) {
                 return
             }
+
             log(`redis: received: ${message}`)
+
             const payload = JSON.parse(message)
             if (!payload || !payload.message || typeof(payload.message) !== "string" ) {
                 return
             }
+
             if (!payload.sender || payload.sender === this.clientID) {
                 // Ignore messages from this instance
                 return
             }
+
             switch (payload.message) {
             case "reconnect":
                 for (const listener of this.listeners("reconnect")) {
@@ -62,6 +68,7 @@ export class RedisPubSubEventEmitter extends EventEmitter {
         if (event !== "reconnect") {
             return false
         }
+
         let payload: SystemChannelMessage
         if (args.length > 0) {
             payload = {
@@ -75,6 +82,7 @@ export class RedisPubSubEventEmitter extends EventEmitter {
                 sender: this.clientID,
             }
         }
+
         const payloadStr = JSON.stringify(payload)
         log(`redis: sending: ${payloadStr}`)
         this.publisher.publish(REDIS_KEYS.SYSTEM_MESSAGES_CHANNEL, payloadStr)

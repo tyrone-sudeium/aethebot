@@ -40,19 +40,23 @@ export class RegionalIndicatorFeature extends GlobalFeature {
         if (tokens.length < 3) {
             return false
         }
+
         const token0 = tokens[0].toUpperCase()
         const token1 = tokens[1].toUpperCase()
         if (token0 !== "REGIONAL" && token0 !== "REGION") {
             return false
         }
+
         if (token1 !== "INDICATOR:" && token1 !== "INDICATOR") {
             return false
         }
+
         const words = tokens.slice(2).join("")
         if (!stringIsAlphaOnly(words)) {
             context.sendReply("nah mate, alphabet characters only")
             return true
         }
+
         if (!context.isDM && words.length > 20) {
             context.sendReply("nah mate, way too long, i'm not your personal spambot")
             return true

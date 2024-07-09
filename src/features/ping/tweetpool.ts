@@ -79,6 +79,7 @@ export abstract class TweetPool {
         } catch (err) {
             toots = shuffle(Array.from(list.keys()))
         }
+
         while (selected.length < count) {
             if (toots.length === 0) {
                 toots = shuffle(Array.from(list.keys()))
@@ -90,6 +91,7 @@ export abstract class TweetPool {
                 selected.push(toot)
             }
         }
+
         const newPersistedData: TweetListPersistence = {
             toots,
             v: this.persistenceVersion,

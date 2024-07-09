@@ -115,15 +115,18 @@ export class RerollFeature extends GlobalFeature {
             // ???
             return
         }
+
         if (!item) {
             context.sendNegativeReply()
             return
         }
+
         if (new Date().getTime() - item.timestamp > TIMEOUT) {
             await this.bot.brain.remove(this.brainKeyForChannel(requestMsg.channel.id))
             context.sendNegativeReply()
             return
         }
+
         try {
             const botMessage = await requestMsg.channel.messages.fetch(item.botMessageId)
             const humanMessage = await requestMsg.channel.messages.fetch(item.humanMessageId)
@@ -132,11 +135,13 @@ export class RerollFeature extends GlobalFeature {
                 context.sendNegativeReply()
                 return
             }
+
             const feature = this.bot.loadedFeatureForName(item.featureName)
             if (!botMessage || !feature) {
                 context.sendNegativeReply()
                 return
             }
+
             if ((feature as RerollableFeature).reroll) {
                 const msgObj = await (feature as RerollableFeature).reroll(item.params, humanMessage)
                 if (item.type === "edit") {
@@ -174,17 +179,21 @@ export async function pushReroll(
     if (!(botMessage instanceof Discord.Message)) {
         return
     }
+
     if (!(humanMessage instanceof Discord.Message)) {
         return
     }
+
     const botUser = feature.bot.user
     if (!botUser) {
         return
     }
+
     const feat = feature.bot.loadedFeatureForName("RerollFeature")
     if (!feat) {
         return
     }
+
     if ((feat as RerollFeature).pushRerollForFeature) {
         const reroll = feat as RerollFeature
         return reroll.pushRerollForFeature(feature.name, botMessage, humanMessage, params, type)

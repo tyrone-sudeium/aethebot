@@ -160,6 +160,7 @@ export class Website {
             render404(req, res)
             return
         }
+
         const url = new URL(`${this.baseURL}${req.url}`)
         if (req.method === "GET") {
             if (url.pathname === "/style.css") {
@@ -178,6 +179,7 @@ export class Website {
                 return
             }
         }
+
         render404(req, res)
     }
 
@@ -185,6 +187,7 @@ export class Website {
         if (this.server) {
             this.server.close()
         }
+
         this.server = null
         if (this.timer) {
             clearInterval(this.timer)
@@ -207,11 +210,13 @@ export class Website {
                     resolve(fileStr)
                 })
             })
+
             const revision = await sourceVersion()
             const pkg = JSON.parse(str)
             const ver = `${pkg.version}.${revision.slice(0, 8)}`
             res.statusCode = 200
             res.setHeader("Content-Type", "text/html; charset=utf8")
+
             const html = dedent`
             <html>
                 <head>
@@ -223,6 +228,7 @@ export class Website {
                 </body>
             </html>`
             res.write(html)
+
             res.end()
         } catch (error) {
             render500(req, res)
@@ -286,40 +292,48 @@ export class Website {
                 render400(req, res)
                 return
             }
+
             const pairs = parts.map(str => str.split("="))
             const validPairs = pairs.reduce((prev, val) => val.length === 2 && prev, true)
             if (!validPairs) {
                 render400(req, res)
                 return
             }
+
             const map: Map<string, string> = new Map()
             for (const [key, value] of pairs) {
                 map.set(key, Querystring.unescape(value))
             }
+
             const password = map.get("password")
             if (!password) {
                 render400(req, res)
                 return
             }
+
             const action = map.get("action")
             if (!action) {
                 render400(req, res)
                 return
             }
+
             const actionFunc = this.adminActions[action]
             if (!actionFunc) {
                 render400(req, res)
                 return
             }
+
             const expectedPass = process.env.ADMIN_PASSWORD
             if (!expectedPass) {
                 render500(req, res)
                 return
             }
+
             if (password !== expectedPass) {
                 render403(req, res)
                 return
             }
+
             actionFunc()
             res.statusCode = 200
             res.write(dedent`

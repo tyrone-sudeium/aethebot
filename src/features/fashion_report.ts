@@ -68,6 +68,7 @@ function scorePost(post: RedditT3): number {
     if (post.data.domain === "i.imgur.com") {
         score = score + 1
     }
+
     const weekReset = weekOne.getTime() + (currentWeek() * 604800000)
     const fourDays = 86400000 * 4
     const expectedPostTimeSecs = (weekReset - fourDays) / 1000
@@ -75,6 +76,7 @@ function scorePost(post: RedditT3): number {
     if (post.data.created_utc < weekResetSecs && post.data.created_utc > expectedPostTimeSecs) {
         score = score + 1
     }
+
     return score
 }
 
@@ -88,12 +90,14 @@ async function handleFashionRequest(context: MessageContext<FashionReportFeature
         context.sendNegativeReply("reddit seems cooked")
         return
     }
+
     const posts: RedditT3[] = redditResp.data.children.filter(p => p.kind === "t3") as RedditT3[]
     const sorted = posts.sort((a, b) => scorePost(b) - scorePost(a))
     if (sorted.length === 0) {
         context.sendReply("can't find anything for this week (yet?)")
         return
     }
+
     const topPost = sorted[0]
     const topPostScore = scorePost(topPost)
     if (topPostScore === 6) {
@@ -104,6 +108,7 @@ async function handleFashionRequest(context: MessageContext<FashionReportFeature
         context.sendReply(`Possible Fashion Report for Week ${currentWeek()}: ${topPost.data.url}`)
         return
     }
+
     context.sendReply("can't find anything for this week (yet?)")
     return
 }

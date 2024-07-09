@@ -51,15 +51,18 @@ export class FlatFileBrain implements Brain {
     public set(key: string, value: string): Promise<void> {
         log(`brain: "${key}" => ${value}`)
         this.storage[key] = value
+
         if (this.saveTimer) {
             clearTimeout(this.saveTimer)
         }
+
         if (!this.savingLock) {
             this.saveTimer = setTimeout(() => {
                 this.saveTimer = undefined
                 this.save()
             }, 20)
         }
+
         return Promise.resolve()
     }
 

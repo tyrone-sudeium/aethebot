@@ -31,6 +31,7 @@ export class ReactionRolesFeature extends ServerFeature {
         if (!super.handlesMessage(context)) {
             return false
         }
+
         const msgTxt = removeBotMentions(this.bot, context.message).trim()
         if (msgTxt.startsWith("reaction role")) {
             return true
@@ -59,6 +60,7 @@ export class ReactionRolesFeature extends ServerFeature {
         if (!this.bot?.user?.id) {
             return
         }
+
         let message = ""
         if (error) {
             message += `${error}\n\n`
@@ -84,32 +86,39 @@ export class ReactionRolesFeature extends ServerFeature {
             }
             return lines
         }, [])
+
         if (tokenizedLines.length < 2) {
             this.sendHelp(context)
             return
         }
+
         if (!this.context) {
             this.context = await this.loadContext()
         }
+
         if (!context.message.guild) {
             // Ignore messages not in a guild
             return
         }
+
         if (context.message.channel.type !== Discord.ChannelType.GuildText) {
             return
         }
+
         const guild = context.message.guild
         const roles = await guild.roles.fetch()
         const newReactRoleMsg: ReactionRoleMessage = {
             id: "PENDING",
             map: {},
         }
+
         const embed = new Discord.EmbedBuilder()
         for (const commandLine of tokenizedLines.splice(1)) {
             if (commandLine.length < 3) {
                 this.sendHelp(context)
                 return
             }
+
             const emojiId = commandLine[0]
             const roleInput = commandLine[1]
             const desc = commandLine.splice(2).join(" ")
@@ -121,6 +130,7 @@ export class ReactionRolesFeature extends ServerFeature {
                 this.sendHelp(context, `error: "${emojiId}" is not a valid emoji. Try a custom one?`)
                 return
             }
+
             if (customEmoji.length > 0) {
                 const customId = customEmoji[0].id
                 const customEmojiObj = guild.emojis.cache.find(em => em.id === customId)
@@ -132,6 +142,7 @@ export class ReactionRolesFeature extends ServerFeature {
                     return
                 }
             }
+
             if (!role) {
                 // Invalid input? Role not found
                 this.sendHelp(context, `error: can't find role "${roleInput}" in this server.`)
@@ -177,9 +188,11 @@ export class ReactionRolesFeature extends ServerFeature {
             // Ignore reactions from the bot itself
             return
         }
+
         if (!this.context) {
             this.context = await this.loadContext()
         }
+
         // Bail early if this reaction isn't on a Reaction Role Message
         const reactionRoleMessage = this.context.messages.find(m => m.id === reaction.message.id)
         if (!reactionRoleMessage) {
@@ -207,21 +220,25 @@ export class ReactionRolesFeature extends ServerFeature {
             // ???
             return
         }
+
         const roleData = reactionRoleMessage.map[emojiStr]
         // Remove any reactions that aren't in the map
         if (!roleData) {
             reaction.remove().catch(log)
             return
         }
+
         if (!reaction.message.guild || !reaction.message.member) {
             // Ignore reactions on messages not in a guild
             return
         }
+
         const role = await reaction.message.guild.roles.fetch(roleData.roleId)
         if (!role) {
             // It must've been deleted?
             return
         }
+
         const member = await reaction.message.guild.members.fetch(user.id)
         if (operation === "add") {
             member.roles.add(role)

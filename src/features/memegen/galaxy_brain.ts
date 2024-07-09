@@ -33,6 +33,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
         if (!super.handlesMessage(context)) {
             return false
         }
+
         const content = removeBotMentions(this.bot, context.message)
         const lines = content.split("\n")
         if (lines.length > 0 && TRIGGERS.includes(lines[0].trim().toLowerCase())) {
@@ -70,6 +71,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
             log("couldn't create canvas context", "always")
             return undefined
         }
+
         ctx.fillStyle = "#fff"
         ctx.fillRect(0, 0, WIDTH, totalHeight)
         let y = 0
@@ -100,6 +102,7 @@ export class GalaxyBrainFeature extends GlobalFeature {
         } else {
             imageNames = [...Array(count).keys()].map(i => `${i}.jpg`)
         }
+
         const images: Image[] = []
         for (const imageName of imageNames) {
             const path = Path.join(process.cwd(), "res", "expanding_brain", imageName)

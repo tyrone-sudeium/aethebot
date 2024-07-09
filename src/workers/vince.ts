@@ -37,10 +37,12 @@ async function loadImages(panels: number, frame: number): Promise<Image[]> {
     while (imagePaths.length > panels) {
         imagePaths.splice(Math.floor(imagePaths.length / 2), 1)
     }
+
     const imagePromises = imagePaths.map(imagePath => {
         const path = Path.join(process.cwd(), "res", "vince", imagePath[0], imagePath[1])
         return loadImage(path)
     })
+
     return Promise.all(imagePromises)
 }
 
@@ -48,13 +50,16 @@ async function generateGif(message: Message, id: string): Promise<string> {
     const { lines } = message
     const totalHeight = (TILE_HEIGHT * lines.length) + (SEPARATOR_HEIGHT * (lines.length - 1))
     const filePath = Path.join(OS.tmpdir(), `${id}.gif`)
+
     const gif = new GIFEncoder(WIDTH, totalHeight, filePath)
     gif.setFrameRate(14)
+
     const canvas = createCanvas(WIDTH, totalHeight)
     const ctx = canvas.getContext("2d")
     if (!ctx) {
         throw new Error("couldn't make canvas")
     }
+
     for (let frame = 1; frame <= NUM_FRAMES; frame = frame + 1) {
         const images = await loadImages(lines.length, frame)
         const tiles = images.map((img, idx) => new MemeTile(lines[idx], img, WIDTH))

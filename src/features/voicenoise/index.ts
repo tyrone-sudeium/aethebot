@@ -89,15 +89,18 @@ export class VoiceNoiseFeature extends GlobalFeature {
             await interaction.respond(choices.map(n => ({name: n.desc ?? n.id, value: n.id})))
             return
         }
+
         if (!interaction.isChatInputCommand()) {
             return
         }
+
         const query = interaction.options.getString("query")
         if (!query) {
             // This is required? lul.
             await interaction.reply({content: "⚠️ Missing query. Try `/noise [noise ID]`", ephemeral: true})
             return
         }
+
         let noise: Noise | undefined = NOISES.find(n => n.id === query?.toUpperCase())
         if (!noise) {
             noise = this.noiseForMessage(query)
@@ -113,6 +116,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         if(!guild) {
             return
         }
+
         const member = await guild.members.fetch(author.user.id)
         const authorVoiceChannel = member.voice.channel
         if (!authorVoiceChannel) {
@@ -123,10 +127,12 @@ export class VoiceNoiseFeature extends GlobalFeature {
             }
             return
         }
+
         if (authorVoiceChannel.type === Discord.ChannelType.GuildStageVoice) {
             await interaction.reply({content: "⚠️ I don't support stages.", ephemeral: true})
             return
         }
+
         if (!authorVoiceChannel.joinable) {
             await interaction.reply({content: "⚠️ I don't have permission to join your channel", ephemeral: true})
             return
@@ -162,11 +168,13 @@ export class VoiceNoiseFeature extends GlobalFeature {
             }
             return false
         }
+
         const authorVoiceChannel = message.member.voice.channel
         if (authorVoiceChannel.type === Discord.ChannelType.GuildStageVoice) {
             context.sendNegativeReply("i don't support stages")
             return true
         }
+
         if (!authorVoiceChannel.joinable) {
             context.sendNegativeReply("can't join your channel")
             return true
@@ -222,7 +230,9 @@ export class VoiceNoiseFeature extends GlobalFeature {
                     cleanup()
                 }
             })
+
             connection.on(VoiceConnectionStatus.Destroyed, () => log(`voicenoise: ${channelId} destroyed`, "always"))
+
             const player = createAudioPlayer()
             connection.subscribe(player)
             player.on("error", error => {
@@ -230,6 +240,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
                 log(`voicenoise: error ${error.message} with resource ${r.metadata.file}`, "always")
                 cleanup()
             })
+
             ctx = {connection, player}
             this.context.set(channelId, ctx)
             connection.on("stateChange", (old, n) => log(`voicenoise: ${channelId} ${old.status} -> ${n.status}`))
@@ -347,6 +358,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
         if (!state) {
             return
         }
+
         if (channel.permissionsFor(this.bot.user)?.has("DeafenMembers")) {
             // Has server deafen permission. Server deafen self if not already.
             if (!state.serverDeaf) {

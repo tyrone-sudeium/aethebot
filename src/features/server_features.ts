@@ -112,6 +112,7 @@ export class ServerFeaturesManager extends GlobalFeature {
                 return
             }
         }
+
         let message = reaction.message
         if (message.partial) {
             try {
@@ -121,9 +122,11 @@ export class ServerFeaturesManager extends GlobalFeature {
                 return
             }
         }
+
         if (!message.guild) {
             return
         }
+
         const features = this.features.get(message.guild.id)
         if (features) {
             for (const feature of features) {
@@ -146,6 +149,7 @@ export class ServerFeaturesManager extends GlobalFeature {
                 featureConstructors.set(ctor.name, ctor)
             }
         }
+
         const storedStr = await this.bot.brain.get(BRAIN_KEYS.FEATURES)
         let storedJson: {[serverId: string]: string[]} = {}
         try {
@@ -155,6 +159,7 @@ export class ServerFeaturesManager extends GlobalFeature {
         } catch {
             storedJson = {}
         }
+
         for (const [serverId, discordServer] of this.bot.joinedServers()) {
             const featureNames = storedJson[serverId]
             if (featureNames) {
@@ -226,11 +231,13 @@ export class ServerFeaturesManager extends GlobalFeature {
             featuresForServer = []
             this.features.set(server.id, featuresForServer)
         }
+
         if (featuresForServer.find(f => f.name === ctor.name)) {
             context.sendNegativeReply("feature already active")
             return
         }
         featuresForServer.push(new ctor(this.bot, ctor.name, server))
+
         await context.sendReply("ok")
         await this.saveToBrain()
     }
@@ -241,10 +248,12 @@ export class ServerFeaturesManager extends GlobalFeature {
             featuresForServer = []
             this.features.set(server.id, featuresForServer)
         }
+
         if (!featuresForServer.find(f => f.name === ctor.name)) {
             context.sendNegativeReply("feature not active")
             return
         }
+
         featuresForServer = featuresForServer.filter(f => f.name !== ctor.name)
         this.features.set(server.id, featuresForServer)
         await context.sendReply("ok")

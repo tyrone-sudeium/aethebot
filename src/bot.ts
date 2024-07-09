@@ -117,9 +117,11 @@ export class Bot {
             ],
             partials: [Discord.Partials.Message, Discord.Partials.Reaction, Discord.Partials.Channel],
         })
+
         client.on("messageCreate", this.receiveMessage.bind(this))
         client.on("messageReactionAdd", this.onMessageReactionAdd.bind(this))
         client.on("messageReactionRemove", this.onMessageReactionRemove.bind(this))
+
         client.on("ready", () => {
             assert(this.client.application)
             this.user = this.client.user
@@ -136,6 +138,7 @@ export class Bot {
             }
             this.loadFeatures()
         })
+
         client.on("voiceStateUpdate", this.voiceStateUpdate.bind(this))
         client.on(Discord.Events.Error, error => {
             log(`Discord.js error: ${error}`, "always")
@@ -147,10 +150,13 @@ export class Bot {
             log("Discord.js session invalidated!", "always")
             this.reconnect()
         })
+
         client.on(Discord.Events.InteractionCreate, this.onInteractionCreate.bind(this))
+
         if (this.connectionCheckTimer) {
             clearInterval(this.connectionCheckTimer)
         }
+
         this.connectionCheckTimer = setInterval(() => {
             client.ws.shards.each(sh => {
                 const current = new Date().getTime()
@@ -168,11 +174,13 @@ export class Bot {
             log("warn: No features loaded!")
             return
         }
+
         this.loadedFeatures = new Map()
         for (const FeatureCtor of this.features) {
             const feature = new FeatureCtor(this, FeatureCtor.name)
             this.loadedFeatures.set(FeatureCtor.name, feature)
         }
+
         for (const loader of this.customFeatureLoaders) {
             const feature = loader(this)
             this.loadedFeatures.set(feature.name, feature)
@@ -192,20 +200,24 @@ export class Bot {
         if (!interaction.isCommand() && !interaction.isAutocomplete()) {
             return
         }
+
         for (const FeatureCtor of this.features) {
             const FeatureClass = FeatureCtor as typeof FeatureBase
             if (!FeatureClass.slashCommands) {
                 continue
             }
+
             const slashCommand = FeatureClass.slashCommands.find(s => s.name === interaction.commandName)
             if (!slashCommand) {
                 continue
             }
+
             const feature = this.loadedFeatures.get(FeatureClass.name)
             if (!feature) {
                 // Feature isn't loaded by this bot. Ignore the interaction.
                 return
             }
+
             assert(feature.handleInteraction !== undefined)
             feature.handleInteraction(interaction)
             return
@@ -238,6 +250,7 @@ export class Bot {
         if (!updatedChannel) {
             return
         }
+
         for (const [, feature] of this.loadedFeatures) {
             if (feature.voiceChannelStateChanged) {
                 feature.voiceChannelStateChanged(updatedChannel)

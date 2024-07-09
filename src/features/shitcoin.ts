@@ -85,19 +85,25 @@ export class ShitcoinFeature extends GlobalFeature {
 
     private async messageEmbed(): Promise<Discord.EmbedBuilder> {
         const embed = new Discord.EmbedBuilder()
+
         const previous = await this.previousPrice()
         const previousFormatted = NUMBER_FORMATTER.format(Number(previous))
+
         const current = await this.currentPrice()
         const currentFormatted = NUMBER_FORMATTER.format(Number(current))
+
         const ageStr = await this.bot.brain.get(BRAIN_KEYS.AGE)
+
         if (previous) {
             const btcPreviousDate = Moment().subtract(UPDATE_FREQUENCY, "milliseconds")
             embed.addFields({name: btcPreviousDate.fromNow(), value: `${previousFormatted} / BTC`, inline: true})
         }
+
         if (current) {
             // embed.addField("Current", `${currentFormatted} / BTC`, true)
             embed.addFields({name: "Current", value: `${currentFormatted} / BTC`, inline: true})
         }
+
         if (ageStr) {
             const btcPriceDate = Moment(parseInt(ageStr, 10))
             const intervalStr = btcPriceDate.fromNow()

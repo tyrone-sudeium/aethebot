@@ -38,6 +38,7 @@ export class ScomoFeature extends GlobalFeature {
                 timePeriod = `in ${daysBetween} days`
             }
         }
+
         if (timePeriod === "") {
             context.sendReply(scomo)
             return true

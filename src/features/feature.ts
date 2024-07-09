@@ -182,6 +182,7 @@ export abstract class FeatureBase {
         if (!matches) {
             return []
         }
+
         const tokens = matches.reduce((state, c) => {
             if (c === '"') {
                 state.quote = !state.quote

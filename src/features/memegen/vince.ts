@@ -80,10 +80,12 @@ export class VinceMcMahonFeature extends GlobalFeature {
             context.sendNegativeReply("supply each vince panel text on its own line")
             return false
         }
+
         if (lines.length > 6) {
             context.sendNegativeReply("meme too stronk, maximum of 6 panels")
             return false
         }
+
         const pendingMsg = PENDING_TEXTS[Math.floor(Math.random() * PENDING_TEXTS.length)]
         context.sendReply(pendingMsg).then(msg => {
             const workerJob: WorkerJob = {
@@ -125,6 +127,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
                     workerModule = Path.resolve(`${__dirname}/../../workers/vince.ts`)
                 }
             }
+
             const worker = new Worker(workerModule)
             worker.addEventListener("message", ev => {
                 this.onWorkerMessage(ev.data)
@@ -135,6 +138,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
             worker.addEventListener("terminate", () => {
                 this.onWorkerExit()
             })
+
             return worker
         } else {
             // Use Node's worker_threads API
@@ -161,6 +165,7 @@ export class VinceMcMahonFeature extends GlobalFeature {
         if (!job) {
             return
         }
+
         this.pendingJobs.delete(jobId)
         const attachment = value.filePath as string
         if (job.type === "chat") {

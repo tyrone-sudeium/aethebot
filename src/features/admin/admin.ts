@@ -28,14 +28,17 @@ export type AdminAction = |
 export async function canPerformAction(action: AdminAction, context: MessageContext<GlobalFeature>): Promise<boolean> {
     const user = new User(context.feature.bot, context.message.author.id)
     await user.load()
+
     if (!user.isAdmin) {
         context.sendNegativeReply()
         return false
     }
+
     if (context.message.channel.type !== Discord.ChannelType.DM) {
         context.sendNegativeReply("don't do admin commands in public you nong")
         return false
     }
+
     return true
 }
 
@@ -62,11 +65,13 @@ export class AdminFeature extends GlobalFeature {
         if (!(await canPerformAction("Any", context))) {
             return
         }
+
         const tokens = this.commandTokens(context)
         if (tokens.length < 2) {
             context.sendNegativeReply("unknown command")
             return
         }
+
         if (tokens[1].toLowerCase() === "servers") {
             if (!(await canPerformAction("ListServers", context))) {
                 return
@@ -94,33 +99,39 @@ export class AdminFeature extends GlobalFeature {
         if (!(await canPerformAction("Twit", context))) {
             return
         }
+
         if (tokens.length < 3) {
             context.sendNegativeReply()
             return
         }
+
         const commands = new Set(["remove", "size"])
         const command = tokens[2].toLowerCase()
         if (!commands.has(command)) {
             context.sendNegativeReply()
             return
         }
+
         if (command === "remove") {
             if (tokens.length < 4) {
                 context.sendNegativeReply()
                 return
             }
+
             const key = tokens[3].toLowerCase()
             const strData = await this.bot.brain.get(TwitThis.BRAIN_KEY)
             if (!strData) {
                 context.sendNegativeReply("no custom twits")
                 return
             }
+
             const json: TwitThis.PersistedTwits = JSON.parse(strData)
             if (!json[key]) {
                 context.sendNegativeReply(`no custom tweet stored with id '${key}'`)
                 return
             }
             delete json[key]
+
             const newJson = JSON.stringify(json)
             await this.bot.brain.set(TwitThis.BRAIN_KEY, newJson)
             context.sendReply("ok")
@@ -140,6 +151,7 @@ export class AdminFeature extends GlobalFeature {
         const slashCommands = this.bot.getAllSlashCommands()
         const rest = new Discord.REST({ version: "10" }).setToken(this.bot.token)
         const appId = this.bot.applicationId
+
         try {
             const data = slashCommands.map(s => s.toJSON())
             log(`admin: deploy-commands: deploying: ${JSON.stringify(data)}`)
@@ -158,10 +170,12 @@ export class AdminFeature extends GlobalFeature {
         if (!userId) {
             return
         }
+
         const discordUser = await this.bot.fetchUser(userId)
         if (!discordUser) {
             return
         }
+
         const user = new User(this.bot, userId)
         if (!user.roles) {
             user.roles = []

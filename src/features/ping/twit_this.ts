@@ -41,12 +41,14 @@ export class TwitThisFeature extends GlobalFeature {
         if (tokens.length < 3) {
             return false
         }
+
         const command = tokens[0].toLowerCase()
         const action = tokens[1].toLowerCase()
         const acceptable = new Set(["this", "add", "new"])
         if (!(command === "twit" && acceptable.has(action))) {
             return false
         }
+
         const urlStr = tokens[2]
         let url: URL
         try {
@@ -60,6 +62,7 @@ export class TwitThisFeature extends GlobalFeature {
             context.sendNegativeReply("invalid url")
             return false
         }
+
         const pathComponents = url.pathname.split("/")
         if (pathComponents.length !== 4) {
             context.sendNegativeReply("invalid url")
@@ -103,12 +106,14 @@ export class TwitThisFeature extends GlobalFeature {
             await wait(1.0)
             attempts = attempts + 1
         }
+
         hourglassReact.remove()
         if (context.message.embeds.length === 0) {
             // gave up waiting for discord to embed
             context.sendNegativeReply("gave up waiting for discord to embed the tweet. try again later")
             return
         }
+
         const embed = context.message.embeds[0]
         if (!embed.author ||
             !embed.author.name ||
@@ -118,6 +123,7 @@ export class TwitThisFeature extends GlobalFeature {
             context.sendNegativeReply("couldn't parse it. did discord change their shit?")
             return
         }
+
         const retweetsField = embed.fields.find(field => field.name === "Retweets")
         const likesField = embed.fields.find(field => field.name === "Likes")
         let retweets = 0
@@ -132,6 +138,7 @@ export class TwitThisFeature extends GlobalFeature {
             context.sendNegativeReply("couldn't parse it. did discord change their shit?")
             return
         }
+
         const description = embed.description.replace(/\*/g, "\\*")
         const content: TweetPoolContent = {
             avatar: embed.author.proxyIconURL,

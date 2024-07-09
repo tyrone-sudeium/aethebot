@@ -100,6 +100,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
             text = `<@${interaction.user.id}>'s guess: ${prediction}`
         }
         const uploadedMsg = await interaction.reply({content: text, embeds, fetchReply: true})
+
         if (params.type === "drilme" && toots.length === 1 && this.dril.isNASA(toots[0].url)) {
             const emojis = this.autoAirhornEmojis(interaction.guild)
             if (emojis !== null) {
@@ -107,6 +108,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 await uploadedMsg.react(emojis.nasa)
             }
         }
+
         if (params.type === "drilme") {
             const remaining = await this.dril.getRemaining(interaction.channelId)
             if (remaining === 0) {
@@ -239,6 +241,7 @@ export class PingFeature extends GlobalFeature implements Rerollable {
                 await uploadedMsg.react(emojis.nasa)
             }
         }
+
         if (params.type === "drilme") {
             const remaining = await this.dril.getRemaining(context.message.channel.id)
             if (remaining === 0) {
