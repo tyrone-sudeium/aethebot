@@ -1,453 +1,466 @@
-export const ITEM_NAMES: {[itemId: number]: {en: string; de: string; ja: string; fr: string}} = {
-    39630: {
-        en: "Diadochos Sword",
-        de: "Diadochen-Schwert",
-        ja: "ディアドコス・ソード",
-        fr: "Épée de diadoque",
-    },
-    39631: {
-        en: "Diadochos Knuckles",
-        de: "Diadochen-Schlagringe",
-        ja: "ディアドコス・ナックル",
-        fr: "Poings de diadoque",
-    },
-    39632: {
-        en: "Diadochos War Axe",
-        de: "Diadochen-Kriegsaxt",
-        ja: "ディアドコス・ウォーアクス",
-        fr: "Hache de guerre de diadoque",
-    },
-    39633: {
-        en: "Diadochos Spear",
-        de: "Diadochen-Speer",
-        ja: "ディアドコス・スピア",
-        fr: "Hast de diadoque",
-    },
-    39634: {
-        en: "Diadochos Compound Bow",
-        de: "Diadochen-Kompositbogen",
-        ja: "ディアドコス・コンパウンドボウ",
-        fr: "Arc à poulies de diadoque",
-    },
-    39635: {
-        en: "Diadochos Main Gauches",
-        de: "Diadochen-Parierdolche",
-        ja: "ディアドコス・マインゴーシュ",
-        fr: "Mains-gauches de diadoque",
-    },
-    39636: {
-        en: "Diadochos Greatsword",
-        de: "Diadochen-Großschwert",
-        ja: "ディアドコス・グレートソード",
-        fr: "Grande épée de diadoque",
-    },
-    39637: {
-        en: "Diadochos Revolver",
-        de: "Diadochen-Revolver",
-        ja: "ディアドコス・リボルバー",
-        fr: "Revolver de diadoque",
-    },
-    39638: {
-        en: "Diadochos Cane",
-        de: "Diadochen-Stock",
-        ja: "ディアドコス・ケーン",
-        fr: "Canne de diadoque",
-    },
-    39639: {
-        en: "Diadochos Rod",
-        de: "Diadochen-Stab",
-        ja: "ディアドコス・ロッド",
-        fr: "Sceptre de diadoque",
-    },
-    39640: {
-        en: "Diadochos Index",
-        de: "Diadochen-Grimoire",
-        ja: "ディアドコス・インデックス",
-        fr: "Index de diadoque",
-    },
-    39641: {
-        en: "Diadochos Codex",
-        de: "Diadochen-Kodex",
-        ja: "ディアドコス・コーデックス",
-        fr: "Codex de diadoque",
-    },
-    39642: {
-        en: "Diadochos Planisphere",
-        de: "Diadochen-Planisphäre",
-        ja: "ディアドコス・プラニスフィア",
-        fr: "Planisphère de diadoque",
-    },
-    39643: {
-        en: "Diadochos Blade",
-        de: "Diadochen-Klinge",
-        ja: "ディアドコス・ブレード",
-        fr: "Lame de diadoque",
-    },
-    39644: {
-        en: "Diadochos Smallsword",
-        de: "Diadochen-Rapier",
-        ja: "ディアドコス・スモールソード",
-        fr: "Petite épée de diadoque",
-    },
-    39645: {
-        en: "Diadochos Gunblade",
-        de: "Diadochen-Revolverklinge",
-        ja: "ディアドコス・ガンブレード",
-        fr: "Pistolame de diadoque",
-    },
-    39646: {
-        en: "Diadochos Chakrams",
-        de: "Diadochen-Chakrams",
-        ja: "ディアドコス・チャクラム",
-        fr: "Chakrams de diadoque",
-    },
-    39647: {
-        en: "Diadochos Wings",
-        de: "Diadochen-Schwingen",
-        ja: "ディアドコス・ウィング",
-        fr: "Ailes de diadoque",
-    },
-    39648: {
-        en: "Diadochos Zaghnal",
-        de: "Diadochen-Sichel",
-        ja: "ディアドコス・ザグナル",
-        fr: "Zaghnal de diadoque",
-    },
-    39649: {
-        en: "Diadochos Shield",
-        de: "Diadochen-Schild",
-        ja: "ディアドコス・シールド",
-        fr: "Bouclier de diadoque",
-    },
-    39650: {
-        en: "Diadochos Headband of Fending",
-        de: "Diadochen-Stirnband der Verteidigung",
-        ja: "ディアドコス・ディフェンダーヘッドバンド",
-        fr: "Bandeau de protecteur de diadoque",
-    },
-    39651: {
-        en: "Diadochos Jacket of Fending",
-        de: "Diadochen-Jacke der Verteidigung",
-        ja: "ディアドコス・ディフェンダージャケット",
-        fr: "Jaque de protecteur de diadoque",
-    },
-    39652: {
-        en: "Diadochos Halfgloves of Fending",
-        de: "Diadochen-Kurzfingerhandschuhe der Verteidigung",
-        ja: "ディアドコス・ディフェンダーハーフグローブ",
-        fr: "Mitaines de protecteur de diadoque",
-    },
-    39653: {
-        en: "Diadochos Poleyns of Fending",
-        de: "Diadochen-Knieschützer der Verteidigung",
-        ja: "ディアドコス・ディフェンダーポレイン",
-        fr: "Genouillères de protecteur de diadoque",
-    },
-    39654: {
-        en: "Diadochos Boots of Fending",
-        de: "Diadochen-Stiefel der Verteidigung",
-        ja: "ディアドコス・ディフェンダーブーツ",
-        fr: "Bottes de protecteur de diadoque",
-    },
-    39655: {
-        en: "Diadochos Headband of Maiming",
-        de: "Diadochen-Stirnband des Verstümmelns",
-        ja: "ディアドコス・スレイヤーヘッドバンド",
-        fr: "Bandeau d'abatteur de diadoque",
-    },
-    39656: {
-        en: "Diadochos Jacket of Maiming",
-        de: "Diadochen-Jacke des Verstümmelns",
-        ja: "ディアドコス・スレイヤージャケット",
-        fr: "Jaque d'abatteur de diadoque",
-    },
-    39657: {
-        en: "Diadochos Halfgloves of Maiming",
-        de: "Diadochen-Kurzfingerhandschuhe des Verstümmelns",
-        ja: "ディアドコス・スレイヤーハーフグローブ",
-        fr: "Mitaines d'abatteur de diadoque",
-    },
-    39658: {
-        en: "Diadochos Poleyns of Maiming",
-        de: "Diadochen-Knieschützer des Verstümmelns",
-        ja: "ディアドコス・スレイヤーポレイン",
-        fr: "Genouillères d'abatteur de diadoque",
-    },
-    39659: {
-        en: "Diadochos Boots of Maiming",
-        de: "Diadochen-Stiefel des Verstümmelns",
-        ja: "ディアドコス・スレイヤーブーツ",
-        fr: "Bottes d'abatteur de diadoque",
-    },
-    39660: {
-        en: "Diadochos Headband of Striking",
-        de: "Diadochen-Stirnband des Schlagens",
-        ja: "ディアドコス・ストライカーヘッドバンド",
-        fr: "Bandeau d'agresseur de diadoque",
-    },
-    39661: {
-        en: "Diadochos Jacket of Striking",
-        de: "Diadochen-Jacke des Schlagens",
-        ja: "ディアドコス・ストライカージャケット",
-        fr: "Jaque d'agresseur de diadoque",
-    },
-    39662: {
-        en: "Diadochos Gloves of Striking",
-        de: "Diadochen-Handschuhe des Schlagens",
-        ja: "ディアドコス・ストライカーグローブ",
-        fr: "Gants d'agresseur de diadoque",
-    },
-    39663: {
-        en: "Diadochos Bottoms of Striking",
-        de: "Diadochen-Hose des Schlagens",
-        ja: "ディアドコス・ストライカーボトム",
-        fr: "Bas-de-corps d'agresseur de diadoque",
-    },
-    39664: {
-        en: "Diadochos Shoes of Striking",
-        de: "Diadochen-Schuhe des Schlagens",
-        ja: "ディアドコス・ストライカーシューズ",
-        fr: "Chaussures d'agresseur de diadoque",
-    },
-    39665: {
-        en: "Diadochos Headband of Aiming",
-        de: "Diadochen-Stirnband des Zielens",
-        ja: "ディアドコス・レンジャーヘッドバンド",
-        fr: "Bandeau de pisteur de diadoque",
-    },
-    39666: {
-        en: "Diadochos Jacket of Aiming",
-        de: "Diadochen-Jacke des Zielens",
-        ja: "ディアドコス・レンジャージャケット",
-        fr: "Jaque de pisteur de diadoque",
-    },
-    39667: {
-        en: "Diadochos Halfgloves of Aiming",
-        de: "Diadochen-Kurzfingerhandschuhe des Zielens",
-        ja: "ディアドコス・レンジャーハーフグローブ",
-        fr: "Mitaines de pisteur de diadoque",
-    },
-    39668: {
-        en: "Diadochos Poleyns of Aiming",
-        de: "Diadochen-Knieschützer des Zielens",
-        ja: "ディアドコス・レンジャーポレイン",
-        fr: "Genouillères de pisteur de diadoque",
-    },
-    39669: {
-        en: "Diadochos Boots of Aiming",
-        de: "Diadochen-Stiefel des Zielens",
-        ja: "ディアドコス・レンジャーブーツ",
-        fr: "Bottes de pisteur de diadoque",
-    },
-    39670: {
-        en: "Diadochos Headband of Scouting",
-        de: "Diadochen-Stirnband des Spähens",
-        ja: "ディアドコス・スカウトヘッドバンド",
-        fr: "Bandeau d'éclaireur de diadoque",
-    },
-    39671: {
-        en: "Diadochos Jacket of Scouting",
-        de: "Diadochen-Jacke des Spähens",
-        ja: "ディアドコス・スカウトジャケット",
-        fr: "Jaque d'éclaireur de diadoque",
-    },
-    39672: {
-        en: "Diadochos Gloves of Scouting",
-        de: "Diadochen-Handschuhe des Spähens",
-        ja: "ディアドコス・スカウトグローブ",
-        fr: "Gants d'éclaireur de diadoque",
-    },
-    39673: {
-        en: "Diadochos Bottoms of Scouting",
-        de: "Diadochen-Hose des Spähens",
-        ja: "ディアドコス・スカウトボトム",
-        fr: "Bas-de-corps d'éclaireur de diadoque",
-    },
-    39674: {
-        en: "Diadochos Shoes of Scouting",
-        de: "Diadochen-Schuhe des Spähens",
-        ja: "ディアドコス・スカウトシューズ",
-        fr: "Chaussures d'éclaireur de diadoque",
-    },
-    39675: {
-        en: "Diadochos Beret of Healing",
-        de: "Diadochen-Barett der Heilung",
-        ja: "ディアドコス・ヒーラーベレー",
-        fr: "Béret de soigneur de diadoque",
-    },
-    39676: {
-        en: "Diadochos Coat of Healing",
-        de: "Diadochen-Mantel der Heilung",
-        ja: "ディアドコス・ヒーラーコート",
-        fr: "Manteau de soigneur de diadoque",
-    },
-    39677: {
-        en: "Diadochos Armlets of Healing",
-        de: "Diadochen-Armschützer der Heilung",
-        ja: "ディアドコス・ヒーラーアームレット",
-        fr: "Brassards de soigneur de diadoque",
-    },
-    39678: {
-        en: "Diadochos Bottoms of Healing",
-        de: "Diadochen-Hose der Heilung",
-        ja: "ディアドコス・ヒーラーボトム",
-        fr: "Bas-de-corps de soigneur de diadoque",
-    },
-    39679: {
-        en: "Diadochos Boots of Healing",
-        de: "Diadochen-Stiefel der Heilung",
-        ja: "ディアドコス・ヒーラーブーツ",
-        fr: "Bottes de soigneur de diadoque",
-    },
-    39680: {
-        en: "Diadochos Beret of Casting",
-        de: "Diadochen-Barett der Magie",
-        ja: "ディアドコス・キャスターベレー",
-        fr: "Béret d'incantateur de diadoque",
-    },
-    39681: {
-        en: "Diadochos Coat of Casting",
-        de: "Diadochen-Mantel der Magie",
-        ja: "ディアドコス・キャスターコート",
-        fr: "Manteau d'incantateur de diadoque",
-    },
-    39682: {
-        en: "Diadochos Armlets of Casting",
-        de: "Diadochen-Armschützer der Magie",
-        ja: "ディアドコス・キャスターアームレット",
-        fr: "Brassards d'incantateur de diadoque",
-    },
-    39683: {
-        en: "Diadochos Bottoms of Casting",
-        de: "Diadochen-Hose der Magie",
-        ja: "ディアドコス・キャスターボトム",
-        fr: "Bas-de-corps d'incantateur de diadoque",
-    },
-    39684: {
-        en: "Diadochos Boots of Casting",
-        de: "Diadochen-Stiefel der Magie",
-        ja: "ディアドコス・キャスターブーツ",
-        fr: "Bottes d'incantateur de diadoque",
-    },
-    39685: {
-        en: "Diadochos Earring of Fending",
-        de: "Diadochen-Ohrring der Verteidigung",
-        ja: "ディアドコス・ディフェンダーイヤリング",
-        fr: "Boucle d'oreille de protecteur de diadoque",
-    },
-    39686: {
-        en: "Diadochos Earring of Slaying",
-        de: "Diadochen-Ohrring des Schlachtens",
-        ja: "ディアドコス・アタッカーイヤリング",
-        fr: "Boucle d'oreille d'attaquant de diadoque",
-    },
-    39687: {
-        en: "Diadochos Earring of Aiming",
-        de: "Diadochen-Ohrring des Zielens",
-        ja: "ディアドコス・レンジャーイヤリング",
-        fr: "Boucle d'oreille de pisteur de diadoque",
-    },
-    39688: {
-        en: "Diadochos Earring of Healing",
-        de: "Diadochen-Ohrring der Heilung",
-        ja: "ディアドコス・ヒーラーイヤリング",
-        fr: "Boucle d'oreille de soigneur de diadoque",
-    },
-    39689: {
-        en: "Diadochos Earring of Casting",
-        de: "Diadochen-Ohrring der Magie",
-        ja: "ディアドコス・キャスターイヤリング",
-        fr: "Boucle d'oreille d'incantateur de diadoque",
-    },
-    39690: {
-        en: "Diadochos Choker of Fending",
-        de: "Diadochen-Halskette der Verteidigung",
-        ja: "ディアドコス・ディフェンダーチョーカー",
-        fr: "Ras de cou de protecteur de diadoque",
-    },
-    39691: {
-        en: "Diadochos Choker of Slaying",
-        de: "Diadochen-Halskette des Schlachtens",
-        ja: "ディアドコス・アタッカーチョーカー",
-        fr: "Ras de cou d'attaquant de diadoque",
-    },
-    39692: {
-        en: "Diadochos Choker of Aiming",
-        de: "Diadochen-Halskette des Zielens",
-        ja: "ディアドコス・レンジャーチョーカー",
-        fr: "Ras de cou de pisteur de diadoque",
-    },
-    39693: {
-        en: "Diadochos Choker of Healing",
-        de: "Diadochen-Halskette der Heilung",
-        ja: "ディアドコス・ヒーラーチョーカー",
-        fr: "Ras de cou de soigneur de diadoque",
-    },
-    39694: {
-        en: "Diadochos Choker of Casting",
-        de: "Diadochen-Halskette der Magie",
-        ja: "ディアドコス・キャスターチョーカー",
-        fr: "Ras de cou d'incantateur de diadoque",
-    },
-    39695: {
-        en: "Diadochos Wristband of Fending",
-        de: "Diadochen-Armband der Verteidigung",
-        ja: "ディアドコス・ディフェンダーリストバンド",
-        fr: "Poignet de protecteur de diadoque",
-    },
-    39696: {
-        en: "Diadochos Wristband of Slaying",
-        de: "Diadochen-Armband des Schlachtens",
-        ja: "ディアドコス・アタッカーリストバンド",
-        fr: "Poignet d'attaquant de diadoque",
-    },
-    39697: {
-        en: "Diadochos Wristband of Aiming",
-        de: "Diadochen-Armband des Zielens",
-        ja: "ディアドコス・レンジャーリストバンド",
-        fr: "Poignet de pisteur de diadoque",
-    },
-    39698: {
-        en: "Diadochos Wristband of Healing",
-        de: "Diadochen-Armband der Heilung",
-        ja: "ディアドコス・ヒーラーリストバンド",
-        fr: "Poignet de soigneur de diadoque",
-    },
-    39699: {
-        en: "Diadochos Wristband of Casting",
-        de: "Diadochen-Armband der Magie",
-        ja: "ディアドコス・キャスターリストバンド",
-        fr: "Poignet d'incantateur de diadoque",
-    },
-    39700: {
-        en: "Diadochos Ring of Fending",
-        de: "Diadochen-Ring der Verteidigung",
-        ja: "ディアドコス・ディフェンダーアーマーリング",
-        fr: "Bague-armure de protecteur de diadoque",
-    },
-    39701: {
-        en: "Diadochos Ring of Slaying",
-        de: "Diadochen-Ring des Schlachtens",
-        ja: "ディアドコス・アタッカーアーマーリング",
-        fr: "Bague-armure d'attaquant de diadoque",
-    },
-    39702: {
-        en: "Diadochos Ring of Aiming",
-        de: "Diadochen-Ring des Zielens",
-        ja: "ディアドコス・レンジャーアーマーリング",
-        fr: "Bague-armure de pisteur de diadoque",
-    },
-    39703: {
-        en: "Diadochos Ring of Healing",
-        de: "Diadochen-Ring der Heilung",
-        ja: "ディアドコス・ヒーラーアーマーリング",
-        fr: "Bague-armure de soigneur de diadoque",
-    },
-    39704: {
-        en: "Diadochos Ring of Casting",
-        de: "Diadochen-Ring der Magie",
-        ja: "ディアドコス・キャスターアーマーリング",
-        fr: "Bague-armure d'incantateur de diadoque",
+/* eslint-disable max-len */
+export const ITEM_NAMES: { [itemId: number]: { en: string; de: string; ja: string; fr: string } } = {
+    42870: {
+        en: "Archeo Kingdom Broadsword",
+        de: "Altkönigreich-Breitschwert",
+        ja: "オールドキングダム・ブロードソード",
+        fr: "Épée large de l'ancien royaume",
+    },
+    42871: {
+        en: "Archeo Kingdom Patas",
+        de: "Altkönigreich-Pata",
+        ja: "オールドキングダム・パタ",
+        fr: "Patas de l'ancien royaume",
+    },
+    42872: {
+        en: "Archeo Kingdom Labrys",
+        de: "Altkönigreich-Labrys",
+        ja: "オールドキングダム・ラブリュス",
+        fr: "Labrys de l'ancien royaume",
+    },
+    42873: {
+        en: "Archeo Kingdom Partisan",
+        de: "Altkönigreich-Partisane",
+        ja: "オールドキングダム・パルチザン",
+        fr: "Pertuisane de l'ancien royaume",
+    },
+    42874: {
+        en: "Archeo Kingdom Bow",
+        de: "Altkönigreich-Bogen",
+        ja: "オールドキングダム・ボウ",
+        fr: "Arc de l'ancien royaume",
+    },
+    42875: {
+        en: "Archeo Kingdom Candelarod",
+        de: "Altkönigreich-Kerzenstab",
+        ja: "オールドキングダム・キャンドルロッド",
+        fr: "Sceptre-candélabre de l'ancien royaume",
+    },
+    42876: {
+        en: "Archeo Kingdom Scepter",
+        de: "Altkönigreich-Zepter",
+        ja: "オールドキングダム・セプター",
+        fr: "Sceptre de l'ancien royaume",
+    },
+    42877: {
+        en: "Archeo Kingdom Index",
+        de: "Altkönigreich-Index",
+        ja: "オールドキングダム・インデックス",
+        fr: "Index de l'ancien royaume",
+    },
+    42878: {
+        en: "Archeo Kingdom Codex",
+        de: "Altkönigreich-Kodex",
+        ja: "オールドキングダム・コーデックス",
+        fr: "Codex de l'ancien royaume",
+    },
+    42879: {
+        en: "Archeo Kingdom Daggers",
+        de: "Altkönigreich-Dolche",
+        ja: "オールドキングダム・ダガー",
+        fr: "Dagues de l'ancien royaume",
+    },
+    42880: {
+        en: "Archeo Kingdom Claymore",
+        de: "Altkönigreich-Claymore",
+        ja: "オールドキングダム・クレイモア",
+        fr: "Claymore de l'ancien royaume",
+    },
+    42881: {
+        en: "Archeo Kingdom Culverin",
+        de: "Altkönigreich-Kalverine",
+        ja: "オールドキングダム・カルバリン",
+        fr: "Couleuvrine de l'ancien royaume",
+    },
+    42882: {
+        en: "Archeo Kingdom Planisphere",
+        de: "Altkönigreich-Planisphäre",
+        ja: "オールドキングダム・プラニスフィア",
+        fr: "Planisphère de l'ancien royaume",
+    },
+    42883: {
+        en: "Archeo Kingdom Samurai Blade",
+        de: "Altkönigreich-Samuraiklinge",
+        ja: "オールドキングダム・サムライブレード",
+        fr: "Lame de samouraï de l'ancien royaume",
+    },
+    42884: {
+        en: "Archeo Kingdom Tuck",
+        de: "Altkönigreich-Estoc",
+        ja: "オールドキングダム・タック",
+        fr: "Estoc de l'ancien royaume",
+    },
+    42885: {
+        en: "Archeo Kingdom Gunblade",
+        de: "Altkönigreich-Revolverklinge",
+        ja: "オールドキングダム・ガンブレード",
+        fr: "Pistolame de l'ancien royaume",
+    },
+    42886: {
+        en: "Archeo Kingdom Chakrams",
+        de: "Altkönigreich-Chakrams",
+        ja: "オールドキングダム・チャクラム",
+        fr: "Chakrams de l'ancien royaume",
+    },
+    42887: {
+        en: "Archeo Kingdom Sickle",
+        de: "Altkönigreich-Sichel",
+        ja: "オールドキングダム・シックル",
+        fr: "Faucille de l'ancien royaume",
+    },
+    42888: {
+        en: "Archeo Kingdom Milpreves",
+        de: "Altkönigreich-Hascherlite",
+        ja: "オールドキングダム・ミルプレーヴェ",
+        fr: "Mein gwrac'h de l'ancien royaume",
+    },
+    42889: {
+        en: "Archeo Kingdom Twinfangs",
+        de: "Altkönigreich-Zwillingsfänge",
+        ja: "オールドキングダム・ツインファング",
+        fr: "Crochets jumeaux de l'ancien royaume",
+    },
+    42890: {
+        en: "Archeo Kingdom Round Brush",
+        de: "Altkönigreich-Rundpinsel",
+        ja: "オールドキングダム・ラウンドブラシ",
+        fr: "Pinceau rond de l'ancien royaume",
+    },
+    42891: {
+        en: "Archeo Kingdom Scutum",
+        de: "Altkönigreich-Turmschild",
+        ja: "オールドキングダム・スクトゥム",
+        fr: "Scutum de l'ancien royaume",
+    },
+    42892: {
+        en: "Archeo Kingdom Helm of Fending",
+        de: "Altkönigreich-Helm der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーヘルム",
+        fr: "Casque de protecteur de l'ancien royaume",
+    },
+    42893: {
+        en: "Archeo Kingdom Cuirass of Fending",
+        de: "Altkönigreich-Kürass der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーキュイラス",
+        fr: "Cuirasse de protecteur de l'ancien royaume",
+    },
+    42894: {
+        en: "Archeo Kingdom Vambraces of Fending",
+        de: "Altkönigreich-Unterarmschienen der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーヴァンブレイス",
+        fr: "Canons d'avant-bras de protecteur de l'ancien royaume",
+    },
+    42895: {
+        en: "Archeo Kingdom Poleyns of Fending",
+        de: "Altkönigreich-Knieschützer der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーポレイン",
+        fr: "Genouillères de protecteur de l'ancien royaume",
+    },
+    42896: {
+        en: "Archeo Kingdom Sabatons of Fending",
+        de: "Altkönigreich-Bärlatschen der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーサバトン",
+        fr: "Sabatons de protecteur de l'ancien royaume",
+    },
+    42897: {
+        en: "Archeo Kingdom Helm of Maiming",
+        de: "Altkönigreich-Helm des Verstümmelns",
+        ja: "オールドキングダム・スレイヤーヘルム",
+        fr: "Casque d'abatteur de l'ancien royaume",
+    },
+    42898: {
+        en: "Archeo Kingdom Cuirass of Maiming",
+        de: "Altkönigreich-Kürass des Verstümmelns",
+        ja: "オールドキングダム・スレイヤーキュイラス",
+        fr: "Cuirasse d'abatteur de l'ancien royaume",
+    },
+    42899: {
+        en: "Archeo Kingdom Vambraces of Maiming",
+        de: "Altkönigreich-Unterarmschienen des Verstümmelns",
+        ja: "オールドキングダム・スレイヤーヴァンブレイス",
+        fr: "Canons d'avant-bras d'abatteur de l'ancien royaume",
+    },
+    42900: {
+        en: "Archeo Kingdom Poleyns of Maiming",
+        de: "Altkönigreich-Knieschützer des Verstümmelns",
+        ja: "オールドキングダム・スレイヤーポレイン",
+        fr: "Genouillères d'abatteur de l'ancien royaume",
+    },
+    42901: {
+        en: "Archeo Kingdom Sabatons of Maiming",
+        de: "Altkönigreich-Bärlatschen des Verstümmelns",
+        ja: "オールドキングダム・スレイヤーサバトン",
+        fr: "Sabatons d'abatteur de l'ancien royaume",
+    },
+    42902: {
+        en: "Archeo Kingdom Hood of Striking",
+        de: "Altkönigreich-Haube des Schlagens",
+        ja: "オールドキングダム・ストライカーフード",
+        fr: "Capuche d'agresseur de l'ancien royaume",
+    },
+    42903: {
+        en: "Archeo Kingdom Jacket of Striking",
+        de: "Altkönigreich-Jacke des Schlagens",
+        ja: "オールドキングダム・ストライカージャケット",
+        fr: "Jaque d'agresseur de l'ancien royaume",
+    },
+    42904: {
+        en: "Archeo Kingdom Armguards of Striking",
+        de: "Altkönigreich-Armschützer des Schlagens",
+        ja: "オールドキングダム・ストライカーアームガード",
+        fr: "Garde-bras d'agresseur de l'ancien royaume",
+    },
+    42905: {
+        en: "Archeo Kingdom Poleyns of Striking",
+        de: "Altkönigreich-Knieschützer des Schlagens",
+        ja: "オールドキングダム・ストライカーポレイン",
+        fr: "Genouillères d'agresseur de l'ancien royaume",
+    },
+    42906: {
+        en: "Archeo Kingdom Shoes of Striking",
+        de: "Altkönigreich-Schuhe des Schlagens",
+        ja: "オールドキングダム・ストライカーシューズ",
+        fr: "Chaussures d'agresseur de l'ancien royaume",
+    },
+    42907: {
+        en: "Archeo Kingdom Beret of Aiming",
+        de: "Altkönigreich-Barett des Zielens",
+        ja: "オールドキングダム・レンジャーベレー",
+        fr: "Béret de pisteur de l'ancien royaume",
+    },
+    42908: {
+        en: "Archeo Kingdom Jacket of Aiming",
+        de: "Altkönigreich-Jacke des Zielens",
+        ja: "オールドキングダム・レンジャージャケット",
+        fr: "Jaque de pisteur de l'ancien royaume",
+    },
+    42909: {
+        en: "Archeo Kingdom Gloves of Aiming",
+        de: "Altkönigreich-Handschuhe des Zielens",
+        ja: "オールドキングダム・レンジャーグローブ",
+        fr: "Gants de pisteur de l'ancien royaume",
+    },
+    42910: {
+        en: "Archeo Kingdom Poleyns of Aiming",
+        de: "Altkönigreich-Knieschützer des Zielens",
+        ja: "オールドキングダム・レンジャーポレイン",
+        fr: "Genouillères de pisteur de l'ancien royaume",
+    },
+    42911: {
+        en: "Archeo Kingdom Sabatons of Aiming",
+        de: "Altkönigreich-Bärlatschen des Zielens",
+        ja: "オールドキングダム・レンジャーサバトン",
+        fr: "Sabatons de pisteur de l'ancien royaume",
+    },
+    42912: {
+        en: "Archeo Kingdom Hood of Scouting",
+        de: "Altkönigreich-Haube des Spähens",
+        ja: "オールドキングダム・スカウトフード",
+        fr: "Capuche d'éclaireur de l'ancien royaume",
+    },
+    42913: {
+        en: "Archeo Kingdom Jacket of Scouting",
+        de: "Altkönigreich-Jacke des Spähens",
+        ja: "オールドキングダム・スカウトジャケット",
+        fr: "Jaque d'éclaireur de l'ancien royaume",
+    },
+    42914: {
+        en: "Archeo Kingdom Armguards of Scouting",
+        de: "Altkönigreich-Armschützer des Spähens",
+        ja: "オールドキングダム・スカウトアームガード",
+        fr: "Garde-bras d'éclaireur de l'ancien royaume",
+    },
+    42915: {
+        en: "Archeo Kingdom Poleyns of Scouting",
+        de: "Altkönigreich-Knieschützer des Spähens",
+        ja: "オールドキングダム・スカウトポレイン",
+        fr: "Genouillères d'éclaireur de l'ancien royaume",
+    },
+    42916: {
+        en: "Archeo Kingdom Sabatons of Scouting",
+        de: "Altkönigreich-Bärlatschen des Spähens",
+        ja: "オールドキングダム・スカウトサバトン",
+        fr: "Sabatons d'éclaireur de l'ancien royaume",
+    },
+    42917: {
+        en: "Archeo Kingdom Beret of Healing",
+        de: "Altkönigreich-Barett der Heilung",
+        ja: "オールドキングダム・ヒーラーベレー",
+        fr: "Béret de soigneur de l'ancien royaume",
+    },
+    42918: {
+        en: "Archeo Kingdom Coat of Healing",
+        de: "Altkönigreich-Mantel der Heilung",
+        ja: "オールドキングダム・ヒーラーコート",
+        fr: "Manteau de soigneur de l'ancien royaume",
+    },
+    42919: {
+        en: "Archeo Kingdom Gloves of Healing",
+        de: "Altkönigreich-Handschuhe der Heilung",
+        ja: "オールドキングダム・ヒーラーグローブ",
+        fr: "Gants de soigneur de l'ancien royaume",
+    },
+    42920: {
+        en: "Archeo Kingdom Poleyns of Healing",
+        de: "Altkönigreich-Knieschützer der Heilung",
+        ja: "オールドキングダム・ヒーラーポレイン",
+        fr: "Genouillères de soigneur de l'ancien royaume",
+    },
+    42921: {
+        en: "Archeo Kingdom Shoes of Healing",
+        de: "Altkönigreich-Schuhe der Heilung",
+        ja: "オールドキングダム・ヒーラーシューズ",
+        fr: "Chaussures de soigneur de l'ancien royaume",
+    },
+    42922: {
+        en: "Archeo Kingdom Hood of Casting",
+        de: "Altkönigreich-Haube der Magie",
+        ja: "オールドキングダム・キャスターフード",
+        fr: "Capuche d'incantateur de l'ancien royaume",
+    },
+    42923: {
+        en: "Archeo Kingdom Coat of Casting",
+        de: "Altkönigreich-Mantel der Magie",
+        ja: "オールドキングダム・キャスターコート",
+        fr: "Manteau d'incantateur de l'ancien royaume",
+    },
+    42924: {
+        en: "Archeo Kingdom Armguards of Casting",
+        de: "Altkönigreich-Armschützer der Magie",
+        ja: "オールドキングダム・キャスターアームガード",
+        fr: "Garde-bras d'incantateur de l'ancien royaume",
+    },
+    42925: {
+        en: "Archeo Kingdom Poleyns of Casting",
+        de: "Altkönigreich-Knieschützer der Magie",
+        ja: "オールドキングダム・キャスターポレイン",
+        fr: "Genouillères d'incantateur de l'ancien royaume",
+    },
+    42926: {
+        en: "Archeo Kingdom Shoes of Casting",
+        de: "Altkönigreich-Schuhe der Magie",
+        ja: "オールドキングダム・キャスターシューズ",
+        fr: "Chaussures d'incantateur de l'ancien royaume",
+    },
+    42927: {
+        en: "Archeo Kingdom Earrings of Fending",
+        de: "Altkönigreich-Ohrringe der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーイヤリング",
+        fr: "Boucles d'oreilles de protecteur de l'ancien royaume",
+    },
+    42928: {
+        en: "Archeo Kingdom Earrings of Slaying",
+        de: "Altkönigreich-Ohrringe des Schlachtens",
+        ja: "オールドキングダム・アタッカーイヤリング",
+        fr: "Boucles d'oreilles d'attaquant de l'ancien royaume",
+    },
+    42929: {
+        en: "Archeo Kingdom Earrings of Aiming",
+        de: "Altkönigreich-Ohrringe des Zielens",
+        ja: "オールドキングダム・レンジャーイヤリング",
+        fr: "Boucles d'oreilles de pisteur de l'ancien royaume",
+    },
+    42930: {
+        en: "Archeo Kingdom Earrings of Healing",
+        de: "Altkönigreich-Ohrringe der Heilung",
+        ja: "オールドキングダム・ヒーラーイヤリング",
+        fr: "Boucles d'oreilles de soigneur de l'ancien royaume",
+    },
+    42931: {
+        en: "Archeo Kingdom Earrings of Casting",
+        de: "Altkönigreich-Ohrringe der Magie",
+        ja: "オールドキングダム・キャスターイヤリング",
+        fr: "Boucles d'oreilles d'incantateur de l'ancien royaume",
+    },
+    42932: {
+        en: "Archeo Kingdom Choker of Fending",
+        de: "Altkönigreich-Halsberge der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーチョーカー",
+        fr: "Ras de cou de protecteur de l'ancien royaume",
+    },
+    42933: {
+        en: "Archeo Kingdom Choker of Slaying",
+        de: "Altkönigreich-Halsberge des Schlachtens",
+        ja: "オールドキングダム・アタッカーチョーカー",
+        fr: "Ras de cou d'attaquant de l'ancien royaume",
+    },
+    42934: {
+        en: "Archeo Kingdom Choker of Aiming",
+        de: "Altkönigreich-Halsberge des Zielens",
+        ja: "オールドキングダム・レンジャーチョーカー",
+        fr: "Ras de cou de pisteur de l'ancien royaume",
+    },
+    42935: {
+        en: "Archeo Kingdom Choker of Healing",
+        de: "Altkönigreich-Halsberge der Heilung",
+        ja: "オールドキングダム・ヒーラーチョーカー",
+        fr: "Ras de cou de soigneur de l'ancien royaume",
+    },
+    42936: {
+        en: "Archeo Kingdom Choker of Casting",
+        de: "Altkönigreich-Halsberge der Magie",
+        ja: "オールドキングダム・キャスターチョーカー",
+        fr: "Ras de cou d'incantateur de l'ancien royaume",
+    },
+    42937: {
+        en: "Archeo Kingdom Wristband of Fending",
+        de: "Altkönigreich-Armband-Bund der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーリストバンド",
+        fr: "Poignet de protecteur de l'ancien royaume",
+    },
+    42938: {
+        en: "Archeo Kingdom Wristband of Slaying",
+        de: "Altkönigreich-Armband-Bund des Schlachtens",
+        ja: "オールドキングダム・アタッカーリストバンド",
+        fr: "Poignet d'attaquant de l'ancien royaume",
+    },
+    42939: {
+        en: "Archeo Kingdom Wristband of Aiming",
+        de: "Altkönigreich-Armband-Bund des Zielens",
+        ja: "オールドキングダム・レンジャーリストバンド",
+        fr: "Poignet de pisteur de l'ancien royaume",
+    },
+    42940: {
+        en: "Archeo Kingdom Wristband of Healing",
+        de: "Altkönigreich-Armband-Bund der Heilung",
+        ja: "オールドキングダム・ヒーラーリストバンド",
+        fr: "Poignet de soigneur de l'ancien royaume",
+    },
+    42941: {
+        en: "Archeo Kingdom Wristband of Casting",
+        de: "Altkönigreich-Armband-Bund der Magie",
+        ja: "オールドキングダム・キャスターリストバンド",
+        fr: "Poignet d'incantateur de l'ancien royaume",
+    },
+    42942: {
+        en: "Archeo Kingdom Ring of Fending",
+        de: "Altkönigreich-Ring der Verteidigung",
+        ja: "オールドキングダム・ディフェンダーリング",
+        fr: "Bague de protecteur de l'ancien royaume",
+    },
+    42943: {
+        en: "Archeo Kingdom Ring of Slaying",
+        de: "Altkönigreich-Ring des Schlachtens",
+        ja: "オールドキングダム・アタッカーリング",
+        fr: "Bague d'attaquant de l'ancien royaume",
+    },
+    42944: {
+        en: "Archeo Kingdom Ring of Aiming",
+        de: "Altkönigreich-Ring des Zielens",
+        ja: "オールドキングダム・レンジャーリング",
+        fr: "Bague de pisteur de l'ancien royaume",
+    },
+    42945: {
+        en: "Archeo Kingdom Ring of Healing",
+        de: "Altkönigreich-Ring der Heilung",
+        ja: "オールドキングダム・ヒーラーリング",
+        fr: "Bague de soigneur de l'ancien royaume",
+    },
+    42946: {
+        en: "Archeo Kingdom Ring of Casting",
+        de: "Altkönigreich-Ring der Magie",
+        ja: "オールドキングダム・キャスターリング",
+        fr: "Bague d'incantateur de l'ancien royaume",
     },
 }
 
@@ -462,22 +475,22 @@ function stride(from = 0, to = 0, by = 1): number[] {
 
 // Worth 7
 export const ACCESSORIES = new Set(
-    stride(39685, 39704+1) //1: X Earring of Fending, 2: X Ring of Casting
-        .concat([39649]) // PLD shield. lol.
+    stride(42927, 42946 + 1) //1: X Earring of Fending, 2: X Ring of Casting
+        .concat([42891]) // PLD shield. lol.
 )
 
 // Worth 17
 export const MAJORS = new Set(
     // weapons (excl. PLD). 1: First non-PLD weapon, 2: Last weapon, not PLD shield
-    stride(39631, 39648+1)
-        .concat(stride(39651, 39681+1, 5)) //1: X [Chestpiece] of Fending, 2: X [Chestpiece] of Casting, 3: don't change
-        .concat(stride(39653, 39683+1, 5)) //1: X [Legpiece] of Fending, 2: X [Legpiece] of  Casting, 3: don't change
+    stride(42871, 42890 + 1)
+        .concat(stride(42893, 42923 + 1, 5)) //1: X [Chestpiece] of Fending, 2: X [Chestpiece] of Casting, 3: don't change
+        .concat(stride(42895, 42925 + 1, 5)) //1: X [Legpiece] of Fending, 2: X [Legpiece] of  Casting, 3: don't change
 )
 
 // Worth 10
 export const MINORS = new Set(
-    stride(39650, 39680+1, 5) //1: X [Hat] of Fending, 2: X [Hat] of Casting, 3: don't change
-        .concat(stride(39652, 39682+1, 5)) //1: X [Hand] of Fending, 2: X [Hand] of Casting, 3: don't change
-        .concat(stride(39654, 39684+1, 5)) //1: X [Boot] of Fending, 2: X [Boot] of Casting, 3: don't change
-        .concat([39630]) // PLD weapon. lol.
+    stride(42892, 42922 + 1, 5) //1: X [Hat] of Fending, 2: X [Hat] of Casting, 3: don't change
+        .concat(stride(42894, 42924 + 1, 5)) //1: X [Hand] of Fending, 2: X [Hand] of Casting, 3: don't change
+        .concat(stride(42896, 42926 + 1, 5)) //1: X [Boot] of Fending, 2: X [Boot] of Casting, 3: don't change
+        .concat([42891]) // PLD weapon. lol.
 )

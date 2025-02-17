@@ -22,7 +22,7 @@ import { GlobalFeature, MessageContext } from "./feature"
 
 
 // JS APIs really suck.
-const IDS = Array.from(new Array(75), (x, i) => i + 39630)
+const IDS = Array.from(new Array(77), (x, i) => i + 42870)
 // This is a range, where        ^ length           ^ start pos.
 
 interface UniversalisMarketCurrentDataResponse {
