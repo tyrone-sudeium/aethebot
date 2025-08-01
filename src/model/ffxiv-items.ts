@@ -1,466 +1,467 @@
 /* eslint-disable max-len */
+// https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/blob/staging/libs/data/src/lib/json/items.json
 export const ITEM_NAMES: { [itemId: number]: { en: string; de: string; ja: string; fr: string } } = {
-    42870: {
-        en: "Archeo Kingdom Broadsword",
-        de: "Altkönigreich-Breitschwert",
-        ja: "オールドキングダム・ブロードソード",
-        fr: "Épée large de l'ancien royaume",
-    },
-    42871: {
-        en: "Archeo Kingdom Patas",
-        de: "Altkönigreich-Pata",
-        ja: "オールドキングダム・パタ",
-        fr: "Patas de l'ancien royaume",
-    },
-    42872: {
-        en: "Archeo Kingdom Labrys",
-        de: "Altkönigreich-Labrys",
-        ja: "オールドキングダム・ラブリュス",
-        fr: "Labrys de l'ancien royaume",
-    },
-    42873: {
-        en: "Archeo Kingdom Partisan",
-        de: "Altkönigreich-Partisane",
-        ja: "オールドキングダム・パルチザン",
-        fr: "Pertuisane de l'ancien royaume",
-    },
-    42874: {
-        en: "Archeo Kingdom Bow",
-        de: "Altkönigreich-Bogen",
-        ja: "オールドキングダム・ボウ",
-        fr: "Arc de l'ancien royaume",
-    },
-    42875: {
-        en: "Archeo Kingdom Candelarod",
-        de: "Altkönigreich-Kerzenstab",
-        ja: "オールドキングダム・キャンドルロッド",
-        fr: "Sceptre-candélabre de l'ancien royaume",
-    },
-    42876: {
-        en: "Archeo Kingdom Scepter",
-        de: "Altkönigreich-Zepter",
-        ja: "オールドキングダム・セプター",
-        fr: "Sceptre de l'ancien royaume",
-    },
-    42877: {
-        en: "Archeo Kingdom Index",
-        de: "Altkönigreich-Index",
-        ja: "オールドキングダム・インデックス",
-        fr: "Index de l'ancien royaume",
-    },
-    42878: {
-        en: "Archeo Kingdom Codex",
-        de: "Altkönigreich-Kodex",
-        ja: "オールドキングダム・コーデックス",
-        fr: "Codex de l'ancien royaume",
-    },
-    42879: {
-        en: "Archeo Kingdom Daggers",
-        de: "Altkönigreich-Dolche",
-        ja: "オールドキングダム・ダガー",
-        fr: "Dagues de l'ancien royaume",
-    },
-    42880: {
-        en: "Archeo Kingdom Claymore",
-        de: "Altkönigreich-Claymore",
-        ja: "オールドキングダム・クレイモア",
-        fr: "Claymore de l'ancien royaume",
-    },
-    42881: {
-        en: "Archeo Kingdom Culverin",
-        de: "Altkönigreich-Kalverine",
-        ja: "オールドキングダム・カルバリン",
-        fr: "Couleuvrine de l'ancien royaume",
-    },
-    42882: {
-        en: "Archeo Kingdom Planisphere",
-        de: "Altkönigreich-Planisphäre",
-        ja: "オールドキングダム・プラニスフィア",
-        fr: "Planisphère de l'ancien royaume",
-    },
-    42883: {
-        en: "Archeo Kingdom Samurai Blade",
-        de: "Altkönigreich-Samuraiklinge",
-        ja: "オールドキングダム・サムライブレード",
-        fr: "Lame de samouraï de l'ancien royaume",
-    },
-    42884: {
-        en: "Archeo Kingdom Tuck",
-        de: "Altkönigreich-Estoc",
-        ja: "オールドキングダム・タック",
-        fr: "Estoc de l'ancien royaume",
-    },
-    42885: {
-        en: "Archeo Kingdom Gunblade",
-        de: "Altkönigreich-Revolverklinge",
-        ja: "オールドキングダム・ガンブレード",
-        fr: "Pistolame de l'ancien royaume",
-    },
-    42886: {
-        en: "Archeo Kingdom Chakrams",
-        de: "Altkönigreich-Chakrams",
-        ja: "オールドキングダム・チャクラム",
-        fr: "Chakrams de l'ancien royaume",
-    },
-    42887: {
-        en: "Archeo Kingdom Sickle",
-        de: "Altkönigreich-Sichel",
-        ja: "オールドキングダム・シックル",
-        fr: "Faucille de l'ancien royaume",
-    },
-    42888: {
-        en: "Archeo Kingdom Milpreves",
-        de: "Altkönigreich-Hascherlite",
-        ja: "オールドキングダム・ミルプレーヴェ",
-        fr: "Mein gwrac'h de l'ancien royaume",
-    },
-    42889: {
-        en: "Archeo Kingdom Twinfangs",
-        de: "Altkönigreich-Zwillingsfänge",
-        ja: "オールドキングダム・ツインファング",
-        fr: "Crochets jumeaux de l'ancien royaume",
-    },
-    42890: {
-        en: "Archeo Kingdom Round Brush",
-        de: "Altkönigreich-Rundpinsel",
-        ja: "オールドキングダム・ラウンドブラシ",
-        fr: "Pinceau rond de l'ancien royaume",
-    },
-    42891: {
-        en: "Archeo Kingdom Scutum",
-        de: "Altkönigreich-Turmschild",
-        ja: "オールドキングダム・スクトゥム",
-        fr: "Scutum de l'ancien royaume",
-    },
-    42892: {
-        en: "Archeo Kingdom Helm of Fending",
-        de: "Altkönigreich-Helm der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーヘルム",
-        fr: "Casque de protecteur de l'ancien royaume",
-    },
-    42893: {
-        en: "Archeo Kingdom Cuirass of Fending",
-        de: "Altkönigreich-Kürass der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーキュイラス",
-        fr: "Cuirasse de protecteur de l'ancien royaume",
-    },
-    42894: {
-        en: "Archeo Kingdom Vambraces of Fending",
-        de: "Altkönigreich-Unterarmschienen der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーヴァンブレイス",
-        fr: "Canons d'avant-bras de protecteur de l'ancien royaume",
-    },
-    42895: {
-        en: "Archeo Kingdom Poleyns of Fending",
-        de: "Altkönigreich-Knieschützer der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーポレイン",
-        fr: "Genouillères de protecteur de l'ancien royaume",
-    },
-    42896: {
-        en: "Archeo Kingdom Sabatons of Fending",
-        de: "Altkönigreich-Bärlatschen der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーサバトン",
-        fr: "Sabatons de protecteur de l'ancien royaume",
-    },
-    42897: {
-        en: "Archeo Kingdom Helm of Maiming",
-        de: "Altkönigreich-Helm des Verstümmelns",
-        ja: "オールドキングダム・スレイヤーヘルム",
-        fr: "Casque d'abatteur de l'ancien royaume",
-    },
-    42898: {
-        en: "Archeo Kingdom Cuirass of Maiming",
-        de: "Altkönigreich-Kürass des Verstümmelns",
-        ja: "オールドキングダム・スレイヤーキュイラス",
-        fr: "Cuirasse d'abatteur de l'ancien royaume",
-    },
-    42899: {
-        en: "Archeo Kingdom Vambraces of Maiming",
-        de: "Altkönigreich-Unterarmschienen des Verstümmelns",
-        ja: "オールドキングダム・スレイヤーヴァンブレイス",
-        fr: "Canons d'avant-bras d'abatteur de l'ancien royaume",
-    },
-    42900: {
-        en: "Archeo Kingdom Poleyns of Maiming",
-        de: "Altkönigreich-Knieschützer des Verstümmelns",
-        ja: "オールドキングダム・スレイヤーポレイン",
-        fr: "Genouillères d'abatteur de l'ancien royaume",
-    },
-    42901: {
-        en: "Archeo Kingdom Sabatons of Maiming",
-        de: "Altkönigreich-Bärlatschen des Verstümmelns",
-        ja: "オールドキングダム・スレイヤーサバトン",
-        fr: "Sabatons d'abatteur de l'ancien royaume",
-    },
-    42902: {
-        en: "Archeo Kingdom Hood of Striking",
-        de: "Altkönigreich-Haube des Schlagens",
-        ja: "オールドキングダム・ストライカーフード",
-        fr: "Capuche d'agresseur de l'ancien royaume",
-    },
-    42903: {
-        en: "Archeo Kingdom Jacket of Striking",
-        de: "Altkönigreich-Jacke des Schlagens",
-        ja: "オールドキングダム・ストライカージャケット",
-        fr: "Jaque d'agresseur de l'ancien royaume",
-    },
-    42904: {
-        en: "Archeo Kingdom Armguards of Striking",
-        de: "Altkönigreich-Armschützer des Schlagens",
-        ja: "オールドキングダム・ストライカーアームガード",
-        fr: "Garde-bras d'agresseur de l'ancien royaume",
-    },
-    42905: {
-        en: "Archeo Kingdom Poleyns of Striking",
-        de: "Altkönigreich-Knieschützer des Schlagens",
-        ja: "オールドキングダム・ストライカーポレイン",
-        fr: "Genouillères d'agresseur de l'ancien royaume",
-    },
-    42906: {
-        en: "Archeo Kingdom Shoes of Striking",
-        de: "Altkönigreich-Schuhe des Schlagens",
-        ja: "オールドキングダム・ストライカーシューズ",
-        fr: "Chaussures d'agresseur de l'ancien royaume",
-    },
-    42907: {
-        en: "Archeo Kingdom Beret of Aiming",
-        de: "Altkönigreich-Barett des Zielens",
-        ja: "オールドキングダム・レンジャーベレー",
-        fr: "Béret de pisteur de l'ancien royaume",
-    },
-    42908: {
-        en: "Archeo Kingdom Jacket of Aiming",
-        de: "Altkönigreich-Jacke des Zielens",
-        ja: "オールドキングダム・レンジャージャケット",
-        fr: "Jaque de pisteur de l'ancien royaume",
-    },
-    42909: {
-        en: "Archeo Kingdom Gloves of Aiming",
-        de: "Altkönigreich-Handschuhe des Zielens",
-        ja: "オールドキングダム・レンジャーグローブ",
-        fr: "Gants de pisteur de l'ancien royaume",
-    },
-    42910: {
-        en: "Archeo Kingdom Poleyns of Aiming",
-        de: "Altkönigreich-Knieschützer des Zielens",
-        ja: "オールドキングダム・レンジャーポレイン",
-        fr: "Genouillères de pisteur de l'ancien royaume",
-    },
-    42911: {
-        en: "Archeo Kingdom Sabatons of Aiming",
-        de: "Altkönigreich-Bärlatschen des Zielens",
-        ja: "オールドキングダム・レンジャーサバトン",
-        fr: "Sabatons de pisteur de l'ancien royaume",
-    },
-    42912: {
-        en: "Archeo Kingdom Hood of Scouting",
-        de: "Altkönigreich-Haube des Spähens",
-        ja: "オールドキングダム・スカウトフード",
-        fr: "Capuche d'éclaireur de l'ancien royaume",
-    },
-    42913: {
-        en: "Archeo Kingdom Jacket of Scouting",
-        de: "Altkönigreich-Jacke des Spähens",
-        ja: "オールドキングダム・スカウトジャケット",
-        fr: "Jaque d'éclaireur de l'ancien royaume",
-    },
-    42914: {
-        en: "Archeo Kingdom Armguards of Scouting",
-        de: "Altkönigreich-Armschützer des Spähens",
-        ja: "オールドキングダム・スカウトアームガード",
-        fr: "Garde-bras d'éclaireur de l'ancien royaume",
-    },
-    42915: {
-        en: "Archeo Kingdom Poleyns of Scouting",
-        de: "Altkönigreich-Knieschützer des Spähens",
-        ja: "オールドキングダム・スカウトポレイン",
-        fr: "Genouillères d'éclaireur de l'ancien royaume",
-    },
-    42916: {
-        en: "Archeo Kingdom Sabatons of Scouting",
-        de: "Altkönigreich-Bärlatschen des Spähens",
-        ja: "オールドキングダム・スカウトサバトン",
-        fr: "Sabatons d'éclaireur de l'ancien royaume",
-    },
-    42917: {
-        en: "Archeo Kingdom Beret of Healing",
-        de: "Altkönigreich-Barett der Heilung",
-        ja: "オールドキングダム・ヒーラーベレー",
-        fr: "Béret de soigneur de l'ancien royaume",
-    },
-    42918: {
-        en: "Archeo Kingdom Coat of Healing",
-        de: "Altkönigreich-Mantel der Heilung",
-        ja: "オールドキングダム・ヒーラーコート",
-        fr: "Manteau de soigneur de l'ancien royaume",
-    },
-    42919: {
-        en: "Archeo Kingdom Gloves of Healing",
-        de: "Altkönigreich-Handschuhe der Heilung",
-        ja: "オールドキングダム・ヒーラーグローブ",
-        fr: "Gants de soigneur de l'ancien royaume",
-    },
-    42920: {
-        en: "Archeo Kingdom Poleyns of Healing",
-        de: "Altkönigreich-Knieschützer der Heilung",
-        ja: "オールドキングダム・ヒーラーポレイン",
-        fr: "Genouillères de soigneur de l'ancien royaume",
-    },
-    42921: {
-        en: "Archeo Kingdom Shoes of Healing",
-        de: "Altkönigreich-Schuhe der Heilung",
-        ja: "オールドキングダム・ヒーラーシューズ",
-        fr: "Chaussures de soigneur de l'ancien royaume",
-    },
-    42922: {
-        en: "Archeo Kingdom Hood of Casting",
-        de: "Altkönigreich-Haube der Magie",
-        ja: "オールドキングダム・キャスターフード",
-        fr: "Capuche d'incantateur de l'ancien royaume",
-    },
-    42923: {
-        en: "Archeo Kingdom Coat of Casting",
-        de: "Altkönigreich-Mantel der Magie",
-        ja: "オールドキングダム・キャスターコート",
-        fr: "Manteau d'incantateur de l'ancien royaume",
-    },
-    42924: {
-        en: "Archeo Kingdom Armguards of Casting",
-        de: "Altkönigreich-Armschützer der Magie",
-        ja: "オールドキングダム・キャスターアームガード",
-        fr: "Garde-bras d'incantateur de l'ancien royaume",
-    },
-    42925: {
-        en: "Archeo Kingdom Poleyns of Casting",
-        de: "Altkönigreich-Knieschützer der Magie",
-        ja: "オールドキングダム・キャスターポレイン",
-        fr: "Genouillères d'incantateur de l'ancien royaume",
-    },
-    42926: {
-        en: "Archeo Kingdom Shoes of Casting",
-        de: "Altkönigreich-Schuhe der Magie",
-        ja: "オールドキングダム・キャスターシューズ",
-        fr: "Chaussures d'incantateur de l'ancien royaume",
-    },
-    42927: {
-        en: "Archeo Kingdom Earrings of Fending",
-        de: "Altkönigreich-Ohrringe der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーイヤリング",
-        fr: "Boucles d'oreilles de protecteur de l'ancien royaume",
-    },
-    42928: {
-        en: "Archeo Kingdom Earrings of Slaying",
-        de: "Altkönigreich-Ohrringe des Schlachtens",
-        ja: "オールドキングダム・アタッカーイヤリング",
-        fr: "Boucles d'oreilles d'attaquant de l'ancien royaume",
-    },
-    42929: {
-        en: "Archeo Kingdom Earrings of Aiming",
-        de: "Altkönigreich-Ohrringe des Zielens",
-        ja: "オールドキングダム・レンジャーイヤリング",
-        fr: "Boucles d'oreilles de pisteur de l'ancien royaume",
-    },
-    42930: {
-        en: "Archeo Kingdom Earrings of Healing",
-        de: "Altkönigreich-Ohrringe der Heilung",
-        ja: "オールドキングダム・ヒーラーイヤリング",
-        fr: "Boucles d'oreilles de soigneur de l'ancien royaume",
-    },
-    42931: {
-        en: "Archeo Kingdom Earrings of Casting",
-        de: "Altkönigreich-Ohrringe der Magie",
-        ja: "オールドキングダム・キャスターイヤリング",
-        fr: "Boucles d'oreilles d'incantateur de l'ancien royaume",
-    },
-    42932: {
-        en: "Archeo Kingdom Choker of Fending",
-        de: "Altkönigreich-Halsberge der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーチョーカー",
-        fr: "Ras de cou de protecteur de l'ancien royaume",
-    },
-    42933: {
-        en: "Archeo Kingdom Choker of Slaying",
-        de: "Altkönigreich-Halsberge des Schlachtens",
-        ja: "オールドキングダム・アタッカーチョーカー",
-        fr: "Ras de cou d'attaquant de l'ancien royaume",
-    },
-    42934: {
-        en: "Archeo Kingdom Choker of Aiming",
-        de: "Altkönigreich-Halsberge des Zielens",
-        ja: "オールドキングダム・レンジャーチョーカー",
-        fr: "Ras de cou de pisteur de l'ancien royaume",
-    },
-    42935: {
-        en: "Archeo Kingdom Choker of Healing",
-        de: "Altkönigreich-Halsberge der Heilung",
-        ja: "オールドキングダム・ヒーラーチョーカー",
-        fr: "Ras de cou de soigneur de l'ancien royaume",
-    },
-    42936: {
-        en: "Archeo Kingdom Choker of Casting",
-        de: "Altkönigreich-Halsberge der Magie",
-        ja: "オールドキングダム・キャスターチョーカー",
-        fr: "Ras de cou d'incantateur de l'ancien royaume",
-    },
-    42937: {
-        en: "Archeo Kingdom Wristband of Fending",
-        de: "Altkönigreich-Armband-Bund der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーリストバンド",
-        fr: "Poignet de protecteur de l'ancien royaume",
-    },
-    42938: {
-        en: "Archeo Kingdom Wristband of Slaying",
-        de: "Altkönigreich-Armband-Bund des Schlachtens",
-        ja: "オールドキングダム・アタッカーリストバンド",
-        fr: "Poignet d'attaquant de l'ancien royaume",
-    },
-    42939: {
-        en: "Archeo Kingdom Wristband of Aiming",
-        de: "Altkönigreich-Armband-Bund des Zielens",
-        ja: "オールドキングダム・レンジャーリストバンド",
-        fr: "Poignet de pisteur de l'ancien royaume",
-    },
-    42940: {
-        en: "Archeo Kingdom Wristband of Healing",
-        de: "Altkönigreich-Armband-Bund der Heilung",
-        ja: "オールドキングダム・ヒーラーリストバンド",
-        fr: "Poignet de soigneur de l'ancien royaume",
-    },
-    42941: {
-        en: "Archeo Kingdom Wristband of Casting",
-        de: "Altkönigreich-Armband-Bund der Magie",
-        ja: "オールドキングダム・キャスターリストバンド",
-        fr: "Poignet d'incantateur de l'ancien royaume",
-    },
-    42942: {
-        en: "Archeo Kingdom Ring of Fending",
-        de: "Altkönigreich-Ring der Verteidigung",
-        ja: "オールドキングダム・ディフェンダーリング",
-        fr: "Bague de protecteur de l'ancien royaume",
-    },
-    42943: {
-        en: "Archeo Kingdom Ring of Slaying",
-        de: "Altkönigreich-Ring des Schlachtens",
-        ja: "オールドキングダム・アタッカーリング",
-        fr: "Bague d'attaquant de l'ancien royaume",
-    },
-    42944: {
-        en: "Archeo Kingdom Ring of Aiming",
-        de: "Altkönigreich-Ring des Zielens",
-        ja: "オールドキングダム・レンジャーリング",
-        fr: "Bague de pisteur de l'ancien royaume",
-    },
-    42945: {
-        en: "Archeo Kingdom Ring of Healing",
-        de: "Altkönigreich-Ring der Heilung",
-        ja: "オールドキングダム・ヒーラーリング",
-        fr: "Bague de soigneur de l'ancien royaume",
-    },
-    42946: {
-        en: "Archeo Kingdom Ring of Casting",
-        de: "Altkönigreich-Ring der Magie",
-        ja: "オールドキングダム・キャスターリング",
-        fr: "Bague d'incantateur de l'ancien royaume",
+    46010: {
+        en: "Ceremonial Shamshir",
+        de: "Zeremonial-Shamshir",
+        ja: "セレモニアル・シャムシール",
+        fr: "Shamshir des cérémonies",
+    },
+    46011: {
+        en: "Ceremonial Sainti",
+        de: "Zeremonial-Sainti",
+        ja: "セレモニアル・サインティ",
+        fr: "Saintis des cérémonies",
+    },
+    46012: {
+        en: "Ceremonial Bardiche",
+        de: "Zeremonial-Berdysch",
+        ja: "セレモニアル・バルディッシュ",
+        fr: "Bardiche des cérémonies",
+    },
+    46013: {
+        en: "Ceremonial Couse",
+        de: "Zeremonial-Couse",
+        ja: "セレモニアル・クーゼ",
+        fr: "Guan dao des cérémonies",
+    },
+    46014: {
+        en: "Ceremonial Shortbow",
+        de: "Zeremonial-Kurzbogen",
+        ja: "セレモニアル・ショートボウ",
+        fr: "Arc court des cérémonies",
+    },
+    46015: {
+        en: "Ceremonial Wand",
+        de: "Zeremonial-Zweig",
+        ja: "セレモニアル・ワンド",
+        fr: "Baguette des cérémonies",
+    },
+    46016: {
+        en: "Ceremonial Longpole",
+        de: "Zeremonial-Langstab",
+        ja: "セレモニアル・ロングポール",
+        fr: "Échalas des cérémonies",
+    },
+    46017: {
+        en: "Ceremonial Grimoire",
+        de: "Zeremonial-Grimoire",
+        ja: "セレモニアル・グリモア",
+        fr: "Grimoire des cérémonies",
+    },
+    46018: {
+        en: "Ceremonial Codex",
+        de: "Zeremonial-Kodex",
+        ja: "セレモニアル・コーデックス",
+        fr: "Codex des cérémonies",
+    },
+    46019: {
+        en: "Ceremonial Cleavers",
+        de: "Zeremonial-Spalter",
+        ja: "セレモニアル・クリーバー",
+        fr: "Couperets des cérémonies",
+    },
+    46020: {
+        en: "Ceremonial Claymore",
+        de: "Zeremonial-Claymore",
+        ja: "セレモニアル・クレイモア",
+        fr: "Claymore des cérémonies",
+    },
+    46021: {
+        en: "Ceremonial Culverin",
+        de: "Zeremonial-Karabiner",
+        ja: "セレモニアル・カルバリン",
+        fr: "Couleuvrine des cérémonies",
+    },
+    46022: {
+        en: "Ceremonial Torquetum",
+        de: "Zeremonial-Torquetum",
+        ja: "セレモニアル・トルクエタム",
+        fr: "Torquetum des cérémonies",
+    },
+    46023: {
+        en: "Ceremonial Tulwar",
+        de: "Zeremonial-Talwar",
+        ja: "セレモニアル・タルワール",
+        fr: "Talwar des cérémonies",
+    },
+    46024: {
+        en: "Ceremonial Smallsword",
+        de: "Zeremonial-Rapier",
+        ja: "セレモニアル・スモールソード",
+        fr: "Petite épée des cérémonies",
+    },
+    46025: {
+        en: "Ceremonial Gunblade",
+        de: "Zeremonial-Revolverklinge",
+        ja: "セレモニアル・ガンブレード",
+        fr: "Pistolame des cérémonies",
+    },
+    46026: {
+        en: "Ceremonial Chakrams",
+        de: "Zeremonial-Chakrams",
+        ja: "セレモニアル・チャクラム",
+        fr: "Chakrams des cérémonies",
+    },
+    46027: {
+        en: "Ceremonial War Scythe",
+        de: "Zeremonial-Kriegssense",
+        ja: "セレモニアル・ウォーサイズ",
+        fr: "Faux de guerre des cérémonies",
+    },
+    46028: {
+        en: "Ceremonial Pendulums",
+        de: "Zeremonial-Perpendikel",
+        ja: "セレモニアル・ペンデュラム",
+        fr: "Pendules des cérémonies",
+    },
+    46029: {
+        en: "Ceremonial Saberfangs",
+        de: "Zeremonial-Zwillingssäbel",
+        ja: "セレモニアル・ダブルサーベル",
+        fr: "Sabres jumeaux des cérémonies",
+    },
+    46030: {
+        en: "Ceremonial Flat Brush",
+        de: "Zeremonial-Flachpinsel",
+        ja: "セレモニアル・フラットブラシ",
+        fr: "Pinceau plat des cérémonies",
+    },
+    46031: {
+        en: "Ceremonial Pelta",
+        de: "Zeremonial-Pelte",
+        ja: "セレモニアル・ペルタ",
+        fr: "Pelte des cérémonies",
+    },
+    46032: {
+        en: "Ceremonial Longcap of Fending",
+        de: "Zeremonial-Kappe der Verteidigung",
+        ja: "セレモニアル・ディフェンダーフラップキャップ",
+        fr: "Casquette de protecteur des cérémonies",
+    },
+    46033: {
+        en: "Ceremonial Corselet of Fending",
+        de: "Zeremonial-Brustpanzer der Verteidigung",
+        ja: "セレモニアル・ディフェンダーコースリット",
+        fr: "Jaseran de protecteur des cérémonies",
+    },
+    46034: {
+        en: "Ceremonial Vambraces of Fending",
+        de: "Zeremonial-Unterarmschienen der Verteidigung",
+        ja: "セレモニアル・ディフェンダーヴァンブレイス",
+        fr: "Canons d'avant-bras de protecteur des cérémonies",
+    },
+    46035: {
+        en: "Ceremonial Hose of Fending",
+        de: "Zeremonial-Hose der Verteidigung",
+        ja: "セレモニアル・ディフェンダーホーズ",
+        fr: "Fuseau de protecteur des cérémonies",
+    },
+    46036: {
+        en: "Ceremonial Greaves of Fending",
+        de: "Zeremonial-Beinschienen der Verteidigung",
+        ja: "セレモニアル・ディフェンダーグリーヴ",
+        fr: "Jambards de protecteur des cérémonies",
+    },
+    46037: {
+        en: "Ceremonial Longcap of Maiming",
+        de: "Zeremonial-Kappe des Verstümmelns",
+        ja: "セレモニアル・スレイヤーフラップキャップ",
+        fr: "Casquette d'abatteur des cérémonies",
+    },
+    46038: {
+        en: "Ceremonial Corselet of Maiming",
+        de: "Zeremonial-Brustpanzer des Verstümmelns",
+        ja: "セレモニアル・スレイヤーコースリット",
+        fr: "Jaseran d'abatteur des cérémonies",
+    },
+    46039: {
+        en: "Ceremonial Vambraces of Maiming",
+        de: "Zeremonial-Unterarmschienen des Verstümmelns",
+        ja: "セレモニアル・スレイヤーヴァンブレイス",
+        fr: "Canons d'avant-bras d'abatteur des cérémonies",
+    },
+    46040: {
+        en: "Ceremonial Hose of Maiming",
+        de: "Zeremonial-Hose des Verstümmelns",
+        ja: "セレモニアル・スレイヤーホーズ",
+        fr: "Fuseau d'abatteur des cérémonies",
+    },
+    46041: {
+        en: "Ceremonial Greaves of Maiming",
+        de: "Zeremonial-Beinschienen des Verstümmelns",
+        ja: "セレモニアル・スレイヤーグリーヴ",
+        fr: "Jambards d'abatteur des cérémonies",
+    },
+    46042: {
+        en: "Ceremonial Longcap of Striking",
+        de: "Zeremonial-Kappe des Schlagens",
+        ja: "セレモニアル・ストライカーフラップキャップ",
+        fr: "Casquette d'agresseur des cérémonies",
+    },
+    46043: {
+        en: "Ceremonial Vest of Striking",
+        de: "Zeremonial-Weste des Schlagens",
+        ja: "セレモニアル・ストライカーベスト",
+        fr: "Gilet d'agresseur des cérémonies",
+    },
+    46044: {
+        en: "Ceremonial Armguards of Striking",
+        de: "Zeremonial-Armschützer des Schlagens",
+        ja: "セレモニアル・ストライカーアームガード",
+        fr: "Garde-bras d'agresseur des cérémonies",
+    },
+    46045: {
+        en: "Ceremonial Culottes of Striking",
+        de: "Zeremonial-Weithose des Schlagens",
+        ja: "セレモニアル・ストライカーワイドパンツ",
+        fr: "Pantalon large d'agresseur des cérémonies",
+    },
+    46046: {
+        en: "Ceremonial Crakows of Striking",
+        de: "Zeremonial-Poulaines des Schlagens",
+        ja: "セレモニアル・ストライカークラコー",
+        fr: "Souliers à poulaine d'agresseur des cérémonies",
+    },
+    46047: {
+        en: "Ceremonial Longcap of Aiming",
+        de: "Zeremonial-Kappe des Zielens",
+        ja: "セレモニアル・レンジャーフラップキャップ",
+        fr: "Casquette de pisteur des cérémonies",
+    },
+    46048: {
+        en: "Ceremonial Vest of Aiming",
+        de: "Zeremonial-Weste des Zielens",
+        ja: "セレモニアル・レンジャーベスト",
+        fr: "Gilet de pisteur des cérémonies",
+    },
+    46049: {
+        en: "Ceremonial Armguards of Aiming",
+        de: "Zeremonial-Armschützer des Zielens",
+        ja: "セレモニアル・レンジャーアームガード",
+        fr: "Garde-bras de pisteur des cérémonies",
+    },
+    46050: {
+        en: "Ceremonial Culottes of Aiming",
+        de: "Zeremonial-Weithose des Zielens",
+        ja: "セレモニアル・レンジャーワイドパンツ",
+        fr: "Pantalon large de pisteur des cérémonies",
+    },
+    46051: {
+        en: "Ceremonial Crakows of Aiming",
+        de: "Zeremonial-Poulaines des Zielens",
+        ja: "セレモニアル・レンジャークラコー",
+        fr: "Souliers à poulaine de pisteur des cérémonies",
+    },
+    46052: {
+        en: "Ceremonial Longcap of Scouting",
+        de: "Zeremonial-Kappe des Spähens",
+        ja: "セレモニアル・スカウトフラップキャップ",
+        fr: "Casquette d'éclaireur des cérémonies",
+    },
+    46053: {
+        en: "Ceremonial Vest of Scouting",
+        de: "Zeremonial-Weste des Spähens",
+        ja: "セレモニアル・スカウトベスト",
+        fr: "Gilet d'éclaireur des cérémonies",
+    },
+    46054: {
+        en: "Ceremonial Armguards of Scouting",
+        de: "Zeremonial-Armschützer des Spähens",
+        ja: "セレモニアル・スカウトアームガード",
+        fr: "Garde-bras d'éclaireur des cérémonies",
+    },
+    46055: {
+        en: "Ceremonial Culottes of Scouting",
+        de: "Zeremonial-Weithose des Spähens",
+        ja: "セレモニアル・スカウトワイドパンツ",
+        fr: "Pantalon large d'éclaireur des cérémonies",
+    },
+    46056: {
+        en: "Ceremonial Crakows of Scouting",
+        de: "Zeremonial-Poulaines des Spähens",
+        ja: "セレモニアル・スカウトクラコー",
+        fr: "Souliers à poulaine d'éclaireur des cérémonies",
+    },
+    46057: {
+        en: "Ceremonial Hood of Healing",
+        de: "Zeremonial-Haube der Heilung",
+        ja: "セレモニアル・ヒーラーフード",
+        fr: "Capuche de soigneur des cérémonies",
+    },
+    46058: {
+        en: "Ceremonial Tunic of Healing",
+        de: "Zeremonial-Tunika der Heilung",
+        ja: "セレモニアル・ヒーラーチュニック",
+        fr: "Tunique de soigneur des cérémonies",
+    },
+    46059: {
+        en: "Ceremonial Gloves of Healing",
+        de: "Zeremonial-Handschuhe der Heilung",
+        ja: "セレモニアル・ヒーラーグローブ",
+        fr: "Gants de soigneur des cérémonies",
+    },
+    46060: {
+        en: "Ceremonial Hose of Healing",
+        de: "Zeremonial-Hose der Heilung",
+        ja: "セレモニアル・ヒーラーホーズ",
+        fr: "Fuseau de soigneur des cérémonies",
+    },
+    46061: {
+        en: "Ceremonial Thighboots of Healing",
+        de: "Zeremonial-Kniestiefel der Heilung",
+        ja: "セレモニアル・ヒーラーサイブーツ",
+        fr: "Cuissardes de soigneur des cérémonies",
+    },
+    46062: {
+        en: "Ceremonial Hood of Casting",
+        de: "Zeremonial-Haube der Magie",
+        ja: "セレモニアル・キャスターフード",
+        fr: "Capuche d'incantateur des cérémonies",
+    },
+    46063: {
+        en: "Ceremonial Tunic of Casting",
+        de: "Zeremonial-Tunika der Magie",
+        ja: "セレモニアル・キャスターチュニック",
+        fr: "Tunique d'incantateur des cérémonies",
+    },
+    46064: {
+        en: "Ceremonial Gloves of Casting",
+        de: "Zeremonial-Handschuhe der Magie",
+        ja: "セレモニアル・キャスターグローブ",
+        fr: "Gants d'incantateur des cérémonies",
+    },
+    46065: {
+        en: "Ceremonial Hose of Casting",
+        de: "Zeremonial-Hose der Magie",
+        ja: "セレモニアル・キャスターホーズ",
+        fr: "Fuseau d'incantateur des cérémonies",
+    },
+    46066: {
+        en: "Ceremonial Thighboots of Casting",
+        de: "Zeremonial-Kniestiefel der Magie",
+        ja: "セレモニアル・キャスターサイブーツ",
+        fr: "Cuissardes d'incantateur des cérémonies",
+    },
+    46067: {
+        en: "Ceremonial Earring of Fending",
+        de: "Zeremonial-Ohrring der Verteidigung",
+        ja: "セレモニアル・ディフェンダーイヤリング",
+        fr: "Boucle d'oreille de protecteur des cérémonies",
+    },
+    46068: {
+        en: "Ceremonial Earring of Slaying",
+        de: "Zeremonial-Ohrring des Schlachtens",
+        ja: "セレモニアル・アタッカーイヤリング",
+        fr: "Boucle d'oreille d'attaquant des cérémonies",
+    },
+    46069: {
+        en: "Ceremonial Earring of Aiming",
+        de: "Zeremonial-Ohrring des Zielens",
+        ja: "セレモニアル・レンジャーイヤリング",
+        fr: "Boucle d'oreille de pisteur des cérémonies",
+    },
+    46070: {
+        en: "Ceremonial Earring of Healing",
+        de: "Zeremonial-Ohrring der Heilung",
+        ja: "セレモニアル・ヒーラーイヤリング",
+        fr: "Boucle d'oreille de soigneur des cérémonies",
+    },
+    46071: {
+        en: "Ceremonial Earring of Casting",
+        de: "Zeremonial-Ohrring der Magie",
+        ja: "セレモニアル・キャスターイヤリング",
+        fr: "Boucle d'oreille d'incantateur des cérémonies",
+    },
+    46072: {
+        en: "Ceremonial Necklace of Fending",
+        de: "Zeremonial-Halskette der Verteidigung",
+        ja: "セレモニアル・ディフェンダーネックレス",
+        fr: "Collier de protecteur des cérémonies",
+    },
+    46073: {
+        en: "Ceremonial Necklace of Slaying",
+        de: "Zeremonial-Halskette des Schlachtens",
+        ja: "セレモニアル・アタッカーネックレス",
+        fr: "Collier d'attaquant des cérémonies",
+    },
+    46074: {
+        en: "Ceremonial Necklace of Aiming",
+        de: "Zeremonial-Halskette des Zielens",
+        ja: "セレモニアル・レンジャーネックレス",
+        fr: "Collier de pisteur des cérémonies",
+    },
+    46075: {
+        en: "Ceremonial Necklace of Healing",
+        de: "Zeremonial-Halskette der Heilung",
+        ja: "セレモニアル・ヒーラーネックレス",
+        fr: "Collier de soigneur des cérémonies",
+    },
+    46076: {
+        en: "Ceremonial Necklace of Casting",
+        de: "Zeremonial-Halskette der Magie",
+        ja: "セレモニアル・キャスターネックレス",
+        fr: "Collier d'incantateur des cérémonies",
+    },
+    46077: {
+        en: "Ceremonial Bangle of Fending",
+        de: "Zeremonial-Armband der Verteidigung",
+        ja: "セレモニアル・ディフェンダーバングル",
+        fr: "Jonc de protecteur des cérémonies",
+    },
+    46078: {
+        en: "Ceremonial Bangle of Slaying",
+        de: "Zeremonial-Armband des Schlachtens",
+        ja: "セレモニアル・アタッカーバングル",
+        fr: "Jonc d'attaquant des cérémonies",
+    },
+    46079: {
+        en: "Ceremonial Bangle of Aiming",
+        de: "Zeremonial-Armband des Zielens",
+        ja: "セレモニアル・レンジャーバングル",
+        fr: "Jonc de pisteur des cérémonies",
+    },
+    46080: {
+        en: "Ceremonial Bangle of Healing",
+        de: "Zeremonial-Armband der Heilung",
+        ja: "セレモニアル・ヒーラーバングル",
+        fr: "Jonc de soigneur des cérémonies",
+    },
+    46081: {
+        en: "Ceremonial Bangle of Casting",
+        de: "Zeremonial-Armband der Magie",
+        ja: "セレモニアル・キャスターバングル",
+        fr: "Jonc d'incantateur des cérémonies",
+    },
+    46082: {
+        en: "Ceremonial Ring of Fending",
+        de: "Zeremonial-Ring der Verteidigung",
+        ja: "セレモニアル・ディフェンダーリング",
+        fr: "Bague de protecteur des cérémonies",
+    },
+    46083: {
+        en: "Ceremonial Ring of Slaying",
+        de: "Zeremonial-Ring des Schlachtens",
+        ja: "セレモニアル・アタッカーリング",
+        fr: "Bague d'attaquant des cérémonies",
+    },
+    46084: {
+        en: "Ceremonial Ring of Aiming",
+        de: "Zeremonial-Ring des Zielens",
+        ja: "セレモニアル・レンジャーリング",
+        fr: "Bague de pisteur des cérémonies",
+    },
+    46085: {
+        en: "Ceremonial Ring of Healing",
+        de: "Zeremonial-Ring der Heilung",
+        ja: "セレモニアル・ヒーラーリング",
+        fr: "Bague de soigneur des cérémonies",
+    },
+    46086: {
+        en: "Ceremonial Ring of Casting",
+        de: "Zeremonial-Ring der Magie",
+        ja: "セレモニアル・キャスターリング",
+        fr: "Bague d'incantateur des cérémonies",
     },
 }
 
@@ -473,24 +474,44 @@ function stride(from = 0, to = 0, by = 1): number[] {
     return range
 }
 
+export const STARTING_ID = 46010
+const ACCESSORY_START_ID = STARTING_ID + 57 // X Earring of Fending
+const ACCESSORY_END_ID   = ACCESSORY_START_ID + 20 // X Ring of Casting + 1
+const PLD_SHIELD_ID      = STARTING_ID + 21
+const PLD_SWORD_ID       = STARTING_ID
+const WEAPONS_START_ID   = STARTING_ID + 1 // First non-PLD weapon
+const WEAPONS_END_ID     = WEAPONS_START_ID + 20 // Last weapon, not PLD shield, + 1
+
+const HAT_START_ID   = STARTING_ID + 22 // X [Hat] of Fending
+const CHEST_START_ID = HAT_START_ID + 1 // X [Chestpiece] of Fending
+const HAND_START_ID  = HAT_START_ID + 2 // X [Hand] of Fending
+const LEG_START_ID   = HAT_START_ID + 3 // X [Legpiece] of Fending
+const BOOT_START_ID  = HAT_START_ID + 4 // X [Boot] of Fending
+
+const HAT_END_ID   = HAT_START_ID + 31
+const CHEST_END_ID = CHEST_START_ID + 31
+const HAND_END_ID  = HAND_START_ID + 31
+const LEG_END_ID   = LEG_START_ID + 31
+const BOOT_END_ID  = BOOT_START_ID + 31
+
 // Worth 7
 export const ACCESSORIES = new Set(
-    stride(42927, 42946 + 1) //1: X Earring of Fending, 2: X Ring of Casting
-        .concat([42891]) // PLD shield. lol.
+    stride(ACCESSORY_START_ID, ACCESSORY_END_ID) //1: X Earring of Fending, 2: X Ring of Casting
+        .concat([PLD_SHIELD_ID]) // PLD shield. lol.
 )
 
 // Worth 17
 export const MAJORS = new Set(
     // weapons (excl. PLD). 1: First non-PLD weapon, 2: Last weapon, not PLD shield
-    stride(42871, 42890 + 1)
-        .concat(stride(42893, 42923 + 1, 5)) //1: X [Chestpiece] of Fending, 2: X [Chestpiece] of Casting, 3: don't change
-        .concat(stride(42895, 42925 + 1, 5)) //1: X [Legpiece] of Fending, 2: X [Legpiece] of  Casting, 3: don't change
+    stride(WEAPONS_START_ID, WEAPONS_END_ID)
+        .concat(stride(CHEST_START_ID, CHEST_END_ID, 5)) //1: X [Chestpiece] of Fending, 2: X [Chestpiece] of Casting, 3: don't change
+        .concat(stride(LEG_START_ID, LEG_END_ID, 5)) //1: X [Legpiece] of Fending, 2: X [Legpiece] of  Casting, 3: don't change
 )
 
 // Worth 10
 export const MINORS = new Set(
-    stride(42892, 42922 + 1, 5) //1: X [Hat] of Fending, 2: X [Hat] of Casting, 3: don't change
-        .concat(stride(42894, 42924 + 1, 5)) //1: X [Hand] of Fending, 2: X [Hand] of Casting, 3: don't change
-        .concat(stride(42896, 42926 + 1, 5)) //1: X [Boot] of Fending, 2: X [Boot] of Casting, 3: don't change
-        .concat([42891]) // PLD weapon. lol.
+    stride(HAT_START_ID, HAT_END_ID, 5) //1: X [Hat] of Fending, 2: X [Hat] of Casting, 3: don't change
+        .concat(stride(HAND_START_ID, HAND_END_ID, 5)) //1: X [Hand] of Fending, 2: X [Hand] of Casting, 3: don't change
+        .concat(stride(BOOT_START_ID, BOOT_END_ID, 5)) //1: X [Boot] of Fending, 2: X [Boot] of Casting, 3: don't change
+        .concat([PLD_SWORD_ID]) // PLD weapon. lol.
 )

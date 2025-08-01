@@ -13,7 +13,7 @@
 */
 
 import * as Discord from "discord.js"
-import { ACCESSORIES, MAJORS, MINORS, ITEM_NAMES } from "../model/ffxiv-items"
+import { ACCESSORIES, MAJORS, MINORS, ITEM_NAMES, STARTING_ID } from "../model/ffxiv-items"
 import { getJSON, queryStringFromObject } from "../util/http"
 import { log } from "../log"
 import { DataCenter, isDataCenter } from "../model/ffxiv-datacenters"
@@ -22,7 +22,7 @@ import { GlobalFeature, MessageContext } from "./feature"
 
 
 // JS APIs really suck.
-const IDS = Array.from(new Array(77), (x, i) => i + 42870)
+const IDS = Array.from(new Array(77), (x, i) => i + STARTING_ID)
 // This is a range, where        ^ length           ^ start pos.
 
 interface UniversalisMarketCurrentDataResponse {
