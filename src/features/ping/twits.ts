@@ -10124,15 +10124,16 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         content: "All of the mid-century paintings in the Whitney that were supposed to convey the crushing alienation of modern life now look like utopias where there were jobs and functioning infrastructure.",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1502540800722305033%252F6kQ5175r_bigger.jpg",
     },
-    {
-        url: "https://twitter.com/KrangTNelson/status/933547439373635584",
-        author: "america's lounge singer (@KrangTNelson)",
-        retweets: 395,
-        likes: 3144,
-        content: "love watching old people’s fb pics evolve",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDPSgcTsWkAAZJU7.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567978320079343617%252FWJkYD4tq_bigger.jpg",
-    },
+    // removed: requires multiple images
+    // {
+    //     url: "https://twitter.com/KrangTNelson/status/933547439373635584",
+    //     author: "america's lounge singer (@KrangTNelson)",
+    //     retweets: 395,
+    //     likes: 3144,
+    //     content: "love watching old people’s fb pics evolve",
+    //     image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDPSgcTsWkAAZJU7.jpg",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567978320079343617%252FWJkYD4tq_bigger.jpg",
+    // },
     {
         url: "https://twitter.com/aparnapkin/status/933572488440803329",
         author: "Aparna Nancherla (@aparnapkin)",
@@ -11687,6 +11688,14 @@ const SPICYTWITS: TweetPoolContent[] = [
         url: "https://twitter.com/kanwetwitty/status/177549627090927616",
         author: "we (@kanwetwitty)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/NjFHHWlu_bigger.jpg",
+    },
+    {
+        content: "Sitting in a hotel lobby like 10 feet away from a guy in a full sailor uniform and my gf is having to physically restrain me from airdropping him a picture of a sail boat with the caption \“You like what you see?\”",
+        retweets: 324,
+        likes: 219300,
+        url: "https://twitter.com/on_da_spectrum/status/1952087363452362761",
+        author: "my life is a living hell. every minute is torture (@on_da_spectrum)",
+        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/qZ6hO6JL_200x200.jpg",
     },
 ]
 

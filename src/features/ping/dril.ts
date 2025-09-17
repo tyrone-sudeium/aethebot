@@ -1034,6 +1034,24 @@ const CONTENT: CursedDrilContent[] = [
         likes: 63000,
         id: "134787490526658561",
     },
+    {
+        content: "listen son, if someone calls you a horses ass, you look him in the eye and tell him \"horses asses are actually incredibly strong, and clean\"",
+        retweets: 1514,
+        likes: 3282,
+        id: "515489766318829568",
+    },
+    {
+        content: "i have absolutely zero interest in friendship, i have absolutely zero interest in jokes, i am simply here to collect data and earn respect",
+        retweets: 2338,
+        likes: 5867,
+        id: "377333121554718720",
+    },
+    {
+        content: "banking on becoming one of those guys that consistently sucks so much ass tthat people arent allowed to own me anymore because its boring",
+        retweets: 3117,
+        likes: 17335,
+        id: "1008450791991070721",
+    },
     NO,
     NEVER,
 ].concat(NASA)
