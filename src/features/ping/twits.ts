@@ -583,15 +583,16 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDjmvJL3WsAA-h4d.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F933349354810822657%252FmcICHb24_bigger.jpg",
     },
-    {
-        url: "https://twitter.com/iDoraemoe/status/1025233186014412800",
-        author: "@doraemoe@mastodon.tuidao.me くコ:彡 (@iDoraemoe)",
-        retweets: 6060,
-        likes: 13974,
-        content: "猫🐱发现负鼠在吃自己的食物",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDjpcIqRUUAAQaaI.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F872462414423367680%252FmOjqfTZS_bigger.jpg",
-    },
+    // removed: requires multiple images
+    // {
+    //     url: "https://twitter.com/iDoraemoe/status/1025233186014412800",
+    //     author: "@doraemoe@mastodon.tuidao.me くコ:彡 (@iDoraemoe)",
+    //     retweets: 6060,
+    //     likes: 13974,
+    //     content: "猫🐱发现负鼠在吃自己的食物",
+    //     image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDjpcIqRUUAAQaaI.jpg",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F872462414423367680%252FmOjqfTZS_bigger.jpg",
+    // },
     {
         url: "https://twitter.com/christapeterso/status/1025460729032237056",
         author: "worms cited (@christapeterso)",
@@ -6734,15 +6735,16 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCDkZfdyUUAAPfOd.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1272710694127845376%252F2moaAJ97_bigger.jpg",
     },
-    {
-        url: "https://twitter.com/SortaBad/status/594156562828001283",
-        author: "Alpha Male (real) (@SortaBad)",
-        retweets: 7537,
-        likes: 18971,
-        content: "Last month my mom asked what \"af\" meant and I said it meant \"like REALLY something\" without saying what it stood for",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCD7ePngUsAEMVcH.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
-    },
+    // removed: presumably requires multiple images, source deleted
+    // {
+    //     url: "https://twitter.com/SortaBad/status/594156562828001283",
+    //     author: "Alpha Male (real) (@SortaBad)",
+    //     retweets: 7537,
+    //     likes: 18971,
+    //     content: "Last month my mom asked what \"af\" meant and I said it meant \"like REALLY something\" without saying what it stood for",
+    //     image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FCD7ePngUsAEMVcH.jpg",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
+    // },
     {
         url: "https://twitter.com/SortaBad/status/596017781499240448",
         author: "Alpha Male (real) (@SortaBad)",
@@ -11048,15 +11050,16 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         content: "I've never seen a drug dealer with a current generation gaming console, they're always 1 generation behind like every drug dealer you go to now has an xbox 360 with skate 3 and that's it",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1038167853755551744%252FESObCK83_bigger.jpg",
     },
-    {
-        url: "https://twitter.com/YusufYuie/status/980550236107091968",
-        author: "Yusuf Yuie ✨ Black Joy (@YusufYuie)",
-        retweets: 14623,
-        likes: 30041,
-        content: "My mans dying and nobody cares 😂😂😂😂😂😂😂",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZudPUIXcAEME8M.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1634134884745609216%252Fm2jJi81L_bigger.jpg",
-    },
+    // removed: requires multiple images
+    // {
+    //     url: "https://twitter.com/YusufYuie/status/980550236107091968",
+    //     author: "Yusuf Yuie ✨ Black Joy (@YusufYuie)",
+    //     retweets: 14623,
+    //     likes: 30041,
+    //     content: "My mans dying and nobody cares 😂😂😂😂😂😂😂",
+    //     image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDZudPUIXcAEME8M.jpg",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1634134884745609216%252Fm2jJi81L_bigger.jpg",
+    // },
     {
         url: "https://twitter.com/saltydkdan/status/980899446316830722",
         author: "Saltydkdan (@saltydkdan)",
