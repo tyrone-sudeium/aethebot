@@ -1061,7 +1061,7 @@ function tweetPoolContentFromDril(dril: CursedDrilContent): TweetPoolContent {
         content: dril.content,
         retweets: dril.retweets,
         likes: dril.likes,
-        url: `https://twitter.com/dril/status/${dril.id}`,
+        url: `https://xcancel.com/dril/status/${dril.id}`,
         author: "wint (@dril)",
         avatar: DRIL_ICON,
         image: dril.image,

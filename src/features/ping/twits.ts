@@ -21,7 +21,7 @@ const BRAIN_KEYS = {
 
 const SCROLLBACKERS: TweetPoolContent[] = [
     {
-        url: "https://twitter.com/TriciaLockwood/status/1000507539665104897",
+        url: "https://xcancel.com/TriciaLockwood/status/1000507539665104897",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 188,
         likes: 2468,
@@ -29,7 +29,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HeroicGirls/status/1001161285994676226",
+        url: "https://xcancel.com/HeroicGirls/status/1001161285994676226",
         author: "Heroic Girls @SDCC 2023 - #MoreThanCute (@HeroicGirls)",
         retweets: 52752,
         likes: 143498,
@@ -38,7 +38,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1301734320529317888%252FGFB8iZl0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CNN/status/1001516854341505024",
+        url: "https://xcancel.com/CNN/status/1001516854341505024",
         author: "CNN (@CNN)",
         retweets: 11442,
         likes: 31673,
@@ -47,7 +47,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669780523911110656%252FK9gaaM1g_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SanofiUS/status/1001824999496404992",
+        url: "https://xcancel.com/SanofiUS/status/1001824999496404992",
         author: "Sanofi US (@SanofiUS)",
         retweets: 52126,
         likes: 149648,
@@ -55,7 +55,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675918812753932289%252Fb2sIqEAW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/garyfromteenmom/status/1001880290166439936",
+        url: "https://xcancel.com/garyfromteenmom/status/1001880290166439936",
         author: "gary from teen mom (@garyfromteenmom)",
         retweets: 1020,
         likes: 7305,
@@ -64,7 +64,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1035175907265323008%252F8JgwA2CN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GraceParra360/status/1001904740257550339",
+        url: "https://xcancel.com/GraceParra360/status/1001904740257550339",
         author: "Grace Parra Janney (@GraceParra360)",
         retweets: 561,
         likes: 2376,
@@ -73,7 +73,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1217570934510387200%252FO3Hxh3A-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Edcrab_/status/1001929790029553670",
+        url: "https://xcancel.com/Edcrab_/status/1001929790029553670",
         author: "Edcrab (@Edcrab_)",
         retweets: 377,
         likes: 1343,
@@ -82,7 +82,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1014883731805437952%252FKStQ26OL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/desusnice/status/1003347116675104769",
+        url: "https://xcancel.com/desusnice/status/1003347116675104769",
         author: "Desus MF Nice (@desusnice)",
         retweets: 3489,
         likes: 24887,
@@ -90,7 +90,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/meganamram/status/1003478279490363393",
+        url: "https://xcancel.com/meganamram/status/1003478279490363393",
         author: "Megan Amram (@meganamram)",
         retweets: 2517,
         likes: 22477,
@@ -98,7 +98,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ArfMeasures/status/1003613509832278016",
+        url: "https://xcancel.com/ArfMeasures/status/1003613509832278016",
         author: "Jon (@ArfMeasures)",
         retweets: 37276,
         likes: 143009,
@@ -106,7 +106,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/caitiedelaney/status/1003652179675136001",
+        url: "https://xcancel.com/caitiedelaney/status/1003652179675136001",
         author: "caitie delaney (@caitiedelaney)",
         retweets: 1867,
         likes: 8091,
@@ -114,7 +114,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1713241627555414016%252Fl3JKM2Fk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wesleysnipes/status/1003693142007091200",
+        url: "https://xcancel.com/wesleysnipes/status/1003693142007091200",
         author: "Wesley Snipes (@wesleysnipes)",
         retweets: 31255,
         likes: 108172,
@@ -123,7 +123,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1382524154168020992%252FzZZbDV_M_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RandBallsStu/status/1003817212283686914",
+        url: "https://xcancel.com/RandBallsStu/status/1003817212283686914",
         author: "Stu (@RandBallsStu)",
         retweets: 37817,
         likes: 125758,
@@ -132,7 +132,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1616527357946331156%252FI5gT7MVf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Darnn/status/1003935966443311104",
+        url: "https://xcancel.com/Darnn/status/1003935966443311104",
         author: "sk_baby.max (@Darnn)",
         retweets: 4870,
         likes: 17889,
@@ -140,7 +140,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1083081218898493440%252F-F9RVM8y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dubstep4dads/status/1004441995681468416",
+        url: "https://xcancel.com/dubstep4dads/status/1004441995681468416",
         author: "dubstep4dads (@dubstep4dads)",
         retweets: 6107,
         likes: 35242,
@@ -148,7 +148,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3737013477%252F8a3fed4bd60ab1d4fdfcd4a0fb38a8d5_bigger.gif",
     },
     {
-        url: "https://twitter.com/badkuthi69/status/1005965433239949312",
+        url: "https://xcancel.com/badkuthi69/status/1005965433239949312",
         author: "laanat del rey (@badkuthi69)",
         retweets: 1405,
         likes: 10929,
@@ -157,7 +157,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495168883971526657%252FTbl3liwi_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cULTMOTHER/status/1006268705263800320",
+        url: "https://xcancel.com/cULTMOTHER/status/1006268705263800320",
         author: "m. diane (@cULTMOTHER)",
         retweets: 106189,
         likes: 462471,
@@ -165,7 +165,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1428949223807102983%252FIJRCAR_V_bigger.jpg",
     },
     {
-        url: "https://twitter.com/youngcogan/status/1006298676950654986",
+        url: "https://xcancel.com/youngcogan/status/1006298676950654986",
         author: "amblans bug (@youngcogan)",
         retweets: 1779,
         likes: 6241,
@@ -174,7 +174,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496560475022278662%252FQzMFyHe-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jakecurrie/status/1006520863661985794",
+        url: "https://xcancel.com/jakecurrie/status/1006520863661985794",
         author: "jake (@jakecurrie)",
         retweets: 9637,
         likes: 51106,
@@ -183,7 +183,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F525020971569119233%252FqX-01mFR_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/KimKardashian/status/1006691477471125504",
+        url: "https://xcancel.com/KimKardashian/status/1006691477471125504",
         author: "Kim Kardashian (@KimKardashian)",
         retweets: 2919,
         likes: 35853,
@@ -191,7 +191,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589659852271280128%252FKhrL02UB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheCheish/status/1006992933890023424",
+        url: "https://xcancel.com/TheCheish/status/1006992933890023424",
         author: "Cheish (@TheCheish)",
         retweets: 72095,
         likes: 301325,
@@ -199,7 +199,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1197050943373815808%252FioR5FerY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/notacroc/status/1007666819061174273",
+        url: "https://xcancel.com/notacroc/status/1007666819061174273",
         author: "ally 𝖌𝖆𝖙𝖔𝖗 🐊🧑‍🍳🐕🏳️‍🌈 (@notacroc)",
         retweets: 6099,
         likes: 29128,
@@ -207,7 +207,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925875391947882496%252FqMYwlxPQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gldivittorio/status/1008519430631034881",
+        url: "https://xcancel.com/gldivittorio/status/1008519430631034881",
         author: "G. L. (@gldivittorio)",
         retweets: 3183,
         likes: 28906,
@@ -215,7 +215,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1612665728896827393%252Fsh8AqIsu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ChickenColeman/status/1008946607641907200",
+        url: "https://xcancel.com/ChickenColeman/status/1008946607641907200",
         author: "Depressed Cowboys Fan (@ChickenColeman)",
         retweets: 14888,
         likes: 90715,
@@ -223,7 +223,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715952259799130112%252FFSPdpni-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jessehawken/status/1009271740571283456",
+        url: "https://xcancel.com/jessehawken/status/1009271740571283456",
         author: "Jesse Hawken (@jessehawken)",
         retweets: 51196,
         likes: 164081,
@@ -231,7 +231,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F559505710107459584%252FmG8rNZEr_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/courtenlow/status/1009475001509203971",
+        url: "https://xcancel.com/courtenlow/status/1009475001509203971",
         author: "Courtney Enlow (@courtenlow)",
         retweets: 881,
         likes: 3140,
@@ -239,7 +239,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1393154117753769986%252Fc9Kl1Dzc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aparnapkin/status/1009519971423043584",
+        url: "https://xcancel.com/aparnapkin/status/1009519971423043584",
         author: "Aparna Nancherla (@aparnapkin)",
         retweets: 2888,
         likes: 16457,
@@ -247,7 +247,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kpfeffss/status/1010079699479871490",
+        url: "https://xcancel.com/kpfeffss/status/1010079699479871490",
         author: "the wicked witch of the east bro (@kpfeffss)",
         retweets: 66879,
         likes: 531621,
@@ -255,7 +255,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304947085859454977%252F1K7YLLqF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GrantBrisbee/status/1010240159642578944",
+        url: "https://xcancel.com/GrantBrisbee/status/1010240159642578944",
         author: "Grant Brisbee (@GrantBrisbee)",
         retweets: 3480,
         likes: 16029,
@@ -263,7 +263,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1223524134631534592%252FP21_dygc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/riplimewire/status/1011377618980139009",
+        url: "https://xcancel.com/riplimewire/status/1011377618980139009",
         author: "shaddai (@riplimewire)",
         retweets: 7226,
         likes: 43749,
@@ -271,7 +271,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735328771782172672%252Fg2kE9AP0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AbbieEvansXO/status/1011703318752657408",
+        url: "https://xcancel.com/AbbieEvansXO/status/1011703318752657408",
         author: "Abbie (@AbbieEvansXO)",
         retweets: 15994,
         likes: 86336,
@@ -279,7 +279,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F767475161620701188%252F-VYkYPEq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Kaneryyy/status/1012038043816153090",
+        url: "https://xcancel.com/Kaneryyy/status/1012038043816153090",
         author: "Seo (@Kaneryyy)",
         retweets: 101441,
         likes: 265855,
@@ -288,7 +288,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727472505844015104%252FhPt-EMsf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KarenKilgariff/status/1012429065981054977",
+        url: "https://xcancel.com/KarenKilgariff/status/1012429065981054977",
         author: "Karen Kilgariff (@KarenKilgariff)",
         retweets: 8774,
         likes: 57718,
@@ -296,7 +296,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Milenasanchezx/status/1013511444783140865",
+        url: "https://xcancel.com/Milenasanchezx/status/1013511444783140865",
         author: "Milena Sanchez (@Milenasanchezx)",
         retweets: 2310,
         likes: 6567,
@@ -305,7 +305,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1434134591598702597%252FtP4A9hFn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/westonhaney/status/1013865471614111744",
+        url: "https://xcancel.com/westonhaney/status/1013865471614111744",
         author: "wes haney (@westonhaney)",
         retweets: 3325,
         likes: 17930,
@@ -314,7 +314,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1614030137732861952%252FIiWbAPD7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/djolder/status/1013883582664855552",
+        url: "https://xcancel.com/djolder/status/1013883582664855552",
         author: "Daniel José Older (@djolder)",
         retweets: 38,
         likes: 489,
@@ -322,7 +322,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730118851629551617%252F0ru6KXzI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/1followernodad/status/1013897659499728896",
+        url: "https://xcancel.com/1followernodad/status/1013897659499728896",
         author: "Sophia Benoit (@1followernodad)",
         retweets: 707,
         likes: 8452,
@@ -330,7 +330,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AdamBroud/status/1014183979618988032",
+        url: "https://xcancel.com/AdamBroud/status/1014183979618988032",
         author: "Abam (@AdamBroud)",
         retweets: 13730,
         likes: 76650,
@@ -338,7 +338,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635315795877318657%252FUxtTNsCV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/claire_clara_/status/1014451832557535232",
+        url: "https://xcancel.com/claire_clara_/status/1014451832557535232",
         author: "claire (@claire_clara_)",
         retweets: 10760,
         likes: 50852,
@@ -347,7 +347,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1488616771481485319%252FsuPNfc2C_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/1014914558031376385",
+        url: "https://xcancel.com/meganamram/status/1014914558031376385",
         author: "Megan Amram (@meganamram)",
         retweets: 164,
         likes: 2889,
@@ -355,7 +355,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JustAboutGlad/status/1014921299213344768",
+        url: "https://xcancel.com/JustAboutGlad/status/1014921299213344768",
         author: "Alison (@JustAboutGlad)",
         retweets: 18,
         likes: 195,
@@ -363,7 +363,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715583173495832576%252F6pEZijv9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/modernxmike/status/1015039437393223680",
+        url: "https://xcancel.com/modernxmike/status/1015039437393223680",
         author: "Warren Ellis’ Desktop (@modernxmike)",
         retweets: 3122,
         likes: 15974,
@@ -371,7 +371,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F707011153814102016%252FUOTiXsag_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MichaelShindler/status/1015312217569480706",
+        url: "https://xcancel.com/MichaelShindler/status/1015312217569480706",
         author: "Michael Shindler (@MichaelShindler)",
         retweets: 1867,
         likes: 15144,
@@ -379,7 +379,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620307189205196800%252FPFYVJA3H_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jodecicry/status/1015718409626161152",
+        url: "https://xcancel.com/jodecicry/status/1015718409626161152",
         author: "Shakira (@jodecicry)",
         retweets: 269,
         likes: 2244,
@@ -387,7 +387,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538494061165916161%252FDQk60tn3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bigjalenciaga/status/1016701635484057600",
+        url: "https://xcancel.com/bigjalenciaga/status/1016701635484057600",
         author: " (@bigjalenciaga)",
         retweets: 105084,
         likes: 379079,
@@ -395,7 +395,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728059763626225664%252FH2M82L0k_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KylePlantEmoji/status/1016764092118269952",
+        url: "https://xcancel.com/KylePlantEmoji/status/1016764092118269952",
         author: "Kyle (@KylePlantEmoji)",
         retweets: 6517,
         likes: 36495,
@@ -403,7 +403,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RedDlicious/status/1016838837279035393",
+        url: "https://xcancel.com/RedDlicious/status/1016838837279035393",
         author: "Winderly Landchime Stan Account (@RedDlicious)",
         retweets: 15527,
         likes: 86207,
@@ -411,7 +411,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1170108947249995782%252FZcQ0YNa6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ClickHole/status/1017074807635136512",
+        url: "https://xcancel.com/ClickHole/status/1017074807635136512",
         author: "ClickHole (@ClickHole)",
         retweets: 3032,
         likes: 10472,
@@ -420,7 +420,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531984552566177799%252FiclKv7Y0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/piersmorgan/status/1017141762547167232",
+        url: "https://xcancel.com/piersmorgan/status/1017141762547167232",
         author: "Piers Morgan (@piersmorgan)",
         retweets: 1715,
         likes: 8997,
@@ -428,24 +428,25 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665249352938389505%252FowNJOcYL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cottoncandaddy/status/1017357644313423873",
+        url: "https://xcancel.com/cottoncandaddy/status/1017357644313423873",
         author: "sloane (sîpihkopiyesîs) (@cottoncandaddy)",
         retweets: 47503,
         likes: 219329,
         content: "white ppl will feel unsafe walking by a black man on the sidewalk but will literally try to talk to the devil through a ouija board",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325933597438586880%252FamQVzDkm_bigger.jpg",
     },
+    // removed: requires multiple images
+    // {
+    //     url: "https://xcancel.com/ryanfuckett/status/1017552101814173696",
+    //     author: "baka (@ryanfuckett)",
+    //     retweets: 52212,
+    //     likes: 133993,
+    //     content: "gn",
+    //     image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDh8SPP_VAAAJEc8.jpg",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1116319041759731714%252F8hVKUYRt_bigger.jpg",
+    // },
     {
-        url: "https://twitter.com/ryanfuckett/status/1017552101814173696",
-        author: "baka (@ryanfuckett)",
-        retweets: 52212,
-        likes: 133993,
-        content: "gn",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDh8SPP_VAAAJEc8.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1116319041759731714%252F8hVKUYRt_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/_Monta_/status/1017623664123109377",
+        url: "https://xcancel.com/_Monta_/status/1017623664123109377",
         author: "Great PawPaw Dee (@_Monta_)",
         retweets: 8028,
         likes: 23619,
@@ -453,7 +454,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734211320944132096%252FC6XMJeAW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DungeonsDonald/status/1017801791558152192",
+        url: "https://xcancel.com/DungeonsDonald/status/1017801791558152192",
         author: "Dungeons And Donalds (@DungeonsDonald)",
         retweets: 540,
         likes: 1618,
@@ -462,7 +463,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F732305619231727616%252FzzGu7xjm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/johnlegend/status/1017857271999578112",
+        url: "https://xcancel.com/johnlegend/status/1017857271999578112",
         author: "John Legend (@johnlegend)",
         retweets: 3213,
         likes: 38620,
@@ -470,7 +471,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719868718707355648%252FyNuFYFqX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/electrolemon/status/1017903696401727489",
+        url: "https://xcancel.com/electrolemon/status/1017903696401727489",
         author: "demi adejuyigbe (@electrolemon)",
         retweets: 2177,
         likes: 17766,
@@ -478,7 +479,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/alshipley/status/1018110911482138624",
+        url: "https://xcancel.com/alshipley/status/1018110911482138624",
         author: "Al Shipley (@alshipley)",
         retweets: 2323,
         likes: 21724,
@@ -486,7 +487,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712572257535467520%252F7z5NZ-ha_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Halalcoholism/status/1018150375155617792",
+        url: "https://xcancel.com/Halalcoholism/status/1018150375155617792",
         author: "christoph (@Halalcoholism)",
         retweets: 495,
         likes: 2517,
@@ -494,7 +495,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F811012915859890176%252FEh3qPzb3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PostMalone/status/1018731670474670080",
+        url: "https://xcancel.com/PostMalone/status/1018731670474670080",
         author: "Post Malone (@PostMalone)",
         retweets: 55922,
         likes: 207649,
@@ -502,7 +503,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1646336437690802177%252FxVL6iZOR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jennifermerr/status/1020019959596965888",
+        url: "https://xcancel.com/jennifermerr/status/1020019959596965888",
         author: "jen merritt!!! (@jennifermerr)",
         retweets: 1057,
         likes: 16696,
@@ -510,7 +511,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1123055541654130688%252F20jHniEn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/poastsbymatt/status/1020390339235012608",
+        url: "https://xcancel.com/poastsbymatt/status/1020390339235012608",
         author: "matty (@poastsbymatt)",
         retweets: 153658,
         likes: 525054,
@@ -518,7 +519,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1335974751240675329%252FcOOdUS7H_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewtoothpaste/status/1020629781753270272",
+        url: "https://xcancel.com/drewtoothpaste/status/1020629781753270272",
         author: "drewtoothpaste.bsky.social (@drewtoothpaste)",
         retweets: 1653,
         likes: 9269,
@@ -526,7 +527,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ntabebe/status/1022292630951092225",
+        url: "https://xcancel.com/ntabebe/status/1022292630951092225",
         author: "Nitsuh Abebe (@ntabebe)",
         retweets: 309,
         likes: 2743,
@@ -534,7 +535,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696391341687648256%252FsuSW2KGs_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Kristen_Arnett/status/1022631905089466369",
+        url: "https://xcancel.com/Kristen_Arnett/status/1022631905089466369",
         author: "Kristen Arnett (@Kristen_Arnett)",
         retweets: 111,
         likes: 622,
@@ -542,7 +543,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1261154545448574977%252FezzjAD9N_bigger.jpg",
     },
     {
-        url: "https://twitter.com/itstae13/status/1023480297902370819",
+        url: "https://xcancel.com/itstae13/status/1023480297902370819",
         author: " (@itstae13)",
         retweets: 137130,
         likes: 487708,
@@ -550,7 +551,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1217599602053877760%252FuHDkuxlJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/scumbelievable/status/1023707279487655938",
+        url: "https://xcancel.com/scumbelievable/status/1023707279487655938",
         author: "Gretchen Felker-Martin (@scumbelievable)",
         retweets: 1816,
         likes: 6709,
@@ -558,7 +559,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1623046958867787776%252F1KsvCkX3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/quendergeer/status/1024216954683490304",
+        url: "https://xcancel.com/quendergeer/status/1024216954683490304",
         author: "Crowsa Luxemburg (@quendergeer)",
         retweets: 1182,
         likes: 4224,
@@ -566,7 +567,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1568892935093063687%252FItqwaQ9b_bigger.jpg",
     },
     {
-        url: "https://twitter.com/alyssalimp/status/1024291542666756096",
+        url: "https://xcancel.com/alyssalimp/status/1024291542666756096",
         author: "Alyssa Limperis (@alyssalimp)",
         retweets: 15544,
         likes: 127151,
@@ -575,7 +576,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F916469867880075265%252Fd9cC1LlQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gogglepossum/status/1025043000471302144",
+        url: "https://xcancel.com/gogglepossum/status/1025043000471302144",
         author: "Lil G-Pug (@gogglepossum)",
         retweets: 14807,
         likes: 65429,
@@ -585,7 +586,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/iDoraemoe/status/1025233186014412800",
+    //     url: "https://xcancel.com/iDoraemoe/status/1025233186014412800",
     //     author: "@doraemoe@mastodon.tuidao.me くコ:彡 (@iDoraemoe)",
     //     retweets: 6060,
     //     likes: 13974,
@@ -594,7 +595,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F872462414423367680%252FmOjqfTZS_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/christapeterso/status/1025460729032237056",
+        url: "https://xcancel.com/christapeterso/status/1025460729032237056",
         author: "worms cited (@christapeterso)",
         retweets: 368,
         likes: 2913,
@@ -602,7 +603,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1636596486388744198%252FbxBLhhgI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LowArctic/status/1025503513026195457",
+        url: "https://xcancel.com/LowArctic/status/1025503513026195457",
         author: "low arctic (@LowArctic)",
         retweets: 1846,
         likes: 11627,
@@ -610,7 +611,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1290173001330130944%252FeDowcvJk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yucktales/status/1028287672849244160",
+        url: "https://xcancel.com/yucktales/status/1028287672849244160",
         author: "cretin (@yucktales)",
         retweets: 1352,
         likes: 7176,
@@ -619,7 +620,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1732454214352162816%252FsF-xmxmX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aparnapkin/status/1028488930780315649",
+        url: "https://xcancel.com/aparnapkin/status/1028488930780315649",
         author: "Aparna Nancherla (@aparnapkin)",
         retweets: 2412,
         likes: 21521,
@@ -627,7 +628,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ausmazehanat/status/1028819442099269632",
+        url: "https://xcancel.com/ausmazehanat/status/1028819442099269632",
         author: "Dr. Ausma Zehanat Khan (@ausmazehanat)",
         retweets: 5979,
         likes: 27998,
@@ -636,7 +637,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496559580721168397%252Fi5ir2RLK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsDanSheehan/status/1029181667296985088",
+        url: "https://xcancel.com/ItsDanSheehan/status/1029181667296985088",
         author: "Dan Sheehan (@ItsDanSheehan)",
         retweets: 4874,
         likes: 33221,
@@ -644,7 +645,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/The_Law_Boy/status/1030583248114642946",
+        url: "https://xcancel.com/The_Law_Boy/status/1030583248114642946",
         author: "Law Boy (@The_Law_Boy)",
         retweets: 11449,
         likes: 52427,
@@ -652,7 +653,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1029746079846354944%252F2NWE7cEG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ashleyfeinberg/status/1031301138006659073",
+        url: "https://xcancel.com/ashleyfeinberg/status/1031301138006659073",
         author: "Ashley Feinberg (ashleyfeinberg.bsky.social) (@ashleyfeinberg)",
         retweets: 127,
         likes: 1430,
@@ -660,7 +661,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F829782486955782148%252FvMthq5x2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/anildash/status/1031533689388376064",
+        url: "https://xcancel.com/anildash/status/1031533689388376064",
         author: "anildash.com (@anildash)",
         retweets: 15440,
         likes: 68431,
@@ -668,7 +669,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1629958424397053954%252FIrihp2SV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/father/status/1031664257253826560",
+        url: "https://xcancel.com/father/status/1031664257253826560",
         author: "wristy minaj (@father)",
         retweets: 342,
         likes: 1796,
@@ -676,7 +677,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736248939416809472%252FpBVf0mg-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/blakegriffin23/status/103195046920204288",
+        url: "https://xcancel.com/blakegriffin23/status/103195046920204288",
         author: "Blake Griffin (@blakegriffin23)",
         retweets: 23864,
         likes: 54908,
@@ -684,7 +685,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F679451601124249600%252FHY1mTQnm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/martynreding/status/1031967172401225728",
+        url: "https://xcancel.com/martynreding/status/1031967172401225728",
         author: "Martyn Reding (@martynreding)",
         retweets: 35461,
         likes: 69851,
@@ -693,7 +694,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635386827552047107%252FCVchUip8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hannahhhhxoxo/status/1032152165467521024",
+        url: "https://xcancel.com/hannahhhhxoxo/status/1032152165467521024",
         author: "han (@hannahhhhxoxo)",
         retweets: 167842,
         likes: 730034,
@@ -702,7 +703,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500210443398303753%252FHxV4lYZC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/johnistoasted/status/1032339281988276224",
+        url: "https://xcancel.com/johnistoasted/status/1032339281988276224",
         author: "john is toast (@johnistoasted)",
         retweets: 302,
         likes: 2376,
@@ -711,7 +712,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1555923859638976512%252FZtvTwwLF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hannahhhhxoxo/status/1032454030365261825",
+        url: "https://xcancel.com/hannahhhhxoxo/status/1032454030365261825",
         author: "han (@hannahhhhxoxo)",
         retweets: 2259,
         likes: 41706,
@@ -720,7 +721,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500210443398303753%252FHxV4lYZC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chuchugoogoo/status/1032827658281857025",
+        url: "https://xcancel.com/chuchugoogoo/status/1032827658281857025",
         author: "skip intro (@chuchugoogoo)",
         retweets: 30,
         likes: 282,
@@ -729,7 +730,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1436489363018354688%252FQ1Da5Kgq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PleaseBeGneiss/status/1033010780352929792",
+        url: "https://xcancel.com/PleaseBeGneiss/status/1033010780352929792",
         author: "slate (@PleaseBeGneiss)",
         retweets: 32645,
         likes: 157530,
@@ -737,7 +738,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565491884872544261%252F8-gEqo1s_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OctopusCaveman/status/1033578911697784832",
+        url: "https://xcancel.com/OctopusCaveman/status/1033578911697784832",
         author: "Octopus/Caveman (@OctopusCaveman)",
         retweets: 129608,
         likes: 672238,
@@ -745,7 +746,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675955181610217478%252FhRvDhMYv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/flatpepsimax/status/1033699646676328450",
+        url: "https://xcancel.com/flatpepsimax/status/1033699646676328450",
         author: "mia (@flatpepsimax)",
         retweets: 13476,
         likes: 58138,
@@ -753,7 +754,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1732343498748149760%252Fy97V3LkA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ProjectENDO/status/1033900957954965504",
+        url: "https://xcancel.com/ProjectENDO/status/1033900957954965504",
         author: "❰ ẋ ❱ (@ProjectENDO)",
         retweets: 19890,
         likes: 46048,
@@ -762,7 +763,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1505682056986038274%252FuKx-ueVN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sm_osment/status/1034165534131212289",
+        url: "https://xcancel.com/sm_osment/status/1034165534131212289",
         author: "Sarah Osment (@sm_osment)",
         retweets: 56896,
         likes: 312193,
@@ -770,7 +771,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1614790166664585216%252F6e-H5Okv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Shen_the_Bird/status/1035653429681631232",
+        url: "https://xcancel.com/Shen_the_Bird/status/1035653429681631232",
         author: "shen the bird (@Shen_the_Bird)",
         retweets: 592,
         likes: 3258,
@@ -778,7 +779,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AdamL1226/status/1037075067090296832",
+        url: "https://xcancel.com/AdamL1226/status/1037075067090296832",
         author: "LeNarskus Aldridge (@AdamL1226)",
         retweets: 22024,
         likes: 166609,
@@ -786,7 +787,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531061496637169665%252Fptk4OKBy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jerrykuch/status/1037520671331340288",
+        url: "https://xcancel.com/jerrykuch/status/1037520671331340288",
         author: "For Sale Clown Shoes Never Worn (@jerrykuch)",
         retweets: 4,
         likes: 18,
@@ -795,7 +796,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F52471641%252FClem-Looks-Surly_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LoserCrew/status/1039294149667770368",
+        url: "https://xcancel.com/LoserCrew/status/1039294149667770368",
         author: "Josh (@LoserCrew)",
         retweets: 164981,
         likes: 693022,
@@ -803,7 +804,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430256350039351302%252Fq8n4wBCt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/erikiri_/status/1039564040249458688",
+        url: "https://xcancel.com/erikiri_/status/1039564040249458688",
         author: "sceri (@erikiri_)",
         retweets: 13427,
         likes: 50832,
@@ -811,7 +812,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717798246880366592%252FVsYqljI6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephemcneal/status/1040297065916653569",
+        url: "https://xcancel.com/stephemcneal/status/1040297065916653569",
         author: "Stephanie McNeal (@stephemcneal)",
         retweets: 28,
         likes: 163,
@@ -820,7 +821,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625837849277857798%252FlwBUpISb_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Travon/status/1040356386293465088",
+        url: "https://xcancel.com/Travon/status/1040356386293465088",
         author: "Travon (@Travon)",
         retweets: 10937,
         likes: 69590,
@@ -828,7 +829,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665532931694280707%252FOsYsxcRu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sogodly_/status/1040707430072705025",
+        url: "https://xcancel.com/sogodly_/status/1040707430072705025",
         author: "v (@sogodly_)",
         retweets: 112,
         likes: 347,
@@ -836,7 +837,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655656911654494212%252FRudcpYTV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/saramvalentine/status/1042111571693129728",
+        url: "https://xcancel.com/saramvalentine/status/1042111571693129728",
         author: "Sara Valentine (@saramvalentine)",
         retweets: 46116,
         likes: 188899,
@@ -844,7 +845,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1648372973605208094%252FNt0DXL7c_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaboukie/status/1043313489647788033",
+        url: "https://xcancel.com/jaboukie/status/1043313489647788033",
         author: "jaboukie (@jaboukie)",
         retweets: 558,
         likes: 6100,
@@ -852,7 +853,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jonnysun/status/1044044609536630784",
+        url: "https://xcancel.com/jonnysun/status/1044044609536630784",
         author: "jonny sun (@jonnysun)",
         retweets: 94,
         likes: 1073,
@@ -860,7 +861,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314628602198028289%252FZbkd7FYQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/anoticingsenpa1/status/1044309743181778946",
+        url: "https://xcancel.com/anoticingsenpa1/status/1044309743181778946",
         author: "GlitterDemon  🏳️‍🌈💖💜💙 (@anoticingsenpa1)",
         retweets: 871,
         likes: 2957,
@@ -868,7 +869,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1541244834454945794%252FEoXS7WJd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_lildubois/status/1045907408474664961",
+        url: "https://xcancel.com/_lildubois/status/1045907408474664961",
         author: "du bois @ DM limit (@_lildubois)",
         retweets: 126662,
         likes: 281673,
@@ -876,7 +877,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731839909101707264%252FTZP0f7VF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tiemoose/status/1046750567647842304",
+        url: "https://xcancel.com/tiemoose/status/1046750567647842304",
         author: "online moose (@tiemoose)",
         retweets: 57576,
         likes: 221954,
@@ -884,7 +885,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1300190139591909376%252FPHruJucY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/david_j_roth/status/1046981260260855817",
+        url: "https://xcancel.com/david_j_roth/status/1046981260260855817",
         author: "David Roth (@david_j_roth)",
         retweets: 983,
         likes: 7975,
@@ -892,7 +893,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1224136390415437825%252FDe8p8pCJ_bigger.png",
     },
     {
-        url: "https://twitter.com/featuresjourno/status/1048711036067618816",
+        url: "https://xcancel.com/featuresjourno/status/1048711036067618816",
         author: "Claire Coleman ✍🏽 (@featuresjourno)",
         retweets: 5366,
         likes: 20665,
@@ -901,7 +902,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1290600291746877441%252FA7XWg0yW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/samir/status/1049755320501903360",
+        url: "https://xcancel.com/samir/status/1049755320501903360",
         author: "#1 samir (@samir)",
         retweets: 884,
         likes: 6113,
@@ -909,7 +910,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F791645957431648256%252F1rzMcwxX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/1049777148611817472",
+        url: "https://xcancel.com/meganamram/status/1049777148611817472",
         author: "Megan Amram (@meganamram)",
         retweets: 631,
         likes: 8220,
@@ -917,7 +918,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/imbobswaget/status/1049887962723479553",
+        url: "https://xcancel.com/imbobswaget/status/1049887962723479553",
         author: "vampire workday (@imbobswaget)",
         retweets: 239,
         likes: 1297,
@@ -926,7 +927,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874855064820645888%252FwGWTk6gJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SICKOFWOLVES/status/1051866645390606336",
+        url: "https://xcancel.com/SICKOFWOLVES/status/1051866645390606336",
         author: "NOT A WOLF (@SICKOFWOLVES)",
         retweets: 7341,
         likes: 27829,
@@ -934,7 +935,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577055302075105280%252F2UFuCDBF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/piloht/status/1051904634795814912",
+        url: "https://xcancel.com/piloht/status/1051904634795814912",
         author: "logan (@piloht)",
         retweets: 51405,
         likes: 166901,
@@ -942,7 +943,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490489629820260355%252FbYm6uldm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OJTheKing/status/1052394521387028480",
+        url: "https://xcancel.com/OJTheKing/status/1052394521387028480",
         author: "Belly Rowland (@OJTheKing)",
         retweets: 244,
         likes: 875,
@@ -950,7 +951,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633863305621110784%252FjwUBk0nP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yc/status/1052623207839277056",
+        url: "https://xcancel.com/yc/status/1052623207839277056",
         author: "yc (@yc)",
         retweets: 47,
         likes: 774,
@@ -958,7 +959,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1088177304914800640%252FIrqF-iTN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JuliusIrvington/status/1052934698312323074",
+        url: "https://xcancel.com/JuliusIrvington/status/1052934698312323074",
         author: "horse powder (@JuliusIrvington)",
         retweets: 729,
         likes: 3793,
@@ -966,7 +967,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135032059934781440%252FFHiIxRBL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RYLANDDUNCAN/status/1053017921792946176",
+        url: "https://xcancel.com/RYLANDDUNCAN/status/1053017921792946176",
         author: "! (@RYLANDDUNCAN)",
         retweets: 2326,
         likes: 14261,
@@ -974,7 +975,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1322750383991697409%252FPighUb9D_bigger.jpg",
     },
     {
-        url: "https://twitter.com/realDonaldTrump/status/1053285828892463109",
+        url: "https://xcancel.com/realDonaldTrump/status/1053285828892463109",
         author: "Donald J. Trump (@realDonaldTrump)",
         retweets: 10085,
         likes: 67039,
@@ -982,7 +983,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Kristen_Arnett/status/1053397631223939073",
+        url: "https://xcancel.com/Kristen_Arnett/status/1053397631223939073",
         author: "Kristen Arnett (@Kristen_Arnett)",
         retweets: 11,
         likes: 135,
@@ -990,7 +991,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1261154545448574977%252FezzjAD9N_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bransonreese/status/1055524171764129793",
+        url: "https://xcancel.com/bransonreese/status/1055524171764129793",
         author: "The Texas Chain Saw Bransacre (@bransonreese)",
         retweets: 56,
         likes: 578,
@@ -998,7 +999,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655613791823073280%252FY-aQDM3J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Dustinkcouch/status/1057094474227240960",
+        url: "https://xcancel.com/Dustinkcouch/status/1057094474227240960",
         author: "dustin Couch (@Dustinkcouch)",
         retweets: 104843,
         likes: 363240,
@@ -1006,7 +1007,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1549557453217566720%252FpsocqQf-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PhilJamesson/status/1058125138233843719",
+        url: "https://xcancel.com/PhilJamesson/status/1058125138233843719",
         author: "phil (@PhilJamesson)",
         retweets: 1117,
         likes: 5989,
@@ -1014,7 +1015,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1284614944856702976%252FR-_HVa-0_bigger.png",
     },
     {
-        url: "https://twitter.com/Grimezsz/status/1058450348291969024",
+        url: "https://xcancel.com/Grimezsz/status/1058450348291969024",
         author: "Grimes (@Grimezsz)",
         retweets: 236,
         likes: 1833,
@@ -1022,7 +1023,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730078462621458432%252FLhMpo9ug_bigger.jpg",
     },
     {
-        url: "https://twitter.com/unfuxwhitable/status/1059941051912347654",
+        url: "https://xcancel.com/unfuxwhitable/status/1059941051912347654",
         author: "whit (@unfuxwhitable)",
         retweets: 65514,
         likes: 249960,
@@ -1030,7 +1031,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651009265228972032%252FPKePptbL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaboukie/status/1059998368150274051",
+        url: "https://xcancel.com/jaboukie/status/1059998368150274051",
         author: "jaboukie (@jaboukie)",
         retweets: 1480,
         likes: 12750,
@@ -1038,7 +1039,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RajivAKaria/status/1060100699466485761",
+        url: "https://xcancel.com/RajivAKaria/status/1060100699466485761",
         author: "Rajiv Karia (@RajivAKaria)",
         retweets: 10479,
         likes: 69500,
@@ -1047,7 +1048,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1025044993591922688%252F49gqXQlo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bugposting/status/1060323496461590529",
+        url: "https://xcancel.com/bugposting/status/1060323496461590529",
         author: "rachel yara (@bugposting)",
         retweets: 11881,
         likes: 110281,
@@ -1055,7 +1056,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603874060714270735%252F1WY2ADDu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JDShapiro/status/1060388732350726145",
+        url: "https://xcancel.com/JDShapiro/status/1060388732350726145",
         author: "Jason Shapiro (@JDShapiro)",
         retweets: 4766,
         likes: 35248,
@@ -1063,7 +1064,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1414624752610660357%252FKY17aGKK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hamstertalk/status/1060389337521643520",
+        url: "https://xcancel.com/hamstertalk/status/1060389337521643520",
         author: "Hannah Solow (@hamstertalk)",
         retweets: 9864,
         likes: 50907,
@@ -1072,7 +1073,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1021948542481563649%252F7QMrSps1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hawillisdc/status/1062538244544495617",
+        url: "https://xcancel.com/hawillisdc/status/1062538244544495617",
         author: "dj franzia (@hawillisdc)",
         retweets: 11548,
         likes: 90233,
@@ -1080,7 +1081,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482170126434807810%252FagMlHNB6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ivyanthony95/status/1062696852112531456",
+        url: "https://xcancel.com/ivyanthony95/status/1062696852112531456",
         author: "Bouncing Betty (@ivyanthony95)",
         retweets: 62867,
         likes: 152357,
@@ -1089,7 +1090,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1725582542785466368%252F5XNw2UIl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/phoebe_bridgers/status/1063098528975740928",
+        url: "https://xcancel.com/phoebe_bridgers/status/1063098528975740928",
         author: "traitor joe (@phoebe_bridgers)",
         retweets: 1527,
         likes: 7292,
@@ -1097,7 +1098,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
-        url: "https://twitter.com/DanielPryorr/status/1063533815631659008",
+        url: "https://xcancel.com/DanielPryorr/status/1063533815631659008",
         author: "Daniel Pryor (@DanielPryorr)",
         retweets: 7756,
         likes: 33797,
@@ -1106,7 +1107,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1501644314144690178%252FuOu0KYDv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CraigSJ/status/1064603805319380992",
+        url: "https://xcancel.com/CraigSJ/status/1064603805319380992",
         author: "Craig Bro Dude (@CraigSJ)",
         retweets: 8,
         likes: 95,
@@ -1114,7 +1115,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573349605298900993%252F6ihvZ5KX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/iamchrisscott/status/1065407753139748864",
+        url: "https://xcancel.com/iamchrisscott/status/1065407753139748864",
         author: "Chris Scott (@iamchrisscott)",
         retweets: 1439,
         likes: 16384,
@@ -1122,7 +1123,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1001804370181312514%252Fa1Ax781j_bigger.jpg",
     },
     {
-        url: "https://twitter.com/prawn_meat/status/1065721461740986368",
+        url: "https://xcancel.com/prawn_meat/status/1065721461740986368",
         author: "ringworm (@prawn_meat)",
         retweets: 1504,
         likes: 9188,
@@ -1130,7 +1131,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593424851863101441%252FXFR-D-LO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jakealmond/status/1065782779290505218",
+        url: "https://xcancel.com/jakealmond/status/1065782779290505218",
         author: "Jake Almond (@jakealmond)",
         retweets: 33426,
         likes: 114226,
@@ -1139,7 +1140,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1666476383327887362%252FF9Z8HCr6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/iamspacegirl/status/1066102146230362113",
+        url: "https://xcancel.com/iamspacegirl/status/1066102146230362113",
         author: "sky (@iamspacegirl)",
         retweets: 22506,
         likes: 145802,
@@ -1147,7 +1148,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1473759585206947846%252Fb1717dWh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yungmimosas/status/1066134272862507008",
+        url: "https://xcancel.com/yungmimosas/status/1066134272862507008",
         author: "keo (@yungmimosas)",
         retweets: 12088,
         likes: 81288,
@@ -1155,7 +1156,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703244987893194752%252FVIlvYlY6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MAMETCHl/status/1066178407405301760",
+        url: "https://xcancel.com/MAMETCHl/status/1066178407405301760",
         author: "lyn (@MAMETCHl)",
         retweets: 18479,
         likes: 64495,
@@ -1164,7 +1165,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711165235325751297%252FP4sEzMoD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/joeygllghr/status/1067310214259499008",
+        url: "https://xcancel.com/joeygllghr/status/1067310214259499008",
         author: "Joey⚡️ (@joeygllghr)",
         retweets: 77292,
         likes: 279352,
@@ -1172,7 +1173,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1283496105469071360%252FDBT7pgmv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/thesarahkelly/status/1067479527704666113",
+        url: "https://xcancel.com/thesarahkelly/status/1067479527704666113",
         author: "sarah kelly (@thesarahkelly)",
         retweets: 1807,
         likes: 13132,
@@ -1180,7 +1181,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1659954821494112257%252Fqmf5O-lv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/awhalefact/status/1067784201318137857",
+        url: "https://xcancel.com/awhalefact/status/1067784201318137857",
         author: "whalefact (@awhalefact)",
         retweets: 1041,
         likes: 4895,
@@ -1188,7 +1189,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1399955499177713667%252Fq91gOYde_bigger.jpg",
     },
     {
-        url: "https://twitter.com/andrewnolan2/status/1070165183564255232",
+        url: "https://xcancel.com/andrewnolan2/status/1070165183564255232",
         author: "andrew (@andrewnolan2)",
         retweets: 46851,
         likes: 215977,
@@ -1197,7 +1198,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1322442434266222592%252FHLpXEsFX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/murrman5/status/1070337836732305408",
+        url: "https://xcancel.com/murrman5/status/1070337836732305408",
         author: "brent (@murrman5)",
         retweets: 7607,
         likes: 54110,
@@ -1205,7 +1206,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SadiqoJN/status/1070995854272675840",
+        url: "https://xcancel.com/SadiqoJN/status/1070995854272675840",
         author: "sadiq (@SadiqoJN)",
         retweets: 30736,
         likes: 110230,
@@ -1213,7 +1214,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1463622363782828034%252F7GpArHc9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Meg_Cramer/status/1071510279895347201",
+        url: "https://xcancel.com/Meg_Cramer/status/1071510279895347201",
         author: "meg cramer (@Meg_Cramer)",
         retweets: 7744,
         likes: 38485,
@@ -1222,7 +1223,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1256008587157082112%252FeEOZyY9m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheToddWilliams/status/1071531845576142849",
+        url: "https://xcancel.com/TheToddWilliams/status/1071531845576142849",
         author: "Todd 'Papi' Carlos (@TheToddWilliams)",
         retweets: 1564,
         likes: 7802,
@@ -1230,7 +1231,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587415715149221888%252FV7uRfADk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/woodmuffin/status/1072304627595599872",
+        url: "https://xcancel.com/woodmuffin/status/1072304627595599872",
         author: "Mister Rogers Trolley Problem (@woodmuffin)",
         retweets: 5393,
         likes: 21115,
@@ -1238,7 +1239,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2088678303%252FSlime-Dad-small_bigger.gif",
     },
     {
-        url: "https://twitter.com/elle91/status/1072675636790083584",
+        url: "https://xcancel.com/elle91/status/1072675636790083584",
         author: "Ꮍᴀᴇʟ (@elle91)",
         retweets: 324,
         likes: 2338,
@@ -1246,7 +1247,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F987072717970124800%252FxctiOEAU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DouthatNYT/status/1072883802136039425",
+        url: "https://xcancel.com/DouthatNYT/status/1072883802136039425",
         author: "Ross Douthat (@DouthatNYT)",
         retweets: 14,
         likes: 76,
@@ -1254,7 +1255,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585443655174742017%252FwMV0zVeQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gothbabys/status/1073690674510422017",
+        url: "https://xcancel.com/gothbabys/status/1073690674510422017",
         author: "fecko stinko (@gothbabys)",
         retweets: 15246,
         likes: 51531,
@@ -1262,7 +1263,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717111997400010752%252FkOZZ_YqF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shanley/status/1073733159655632897",
+        url: "https://xcancel.com/shanley/status/1073733159655632897",
         author: "shanley (@shanley)",
         retweets: 1,
         likes: 1,
@@ -1270,7 +1271,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/catesish/status/1075455284963917829",
+        url: "https://xcancel.com/catesish/status/1075455284963917829",
         author: "Cates Holderness (@catesish)",
         retweets: 9928,
         likes: 38323,
@@ -1279,7 +1280,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F773351298997620736%252FLzMwQ3eG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/FrogCroakley/status/1075687062240677889",
+        url: "https://xcancel.com/FrogCroakley/status/1075687062240677889",
         author: "Regular Frog (@FrogCroakley)",
         retweets: 15537,
         likes: 70415,
@@ -1287,7 +1288,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190256109635936256%252FYzGOMfhV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/1076296547644583936",
+        url: "https://xcancel.com/meganamram/status/1076296547644583936",
         author: "Megan Amram (@meganamram)",
         retweets: 6996,
         likes: 61033,
@@ -1295,7 +1296,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hoverbird/status/1076353573758386176",
+        url: "https://xcancel.com/hoverbird/status/1076353573758386176",
         author: "(go to the elephant site) (@hoverbird)",
         retweets: 750,
         likes: 4069,
@@ -1303,16 +1304,17 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDu_53lDVsAAk74F.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F453590893774118912%252FE00Ns3Dq_bigger.png",
     },
+    // removed: joanne fucking sucks
+    // {
+    //     url: "https://xcancel.com/jk_rowling/status/1076458808703180800",
+    //     author: "J.K. Rowling (@jk_rowling)",
+    //     retweets: 6311,
+    //     likes: 26193,
+    //     content: "And lo, unto her did appear a host of Corbyn defenders, who did descend upon her mentions, and she was not sore afraid, because she was used to it. And the host did sing with one voice, ‘ungodly woman, thou foolest us not.  We know the true reason thou despisest Saint Jeremy.’ 1",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691882354527154176%252Fv3dki8sB_bigger.jpg",
+    // },
     {
-        url: "https://twitter.com/jk_rowling/status/1076458808703180800",
-        author: "J.K. Rowling (@jk_rowling)",
-        retweets: 6311,
-        likes: 26193,
-        content: "And lo, unto her did appear a host of Corbyn defenders, who did descend upon her mentions, and she was not sore afraid, because she was used to it. And the host did sing with one voice, ‘ungodly woman, thou foolest us not.  We know the true reason thou despisest Saint Jeremy.’ 1",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691882354527154176%252Fv3dki8sB_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/rodger/status/1076663917743464455",
+        url: "https://xcancel.com/rodger/status/1076663917743464455",
         author: "Rodger Sherman (@rodger)",
         retweets: 468,
         likes: 3380,
@@ -1321,7 +1323,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717907544427970560%252Fk3skU96z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Shen_the_Bird/status/1077333828555890688",
+        url: "https://xcancel.com/Shen_the_Bird/status/1077333828555890688",
         author: "shen the bird (@Shen_the_Bird)",
         retweets: 16926,
         likes: 109173,
@@ -1329,7 +1331,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ped_red/status/1077335233534423040",
+        url: "https://xcancel.com/ped_red/status/1077335233534423040",
         author: "Pedro (@ped_red)",
         retweets: 50776,
         likes: 222964,
@@ -1337,7 +1339,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733335998489395200%252FLs4w74ct_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TrevorLess/status/1077409320541872129",
+        url: "https://xcancel.com/TrevorLess/status/1077409320541872129",
         author: "Trevor Moore (@TrevorLess)",
         retweets: 240,
         likes: 2691,
@@ -1345,7 +1347,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874355577052430337%252FezLCKYK2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/XLNB/status/1078553842898235393",
+        url: "https://xcancel.com/XLNB/status/1078553842898235393",
         author: "X (@XLNB)",
         retweets: 8068,
         likes: 38642,
@@ -1353,7 +1355,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408133381221588993%252Fjl3p6aes_bigger.jpg",
     },
     {
-        url: "https://twitter.com/maplecocaine/status/1080665226410889217",
+        url: "https://xcancel.com/maplecocaine/status/1080665226410889217",
         author: "maple cocaine (@maplecocaine)",
         retweets: 30605,
         likes: 115636,
@@ -1361,7 +1363,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1108913612226211840%252FDeCW_v7o_bigger.png",
     },
     {
-        url: "https://twitter.com/sarahschauer/status/1080940452600258560",
+        url: "https://xcancel.com/sarahschauer/status/1080940452600258560",
         author: "sarah schauer (@sarahschauer)",
         retweets: 4336,
         likes: 33216,
@@ -1369,7 +1371,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495140751058997250%252FoC5BO6Di_bigger.jpg",
     },
     {
-        url: "https://twitter.com/plowrong/status/1081319980497547265",
+        url: "https://xcancel.com/plowrong/status/1081319980497547265",
         author: "Emma (@plowrong)",
         retweets: 2439,
         likes: 24552,
@@ -1377,7 +1379,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1716009792840273920%252F8tI--fhq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cher/status/1082481250944741376",
+        url: "https://xcancel.com/cher/status/1082481250944741376",
         author: "Cher (@cher)",
         retweets: 34360,
         likes: 101776,
@@ -1385,7 +1387,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/6thgrade4ever/status/1082688913490280448",
+        url: "https://xcancel.com/6thgrade4ever/status/1082688913490280448",
         author: "Druthers Haver (@6thgrade4ever)",
         retweets: 4278,
         likes: 16370,
@@ -1393,7 +1395,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2023455999%252FKNiUo_bigger.gif",
     },
     {
-        url: "https://twitter.com/mightyatom/status/1082854869206093824",
+        url: "https://xcancel.com/mightyatom/status/1082854869206093824",
         author: "max schwartz (@mightyatom)",
         retweets: 0,
         likes: 32,
@@ -1401,7 +1403,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542971448716709889%252FJOZORzUr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rgoodlaw/status/1082999681112858624",
+        url: "https://xcancel.com/rgoodlaw/status/1082999681112858624",
         author: "Ryan Goodman (@rgoodlaw)",
         retweets: 25,
         likes: 329,
@@ -1410,7 +1412,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1553378670978400256%252FU6IxxRx5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tedcruz/status/1083030582291058689",
+        url: "https://xcancel.com/tedcruz/status/1083030582291058689",
         author: "Ted Cruz (@tedcruz)",
         retweets: 1561,
         likes: 13590,
@@ -1418,7 +1420,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717966605903179776%252FscSx1uhK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RiverClegg/status/1083061045420281856",
+        url: "https://xcancel.com/RiverClegg/status/1083061045420281856",
         author: "River Clegg (@RiverClegg)",
         retweets: 12108,
         likes: 59728,
@@ -1426,7 +1428,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707218814339862528%252FPSzElCha_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hankschulman/status/1083246093217935361",
+        url: "https://xcancel.com/hankschulman/status/1083246093217935361",
         author: "Henry Schulman BLUE CHECK MARK (@hankschulman)",
         retweets: 8,
         likes: 80,
@@ -1435,7 +1437,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F586717320019517443%252FfEQlSBFc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stellmoney/status/1083447026321260544",
+        url: "https://xcancel.com/stellmoney/status/1083447026321260544",
         author: "steak (@stellmoney)",
         retweets: 21821,
         likes: 152496,
@@ -1443,7 +1445,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717714372104179712%252F0rzuTXbY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Shen_the_Bird/status/1084293210497785856",
+        url: "https://xcancel.com/Shen_the_Bird/status/1084293210497785856",
         author: "shen the bird (@Shen_the_Bird)",
         retweets: 20028,
         likes: 85011,
@@ -1451,7 +1453,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsDanSheehan/status/1084348733817384960",
+        url: "https://xcancel.com/ItsDanSheehan/status/1084348733817384960",
         author: "Dan Sheehan (@ItsDanSheehan)",
         retweets: 1854,
         likes: 10456,
@@ -1459,7 +1461,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/perlucidum/status/1084537059337891845",
+        url: "https://xcancel.com/perlucidum/status/1084537059337891845",
         author: "vivian (@perlucidum)",
         retweets: 1383,
         likes: 13908,
@@ -1467,7 +1469,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1698790844264845312%252FtgYD0ZOW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/babadookspinoza/status/1084596547415871488",
+        url: "https://xcancel.com/babadookspinoza/status/1084596547415871488",
         author: "they/them might be giants ☭ (@babadookspinoza)",
         retweets: 41693,
         likes: 140772,
@@ -1475,7 +1477,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1399101894090502147%252FnhZZNx_9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PaulyCasillas/status/1084661289903841280",
+        url: "https://xcancel.com/PaulyCasillas/status/1084661289903841280",
         author: "Pauly Casillas (@PaulyCasillas)",
         retweets: 278,
         likes: 1774,
@@ -1484,7 +1486,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593821959388729344%252F_WXTTHqO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/desusnice/status/1085280373368606720",
+        url: "https://xcancel.com/desusnice/status/1085280373368606720",
         author: "Desus MF Nice (@desusnice)",
         retweets: 1240,
         likes: 7875,
@@ -1492,7 +1494,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/KateAronoff/status/1086733210233569280",
+        url: "https://xcancel.com/KateAronoff/status/1086733210233569280",
         author: "Kate Aronoff (@KateAronoff)",
         retweets: 13835,
         likes: 47257,
@@ -1500,7 +1502,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686227922883878912%252FNW1f-FnO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/daniellevalore/status/1087014015002443777",
+        url: "https://xcancel.com/daniellevalore/status/1087014015002443777",
         author: "Danielle Evans (@daniellevalore)",
         retweets: 1653,
         likes: 12410,
@@ -1509,7 +1511,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585061673752215553%252FB0k5M5lE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mariokartdwi/status/1087097379751288833",
+        url: "https://xcancel.com/mariokartdwi/status/1087097379751288833",
         author: "alexa (@mariokartdwi)",
         retweets: 1025,
         likes: 13464,
@@ -1517,7 +1519,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1424919349169729543%252FFhagbedf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/1087143660389466112",
+        url: "https://xcancel.com/meganamram/status/1087143660389466112",
         author: "Megan Amram (@meganamram)",
         retweets: 3770,
         likes: 38104,
@@ -1525,7 +1527,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lauralexx/status/1087335140152492032",
+        url: "https://xcancel.com/lauralexx/status/1087335140152492032",
         author: "Laura Lexx (@lauralexx)",
         retweets: 7268,
         likes: 38574,
@@ -1534,7 +1536,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1533011673618993155%252Fn5VPg_Rc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/APompliano/status/1087521397188964352",
+        url: "https://xcancel.com/APompliano/status/1087521397188964352",
         author: "Pomp (@APompliano)",
         retweets: 151,
         likes: 971,
@@ -1542,7 +1544,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547787118243561478%252FPxWzJo1H_bigger.jpg",
     },
     {
-        url: "https://twitter.com/oskrNYC/status/1088186327726731265",
+        url: "https://xcancel.com/oskrNYC/status/1088186327726731265",
         author: "Luis (@oskrNYC)",
         retweets: 4030,
         likes: 20870,
@@ -1550,7 +1552,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715040716278177795%252FboqANyES_bigger.jpg",
     },
     {
-        url: "https://twitter.com/django/status/1088618347208560640",
+        url: "https://xcancel.com/django/status/1088618347208560640",
         author: "Django Gold (@django)",
         retweets: 367,
         likes: 3142,
@@ -1558,7 +1560,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712119568104030208%252Fhf4t1kUS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/toreyvanoot/status/1090366478535278602",
+        url: "https://xcancel.com/toreyvanoot/status/1090366478535278602",
         author: "Torey Van Oot (@toreyvanoot)",
         retweets: 25183,
         likes: 130755,
@@ -1567,7 +1569,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1512132518555832322%252FZByepZqC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/StephenAtHome/status/1090425465809104901",
+        url: "https://xcancel.com/StephenAtHome/status/1090425465809104901",
         author: "Stephen Colbert (@StephenAtHome)",
         retweets: 8304,
         likes: 73792,
@@ -1575,7 +1577,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F627669832549441536%252Fhv1AMpO0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RichNeville/status/1091104164023857152",
+        url: "https://xcancel.com/RichNeville/status/1091104164023857152",
         author: "RichNeville (@RichNeville)",
         retweets: 51775,
         likes: 217553,
@@ -1584,7 +1586,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2793336657%252F6552a14281c923ddd0aad0c95124d484_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/bugposting/status/1091441228355375104",
+        url: "https://xcancel.com/bugposting/status/1091441228355375104",
         author: "rachel yara (@bugposting)",
         retweets: 1354,
         likes: 10705,
@@ -1592,7 +1594,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603874060714270735%252F1WY2ADDu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/99Febro/status/1091736259100319751",
+        url: "https://xcancel.com/99Febro/status/1091736259100319751",
         author: "Fae Brown (@99Febro)",
         retweets: 14903,
         likes: 59177,
@@ -1600,7 +1602,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1037071824906059777%252FjAeki-WV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/doublequibble/status/1091806542633074693",
+        url: "https://xcancel.com/doublequibble/status/1091806542633074693",
         author: "Mr. Livengood    🌴😎😮‍💨 (@doublequibble)",
         retweets: 9446,
         likes: 37712,
@@ -1608,7 +1610,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1630086481422213120%252F5J9t4UW0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/THE_shitface/status/1095375848134270977",
+        url: "https://xcancel.com/THE_shitface/status/1095375848134270977",
         author: "Shit. Head. (@THE_shitface)",
         retweets: 3955,
         likes: 24014,
@@ -1616,7 +1618,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1619191771837394945%252FsjoIYPGQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bennymofodavis/status/1095996361764270080",
+        url: "https://xcancel.com/bennymofodavis/status/1095996361764270080",
         author: "Benny Davis (@bennymofodavis)",
         retweets: 51610,
         likes: 155264,
@@ -1624,7 +1626,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590185902214901761%252FnRcMPRiL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KhiryArion/status/1096215011184144385",
+        url: "https://xcancel.com/KhiryArion/status/1096215011184144385",
         author: "khiry curving (@KhiryArion)",
         retweets: 53373,
         likes: 328449,
@@ -1632,7 +1634,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1175322343377260544%252Ft0dgrx4R_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PDChina/status/1096221209010683904",
+        url: "https://xcancel.com/PDChina/status/1096221209010683904",
         author: "People's Daily, China (@PDChina)",
         retweets: 3289,
         likes: 8706,
@@ -1641,7 +1643,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1246469365089939456%252FjAjE_fKB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mikaylaariel/status/1096976292300378112",
+        url: "https://xcancel.com/mikaylaariel/status/1096976292300378112",
         author: "Mikayla Downs (@mikaylaariel)",
         retweets: 17079,
         likes: 100037,
@@ -1650,7 +1652,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1433549144023523330%252FMCwEY1m8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AdamFriedland/status/1098015581884870656",
+        url: "https://xcancel.com/AdamFriedland/status/1098015581884870656",
         author: "Adam Friedland (@AdamFriedland)",
         retweets: 264,
         likes: 3695,
@@ -1658,7 +1660,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2299066549%252Fix5ralhalzu2lfn7v69m_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/grouchomarn/status/1100075398887600130",
+        url: "https://xcancel.com/grouchomarn/status/1100075398887600130",
         author: "m (@grouchomarn)",
         retweets: 24486,
         likes: 93758,
@@ -1667,7 +1669,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1725971482147176448%252FHOw4pQdJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/whatsJo/status/1101104272639492101",
+        url: "https://xcancel.com/whatsJo/status/1101104272639492101",
         author: "jo (@whatsJo)",
         retweets: 255,
         likes: 1186,
@@ -1675,7 +1677,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1396617705038487554%252FVeCTplTv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ChaseMit/status/1102810862815862784",
+        url: "https://xcancel.com/ChaseMit/status/1102810862815862784",
         author: "Chase Mitchell (@ChaseMit)",
         retweets: 5552,
         likes: 40237,
@@ -1684,7 +1686,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730660937215209472%252Fini9I9hp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yellowcardigan/status/1103442178787999745",
+        url: "https://xcancel.com/yellowcardigan/status/1103442178787999745",
         author: "sara mchenry (@yellowcardigan)",
         retweets: 28013,
         likes: 158547,
@@ -1692,7 +1694,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1583263263688646656%252FZQ_Gv0xR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/csittenfeld/status/1105258710161653761",
+        url: "https://xcancel.com/csittenfeld/status/1105258710161653761",
         author: "Curtis Sittenfeld (@csittenfeld)",
         retweets: 127,
         likes: 1444,
@@ -1700,7 +1702,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F940668424585224192%252FCXftR5OC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/screaminbutcalm/status/1105577845642878976",
+        url: "https://xcancel.com/screaminbutcalm/status/1105577845642878976",
         author: "The Golden Sir (@screaminbutcalm)",
         retweets: 39480,
         likes: 137997,
@@ -1708,7 +1710,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1015657708387815425%252FhrE2bQrS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mitchysuch/status/1105952972066959363",
+        url: "https://xcancel.com/mitchysuch/status/1105952972066959363",
         author: "The Gentle Freak (@mitchysuch)",
         retweets: 457,
         likes: 4602,
@@ -1716,7 +1718,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1245539238453657601%252FNkBjlA4T_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AOC/status/1106168024732704768",
+        url: "https://xcancel.com/AOC/status/1106168024732704768",
         author: "Alexandria Ocasio-Cortez (@AOC)",
         retweets: 26,
         likes: 1742,
@@ -1724,7 +1726,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F923274881197895680%252FAbHcStkl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ComedyCentral/status/1106222609534992384",
+        url: "https://xcancel.com/ComedyCentral/status/1106222609534992384",
         author: "comedycentral (@ComedyCentral)",
         retweets: 600,
         likes: 3696,
@@ -1733,7 +1735,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1544369685273223169%252FxmWzZ3cf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hunteryharris/status/1106233479937908742",
+        url: "https://xcancel.com/hunteryharris/status/1106233479937908742",
         author: "hunter harris (@hunteryharris)",
         retweets: 149,
         likes: 1424,
@@ -1742,7 +1744,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1178512579414646784%252FdgDa7TwP_bigger.png",
     },
     {
-        url: "https://twitter.com/jiatolentino/status/1106246974951563264",
+        url: "https://xcancel.com/jiatolentino/status/1106246974951563264",
         author: "Jia Tolentino (@jiatolentino)",
         retweets: 157,
         likes: 3819,
@@ -1750,7 +1752,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F753964758320185344%252FKouQNWEy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ArielDumas/status/1106353356090548230",
+        url: "https://xcancel.com/ArielDumas/status/1106353356090548230",
         author: "Ariel Dumas (@ArielDumas)",
         retweets: 4075,
         likes: 54134,
@@ -1758,7 +1760,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711528373191614464%252Fv_TS382n_bigger.jpg",
     },
     {
-        url: "https://twitter.com/The_Law_Boy/status/1106556937318088705",
+        url: "https://xcancel.com/The_Law_Boy/status/1106556937318088705",
         author: "Law Boy (@The_Law_Boy)",
         retweets: 2015,
         likes: 15626,
@@ -1766,7 +1768,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1029746079846354944%252F2NWE7cEG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brokeangeI/status/1106911249168773121",
+        url: "https://xcancel.com/brokeangeI/status/1106911249168773121",
         author: "a (@brokeangeI)",
         retweets: 14038,
         likes: 47042,
@@ -1774,7 +1776,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735778058290835456%252F0j3XjsX9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hunteryharris/status/1108030277547364352",
+        url: "https://xcancel.com/hunteryharris/status/1108030277547364352",
         author: "hunter harris (@hunteryharris)",
         retweets: 53,
         likes: 607,
@@ -1782,7 +1784,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1178512579414646784%252FdgDa7TwP_bigger.png",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/1108102037072433153",
+        url: "https://xcancel.com/TriciaLockwood/status/1108102037072433153",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 42398,
         likes: 94433,
@@ -1790,7 +1792,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cdiersing/status/1110630898817531904",
+        url: "https://xcancel.com/cdiersing/status/1110630898817531904",
         author: "Colin Diersing (@cdiersing)",
         retweets: 3398,
         likes: 33385,
@@ -1798,7 +1800,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1294107770287984651%252FNW4L9vuC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/i_zzzzzz/status/1111190076426457088",
+        url: "https://xcancel.com/i_zzzzzz/status/1111190076426457088",
         author: "Brooks Otterlake (@i_zzzzzz)",
         retweets: 23735,
         likes: 72431,
@@ -1806,7 +1808,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
-        url: "https://twitter.com/DrJenGunter/status/1112019556787118080",
+        url: "https://xcancel.com/DrJenGunter/status/1112019556787118080",
         author: "Jennifer Gunter (@DrJenGunter)",
         retweets: 4716,
         likes: 25611,
@@ -1815,7 +1817,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1359592011758637057%252FuXF0OFy7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AndrewYang/status/1113942729933848576",
+        url: "https://xcancel.com/AndrewYang/status/1113942729933848576",
         author: "Andrew Yang 🧢⬆️ (@AndrewYang)",
         retweets: 1277,
         likes: 11743,
@@ -1823,7 +1825,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554153385087029248%252Fox_Lf6Xu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sternbergh/status/1113979302914211840",
+        url: "https://xcancel.com/sternbergh/status/1113979302914211840",
         author: "Adam Sternbergh (@sternbergh)",
         retweets: 26904,
         likes: 154343,
@@ -1832,7 +1834,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F652084683145129985%252Fm_vMlgZl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/caraweinberger/status/1114579952991723521",
+        url: "https://xcancel.com/caraweinberger/status/1114579952991723521",
         author: "Cara Weinberger (@caraweinberger)",
         retweets: 2329,
         likes: 17847,
@@ -1840,7 +1842,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1235621040421732353%252Fzqyl5dFX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yurirando/status/1114630784990625792",
+        url: "https://xcancel.com/yurirando/status/1114630784990625792",
         author: "frog \"Philip K. Dickgirl\" kosaric (@yurirando)",
         retweets: 1660,
         likes: 9662,
@@ -1849,7 +1851,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1301369135541055488%252FtCetEL6o_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Fred_Delicious/status/1115997333496451073",
+        url: "https://xcancel.com/Fred_Delicious/status/1115997333496451073",
         author: "Fred Delicious (@Fred_Delicious)",
         retweets: 3357,
         likes: 26980,
@@ -1858,7 +1860,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1486036052875923461%252FOYNxOPRB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/6thgrade4ever/status/1116401071776256000",
+        url: "https://xcancel.com/6thgrade4ever/status/1116401071776256000",
         author: "Druthers Haver (@6thgrade4ever)",
         retweets: 551,
         likes: 4091,
@@ -1866,7 +1868,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2023455999%252FKNiUo_bigger.gif",
     },
     {
-        url: "https://twitter.com/gloomfather/status/1118621889822429185",
+        url: "https://xcancel.com/gloomfather/status/1118621889822429185",
         author: "computer man (@gloomfather)",
         retweets: 17869,
         likes: 69805,
@@ -1874,7 +1876,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F947231118134149120%252FyOGboOCh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/1118896869734617088",
+        url: "https://xcancel.com/meganamram/status/1118896869734617088",
         author: "Megan Amram (@meganamram)",
         retweets: 402,
         likes: 12174,
@@ -1882,7 +1884,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/paulxt/status/1118898154638675968",
+        url: "https://xcancel.com/paulxt/status/1118898154638675968",
         author: "pxt (@paulxt)",
         retweets: 1807,
         likes: 8925,
@@ -1891,7 +1893,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312582421896859648%252F3AC018pV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/desusnice/status/1118949283255005184",
+        url: "https://xcancel.com/desusnice/status/1118949283255005184",
         author: "Desus MF Nice (@desusnice)",
         retweets: 12799,
         likes: 66381,
@@ -1899,7 +1901,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/desusnice/status/1119040658419773440",
+        url: "https://xcancel.com/desusnice/status/1119040658419773440",
         author: "Desus MF Nice (@desusnice)",
         retweets: 10881,
         likes: 43175,
@@ -1907,7 +1909,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/thechrisbarron/status/1119058135107473408",
+        url: "https://xcancel.com/thechrisbarron/status/1119058135107473408",
         author: "Chris Barron (@thechrisbarron)",
         retweets: 46,
         likes: 560,
@@ -1915,7 +1917,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F917821501813985280%252FvVdXkqce_bigger.jpg",
     },
     {
-        url: "https://twitter.com/phoebe_bridgers/status/1119668833902415872",
+        url: "https://xcancel.com/phoebe_bridgers/status/1119668833902415872",
         author: "traitor joe (@phoebe_bridgers)",
         retweets: 5647,
         likes: 29358,
@@ -1923,7 +1925,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
-        url: "https://twitter.com/AthertonKD/status/1120376944061583360",
+        url: "https://xcancel.com/AthertonKD/status/1120376944061583360",
         author: "Kelsey D. Atherton, now available on Bluesky (@AthertonKD)",
         retweets: 10840,
         likes: 35767,
@@ -1931,7 +1933,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323149280174088192%252F7tSU5Oy5_bigger.png",
     },
     {
-        url: "https://twitter.com/BrandyLJensen/status/1120444666036486144",
+        url: "https://xcancel.com/BrandyLJensen/status/1120444666036486144",
         author: "Brandy Jensen (@BrandyLJensen)",
         retweets: 177,
         likes: 4339,
@@ -1940,7 +1942,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jon_bois/status/1120506927631433730",
+        url: "https://xcancel.com/jon_bois/status/1120506927631433730",
         author: "Jon Bois (@jon_bois)",
         retweets: 1598,
         likes: 12779,
@@ -1948,7 +1950,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1535742187220217856%252FblbLWhI8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsDanSheehan/status/1120931789252390912",
+        url: "https://xcancel.com/ItsDanSheehan/status/1120931789252390912",
         author: "Dan Sheehan (@ItsDanSheehan)",
         retweets: 1839,
         likes: 14365,
@@ -1956,7 +1958,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pbump/status/1121235581135196160",
+        url: "https://xcancel.com/pbump/status/1121235581135196160",
         author: "Philip Bump (@pbump)",
         retweets: 12181,
         likes: 95857,
@@ -1964,7 +1966,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554893308790546434%252FGg2fE0f6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pcd2009/status/1121439800584802310",
+        url: "https://xcancel.com/pcd2009/status/1121439800584802310",
         author: "popculturediedin2009 (@pcd2009)",
         retweets: 2905,
         likes: 17184,
@@ -1973,7 +1975,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F656590442759327744%252F33PeEjPV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DrFresch/status/1121981727797157888",
+        url: "https://xcancel.com/DrFresch/status/1121981727797157888",
         author: "Dr. Fresch (@DrFresch)",
         retweets: 600,
         likes: 3402,
@@ -1981,7 +1983,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561848910192058368%252F1eiIP823_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gertrudeprkns/status/1122933807353610242",
+        url: "https://xcancel.com/gertrudeprkns/status/1122933807353610242",
         author: "Gertrude Perkins ☄ (@gertrudeprkns)",
         retweets: 1925,
         likes: 7866,
@@ -1990,7 +1992,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F620705514226348032%252FADYwlfMP_bigger.png",
     },
     {
-        url: "https://twitter.com/clefabledude/status/1123189486211469314",
+        url: "https://xcancel.com/clefabledude/status/1123189486211469314",
         author: "The visual noise of the cereal isle (@clefabledude)",
         retweets: 392,
         likes: 5476,
@@ -1998,7 +2000,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1333117169350152198%252F8kt6fsob_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RainsNeerMyth/status/1123222105385000961",
+        url: "https://xcancel.com/RainsNeerMyth/status/1123222105385000961",
         author: "HootHoot Liker (@RainsNeerMyth)",
         retweets: 15888,
         likes: 60458,
@@ -2006,7 +2008,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1486763257901850630%252F9vC4NU5r_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SonicFox/status/1123298107373105152",
+        url: "https://xcancel.com/SonicFox/status/1123298107373105152",
         author: "SonicFox @ BLFC (@SonicFox)",
         retweets: 973,
         likes: 8236,
@@ -2014,7 +2016,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720492000762589184%252FU-0e2Iz4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/edcasey/status/1123346927519559680",
+        url: "https://xcancel.com/edcasey/status/1123346927519559680",
         author: "Ed Casey (@edcasey)",
         retweets: 34,
         likes: 377,
@@ -2023,7 +2025,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F681225373258928128%252FnA5OVZKW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kima_jones/status/1125566581897957376",
+        url: "https://xcancel.com/kima_jones/status/1125566581897957376",
         author: "Kima Jones (@kima_jones)",
         retweets: 21,
         likes: 294,
@@ -2032,7 +2034,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734677339416547329%252FOdu4qst8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SHAQ/status/1125736720",
+        url: "https://xcancel.com/SHAQ/status/1125736720",
         author: "SHAQ (@SHAQ)",
         retweets: 18913,
         likes: 25703,
@@ -2040,7 +2042,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1579949436527988737%252FRDqn1udJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RobbyRav/status/1126695591025602561",
+        url: "https://xcancel.com/RobbyRav/status/1126695591025602561",
         author: "Robby (@RobbyRav)",
         retweets: 339,
         likes: 2123,
@@ -2048,7 +2050,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730373108064813056%252FypPYxW0M_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hereiamja/status/1127329954155442176",
+        url: "https://xcancel.com/hereiamja/status/1127329954155442176",
         author: "j. (@hereiamja)",
         retweets: 22294,
         likes: 87410,
@@ -2056,7 +2058,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561476404239278082%252FATbxPgoC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ntabebe/status/1127963164849655808",
+        url: "https://xcancel.com/ntabebe/status/1127963164849655808",
         author: "Nitsuh Abebe (@ntabebe)",
         retweets: 1,
         likes: 40,
@@ -2064,7 +2066,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696391341687648256%252FsuSW2KGs_bigger.jpg",
     },
     {
-        url: "https://twitter.com/paulcherry69/status/1129956552188813312",
+        url: "https://xcancel.com/paulcherry69/status/1129956552188813312",
         author: "Paul Cherry (@paulcherry69)",
         retweets: 6868,
         likes: 45297,
@@ -2072,7 +2074,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1186058510070665218%252FqrIhqHgy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/desusnice/status/1129971978327216128",
+        url: "https://xcancel.com/desusnice/status/1129971978327216128",
         author: "Desus MF Nice (@desusnice)",
         retweets: 6383,
         likes: 29878,
@@ -2080,7 +2082,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/1139855703785426946",
+        url: "https://xcancel.com/InternetHippo/status/1139855703785426946",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 2551,
         likes: 22091,
@@ -2088,7 +2090,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/andrealongchu/status/1142799107666448385",
+        url: "https://xcancel.com/andrealongchu/status/1142799107666448385",
         author: "wife of the mind (@andrealongchu)",
         retweets: 955,
         likes: 7385,
@@ -2096,7 +2098,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490707597195939844%252Fc81ojfyR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NINETIREDBUGS/status/1142842921277960197",
+        url: "https://xcancel.com/NINETIREDBUGS/status/1142842921277960197",
         author: "doctor peanut (@NINETIREDBUGS)",
         retweets: 12175,
         likes: 75239,
@@ -2105,7 +2107,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1471854491624431622%252FmozGwigd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/midmerch/status/1143312170312015873",
+        url: "https://xcancel.com/midmerch/status/1143312170312015873",
         author: "mattmerchant (@midmerch)",
         retweets: 1834,
         likes: 21548,
@@ -2113,7 +2115,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735096093468512256%252FQUUW92rw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/UnionSaltBae/status/1143508855315468288",
+        url: "https://xcancel.com/UnionSaltBae/status/1143508855315468288",
         author: "ALJ Dredd (@UnionSaltBae)",
         retweets: 3717,
         likes: 12587,
@@ -2121,7 +2123,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1328462736796291074%252Fnzm1NdZj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TweetPotato314/status/1143594317954670592",
+        url: "https://xcancel.com/TweetPotato314/status/1143594317954670592",
         author: "m-at-thew (@TweetPotato314)",
         retweets: 18079,
         likes: 91795,
@@ -2129,7 +2131,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603829425048518657%252FQ8zljuFK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mineifiwildout/status/1144455043480817664",
+        url: "https://xcancel.com/mineifiwildout/status/1144455043480817664",
         author: "alex (@mineifiwildout)",
         retweets: 1357,
         likes: 8438,
@@ -2137,7 +2139,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wbuik/status/1147898217478180864",
+        url: "https://xcancel.com/wbuik/status/1147898217478180864",
         author: ". (@wbuik)",
         retweets: 1172,
         likes: 9298,
@@ -2145,7 +2147,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/drewisgooden/status/1149028915899330560",
+        url: "https://xcancel.com/drewisgooden/status/1149028915899330560",
         author: "Drew Gooden (@drewisgooden)",
         retweets: 12823,
         likes: 114050,
@@ -2153,7 +2155,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1226241124504887300%252F4_UvLvg8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DickFooDog/status/1150921816455573505",
+        url: "https://xcancel.com/DickFooDog/status/1150921816455573505",
         author: "Joe Dirte (@DickFooDog)",
         retweets: 199675,
         likes: 520569,
@@ -2162,7 +2164,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655371963647545344%252FBn5F9hxE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsLumberzack/status/1150964043718508544",
+        url: "https://xcancel.com/ItsLumberzack/status/1150964043718508544",
         author: "zack (@ItsLumberzack)",
         retweets: 18280,
         likes: 134173,
@@ -2170,7 +2172,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408173285804843010%252FO-m9vydi_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JayNedaj/status/1152074356593266690",
+        url: "https://xcancel.com/JayNedaj/status/1152074356593266690",
         author: "Jay Nedaj (@JayNedaj)",
         retweets: 88210,
         likes: 337564,
@@ -2178,7 +2180,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711518257239183360%252FM3jMhr8t_bigger.jpg",
     },
     {
-        url: "https://twitter.com/prophethusband/status/1152227602532360192",
+        url: "https://xcancel.com/prophethusband/status/1152227602532360192",
         author: "Losing it (@prophethusband)",
         retweets: 3145,
         likes: 23779,
@@ -2186,7 +2188,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1454540910965010435%252FfxyWMWqA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KylePlantEmoji/status/1153780921608183808",
+        url: "https://xcancel.com/KylePlantEmoji/status/1153780921608183808",
         author: "Kyle (@KylePlantEmoji)",
         retweets: 5053,
         likes: 45441,
@@ -2194,7 +2196,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ben_rosen/status/1155175985186136064",
+        url: "https://xcancel.com/ben_rosen/status/1155175985186136064",
         author: "Ben Rosen (@ben_rosen)",
         retweets: 3889,
         likes: 30685,
@@ -2202,7 +2204,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/robdubbin/status/1155490752237101056",
+        url: "https://xcancel.com/robdubbin/status/1155490752237101056",
         author: "rob dubbin (@robdubbin)",
         retweets: 21149,
         likes: 102156,
@@ -2210,7 +2212,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624592674534588417%252FY_8AoWuP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/i_zzzzzz/status/1155528692677976070",
+        url: "https://xcancel.com/i_zzzzzz/status/1155528692677976070",
         author: "Brooks Otterlake (@i_zzzzzz)",
         retweets: 504,
         likes: 3793,
@@ -2218,7 +2220,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
-        url: "https://twitter.com/WillieMcNabb/status/1158045307562856448",
+        url: "https://xcancel.com/WillieMcNabb/status/1158045307562856448",
         author: "Willie McNabb (@WillieMcNabb)",
         retweets: 7590,
         likes: 31604,
@@ -2226,7 +2228,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1558073899627184130%252FD9Gi0d8p_bigger.jpg",
     },
     {
-        url: "https://twitter.com/anchorlines/status/1158504416565223425",
+        url: "https://xcancel.com/anchorlines/status/1158504416565223425",
         author: "heather schmelzlen (@anchorlines)",
         retweets: 412,
         likes: 3319,
@@ -2234,7 +2236,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1714422283299692544%252FDFGJ8Tj8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/VoltaireLaFlare/status/1158528892841467904",
+        url: "https://xcancel.com/VoltaireLaFlare/status/1158528892841467904",
         author: "Angelo Guisado (@VoltaireLaFlare)",
         retweets: 57,
         likes: 329,
@@ -2242,7 +2244,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490380853217832969%252FF6Qgdu2n_bigger.jpg",
     },
     {
-        url: "https://twitter.com/josiahhughes/status/1159114818814537729",
+        url: "https://xcancel.com/josiahhughes/status/1159114818814537729",
         author: "jos (@josiahhughes)",
         retweets: 20912,
         likes: 100019,
@@ -2250,7 +2252,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F855108224592236544%252FREUok_O4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/quakerraina/status/1160572377132126213",
+        url: "https://xcancel.com/quakerraina/status/1160572377132126213",
         author: "raina (@quakerraina)",
         retweets: 6303,
         likes: 39053,
@@ -2258,7 +2260,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591958462388310016%252FnPGYAUhA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DJJudd/status/1161353495775272960",
+        url: "https://xcancel.com/DJJudd/status/1161353495775272960",
         author: "DJ Judd (@DJJudd)",
         retweets: 4032,
         likes: 17434,
@@ -2267,7 +2269,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1319806776368386048%252FM1FoteJU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KateAronoff/status/1161749959101812736",
+        url: "https://xcancel.com/KateAronoff/status/1161749959101812736",
         author: "Kate Aronoff (@KateAronoff)",
         retweets: 993,
         likes: 7216,
@@ -2275,7 +2277,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686227922883878912%252FNW1f-FnO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CaucasianJames/status/1162059800022306824",
+        url: "https://xcancel.com/CaucasianJames/status/1162059800022306824",
         author: "James (@CaucasianJames)",
         retweets: 12189,
         likes: 96150,
@@ -2283,7 +2285,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F933947605104685056%252FmumGVsyS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rlycalm/status/1165375820300349440",
+        url: "https://xcancel.com/rlycalm/status/1165375820300349440",
         author: "diana thirst (@rlycalm)",
         retweets: 176,
         likes: 1762,
@@ -2292,7 +2294,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1583590037949939712%252F43czXiY5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nickciarelli/status/1165659110013976577",
+        url: "https://xcancel.com/nickciarelli/status/1165659110013976577",
         author: "nick ciarelli (@nickciarelli)",
         retweets: 2816,
         likes: 24416,
@@ -2300,7 +2302,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1259563606170980352%252FpgmN5BI7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/champagneswathi/status/1168226772057546753",
+        url: "https://xcancel.com/champagneswathi/status/1168226772057546753",
         author: "maybe: God (@champagneswathi)",
         retweets: 23832,
         likes: 133651,
@@ -2308,7 +2310,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1654291814038355970%252Fg4UXAKhK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/1170764345812357122",
+        url: "https://xcancel.com/TriciaLockwood/status/1170764345812357122",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 35,
         likes: 529,
@@ -2316,7 +2318,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/decentbirthday/status/1171264135578996736",
+        url: "https://xcancel.com/decentbirthday/status/1171264135578996736",
         author: "palmer ward (@decentbirthday)",
         retweets: 57545,
         likes: 369964,
@@ -2325,7 +2327,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1090993904533622785%252FFW6wG3hM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsDanSheehan/status/1171519055552860160",
+        url: "https://xcancel.com/ItsDanSheehan/status/1171519055552860160",
         author: "Dan Sheehan (@ItsDanSheehan)",
         retweets: 5015,
         likes: 48392,
@@ -2334,7 +2336,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/iwearaonesie/status/1172919286752432128",
+        url: "https://xcancel.com/iwearaonesie/status/1172919286752432128",
         author: "Josh (@iwearaonesie)",
         retweets: 37088,
         likes: 229283,
@@ -2342,7 +2344,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F601730971394842625%252FmnkC56rU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mrnickharvey/status/1173133451668729856",
+        url: "https://xcancel.com/mrnickharvey/status/1173133451668729856",
         author: "Nick Harvey (@mrnickharvey)",
         retweets: 25208,
         likes: 153277,
@@ -2351,7 +2353,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1487019076442632200%252FAn79y0W-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/callmedgoodz/status/1173393740691582977",
+        url: "https://xcancel.com/callmedgoodz/status/1173393740691582977",
         author: "sweet daddy (taylor’s version) (@callmedgoodz)",
         retweets: 1232,
         likes: 15303,
@@ -2359,7 +2361,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1594153162268704768%252FSiIjXsh0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CAshmanActor/status/1173581080957530112",
+        url: "https://xcancel.com/CAshmanActor/status/1173581080957530112",
         author: "Christopher Ashman (@CAshmanActor)",
         retweets: 1551,
         likes: 7480,
@@ -2367,7 +2369,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1612408132046651399%252FFgzDRe6j_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bijanstephen/status/1173609230890414082",
+        url: "https://xcancel.com/bijanstephen/status/1173609230890414082",
         author: "bijan (@bijanstephen)",
         retweets: 1418,
         likes: 6075,
@@ -2375,7 +2377,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1642118781127229442%252Fd5WsKKfF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nvrslps/status/1173613587052617728",
+        url: "https://xcancel.com/nvrslps/status/1173613587052617728",
         author: "Victor Ware (@nvrslps)",
         retweets: 756,
         likes: 4048,
@@ -2384,7 +2386,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1449037504414371846%252FVuI7ZFvd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tigersgoroooar/status/1173696996516888577",
+        url: "https://xcancel.com/tigersgoroooar/status/1173696996516888577",
         author: "Psw (@tigersgoroooar)",
         retweets: 27975,
         likes: 151035,
@@ -2392,7 +2394,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1667059815078608897%252Fu4uoTub-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dalykyle/status/1174360934237855749",
+        url: "https://xcancel.com/dalykyle/status/1174360934237855749",
         author: "Kyle Daly (@dalykyle)",
         retweets: 11709,
         likes: 53395,
@@ -2401,7 +2403,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1182370057042714625%252F5h1ZW1PB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/murrman5/status/1179046435737800705",
+        url: "https://xcancel.com/murrman5/status/1179046435737800705",
         author: "brent (@murrman5)",
         retweets: 44264,
         likes: 185337,
@@ -2409,7 +2411,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/amfmpm/status/1179947212698206209",
+        url: "https://xcancel.com/amfmpm/status/1179947212698206209",
         author: "amfmpm.bsky.social (@amfmpm)",
         retweets: 7933,
         likes: 42407,
@@ -2417,7 +2419,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671584700228411396%252FhVWfmsIG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/turtlekiosk/status/1180960593567727616",
+        url: "https://xcancel.com/turtlekiosk/status/1180960593567727616",
         author: " (@turtlekiosk)",
         retweets: 18798,
         likes: 123053,
@@ -2425,7 +2427,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709382139362357248%252Fhu8bLEhg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jeremypgordon/status/1181773495165947904",
+        url: "https://xcancel.com/jeremypgordon/status/1181773495165947904",
         author: "Jeremy Gordon (@jeremypgordon)",
         retweets: 2760,
         likes: 16414,
@@ -2433,7 +2435,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1570440487802208256%252FsEAxWXLM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mayainthemoment/status/1186675307358457857",
+        url: "https://xcancel.com/mayainthemoment/status/1186675307358457857",
         author: "Maya Murillo (@mayainthemoment)",
         retweets: 10420,
         likes: 76793,
@@ -2441,7 +2443,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719054534964649984%252FCslGKXOA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/markpopham/status/1186995263807864832",
+        url: "https://xcancel.com/markpopham/status/1186995263807864832",
         author: "bela lugosi's dad (@markpopham)",
         retweets: 1513,
         likes: 8396,
@@ -2449,7 +2451,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F731881902102204416%252Fv5uXueMT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MARSBEENTHUGGIN/status/1187113234714841088",
+        url: "https://xcancel.com/MARSBEENTHUGGIN/status/1187113234714841088",
         author: "can’t ban da snowman (@MARSBEENTHUGGIN)",
         retweets: 84365,
         likes: 319006,
@@ -2457,7 +2459,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1487566019933712384%252FFlY3kBch_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DVSblast/status/1187526674008686592",
+        url: "https://xcancel.com/DVSblast/status/1187526674008686592",
         author: "DVS (@DVSblast)",
         retweets: 69,
         likes: 337,
@@ -2465,7 +2467,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F607981569916026881%252FroZR_wmK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/killakow/status/1188805278621413376",
+        url: "https://xcancel.com/killakow/status/1188805278621413376",
         author: "Ursula K LeBron (@killakow)",
         retweets: 7,
         likes: 255,
@@ -2473,7 +2475,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F954193843095834624%252F1uL7Wy7U_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tonyhawk/status/1189666915087601664",
+        url: "https://xcancel.com/tonyhawk/status/1189666915087601664",
         author: "Tony Hawk (@tonyhawk)",
         retweets: 25258,
         likes: 247429,
@@ -2482,7 +2484,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325015260%252F1979_driveway_fs_stink_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tonyhawk/status/1189698031483965440",
+        url: "https://xcancel.com/tonyhawk/status/1189698031483965440",
         author: "Tony Hawk (@tonyhawk)",
         retweets: 10464,
         likes: 134276,
@@ -2490,7 +2492,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325015260%252F1979_driveway_fs_stink_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SofiaParedes79/status/1191406812853129217",
+        url: "https://xcancel.com/SofiaParedes79/status/1191406812853129217",
         author: "Sofia Paredes (@SofiaParedes79)",
         retweets: 11996,
         likes: 62668,
@@ -2499,7 +2501,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1461603425922256896%252FWcGs9Etj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jack/status/1191733943781003267",
+        url: "https://xcancel.com/jack/status/1191733943781003267",
         author: "jack (@jack)",
         retweets: 3128,
         likes: 23315,
@@ -2507,7 +2509,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1661201415899951105%252FazNjKOSH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stylesp/status/1191856191569313792",
+        url: "https://xcancel.com/stylesp/status/1191856191569313792",
         author: "little farma (@stylesp)",
         retweets: 111,
         likes: 691,
@@ -2515,7 +2517,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1552314014318923776%252F5lqmF9UC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/roob_drummer/status/1193903792334524416",
+        url: "https://xcancel.com/roob_drummer/status/1193903792334524416",
         author: "Roob (@roob_drummer)",
         retweets: 41035,
         likes: 212587,
@@ -2523,7 +2525,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1514230742620033026%252FA7zoDS5b_bigger.jpg",
     },
     {
-        url: "https://twitter.com/alsarath/status/1194303665953280001",
+        url: "https://xcancel.com/alsarath/status/1194303665953280001",
         author: "alsarath (@alsarath)",
         retweets: 1793,
         likes: 7358,
@@ -2531,7 +2533,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1202239627052113922%252FW0AtB0PH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fyeahmfabello/status/1196551284914098177",
+        url: "https://xcancel.com/fyeahmfabello/status/1196551284914098177",
         author: "Melissa A. Fabello, PhD (@fyeahmfabello)",
         retweets: 5249,
         likes: 19031,
@@ -2540,7 +2542,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1172247296865636354%252FKkIlSVcK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/matthewamiller/status/1197522995943788545",
+        url: "https://xcancel.com/matthewamiller/status/1197522995943788545",
         author: "Matthew Miller (@matthewamiller)",
         retweets: 1158,
         likes: 10963,
@@ -2548,7 +2550,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1130525676765949952%252FIBeJ-JTQ_bigger.png",
     },
     {
-        url: "https://twitter.com/FredTaming/status/1197578895697969152",
+        url: "https://xcancel.com/FredTaming/status/1197578895697969152",
         author: "fredesque (@FredTaming)",
         retweets: 16958,
         likes: 106102,
@@ -2556,7 +2558,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1588697275467010048%252FvZNkjKUu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/maura/status/1197603300427714560",
+        url: "https://xcancel.com/maura/status/1197603300427714560",
         author: "maura   johnston (@maura)",
         retweets: 132,
         likes: 1111,
@@ -2565,7 +2567,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1674130339336278058%252Fegx1w6nm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/annamerlan/status/1197634950536794112",
+        url: "https://xcancel.com/annamerlan/status/1197634950536794112",
         author: "Anna Merlan (@annamerlan)",
         retweets: 688,
         likes: 6958,
@@ -2573,7 +2575,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1471897111314587651%252Fji-rbKQD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/melissagira/status/1197712279443259392",
+        url: "https://xcancel.com/melissagira/status/1197712279443259392",
         author: "Melissa Gira Grant (@melissagira)",
         retweets: 4,
         likes: 56,
@@ -2581,7 +2583,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1643684896001466374%252FI6jozc0g_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jdmaccoby/status/1197923319879745542",
+        url: "https://xcancel.com/jdmaccoby/status/1197923319879745542",
         author: "Jake Maccoby (@jdmaccoby)",
         retweets: 9254,
         likes: 55877,
@@ -2590,7 +2592,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1014170796577775616%252Fj1ZuAkPd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HoneyEyedOlive/status/1199492759884681216",
+        url: "https://xcancel.com/HoneyEyedOlive/status/1199492759884681216",
         author: "OLIVIA (@HoneyEyedOlive)",
         retweets: 55396,
         likes: 304412,
@@ -2598,7 +2600,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651628507032883201%252FOgdCNNvg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/amyslanchik/status/1200177630793863169",
+        url: "https://xcancel.com/amyslanchik/status/1200177630793863169",
         author: "Amy Slanchik (@amyslanchik)",
         retweets: 1792,
         likes: 11801,
@@ -2607,7 +2609,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1069428537227124738%252FCKuk4CH7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jpbrammer/status/1200483435602731011",
+        url: "https://xcancel.com/jpbrammer/status/1200483435602731011",
         author: "JP (@jpbrammer)",
         retweets: 75,
         likes: 2479,
@@ -2615,7 +2617,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
-        url: "https://twitter.com/shutupaida/status/1200513509869543424",
+        url: "https://xcancel.com/shutupaida/status/1200513509869543424",
         author: "aida osman (@shutupaida)",
         retweets: 124,
         likes: 1161,
@@ -2623,7 +2625,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686195092887875584%252FDW3Q4tlO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Goldfarb232/status/1200515100651773959",
+        url: "https://xcancel.com/Goldfarb232/status/1200515100651773959",
         author: "Devon sawa fan page (@Goldfarb232)",
         retweets: 31,
         likes: 334,
@@ -2631,7 +2633,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1202321800165810176%252F9qNgEdiE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DylanGelula/status/1200548126504804352",
+        url: "https://xcancel.com/DylanGelula/status/1200548126504804352",
         author: "dylan gelula (@DylanGelula)",
         retweets: 2919,
         likes: 38380,
@@ -2639,7 +2641,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1622415502151647235%252FRUbpFLE2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sh_wnee/status/1202354525329338369",
+        url: "https://xcancel.com/sh_wnee/status/1202354525329338369",
         author: "shawnee (@sh_wnee)",
         retweets: 3274,
         likes: 23908,
@@ -2647,7 +2649,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1572625467080859650%252FrTzAQN-p_bigger.jpg",
     },
     {
-        url: "https://twitter.com/larrycebula/status/1202753209502072832",
+        url: "https://xcancel.com/larrycebula/status/1202753209502072832",
         author: "Dr. Larry Cebula (@larrycebula)",
         retweets: 1778,
         likes: 22077,
@@ -2655,7 +2657,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573161342978371586%252FKGBBTuYY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/97Vercetti/status/1205229773171109893",
+        url: "https://xcancel.com/97Vercetti/status/1205229773171109893",
         author: "Luis Vercetti (@97Vercetti)",
         retweets: 63961,
         likes: 363378,
@@ -2663,7 +2665,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587247017264283648%252FMiHFAxC4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1205902608667299840",
+        url: "https://xcancel.com/MNateShyamalan/status/1205902608667299840",
         author: "soul nate (@MNateShyamalan)",
         retweets: 15204,
         likes: 100513,
@@ -2671,7 +2673,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/jpbrammer/status/1206685008255225857",
+        url: "https://xcancel.com/jpbrammer/status/1206685008255225857",
         author: "JP (@jpbrammer)",
         retweets: 67,
         likes: 664,
@@ -2679,7 +2681,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
-        url: "https://twitter.com/KylePlantEmoji/status/1207216555165016064",
+        url: "https://xcancel.com/KylePlantEmoji/status/1207216555165016064",
         author: "Kyle (@KylePlantEmoji)",
         retweets: 35120,
         likes: 252581,
@@ -2687,7 +2689,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Stephenlough95/status/1207326872230670336",
+        url: "https://xcancel.com/Stephenlough95/status/1207326872230670336",
         author: "Stephen (@Stephenlough95)",
         retweets: 6295,
         likes: 55231,
@@ -2696,7 +2698,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1539172118818086915%252FpDhZnrd0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/davidfarrier/status/1207450843844243456",
+        url: "https://xcancel.com/davidfarrier/status/1207450843844243456",
         author: "David Farrier (@davidfarrier)",
         retweets: 8814,
         likes: 36891,
@@ -2705,7 +2707,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1391161879926480898%252Fqx3bATDZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/James__Mackey/status/1207454443664330752",
+        url: "https://xcancel.com/James__Mackey/status/1207454443664330752",
         author: "mackey (@James__Mackey)",
         retweets: 60,
         likes: 1250,
@@ -2714,7 +2716,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482592486736687104%252Fx1_tK71M_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dancingofpens/status/1207468526258270209",
+        url: "https://xcancel.com/dancingofpens/status/1207468526258270209",
         author: "Camryn Garrett FRIDAY I'M IN LOVE OUT NOW (@dancingofpens)",
         retweets: 43315,
         likes: 397430,
@@ -2723,7 +2725,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1448743955953332230%252F6XOWYdZa_bigger.jpg",
     },
     {
-        url: "https://twitter.com/crocodilethumbs/status/1207481625480708098",
+        url: "https://xcancel.com/crocodilethumbs/status/1207481625480708098",
         author: "not brendan (@crocodilethumbs)",
         retweets: 8506,
         likes: 53867,
@@ -2731,7 +2733,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1384725131273011200%252FAzDSiB7__bigger.jpg",
     },
     {
-        url: "https://twitter.com/KylePlantEmoji/status/1207481908201803777",
+        url: "https://xcancel.com/KylePlantEmoji/status/1207481908201803777",
         author: "Kyle (@KylePlantEmoji)",
         retweets: 7906,
         likes: 71356,
@@ -2739,7 +2741,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444206738970906624%252Fc-UeeQJr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bestinsio/status/1208167182951239682",
+        url: "https://xcancel.com/bestinsio/status/1208167182951239682",
         author: "sio (@bestinsio)",
         retweets: 55531,
         likes: 269639,
@@ -2747,7 +2749,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560730432970395649%252FsnjkrDzX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/quendergeer/status/1208339200443113472",
+        url: "https://xcancel.com/quendergeer/status/1208339200443113472",
         author: "Crowsa Luxemburg (@quendergeer)",
         retweets: 1854,
         likes: 7830,
@@ -2755,7 +2757,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1568892935093063687%252FItqwaQ9b_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaketropolis/status/1210271698899132417",
+        url: "https://xcancel.com/jaketropolis/status/1210271698899132417",
         author: "the prince with a thousand enemies ♂️⬆️ (@jaketropolis)",
         retweets: 6629,
         likes: 36946,
@@ -2763,7 +2765,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495618642859462662%252FZ7R-8rfa_bigger.jpg",
     },
     {
-        url: "https://twitter.com/eliyudin/status/1210386089246154752",
+        url: "https://xcancel.com/eliyudin/status/1210386089246154752",
         author: "eli yudin (@eliyudin)",
         retweets: 12,
         likes: 344,
@@ -2771,7 +2773,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721050692641533952%252FThxD4Mjs_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shutupaida/status/1210420190317600768",
+        url: "https://xcancel.com/shutupaida/status/1210420190317600768",
         author: "aida osman (@shutupaida)",
         retweets: 9730,
         likes: 80933,
@@ -2779,7 +2781,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686195092887875584%252FDW3Q4tlO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/errrelizabethh/status/1211631845839949825",
+        url: "https://xcancel.com/errrelizabethh/status/1211631845839949825",
         author: "erin (@errrelizabethh)",
         retweets: 33820,
         likes: 105222,
@@ -2788,7 +2790,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669475648023265280%252FaivaJjJe_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chordgang/status/1211711827845025804",
+        url: "https://xcancel.com/chordgang/status/1211711827845025804",
         author: "EJ (@chordgang)",
         retweets: 3589,
         likes: 30424,
@@ -2796,7 +2798,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736577306867408896%252F6JnpDv9V_bigger.jpg",
     },
     {
-        url: "https://twitter.com/husbandu/status/1211871548816187392",
+        url: "https://xcancel.com/husbandu/status/1211871548816187392",
         author: "danny ★ (@husbandu)",
         retweets: 3199,
         likes: 32553,
@@ -2805,7 +2807,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1467729075347374083%252FXvS6rdEy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GemOfAmara/status/1214143485281882112",
+        url: "https://xcancel.com/GemOfAmara/status/1214143485281882112",
         author: "grace (@GemOfAmara)",
         retweets: 2093,
         likes: 15321,
@@ -2814,7 +2816,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1110038615994912770%252FgX2rMsbd_bigger.png",
     },
     {
-        url: "https://twitter.com/sullydish/status/1214264659383062530",
+        url: "https://xcancel.com/sullydish/status/1214264659383062530",
         author: "Andrew Sullivan (@sullydish)",
         retweets: 6,
         likes: 93,
@@ -2822,7 +2824,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205562537%252F1ccdefbf621cd2d56ea6cabb700f6a3c_bigger.png",
     },
     {
-        url: "https://twitter.com/380kmh/status/1214268546253033474",
+        url: "https://xcancel.com/380kmh/status/1214268546253033474",
         author: "Alex \"Tropical\" Forrest (@380kmh)",
         retweets: 12642,
         likes: 92974,
@@ -2831,7 +2833,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1681482242315501568%252FsGA8p7XM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AthertonKD/status/1214309411637739520",
+        url: "https://xcancel.com/AthertonKD/status/1214309411637739520",
         author: "Kelsey D. Atherton, now available on Bluesky (@AthertonKD)",
         retweets: 42,
         likes: 429,
@@ -2839,7 +2841,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323149280174088192%252F7tSU5Oy5_bigger.png",
     },
     {
-        url: "https://twitter.com/NewDadNotes/status/1216170133514792966",
+        url: "https://xcancel.com/NewDadNotes/status/1216170133514792966",
         author: "NewDadNotes (@NewDadNotes)",
         retweets: 3018,
         likes: 20450,
@@ -2847,7 +2849,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1349781186911068162%252FYknkAJ4U_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JoyofPhysics/status/1218281779733266432",
+        url: "https://xcancel.com/JoyofPhysics/status/1218281779733266432",
         author: "Hannalore Gerling-Dunsmore (@JoyofPhysics)",
         retweets: 8393,
         likes: 90287,
@@ -2855,7 +2857,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1250929542354604037%252FoikaA5to_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sarahclazarus/status/1218339538021408768",
+        url: "https://xcancel.com/sarahclazarus/status/1218339538021408768",
         author: "Sarah Lazarus (@sarahclazarus)",
         retweets: 15914,
         likes: 139577,
@@ -2863,7 +2865,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1622646445051645952%252Fjo8BC7He_bigger.jpg",
     },
     {
-        url: "https://twitter.com/xpatriciah/status/1218429351517196288",
+        url: "https://xcancel.com/xpatriciah/status/1218429351517196288",
         author: "Patricia Hernandez (@xpatriciah)",
         retweets: 2918,
         likes: 24783,
@@ -2872,7 +2874,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1500840337375436801%252FVlftfE21_bigger.jpg",
     },
     {
-        url: "https://twitter.com/alicecbennett/status/1219575123742728192",
+        url: "https://xcancel.com/alicecbennett/status/1219575123742728192",
         author: "Alice Bennett ⏰ (@alicecbennett)",
         retweets: 10008,
         likes: 45243,
@@ -2881,7 +2883,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1602045064905199617%252F_EYeg4WZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jpbrammer/status/1219730782496993281",
+        url: "https://xcancel.com/jpbrammer/status/1219730782496993281",
         author: "JP (@jpbrammer)",
         retweets: 2578,
         likes: 20456,
@@ -2889,7 +2891,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1190049285842329600%252FqwCL5mdU_bigger.png",
     },
     {
-        url: "https://twitter.com/EffiMai/status/1219010655677812737",
+        url: "https://xcancel.com/EffiMai/status/1219010655677812737",
         author: "Effi Mai (@EffiMai)",
         retweets: 2133,
         likes: 8620,
@@ -2898,7 +2900,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1109224761194958849%252FI3CfMgR3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MulherTamarindo/status/1219939120996343809",
+        url: "https://xcancel.com/MulherTamarindo/status/1219939120996343809",
         author: "Tamarindo (@MulherTamarindo)",
         retweets: 123,
         likes: 3332,
@@ -2906,7 +2908,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706382088398684160%252FZ5zsAeyt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/imbeccable/status/1220035569914458113",
+        url: "https://xcancel.com/imbeccable/status/1220035569914458113",
         author: "Becca Laurie (@imbeccable)",
         retweets: 5,
         likes: 48,
@@ -2914,7 +2916,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F549796276527988736%252FgS7Of_Il_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/willystaley/status/1220104068892327937",
+        url: "https://xcancel.com/willystaley/status/1220104068892327937",
         author: "willy (@willystaley)",
         retweets: 621,
         likes: 13725,
@@ -2922,7 +2924,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F901090690838523904%252F-PwM3MQL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/selentelechia/status/1221851332958535680",
+        url: "https://xcancel.com/selentelechia/status/1221851332958535680",
         author: "bosco (@selentelechia)",
         retweets: 7858,
         likes: 27949,
@@ -2930,7 +2932,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1621222343958822926%252Fx9Pxuqnh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SheriffAlert/status/1221881862244749315",
+        url: "https://xcancel.com/SheriffAlert/status/1221881862244749315",
         author: "San Miguel Sheriff (@SheriffAlert)",
         retweets: 55125,
         likes: 292710,
@@ -2939,7 +2941,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F438442693635493888%252FbT4_bZBP_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/waxmittert/status/1222671784635518976",
+        url: "https://xcancel.com/waxmittert/status/1222671784635518976",
         author: "m a x  w i t t e r t (@waxmittert)",
         retweets: 2850,
         likes: 33592,
@@ -2948,7 +2950,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1528854806642688000%252Fyi67LAC3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/threelisabeth/status/1222930624610291713",
+        url: "https://xcancel.com/threelisabeth/status/1222930624610291713",
         author: "elisabeth (@threelisabeth)",
         retweets: 0,
         likes: 25,
@@ -2956,7 +2958,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248963935383977991%252FGrp9F1wZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/1224314158025527296",
+        url: "https://xcancel.com/InternetHippo/status/1224314158025527296",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 20249,
         likes: 83200,
@@ -2964,7 +2966,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/heWIZARD/status/1224397204766412800",
+        url: "https://xcancel.com/heWIZARD/status/1224397204766412800",
         author: "Nick Hurwitch (@heWIZARD)",
         retweets: 9598,
         likes: 45803,
@@ -2972,7 +2974,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1283882262509961217%252FAsXgdiwS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OATMlLKLATTE/status/1227632928236195841",
+        url: "https://xcancel.com/OATMlLKLATTE/status/1227632928236195841",
         author: "Arwen (@OATMlLKLATTE)",
         retweets: 8471,
         likes: 26497,
@@ -2980,7 +2982,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1722646400066818048%252FnS0Fcmnl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mollylambert/status/1227722925102354432",
+        url: "https://xcancel.com/mollylambert/status/1227722925102354432",
         author: "Molly Lambert (@mollylambert)",
         retweets: 433,
         likes: 5076,
@@ -2988,7 +2990,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1544438124880674816%252FL0wRHOC8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/REALpunknews/status/1231942056953729025",
+        url: "https://xcancel.com/REALpunknews/status/1231942056953729025",
         author: "The Hard Times (@REALpunknews)",
         retweets: 210,
         likes: 983,
@@ -2996,7 +2998,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1155255609127657472%252FJtCuxwpz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Meg_D_ItsMe/status/1231953703747432448",
+        url: "https://xcancel.com/Meg_D_ItsMe/status/1231953703747432448",
         author: "M.D. (@Meg_D_ItsMe)",
         retweets: 161,
         likes: 1019,
@@ -3005,7 +3007,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1414358956810461188%252FPFgkmlyT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/leyawn/status/1233086829039144960",
+        url: "https://xcancel.com/leyawn/status/1233086829039144960",
         author: "leon (@leyawn)",
         retweets: 363,
         likes: 5653,
@@ -3013,7 +3015,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/anchorlines/status/1233152148545982464",
+        url: "https://xcancel.com/anchorlines/status/1233152148545982464",
         author: "heather schmelzlen (@anchorlines)",
         retweets: 139,
         likes: 1600,
@@ -3022,7 +3024,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1714422283299692544%252FDFGJ8Tj8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jillreports/status/1233870486670495745",
+        url: "https://xcancel.com/jillreports/status/1233870486670495745",
         author: "Jill Bennett (@jillreports)",
         retweets: 14435,
         likes: 82872,
@@ -3031,7 +3033,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1018740713511505920%252Fvlu1ZYM1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wyntermitchell/status/1233950408097193984",
+        url: "https://xcancel.com/wyntermitchell/status/1233950408097193984",
         author: "with a Y (@wyntermitchell)",
         retweets: 724,
         likes: 6807,
@@ -3040,7 +3042,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1588671304797851649%252FpVeudxK8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Grosdoriane/status/1235359816236838912",
+        url: "https://xcancel.com/Grosdoriane/status/1235359816236838912",
         author: "Grosdoriane (@Grosdoriane)",
         retweets: 14389,
         likes: 58806,
@@ -3049,7 +3051,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679934800419799049%252F7uAmt5w2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RATM/status/1237036386886303744",
+        url: "https://xcancel.com/RATM/status/1237036386886303744",
         author: "Rage Against The Machine ★ (@RATM)",
         retweets: 13754,
         likes: 32293,
@@ -3058,7 +3060,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1329062274955403266%252F3SdjoaPg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ArfMeasures/status/1237043496227409920",
+        url: "https://xcancel.com/ArfMeasures/status/1237043496227409920",
         author: "Jon (@ArfMeasures)",
         retweets: 17499,
         likes: 137590,
@@ -3066,7 +3068,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1237054627603873796",
+        url: "https://xcancel.com/MNateShyamalan/status/1237054627603873796",
         author: "soul nate (@MNateShyamalan)",
         retweets: 14613,
         likes: 89935,
@@ -3074,7 +3076,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/caseyjohnston/status/1237756028810297344",
+        url: "https://xcancel.com/caseyjohnston/status/1237756028810297344",
         author: "Casey Johnston (@caseyjohnston)",
         retweets: 124,
         likes: 1579,
@@ -3082,7 +3084,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1338127761249013762%252FhGPAUxKM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Snowden/status/1237818171446513666",
+        url: "https://xcancel.com/Snowden/status/1237818171446513666",
         author: "Edward Snowden (@Snowden)",
         retweets: 6270,
         likes: 32896,
@@ -3090,7 +3092,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F648888480974508032%252F66_cUYfj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SJKSalisbury/status/1239185697271136259",
+        url: "https://xcancel.com/SJKSalisbury/status/1239185697271136259",
         author: "Steven (with a ph) (@SJKSalisbury)",
         retweets: 2257,
         likes: 12521,
@@ -3098,7 +3100,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444922167595094019%252FxEoEhbWA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/perfectsweeties/status/1239538676968742912",
+        url: "https://xcancel.com/perfectsweeties/status/1239538676968742912",
         author: "thomas (Bad Boy arc) (@perfectsweeties)",
         retweets: 1586,
         likes: 12720,
@@ -3106,7 +3108,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1433189217652387840%252FXS4KC_wg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/magn0liadana/status/1239577067513098240",
+        url: "https://xcancel.com/magn0liadana/status/1239577067513098240",
         author: "mags (@magn0liadana)",
         retweets: 9411,
         likes: 130702,
@@ -3114,7 +3116,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1262871218069270529%252F-pBw6qip_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1239932974050795521",
+        url: "https://xcancel.com/MNateShyamalan/status/1239932974050795521",
         author: "soul nate (@MNateShyamalan)",
         retweets: 61216,
         likes: 193343,
@@ -3122,7 +3124,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/tentwentysixpm/status/1240089341864493057",
+        url: "https://xcancel.com/tentwentysixpm/status/1240089341864493057",
         author: "vm ❊ (@tentwentysixpm)",
         retweets: 18383,
         likes: 106378,
@@ -3131,7 +3133,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1658287941100408833%252FAK9_L_PD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/whitneyarner/status/1240266026014650369",
+        url: "https://xcancel.com/whitneyarner/status/1240266026014650369",
         author: "whit (@whitneyarner)",
         retweets: 18,
         likes: 112,
@@ -3139,7 +3141,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1676748452451975170%252FUBr4izVz_bigger.png",
     },
     {
-        url: "https://twitter.com/wownicebuttdude/status/1240293295328296961",
+        url: "https://xcancel.com/wownicebuttdude/status/1240293295328296961",
         author: "ava (@wownicebuttdude)",
         retweets: 0,
         likes: 43,
@@ -3147,7 +3149,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1510626471978704900%252F1TWO2-6a_bigger.jpg",
     },
     {
-        url: "https://twitter.com/inLaurasWords/status/1240687424377720835",
+        url: "https://xcancel.com/inLaurasWords/status/1240687424377720835",
         author: "Laura Norkin (@inLaurasWords)",
         retweets: 44613,
         likes: 574544,
@@ -3155,7 +3157,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1281733338353541120%252FM6V3qKFW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/heyitsgarrett/status/1242124476671651843",
+        url: "https://xcancel.com/heyitsgarrett/status/1242124476671651843",
         author: "Garrett Miller (@heyitsgarrett)",
         retweets: 0,
         likes: 21,
@@ -3163,7 +3165,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1519415326370263040%252FlCqlnYlL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JamesBlunt/status/1242751811594878976",
+        url: "https://xcancel.com/JamesBlunt/status/1242751811594878976",
         author: "James Blunt (@JamesBlunt)",
         retweets: 49377,
         likes: 475282,
@@ -3171,7 +3173,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686031452868108289%252F61rnyMp5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jerrysaltz/status/1246165131232452610",
+        url: "https://xcancel.com/jerrysaltz/status/1246165131232452610",
         author: "Jerry Saltz (@jerrysaltz)",
         retweets: 579,
         likes: 3141,
@@ -3180,7 +3182,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1673352406527008769%252Fr9yOaIgl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/romainrevert/status/1249798306454212610",
+        url: "https://xcancel.com/romainrevert/status/1249798306454212610",
         author: "Romain Revert (@romainrevert)",
         retweets: 272896,
         likes: 1283242,
@@ -3189,7 +3191,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F657315512720994304%252FuxUFG1Ig_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CBThorburn/status/1251103369428680705",
+        url: "https://xcancel.com/CBThorburn/status/1251103369428680705",
         author: "Chris Thorburn (@CBThorburn)",
         retweets: 25001,
         likes: 100639,
@@ -3198,7 +3200,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1645887952973705227%252Fy_s62dvr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JoseCanseco/status/1251580548759224320",
+        url: "https://xcancel.com/JoseCanseco/status/1251580548759224320",
         author: "Jose Canseco (@JoseCanseco)",
         retweets: 3320,
         likes: 12973,
@@ -3206,7 +3208,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1398509855703375879%252FCK7sAPUh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Grimezsz/status/1252692434007412737",
+        url: "https://xcancel.com/Grimezsz/status/1252692434007412737",
         author: "Grimes (@Grimezsz)",
         retweets: 9186,
         likes: 74424,
@@ -3214,7 +3216,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730078462621458432%252FLhMpo9ug_bigger.jpg",
     },
     {
-        url: "https://twitter.com/1followernodad/status/1255226565312557063",
+        url: "https://xcancel.com/1followernodad/status/1255226565312557063",
         author: "Sophia Benoit (@1followernodad)",
         retweets: 4462,
         likes: 47039,
@@ -3223,7 +3225,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: missing context
     // {
-    //     url: "https://twitter.com/Manna_Festo/status/1255263066868133893",
+    //     url: "https://xcancel.com/Manna_Festo/status/1255263066868133893",
     //     author: "Amanda Mannen (@Manna_Festo)",
     //     retweets: 8,
     //     likes: 421,
@@ -3231,7 +3233,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F994756648597012481%252FH99mbsH9_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/AllieGoertz/status/1255574173197275136",
+        url: "https://xcancel.com/AllieGoertz/status/1255574173197275136",
         author: "Allie Goertz (@AllieGoertz)",
         retweets: 36,
         likes: 457,
@@ -3239,7 +3241,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1643064561447366656%252FL-viwKun_bigger.jpg",
     },
     {
-        url: "https://twitter.com/omgitsdef/status/1259181086132895744",
+        url: "https://xcancel.com/omgitsdef/status/1259181086132895744",
         author: "defne gencler (@omgitsdef)",
         retweets: 35945,
         likes: 348121,
@@ -3247,7 +3249,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633162933235597312%252F6A65GO-z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/C_GraceT/status/1260022115618615301",
+        url: "https://xcancel.com/C_GraceT/status/1260022115618615301",
         author: "Christina Grace (@C_GraceT)",
         retweets: 6214,
         likes: 71869,
@@ -3257,7 +3259,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/neontaster/status/1262956956320497664",
+    //     url: "https://xcancel.com/neontaster/status/1262956956320497664",
     //     author: "Noam Blum (@neontaster)",
     //     retweets: 358,
     //     likes: 2269,
@@ -3266,7 +3268,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695176282294673409%252FgGg9Qau8_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/zedonarrival/status/1264411831323570178",
+        url: "https://xcancel.com/zedonarrival/status/1264411831323570178",
         author: "no (@zedonarrival)",
         retweets: 13619,
         likes: 158112,
@@ -3274,7 +3276,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1250533175945805824%252FDDDfH1FW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/noreaga/status/1264681543320166401",
+        url: "https://xcancel.com/noreaga/status/1264681543320166401",
         author: "N.O.R.E (@noreaga)",
         retweets: 21355,
         likes: 47355,
@@ -3282,7 +3284,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248536670019842049%252FKcMLzziq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PonchoRebound/status/1266007690985312256",
+        url: "https://xcancel.com/PonchoRebound/status/1266007690985312256",
         author: "Eize Basa (@PonchoRebound)",
         retweets: 7214,
         likes: 38016,
@@ -3291,7 +3293,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709587947954012160%252FRg8T0J3S_bigger.png",
     },
     {
-        url: "https://twitter.com/UtilityLimb/status/126780301211992064",
+        url: "https://xcancel.com/UtilityLimb/status/126780301211992064",
         author: "bandit (@UtilityLimb)",
         retweets: 14405,
         likes: 24146,
@@ -3299,7 +3301,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1641418276%252Ftumblr_lule5ckvND1qz4yoco1_1280_bigger.png",
     },
     {
-        url: "https://twitter.com/TheOnion/status/1267861765070688261",
+        url: "https://xcancel.com/TheOnion/status/1267861765070688261",
         author: "The Onion (@TheOnion)",
         retweets: 2268,
         likes: 11171,
@@ -3308,7 +3310,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1517492889852461056%252FbEnqsvVR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/naomiosaka/status/1268590075786326017",
+        url: "https://xcancel.com/naomiosaka/status/1268590075786326017",
         author: "NaomiOsaka大坂なおみ (@naomiosaka)",
         retweets: 18705,
         likes: 85691,
@@ -3316,7 +3318,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1412641855636791299%252F1O-cwb-x_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TweetPotato314/status/1268704153934716928",
+        url: "https://xcancel.com/TweetPotato314/status/1268704153934716928",
         author: "m-at-thew (@TweetPotato314)",
         retweets: 23894,
         likes: 136966,
@@ -3324,7 +3326,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603829425048518657%252FQ8zljuFK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JennyENicholson/status/1271267475963838467",
+        url: "https://xcancel.com/JennyENicholson/status/1271267475963838467",
         author: "Jenny Skeleson (@JennyENicholson)",
         retweets: 77652,
         likes: 344695,
@@ -3332,7 +3334,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715626776976896000%252FP_o_YczX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1275817084547731456",
+        url: "https://xcancel.com/MNateShyamalan/status/1275817084547731456",
         author: "soul nate (@MNateShyamalan)",
         retweets: 16951,
         likes: 118635,
@@ -3340,7 +3342,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/speechleyish/status/1275990670663012352",
+        url: "https://xcancel.com/speechleyish/status/1275990670663012352",
         author: "Soon-Tzu Speechley 孫子 (@speechleyish)",
         retweets: 20276,
         likes: 70591,
@@ -3348,7 +3350,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1659572289376223232%252F-jZmjYmL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kcander44/status/1276320399165284352",
+        url: "https://xcancel.com/kcander44/status/1276320399165284352",
         author: "Astral Ward Researcher Casey (@kcander44)",
         retweets: 5662,
         likes: 45042,
@@ -3356,7 +3358,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1392160091852341251%252FIarcgdux_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gabbifish/status/1278881963307266048",
+        url: "https://xcancel.com/gabbifish/status/1278881963307266048",
         author: "gabbi fisher (@gabbifish)",
         retweets: 5,
         likes: 117,
@@ -3364,7 +3366,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1433174211380621322%252F3PdTGyFw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/outsidethenba/status/1281338197230919680",
+        url: "https://xcancel.com/outsidethenba/status/1281338197230919680",
         author: "James Herbert (@outsidethenba)",
         retweets: 3341,
         likes: 26915,
@@ -3372,7 +3374,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F463327359%252Fjerry_sloan_with_clowns_bigger.jpg",
     },
     {
-        url: "https://twitter.com/susanorlean/status/1284292676083474437",
+        url: "https://xcancel.com/susanorlean/status/1284292676083474437",
         author: "Susan Orlean (@susanorlean)",
         retweets: 1551,
         likes: 20884,
@@ -3380,7 +3382,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1044597548063719425%252FK9BPsVnD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/susanorlean/status/1284300529393434624",
+        url: "https://xcancel.com/susanorlean/status/1284300529393434624",
         author: "Susan Orlean (@susanorlean)",
         retweets: 1082,
         likes: 22018,
@@ -3388,7 +3390,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1044597548063719425%252FK9BPsVnD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Komaniecki_R/status/1289555120603234308",
+        url: "https://xcancel.com/Komaniecki_R/status/1289555120603234308",
         author: "Robert Komaniecki (@Komaniecki_R)",
         retweets: 732,
         likes: 3922,
@@ -3397,7 +3399,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717019577543208960%252FM5pY66Uy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Ian___Online/status/1291814278601768961",
+        url: "https://xcancel.com/Ian___Online/status/1291814278601768961",
         author: "Ian (@Ian___Online)",
         retweets: 13742,
         likes: 115904,
@@ -3405,7 +3407,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1204134152330792962%252FBuejmes0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/matrixreloaded_/status/1300456741491167232",
+        url: "https://xcancel.com/matrixreloaded_/status/1300456741491167232",
         author: "Cam (@matrixreloaded_)",
         retweets: 8080,
         likes: 21379,
@@ -3413,7 +3415,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1265439083742011397%252FXj3EeL5__bigger.jpg",
     },
     {
-        url: "https://twitter.com/nameshiv/status/1301521850552315904",
+        url: "https://xcancel.com/nameshiv/status/1301521850552315904",
         author: "Shiv Ramdas Official Boye Mafia Spokesman (@nameshiv)",
         retweets: 48392,
         likes: 295082,
@@ -3421,7 +3423,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348287713741475840%252FYG2hfMqe_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dominicknero/status/1301535382119604226",
+        url: "https://xcancel.com/dominicknero/status/1301535382119604226",
         author: "dom nero (@dominicknero)",
         retweets: 1531,
         likes: 8756,
@@ -3430,7 +3432,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1682099872210583553%252FAQYdmQKT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rishipuff/status/1301644102224707585",
+        url: "https://xcancel.com/rishipuff/status/1301644102224707585",
         author: "rishi (@rishipuff)",
         retweets: 71610,
         likes: 544102,
@@ -3438,7 +3440,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703810984299913216%252FEVKsKBB5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_NikSpace/status/1305116194505138177",
+        url: "https://xcancel.com/_NikSpace/status/1305116194505138177",
         author: "Nik (@_NikSpace)",
         retweets: 19042,
         likes: 199391,
@@ -3446,7 +3448,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1609191359784620035%252FhUrMAafP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ChuckGrassley/status/1307453788815536135",
+        url: "https://xcancel.com/ChuckGrassley/status/1307453788815536135",
         author: "Chuck Grassley (@ChuckGrassley)",
         retweets: 3494,
         likes: 20756,
@@ -3454,7 +3456,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F921098191507984385%252FXYteQA6t_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rubydrummr/status/1310287396408299521",
+        url: "https://xcancel.com/rubydrummr/status/1310287396408299521",
         author: "Ruby (@rubydrummr)",
         retweets: 67357,
         likes: 639752,
@@ -3463,7 +3465,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1613103099576713216%252FTVwx3-a2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lolennui/status/1311596481824976898",
+        url: "https://xcancel.com/lolennui/status/1311596481824976898",
         author: "Amy (@lolennui)",
         retweets: 24597,
         likes: 182145,
@@ -3471,7 +3473,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/feminazgul/status/1313144345797763074",
+        url: "https://xcancel.com/feminazgul/status/1313144345797763074",
         author: "Feminazgûl (@feminazgul)",
         retweets: 670,
         likes: 4567,
@@ -3479,7 +3481,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1260545246494175232%252FTZJJYqSM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gossipbabies/status/1313146396598509575",
+        url: "https://xcancel.com/gossipbabies/status/1313146396598509575",
         author: "cancela lansbury (@gossipbabies)",
         retweets: 13831,
         likes: 155864,
@@ -3487,7 +3489,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F884636314074841088%252Fq5SwB7bJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GatorsDaily/status/1314551373388804096",
+        url: "https://xcancel.com/GatorsDaily/status/1314551373388804096",
         author: "Gators Daily (@GatorsDaily)",
         retweets: 2709,
         likes: 11282,
@@ -3496,7 +3498,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1185213289590120452%252FyX-rWH9I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kbartzz/status/1318154278532452352",
+        url: "https://xcancel.com/kbartzz/status/1318154278532452352",
         author: "Katy Bartzis MEd (@kbartzz)",
         retweets: 725,
         likes: 3161,
@@ -3505,7 +3507,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F806619236311384065%252F7mMyzR4l_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewmagary/status/1318263844209381377",
+        url: "https://xcancel.com/drewmagary/status/1318263844209381377",
         author: "Drew Magary (@drewmagary)",
         retweets: 20,
         likes: 360,
@@ -3513,7 +3515,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706830900057546753%252FNTCwKYfJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rysimmons/status/1318275865978036225",
+        url: "https://xcancel.com/rysimmons/status/1318275865978036225",
         author: "Ryan (@rysimmons)",
         retweets: 284,
         likes: 3249,
@@ -3522,7 +3524,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1535807692450713600%252FByQxLTAl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meredithaggerty/status/1318315019021537280",
+        url: "https://xcancel.com/meredithaggerty/status/1318315019021537280",
         author: "Meredith Haggerty (@meredithaggerty)",
         retweets: 1,
         likes: 121,
@@ -3530,7 +3532,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1138666398807404544%252FTQbkvXTL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/snowboiiii/status/1324817801903804416",
+        url: "https://xcancel.com/snowboiiii/status/1324817801903804416",
         author: "snowboiiii (@snowboiiii)",
         retweets: 29,
         likes: 229,
@@ -3538,7 +3540,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1437365771823460352%252FMDsinz6Q_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Olivianuzzi/status/1324897299529609222",
+        url: "https://xcancel.com/Olivianuzzi/status/1324897299529609222",
         author: "Olivia Nuzzi (@Olivianuzzi)",
         retweets: 551,
         likes: 3482,
@@ -3546,7 +3548,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1337405786109202433%252FIYi2d3Jz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/oliviacraighead/status/1325498874090442753",
+        url: "https://xcancel.com/oliviacraighead/status/1325498874090442753",
         author: "Olivia Craighead (@oliviacraighead)",
         retweets: 10579,
         likes: 84057,
@@ -3554,7 +3556,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1216810165091041283%252Fyvd_xCnG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mrotzie/status/1326998703685705734",
+        url: "https://xcancel.com/mrotzie/status/1326998703685705734",
         author: "hodel in the streets, chava in the sheets (@mrotzie)",
         retweets: 37978,
         likes: 195460,
@@ -3562,7 +3564,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1389665007957282819%252F_emgCKIW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LudwigK/status/1328110898393665536",
+        url: "https://xcancel.com/LudwigK/status/1328110898393665536",
         author: "Ludwig Kietzmann (in 🇿🇦) (@LudwigK)",
         retweets: 6582,
         likes: 43069,
@@ -3570,7 +3572,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1601722758177517569%252FZ1aluake_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Jimmy_Sherwood/status/1330497605428711425",
+        url: "https://xcancel.com/Jimmy_Sherwood/status/1330497605428711425",
         author: "Jimmy (@Jimmy_Sherwood)",
         retweets: 18322,
         likes: 170939,
@@ -3579,7 +3581,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1536439467996811265%252FUxeGIQ4Q_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wownicebuttdude/status/1331250674559049730",
+        url: "https://xcancel.com/wownicebuttdude/status/1331250674559049730",
         author: "ava (@wownicebuttdude)",
         retweets: 6,
         likes: 58,
@@ -3588,7 +3590,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1510626471978704900%252F1TWO2-6a_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MoreAndAgain/status/1334964560382537729",
+        url: "https://xcancel.com/MoreAndAgain/status/1334964560382537729",
         author: "Genie Lauren (@MoreAndAgain)",
         retweets: 1590,
         likes: 16924,
@@ -3596,7 +3598,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1634318527254462467%252FYdjOAbBK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Heisenherr/status/1335016292881928196",
+        url: "https://xcancel.com/Heisenherr/status/1335016292881928196",
         author: "JUSTIN CASE YOU'RE SCARED (@Heisenherr)",
         retweets: 43463,
         likes: 334790,
@@ -3605,7 +3607,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1356239936354193410%252FKNXDLkes_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Choplogik/status/1336409980346327040",
+        url: "https://xcancel.com/Choplogik/status/1336409980346327040",
         author: "regular gem (@Choplogik)",
         retweets: 1418,
         likes: 10107,
@@ -3614,7 +3616,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1588221800462581764%252FhXwo17is_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rinbcage/status/1338230609211232258",
+        url: "https://xcancel.com/rinbcage/status/1338230609211232258",
         author: "stu (@rinbcage)",
         retweets: 8994,
         likes: 43325,
@@ -3622,7 +3624,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1674274263149182976%252Frmy5fmKb_bigger.png",
     },
     {
-        url: "https://twitter.com/Lewiswbt1/status/1339375850609909761",
+        url: "https://xcancel.com/Lewiswbt1/status/1339375850609909761",
         author: "lewis (@Lewiswbt1)",
         retweets: 6509,
         likes: 25162,
@@ -3630,7 +3632,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1344828787280773123%252FUgSyKhhH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/neoliberal_dad/status/1340435792397787137",
+        url: "https://xcancel.com/neoliberal_dad/status/1340435792397787137",
         author: "return to reply guy (@neoliberal_dad)",
         retweets: 489,
         likes: 8230,
@@ -3639,7 +3641,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1389319587901149184%252FK19p0IwY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OffColorDecals/status/1342190814672392192",
+        url: "https://xcancel.com/OffColorDecals/status/1342190814672392192",
         author: "OffColorDecals (@OffColorDecals)",
         retweets: 3204,
         likes: 22827,
@@ -3648,7 +3650,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1327065966967132161%252FOZYsG0Oc_bigger.png",
     },
     {
-        url: "https://twitter.com/bevtgooden/status/1344456254316564484",
+        url: "https://xcancel.com/bevtgooden/status/1344456254316564484",
         author: "Beverly Gooden (@bevtgooden)",
         retweets: 9283,
         likes: 143275,
@@ -3656,7 +3658,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736874899686248448%252FEwCkC2Ju_bigger.jpg",
     },
     {
-        url: "https://twitter.com/edburmila/status/1345050273035804674",
+        url: "https://xcancel.com/edburmila/status/1345050273035804674",
         author: "edburmila.bsky.social (@edburmila)",
         retweets: 320,
         likes: 1632,
@@ -3664,7 +3666,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F968950178194624512%252F1othNBMu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/reniadeb/status/1345388882146316288",
+        url: "https://xcancel.com/reniadeb/status/1345388882146316288",
         author: "reni (@reniadeb)",
         retweets: 14198,
         likes: 126710,
@@ -3673,7 +3675,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1508134136355168265%252FQP65TZs__bigger.jpg",
     },
     {
-        url: "https://twitter.com/Komaniecki_R/status/1349156027309182978",
+        url: "https://xcancel.com/Komaniecki_R/status/1349156027309182978",
         author: "Robert Komaniecki (@Komaniecki_R)",
         retweets: 1481,
         likes: 9745,
@@ -3682,7 +3684,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717019577543208960%252FM5pY66Uy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Pale_0ntologist/status/1349770620779814913",
+        url: "https://xcancel.com/Pale_0ntologist/status/1349770620779814913",
         author: "Jimmy (not one of those) Rothschild(s) (@Pale_0ntologist)",
         retweets: 5486,
         likes: 59593,
@@ -3691,7 +3693,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1331028030307885056%252FFtAzrsee_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jwehrens/status/1350843941323735040",
+        url: "https://xcancel.com/jwehrens/status/1350843941323735040",
         author: "jon ehrens (jehrens.bsky.social) (@jwehrens)",
         retweets: 13,
         likes: 200,
@@ -3699,7 +3701,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717744318830571520%252FYCxb5B8E_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GuyFieri/status/1352319386007330817",
+        url: "https://xcancel.com/GuyFieri/status/1352319386007330817",
         author: "Mayor Guy Fieri (@GuyFieri)",
         retweets: 59864,
         likes: 418468,
@@ -3708,7 +3710,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1162445050590183424%252FWL2lQ7OR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/thetzechun/status/1354496309919674374",
+        url: "https://xcancel.com/thetzechun/status/1354496309919674374",
         author: "TZE CHUN (@thetzechun)",
         retweets: 1340,
         likes: 17303,
@@ -3717,7 +3719,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1074423369037017088%252Fs5Hya9lt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mitchysuch/status/1354548730859499526",
+        url: "https://xcancel.com/mitchysuch/status/1354548730859499526",
         author: "The Gentle Freak (@mitchysuch)",
         retweets: 52,
         likes: 514,
@@ -3725,7 +3727,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1245539238453657601%252FNkBjlA4T_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DannyVegito/status/1354562663053991947",
+        url: "https://xcancel.com/DannyVegito/status/1354562663053991947",
         author: "Keifer (@DannyVegito)",
         retweets: 26270,
         likes: 246673,
@@ -3734,7 +3736,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726746619515645952%252FaugGI7A9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bluishorange/status/1356083892718104584",
+        url: "https://xcancel.com/bluishorange/status/1356083892718104584",
         author: "a (@bluishorange)",
         retweets: 15,
         likes: 67,
@@ -3742,7 +3744,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377787051119144960%252Ft36QU3BK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SheriffAlert/status/1357718112599240706",
+        url: "https://xcancel.com/SheriffAlert/status/1357718112599240706",
         author: "San Miguel Sheriff (@SheriffAlert)",
         retweets: 33100,
         likes: 243755,
@@ -3751,7 +3753,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F438442693635493888%252FbT4_bZBP_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DanWilbur/status/1357732002921873410",
+        url: "https://xcancel.com/DanWilbur/status/1357732002921873410",
         author: "Dan Wilbur (@DanWilbur)",
         retweets: 2932,
         likes: 26249,
@@ -3760,7 +3762,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1641184509998530562%252FHrRjqLZo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cher/status/1357839400541982721",
+        url: "https://xcancel.com/cher/status/1357839400541982721",
         author: "Cher (@cher)",
         retweets: 728,
         likes: 9683,
@@ -3768,7 +3770,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bestinsio/status/1359154678727073796",
+        url: "https://xcancel.com/bestinsio/status/1359154678727073796",
         author: "sio (@bestinsio)",
         retweets: 3231,
         likes: 50911,
@@ -3776,7 +3778,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560730432970395649%252FsnjkrDzX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bigfatmoosepssy/status/1362131837057970177",
+        url: "https://xcancel.com/bigfatmoosepssy/status/1362131837057970177",
         author: "lea chin-sang (@bigfatmoosepssy)",
         retweets: 5357,
         likes: 26333,
@@ -3784,7 +3786,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696356488808148992%252F3aqv9XgD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/phoebe_bridgers/status/1363002431810899968",
+        url: "https://xcancel.com/phoebe_bridgers/status/1363002431810899968",
         author: "traitor joe (@phoebe_bridgers)",
         retweets: 6783,
         likes: 127831,
@@ -3792,7 +3794,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
-        url: "https://twitter.com/_sashayed/status/1363557945267617797",
+        url: "https://xcancel.com/_sashayed/status/1363557945267617797",
         author: "Rave Sashayed (@_sashayed)",
         retweets: 5304,
         likes: 77083,
@@ -3800,7 +3802,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1113816338064125952%252F5RrCFimB_bigger.png",
     },
     {
-        url: "https://twitter.com/JoseCanseco/status/1365826972346064899",
+        url: "https://xcancel.com/JoseCanseco/status/1365826972346064899",
         author: "Jose Canseco (@JoseCanseco)",
         retweets: 1848,
         likes: 17293,
@@ -3809,7 +3811,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1398509855703375879%252FCK7sAPUh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AsteadWH/status/1367488516574371847",
+        url: "https://xcancel.com/AsteadWH/status/1367488516574371847",
         author: "Astead (@AsteadWH)",
         retweets: 853,
         likes: 4959,
@@ -3818,7 +3820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1408100807996755972%252FJfQ5VMQf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/andizeisler/status/1367578845457444869",
+        url: "https://xcancel.com/andizeisler/status/1367578845457444869",
         author: "andi zeisler (@andizeisler)",
         retweets: 48,
         likes: 756,
@@ -3826,7 +3828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1477073715636568066%252FAPcqFMSW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meakoopa/status/1369857463768481801",
+        url: "https://xcancel.com/meakoopa/status/1369857463768481801",
         author: "Anthony Oliveira (@meakoopa)",
         retweets: 51,
         likes: 873,
@@ -3834,7 +3836,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687151258866499591%252FXKAUiCpq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meakoopa/status/1369858863948791810",
+        url: "https://xcancel.com/meakoopa/status/1369858863948791810",
         author: "Anthony Oliveira (@meakoopa)",
         retweets: 10,
         likes: 407,
@@ -3842,7 +3844,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687151258866499591%252FXKAUiCpq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/paddyraffcomedy/status/1370327066063863808",
+        url: "https://xcancel.com/paddyraffcomedy/status/1370327066063863808",
         author: "Paddy Raff (@paddyraffcomedy)",
         retweets: 1260,
         likes: 5215,
@@ -3850,7 +3852,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706952507958640640%252FIc3wbgWq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Kristen_Arnett/status/1370446780542910474",
+        url: "https://xcancel.com/Kristen_Arnett/status/1370446780542910474",
         author: "Kristen Arnett (@Kristen_Arnett)",
         retweets: 12675,
         likes: 107339,
@@ -3859,7 +3861,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1261154545448574977%252FezzjAD9N_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Mottel/status/1372003384732045316",
+        url: "https://xcancel.com/Mottel/status/1372003384732045316",
         author: "Rabbi Mordechai Lightstone (@Mottel)",
         retweets: 599,
         likes: 2767,
@@ -3868,7 +3870,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679240144245739521%252FpsMkpEmc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MigueldOliveira/status/1382973774941859843",
+        url: "https://xcancel.com/MigueldOliveira/status/1382973774941859843",
         author: "Miguel d'Oliveira (@MigueldOliveira)",
         retweets: 630,
         likes: 3756,
@@ -3877,7 +3879,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1568710840978636801%252FAybJN-oI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AaronLinguini/status/1386059199336046596",
+        url: "https://xcancel.com/AaronLinguini/status/1386059199336046596",
         author: "Aaron Ansuini (@AaronLinguini)",
         retweets: 19489,
         likes: 185274,
@@ -3886,7 +3888,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1418923757993930756%252F7ssri34L_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AaronLinguini/status/1386062176432148487",
+        url: "https://xcancel.com/AaronLinguini/status/1386062176432148487",
         author: "Aaron Ansuini (@AaronLinguini)",
         retweets: 503,
         likes: 11397,
@@ -3894,7 +3896,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1418923757993930756%252F7ssri34L_bigger.jpg",
     },
     {
-        url: "https://twitter.com/phoebe_bridgers/status/1386205749668323331",
+        url: "https://xcancel.com/phoebe_bridgers/status/1386205749668323331",
         author: "traitor joe (@phoebe_bridgers)",
         retweets: 20713,
         likes: 220279,
@@ -3902,7 +3904,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1099440461574373383%252FnVsMtHi__bigger.jpg",
     },
     {
-        url: "https://twitter.com/Miexriir/status/1387113304959504384",
+        url: "https://xcancel.com/Miexriir/status/1387113304959504384",
         author: "Michal Shafrir (@Miexriir)",
         retweets: 23820,
         likes: 191012,
@@ -3911,7 +3913,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F998394124872040448%252FqTWfM6nd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ihavedisease/status/1387523254294745090",
+        url: "https://xcancel.com/ihavedisease/status/1387523254294745090",
         author: "chris awesome (@ihavedisease)",
         retweets: 24999,
         likes: 182927,
@@ -3919,7 +3921,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1250670884429238272%252FFZlWt1-f_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ScienceNews/status/1387830788792754177",
+        url: "https://xcancel.com/ScienceNews/status/1387830788792754177",
         author: "Science News (@ScienceNews)",
         retweets: 1410,
         likes: 4961,
@@ -3927,7 +3929,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1210648820541018113%252Fj4qqEa6F_bigger.png",
     },
     {
-        url: "https://twitter.com/KFosterStomberg/status/1388209346648084483",
+        url: "https://xcancel.com/KFosterStomberg/status/1388209346648084483",
         author: "Karl Stomberg (@KFosterStomberg)",
         retweets: 8371,
         likes: 49245,
@@ -3936,7 +3938,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1144969944486072320%252FlBCCo9uk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/luxmberg/status/1389143790984773632",
+        url: "https://xcancel.com/luxmberg/status/1389143790984773632",
         author: "compact pamphlet (@luxmberg)",
         retweets: 4596,
         likes: 35985,
@@ -3944,7 +3946,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729707228758720512%252FSrrHFkIB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ronnui_/status/1389287494437511173",
+        url: "https://xcancel.com/ronnui_/status/1389287494437511173",
         author: "Ron Iver (@ronnui_)",
         retweets: 24045,
         likes: 200239,
@@ -3952,7 +3954,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314620756282740738%252F6cjkmFkM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Joebob/status/1390358265658232837",
+        url: "https://xcancel.com/Joebob/status/1390358265658232837",
         author: "Joe Russell (JoeR@mastodon.design) (@Joebob)",
         retweets: 10673,
         likes: 152252,
@@ -3961,7 +3963,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1485210358700810241%252Ft3dblWBa_bigger.png",
     },
     {
-        url: "https://twitter.com/gregkellyusa/status/1390430448057307142",
+        url: "https://xcancel.com/gregkellyusa/status/1390430448057307142",
         author: "Greg Kelly (@gregkellyusa)",
         retweets: 747,
         likes: 6134,
@@ -3970,7 +3972,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1546276260455845892%252F-HJoMtnB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/harlotposting/status/1391195422673145856",
+        url: "https://xcancel.com/harlotposting/status/1391195422673145856",
         author: "rhiannon rings ✨ $5 OF (@harlotposting)",
         retweets: 4960,
         likes: 35294,
@@ -3978,7 +3980,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1543076880038866947%252FBg9TIQTK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/maxgotjokes/status/1392227234858115078",
+        url: "https://xcancel.com/maxgotjokes/status/1392227234858115078",
         author: "Max Gross (@maxgotjokes)",
         retweets: 3311,
         likes: 36640,
@@ -3987,7 +3989,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1678829443471536131%252Fd6bWVbSs_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Thinkwert/status/1394088233835900931",
+        url: "https://xcancel.com/Thinkwert/status/1394088233835900931",
         author: "Thinkwert (@Thinkwert)",
         retweets: 23675,
         likes: 258530,
@@ -3996,7 +3998,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1476016799217074181%252FPaN7WU1i_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lucyj_ford/status/1394556650334339074",
+        url: "https://xcancel.com/lucyj_ford/status/1394556650334339074",
         author: "lucy ford (@lucyj_ford)",
         retweets: 6496,
         likes: 88196,
@@ -4004,7 +4006,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730365177302814720%252FtFgZX5Xy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/amore_orless/status/1395126688543961089",
+        url: "https://xcancel.com/amore_orless/status/1395126688543961089",
         author: "Andrea More (@amore_orless)",
         retweets: 1531,
         likes: 24320,
@@ -4012,7 +4014,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1708226657570734080%252FzpO_IFqd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/materialgirlrap/status/1396523110841692174",
+        url: "https://xcancel.com/materialgirlrap/status/1396523110841692174",
         author: "MATERIAL GIRL (@materialgirlrap)",
         retweets: 14918,
         likes: 53779,
@@ -4020,7 +4022,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734551768204193792%252FDaZOZ-6a_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SaysSimonson/status/1397297130046464005",
+        url: "https://xcancel.com/SaysSimonson/status/1397297130046464005",
         author: "Joe Gabriel Simonson (@SaysSimonson)",
         retweets: 56,
         likes: 465,
@@ -4028,7 +4030,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1666632101909655554%252FTwpqBMhx_bigger.jpg",
     },
     {
-        url: "https://twitter.com/corietjohnson/status/1397333127152902148",
+        url: "https://xcancel.com/corietjohnson/status/1397333127152902148",
         author: "00a2orie (@corietjohnson)",
         retweets: 31918,
         likes: 253529,
@@ -4036,7 +4038,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728595519994482688%252FdG_iDXF0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/WrittenByHanna/status/1400559430601777153",
+        url: "https://xcancel.com/WrittenByHanna/status/1400559430601777153",
         author: "I Could’ve Just Sat On In With Massa (@WrittenByHanna)",
         retweets: 70,
         likes: 913,
@@ -4044,7 +4046,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1677372182408593408%252FIAYYkVZO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lolennui/status/1400587392059383811",
+        url: "https://xcancel.com/lolennui/status/1400587392059383811",
         author: "Amy (@lolennui)",
         retweets: 11456,
         likes: 96863,
@@ -4052,7 +4054,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lolennui/status/1400587967371137024",
+        url: "https://xcancel.com/lolennui/status/1400587967371137024",
         author: "Amy (@lolennui)",
         retweets: 57,
         likes: 3124,
@@ -4060,7 +4062,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MikeBeauvais/status/1401026078316056578",
+        url: "https://xcancel.com/MikeBeauvais/status/1401026078316056578",
         author: "Mike Beauvais (@MikeBeauvais)",
         retweets: 1951,
         likes: 25391,
@@ -4069,7 +4071,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F644289035859423232%252Fs4DaYVj2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Shen_the_Bird/status/1405641119833247749",
+        url: "https://xcancel.com/Shen_the_Bird/status/1405641119833247749",
         author: "shen the bird (@Shen_the_Bird)",
         retweets: 1194,
         likes: 10660,
@@ -4077,7 +4079,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/atdanwhite/status/1405653227912241158",
+        url: "https://xcancel.com/atdanwhite/status/1405653227912241158",
         author: "Dan White (@atdanwhite)",
         retweets: 1750,
         likes: 39750,
@@ -4086,7 +4088,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699914475221213184%252Fa_2fw90a_bigger.jpg",
     },
     {
-        url: "https://twitter.com/xtineengels/status/1407492626778144769",
+        url: "https://xcancel.com/xtineengels/status/1407492626778144769",
         author: "christine (@xtineengels)",
         retweets: 554,
         likes: 3617,
@@ -4094,7 +4096,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679518638871572481%252F8j2vGuPq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheTarquin/status/1407831740630982658",
+        url: "https://xcancel.com/TheTarquin/status/1407831740630982658",
         author: "ꜳꝛꝍꞥ (@TheTarquin)",
         retweets: 2247,
         likes: 12560,
@@ -4102,7 +4104,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F742242329319219206%252Fkz40y9Yp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NateSilver538/status/1409169222698082311",
+        url: "https://xcancel.com/NateSilver538/status/1409169222698082311",
         author: "Nate Silver (@NateSilver538)",
         retweets: 21,
         likes: 785,
@@ -4110,7 +4112,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1672433855641296896%252FhY52yFX5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1409857730656022529",
+        url: "https://xcancel.com/MNateShyamalan/status/1409857730656022529",
         author: "soul nate (@MNateShyamalan)",
         retweets: 34709,
         likes: 187715,
@@ -4118,7 +4120,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/GusVcomic/status/1412427832718880771",
+        url: "https://xcancel.com/GusVcomic/status/1412427832718880771",
         author: "Gus Viveiros (@GusVcomic)",
         retweets: 1040,
         likes: 21428,
@@ -4126,7 +4128,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1443252447254757377%252F3K8bWF8h_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ilovefamiIyguy/status/1412807214834847749",
+        url: "https://xcancel.com/ilovefamiIyguy/status/1412807214834847749",
         author: "austin (@ilovefamiIyguy)",
         retweets: 54803,
         likes: 570663,
@@ -4135,7 +4137,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1737245824122236928%252FUBwjBShp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/arithisandthat/status/1413485785978970112",
+        url: "https://xcancel.com/arithisandthat/status/1413485785978970112",
         author: "Arielle Nissenblatt (sounds like 'this & that') (@arithisandthat)",
         retweets: 9764,
         likes: 113197,
@@ -4143,7 +4145,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1511523307475984391%252FtW-691-f_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cal50/status/1416501462562115586",
+        url: "https://xcancel.com/cal50/status/1416501462562115586",
         author: "cal50 (@cal50)",
         retweets: 19644,
         likes: 147756,
@@ -4152,7 +4154,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1487476161517133826%252F1RbJu5y3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rajandelman/status/1418085145907761153",
+        url: "https://xcancel.com/rajandelman/status/1418085145907761153",
         author: "lil pom poko jerk (@rajandelman)",
         retweets: 940,
         likes: 5185,
@@ -4160,7 +4162,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1480657954286313473%252FcA-mSl1I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ralter/status/1419134846866231298",
+        url: "https://xcancel.com/ralter/status/1419134846866231298",
         author: "Rebecca Alter (@ralter)",
         retweets: 2290,
         likes: 32485,
@@ -4168,7 +4170,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1507109427127664657%252F8LvqEpFE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KrangTNelson/status/1420560586136592384",
+        url: "https://xcancel.com/KrangTNelson/status/1420560586136592384",
         author: "america's lounge singer (@KrangTNelson)",
         retweets: 1064,
         likes: 26982,
@@ -4176,7 +4178,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567978320079343617%252FWJkYD4tq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mikescollins/status/1420568274799050755",
+        url: "https://xcancel.com/mikescollins/status/1420568274799050755",
         author: "Mike Scollins (@mikescollins)",
         retweets: 5537,
         likes: 53002,
@@ -4185,7 +4187,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1404604896175927302%252FuUz5o8Rh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jasonlipshutz/status/1421616327400345600",
+        url: "https://xcancel.com/jasonlipshutz/status/1421616327400345600",
         author: "Jason Lipshutz (@jasonlipshutz)",
         retweets: 7,
         likes: 166,
@@ -4193,7 +4195,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1606368248529813523%252FjtoybCe0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tagaq/status/1421829532525514754",
+        url: "https://xcancel.com/tagaq/status/1421829532525514754",
         author: "tanya tagaq (@tagaq)",
         retweets: 261,
         likes: 2771,
@@ -4202,7 +4204,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F560166290623827970%252Fj6ZPLa4q_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/ThiefOfTweets/status/1423725029892792321",
+        url: "https://xcancel.com/ThiefOfTweets/status/1423725029892792321",
         author: "disco in furlough (@ThiefOfTweets)",
         retweets: 9764,
         likes: 91816,
@@ -4211,7 +4213,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1548398363363553282%252FSY1qr6VE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/emonormie/status/1424381913800839170",
+        url: "https://xcancel.com/emonormie/status/1424381913800839170",
         author: "emo normie (@emonormie)",
         retweets: 12398,
         likes: 78954,
@@ -4219,7 +4221,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729684808475820032%252FCQF_e0Do_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TashP351/status/1425145264310980611",
+        url: "https://xcancel.com/TashP351/status/1425145264310980611",
         author: "Tashy McTashface (@TashP351)",
         retweets: 16895,
         likes: 211131,
@@ -4228,7 +4230,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735956549502148608%252FevHR1Zlg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/haleshannon/status/1425195319365496833",
+        url: "https://xcancel.com/haleshannon/status/1425195319365496833",
         author: "Shannon Hale (@haleshannon)",
         retweets: 415,
         likes: 5017,
@@ -4237,7 +4239,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F695304666209325056%252FBdm-dupx_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sarahrxdriguez/status/1425267281202909184",
+        url: "https://xcancel.com/sarahrxdriguez/status/1425267281202909184",
         author: "sarah (@sarahrxdriguez)",
         retweets: 24733,
         likes: 383601,
@@ -4245,7 +4247,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686150133858066432%252FoJRl65pt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ryanqnorth/status/1425563276914667536",
+        url: "https://xcancel.com/ryanqnorth/status/1425563276914667536",
         author: "Ryan North (@ryanqnorth)",
         retweets: 111,
         likes: 1051,
@@ -4254,7 +4256,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323627652700229632%252F--rGNJoi_bigger.png",
     },
     {
-        url: "https://twitter.com/reillymackay/status/1425831118184587265",
+        url: "https://xcancel.com/reillymackay/status/1425831118184587265",
         author: "reilly (@reillymackay)",
         retweets: 14144,
         likes: 110929,
@@ -4263,7 +4265,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624538316048564224%252F1oRYjXSq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Richard_Vixen/status/1429200338305835009",
+        url: "https://xcancel.com/Richard_Vixen/status/1429200338305835009",
         author: "Sophia (@Richard_Vixen)",
         retweets: 19854,
         likes: 152900,
@@ -4272,7 +4274,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1501936402019192842%252F1cJkUmWM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ggooooddddoogg/status/1430169228204781579",
+        url: "https://xcancel.com/ggooooddddoogg/status/1430169228204781579",
         author: "law dog, esq. (@ggooooddddoogg)",
         retweets: 3194,
         likes: 32581,
@@ -4280,7 +4282,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1040265455880097793%252Fv9SK6CMW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fixyourheartsor/status/1430954697003839495",
+        url: "https://xcancel.com/fixyourheartsor/status/1430954697003839495",
         author: "Liv (@fixyourheartsor)",
         retweets: 28431,
         likes: 128317,
@@ -4288,7 +4290,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669519263344865282%252FVrbrqK9Y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MattGertz/status/1431758496756862980",
+        url: "https://xcancel.com/MattGertz/status/1431758496756862980",
         author: "Matthew Gertz (@MattGertz)",
         retweets: 1883,
         likes: 41393,
@@ -4296,7 +4298,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1211274521099096064%252F0i86noPZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KeetPotato/status/1432311986788913152",
+        url: "https://xcancel.com/KeetPotato/status/1432311986788913152",
         author: "k e i t h (@KeetPotato)",
         retweets: 43775,
         likes: 355977,
@@ -4304,7 +4306,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295356472348508160%252FhZlM_K3__bigger.jpg",
     },
     {
-        url: "https://twitter.com/mxmclain/status/1435565817261920259",
+        url: "https://xcancel.com/mxmclain/status/1435565817261920259",
         author: "Midge (@mxmclain)",
         retweets: 1487,
         likes: 12628,
@@ -4313,7 +4315,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591195347975544832%252FpiAZVjAt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/laylology/status/1436079500584960006",
+        url: "https://xcancel.com/laylology/status/1436079500584960006",
         author: "layla (@laylology)",
         retweets: 4428,
         likes: 86735,
@@ -4321,7 +4323,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660134194297577474%252FwOJVZhVC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NICKIMINAJ/status/1437532566945341441",
+        url: "https://xcancel.com/NICKIMINAJ/status/1437532566945341441",
         author: "Nicki Minaj (@NICKIMINAJ)",
         retweets: 23946,
         likes: 139647,
@@ -4329,7 +4331,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717601605833695232%252FtmJ6cbTv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rajat_suresh/status/1437589483931713536",
+        url: "https://xcancel.com/rajat_suresh/status/1437589483931713536",
         author: "Rajat Suresh (@rajat_suresh)",
         retweets: 1900,
         likes: 49700,
@@ -4337,7 +4339,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1221209331787583489%252FlU3_VwYV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ihythreat/status/1437948281884233731",
+        url: "https://xcancel.com/ihythreat/status/1437948281884233731",
         author: "04e0 (@ihythreat)",
         retweets: 72211,
         likes: 414662,
@@ -4345,7 +4347,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1466195131195961352%252FjAFm_g5U_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JoannaNewSum41/status/1440021745881210883",
+        url: "https://xcancel.com/JoannaNewSum41/status/1440021745881210883",
         author: "ivan : ) (@JoannaNewSum41)",
         retweets: 9,
         likes: 134,
@@ -4353,7 +4355,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692975755834134528%252FlH7OrHCO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TommySiegel/status/1440443307826376714",
+        url: "https://xcancel.com/TommySiegel/status/1440443307826376714",
         author: "Tommy Siegel (@TommySiegel)",
         retweets: 411,
         likes: 1633,
@@ -4362,7 +4364,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1504848930558857219%252Fw4EVHn-r_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LilNasX/status/1444367077767192576",
+        url: "https://xcancel.com/LilNasX/status/1444367077767192576",
         author: "271f (@LilNasX)",
         retweets: 22401,
         likes: 423866,
@@ -4370,7 +4372,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733518696197623808%252FrlghFYSn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DollyParton/status/1448394032535715847",
+        url: "https://xcancel.com/DollyParton/status/1448394032535715847",
         author: "Dolly Parton (@DollyParton)",
         retweets: 36444,
         likes: 202562,
@@ -4378,7 +4380,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655982161713823754%252F56KBq8og_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Usher/status/1448719154366730241",
+        url: "https://xcancel.com/Usher/status/1448719154366730241",
         author: "Usher Raymond IV (@Usher)",
         retweets: 1501,
         likes: 15713,
@@ -4387,7 +4389,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712600208201187328%252FkNxwyoP5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JamesBlunt/status/1451599236701868035",
+        url: "https://xcancel.com/JamesBlunt/status/1451599236701868035",
         author: "James Blunt (@JamesBlunt)",
         retweets: 17941,
         likes: 220118,
@@ -4396,7 +4398,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686031452868108289%252F61rnyMp5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Mmm_it_me/status/1454106606853976064",
+        url: "https://xcancel.com/Mmm_it_me/status/1454106606853976064",
         author: "ole cunty (@Mmm_it_me)",
         retweets: 3187,
         likes: 21768,
@@ -4405,7 +4407,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1620475686262546436%252Fzy9nFjhd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/subtoconnorpls/status/1454134186416222218",
+        url: "https://xcancel.com/subtoconnorpls/status/1454134186416222218",
         author: "conar (@subtoconnorpls)",
         retweets: 139,
         likes: 8232,
@@ -4414,7 +4416,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1481379465087361024%252FNbCG5BLJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mattiekahn/status/1455890581734010886",
+        url: "https://xcancel.com/mattiekahn/status/1455890581734010886",
         author: "mattie kahn (@mattiekahn)",
         retweets: 2,
         likes: 44,
@@ -4422,7 +4424,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F657364119452971008%252FPK73MENJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/georgehahn/status/1456047407817449474",
+        url: "https://xcancel.com/georgehahn/status/1456047407817449474",
         author: "George Hahn (@georgehahn)",
         retweets: 334,
         likes: 6069,
@@ -4430,7 +4432,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1650965769390366720%252F428q7_39_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lindseyadler/status/1457066177751130118",
+        url: "https://xcancel.com/lindseyadler/status/1457066177751130118",
         author: "Lindsey Adler (@lindseyadler)",
         retweets: 298,
         likes: 5120,
@@ -4438,7 +4440,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687807787026259969%252F82CIyo9d_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jdesmondharris/status/1460404986542649345",
+        url: "https://xcancel.com/jdesmondharris/status/1460404986542649345",
         author: "Jenée (@jdesmondharris)",
         retweets: 6,
         likes: 299,
@@ -4447,7 +4449,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1483272529061941249%252FadSTXa-u_bigger.jpg",
     },
     {
-        url: "https://twitter.com/memescentrai/status/1462476304788381705",
+        url: "https://xcancel.com/memescentrai/status/1462476304788381705",
         author: "memes (@memescentrai)",
         retweets: 158,
         likes: 1495,
@@ -4456,7 +4458,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1686869656332615680%252FAsnjt2ED_bigger.jpg",
     },
     {
-        url: "https://twitter.com/andrealongchu/status/1462954139269451779",
+        url: "https://xcancel.com/andrealongchu/status/1462954139269451779",
         author: "wife of the mind (@andrealongchu)",
         retweets: 54,
         likes: 1341,
@@ -4464,7 +4466,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490707597195939844%252Fc81ojfyR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/textfiles/status/1467240407926988806",
+        url: "https://xcancel.com/textfiles/status/1467240407926988806",
         author: "Jason Scott (@textfiles)",
         retweets: 13,
         likes: 158,
@@ -4472,7 +4474,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1658519865211093004%252F8BK0rPx8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OgCantMiss/status/1467466318018498562",
+        url: "https://xcancel.com/OgCantMiss/status/1467466318018498562",
         author: ". (@OgCantMiss)",
         retweets: 1364,
         likes: 6974,
@@ -4481,7 +4483,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F783989375134601216%252FgECLiKXl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/xanabon/status/1468010141249380354",
+        url: "https://xcancel.com/xanabon/status/1468010141249380354",
         author: "cinnabon enjoyer (ali) (@xanabon)",
         retweets: 25462,
         likes: 157823,
@@ -4489,7 +4491,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1513335399011205122%252F9uqU4G5A_bigger.jpg",
     },
     {
-        url: "https://twitter.com/samvanhallgren/status/1469298453914304513",
+        url: "https://xcancel.com/samvanhallgren/status/1469298453914304513",
         author: "Sam Van Hallgren (@samvanhallgren)",
         retweets: 415,
         likes: 3177,
@@ -4498,7 +4500,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625521358921781248%252F0U3LeIrE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tonyhawk/status/1469340569587568645",
+        url: "https://xcancel.com/tonyhawk/status/1469340569587568645",
         author: "Tony Hawk (@tonyhawk)",
         retweets: 21394,
         likes: 226603,
@@ -4506,7 +4508,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1325015260%252F1979_driveway_fs_stink_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jdcmedlock/status/1470547171078389762",
+        url: "https://xcancel.com/jdcmedlock/status/1470547171078389762",
         author: "James Medlock (@jdcmedlock)",
         retweets: 243,
         likes: 3071,
@@ -4514,7 +4516,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1343045735936245768%252FcRORtnYI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BGrueskin/status/1473315181199605762",
+        url: "https://xcancel.com/BGrueskin/status/1473315181199605762",
         author: "Bill Grueskin (@BGrueskin)",
         retweets: 378,
         likes: 1645,
@@ -4523,7 +4525,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1681016681525649409%252FlrCrgXa5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Cpin42/status/1477537308756877315",
+        url: "https://xcancel.com/Cpin42/status/1477537308756877315",
         author: "Viktor Winetrout (@Cpin42)",
         retweets: 9423,
         likes: 105251,
@@ -4531,7 +4533,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2649324061%252F93bcd3c7da4abc48a21143452606fcec_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/arc3lm/status/1478129385307729920",
+        url: "https://xcancel.com/arc3lm/status/1478129385307729920",
         author: "arc_elm (@arc3lm)",
         retweets: 9,
         likes: 55,
@@ -4539,7 +4541,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1385446439749226496%252FHqVLMy-Q_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheRichardKarn/status/1478504258148257794",
+        url: "https://xcancel.com/TheRichardKarn/status/1478504258148257794",
         author: "Richard Karn (@TheRichardKarn)",
         retweets: 8926,
         likes: 81611,
@@ -4548,7 +4550,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000290931846%252Fc37c005d29612d24f5b2cb99ad9a5343_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/PowerfulHag/status/1481042736610689024",
+        url: "https://xcancel.com/PowerfulHag/status/1481042736610689024",
         author: "Hag  (powerfulhag.bsky.social) (@PowerfulHag)",
         retweets: 830,
         likes: 2158,
@@ -4557,7 +4559,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1640666461650960384%252FUUAGxcJQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CroixAlmer/status/1483171582507954182",
+        url: "https://xcancel.com/CroixAlmer/status/1483171582507954182",
         author: "Croix S. Almer (@CroixAlmer)",
         retweets: 37309,
         likes: 197065,
@@ -4566,7 +4568,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699471208335474688%252FIIN7HsYD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JeffMightBWrong/status/1483460030762471436",
+        url: "https://xcancel.com/JeffMightBWrong/status/1483460030762471436",
         author: "Jeff Maurer (@JeffMightBWrong)",
         retweets: 11709,
         likes: 75564,
@@ -4575,7 +4577,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1708282560101662720%252F2MAnOyGZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chandlerjdean/status/1483806684543860738",
+        url: "https://xcancel.com/chandlerjdean/status/1483806684543860738",
         author: "Chandler Dean stands with SAG (@chandlerjdean)",
         retweets: 1381,
         likes: 39618,
@@ -4583,7 +4585,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490792436116987907%252F-SVGv4Iv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mind_probiotic/status/1484021742511210497",
+        url: "https://xcancel.com/mind_probiotic/status/1484021742511210497",
         author: "you gonna wield whatever i pull out of this stone (@mind_probiotic)",
         retweets: 9373,
         likes: 63981,
@@ -4592,7 +4594,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1475254230403407876%252FnZyorAWv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wife_geist/status/1484236520672444421",
+        url: "https://xcancel.com/wife_geist/status/1484236520672444421",
         author: "once and future wife geist (@wife_geist)",
         retweets: 4759,
         likes: 59033,
@@ -4600,7 +4602,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1320806229413908483%252FqURj8zLe_bigger.jpg",
     },
     {
-        url: "https://twitter.com/barranr/status/1485373731963039744",
+        url: "https://xcancel.com/barranr/status/1485373731963039744",
         author: "Rod B (@barranr)",
         retweets: 46443,
         likes: 544517,
@@ -4609,7 +4611,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730826466819227648%252FybVTcLQ7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GianmarcoSoresi/status/1486792040792924161",
+        url: "https://xcancel.com/GianmarcoSoresi/status/1486792040792924161",
         author: "gianmarco (@GianmarcoSoresi)",
         retweets: 850,
         likes: 38957,
@@ -4617,7 +4619,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444809097048514565%252FxRk56a9m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JoyceCarolOates/status/1488920061129764867",
+        url: "https://xcancel.com/JoyceCarolOates/status/1488920061129764867",
         author: "Joyce Carol Oates (@JoyceCarolOates)",
         retweets: 112,
         likes: 787,
@@ -4625,7 +4627,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
-        url: "https://twitter.com/greenTetra_/status/1489766391225933826",
+        url: "https://xcancel.com/greenTetra_/status/1489766391225933826",
         author: "Tetrahedron (@greenTetra_)",
         retweets: 2917,
         likes: 33895,
@@ -4633,7 +4635,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736845378979262464%252FLOxOoOKE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/evankindley/status/1490894441862742017",
+        url: "https://xcancel.com/evankindley/status/1490894441862742017",
         author: "Evan Kindley (@evankindley)",
         retweets: 323,
         likes: 3652,
@@ -4642,7 +4644,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731354748169932800%252Fjh48-oQN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/vicbekiempis/status/1491175929519144960",
+        url: "https://xcancel.com/vicbekiempis/status/1491175929519144960",
         author: "Victoria Bekiempis (@vicbekiempis)",
         retweets: 6,
         likes: 15,
@@ -4650,7 +4652,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1460360124820824067%252FCbBaoUvb_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jpep20/status/1491429236422627332",
+        url: "https://xcancel.com/jpep20/status/1491429236422627332",
         author: "Joe Pepe (@jpep20)",
         retweets: 4013,
         likes: 38391,
@@ -4658,7 +4660,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1723016003896930304%252F43kyOnQ2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/knockovercity/status/1491569547203293188",
+        url: "https://xcancel.com/knockovercity/status/1491569547203293188",
         author: "knockover.city on bsky (@knockovercity)",
         retweets: 2752,
         likes: 22275,
@@ -4667,7 +4669,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1481923514831716352%252FiI2FWieh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chompie1337/status/1492258983914188808",
+        url: "https://xcancel.com/chompie1337/status/1492258983914188808",
         author: "chompie (@chompie1337)",
         retweets: 9807,
         likes: 123092,
@@ -4675,7 +4677,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736937375614246912%252FLfOgP9E6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Eve6/status/1496312820731949059",
+        url: "https://xcancel.com/Eve6/status/1496312820731949059",
         author: "eve6 (@Eve6)",
         retweets: 3664,
         likes: 68236,
@@ -4683,7 +4685,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733161989474488320%252FsvniHfk1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sureshtrumpet/status/1498980877296099338",
+        url: "https://xcancel.com/sureshtrumpet/status/1498980877296099338",
         author: "Suresh Singaratnam (@sureshtrumpet)",
         retweets: 1692,
         likes: 8190,
@@ -4692,7 +4694,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1365823413038813186%252FYfAtOecc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tmcw/status/1499500654133452803",
+        url: "https://xcancel.com/tmcw/status/1499500654133452803",
         author: "Tom MacWright (@tmcw)",
         retweets: 149,
         likes: 2545,
@@ -4700,7 +4702,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1172554769237336065%252FCIdcAG0d_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MikeTyson/status/1500140734468395011",
+        url: "https://xcancel.com/MikeTyson/status/1500140734468395011",
         author: "Mike Tyson (@MikeTyson)",
         retweets: 10929,
         likes: 110711,
@@ -4708,7 +4710,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1597309336350380033%252Fub7VkPLo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Scholf_A_Loaf/status/1501268580935028738",
+        url: "https://xcancel.com/Scholf_A_Loaf/status/1501268580935028738",
         author: "The Broletariat (@Scholf_A_Loaf)",
         retweets: 20972,
         likes: 220726,
@@ -4716,7 +4718,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720964737431900160%252FBiKaYL5i_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pragdua/status/1503668343152074752",
+        url: "https://xcancel.com/pragdua/status/1503668343152074752",
         author: "pragun (@pragdua)",
         retweets: 38295,
         likes: 376157,
@@ -4725,7 +4727,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590071246200324097%252FjQihie6N_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AShihipar/status/1505222469652787203",
+        url: "https://xcancel.com/AShihipar/status/1505222469652787203",
         author: "abdullah says CEASEFIRE NOW (@AShihipar)",
         retweets: 1253,
         likes: 13321,
@@ -4734,7 +4736,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1426784661863374849%252FvLQtowjp_bigger.png",
     },
     {
-        url: "https://twitter.com/Writing_Abigail/status/1508160045820829698",
+        url: "https://xcancel.com/Writing_Abigail/status/1508160045820829698",
         author: "Abigail Edwards (@Writing_Abigail)",
         retweets: 20395,
         likes: 334908,
@@ -4742,7 +4744,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1672302045108248580%252FdkBmiZDh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brokeymcpoverty/status/1508287851406016513",
+        url: "https://xcancel.com/brokeymcpoverty/status/1508287851406016513",
         author: "tracy clayton jr the 3rd (@brokeymcpoverty)",
         retweets: 72,
         likes: 687,
@@ -4750,7 +4752,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1227626363588313088%252FMXw3gRtq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jrvsscarlet/status/1509371311222452226",
+        url: "https://xcancel.com/jrvsscarlet/status/1509371311222452226",
         author: " (@jrvsscarlet)",
         retweets: 40596,
         likes: 411160,
@@ -4759,7 +4761,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1550091488385986561%252F1AwTe9tx_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LaurenKGurley/status/1509618311155363840",
+        url: "https://xcancel.com/LaurenKGurley/status/1509618311155363840",
         author: "Lauren Kaori Gurley (@LaurenKGurley)",
         retweets: 2915,
         likes: 22813,
@@ -4768,7 +4770,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1471880300338630656%252FwOmL2Dky_bigger.jpg",
     },
     {
-        url: "https://twitter.com/WaltHickey/status/1509629653044154372",
+        url: "https://xcancel.com/WaltHickey/status/1509629653044154372",
         author: "Walter Hickey (@WaltHickey)",
         retweets: 13,
         likes: 79,
@@ -4777,7 +4779,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1343387746853937159%252FBXb3Kpr8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Brohamulet/status/1510698419089772555",
+        url: "https://xcancel.com/Brohamulet/status/1510698419089772555",
         author: "Dan E (@Brohamulet)",
         retweets: 44034,
         likes: 575530,
@@ -4786,7 +4788,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1393031284860112900%252FcrOa9wgR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ebenbenson/status/1511864029437902852",
+        url: "https://xcancel.com/ebenbenson/status/1511864029437902852",
         author: "Apex Redditor (@ebenbenson)",
         retweets: 4561,
         likes: 56577,
@@ -4795,7 +4797,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1411457218881404934%252FDs-5WElk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SbondyNBA/status/1511898681875783687",
+        url: "https://xcancel.com/SbondyNBA/status/1511898681875783687",
         author: "Stefan Bondy (@SbondyNBA)",
         retweets: 105,
         likes: 1234,
@@ -4803,7 +4805,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1647366178422026241%252FVzXwcvNq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mariebardi/status/1513193744752906245",
+        url: "https://xcancel.com/mariebardi/status/1513193744752906245",
         author: "Marie Bardi-Salinas (@mariebardi)",
         retweets: 1527,
         likes: 20638,
@@ -4812,7 +4814,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1701382888489414656%252FRZslQGTl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/katepenniman/status/1513276477562888194",
+        url: "https://xcancel.com/katepenniman/status/1513276477562888194",
         author: "Lara_ (@katepenniman)",
         retweets: 91,
         likes: 2051,
@@ -4821,7 +4823,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721815758068494336%252FYlX1iQ8G_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BBCPolitics/status/1513519439509082126",
+        url: "https://xcancel.com/BBCPolitics/status/1513519439509082126",
         author: "BBC Politics (@BBCPolitics)",
         retweets: 351,
         likes: 1970,
@@ -4829,7 +4831,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1150756359497015298%252FxXj2IfkW_bigger.png",
     },
     {
-        url: "https://twitter.com/HelloCullen/status/1513555761699299328",
+        url: "https://xcancel.com/HelloCullen/status/1513555761699299328",
         author: "Cullen Crawford (@HelloCullen)",
         retweets: 2,
         likes: 145,
@@ -4838,7 +4840,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1315149339904286720%252F0Cxkqh2D_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hmcghee/status/1513686397089107980",
+        url: "https://xcancel.com/hmcghee/status/1513686397089107980",
         author: "Heather McGhee (@hmcghee)",
         retweets: 5275,
         likes: 70249,
@@ -4847,7 +4849,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839837801399078912%252FhS6qb6M4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/biz/status/1513724325873868806",
+        url: "https://xcancel.com/biz/status/1513724325873868806",
         author: "Biz Stone (@biz)",
         retweets: 16,
         likes: 104,
@@ -4855,7 +4857,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1599941885484707840%252FYATEabA3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/emmabarrie/status/1514660173142368260",
+        url: "https://xcancel.com/emmabarrie/status/1514660173142368260",
         author: "emma barrie (@emmabarrie)",
         retweets: 11495,
         likes: 126239,
@@ -4863,7 +4865,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1223065055530377217%252FCK3SG7vH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ChuckGrassley/status/1515409114855358475",
+        url: "https://xcancel.com/ChuckGrassley/status/1515409114855358475",
         author: "Chuck Grassley (@ChuckGrassley)",
         retweets: 422,
         likes: 3840,
@@ -4872,7 +4874,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F921098191507984385%252FXYteQA6t_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bellabee13/status/1516036609174654977",
+        url: "https://xcancel.com/bellabee13/status/1516036609174654977",
         author: "The Caffeinated Therapist (@bellabee13)",
         retweets: 4757,
         likes: 26393,
@@ -4880,7 +4882,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720488387340099585%252FyB8E4Bva_bigger.jpg",
     },
     {
-        url: "https://twitter.com/zachsilberberg/status/1516081266441003015",
+        url: "https://xcancel.com/zachsilberberg/status/1516081266441003015",
         author: "zach silberberg supports SAG-AFTRA (@zachsilberberg)",
         retweets: 17398,
         likes: 271280,
@@ -4888,7 +4890,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709792200765120512%252FrXbVAH9d_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TourCNTower/status/1516402495995719690",
+        url: "https://xcancel.com/TourCNTower/status/1516402495995719690",
         author: "CN Tower / Tour CN (@TourCNTower)",
         retweets: 1286,
         likes: 4643,
@@ -4897,7 +4899,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707746312576221184%252FG-sTMoj9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/1516425582954917891",
+        url: "https://xcancel.com/InternetHippo/status/1516425582954917891",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 6355,
         likes: 82155,
@@ -4905,7 +4907,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/silviakillings/status/1516426656491216905",
+        url: "https://xcancel.com/silviakillings/status/1516426656491216905",
         author: "Silvia Killingsworth (@silviakillings)",
         retweets: 3,
         likes: 15,
@@ -4913,7 +4915,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516148748187017223%252F7ZTDb4Qa_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Dobrenkz/status/1516864412962885633",
+        url: "https://xcancel.com/Dobrenkz/status/1516864412962885633",
         author: "Alex Dobrenko (@Dobrenkz)",
         retweets: 23540,
         likes: 181192,
@@ -4921,7 +4923,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1426930799899643908%252F5jkzRhxh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gabagoolmarx/status/1517858108743340032",
+        url: "https://xcancel.com/gabagoolmarx/status/1517858108743340032",
         author: "socialist sopranos memes (@gabagoolmarx)",
         retweets: 5265,
         likes: 43870,
@@ -4930,7 +4932,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697797207984836608%252Fs-XGmeyW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Eve6/status/1517946752309080073",
+        url: "https://xcancel.com/Eve6/status/1517946752309080073",
         author: "eve6 (@Eve6)",
         retweets: 14,
         likes: 807,
@@ -4938,7 +4940,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733161989474488320%252FsvniHfk1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/spiritnght2/status/1521566347125211136",
+        url: "https://xcancel.com/spiritnght2/status/1521566347125211136",
         author: "dylan (@spiritnght2)",
         retweets: 10090,
         likes: 243326,
@@ -4946,7 +4948,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1316959766455947266%252FGCpkKo2D_bigger.jpg",
     },
     {
-        url: "https://twitter.com/The_Law_Boy/status/1521589951695147012",
+        url: "https://xcancel.com/The_Law_Boy/status/1521589951695147012",
         author: "Law Boy (@The_Law_Boy)",
         retweets: 1756,
         likes: 33215,
@@ -4954,7 +4956,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1029746079846354944%252F2NWE7cEG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jzux/status/1521899642631380997",
+        url: "https://xcancel.com/jzux/status/1521899642631380997",
         author: "trash jones (@jzux)",
         retweets: 12389,
         likes: 206669,
@@ -4962,7 +4964,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304589362051645441%252FYo_o5yi5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jamesdgreig/status/1522221217612132354",
+        url: "https://xcancel.com/jamesdgreig/status/1522221217612132354",
         author: "James Greig (@jamesdgreig)",
         retweets: 4251,
         likes: 69775,
@@ -4970,7 +4972,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1469017362427002887%252FyqsCFaZs_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GeorgeGreenwood/status/1522509469707612160",
+        url: "https://xcancel.com/GeorgeGreenwood/status/1522509469707612160",
         author: "George Greenwood (@GeorgeGreenwood)",
         retweets: 31,
         likes: 680,
@@ -4978,7 +4980,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719693587653312512%252FlY7Lvi9x_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_sn_n/status/1522705352806047745",
+        url: "https://xcancel.com/_sn_n/status/1522705352806047745",
         author: "sean (@_sn_n)",
         retweets: 7977,
         likes: 137555,
@@ -4987,7 +4989,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1641850361802571776%252FUFxKjNBo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jxxf/status/1522993091409768448",
+        url: "https://xcancel.com/jxxf/status/1522993091409768448",
         author: "jxf@mastodon.social (@jxxf)",
         retweets: 24100,
         likes: 249496,
@@ -4995,7 +4997,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3348427561%252F9d7f08f1e103a16c8debd169301b9944_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/yurirando/status/1524125063267897344",
+        url: "https://xcancel.com/yurirando/status/1524125063267897344",
         author: "frog \"Philip K. Dickgirl\" kosaric (@yurirando)",
         retweets: 20,
         likes: 195,
@@ -5004,7 +5006,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1301369135541055488%252FtCetEL6o_bigger.jpg",
     },
     {
-        url: "https://twitter.com/alyssalimp/status/1524399397815083010",
+        url: "https://xcancel.com/alyssalimp/status/1524399397815083010",
         author: "Alyssa Limperis (@alyssalimp)",
         retweets: 2395,
         likes: 66498,
@@ -5012,7 +5014,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F916469867880075265%252Fd9cC1LlQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OneRadChee/status/1526740335451418626",
+        url: "https://xcancel.com/OneRadChee/status/1526740335451418626",
         author: "gryphoneer.bsky.social (@OneRadChee)",
         retweets: 2945,
         likes: 16790,
@@ -5021,7 +5023,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1539684067830120450%252FJZInWf1h_bigger.jpg",
     },
     {
-        url: "https://twitter.com/omgskr/status/1527842813316153345",
+        url: "https://xcancel.com/omgskr/status/1527842813316153345",
         author: "Sara K. Runnels (@omgskr)",
         retweets: 10522,
         likes: 88266,
@@ -5029,7 +5031,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1442664430328639491%252FDPIlBPQr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/makeupaguy/status/1529117214636396547",
+        url: "https://xcancel.com/makeupaguy/status/1529117214636396547",
         author: "make up a guy (@makeupaguy)",
         retweets: 23837,
         likes: 298162,
@@ -5037,7 +5039,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1658931221458563075%252FO4HC0sVE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jzux/status/1529807426786041858",
+        url: "https://xcancel.com/jzux/status/1529807426786041858",
         author: "trash jones (@jzux)",
         retweets: 17897,
         likes: 130435,
@@ -5045,7 +5047,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304589362051645441%252FYo_o5yi5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SamGrittner/status/1530982739607953410",
+        url: "https://xcancel.com/SamGrittner/status/1530982739607953410",
         author: "Arby’s Provocateur (@SamGrittner)",
         retweets: 2281,
         likes: 27228,
@@ -5054,7 +5056,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624870235076456451%252FRK3XxngP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brian_bahe/status/1531750018100695041",
+        url: "https://xcancel.com/brian_bahe/status/1531750018100695041",
         author: "MIAMI BAHE (@brian_bahe)",
         retweets: 2328,
         likes: 35680,
@@ -5062,7 +5064,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1618368867562295297%252FOausEUET_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PleaseBeGneiss/status/1533569440503111681",
+        url: "https://xcancel.com/PleaseBeGneiss/status/1533569440503111681",
         author: "slate (@PleaseBeGneiss)",
         retweets: 17317,
         likes: 207836,
@@ -5070,7 +5072,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565491884872544261%252F8-gEqo1s_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rachelysanders/status/1533840888996286465",
+        url: "https://xcancel.com/rachelysanders/status/1533840888996286465",
         author: "Rachel Sanders (@rachelysanders)",
         retweets: 5781,
         likes: 65423,
@@ -5078,7 +5080,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1276548377552072706%252FYx85RTvX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ConnorColson/status/1534239013871095808",
+        url: "https://xcancel.com/ConnorColson/status/1534239013871095808",
         author: "Connor C. (@ConnorColson)",
         retweets: 18333,
         likes: 226536,
@@ -5086,7 +5088,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1466774046574616578%252FVaztHOS8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/leyawn/status/1535397883842703360",
+        url: "https://xcancel.com/leyawn/status/1535397883842703360",
         author: "leon (@leyawn)",
         retweets: 27871,
         likes: 233578,
@@ -5094,7 +5096,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/Shen_the_Bird/status/1536893216615694338",
+        url: "https://xcancel.com/Shen_the_Bird/status/1536893216615694338",
         author: "shen the bird (@Shen_the_Bird)",
         retweets: 6868,
         likes: 100384,
@@ -5102,7 +5104,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lolennui/status/1536936843945590784",
+        url: "https://xcancel.com/lolennui/status/1536936843945590784",
         author: "Amy (@lolennui)",
         retweets: 5521,
         likes: 56391,
@@ -5110,7 +5112,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702704292594110464%252FU4DfWVaL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/quietbutjudgy/status/1539637101188091904",
+        url: "https://xcancel.com/quietbutjudgy/status/1539637101188091904",
         author: "Nicole (@quietbutjudgy)",
         retweets: 107,
         likes: 2584,
@@ -5118,7 +5120,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2297413163%252Fimage_bigger.jpg",
     },
     {
-        url: "https://twitter.com/snailfraud/status/1542256075038138368",
+        url: "https://xcancel.com/snailfraud/status/1542256075038138368",
         author: "gal pacino (@snailfraud)",
         retweets: 7414,
         likes: 49803,
@@ -5126,7 +5128,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1324862755304837122%252FS24UvNv__bigger.jpg",
     },
     {
-        url: "https://twitter.com/yourpalmel/status/1542366005933924352",
+        url: "https://xcancel.com/yourpalmel/status/1542366005933924352",
         author: "mel (@yourpalmel)",
         retweets: 29085,
         likes: 373451,
@@ -5134,7 +5136,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1663034049924038656%252FdorjRlUF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ben_rosen/status/1542545127658250240",
+        url: "https://xcancel.com/ben_rosen/status/1542545127658250240",
         author: "Ben Rosen (@ben_rosen)",
         retweets: 2598,
         likes: 29094,
@@ -5142,7 +5144,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KennyDucey/status/1542700263680741377",
+        url: "https://xcancel.com/KennyDucey/status/1542700263680741377",
         author: "Kenny Ducey (@KennyDucey)",
         retweets: 370,
         likes: 4352,
@@ -5151,7 +5153,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1653936781224452098%252F7McqoyiC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ameliaelizalde/status/1542959084680253442",
+        url: "https://xcancel.com/ameliaelizalde/status/1542959084680253442",
         author: "amelia elizalde (@ameliaelizalde)",
         retweets: 3680,
         likes: 52376,
@@ -5159,7 +5161,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706541172070744064%252FUKGwwTfH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/leyawn/status/1543039645012869123",
+        url: "https://xcancel.com/leyawn/status/1543039645012869123",
         author: "leon (@leyawn)",
         retweets: 772,
         likes: 17596,
@@ -5167,7 +5169,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/biggestjoel/status/1543400860524466181",
+        url: "https://xcancel.com/biggestjoel/status/1543400860524466181",
         author: "Big Joel (@biggestjoel)",
         retweets: 9409,
         likes: 155747,
@@ -5175,7 +5177,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1347804971320958976%252FTzsmRl7g_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KevB123/status/1543804298215268358",
+        url: "https://xcancel.com/KevB123/status/1543804298215268358",
         author: "kevo (@KevB123)",
         retweets: 2995,
         likes: 41316,
@@ -5183,7 +5185,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726998454910562315%252FWMiyXqBE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/roastmalone_/status/1544047752488751104",
+        url: "https://xcancel.com/roastmalone_/status/1544047752488751104",
         author: "stoned cold fox (@roastmalone_)",
         retweets: 26652,
         likes: 234283,
@@ -5191,7 +5193,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520548346527584256%252FqfGSIM1e_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BradWetherell/status/1545176475443367938",
+        url: "https://xcancel.com/BradWetherell/status/1545176475443367938",
         author: "Brad Wetherell (@BradWetherell)",
         retweets: 15554,
         likes: 152959,
@@ -5199,7 +5201,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F530875306186264576%252F-qn0JRy4_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/Wordesse/status/1545390264537083904",
+        url: "https://xcancel.com/Wordesse/status/1545390264537083904",
         author: "AparnaRC (@Wordesse)",
         retweets: 12583,
         likes: 154651,
@@ -5207,7 +5209,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455403568140218372%252FJXRcb9ID_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaketropolis/status/1545470192205037569",
+        url: "https://xcancel.com/jaketropolis/status/1545470192205037569",
         author: "the prince with a thousand enemies ♂️⬆️ (@jaketropolis)",
         retweets: 4819,
         likes: 56753,
@@ -5216,7 +5218,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495618642859462662%252FZ7R-8rfa_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jbfan911/status/1546003206618103810",
+        url: "https://xcancel.com/jbfan911/status/1546003206618103810",
         author: "Natalie (@jbfan911)",
         retweets: 6958,
         likes: 128360,
@@ -5224,7 +5226,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680724106654744576%252FGDQ9vcR5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Shen_the_Bird/status/1546285435156037635",
+        url: "https://xcancel.com/Shen_the_Bird/status/1546285435156037635",
         author: "shen the bird (@Shen_the_Bird)",
         retweets: 16595,
         likes: 169118,
@@ -5232,7 +5234,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125628501233631233%252FpVeG9nac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaubreyYT/status/1546331025101492224",
+        url: "https://xcancel.com/jaubreyYT/status/1546331025101492224",
         author: "j aubrey (@jaubreyYT)",
         retweets: 1216,
         likes: 22272,
@@ -5241,7 +5243,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1636192392788180992%252Fnh7mObp3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JillKrajewski/status/1546626633054015490",
+        url: "https://xcancel.com/JillKrajewski/status/1546626633054015490",
         author: "jillkrajewski.bsky.social (@JillKrajewski)",
         retweets: 7845,
         likes: 68606,
@@ -5250,7 +5252,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649140027010547715%252Fk6ViC1qO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ethanisdoomed/status/1548293662420848641",
+        url: "https://xcancel.com/ethanisdoomed/status/1548293662420848641",
         author: "ethan (@ethanisdoomed)",
         retweets: 9100,
         likes: 86733,
@@ -5259,7 +5261,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699746169709039617%252FHZ27M-5C_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shanley/status/1551357476758487040",
+        url: "https://xcancel.com/shanley/status/1551357476758487040",
         author: "shanley (@shanley)",
         retweets: 1,
         likes: 3,
@@ -5267,7 +5269,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/zachsilberberg/status/1551622048702668803",
+        url: "https://xcancel.com/zachsilberberg/status/1551622048702668803",
         author: "zach silberberg supports SAG-AFTRA (@zachsilberberg)",
         retweets: 7003,
         likes: 50105,
@@ -5276,7 +5278,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709792200765120512%252FrXbVAH9d_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jzux/status/1552723820821225472",
+        url: "https://xcancel.com/jzux/status/1552723820821225472",
         author: "trash jones (@jzux)",
         retweets: 25041,
         likes: 133658,
@@ -5284,7 +5286,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304589362051645441%252FYo_o5yi5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/i_zzzzzz/status/1553616443668848642",
+        url: "https://xcancel.com/i_zzzzzz/status/1553616443668848642",
         author: "Brooks Otterlake (@i_zzzzzz)",
         retweets: 373,
         likes: 6480,
@@ -5292,7 +5294,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
-        url: "https://twitter.com/TheAndrewNadeau/status/1555205338214850563",
+        url: "https://xcancel.com/TheAndrewNadeau/status/1555205338214850563",
         author: "Andrew Nadeau (@TheAndrewNadeau)",
         retweets: 3163,
         likes: 70242,
@@ -5300,7 +5302,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1234276076127444997%252FZH66vp75_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lilgrapefruits/status/1555226972195721217",
+        url: "https://xcancel.com/lilgrapefruits/status/1555226972195721217",
         author: "zou bisou bisou where are you (@lilgrapefruits)",
         retweets: 4530,
         likes: 79023,
@@ -5308,7 +5310,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704210637554077696%252FnrpMZnHi_bigger.jpg",
     },
     {
-        url: "https://twitter.com/highitsg/status/1558127807309303808",
+        url: "https://xcancel.com/highitsg/status/1558127807309303808",
         author: "2661 (@highitsg)",
         retweets: 21381,
         likes: 247107,
@@ -5317,7 +5319,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1610053521608683521%252FvYJAGuTL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rajandelman/status/1558504209070391297",
+        url: "https://xcancel.com/rajandelman/status/1558504209070391297",
         author: "lil pom poko jerk (@rajandelman)",
         retweets: 230,
         likes: 2644,
@@ -5325,7 +5327,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1480657954286313473%252FcA-mSl1I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lllaurenA/status/1559315846433910786",
+        url: "https://xcancel.com/lllaurenA/status/1559315846433910786",
         author: "Lauren (@lllaurenA)",
         retweets: 15403,
         likes: 131824,
@@ -5333,7 +5335,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538048799947427845%252FPtWAV67o_bigger.jpg",
     },
     {
-        url: "https://twitter.com/heartbreaklace_/status/1560642717582905344",
+        url: "https://xcancel.com/heartbreaklace_/status/1560642717582905344",
         author: "lace (i’m 6’3) (@heartbreaklace_)",
         retweets: 4743,
         likes: 46944,
@@ -5341,7 +5343,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727684364648300544%252Fsw6-SWFv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stevanzetti/status/1562535568981954560",
+        url: "https://xcancel.com/stevanzetti/status/1562535568981954560",
         author: "steven monacelli (@stevanzetti)",
         retweets: 7331,
         likes: 142140,
@@ -5350,7 +5352,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649964923412201472%252FRDjpuQRD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/zachbdunn/status/1562674319884292096",
+        url: "https://xcancel.com/zachbdunn/status/1562674319884292096",
         author: "Zach Dunn (@zachbdunn)",
         retweets: 10692,
         likes: 119840,
@@ -5358,7 +5360,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1527123096053743616%252FdxMrYd2X_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ipaddlearound/status/1564987611445338112",
+        url: "https://xcancel.com/ipaddlearound/status/1564987611445338112",
         author: "paddle (@ipaddlearound)",
         retweets: 3421,
         likes: 35777,
@@ -5366,7 +5368,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721523675172679680%252Fno1nRObE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bobby/status/1565005591663230977",
+        url: "https://xcancel.com/bobby/status/1565005591663230977",
         author: "bobby (@bobby)",
         retweets: 6826,
         likes: 124614,
@@ -5374,7 +5376,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628928708659535874%252FD7Xj1hiR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/POTUS/status/1565512354493857802",
+        url: "https://xcancel.com/POTUS/status/1565512354493857802",
         author: "President Biden (@POTUS)",
         retweets: 36062,
         likes: 362301,
@@ -5382,7 +5384,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1380530524779859970%252FTfwVAbyX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/davidmackau/status/1565781474288214016",
+        url: "https://xcancel.com/davidmackau/status/1565781474288214016",
         author: "David Mack (@davidmackau)",
         retweets: 8439,
         likes: 177590,
@@ -5391,7 +5393,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1654546369766383617%252Fx7g-_Y-__bigger.jpg",
     },
     {
-        url: "https://twitter.com/asherperlman/status/1567904815568814080",
+        url: "https://xcancel.com/asherperlman/status/1567904815568814080",
         author: "Asher Perlman (@asherperlman)",
         retweets: 4538,
         likes: 65258,
@@ -5400,7 +5402,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1594856077153157120%252FoBwFgKGW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_realhotgirl_/status/1569020491108597763",
+        url: "https://xcancel.com/_realhotgirl_/status/1569020491108597763",
         author: "timi (@_realhotgirl_)",
         retweets: 45508,
         likes: 269968,
@@ -5408,7 +5410,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728742353286975488%252F_sCddJhU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PleaseBeGneiss/status/1569126168787566592",
+        url: "https://xcancel.com/PleaseBeGneiss/status/1569126168787566592",
         author: "slate (@PleaseBeGneiss)",
         retweets: 42092,
         likes: 449086,
@@ -5416,7 +5418,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565491884872544261%252F8-gEqo1s_bigger.jpg",
     },
     {
-        url: "https://twitter.com/VoltaireLaFlare/status/1569447391664775169",
+        url: "https://xcancel.com/VoltaireLaFlare/status/1569447391664775169",
         author: "Angelo Guisado (@VoltaireLaFlare)",
         retweets: 406,
         likes: 8242,
@@ -5424,7 +5426,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490380853217832969%252FF6Qgdu2n_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JemarTisby/status/1569727675333492740",
+        url: "https://xcancel.com/JemarTisby/status/1569727675333492740",
         author: "JemarTisby.Substack.com. (@JemarTisby)",
         retweets: 6019,
         likes: 54900,
@@ -5432,7 +5434,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1618057627690205184%252FvKHROh3c_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheUniverse/status/1569768600172646400",
+        url: "https://xcancel.com/TheUniverse/status/1569768600172646400",
         author: "20a0 (@TheUniverse)",
         retweets: 0,
         likes: 19,
@@ -5440,7 +5442,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1453469853843529730%252FfScPOhxv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pillowfort/status/1570042112347099137",
+        url: "https://xcancel.com/pillowfort/status/1570042112347099137",
         author: "the mat who jonesed the world (@pillowfort)",
         retweets: 15230,
         likes: 125375,
@@ -5448,7 +5450,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1627411021836025869%252FtHU-5ro5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/toothpasta/status/1570924682106503168",
+        url: "https://xcancel.com/toothpasta/status/1570924682106503168",
         author: "Jeb Tush (@toothpasta)",
         retweets: 224,
         likes: 3925,
@@ -5456,7 +5458,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1598478548662210562%252FXJH3X2Gy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/electricalWSOP/status/1571229671685238784",
+        url: "https://xcancel.com/electricalWSOP/status/1571229671685238784",
         author: "monster steve albini (@electricalWSOP)",
         retweets: 207,
         likes: 3369,
@@ -5465,7 +5467,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F881500343%252Fmoneyfire_bigger.GIF",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1576007008264007681",
+        url: "https://xcancel.com/MNateShyamalan/status/1576007008264007681",
         author: "soul nate (@MNateShyamalan)",
         retweets: 577,
         likes: 4385,
@@ -5473,7 +5475,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/EwdatsGROSS/status/1576914552205496321",
+        url: "https://xcancel.com/EwdatsGROSS/status/1576914552205496321",
         author: "1984’s George Whorewell (@EwdatsGROSS)",
         retweets: 8722,
         likes: 70583,
@@ -5482,7 +5484,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1615782305351483402%252Fh3HspUXb_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ben_rosen/status/1577109603170471936",
+        url: "https://xcancel.com/ben_rosen/status/1577109603170471936",
         author: "Ben Rosen (@ben_rosen)",
         retweets: 9897,
         likes: 117106,
@@ -5490,7 +5492,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/depthsofwiki/status/1577711613070790738",
+        url: "https://xcancel.com/depthsofwiki/status/1577711613070790738",
         author: "depths of wikipedia (@depthsofwiki)",
         retweets: 6623,
         likes: 109512,
@@ -5499,7 +5501,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1289218536464961536%252FqpIJWvo8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DylanGelula/status/1577713723162054657",
+        url: "https://xcancel.com/DylanGelula/status/1577713723162054657",
         author: "dylan gelula (@DylanGelula)",
         retweets: 101,
         likes: 5208,
@@ -5507,7 +5509,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1622415502151647235%252FRUbpFLE2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Eve6/status/1577834081034784768",
+        url: "https://xcancel.com/Eve6/status/1577834081034784768",
         author: "eve6 (@Eve6)",
         retweets: 252,
         likes: 3110,
@@ -5516,7 +5518,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733161989474488320%252FsvniHfk1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nickpupo/status/1577870037683240969",
+        url: "https://xcancel.com/nickpupo/status/1577870037683240969",
         author: "Nick Pupo (@nickpupo)",
         retweets: 7909,
         likes: 246281,
@@ -5524,7 +5526,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1653521192110944257%252FzMHbnlsL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JoyceCarolOates/status/1579485068799930368",
+        url: "https://xcancel.com/JoyceCarolOates/status/1579485068799930368",
         author: "Joyce Carol Oates (@JoyceCarolOates)",
         retweets: 198,
         likes: 1857,
@@ -5532,7 +5534,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2683616680%252Fca8aa195d2ccc38da6800678a9d2ae8a_bigger.png",
     },
     {
-        url: "https://twitter.com/lilgrapefruits/status/1580256851475959808",
+        url: "https://xcancel.com/lilgrapefruits/status/1580256851475959808",
         author: "zou bisou bisou where are you (@lilgrapefruits)",
         retweets: 502,
         likes: 8216,
@@ -5541,7 +5543,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704210637554077696%252FnrpMZnHi_bigger.jpg",
     },
     {
-        url: "https://twitter.com/evcon/status/1580582126797619203",
+        url: "https://xcancel.com/evcon/status/1580582126797619203",
         author: "thanksgEVAN (@evcon)",
         retweets: 617,
         likes: 9941,
@@ -5550,7 +5552,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1696915129575616512%252FUYe66WH-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aamnaqureshi_/status/1580647787464560640",
+        url: "https://xcancel.com/aamnaqureshi_/status/1580647787464560640",
         author: "Aamna Qureshi (@aamnaqureshi_)",
         retweets: 2043,
         likes: 24390,
@@ -5558,7 +5560,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1663969438733934593%252FpEI59Ev5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jestom/status/1582860248305455104",
+        url: "https://xcancel.com/jestom/status/1582860248305455104",
         author: "jes tom (@jestom)",
         retweets: 4994,
         likes: 74961,
@@ -5566,7 +5568,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1639037270287081472%252F2yzQErei_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Citizenflaba/status/1582895268717940736",
+        url: "https://xcancel.com/Citizenflaba/status/1582895268717940736",
         author: "Waddle Dee (@Citizenflaba)",
         retweets: 119,
         likes: 7064,
@@ -5574,7 +5576,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1423773646019956738%252FonH-MeUm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ErnieLies/status/1583277460027678722",
+        url: "https://xcancel.com/ErnieLies/status/1583277460027678722",
         author: "Ernie LuckMan (@ErnieLies)",
         retweets: 10342,
         likes: 92656,
@@ -5582,7 +5584,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697964655677673473%252FHNUVJrnd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JamesCoyne/status/1583387554354958336",
+        url: "https://xcancel.com/JamesCoyne/status/1583387554354958336",
         author: "James (@JamesCoyne)",
         retweets: 7647,
         likes: 83343,
@@ -5590,7 +5592,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1722042681264840704%252FWzGei1Jj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1585804925103091712",
+        url: "https://xcancel.com/MNateShyamalan/status/1585804925103091712",
         author: "soul nate (@MNateShyamalan)",
         retweets: 776,
         likes: 7710,
@@ -5598,7 +5600,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/terronk/status/1586370485146689536",
+        url: "https://xcancel.com/terronk/status/1586370485146689536",
         author: "Lee Edwards (@terronk)",
         retweets: 52,
         likes: 1501,
@@ -5606,7 +5608,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1389719412194775043%252FeB6MqYrr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ZoeSchiffer/status/1586486009000140801",
+        url: "https://xcancel.com/ZoeSchiffer/status/1586486009000140801",
         author: "Zoë Schiffer (@ZoeSchiffer)",
         retweets: 40,
         likes: 631,
@@ -5615,7 +5617,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715480824580382720%252FVpt6IE1t_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pjjacobson/status/1586776283710717953",
+        url: "https://xcancel.com/pjjacobson/status/1586776283710717953",
         author: "Paul (@pjjacobson)",
         retweets: 10485,
         likes: 91450,
@@ -5624,7 +5626,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F878282666671456260%252FmOz2UlBt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaboukie/status/1587967238497337345",
+        url: "https://xcancel.com/jaboukie/status/1587967238497337345",
         author: "jaboukie (@jaboukie)",
         retweets: 943,
         likes: 16755,
@@ -5632,7 +5634,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649264177876459522%252FAUhQZoPc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MrErikJackson/status/1587975337367015428",
+        url: "https://xcancel.com/MrErikJackson/status/1587975337367015428",
         author: "@                  .bsky.social (@MrErikJackson)",
         retweets: 6219,
         likes: 56277,
@@ -5641,7 +5643,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F959230163744673793%252F_h_O4io3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DannyVegito/status/1588237959236653057",
+        url: "https://xcancel.com/DannyVegito/status/1588237959236653057",
         author: "Keifer (@DannyVegito)",
         retweets: 4307,
         likes: 55271,
@@ -5649,7 +5651,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726746619515645952%252FaugGI7A9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/atrubek/status/1588292974785761280",
+        url: "https://xcancel.com/atrubek/status/1588292974785761280",
         author: "Anne Trubek (@atrubek)",
         retweets: 2043,
         likes: 16845,
@@ -5658,7 +5660,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1374877088126271493%252FNfh9MvJk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bencjenkins/status/1588345653611986944",
+        url: "https://xcancel.com/bencjenkins/status/1588345653611986944",
         author: "Ben Jenkins (@bencjenkins)",
         retweets: 4512,
         likes: 65367,
@@ -5667,7 +5669,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1518389958192812033%252F6d3oYqJO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/donmoyn/status/1588739470601654272",
+        url: "https://xcancel.com/donmoyn/status/1588739470601654272",
         author: "Don Moynihan (@donmoyn)",
         retweets: 7805,
         likes: 63766,
@@ -5676,7 +5678,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F684804969459912704%252FPs0Nu_hj_bigger.png",
     },
     {
-        url: "https://twitter.com/willystaley/status/1588895660262428672",
+        url: "https://xcancel.com/willystaley/status/1588895660262428672",
         author: "willy (@willystaley)",
         retweets: 915,
         likes: 10472,
@@ -5684,7 +5686,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F901090690838523904%252F-PwM3MQL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jamieloftusHELP/status/1591306825655517184",
+        url: "https://xcancel.com/jamieloftusHELP/status/1591306825655517184",
         author: "jamie loftus (@jamieloftusHELP)",
         retweets: 64,
         likes: 3245,
@@ -5692,7 +5694,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1493397413532372996%252FVnwwjvvQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RoyCoCEO/status/1592580455899201541",
+        url: "https://xcancel.com/RoyCoCEO/status/1592580455899201541",
         author: "Kendall Roy, Analyst 1 (@RoyCoCEO)",
         retweets: 6361,
         likes: 77260,
@@ -5700,7 +5702,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1479865281333932032%252FLlTvxTrH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/matt_levine/status/1593648716992299010",
+        url: "https://xcancel.com/matt_levine/status/1593648716992299010",
         author: "Matt Levine (@matt_levine)",
         retweets: 27,
         likes: 634,
@@ -5708,7 +5710,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F827563076861952002%252Faoo1vUGJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/deleuzesionaI/status/1596269067719299072",
+        url: "https://xcancel.com/deleuzesionaI/status/1596269067719299072",
         author: "naman (@deleuzesionaI)",
         retweets: 2053,
         likes: 8215,
@@ -5716,7 +5718,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1584312259790229505%252Ftky8-5hz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KimmyMonte/status/1596981098512515072",
+        url: "https://xcancel.com/KimmyMonte/status/1596981098512515072",
         author: "kim (@KimmyMonte)",
         retweets: 1559,
         likes: 7229,
@@ -5724,7 +5726,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692591133984010240%252FwZh4X8wG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MasterTimBlais/status/1597171130108108807",
+        url: "https://xcancel.com/MasterTimBlais/status/1597171130108108807",
         author: "CEO in CDMX (9/100 Songs) (@MasterTimBlais)",
         retweets: 267,
         likes: 1972,
@@ -5733,7 +5735,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715944101902766080%252FEGe_P6fN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mmmmmdddddooooo/status/1597410363242295296",
+        url: "https://xcancel.com/mmmmmdddddooooo/status/1597410363242295296",
         author: "michael (@mmmmmdddddooooo)",
         retweets: 472,
         likes: 6483,
@@ -5741,7 +5743,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1672290742880935937%252FVPYRcBlL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tqbf/status/1598513757805858820",
+        url: "https://xcancel.com/tqbf/status/1598513757805858820",
         author: "Thomas H. Ptacek (@tqbf)",
         retweets: 11378,
         likes: 75979,
@@ -5750,7 +5752,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1440053758084272132%252FdF6N7UBk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/elspethreeve/status/1598865363017805825",
+        url: "https://xcancel.com/elspethreeve/status/1598865363017805825",
         author: "Elle Reeve (@elspethreeve)",
         retweets: 493,
         likes: 8072,
@@ -5758,7 +5760,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1540529294535000064%252FJIfarLTX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/elspethreeve/status/1598871443105673216",
+        url: "https://xcancel.com/elspethreeve/status/1598871443105673216",
         author: "Elle Reeve (@elspethreeve)",
         retweets: 67,
         likes: 694,
@@ -5766,7 +5768,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1540529294535000064%252FJIfarLTX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MNateShyamalan/status/1599428757428658176",
+        url: "https://xcancel.com/MNateShyamalan/status/1599428757428658176",
         author: "soul nate (@MNateShyamalan)",
         retweets: 7436,
         likes: 90313,
@@ -5774,7 +5776,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649213569999818752%252F7xsxQv4__bigger.jpg",
     },
     {
-        url: "https://twitter.com/revrrlewis/status/1607054472945205250",
+        url: "https://xcancel.com/revrrlewis/status/1607054472945205250",
         author: "Bobby Lewis (@revrrlewis)",
         retweets: 5511,
         likes: 52761,
@@ -5783,7 +5785,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1621373073902518272%252F1SzFmb7W_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Voodoo_Pork/status/1607134763315339266",
+        url: "https://xcancel.com/Voodoo_Pork/status/1607134763315339266",
         author: "@carlwilhoyte on Bluesky (@Voodoo_Pork)",
         retweets: 332,
         likes: 2689,
@@ -5792,7 +5794,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1445460714894749697%252FAaDj7b2p_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nntaleb/status/1609751283119935490",
+        url: "https://xcancel.com/nntaleb/status/1609751283119935490",
         author: "Nassim Nicholas Taleb (@nntaleb)",
         retweets: 1252,
         likes: 13391,
@@ -5800,7 +5802,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1200820286964346880%252FZz6YSFus_bigger.jpg",
     },
     {
-        url: "https://twitter.com/feydemon/status/1613566112888659974",
+        url: "https://xcancel.com/feydemon/status/1613566112888659974",
         author: "nes (@feydemon)",
         retweets: 10299,
         likes: 74900,
@@ -5809,7 +5811,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734501708045144064%252FM1VXABkG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cybramir/status/1615030448274706433",
+        url: "https://xcancel.com/cybramir/status/1615030448274706433",
         author: "cybr amir (@cybramir)",
         retweets: 24430,
         likes: 111916,
@@ -5818,7 +5820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729731486906036224%252FGDyAiv6s_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gilbertjasono/status/1623163539803316224",
+        url: "https://xcancel.com/gilbertjasono/status/1623163539803316224",
         author: "Jason O. Gilbert (@gilbertjasono)",
         retweets: 8,
         likes: 88,
@@ -5826,7 +5828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F458305950198161408%252F10hxE-eI_bigger.png",
     },
     {
-        url: "https://twitter.com/youngtiddy/status/1625522838458494977",
+        url: "https://xcancel.com/youngtiddy/status/1625522838458494977",
         author: "teryn (@youngtiddy)",
         retweets: 3314,
         likes: 33717,
@@ -5834,7 +5836,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1449530135158292486%252F_YqUOC-j_bigger.jpg",
     },
     {
-        url: "https://twitter.com/marshallvore/status/1626967430370299908",
+        url: "https://xcancel.com/marshallvore/status/1626967430370299908",
         author: "marshall country mart (@marshallvore)",
         retweets: 1657,
         likes: 45114,
@@ -5843,7 +5845,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699843141778698240%252F8aCgazWV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsPhetz/status/1627756837973143553",
+        url: "https://xcancel.com/ItsPhetz/status/1627756837973143553",
         author: "i am on the new site now thanks (@ItsPhetz)",
         retweets: 468,
         likes: 16651,
@@ -5852,7 +5854,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1393200153910079494%252FLM_U6BJV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GianmarcoSoresi/status/1627862056698347520",
+        url: "https://xcancel.com/GianmarcoSoresi/status/1627862056698347520",
         author: "gianmarco (@GianmarcoSoresi)",
         retweets: 1672,
         likes: 12479,
@@ -5860,7 +5862,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444809097048514565%252FxRk56a9m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bobby/status/1630377937923985408",
+        url: "https://xcancel.com/bobby/status/1630377937923985408",
         author: "bobby (@bobby)",
         retweets: 1716,
         likes: 35361,
@@ -5868,7 +5870,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628928708659535874%252FD7Xj1hiR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/roastmalone_/status/1630397947761528834",
+        url: "https://xcancel.com/roastmalone_/status/1630397947761528834",
         author: "stoned cold fox (@roastmalone_)",
         retweets: 5287,
         likes: 56117,
@@ -5876,7 +5878,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520548346527584256%252FqfGSIM1e_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fussybabybitch/status/1639409818334294016",
+        url: "https://xcancel.com/fussybabybitch/status/1639409818334294016",
         author: "Jae Bearhat (@fussybabybitch)",
         retweets: 13198,
         likes: 98724,
@@ -5885,7 +5887,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1581144504983486464%252F3rxmw3aq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/franklinisbored/status/1646517950747381762",
+        url: "https://xcancel.com/franklinisbored/status/1646517950747381762",
         author: "Franklin (@franklinisbored)",
         retweets: 365,
         likes: 3255,
@@ -5893,7 +5895,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1631857268630192129%252FcV5jmxVS_bigger.png",
     },
     {
-        url: "https://twitter.com/pixelatedboat/status/1649049178767777798",
+        url: "https://xcancel.com/pixelatedboat/status/1649049178767777798",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         retweets: 1313,
         likes: 7369,
@@ -5901,7 +5903,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TVsCarlKinsella/status/1655097905399693312",
+        url: "https://xcancel.com/TVsCarlKinsella/status/1655097905399693312",
         author: "Carl Kinsella (@TVsCarlKinsella)",
         retweets: 2241,
         likes: 43175,
@@ -5909,7 +5911,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1687872671877361664%252FBJvheFlI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/zachsilberberg/status/1655567526347063298",
+        url: "https://xcancel.com/zachsilberberg/status/1655567526347063298",
         author: "zach silberberg supports SAG-AFTRA (@zachsilberberg)",
         retweets: 5377,
         likes: 37430,
@@ -5917,7 +5919,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709792200765120512%252FrXbVAH9d_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Nick_Cerveza/status/1656384398906777603",
+        url: "https://xcancel.com/Nick_Cerveza/status/1656384398906777603",
         author: "Pine Marten (@Nick_Cerveza)",
         retweets: 4586,
         likes: 19690,
@@ -5925,7 +5927,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715769973228883968%252FEt5VDBhG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dekubrush/status/1661983066355580929",
+        url: "https://xcancel.com/dekubrush/status/1661983066355580929",
         author: "Danny   (@dekubrush)",
         retweets: 6239,
         likes: 37698,
@@ -5934,7 +5936,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1528462170580828165%252FoOnHezTd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jeeyonshim/status/1666125851640074240",
+        url: "https://xcancel.com/jeeyonshim/status/1666125851640074240",
         author: "jeeyonardo dicaprio (@jeeyonshim)",
         retweets: 11301,
         likes: 122665,
@@ -5943,7 +5945,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1659033452518453248%252FWH-e2U8D_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephenasmith/status/1672344468463271937",
+        url: "https://xcancel.com/stephenasmith/status/1672344468463271937",
         author: "Stephen A Smith (@stephenasmith)",
         retweets: 276,
         likes: 2477,
@@ -5951,7 +5953,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724515058376400896%252FLM2zVPsV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/emmabaccellieri/status/1674071335234949120",
+        url: "https://xcancel.com/emmabaccellieri/status/1674071335234949120",
         author: "Emma Baccellieri (@emmabaccellieri)",
         retweets: 3873,
         likes: 28602,
@@ -5960,7 +5962,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542401097456914433%252F_A9uOV7V_bigger.jpg",
     },
     {
-        url: "https://twitter.com/FBIWFO/status/1678524780230656000",
+        url: "https://xcancel.com/FBIWFO/status/1678524780230656000",
         author: "FBI Washington Field (@FBIWFO)",
         retweets: 4673,
         likes: 23639,
@@ -5969,7 +5971,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1079823183442632704%252F5ahh3aFR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tomwalkerisgood/status/1680793340642746370",
+        url: "https://xcancel.com/tomwalkerisgood/status/1680793340642746370",
         author: "TOM (@tomwalkerisgood)",
         retweets: 4587,
         likes: 22267,
@@ -5977,7 +5979,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1392276275499175940%252FvNdpx6Ay_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsDanSheehan/status/1693284404922114509",
+        url: "https://xcancel.com/ItsDanSheehan/status/1693284404922114509",
         author: "Dan Sheehan (@ItsDanSheehan)",
         retweets: 1649,
         likes: 35046,
@@ -5985,7 +5987,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/len0killer/status/1707217656254714342",
+        url: "https://xcancel.com/len0killer/status/1707217656254714342",
         author: "Thomas (@len0killer)",
         retweets: 3737,
         likes: 34425,
@@ -5993,7 +5995,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1679518598380027904%252FzIBXiftF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cher/status/194552615672102912",
+        url: "https://xcancel.com/cher/status/194552615672102912",
         author: "Cher (@cher)",
         retweets: 17065,
         likes: 38929,
@@ -6001,7 +6003,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KDTrey5/status/19970390110",
+        url: "https://xcancel.com/KDTrey5/status/19970390110",
         author: "Kevin Durant (@KDTrey5)",
         retweets: 53179,
         likes: 81191,
@@ -6009,7 +6011,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KrisJenner/status/200413753290924032",
+        url: "https://xcancel.com/KrisJenner/status/200413753290924032",
         author: "Kris Jenner (@KrisJenner)",
         retweets: 151708,
         likes: 230649,
@@ -6017,7 +6019,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1148230318911963136%252FQO3WaOWg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/david_j_roth/status/212767135901024256",
+        url: "https://xcancel.com/david_j_roth/status/212767135901024256",
         author: "David Roth (@david_j_roth)",
         retweets: 14067,
         likes: 34687,
@@ -6025,7 +6027,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1224136390415437825%252FDe8p8pCJ_bigger.png",
     },
     {
-        url: "https://twitter.com/Horse_ebooks/status/218439593240956928",
+        url: "https://xcancel.com/Horse_ebooks/status/218439593240956928",
         author: "Horse ebooks (@Horse_ebooks)",
         retweets: 94941,
         likes: 105449,
@@ -6033,7 +6035,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1096005346%252F1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cher/status/236855826340532224",
+        url: "https://xcancel.com/cher/status/236855826340532224",
         author: "Cher (@cher)",
         retweets: 36837,
         likes: 54972,
@@ -6041,7 +6043,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ichlugebullets/status/248065287541366784",
+        url: "https://xcancel.com/ichlugebullets/status/248065287541366784",
         author: "Childish Gabibbo (@ichlugebullets)",
         retweets: 503,
         likes: 1265,
@@ -6049,7 +6051,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1606630711284350977%252FiaII0T9W_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ThatKevinSmith/status/2554608773",
+        url: "https://xcancel.com/ThatKevinSmith/status/2554608773",
         author: "KevinSmith (@ThatKevinSmith)",
         retweets: 7556,
         likes: 17676,
@@ -6057,7 +6059,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F107763943%252Ftwitter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/realDonaldTrump/status/258262904091058176",
+        url: "https://xcancel.com/realDonaldTrump/status/258262904091058176",
         author: "Donald J. Trump (@realDonaldTrump)",
         retweets: 39194,
         likes: 78545,
@@ -6065,7 +6067,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/realDonaldTrump/status/258640349872926720",
+        url: "https://xcancel.com/realDonaldTrump/status/258640349872926720",
         author: "Donald J. Trump (@realDonaldTrump)",
         retweets: 28061,
         likes: 36378,
@@ -6073,7 +6075,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fivethirtynate/status/264786332725956608",
+        url: "https://xcancel.com/fivethirtynate/status/264786332725956608",
         author: "Nate Silver 2.0 (@fivethirtynate)",
         retweets: 298,
         likes: 216,
@@ -6081,7 +6083,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2799403489%252F3e831177b2360f3b21c4c2912b89dffa_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/KDTrey5/status/26802158502416384",
+        url: "https://xcancel.com/KDTrey5/status/26802158502416384",
         author: "Kevin Durant (@KDTrey5)",
         retweets: 71956,
         likes: 113080,
@@ -6089,7 +6091,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shockproofbeats/status/269367619931500544",
+        url: "https://xcancel.com/shockproofbeats/status/269367619931500544",
         author: "The author, Séamas O'Reilly (@shockproofbeats)",
         retweets: 8241,
         likes: 17801,
@@ -6097,7 +6099,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1282765412539695104%252F4Z-HDQsh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/289148349003730947",
+        url: "https://xcancel.com/TriciaLockwood/status/289148349003730947",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 7515,
         likes: 22329,
@@ -6105,7 +6107,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewtoothpaste/status/293454323403350019",
+        url: "https://xcancel.com/drewtoothpaste/status/293454323403350019",
         author: "drewtoothpaste.bsky.social (@drewtoothpaste)",
         retweets: 14014,
         likes: 23587,
@@ -6113,7 +6115,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wolfpupy/status/303090219811479552",
+        url: "https://xcancel.com/wolfpupy/status/303090219811479552",
         author: "wolf pupy (@wolfpupy)",
         retweets: 77,
         likes: 101,
@@ -6121,7 +6123,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1657771440618471424%252FYV0PJcVc_bigger.png",
     },
     {
-        url: "https://twitter.com/TamiCru/status/305088281966698496",
+        url: "https://xcancel.com/TamiCru/status/305088281966698496",
         author: "Tami Cru (@TamiCru)",
         retweets: 1118,
         likes: 2005,
@@ -6129,7 +6131,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F777305330560733185%252FEMSk5Ko4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/humblebogman/status/306573778719240192",
+        url: "https://xcancel.com/humblebogman/status/306573778719240192",
         author: "Gravity Bong Joon Ho (@humblebogman)",
         retweets: 16875,
         likes: 27427,
@@ -6137,7 +6139,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1614115432029454337%252FScgrQNnj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DannyDeVito/status/308104521538740224",
+        url: "https://xcancel.com/DannyDeVito/status/308104521538740224",
         author: "Danny DeVito (@DannyDeVito)",
         retweets: 10472,
         likes: 29089,
@@ -6145,7 +6147,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F400232403%252FPhoto_6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fanfiction_txt/status/329292717735686144",
+        url: "https://xcancel.com/fanfiction_txt/status/329292717735686144",
         author: "Fanfiction_txt (@fanfiction_txt)",
         retweets: 68587,
         likes: 97901,
@@ -6153,7 +6155,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377884439884128256%252FjiHNSEl5_bigger.png",
     },
     {
-        url: "https://twitter.com/SHAQ/status/3435123096",
+        url: "https://xcancel.com/SHAQ/status/3435123096",
         author: "SHAQ (@SHAQ)",
         retweets: 93938,
         likes: 143407,
@@ -6161,7 +6163,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1579949436527988737%252FRDqn1udJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kthorjensen/status/349537131628212224",
+        url: "https://xcancel.com/kthorjensen/status/349537131628212224",
         author: "K. Thor Jensen (@kthorjensen)",
         retweets: 2286,
         likes: 4687,
@@ -6169,7 +6171,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1251282880866603008%252FyHdM03YX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/britneyspears/status/35767743634481152",
+        url: "https://xcancel.com/britneyspears/status/35767743634481152",
         author: "Britney Spears (@britneyspears)",
         retweets: 149670,
         likes: 222180,
@@ -6177,7 +6179,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323418800876777474%252F0w4orMOC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/murrman5/status/367689548266209281",
+        url: "https://xcancel.com/murrman5/status/367689548266209281",
         author: "brent (@murrman5)",
         retweets: 10603,
         likes: 22269,
@@ -6185,7 +6187,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ProBirdRights/status/368542088897372161",
+        url: "https://xcancel.com/ProBirdRights/status/368542088897372161",
         author: "birdsrightsactivist (@ProBirdRights)",
         retweets: 18345,
         likes: 38383,
@@ -6193,7 +6195,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1296150384675680256%252Fx7KAA4L9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HumanPog/status/369516678511484928",
+        url: "https://xcancel.com/HumanPog/status/369516678511484928",
         author: "capitalism liker (@HumanPog)",
         retweets: 5125,
         likes: 12640,
@@ -6201,7 +6203,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F835234907869839360%252FfJc7xUKI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/davedittell/status/372490479696220161",
+        url: "https://xcancel.com/davedittell/status/372490479696220161",
         author: "the garbage shit boy (@davedittell)",
         retweets: 9591,
         likes: 20239,
@@ -6209,7 +6211,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058196994185879554%252FyXiKLfr__bigger.jpg",
     },
     {
-        url: "https://twitter.com/frankcifaldi/status/385084302897057792",
+        url: "https://xcancel.com/frankcifaldi/status/385084302897057792",
         author: "Frank Cifaldi (Complete).torrent (@frankcifaldi)",
         retweets: 5230,
         likes: 7251,
@@ -6218,7 +6220,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1597753788751695872%252FqAFxIt5I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hodgesboi15/status/388859485974171649",
+        url: "https://xcancel.com/hodgesboi15/status/388859485974171649",
         author: "september22 (@hodgesboi15)",
         retweets: 160182,
         likes: 202735,
@@ -6226,7 +6228,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F786549777089650688%252FZO6WpwyV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bridger_w/status/389972441126035456",
+        url: "https://xcancel.com/bridger_w/status/389972441126035456",
         author: "Bridger Winegar (@bridger_w)",
         retweets: 17942,
         likes: 39986,
@@ -6235,7 +6237,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1255573234%252Ftweet_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ch000ch/status/391611930865303552",
+        url: "https://xcancel.com/ch000ch/status/391611930865303552",
         author: "chuuch (@ch000ch)",
         retweets: 58421,
         likes: 115602,
@@ -6243,7 +6245,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/shutupmikeginn/status/403359911481839617",
+        url: "https://xcancel.com/shutupmikeginn/status/403359911481839617",
         author: "mike ginn (@shutupmikeginn)",
         retweets: 16331,
         likes: 63083,
@@ -6251,7 +6253,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1700614780074250240%252FjQDbBOt3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rihanna/status/41352422525767680",
+        url: "https://xcancel.com/rihanna/status/41352422525767680",
         author: "Rihanna (@rihanna)",
         retweets: 36752,
         likes: 46701,
@@ -6259,7 +6261,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585851311701970945%252FfC9dfWVm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/carmeloanthony/status/418105548845121536",
+        url: "https://xcancel.com/carmeloanthony/status/418105548845121536",
         author: "Carmelo Anthony (@carmeloanthony)",
         retweets: 27210,
         likes: 22521,
@@ -6267,7 +6269,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1336430445383327745%252FkMWB9JJ9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TechnicalTaIk/status/433683609867022337",
+        url: "https://xcancel.com/TechnicalTaIk/status/433683609867022337",
         author: "Technology Desk (@TechnicalTaIk)",
         retweets: 346,
         likes: 1372,
@@ -6276,7 +6278,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1162050122689257473%252FIx6_YoFF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chelseaanet/status/443120166482612224",
+        url: "https://xcancel.com/chelseaanet/status/443120166482612224",
         author: "chelsea anét (@chelseaanet)",
         retweets: 24417,
         likes: 59826,
@@ -6284,7 +6286,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214647555314683904%252FFygvrOJ1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/imbethmccoll/status/443430834117558272",
+        url: "https://xcancel.com/imbethmccoll/status/443430834117558272",
         author: "Beth McColl (@imbethmccoll)",
         retweets: 818,
         likes: 2532,
@@ -6292,7 +6294,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chelseaanet/status/445293618475966464",
+        url: "https://xcancel.com/chelseaanet/status/445293618475966464",
         author: "chelsea anét (@chelseaanet)",
         retweets: 17311,
         likes: 32165,
@@ -6301,7 +6303,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214647555314683904%252FFygvrOJ1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MarthaStewart/status/463333915739316224",
+        url: "https://xcancel.com/MarthaStewart/status/463333915739316224",
         author: "Martha Stewart (@MarthaStewart)",
         retweets: 36605,
         likes: 50410,
@@ -6310,7 +6312,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455119021196599296%252FVJKGfdqG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/radtoria/status/465645553271861248",
+        url: "https://xcancel.com/radtoria/status/465645553271861248",
         author: "ghost mom (@radtoria)",
         retweets: 543,
         likes: 1415,
@@ -6318,7 +6320,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724320803012128768%252FjyAOK8fx_bigger.jpg",
     },
     {
-        url: "https://twitter.com/david8hughes/status/473127276653985792",
+        url: "https://xcancel.com/david8hughes/status/473127276653985792",
         author: "David Hughes (@david8hughes)",
         retweets: 46076,
         likes: 78635,
@@ -6326,7 +6328,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719119003808116736%252FFT0RS0dh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GrowlyGrego/status/474566121643712512",
+        url: "https://xcancel.com/GrowlyGrego/status/474566121643712512",
         author: "greg (@GrowlyGrego)",
         retweets: 1722,
         likes: 4248,
@@ -6334,7 +6336,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1372221846494572551%252FuMpwZ4vQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MELANIATRUMP/status/480709395706179584",
+        url: "https://xcancel.com/MELANIATRUMP/status/480709395706179584",
         author: "MELANIA TRUMP (@MELANIATRUMP)",
         retweets: 11912,
         likes: 12725,
@@ -6343,7 +6345,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F726781589192069126%252Fzg456hZZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/486930173498241025",
+        url: "https://xcancel.com/TriciaLockwood/status/486930173498241025",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 8649,
         likes: 26949,
@@ -6352,7 +6354,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bridger_w/status/490356269962637312",
+        url: "https://xcancel.com/bridger_w/status/490356269962637312",
         author: "Bridger Winegar (@bridger_w)",
         retweets: 3215,
         likes: 7238,
@@ -6360,7 +6362,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1255573234%252Ftweet_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fro_vo/status/490637159703932928",
+        url: "https://xcancel.com/fro_vo/status/490637159703932928",
         author: "FRO VO (@fro_vo)",
         retweets: 9160,
         likes: 15783,
@@ -6368,7 +6370,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675639479162355712%252FWSWbEpMj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Hegelbon/status/492741034749620224",
+        url: "https://xcancel.com/Hegelbon/status/492741034749620224",
         author: "tell me howd you end up back here in ybor city (@Hegelbon)",
         retweets: 13228,
         likes: 29106,
@@ -6376,7 +6378,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1522409073173536768%252FR4XNnFI7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wouldstepback/status/499613096697413632",
+        url: "https://xcancel.com/wouldstepback/status/499613096697413632",
         author: "i wish you (@wouldstepback)",
         retweets: 18291,
         likes: 17863,
@@ -6384,7 +6386,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/ristolable/status/499692323630886912",
+        url: "https://xcancel.com/ristolable/status/499692323630886912",
         author: "ristolable (@ristolable)",
         retweets: 14383,
         likes: 34826,
@@ -6392,7 +6394,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729582833574748160%252FucPgBdFO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KDTrey5/status/505221400148197376",
+        url: "https://xcancel.com/KDTrey5/status/505221400148197376",
         author: "Kevin Durant (@KDTrey5)",
         retweets: 4004,
         likes: 6914,
@@ -6400,7 +6402,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/FINALLEVEL/status/50925812135899137",
+        url: "https://xcancel.com/FINALLEVEL/status/50925812135899137",
         author: "ICE T (@FINALLEVEL)",
         retweets: 2733,
         likes: 6476,
@@ -6408,7 +6410,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F909984858818170881%252FjagXDTlf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jonnysun/status/512013757367980032",
+        url: "https://xcancel.com/jonnysun/status/512013757367980032",
         author: "jonny sun (@jonnysun)",
         retweets: 8770,
         likes: 16432,
@@ -6416,7 +6418,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314628602198028289%252FZbkd7FYQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/glazerboohoohoo/status/515243252199342080",
+        url: "https://xcancel.com/glazerboohoohoo/status/515243252199342080",
         author: "glazer (@glazerboohoohoo)",
         retweets: 15978,
         likes: 33317,
@@ -6425,7 +6427,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1728279848882167808%252FYuSqooHp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/realDonaldTrump/status/516382177798680576",
+        url: "https://xcancel.com/realDonaldTrump/status/516382177798680576",
         author: "Donald J. Trump (@realDonaldTrump)",
         retweets: 70915,
         likes: 114552,
@@ -6433,7 +6435,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Stev_D/status/524686327233921025",
+        url: "https://xcancel.com/Stev_D/status/524686327233921025",
         author: "Stev D (@Stev_D)",
         retweets: 11916,
         likes: 40962,
@@ -6441,7 +6443,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1137343078870716416%252FOD2bfmck_bigger.jpg",
     },
     {
-        url: "https://twitter.com/behindyourback/status/528264854906621952",
+        url: "https://xcancel.com/behindyourback/status/528264854906621952",
         author: "maura quint (@behindyourback)",
         retweets: 1622,
         likes: 3875,
@@ -6449,7 +6451,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692323268571652096%252FKPbINh_k_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tarashoe/status/532068919616368640",
+        url: "https://xcancel.com/tarashoe/status/532068919616368640",
         author: "tara shoe (@tarashoe)",
         retweets: 7096,
         likes: 16679,
@@ -6457,7 +6459,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F732336250795909120%252FwaMCOQRL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ojedge/status/538257725466365952",
+        url: "https://xcancel.com/ojedge/status/538257725466365952",
         author: "Ollie Garch (Not Sanctioned) (@ojedge)",
         retweets: 6055,
         likes: 9657,
@@ -6465,7 +6467,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F953756620953210881%252FWAcE8O46_bigger.jpg",
     },
     {
-        url: "https://twitter.com/thepunningman/status/539714048246697986",
+        url: "https://xcancel.com/thepunningman/status/539714048246697986",
         author: "Sean Leahy (@thepunningman)",
         retweets: 16692,
         likes: 35059,
@@ -6473,7 +6475,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925665229920456706%252FIouKOUHL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Pundamentalism/status/540422155264335872",
+        url: "https://xcancel.com/Pundamentalism/status/540422155264335872",
         author: "Pundamentalism (@Pundamentalism)",
         retweets: 941,
         likes: 1202,
@@ -6481,7 +6483,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F956163595607224320%252F-3SNN-qj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/butterwolf/status/545481878523088896",
+        url: "https://xcancel.com/butterwolf/status/545481878523088896",
         author: "anthony (@butterwolf)",
         retweets: 5270,
         likes: 10883,
@@ -6490,7 +6492,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1388976204687069189%252FyH-021aR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/thepunningman/status/552111533787205632",
+        url: "https://xcancel.com/thepunningman/status/552111533787205632",
         author: "Sean Leahy (@thepunningman)",
         retweets: 9188,
         likes: 16158,
@@ -6498,7 +6500,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925665229920456706%252FIouKOUHL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HumanPog/status/553666189667610624",
+        url: "https://xcancel.com/HumanPog/status/553666189667610624",
         author: "capitalism liker (@HumanPog)",
         retweets: 3225,
         likes: 8615,
@@ -6506,7 +6508,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F835234907869839360%252FfJc7xUKI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/10ehC/status/553703519229071360",
+        url: "https://xcancel.com/10ehC/status/553703519229071360",
         author: "Tennessee Grimes (@10ehC)",
         retweets: 21038,
         likes: 32317,
@@ -6515,7 +6517,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248340894849421321%252FmNkqc-wK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chargers/status/5596520",
+        url: "https://xcancel.com/chargers/status/5596520",
         author: "Los Angeles Chargers (@chargers)",
         retweets: 104406,
         likes: 140569,
@@ -6523,7 +6525,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734258885383577600%252FAPkr0Z9V_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dandotjs/status/559811589357187074",
+        url: "https://xcancel.com/dandotjs/status/559811589357187074",
         author: "dan.js (@dandotjs)",
         retweets: 1523,
         likes: 2550,
@@ -6531,7 +6533,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589147899497160704%252F4PPN1CCB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dyldonot/status/560567494847766528",
+        url: "https://xcancel.com/dyldonot/status/560567494847766528",
         author: "Dylan Mangan (@dyldonot)",
         retweets: 8658,
         likes: 10260,
@@ -6539,7 +6541,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482757776409604105%252FMu1Nphqv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/behindyourback/status/563138952123920384",
+        url: "https://xcancel.com/behindyourback/status/563138952123920384",
         author: "maura quint (@behindyourback)",
         retweets: 2233,
         likes: 4890,
@@ -6547,7 +6549,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692323268571652096%252FKPbINh_k_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AbrasiveGhost/status/563769140130086912",
+        url: "https://xcancel.com/AbrasiveGhost/status/563769140130086912",
         author: "truth expert (@AbrasiveGhost)",
         retweets: 1831,
         likes: 3582,
@@ -6555,7 +6557,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1677378025212502030%252Fn5X2-l3s_bigger.jpg",
     },
     {
-        url: "https://twitter.com/StanfordGSB/status/564839950521090048",
+        url: "https://xcancel.com/StanfordGSB/status/564839950521090048",
         author: "Stanford Graduate School of Business (@StanfordGSB)",
         retweets: 420,
         likes: 888,
@@ -6564,7 +6566,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F997216596597784577%252F2Mhi4lR2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BacklineNurse/status/567851453114503168",
+        url: "https://xcancel.com/BacklineNurse/status/567851453114503168",
         author: "Jade Van Kley (@BacklineNurse)",
         retweets: 6157,
         likes: 12297,
@@ -6572,7 +6574,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675861361010659329%252FG3PLjy3c_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HelenKennedy/status/570589112652201984",
+        url: "https://xcancel.com/HelenKennedy/status/570589112652201984",
         author: "Helen Kennedy (@HelenKennedy)",
         retweets: 6594,
         likes: 14320,
@@ -6581,7 +6583,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F841120715478827008%252FPJkWzk4u_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CornOnTheGoblin/status/572901684617322496",
+        url: "https://xcancel.com/CornOnTheGoblin/status/572901684617322496",
         author: "Cat Damon (@CornOnTheGoblin)",
         retweets: 1078,
         likes: 2991,
@@ -6589,7 +6591,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F466431119534329858%252F7ncWKKow_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/ch000ch/status/573191831363686400",
+        url: "https://xcancel.com/ch000ch/status/573191831363686400",
         author: "chuuch (@ch000ch)",
         retweets: 13251,
         likes: 29759,
@@ -6597,7 +6599,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DancesWithTamis/status/574308651231375360",
+        url: "https://xcancel.com/DancesWithTamis/status/574308651231375360",
         author: "Tam Yajia (@DancesWithTamis)",
         retweets: 1812,
         likes: 5370,
@@ -6605,7 +6607,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683524320893747201%252F_Se4ueR8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tastefactory/status/574985539276959744",
+        url: "https://xcancel.com/tastefactory/status/574985539276959744",
         author: "pat tobin (@tastefactory)",
         retweets: 1796,
         likes: 3969,
@@ -6613,7 +6615,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839971048179269634%252Fyccn3pMU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JosephScrimshaw/status/575157956104204288",
+        url: "https://xcancel.com/JosephScrimshaw/status/575157956104204288",
         author: "Joseph Scrimshaw (@JosephScrimshaw)",
         retweets: 11872,
         likes: 22419,
@@ -6621,7 +6623,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1201776450%252FJSwithYodatwit_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jenlaw_11/status/575781816491098112",
+        url: "https://xcancel.com/jenlaw_11/status/575781816491098112",
         author: "NOT A METH LAB (@jenlaw_11)",
         retweets: 1064,
         likes: 1957,
@@ -6629,7 +6631,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1369361181954170880%252FS-Pdyr92_bigger.jpg",
     },
     {
-        url: "https://twitter.com/davedittell/status/576925648104464384",
+        url: "https://xcancel.com/davedittell/status/576925648104464384",
         author: "the garbage shit boy (@davedittell)",
         retweets: 6455,
         likes: 15453,
@@ -6637,7 +6639,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058196994185879554%252FyXiKLfr__bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheAlexP/status/578044824462356481",
+        url: "https://xcancel.com/TheAlexP/status/578044824462356481",
         author: "Jackman...Forever (@TheAlexP)",
         retweets: 3431,
         likes: 5437,
@@ -6645,7 +6647,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135389411800207360%252FH3OD9dR2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SCbchbum/status/579150849181507584",
+        url: "https://xcancel.com/SCbchbum/status/579150849181507584",
         author: "Erica (@SCbchbum)",
         retweets: 5586,
         likes: 9769,
@@ -6653,7 +6655,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1661602355065016321%252Funz9zd1r_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lazerdoov/status/579484417820766208",
+        url: "https://xcancel.com/lazerdoov/status/579484417820766208",
         author: "Dan Duvall (@lazerdoov)",
         retweets: 607,
         likes: 1426,
@@ -6661,7 +6663,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1240473523987968000%252FbwwpZfmA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/manyeyes_music/status/579505237637107712",
+        url: "https://xcancel.com/manyeyes_music/status/579505237637107712",
         author: "Many Eyes (@manyeyes_music)",
         retweets: 1452,
         likes: 3191,
@@ -6669,7 +6671,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711740738533314560%252FzCiz0W2__bigger.jpg",
     },
     {
-        url: "https://twitter.com/nevona/status/580455180916912129",
+        url: "https://xcancel.com/nevona/status/580455180916912129",
         author: "nevona (@nevona)",
         retweets: 18668,
         likes: 34338,
@@ -6678,7 +6680,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1427114069568466947%252F3pxtF6HK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/581955225235292160",
+        url: "https://xcancel.com/InternetHippo/status/581955225235292160",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 36236,
         likes: 46632,
@@ -6686,7 +6688,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BAKKOOONN/status/585949245229760512",
+        url: "https://xcancel.com/BAKKOOONN/status/585949245229760512",
         author: "BAKOON (@BAKKOOONN)",
         retweets: 40733,
         likes: 68036,
@@ -6695,7 +6697,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1272710694127845376%252F2moaAJ97_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pixelatedboat/status/586296714035908610",
+        url: "https://xcancel.com/pixelatedboat/status/586296714035908610",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         retweets: 6358,
         likes: 11093,
@@ -6703,7 +6705,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sageboggs/status/587387874493857792",
+        url: "https://xcancel.com/sageboggs/status/587387874493857792",
         author: "Sage Boggs (@sageboggs)",
         retweets: 2106,
         likes: 4645,
@@ -6711,7 +6713,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F549735728540692481%252Fy8ffOyJU_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DancesWithTamis/status/587762201605177344",
+        url: "https://xcancel.com/DancesWithTamis/status/587762201605177344",
         author: "Tam Yajia (@DancesWithTamis)",
         retweets: 705,
         likes: 2492,
@@ -6719,7 +6721,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683524320893747201%252F_Se4ueR8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jwblvd/status/591441444818190336",
+        url: "https://xcancel.com/jwblvd/status/591441444818190336",
         author: "Me (@jwblvd)",
         retweets: 608,
         likes: 1307,
@@ -6727,7 +6729,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F729528048324882432%252F5N4oUWTO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BAKKOOONN/status/592532872625434627",
+        url: "https://xcancel.com/BAKKOOONN/status/592532872625434627",
         author: "BAKOON (@BAKKOOONN)",
         retweets: 6699,
         likes: 15311,
@@ -6737,7 +6739,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: presumably requires multiple images, source deleted
     // {
-    //     url: "https://twitter.com/SortaBad/status/594156562828001283",
+    //     url: "https://xcancel.com/SortaBad/status/594156562828001283",
     //     author: "Alpha Male (real) (@SortaBad)",
     //     retweets: 7537,
     //     likes: 18971,
@@ -6746,7 +6748,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/SortaBad/status/596017781499240448",
+        url: "https://xcancel.com/SortaBad/status/596017781499240448",
         author: "Alpha Male (real) (@SortaBad)",
         retweets: 497,
         likes: 1091,
@@ -6754,7 +6756,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AnthonyQuintano/status/596055500107739138",
+        url: "https://xcancel.com/AnthonyQuintano/status/596055500107739138",
         author: "Anthony Quintano (@AnthonyQuintano)",
         retweets: 5,
         likes: 17,
@@ -6762,7 +6764,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1716122349525700608%252FED3AUsLU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shutupmikeginn/status/596096575887147008",
+        url: "https://xcancel.com/shutupmikeginn/status/596096575887147008",
         author: "mike ginn (@shutupmikeginn)",
         retweets: 9385,
         likes: 22255,
@@ -6771,7 +6773,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1700614780074250240%252FjQDbBOt3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/weinerdog4life/status/596557764924547073",
+        url: "https://xcancel.com/weinerdog4life/status/596557764924547073",
         author: "Snorklhuahua (@weinerdog4life)",
         retweets: 3019,
         likes: 5664,
@@ -6779,7 +6781,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1732836530295644160%252FdkKPcyOl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/EliTerry/status/597222233036173312",
+        url: "https://xcancel.com/EliTerry/status/597222233036173312",
         author: "Eli Terry (@EliTerry)",
         retweets: 474,
         likes: 1201,
@@ -6787,7 +6789,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F806643003800465408%252F2HfRy9Bp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PeachCoffin/status/597401504090345472",
+        url: "https://xcancel.com/PeachCoffin/status/597401504090345472",
         author: "Paige (@PeachCoffin)",
         retweets: 28,
         likes: 142,
@@ -6795,7 +6797,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F920153895099355136%252FjRJTS-YQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LeahTiscione/status/597938447601377281",
+        url: "https://xcancel.com/LeahTiscione/status/597938447601377281",
         author: "Leah Tiscione (@LeahTiscione)",
         retweets: 2830,
         likes: 6595,
@@ -6803,7 +6805,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563330281838284805%252FaUtIY2vj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yc/status/598166106369564672",
+        url: "https://xcancel.com/yc/status/598166106369564672",
         author: "yc (@yc)",
         retweets: 2169,
         likes: 5405,
@@ -6811,7 +6813,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1088177304914800640%252FIrqF-iTN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/danimgrace/status/598204691374280704",
+        url: "https://xcancel.com/danimgrace/status/598204691374280704",
         author: "Danielle Grace (@danimgrace)",
         retweets: 15568,
         likes: 28065,
@@ -6819,7 +6821,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1601056035250348034%252Fa2Gea2OL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rudetanks/status/599285047783469056",
+        url: "https://xcancel.com/rudetanks/status/599285047783469056",
         author: "Large Big (@rudetanks)",
         retweets: 406,
         likes: 1424,
@@ -6827,7 +6829,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1201634527610839041%252FzMcFzDcM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Lesbian_Makima/status/600340091689684992",
+        url: "https://xcancel.com/Lesbian_Makima/status/600340091689684992",
         author: "inflicted with the blessing of Gundam (@Lesbian_Makima)",
         retweets: 120,
         likes: 221,
@@ -6836,7 +6838,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1690607692497260544%252FO-CvRQ19_bigger.jpg",
     },
     {
-        url: "https://twitter.com/david_j_roth/status/600526639802490881",
+        url: "https://xcancel.com/david_j_roth/status/600526639802490881",
         author: "David Roth (@david_j_roth)",
         retweets: 2986,
         likes: 8118,
@@ -6845,7 +6847,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1224136390415437825%252FDe8p8pCJ_bigger.png",
     },
     {
-        url: "https://twitter.com/MalkyDungeon/status/601730628195885056",
+        url: "https://xcancel.com/MalkyDungeon/status/601730628195885056",
         author: "Simon (@MalkyDungeon)",
         retweets: 9078,
         likes: 17074,
@@ -6854,7 +6856,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1185379772144193537%252FbKTWgT-4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HeyVeronica/status/601794594318196736",
+        url: "https://xcancel.com/HeyVeronica/status/601794594318196736",
         author: "Veronica de Souza (@HeyVeronica)",
         retweets: 19,
         likes: 45,
@@ -6863,7 +6865,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1352128185501155328%252F2W8INqHt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/realDonaldTrump/status/602571404861636608",
+        url: "https://xcancel.com/realDonaldTrump/status/602571404861636608",
         author: "Donald J. Trump (@realDonaldTrump)",
         retweets: 11596,
         likes: 14840,
@@ -6871,7 +6873,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F874276197357596672%252FkUuht00m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephenasmith/status/603384079044759552",
+        url: "https://xcancel.com/stephenasmith/status/603384079044759552",
         author: "Stephen A Smith (@stephenasmith)",
         retweets: 92193,
         likes: 140734,
@@ -6879,7 +6881,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724515058376400896%252FLM2zVPsV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MattOswaltVA/status/607393691024506880",
+        url: "https://xcancel.com/MattOswaltVA/status/607393691024506880",
         author: "Matt Oswalt (@MattOswaltVA)",
         retweets: 10965,
         likes: 34274,
@@ -6887,7 +6889,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542182011619532800%252F5MrDhGZG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mminthecity/status/610842664397877249",
+        url: "https://xcancel.com/mminthecity/status/610842664397877249",
         author: "goddess of mischief.    (@mminthecity)",
         retweets: 551,
         likes: 518,
@@ -6896,7 +6898,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736119791490887680%252F0-rYklgr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NekoCase/status/611019852497743872",
+        url: "https://xcancel.com/NekoCase/status/611019852497743872",
         author: "Neko Case (@NekoCase)",
         retweets: 29,
         likes: 143,
@@ -6904,7 +6906,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516399282466660354%252FcIa8kpQ5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/moody/status/611203581123936257",
+        url: "https://xcancel.com/moody/status/611203581123936257",
         author: "Chris Moody (@moody)",
         retweets: 99,
         likes: 199,
@@ -6912,7 +6914,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1561518280384417793%252FAVLNLW6P_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MrGeorgeWallace/status/611755620534870016",
+        url: "https://xcancel.com/MrGeorgeWallace/status/611755620534870016",
         author: "George Wallace (@MrGeorgeWallace)",
         retweets: 337,
         likes: 699,
@@ -6920,7 +6922,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531004841392078848%252F_YGRLXyD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KeetPotato/status/611897837232779264",
+        url: "https://xcancel.com/KeetPotato/status/611897837232779264",
         author: "k e i t h (@KeetPotato)",
         retweets: 5822,
         likes: 10189,
@@ -6928,7 +6930,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295356472348508160%252FhZlM_K3__bigger.jpg",
     },
     {
-        url: "https://twitter.com/Thynebear/status/613118181109035009",
+        url: "https://xcancel.com/Thynebear/status/613118181109035009",
         author: "Thynebear (@Thynebear)",
         retweets: 1264,
         likes: 2775,
@@ -6936,7 +6938,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F425213804935254017%252Fm6QSnCnV_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/RandiLawson/status/613455523309031424",
+        url: "https://xcancel.com/RandiLawson/status/613455523309031424",
         author: "Randi Lawson (@RandiLawson)",
         retweets: 1832,
         likes: 2899,
@@ -6944,7 +6946,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1199318545944993794%252FW7FfmrdV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/leyawn/status/616350667892989952",
+        url: "https://xcancel.com/leyawn/status/616350667892989952",
         author: "leon (@leyawn)",
         retweets: 774,
         likes: 1947,
@@ -6952,7 +6954,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/seantgreen/status/618271941036642304",
+        url: "https://xcancel.com/seantgreen/status/618271941036642304",
         author: "Sean Green (@seantgreen)",
         retweets: 1412,
         likes: 2834,
@@ -6960,7 +6962,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1404947722411466754%252Fs-7yhT9P_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cockerham/status/618516660148776960",
+        url: "https://xcancel.com/cockerham/status/618516660148776960",
         author: "cockerham (@cockerham)",
         retweets: 3,
         likes: 7,
@@ -6968,7 +6970,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F477507652084178944%252FYcN7G-tx_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/mdob11/status/618920196892327936",
+        url: "https://xcancel.com/mdob11/status/618920196892327936",
         author: "moody monday (@mdob11)",
         retweets: 3536,
         likes: 4715,
@@ -6976,7 +6978,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3342348711%252Fc72f0d33fb2fa9871256b74f4d9ceef0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/jasonwagar/status/619221725859983360",
+        url: "https://xcancel.com/jasonwagar/status/619221725859983360",
         author: "Jason Wagar (@jasonwagar)",
         retweets: 2792,
         likes: 2911,
@@ -6985,7 +6987,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593645152500940807%252FnOzzLGru_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brendohare/status/621105496280432640",
+        url: "https://xcancel.com/brendohare/status/621105496280432640",
         author: "Brendan O'Hare (@brendohare)",
         retweets: 1029,
         likes: 2914,
@@ -6994,7 +6996,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2710017410%252Ff760d57ff677b42c7561106d30554f3e_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/KarenKilgariff/status/621563442277715969",
+        url: "https://xcancel.com/KarenKilgariff/status/621563442277715969",
         author: "Karen Kilgariff (@KarenKilgariff)",
         retweets: 494,
         likes: 1454,
@@ -7003,7 +7005,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BostonGlobe/status/622124738744348672",
+        url: "https://xcancel.com/BostonGlobe/status/622124738744348672",
         author: "The Boston Globe (@BostonGlobe)",
         retweets: 1848,
         likes: 2305,
@@ -7011,7 +7013,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628433409159663619%252FzyA36zyr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SortaBad/status/624254625374302208",
+        url: "https://xcancel.com/SortaBad/status/624254625374302208",
         author: "Alpha Male (real) (@SortaBad)",
         retweets: 277,
         likes: 1142,
@@ -7019,7 +7021,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/eaxford/status/625080669027237888",
+        url: "https://xcancel.com/eaxford/status/625080669027237888",
         author: "emily axford (@eaxford)",
         retweets: 653,
         likes: 1444,
@@ -7027,7 +7029,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F646365893929205760%252FAlNFmc-X_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MatCro/status/625292396000071680",
+        url: "https://xcancel.com/MatCro/status/625292396000071680",
         author: "Mat (@MatCro)",
         retweets: 30726,
         likes: 56201,
@@ -7035,7 +7037,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F666964096043114498%252FRxL9Wf_M_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TylerIAm/status/625543710147801088",
+        url: "https://xcancel.com/TylerIAm/status/625543710147801088",
         author: "Trill Withers (@TylerIAm)",
         retweets: 13417,
         likes: 35461,
@@ -7043,7 +7045,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729529742347345920%252FZZPeYelf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MarkAgee/status/626116848489205760",
+        url: "https://xcancel.com/MarkAgee/status/626116848489205760",
         author: "Mark Agee (@MarkAgee)",
         retweets: 7407,
         likes: 12201,
@@ -7051,7 +7053,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118378818400661504%252Fn5Kvdd4k_bigger.jpg",
     },
     {
-        url: "https://twitter.com/murrman5/status/626402087233040384",
+        url: "https://xcancel.com/murrman5/status/626402087233040384",
         author: "brent (@murrman5)",
         retweets: 4060,
         likes: 9232,
@@ -7059,7 +7061,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/audipenny/status/626622583371202560",
+        url: "https://xcancel.com/audipenny/status/626622583371202560",
         author: "audrey farnsworth (@audipenny)",
         retweets: 629,
         likes: 1260,
@@ -7067,7 +7069,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1060421119667130369%252Fnr0b1UWY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ElizaBayne/status/628354394673643520",
+        url: "https://xcancel.com/ElizaBayne/status/628354394673643520",
         author: "Eliza Bayne (@ElizaBayne)",
         retweets: 401,
         likes: 1289,
@@ -7075,7 +7077,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F862505597744402432%252Fb2DNoA9I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ch000ch/status/628429562154758144",
+        url: "https://xcancel.com/ch000ch/status/628429562154758144",
         author: "chuuch (@ch000ch)",
         retweets: 3915,
         likes: 9981,
@@ -7083,7 +7085,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/mdob11/status/628522851201486848",
+        url: "https://xcancel.com/mdob11/status/628522851201486848",
         author: "moody monday (@mdob11)",
         retweets: 2262,
         likes: 4572,
@@ -7091,7 +7093,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3342348711%252Fc72f0d33fb2fa9871256b74f4d9ceef0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/PaulyCasillas/status/628670412403007490",
+        url: "https://xcancel.com/PaulyCasillas/status/628670412403007490",
         author: "Pauly Casillas (@PaulyCasillas)",
         retweets: 8146,
         likes: 11618,
@@ -7100,7 +7102,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593821959388729344%252F_WXTTHqO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Lubchansky/status/633769883667431424",
+        url: "https://xcancel.com/Lubchansky/status/633769883667431424",
         author: "mattie lubchansky (@Lubchansky)",
         retweets: 137,
         likes: 226,
@@ -7109,7 +7111,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1717666667818274816%252FOMfHVvry_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cuddlymisha/status/634846169932386304",
+        url: "https://xcancel.com/cuddlymisha/status/634846169932386304",
         author: "not corA (@cuddlymisha)",
         retweets: 3500,
         likes: 4513,
@@ -7118,7 +7120,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F835149588742955008%252FzComjxbG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AtmanDoesFood/status/635230113177579521",
+        url: "https://xcancel.com/AtmanDoesFood/status/635230113177579521",
         author: "atman (@AtmanDoesFood)",
         retweets: 680,
         likes: 1925,
@@ -7126,7 +7128,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1481705481890668546%252FHGqM0AAT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MrGeorgeWallace/status/635550070763487232",
+        url: "https://xcancel.com/MrGeorgeWallace/status/635550070763487232",
         author: "George Wallace (@MrGeorgeWallace)",
         retweets: 956,
         likes: 1901,
@@ -7134,7 +7136,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531004841392078848%252F_YGRLXyD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/diss1/status/636094419339493376",
+        url: "https://xcancel.com/diss1/status/636094419339493376",
         author: "NEW EP: \"Quays Open Doors\" (@diss1)",
         retweets: 590,
         likes: 1554,
@@ -7142,7 +7144,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F817113297925312513%252FkO0YE5Yl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KDTrey5/status/6378280602",
+        url: "https://xcancel.com/KDTrey5/status/6378280602",
         author: "Kevin Durant (@KDTrey5)",
         retweets: 14464,
         likes: 17549,
@@ -7150,7 +7152,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563699994393280512%252Fu4KNGaIR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ZaaackKoootzer/status/638466040045830145",
+        url: "https://xcancel.com/ZaaackKoootzer/status/638466040045830145",
         author: "Gorilla at Large Will Return After These Messages (@ZaaackKoootzer)",
         retweets: 510,
         likes: 695,
@@ -7159,7 +7161,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651845451354701824%252FKkW39enM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/desusnice/status/638798808688758784",
+        url: "https://xcancel.com/desusnice/status/638798808688758784",
         author: "Desus MF Nice (@desusnice)",
         retweets: 1409,
         likes: 1622,
@@ -7168,7 +7170,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/Book_Krazy/status/638920412953313280",
+        url: "https://xcancel.com/Book_Krazy/status/638920412953313280",
         author: "Saucy Kensington (@Book_Krazy)",
         retweets: 7138,
         likes: 14208,
@@ -7176,7 +7178,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F927306237733195777%252FtxsemBVI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PaperWash/status/640009335138086913",
+        url: "https://xcancel.com/PaperWash/status/640009335138086913",
         author: "paperwash© (@PaperWash)",
         retweets: 6301,
         likes: 11233,
@@ -7184,7 +7186,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1375947175847456779%252F3svbgpbK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SharkJelly/status/640244241822826496",
+        url: "https://xcancel.com/SharkJelly/status/640244241822826496",
         author: "Shark Jelly (@SharkJelly)",
         retweets: 19422,
         likes: 26002,
@@ -7192,7 +7194,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F682495376297975808%252FdDNUfv08_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LizHackett/status/640949325074333696",
+        url: "https://xcancel.com/LizHackett/status/640949325074333696",
         author: "Elizabeth Hackett (@LizHackett)",
         retweets: 1161,
         likes: 3482,
@@ -7200,7 +7202,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3251514622%252F2d42d6603ac07a3853696e84f03ce3f8_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DanMentos/status/641308760795934720",
+        url: "https://xcancel.com/DanMentos/status/641308760795934720",
         author: "dan mentos (@DanMentos)",
         retweets: 4607,
         likes: 9920,
@@ -7208,7 +7210,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
-        url: "https://twitter.com/meganamram/status/641691747270172673",
+        url: "https://xcancel.com/meganamram/status/641691747270172673",
         author: "Megan Amram (@meganamram)",
         retweets: 546,
         likes: 1104,
@@ -7216,7 +7218,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BuckyIsotope/status/641814603538677760",
+        url: "https://xcancel.com/BuckyIsotope/status/641814603538677760",
         author: "Dr. Bucky Isotope, man of the people (@BuckyIsotope)",
         retweets: 12246,
         likes: 26196,
@@ -7224,7 +7226,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214363231038263296%252F6kWmdpPD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KalvinMacleod/status/642475424241463296",
+        url: "https://xcancel.com/KalvinMacleod/status/642475424241463296",
         author: "Kalvin (@KalvinMacleod)",
         retweets: 944,
         likes: 1914,
@@ -7232,7 +7234,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F927353050896805888%252FjCrOzhU0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wouIdstepback/status/643452512628969472",
+        url: "https://xcancel.com/wouIdstepback/status/643452512628969472",
         author: "i wish you (@wouIdstepback)",
         retweets: 38,
         likes: 80,
@@ -7240,7 +7242,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F643911014702972929%252FuTMUUlAw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/grumbist/status/643574736384098304",
+        url: "https://xcancel.com/grumbist/status/643574736384098304",
         author: "a lost fish (@grumbist)",
         retweets: 69558,
         likes: 93928,
@@ -7248,7 +7250,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F723075755408797697%252FATWvRJIm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/alexamellman/status/644668333200027648",
+        url: "https://xcancel.com/alexamellman/status/644668333200027648",
         author: "Alexa (@alexamellman)",
         retweets: 5,
         likes: 12,
@@ -7257,7 +7259,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3053354354%252F85a68cd6abc71732879857a295d59b39_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/KimmyMonte/status/644981272658382848",
+        url: "https://xcancel.com/KimmyMonte/status/644981272658382848",
         author: "kim (@KimmyMonte)",
         retweets: 985,
         likes: 2379,
@@ -7265,7 +7267,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1692591133984010240%252FwZh4X8wG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/girlfr0g/status/645720815611211776",
+        url: "https://xcancel.com/girlfr0g/status/645720815611211776",
         author: "em (@girlfr0g)",
         retweets: 5209,
         likes: 8748,
@@ -7273,7 +7275,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695878161857482752%252F3d3uZa3b_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jasongay/status/646301750346010624",
+        url: "https://xcancel.com/jasongay/status/646301750346010624",
         author: "Jason Gay (@jasongay)",
         retweets: 29606,
         likes: 41011,
@@ -7281,7 +7283,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715202244583264256%252FQYwN0SCn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shockleysmith/status/646504583502655488",
+        url: "https://xcancel.com/shockleysmith/status/646504583502655488",
         author: "Sam Hockley-Smith (@shockleysmith)",
         retweets: 0,
         likes: 3,
@@ -7289,7 +7291,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1228060567992057856%252Foqlgju-C_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DanMentos/status/648883036163993604",
+        url: "https://xcancel.com/DanMentos/status/648883036163993604",
         author: "dan mentos (@DanMentos)",
         retweets: 9422,
         likes: 15664,
@@ -7297,7 +7299,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
-        url: "https://twitter.com/T_Rozzay3/status/64889433505284096",
+        url: "https://xcancel.com/T_Rozzay3/status/64889433505284096",
         author: "Terry Rozier (@T_Rozzay3)",
         retweets: 25560,
         likes: 57452,
@@ -7305,7 +7307,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1666313436526006274%252Fw68bfBse_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tastefactory/status/649387028153413632",
+        url: "https://xcancel.com/tastefactory/status/649387028153413632",
         author: "pat tobin (@tastefactory)",
         retweets: 1182,
         likes: 3802,
@@ -7313,7 +7315,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839971048179269634%252Fyccn3pMU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheSun/status/649473426294489088",
+        url: "https://xcancel.com/TheSun/status/649473426294489088",
         author: "The Sun (@TheSun)",
         retweets: 13487,
         likes: 50587,
@@ -7322,7 +7324,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724021641833750528%252FXH5bmccq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sharonodea/status/649575258123579392",
+        url: "https://xcancel.com/sharonodea/status/649575258123579392",
         author: "Sharon O'Dea (@sharonodea)",
         retweets: 3320,
         likes: 2913,
@@ -7331,7 +7333,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1407028427698454534%252F0jxfy3wP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tastefactory/status/650353022200057856",
+        url: "https://xcancel.com/tastefactory/status/650353022200057856",
         author: "pat tobin (@tastefactory)",
         retweets: 14018,
         likes: 30954,
@@ -7339,7 +7341,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839971048179269634%252Fyccn3pMU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/zacharylevine/status/650502306782285824",
+        url: "https://xcancel.com/zacharylevine/status/650502306782285824",
         author: "Zachary Levine (@zacharylevine)",
         retweets: 542,
         likes: 821,
@@ -7347,7 +7349,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1343234990885236737%252F-SrokcZ-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aka_fatman/status/650773591760310272",
+        url: "https://xcancel.com/aka_fatman/status/650773591760310272",
         author: "Vault 69 Boy (@aka_fatman)",
         retweets: 2053,
         likes: 4477,
@@ -7355,7 +7357,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1003079228269580293%252FYYhkrK41_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jonnysun/status/651579335875366912",
+        url: "https://xcancel.com/jonnysun/status/651579335875366912",
         author: "jonny sun (@jonnysun)",
         retweets: 10554,
         likes: 17943,
@@ -7363,7 +7365,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314628602198028289%252FZbkd7FYQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheNardvark/status/652602408456093696",
+        url: "https://xcancel.com/TheNardvark/status/652602408456093696",
         author: "Bryan Donaldson (@TheNardvark)",
         retweets: 40383,
         likes: 51165,
@@ -7371,7 +7373,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707006388336033792%252Fhf_m_FpA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bumf_online/status/652821378152837120",
+        url: "https://xcancel.com/bumf_online/status/652821378152837120",
         author: "Bumf (@bumf_online)",
         retweets: 2091,
         likes: 3265,
@@ -7380,7 +7382,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F641432875993182208%252FgjPFMuOp_bigger.png",
     },
     {
-        url: "https://twitter.com/bobvulfov/status/654461175753674752",
+        url: "https://xcancel.com/bobvulfov/status/654461175753674752",
         author: "Bob Vulfov (@bobvulfov)",
         retweets: 25191,
         likes: 52449,
@@ -7388,7 +7390,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1163961107356233729%252FwRdxfoXi_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Cavalorn/status/654934442549620736",
+        url: "https://xcancel.com/Cavalorn/status/654934442549620736",
         author: "Adrian Bott (@Cavalorn)",
         retweets: 55501,
         likes: 117264,
@@ -7396,7 +7398,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F798073892757716992%252Fg9QeeMZF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TribalSpaceCat/status/655667757711794176",
+        url: "https://xcancel.com/TribalSpaceCat/status/655667757711794176",
         author: "hannah (@TribalSpaceCat)",
         retweets: 4772,
         likes: 10792,
@@ -7404,7 +7406,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589046767362113536%252Fmaf-9g9S_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mynameisntdave/status/656155281026625536",
+        url: "https://xcancel.com/mynameisntdave/status/656155281026625536",
         author: "Duke Max “Carnival Lawyer” Ash (@mynameisntdave)",
         retweets: 1976,
         likes: 4788,
@@ -7413,7 +7415,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F793842960018370560%252FUBx6PUzV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/IrvineWelsh/status/656287007233155073",
+        url: "https://xcancel.com/IrvineWelsh/status/656287007233155073",
         author: "Irvine Welsh (@IrvineWelsh)",
         retweets: 11,
         likes: 27,
@@ -7421,7 +7423,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F820116924314988544%252Fm_bEDZIn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/amydillon/status/656965525134835712",
+        url: "https://xcancel.com/amydillon/status/656965525134835712",
         author: "Amy Dillon (@amydillon)",
         retweets: 2331,
         likes: 3894,
@@ -7429,7 +7431,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1531453106902421505%252FoEE2uYwc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Ryan_Patricks/status/658380006960287744",
+        url: "https://xcancel.com/Ryan_Patricks/status/658380006960287744",
         author: "Ryan Patricks (@Ryan_Patricks)",
         retweets: 244,
         likes: 656,
@@ -7437,7 +7439,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1536905020020428800%252FNxjLRRbw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/1followernodad/status/659068672401518592",
+        url: "https://xcancel.com/1followernodad/status/659068672401518592",
         author: "Sophia Benoit (@1followernodad)",
         retweets: 541,
         likes: 1185,
@@ -7446,7 +7448,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/justin_klugh/status/659236511565639680",
+        url: "https://xcancel.com/justin_klugh/status/659236511565639680",
         author: "Justin Klugh (@justin_klugh)",
         retweets: 15127,
         likes: 31637,
@@ -7454,7 +7456,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1637917293463191556%252FmBppru0u_bigger.jpg",
     },
     {
-        url: "https://twitter.com/leyawn/status/659761151459225600",
+        url: "https://xcancel.com/leyawn/status/659761151459225600",
         author: "leon (@leyawn)",
         retweets: 8993,
         likes: 14347,
@@ -7463,7 +7465,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/bakerbakerbaker/status/661733250608574464",
+        url: "https://xcancel.com/bakerbakerbaker/status/661733250608574464",
         author: "baber (@bakerbakerbaker)",
         retweets: 919,
         likes: 3323,
@@ -7471,7 +7473,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703015866948866048%252FFYgtTsgT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewjanda/status/662790328999682048",
+        url: "https://xcancel.com/drewjanda/status/662790328999682048",
         author: "drew janda (@drewjanda)",
         retweets: 41561,
         likes: 84250,
@@ -7479,7 +7481,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1688607529579036672%252FpvFVRXJO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HuffPost/status/667743807656632320",
+        url: "https://xcancel.com/HuffPost/status/667743807656632320",
         author: "HuffPost (@HuffPost)",
         retweets: 3435,
         likes: 2954,
@@ -7488,7 +7490,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295829554225795072%252F_Ph3zAnF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/christrebecca/status/667768644491980800",
+        url: "https://xcancel.com/christrebecca/status/667768644491980800",
         author: "Rebecca Christopher (@christrebecca)",
         retweets: 2,
         likes: 9,
@@ -7497,7 +7499,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F689577845585252354%252FIKV_IuXe_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BooDooPerson/status/670652512257630209",
+        url: "https://xcancel.com/BooDooPerson/status/670652512257630209",
         author: "BooDoo (@BooDooPerson)",
         retweets: 393,
         likes: 858,
@@ -7506,7 +7508,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587479637508104194%252FwhwHr-YF_bigger.png",
     },
     {
-        url: "https://twitter.com/ConorTripler/status/671106116768555008",
+        url: "https://xcancel.com/ConorTripler/status/671106116768555008",
         author: "conor hankinson (@ConorTripler)",
         retweets: 36648,
         likes: 63007,
@@ -7514,7 +7516,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1618830880461520899%252FIrGXqBSI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Michael1979/status/672509355456090112",
+        url: "https://xcancel.com/Michael1979/status/672509355456090112",
         author: "Sir Michael (@Michael1979)",
         retweets: 8963,
         likes: 16820,
@@ -7522,7 +7524,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2542151234%252F4lzo4nfnjzrohvr2ltku_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/davedittell/status/675806988572319744",
+        url: "https://xcancel.com/davedittell/status/675806988572319744",
         author: "the garbage shit boy (@davedittell)",
         retweets: 3439,
         likes: 10540,
@@ -7530,7 +7532,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058196994185879554%252FyXiKLfr__bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewtoothpaste/status/676423039513329664",
+        url: "https://xcancel.com/drewtoothpaste/status/676423039513329664",
         author: "drewtoothpaste.bsky.social (@drewtoothpaste)",
         retweets: 287,
         likes: 670,
@@ -7539,7 +7541,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lvwrfl/status/681246826746523649",
+        url: "https://xcancel.com/lvwrfl/status/681246826746523649",
         author: "levi (@lvwrfl)",
         retweets: 11160,
         likes: 19791,
@@ -7547,7 +7549,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1479144379650609155%252FxX5T2LKN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/actioncookbook/status/684515262712967170",
+        url: "https://xcancel.com/actioncookbook/status/684515262712967170",
         author: "actioncookbook (@actioncookbook)",
         retweets: 21098,
         likes: 37869,
@@ -7555,7 +7557,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1520031180422361090%252FFvKdpvRc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BuckyIsotope/status/684758412953964544",
+        url: "https://xcancel.com/BuckyIsotope/status/684758412953964544",
         author: "Dr. Bucky Isotope, man of the people (@BuckyIsotope)",
         retweets: 19346,
         likes: 39023,
@@ -7563,7 +7565,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1214363231038263296%252F6kWmdpPD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dubstep4dads/status/686663474676502528",
+        url: "https://xcancel.com/dubstep4dads/status/686663474676502528",
         author: "dubstep4dads (@dubstep4dads)",
         retweets: 5614,
         likes: 12150,
@@ -7571,7 +7573,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3737013477%252F8a3fed4bd60ab1d4fdfcd4a0fb38a8d5_bigger.gif",
     },
     {
-        url: "https://twitter.com/AndrewMichaan/status/687762219484884993",
+        url: "https://xcancel.com/AndrewMichaan/status/687762219484884993",
         author: "Andrew Michaan (@AndrewMichaan)",
         retweets: 1752,
         likes: 4112,
@@ -7579,7 +7581,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1371262608137883648%252FWhBlgjrP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BacklineNurse/status/688157036752678913",
+        url: "https://xcancel.com/BacklineNurse/status/688157036752678913",
         author: "Jade Van Kley (@BacklineNurse)",
         retweets: 57,
         likes: 205,
@@ -7587,7 +7589,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675861361010659329%252FG3PLjy3c_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SortaBad/status/689135584569233409",
+        url: "https://xcancel.com/SortaBad/status/689135584569233409",
         author: "Alpha Male (real) (@SortaBad)",
         retweets: 2346,
         likes: 5932,
@@ -7596,7 +7598,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ninatreemonkey/status/689942070568550401",
+        url: "https://xcancel.com/ninatreemonkey/status/689942070568550401",
         author: "nina treemonkey (@ninatreemonkey)",
         retweets: 545,
         likes: 1094,
@@ -7604,7 +7606,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729661022011588608%252F8nJ7EdYL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mtobey/status/689961243214479362",
+        url: "https://xcancel.com/mtobey/status/689961243214479362",
         author: "mtobey.bsky.social (@mtobey)",
         retweets: 36259,
         likes: 80432,
@@ -7612,7 +7614,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680258637707526144%252F29KgGC8u_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MarthaStewart/status/690386333446082560",
+        url: "https://xcancel.com/MarthaStewart/status/690386333446082560",
         author: "Martha Stewart (@MarthaStewart)",
         retweets: 385,
         likes: 906,
@@ -7620,7 +7622,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455119021196599296%252FVJKGfdqG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephenjmolloy/status/692446206111399936",
+        url: "https://xcancel.com/stephenjmolloy/status/692446206111399936",
         author: "ste(ph)en (@stephenjmolloy)",
         retweets: 24076,
         likes: 47650,
@@ -7628,7 +7630,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F954098242081443840%252FQjvjRvfl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/itskaywayyyy/status/692918396963438592",
+        url: "https://xcancel.com/itskaywayyyy/status/692918396963438592",
         author: "Hunter Biden #1 fan (@itskaywayyyy)",
         retweets: 918,
         likes: 1650,
@@ -7637,7 +7639,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633616778340204545%252Fsap3YWt6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/693085454720114688",
+        url: "https://xcancel.com/InternetHippo/status/693085454720114688",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 5423,
         likes: 12971,
@@ -7645,7 +7647,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CLAUDIAPOSTING/status/694994701674532864",
+        url: "https://xcancel.com/CLAUDIAPOSTING/status/694994701674532864",
         author: "CLAUDIA (@CLAUDIAPOSTING)",
         retweets: 3374,
         likes: 7454,
@@ -7653,7 +7655,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712799496868872192%252FJ7VNYCCY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JohnCleese/status/695734288252342272",
+        url: "https://xcancel.com/JohnCleese/status/695734288252342272",
         author: "John Cleese (@JohnCleese)",
         retweets: 407,
         likes: 1406,
@@ -7661,7 +7663,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2622284361%252F1emzqsaz3t5glbyndf66_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/gveks/status/695763561960730624",
+        url: "https://xcancel.com/gveks/status/695763561960730624",
         author: "Greg V (@gveks)",
         retweets: 6152,
         likes: 5251,
@@ -7670,7 +7672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F729902770455650304%252FPw5YEsYA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DVNJr/status/695772559002959872",
+        url: "https://xcancel.com/DVNJr/status/695772559002959872",
         author: "Don Van Natta Jr. (@DVNJr)",
         retweets: 52,
         likes: 79,
@@ -7679,7 +7681,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1049933683308843009%252Fu-wNIfMz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Goudie15/status/697496675720495105",
+        url: "https://xcancel.com/Goudie15/status/697496675720495105",
         author: "Goudie (@Goudie15)",
         retweets: 29630,
         likes: 42013,
@@ -7687,7 +7689,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1052553444479946753%252F7zik1n9R_bigger.jpg",
     },
     {
-        url: "https://twitter.com/skullmandible/status/704335506365095937",
+        url: "https://xcancel.com/skullmandible/status/704335506365095937",
         author: "Cohen is a Ghost (@skullmandible)",
         retweets: 2161,
         likes: 5485,
@@ -7695,7 +7697,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1191562618936250368%252FKw0VfgAV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CDCSTD/status/705845299672014848",
+        url: "https://xcancel.com/CDCSTD/status/705845299672014848",
         author: "CDC STD (@CDCSTD)",
         retweets: 5,
         likes: 4,
@@ -7704,7 +7706,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1309540517852708864%252FApjLuPP9_bigger.png",
     },
     {
-        url: "https://twitter.com/KyleMcDowell86/status/708384759479558144",
+        url: "https://xcancel.com/KyleMcDowell86/status/708384759479558144",
         author: "Good Kyle (@KyleMcDowell86)",
         retweets: 10460,
         likes: 37814,
@@ -7712,7 +7714,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F880130075235975168%252F_2GvfpwZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/missokistic/status/708849785596416000",
+        url: "https://xcancel.com/missokistic/status/708849785596416000",
         author: "Miss O'Kistic (@missokistic)",
         retweets: 2205,
         likes: 4874,
@@ -7720,7 +7722,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3579141312%252F747f961ba02ede59bf47ede2177926f0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/brendohare/status/711756445717495808",
+        url: "https://xcancel.com/brendohare/status/711756445717495808",
         author: "Brendan O'Hare (@brendohare)",
         retweets: 3219,
         likes: 9783,
@@ -7729,7 +7731,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2710017410%252Ff760d57ff677b42c7561106d30554f3e_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DanMentos/status/712884145324601344",
+        url: "https://xcancel.com/DanMentos/status/712884145324601344",
         author: "dan mentos (@DanMentos)",
         retweets: 12774,
         likes: 24307,
@@ -7738,7 +7740,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
-        url: "https://twitter.com/younglilsam/status/713932677720592385",
+        url: "https://xcancel.com/younglilsam/status/713932677720592385",
         author: "lilsam (@younglilsam)",
         retweets: 9736,
         likes: 17847,
@@ -7747,7 +7749,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655339435905662978%252FDAdFUlfQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jenniferdaniel/status/714501409379581952",
+        url: "https://xcancel.com/jenniferdaniel/status/714501409379581952",
         author: "jennifer daniel (@jenniferdaniel)",
         retweets: 1,
         likes: 14,
@@ -7756,7 +7758,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1368383325606273025%252FJ009l51B_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kyleayers/status/714835753138696192",
+        url: "https://xcancel.com/kyleayers/status/714835753138696192",
         author: "Kyle Ayers (@kyleayers)",
         retweets: 6907,
         likes: 10011,
@@ -7765,7 +7767,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1447981988636291073%252Fiz0RmSib_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tehviking/status/715231232242507777",
+        url: "https://xcancel.com/tehviking/status/715231232242507777",
         author: "Brandon Hays @tehviking@ruby.social (@tehviking)",
         retweets: 1702,
         likes: 2596,
@@ -7773,7 +7775,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1595154115650326537%252FQAN33Y1F_bigger.jpg",
     },
     {
-        url: "https://twitter.com/heyitsgarrett/status/716069776129306628",
+        url: "https://xcancel.com/heyitsgarrett/status/716069776129306628",
         author: "Garrett Miller (@heyitsgarrett)",
         retweets: 68,
         likes: 254,
@@ -7782,7 +7784,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1519415326370263040%252FlCqlnYlL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KaptanHindustan/status/716620279959695360",
+        url: "https://xcancel.com/KaptanHindustan/status/716620279959695360",
         author: "Gautam Trivedi (@KaptanHindustan)",
         retweets: 9986,
         likes: 11466,
@@ -7791,7 +7793,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1670138974889996289%252FVixm5Jbl_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewtoothpaste/status/718167017509916672",
+        url: "https://xcancel.com/drewtoothpaste/status/718167017509916672",
         author: "drewtoothpaste.bsky.social (@drewtoothpaste)",
         retweets: 5290,
         likes: 9661,
@@ -7799,7 +7801,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ThomasAwful/status/718889068365488128",
+        url: "https://xcancel.com/ThomasAwful/status/718889068365488128",
         author: "Alex (Roast Beef fan account) (@ThomasAwful)",
         retweets: 8030,
         likes: 17472,
@@ -7808,7 +7810,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1626500115463643136%252FUJfoPUeo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sarahjeong/status/719378070461767682",
+        url: "https://xcancel.com/sarahjeong/status/719378070461767682",
         author: "sarah jeong (@sarahjeong)",
         retweets: 11,
         likes: 77,
@@ -7816,7 +7818,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1409002235455967234%252FZcTT1Xq-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KidRock/status/719983895043829760",
+        url: "https://xcancel.com/KidRock/status/719983895043829760",
         author: "KidRock (@KidRock)",
         retweets: 7331,
         likes: 14487,
@@ -7825,7 +7827,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1461561167105732612%252Frgawd09C_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LeahTiscione/status/721132395798360064",
+        url: "https://xcancel.com/LeahTiscione/status/721132395798360064",
         author: "Leah Tiscione (@LeahTiscione)",
         retweets: 51,
         likes: 156,
@@ -7833,7 +7835,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563330281838284805%252FaUtIY2vj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/joshgondelman/status/721180907252682752",
+        url: "https://xcancel.com/joshgondelman/status/721180907252682752",
         author: "Josh Gondelman (@joshgondelman)",
         retweets: 62,
         likes: 303,
@@ -7841,7 +7843,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707009141464551424%252FNe9wNDNd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tenderlove/status/722565868719177729",
+        url: "https://xcancel.com/tenderlove/status/722565868719177729",
         author: "Aaron Patterson (@tenderlove)",
         retweets: 3501,
         likes: 5337,
@@ -7849,7 +7851,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1372299370691842052%252FKHLAURcj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stevevsninjas/status/726216861671559170",
+        url: "https://xcancel.com/stevevsninjas/status/726216861671559170",
         author: "Steve vs. Ninjas (@stevevsninjas)",
         retweets: 5851,
         likes: 11126,
@@ -7857,7 +7859,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1444698045816324099%252FUjuqiIpM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LindseyGrahamSC/status/727604522156228608",
+        url: "https://xcancel.com/LindseyGrahamSC/status/727604522156228608",
         author: "Lindsey Graham (@LindseyGrahamSC)",
         retweets: 182625,
         likes: 276202,
@@ -7865,7 +7867,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1235299656063733760%252Fb1RnM8w3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Reese_Mode/status/729825715366051841",
+        url: "https://xcancel.com/Reese_Mode/status/729825715366051841",
         author: "Reese (@Reese_Mode)",
         retweets: 1639,
         likes: 1496,
@@ -7874,7 +7876,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1066242637651460096%252FDCuDuBVX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meladoodle/status/729852807809880065",
+        url: "https://xcancel.com/meladoodle/status/729852807809880065",
         author: "Melanie Bracewell (@meladoodle)",
         retweets: 5674,
         likes: 15423,
@@ -7882,7 +7884,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1625003710400327680%252FShVhIelr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/harikondabolu/status/729914225426997248",
+        url: "https://xcancel.com/harikondabolu/status/729914225426997248",
         author: "Hari Kondabolu (@harikondabolu)",
         retweets: 864,
         likes: 2040,
@@ -7890,7 +7892,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1513538053847101442%252FkepzykaJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HeyNikkkay/status/731680150459432960",
+        url: "https://xcancel.com/HeyNikkkay/status/731680150459432960",
         author: "nik (@HeyNikkkay)",
         retweets: 6575,
         likes: 12991,
@@ -7899,7 +7901,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1602555157232877569%252FSmjFq97z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lilghosthands/status/732675903835103233",
+        url: "https://xcancel.com/lilghosthands/status/732675903835103233",
         author: "Dalton Day (@lilghosthands)",
         retweets: 19,
         likes: 44,
@@ -7908,7 +7910,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1555700838496083974%252FkIfRjX_n_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PDLComics/status/733431319330312193",
+        url: "https://xcancel.com/PDLComics/status/733431319330312193",
         author: "poorly drawn lines (@PDLComics)",
         retweets: 108,
         likes: 220,
@@ -7916,7 +7918,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1455194115767816196%252FE2x6n-hZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aparnapkin/status/733742194436276224",
+        url: "https://xcancel.com/aparnapkin/status/733742194436276224",
         author: "Aparna Nancherla (@aparnapkin)",
         retweets: 296,
         likes: 847,
@@ -7924,7 +7926,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HeerJeet/status/734898469148762112",
+        url: "https://xcancel.com/HeerJeet/status/734898469148762112",
         author: "Jeet Heer (@HeerJeet)",
         retweets: 12,
         likes: 42,
@@ -7932,7 +7934,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F771802394195668992%252FsdiSWCGC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/xmasape/status/735306055073206272",
+        url: "https://xcancel.com/xmasape/status/735306055073206272",
         author: "Mike Tunison (@xmasape)",
         retweets: 400,
         likes: 1432,
@@ -7940,7 +7942,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1314269110159769605%252FNX7IRn64_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ToLey88/status/735558012933394433",
+        url: "https://xcancel.com/ToLey88/status/735558012933394433",
         author: "Tom Ley (@ToLey88)",
         retweets: 5545,
         likes: 11460,
@@ -7949,7 +7951,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1102988267090264066%252F8jPtZW67_bigger.png",
     },
     {
-        url: "https://twitter.com/athleisure_monk/status/738618427909111808",
+        url: "https://xcancel.com/athleisure_monk/status/738618427909111808",
         author: " (@athleisure_monk)",
         retweets: 38751,
         likes: 73073,
@@ -7957,7 +7959,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1177736415171547137%252F_z4L_C0b_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GayRodney/status/738809253515923456",
+        url: "https://xcancel.com/GayRodney/status/738809253515923456",
         author: "Male Wife (@GayRodney)",
         retweets: 126,
         likes: 593,
@@ -7965,7 +7967,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1472421818837393412%252Fg4aUTVoA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sixfoot6/status/740237965197115393",
+        url: "https://xcancel.com/sixfoot6/status/740237965197115393",
         author: "ryan g dance (@sixfoot6)",
         retweets: 0,
         likes: 4,
@@ -7973,7 +7975,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F628606305712734208%252F5bBnotB9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ftrain/status/740276899994308613",
+        url: "https://xcancel.com/ftrain/status/740276899994308613",
         author: "Paul Ford (@ftrain)",
         retweets: 100,
         likes: 402,
@@ -7982,7 +7984,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565884506824998912%252FvfyOHT8R_bigger.png",
     },
     {
-        url: "https://twitter.com/ohfarrell/status/740679207064342528",
+        url: "https://xcancel.com/ohfarrell/status/740679207064342528",
         author: "casseuse professionnelle (@ohfarrell)",
         retweets: 17608,
         likes: 27914,
@@ -7990,7 +7992,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F665074062821953536%252F4_QDT0nN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gamemakerstk/status/741923072719085568",
+        url: "https://xcancel.com/gamemakerstk/status/741923072719085568",
         author: "Game Maker's Toolkit (@gamemakerstk)",
         retweets: 2810,
         likes: 7197,
@@ -7998,7 +8000,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1682473803379531777%252FDZYwcXtH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DanMentos/status/743899964376420353",
+        url: "https://xcancel.com/DanMentos/status/743899964376420353",
         author: "dan mentos (@DanMentos)",
         retweets: 3402,
         likes: 10094,
@@ -8006,7 +8008,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
-        url: "https://twitter.com/Larakate/status/744721367547842560",
+        url: "https://xcancel.com/Larakate/status/744721367547842560",
         author: "Lara Cohen (@Larakate)",
         retweets: 228,
         likes: 370,
@@ -8014,7 +8016,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1132795761433776128%252FeaFiM8la_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BrandyLJensen/status/744736706721628160",
+        url: "https://xcancel.com/BrandyLJensen/status/744736706721628160",
         author: "Brandy Jensen (@BrandyLJensen)",
         retweets: 630,
         likes: 1730,
@@ -8023,7 +8025,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HeyRikus/status/745288603291508736",
+        url: "https://xcancel.com/HeyRikus/status/745288603291508736",
         author: "Rikus (@HeyRikus)",
         retweets: 7877,
         likes: 13381,
@@ -8031,7 +8033,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1650103191894212608%252FYAEVtUO1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/notwillystroker/status/745824533622337536",
+        url: "https://xcancel.com/notwillystroker/status/745824533622337536",
         author: "Smallie Biggs (@notwillystroker)",
         retweets: 427,
         likes: 1034,
@@ -8039,7 +8041,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F869465572001677312%252FiTu33hjm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/davidfarrier/status/746032197342232576",
+        url: "https://xcancel.com/davidfarrier/status/746032197342232576",
         author: "David Farrier (@davidfarrier)",
         retweets: 63445,
         likes: 131076,
@@ -8048,7 +8050,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1391161879926480898%252Fqx3bATDZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sadqueer4life/status/746431687580491776",
+        url: "https://xcancel.com/sadqueer4life/status/746431687580491776",
         author: "J Jennifer Espinoza (@sadqueer4life)",
         retweets: 4709,
         likes: 6573,
@@ -8056,7 +8058,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1705021004353818624%252FXMybp30m_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Papapishu/status/746803108949409793",
+        url: "https://xcancel.com/Papapishu/status/746803108949409793",
         author: "Chris Person (@Papapishu)",
         retweets: 10301,
         likes: 28166,
@@ -8064,7 +8066,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721890148206665728%252Fyr4Vblnk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/melissabroder/status/746890933904375808",
+        url: "https://xcancel.com/melissabroder/status/746890933904375808",
         author: "melissa broder (@melissabroder)",
         retweets: 566,
         likes: 1188,
@@ -8072,7 +8074,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733409320895942656%252FMZP2Olfg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/everythingsjake/status/748248455865376768",
+        url: "https://xcancel.com/everythingsjake/status/748248455865376768",
         author: "Lucy Flawless (@everythingsjake)",
         retweets: 24118,
         likes: 36473,
@@ -8081,7 +8083,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1403868614999134210%252FPWsI5OiM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/katiedippold/status/748582543583121408",
+        url: "https://xcancel.com/katiedippold/status/748582543583121408",
         author: "Katie Dippold (@katiedippold)",
         retweets: 120475,
         likes: 344567,
@@ -8090,7 +8092,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000657528762%252Fe0f214343194b80c59c005e95069f706_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/cordjefferson/status/748711242831888384",
+        url: "https://xcancel.com/cordjefferson/status/748711242831888384",
         author: "Cord Jefferson (@cordjefferson)",
         retweets: 379,
         likes: 1354,
@@ -8098,7 +8100,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1549404010339356678%252Fpq1bM6RQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ZK_Elly/status/750517615651540992",
+        url: "https://xcancel.com/ZK_Elly/status/750517615651540992",
         author: "Elly ZK (@ZK_Elly)",
         retweets: 4497,
         likes: 11174,
@@ -8107,7 +8109,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1056379630834405377%252FDvMiMDJG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/imbethmccoll/status/750708361595846656",
+        url: "https://xcancel.com/imbethmccoll/status/750708361595846656",
         author: "Beth McColl (@imbethmccoll)",
         retweets: 597,
         likes: 2190,
@@ -8116,7 +8118,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GenePark/status/751542778753081344",
+        url: "https://xcancel.com/GenePark/status/751542778753081344",
         author: "Gene Park (@GenePark)",
         retweets: 289,
         likes: 509,
@@ -8125,7 +8127,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733202086966231040%252FnALgw_BT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CABMFVAUGHN/status/753482686648295424",
+        url: "https://xcancel.com/CABMFVAUGHN/status/753482686648295424",
         author: "… (@CABMFVAUGHN)",
         retweets: 63789,
         likes: 124701,
@@ -8134,7 +8136,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1490229242252062721%252FP1KGAqkj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Crutnacker/status/754811607188766720",
+        url: "https://xcancel.com/Crutnacker/status/754811607188766720",
         author: "Crutnacker (@Crutnacker)",
         retweets: 393,
         likes: 752,
@@ -8142,7 +8144,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1544300011684614145%252FKuTkb554_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dfreelon/status/755054091139633152",
+        url: "https://xcancel.com/dfreelon/status/755054091139633152",
         author: "Deen Freelon (@dfreelon)",
         retweets: 3537,
         likes: 4811,
@@ -8151,7 +8153,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1163639149917822976%252FyfHf6S1g_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mattaukamp/status/755511596047298564",
+        url: "https://xcancel.com/mattaukamp/status/755511596047298564",
         author: "matt aukamp (@mattaukamp)",
         retweets: 31988,
         likes: 54321,
@@ -8159,7 +8161,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1432961476956987392%252FbCrA0ZZo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nathanrabin/status/756561607631568896",
+        url: "https://xcancel.com/nathanrabin/status/756561607631568896",
         author: "Nathan Rabin (@nathanrabin)",
         retweets: 5,
         likes: 24,
@@ -8167,7 +8169,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635700291445092352%252FKwJtwpi3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brad_frost/status/756640481476382720",
+        url: "https://xcancel.com/brad_frost/status/756640481476382720",
         author: "Brad Frost (@brad_frost)",
         retweets: 2,
         likes: 36,
@@ -8176,7 +8178,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F907811115459125248%252Fi8AzK6gR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PalmerLuckey/status/760667825082015744",
+        url: "https://xcancel.com/PalmerLuckey/status/760667825082015744",
         author: "Palmer Luckey (@PalmerLuckey)",
         retweets: 16,
         likes: 57,
@@ -8184,7 +8186,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1592034442171719680%252FtrGJr315_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DVSblast/status/763733803500236800",
+        url: "https://xcancel.com/DVSblast/status/763733803500236800",
         author: "DVS (@DVSblast)",
         retweets: 261,
         likes: 774,
@@ -8192,7 +8194,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F607981569916026881%252FroZR_wmK_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Travon/status/764702682539896832",
+        url: "https://xcancel.com/Travon/status/764702682539896832",
         author: "Travon (@Travon)",
         retweets: 12513,
         likes: 19924,
@@ -8201,7 +8203,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665532931694280707%252FOsYsxcRu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NoticablyBacon/status/766347309248417793",
+        url: "https://xcancel.com/NoticablyBacon/status/766347309248417793",
         author: "Mark (@NoticablyBacon)",
         retweets: 861,
         likes: 1538,
@@ -8209,7 +8211,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1289929119728316416%252FdMXp7nzJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/vulgarswami/status/766424771580002304",
+        url: "https://xcancel.com/vulgarswami/status/766424771580002304",
         author: "p-raq (@vulgarswami)",
         retweets: 41279,
         likes: 69051,
@@ -8218,7 +8220,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F836422904162185216%252Flnk_Oc44_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nytimesarts/status/766649126092206081",
+        url: "https://xcancel.com/nytimesarts/status/766649126092206081",
         author: "New York Times Arts (@nytimesarts)",
         retweets: 11,
         likes: 21,
@@ -8227,7 +8229,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F964180969702895616%252FwJcdJ1MU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/5wiim/status/766656527302295556",
+        url: "https://xcancel.com/5wiim/status/766656527302295556",
         author: "Faithful Jamaican (@5wiim)",
         retweets: 22,
         likes: 37,
@@ -8236,7 +8238,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1689439550672633856%252FPmGTY1uo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/768179529487712256",
+        url: "https://xcancel.com/TriciaLockwood/status/768179529487712256",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 26,
         likes: 256,
@@ -8245,7 +8247,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Papapishu/status/768286842991022080",
+        url: "https://xcancel.com/Papapishu/status/768286842991022080",
         author: "Chris Person (@Papapishu)",
         retweets: 4,
         likes: 35,
@@ -8254,7 +8256,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721890148206665728%252Fyr4Vblnk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ben_rosen/status/768852936860569600",
+        url: "https://xcancel.com/ben_rosen/status/768852936860569600",
         author: "Ben Rosen (@ben_rosen)",
         retweets: 890,
         likes: 1951,
@@ -8262,7 +8264,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1016451004923985920%252FQjtIqSUB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/imbethmccoll/status/771422577118089216",
+        url: "https://xcancel.com/imbethmccoll/status/771422577118089216",
         author: "Beth McColl (@imbethmccoll)",
         retweets: 1413,
         likes: 6685,
@@ -8271,7 +8273,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BrandyLJensen/status/771463229495271428",
+        url: "https://xcancel.com/BrandyLJensen/status/771463229495271428",
         author: "Brandy Jensen (@BrandyLJensen)",
         retweets: 3075,
         likes: 11522,
@@ -8279,7 +8281,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ArfMeasures/status/771814692864028672",
+        url: "https://xcancel.com/ArfMeasures/status/771814692864028672",
         author: "Jon (@ArfMeasures)",
         retweets: 2368,
         likes: 4835,
@@ -8287,7 +8289,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rad_milk/status/771992925727100932",
+        url: "https://xcancel.com/rad_milk/status/771992925727100932",
         author: "ret (@rad_milk)",
         retweets: 116,
         likes: 577,
@@ -8295,7 +8297,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1560056244974497797%252FGN_Zqat7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bananafitz/status/772899203609726976",
+        url: "https://xcancel.com/bananafitz/status/772899203609726976",
         author: "Anna Fitzpatrick (@bananafitz)",
         retweets: 1771,
         likes: 3812,
@@ -8303,7 +8305,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1479607651935866883%252FFcQmIgPc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/blade_funner/status/773338613270605825",
+        url: "https://xcancel.com/blade_funner/status/773338613270605825",
         author: "The Notorious B.E.V. (@blade_funner)",
         retweets: 11350,
         likes: 22211,
@@ -8311,7 +8313,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1057975474276712449%252FjEZUsJ6L_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pixelatedboat/status/773768496924635136",
+        url: "https://xcancel.com/pixelatedboat/status/773768496924635136",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         retweets: 570,
         likes: 1976,
@@ -8319,7 +8321,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Arr/status/774855950070972417",
+        url: "https://xcancel.com/Arr/status/774855950070972417",
         author: "koyaanisqatsi heckler (@Arr)",
         retweets: 17091,
         likes: 33503,
@@ -8327,7 +8329,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1642623925564874753%252FgrOfuvod_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Bentono10/status/776204140569513984",
+        url: "https://xcancel.com/Bentono10/status/776204140569513984",
         author: "2022 (@Bentono10)",
         retweets: 215967,
         likes: 470961,
@@ -8335,7 +8337,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1496204531683799044%252FL0Ei36L7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/outsidethenba/status/777222991503433728",
+        url: "https://xcancel.com/outsidethenba/status/777222991503433728",
         author: "James Herbert (@outsidethenba)",
         retweets: 1,
         likes: 6,
@@ -8344,7 +8346,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F463327359%252Fjerry_sloan_with_clowns_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CardboardGerald/status/779164690576347136",
+        url: "https://xcancel.com/CardboardGerald/status/779164690576347136",
         author: "Ben Swanson (@CardboardGerald)",
         retweets: 11,
         likes: 26,
@@ -8353,7 +8355,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2494527612%252F4076f119-04c9-44aa-a756-b1c0a64725c8_bigger.png",
     },
     {
-        url: "https://twitter.com/DLoesch/status/781156872",
+        url: "https://xcancel.com/DLoesch/status/781156872",
         author: "Dana Loesch (@DLoesch)",
         retweets: 742,
         likes: 1463,
@@ -8361,7 +8363,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1706803808041381888%252FD81-F0_6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Hanecdote/status/782349934691581953",
+        url: "https://xcancel.com/Hanecdote/status/782349934691581953",
         author: "Solidarity with Strikers ❤️ (@Hanecdote)",
         retweets: 42298,
         likes: 129190,
@@ -8371,7 +8373,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/LibyaLiberty/status/782520849815470080",
+    //     url: "https://xcancel.com/LibyaLiberty/status/782520849815470080",
     //     author: "Hend Amry (@LibyaLiberty)",
     //     retweets: 5594,
     //     likes: 8593,
@@ -8380,7 +8382,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1359876318624677888%252FuMwW3DFi_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/cursedimages/status/782754055806341121",
+        url: "https://xcancel.com/cursedimages/status/782754055806341121",
         author: "cursed images (@cursedimages)",
         retweets: 1685,
         likes: 3360,
@@ -8389,7 +8391,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F793318791635607552%252FtZPtm-yP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/blasianBronson/status/786344220978139136",
+        url: "https://xcancel.com/blasianBronson/status/786344220978139136",
         author: "AfricanBattleRoach (@blasianBronson)",
         retweets: 30907,
         likes: 58744,
@@ -8398,7 +8400,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1678681454514151424%252F1zzj0wth_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/787799268342001665",
+        url: "https://xcancel.com/meganamram/status/787799268342001665",
         author: "Megan Amram (@meganamram)",
         retweets: 4076,
         likes: 26626,
@@ -8406,7 +8408,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/caseyjohnston/status/788918264512466944",
+        url: "https://xcancel.com/caseyjohnston/status/788918264512466944",
         author: "Casey Johnston (@caseyjohnston)",
         retweets: 7216,
         likes: 21387,
@@ -8414,7 +8416,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1338127761249013762%252FhGPAUxKM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/imbethmccoll/status/791034411953315840",
+        url: "https://xcancel.com/imbethmccoll/status/791034411953315840",
         author: "Beth McColl (@imbethmccoll)",
         retweets: 11731,
         likes: 31366,
@@ -8422,7 +8424,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1694003470095851520%252FkwCYaQZk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KestrelPi/status/791601056522334208",
+        url: "https://xcancel.com/KestrelPi/status/791601056522334208",
         author: "Peter Silk  🏳️‍🌈  is in Maintenance Mode. (@KestrelPi)",
         retweets: 20766,
         likes: 45407,
@@ -8430,7 +8432,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1429484682685657091%252F7Bo_HU5U_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gotham146/status/792589168991997955",
+        url: "https://xcancel.com/gotham146/status/792589168991997955",
         author: "david sanchez (@gotham146)",
         retweets: 23022,
         likes: 55641,
@@ -8439,7 +8441,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F542158169406189570%252F6X2LpzRs_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DlCKSLEXIC/status/792757734072520705",
+        url: "https://xcancel.com/DlCKSLEXIC/status/792757734072520705",
         author: "branford II (@DlCKSLEXIC)",
         retweets: 16879,
         likes: 34971,
@@ -8448,7 +8450,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1693502386621370368%252F9dMdr8jm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/trouteyes/status/794659585885958144",
+        url: "https://xcancel.com/trouteyes/status/794659585885958144",
         author: "trouteyes (@trouteyes)",
         retweets: 1451,
         likes: 2543,
@@ -8457,7 +8459,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1193647178562056199%252FDVn6idRH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AngstromHoot/status/795362873396654080",
+        url: "https://xcancel.com/AngstromHoot/status/795362873396654080",
         author: "Thomas Gorton (@AngstromHoot)",
         retweets: 15334,
         likes: 40788,
@@ -8465,7 +8467,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1473606779376480256%252F5CLT3mMI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ConIsles/status/797249045270003712",
+        url: "https://xcancel.com/ConIsles/status/797249045270003712",
         author: "connor (@ConIsles)",
         retweets: 38686,
         likes: 71919,
@@ -8474,7 +8476,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1482907870576492545%252Fbayqv7ek_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JuliusIrvington/status/798393636442558470",
+        url: "https://xcancel.com/JuliusIrvington/status/798393636442558470",
         author: "horse powder (@JuliusIrvington)",
         retweets: 2920,
         likes: 6257,
@@ -8482,7 +8484,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135032059934781440%252FFHiIxRBL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/droobis/status/799088750529748992",
+        url: "https://xcancel.com/droobis/status/799088750529748992",
         author: "sorry for clarty plodging (@droobis)",
         retweets: 239,
         likes: 708,
@@ -8491,7 +8493,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3458077651%252F223b087c87d2dd4cfb3dbc0e70c235d5_bigger.gif",
     },
     {
-        url: "https://twitter.com/dwdavison/status/800823370480644096",
+        url: "https://xcancel.com/dwdavison/status/800823370480644096",
         author: "derek davison (@dwdavison)",
         retweets: 7835,
         likes: 17895,
@@ -8500,7 +8502,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1662094319015043072%252FaOfWpDMy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wildethingy/status/801170075516596225",
+        url: "https://xcancel.com/wildethingy/status/801170075516596225",
         author: "Spooky Thingy (@wildethingy)",
         retweets: 9068,
         likes: 15592,
@@ -8508,7 +8510,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587403085047111682%252FoSHxHnAj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sarahjeong/status/801579893112782848",
+        url: "https://xcancel.com/sarahjeong/status/801579893112782848",
         author: "sarah jeong (@sarahjeong)",
         retweets: 4151,
         likes: 9644,
@@ -8516,7 +8518,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1409002235455967234%252FZcTT1Xq-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/anitathetweeter/status/805421890168913920",
+        url: "https://xcancel.com/anitathetweeter/status/805421890168913920",
         author: "Anita Singh (@anitathetweeter)",
         retweets: 6744,
         likes: 10891,
@@ -8525,7 +8527,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1146488295548948482%252FSUoC25cJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SamGrittner/status/807425581096796164",
+        url: "https://xcancel.com/SamGrittner/status/807425581096796164",
         author: "Arby’s Provocateur (@SamGrittner)",
         retweets: 20554,
         likes: 51558,
@@ -8533,7 +8535,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624870235076456451%252FRK3XxngP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewtoothpaste/status/808095288644734976",
+        url: "https://xcancel.com/drewtoothpaste/status/808095288644734976",
         author: "drewtoothpaste.bsky.social (@drewtoothpaste)",
         retweets: 57,
         likes: 479,
@@ -8541,7 +8543,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bryne/status/808481890738896896",
+        url: "https://xcancel.com/bryne/status/808481890738896896",
         author: "John Flynn (@bryne)",
         retweets: 14495,
         likes: 33665,
@@ -8551,7 +8553,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/cabel/status/808783680353116160",
+    //     url: "https://xcancel.com/cabel/status/808783680353116160",
     //     author: "Cabel (@cabel)",
     //     retweets: 2594,
     //     likes: 4940,
@@ -8560,7 +8562,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F763137848916660224%252FLlcjv9V5_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/MicahBerteau/status/808862436648329216",
+        url: "https://xcancel.com/MicahBerteau/status/808862436648329216",
         author: "Micah Berteau (@MicahBerteau)",
         retweets: 52000,
         likes: 120855,
@@ -8569,7 +8571,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1549902770420887553%252F-_kuK30v_bigger.jpg",
     },
     {
-        url: "https://twitter.com/levarburton/status/808868797490696192",
+        url: "https://xcancel.com/levarburton/status/808868797490696192",
         author: "LeVar Burton (@levarburton)",
         retweets: 290,
         likes: 1142,
@@ -8577,7 +8579,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724475754887708672%252FDOlx2N49_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HanifJWilliams/status/811205287646400512",
+        url: "https://xcancel.com/HanifJWilliams/status/811205287646400512",
         author: "Hanif J. Williams (@HanifJWilliams)",
         retweets: 2847,
         likes: 4698,
@@ -8586,7 +8588,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1611295679963447296%252FUqjm89X2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/811265565054685186",
+        url: "https://xcancel.com/InternetHippo/status/811265565054685186",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 10238,
         likes: 17188,
@@ -8594,7 +8596,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/elliesunakawa/status/811403862234071040",
+        url: "https://xcancel.com/elliesunakawa/status/811403862234071040",
         author: "ellie sunakawa (@elliesunakawa)",
         retweets: 6542,
         likes: 16662,
@@ -8603,7 +8605,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1181021014647541761%252FXfJ5BnMK_bigger.png",
     },
     {
-        url: "https://twitter.com/edenthecat/status/811761575748980736",
+        url: "https://xcancel.com/edenthecat/status/811761575748980736",
         author: "eden (@edenthecat)",
         retweets: 63,
         likes: 234,
@@ -8612,7 +8614,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587507065224036353%252FtjDN1npS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JuliusIrvington/status/812434888888635392",
+        url: "https://xcancel.com/JuliusIrvington/status/812434888888635392",
         author: "horse powder (@JuliusIrvington)",
         retweets: 237,
         likes: 849,
@@ -8620,7 +8622,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1135032059934781440%252FFHiIxRBL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/tfswebb/status/812460432355037185",
+        url: "https://xcancel.com/tfswebb/status/812460432355037185",
         author: "Tiger Webb (@tfswebb)",
         retweets: 394,
         likes: 1535,
@@ -8628,7 +8630,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1401488590153019397%252FVCCF6kDH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/FBI/status/812643007203659776",
+        url: "https://xcancel.com/FBI/status/812643007203659776",
         author: "FBI (@FBI)",
         retweets: 58052,
         likes: 96231,
@@ -8637,7 +8639,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1079780911418408961%252FYXYAye0S_bigger.jpg",
     },
     {
-        url: "https://twitter.com/paleofuture/status/813254620466188288",
+        url: "https://xcancel.com/paleofuture/status/813254620466188288",
         author: "Matt Novak (@paleofuture)",
         retweets: 12235,
         likes: 27770,
@@ -8645,7 +8647,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1233031324828499968%252F3LFRAHzf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KalvinMacleod/status/814516607787630592",
+        url: "https://xcancel.com/KalvinMacleod/status/814516607787630592",
         author: "Kalvin (@KalvinMacleod)",
         retweets: 10374,
         likes: 17432,
@@ -8653,7 +8655,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F927353050896805888%252FjCrOzhU0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/iriskessler/status/816278466677145600",
+        url: "https://xcancel.com/iriskessler/status/816278466677145600",
         author: "iris (@iriskessler)",
         retweets: 116845,
         likes: 384976,
@@ -8662,7 +8664,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702368571467206656%252FKO70YBJL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/marianbull/status/816880793788223488",
+        url: "https://xcancel.com/marianbull/status/816880793788223488",
         author: "Xena Worrier Princess (@marianbull)",
         retweets: 123,
         likes: 694,
@@ -8670,7 +8672,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1221850448015056901%252F0qplhGJ-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mbyhoff/status/817053630784294913",
+        url: "https://xcancel.com/mbyhoff/status/817053630784294913",
         author: "Mike… Byhoff? (@mbyhoff)",
         retweets: 167,
         likes: 997,
@@ -8678,7 +8680,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F964253954073874437%252FDVrErBeD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ProdigyNelson/status/817122034996101124",
+        url: "https://xcancel.com/ProdigyNelson/status/817122034996101124",
         author: "derek.eth (@ProdigyNelson)",
         retweets: 9141,
         likes: 26629,
@@ -8687,7 +8689,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565066595851976707%252Flq_Og7fy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/knifedog311/status/817446287599489024",
+        url: "https://xcancel.com/knifedog311/status/817446287599489024",
         author: "knife (@knifedog311)",
         retweets: 1444,
         likes: 4803,
@@ -8696,7 +8698,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655579078030761985%252FgTLrRaqP_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_cingraham/status/817457217372848128",
+        url: "https://xcancel.com/_cingraham/status/817457217372848128",
         author: "Christopher Ingraham (@_cingraham)",
         retweets: 73,
         likes: 139,
@@ -8705,7 +8707,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1105133182574223360%252Fm_h-lhSu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/robknopper1/status/818871248432361473",
+        url: "https://xcancel.com/robknopper1/status/818871248432361473",
         author: "rob knopper (@robknopper1)",
         retweets: 1969,
         likes: 6288,
@@ -8714,7 +8716,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F587793752917471233%252FSbc41yzu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephcd/status/818938867415969793",
+        url: "https://xcancel.com/stephcd/status/818938867415969793",
         author: "Steph Davidson (@stephcd)",
         retweets: 1396,
         likes: 2894,
@@ -8723,7 +8725,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
-        url: "https://twitter.com/sarahjeong/status/821471790035677184",
+        url: "https://xcancel.com/sarahjeong/status/821471790035677184",
         author: "sarah jeong (@sarahjeong)",
         retweets: 115,
         likes: 377,
@@ -8732,7 +8734,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/no_talent_shan/status/821606828006055936",
+    //     url: "https://xcancel.com/no_talent_shan/status/821606828006055936",
     //     author: "go birds (@no_talent_shan)",
     //     retweets: 51,
     //     likes: 423,
@@ -8741,7 +8743,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655381384746135553%252F3Zcz9K4X_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/LukeMones/status/821718426037194757",
+        url: "https://xcancel.com/LukeMones/status/821718426037194757",
         author: "Luke Mones (@LukeMones)",
         retweets: 937,
         likes: 4067,
@@ -8749,7 +8751,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F760284907902013440%252Fnz7TXnVB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/EliTerry/status/823286330146713600",
+        url: "https://xcancel.com/EliTerry/status/823286330146713600",
         author: "Eli Terry (@EliTerry)",
         retweets: 6553,
         likes: 19185,
@@ -8758,7 +8760,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F806643003800465408%252F2HfRy9Bp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KeetPotato/status/823848392027701249",
+        url: "https://xcancel.com/KeetPotato/status/823848392027701249",
         author: "k e i t h (@KeetPotato)",
         retweets: 5611,
         likes: 12489,
@@ -8766,7 +8768,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1295356472348508160%252FhZlM_K3__bigger.jpg",
     },
     {
-        url: "https://twitter.com/CharlesFinch/status/823942113838542848",
+        url: "https://xcancel.com/CharlesFinch/status/823942113838542848",
         author: "Charles Finch (@CharlesFinch)",
         retweets: 27538,
         likes: 65222,
@@ -8775,7 +8777,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1558642671597391872%252F7JxoQ3sk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/824002958731972609",
+        url: "https://xcancel.com/TriciaLockwood/status/824002958731972609",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 1057,
         likes: 6176,
@@ -8783,7 +8785,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Alex_jonsie/status/826124303175471105",
+        url: "https://xcancel.com/Alex_jonsie/status/826124303175471105",
         author: "Alex is deleting this app (@Alex_jonsie)",
         retweets: 95920,
         likes: 227890,
@@ -8792,7 +8794,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1670151196412346368%252FvTjgJ_7l_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CashAndJewels/status/828025127468167169",
+        url: "https://xcancel.com/CashAndJewels/status/828025127468167169",
         author: "00a9 (@CashAndJewels)",
         retweets: 5096,
         likes: 10624,
@@ -8801,7 +8803,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1358184189716164608%252F39VcAgKG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/thepunningman/status/829012482945597442",
+        url: "https://xcancel.com/thepunningman/status/829012482945597442",
         author: "Sean Leahy (@thepunningman)",
         retweets: 20877,
         likes: 38851,
@@ -8810,7 +8812,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F925665229920456706%252FIouKOUHL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/carlinspace/status/831541951686078465",
+        url: "https://xcancel.com/carlinspace/status/831541951686078465",
         author: "Carl Garcia (@carlinspace)",
         retweets: 1751,
         likes: 2974,
@@ -8818,7 +8820,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587473701238251520%252FG21u33lL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/leyawn/status/831586851127455749",
+        url: "https://xcancel.com/leyawn/status/831586851127455749",
         author: "leon (@leyawn)",
         retweets: 1055,
         likes: 4108,
@@ -8826,7 +8828,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/AliceAvizandum/status/833020025929924608",
+        url: "https://xcancel.com/AliceAvizandum/status/833020025929924608",
         author: "let’s try calling me ‘november’ (@AliceAvizandum)",
         retweets: 10468,
         likes: 33054,
@@ -8834,7 +8836,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649185723000430594%252FyqeslvMy_bigger.jpg",
     },
     {
-        url: "https://twitter.com/arturovasquez__/status/833417230591234049",
+        url: "https://xcancel.com/arturovasquez__/status/833417230591234049",
         author: "Arturo Vasquez (@arturovasquez__)",
         retweets: 17679,
         likes: 22270,
@@ -8843,7 +8845,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1651083980073213953%252FqU0A-i1i_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drewtoothpaste/status/833715622060163072",
+        url: "https://xcancel.com/drewtoothpaste/status/833715622060163072",
         author: "drewtoothpaste.bsky.social (@drewtoothpaste)",
         retweets: 1395,
         likes: 6583,
@@ -8851,7 +8853,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1590769094382469120%252FoPUz9D_J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gabegundacker/status/833857935168110592",
+        url: "https://xcancel.com/gabegundacker/status/833857935168110592",
         author: "Gabriel Gundacker (@gabegundacker)",
         retweets: 331,
         likes: 1757,
@@ -8859,7 +8861,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1307004575887421440%252F7-rjgcgq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AsaAkira/status/837005713398431744",
+        url: "https://xcancel.com/AsaAkira/status/837005713398431744",
         author: "Asa Akira (@AsaAkira)",
         retweets: 600,
         likes: 2567,
@@ -8867,7 +8869,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F796536495221907456%252FpHIkaLfV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/urbanautomaton/status/839789732167053312",
+        url: "https://xcancel.com/urbanautomaton/status/839789732167053312",
         author: "Simon Coffey (@urbanautomaton)",
         retweets: 20232,
         likes: 32415,
@@ -8876,7 +8878,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F481471450641993730%252Fq858ERm5_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/MattOswaltVA/status/842089429359505408",
+        url: "https://xcancel.com/MattOswaltVA/status/842089429359505408",
         author: "Matt Oswalt (@MattOswaltVA)",
         retweets: 3447,
         likes: 15970,
@@ -8885,7 +8887,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542182011619532800%252F5MrDhGZG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chuchugoogoo/status/842486671849459712",
+        url: "https://xcancel.com/chuchugoogoo/status/842486671849459712",
         author: "skip intro (@chuchugoogoo)",
         retweets: 6410,
         likes: 19010,
@@ -8893,7 +8895,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1436489363018354688%252FQ1Da5Kgq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pixelatedboat/status/849406960667508736",
+        url: "https://xcancel.com/pixelatedboat/status/849406960667508736",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         retweets: 1107,
         likes: 3884,
@@ -8902,7 +8904,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SamuelAAdams/status/849668254360629248",
+        url: "https://xcancel.com/SamuelAAdams/status/849668254360629248",
         author: "Sam Adams (@SamuelAAdams)",
         retweets: 96,
         likes: 303,
@@ -8911,7 +8913,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724819498882957312%252FzDkGKKE3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/goatmoonryong/status/850103130486439938",
+        url: "https://xcancel.com/goatmoonryong/status/850103130486439938",
         author: "Oz (@goatmoonryong)",
         retweets: 18760,
         likes: 37920,
@@ -8920,7 +8922,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1074784764534681600%252FZIhO2EjE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/martynkelly/status/850264603065950212",
+        url: "https://xcancel.com/martynkelly/status/850264603065950212",
         author: "Martyn Skelly (@martynkelly)",
         retweets: 3240,
         likes: 5421,
@@ -8929,7 +8931,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1611065439584493568%252F9PPmB_il_bigger.jpg",
     },
     {
-        url: "https://twitter.com/annabroges/status/850385985623949313",
+        url: "https://xcancel.com/annabroges/status/850385985623949313",
         author: "anna borges (@annabroges)",
         retweets: 36285,
         likes: 84568,
@@ -8938,7 +8940,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585762028555313153%252FwKIqqpRr_bigger.jpg",
     },
     {
-        url: "https://twitter.com/electrolemon/status/851803292652814336",
+        url: "https://xcancel.com/electrolemon/status/851803292652814336",
         author: "demi adejuyigbe (@electrolemon)",
         retweets: 16888,
         likes: 42695,
@@ -8946,7 +8948,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/dlicj/status/852917524073242626",
+        url: "https://xcancel.com/dlicj/status/852917524073242626",
         author: "slick (@dlicj)",
         retweets: 6348,
         likes: 20462,
@@ -8954,7 +8956,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F997355735980834816%252FXw7LfJac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JucheMane/status/852949235981012994",
+        url: "https://xcancel.com/JucheMane/status/852949235981012994",
         author: "nick (@JucheMane)",
         retweets: 9389,
         likes: 28264,
@@ -8962,7 +8964,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1334926195872378881%252FlXNEhO3T_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rustymk2/status/853269692659761156",
+        url: "https://xcancel.com/rustymk2/status/853269692659761156",
         author: "Rusty Redenbacher (@rustymk2)",
         retweets: 12858,
         likes: 25221,
@@ -8970,7 +8972,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1493046070598934533%252FiO4HqqQH_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brunchproblems/status/855118485386481664",
+        url: "https://xcancel.com/brunchproblems/status/855118485386481664",
         author: "Carly (@brunchproblems)",
         retweets: 12918,
         likes: 34587,
@@ -8979,7 +8981,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1304894854971809792%252FGvzHDcXE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ctrlcreep/status/855265438569304064",
+        url: "https://xcancel.com/ctrlcreep/status/855265438569304064",
         author: "neoltitude (@ctrlcreep)",
         retweets: 232,
         likes: 491,
@@ -8987,7 +8989,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F855460243152801793%252FcxX82P3V_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DennisFarrell/status/857268898508541955",
+        url: "https://xcancel.com/DennisFarrell/status/857268898508541955",
         author: "Dennis Farrell (@DennisFarrell)",
         retweets: 29117,
         likes: 62613,
@@ -8995,7 +8997,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1092721476720046082%252F3PJleh7f_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cher/status/857672300560134144",
+        url: "https://xcancel.com/cher/status/857672300560134144",
         author: "Cher (@cher)",
         retweets: 2429,
         likes: 5918,
@@ -9003,7 +9005,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710170486720573440%252F9xJUi3tz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kennyg/status/859452839554420736",
+        url: "https://xcancel.com/kennyg/status/859452839554420736",
         author: "Kenny G (@kennyg)",
         retweets: 50815,
         likes: 102059,
@@ -9012,7 +9014,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1699997277467615232%252FCwBzbPmX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/robbie_couch/status/859526631647576064",
+        url: "https://xcancel.com/robbie_couch/status/859526631647576064",
         author: "Robbie Couch (@robbie_couch)",
         retweets: 44329,
         likes: 120526,
@@ -9020,17 +9022,18 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC-2m6dnXkAIX_7I.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1633622952381153281%252FR97UCrqw_bigger.jpg",
     },
+    // removed: requires multiple images
+    // {
+    //     url: "https://xcancel.com/bigstarsandwich/status/859588377917652995",
+    //     author: "Big Star Sandwich Co (@bigstarsandwich)",
+    //     retweets: 3382,
+    //     likes: 8771,
+    //     content: "Holy f\\*\\*k, it worked! #LiamNeeson",
+    //     image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC-3fEpQWsAAyYDe.jpg",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F665213776124231680%252F3Qv1d2uQ_bigger.jpg",
+    // },
     {
-        url: "https://twitter.com/bigstarsandwich/status/859588377917652995",
-        author: "Big Star Sandwich Co (@bigstarsandwich)",
-        retweets: 3382,
-        likes: 8771,
-        content: "Holy f\\*\\*k, it worked! #LiamNeeson",
-        image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FC-3fEpQWsAAyYDe.jpg",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F665213776124231680%252F3Qv1d2uQ_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/leyawn/status/860199590599020544",
+        url: "https://xcancel.com/leyawn/status/860199590599020544",
         author: "leon (@leyawn)",
         retweets: 12383,
         likes: 29696,
@@ -9039,7 +9042,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F3205550236%252F70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
     {
-        url: "https://twitter.com/bobvulfov/status/861808496098127873",
+        url: "https://xcancel.com/bobvulfov/status/861808496098127873",
         author: "Bob Vulfov (@bobvulfov)",
         retweets: 135346,
         likes: 313091,
@@ -9047,7 +9050,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1163961107356233729%252FwRdxfoXi_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jeremydlarson/status/862750126523265026",
+        url: "https://xcancel.com/jeremydlarson/status/862750126523265026",
         author: "Jeremy D. Larson (@jeremydlarson)",
         retweets: 36,
         likes: 169,
@@ -9055,7 +9058,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1131233615575175170%252F4_9dWCee_bigger.png",
     },
     {
-        url: "https://twitter.com/spookperson/status/863079164848488448",
+        url: "https://xcancel.com/spookperson/status/863079164848488448",
         author: "Goth Ms. Frizzle (@spookperson)",
         retweets: 8,
         likes: 128,
@@ -9064,7 +9067,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ftopinion/status/865568477733675008",
+        url: "https://xcancel.com/ftopinion/status/865568477733675008",
         author: "FT Opinion (@ftopinion)",
         retweets: 128,
         likes: 249,
@@ -9073,7 +9076,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1635250708080467969%252Fnk9-v-ez_bigger.png",
     },
     {
-        url: "https://twitter.com/spookperson/status/865701296002564096",
+        url: "https://xcancel.com/spookperson/status/865701296002564096",
         author: "Goth Ms. Frizzle (@spookperson)",
         retweets: 3478,
         likes: 12789,
@@ -9082,7 +9085,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cabel/status/865909530437099524",
+        url: "https://xcancel.com/cabel/status/865909530437099524",
         author: "Cabel (@cabel)",
         retweets: 394,
         likes: 1536,
@@ -9091,7 +9094,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F763137848916660224%252FLlcjv9V5_bigger.jpg",
     },
     {
-        url: "https://twitter.com/R_jackPotter/status/867107810529742849",
+        url: "https://xcancel.com/R_jackPotter/status/867107810529742849",
         author: "Reece.Jack.Potter (@R_jackPotter)",
         retweets: 27082,
         likes: 113277,
@@ -9100,7 +9103,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1548699365346365442%252F0dFG9DKG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/yarezawa/status/867111752433102849",
+        url: "https://xcancel.com/yarezawa/status/867111752433102849",
         author: "Damn☆ちゃん✨⛩️🦊 Catch Me b4 I Go 🎩🪄 (@yarezawa)",
         retweets: 46763,
         likes: 123444,
@@ -9109,7 +9112,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1158188009688379393%252F4CSz4ogg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MarisaKabas/status/867348385719885824",
+        url: "https://xcancel.com/MarisaKabas/status/867348385719885824",
         author: ". (@MarisaKabas)",
         retweets: 1561,
         likes: 4793,
@@ -9118,7 +9121,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/cciccone/status/867390080268156928",
+        url: "https://xcancel.com/cciccone/status/867390080268156928",
         author: "carla ciccone (@cciccone)",
         retweets: 39868,
         likes: 119373,
@@ -9127,7 +9130,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707375617618964480%252F2s2GhcXL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/868278574033379328",
+        url: "https://xcancel.com/TriciaLockwood/status/868278574033379328",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 263,
         likes: 1131,
@@ -9135,7 +9138,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Snowden/status/868479120677720064",
+        url: "https://xcancel.com/Snowden/status/868479120677720064",
         author: "Edward Snowden (@Snowden)",
         retweets: 5330,
         likes: 12298,
@@ -9144,7 +9147,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F648888480974508032%252F66_cUYfj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AndresPlazaR/status/868480353773780993",
+        url: "https://xcancel.com/AndresPlazaR/status/868480353773780993",
         author: "Andres Plaza (@AndresPlazaR)",
         retweets: 0,
         likes: 17,
@@ -9152,7 +9155,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1354597466625241097%252FezaDo539_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ashleyfeinberg/status/868856787163901952",
+        url: "https://xcancel.com/ashleyfeinberg/status/868856787163901952",
         author: "Ashley Feinberg (ashleyfeinberg.bsky.social) (@ashleyfeinberg)",
         retweets: 317,
         likes: 1890,
@@ -9161,7 +9164,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F829782486955782148%252FvMthq5x2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rachelysanders/status/870360638853443586",
+        url: "https://xcancel.com/rachelysanders/status/870360638853443586",
         author: "Rachel Sanders (@rachelysanders)",
         retweets: 144,
         likes: 446,
@@ -9169,7 +9172,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1276548377552072706%252FYx85RTvX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hamyojo/status/870371718128205824",
+        url: "https://xcancel.com/hamyojo/status/870371718128205824",
         author: "TLOC | hamyojo ♀️ (@hamyojo)",
         retweets: 44543,
         likes: 113244,
@@ -9178,7 +9181,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1669161608117903360%252FPTCQffpD_bigger.jpg",
     },
     {
-        url: "https://twitter.com/spookperson/status/870684285946150912",
+        url: "https://xcancel.com/spookperson/status/870684285946150912",
         author: "Goth Ms. Frizzle (@spookperson)",
         retweets: 91,
         likes: 477,
@@ -9186,7 +9189,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
-        url: "https://twitter.com/spookperson/status/870684729883860994",
+        url: "https://xcancel.com/spookperson/status/870684729883860994",
         author: "Goth Ms. Frizzle (@spookperson)",
         retweets: 24,
         likes: 156,
@@ -9194,7 +9197,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1462899495377670148%252FkPuqd9ti_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DanMentos/status/874667610763214848",
+        url: "https://xcancel.com/DanMentos/status/874667610763214848",
         author: "dan mentos (@DanMentos)",
         retweets: 13849,
         likes: 53445,
@@ -9202,7 +9205,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
-        url: "https://twitter.com/GooseyMane/status/874731026605637632",
+        url: "https://xcancel.com/GooseyMane/status/874731026605637632",
         author: "GOOSE (@GooseyMane)",
         retweets: 30731,
         likes: 82839,
@@ -9211,7 +9214,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1477196842987307011%252FQ8fpPqFg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SomeChrisTweets/status/874747648128843776",
+        url: "https://xcancel.com/SomeChrisTweets/status/874747648128843776",
         author: "Chris Worthington (@SomeChrisTweets)",
         retweets: 3250,
         likes: 11076,
@@ -9220,7 +9223,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1450346944358928387%252FfkIRuhnp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/LAKUTIS/status/874824426545709056",
+        url: "https://xcancel.com/LAKUTIS/status/874824426545709056",
         author: "LAKUTIS (@LAKUTIS)",
         retweets: 202,
         likes: 638,
@@ -9228,7 +9231,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F620668218361819136%252Fsg0-ixxx_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pbump/status/875059797716086784",
+        url: "https://xcancel.com/pbump/status/875059797716086784",
         author: "Philip Bump (@pbump)",
         retweets: 14732,
         likes: 41209,
@@ -9237,7 +9240,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554893308790546434%252FGg2fE0f6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BMcCarthy32/status/877412303209021440",
+        url: "https://xcancel.com/BMcCarthy32/status/877412303209021440",
         author: "Brandon McCarthy (@BMcCarthy32)",
         retweets: 8393,
         likes: 40033,
@@ -9245,7 +9248,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1724479756543184896%252FH4blozr__bigger.jpg",
     },
     {
-        url: "https://twitter.com/kerbiegibbs/status/878762071516741632",
+        url: "https://xcancel.com/kerbiegibbs/status/878762071516741632",
         author: "Kerbie Polsky (@kerbiegibbs)",
         retweets: 164687,
         likes: 574347,
@@ -9254,7 +9257,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1564721680571932683%252F_bbh43cI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephcd/status/880512544934432768",
+        url: "https://xcancel.com/stephcd/status/880512544934432768",
         author: "Steph Davidson (@stephcd)",
         retweets: 79,
         likes: 484,
@@ -9263,7 +9266,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1118613513252081664%252FOUSuHNuY_bigger.png",
     },
     {
-        url: "https://twitter.com/bransonreese/status/880637097165697026",
+        url: "https://xcancel.com/bransonreese/status/880637097165697026",
         author: "The Texas Chain Saw Bransacre (@bransonreese)",
         retweets: 3634,
         likes: 11774,
@@ -9272,7 +9275,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655613791823073280%252FY-aQDM3J_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meanasskie/status/880780466634326017",
+        url: "https://xcancel.com/meanasskie/status/880780466634326017",
         author: "major kie (@meanasskie)",
         retweets: 27604,
         likes: 69488,
@@ -9280,7 +9283,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1076713117478998016%252FnkaEOudt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bakerbakerbaker/status/880820080032063489",
+        url: "https://xcancel.com/bakerbakerbaker/status/880820080032063489",
         author: "baber (@bakerbakerbaker)",
         retweets: 39743,
         likes: 108725,
@@ -9289,7 +9292,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703015866948866048%252FFYgtTsgT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JoelBleiman/status/881191238346702848",
+        url: "https://xcancel.com/JoelBleiman/status/881191238346702848",
         author: "Joel (@JoelBleiman)",
         retweets: 14653,
         likes: 45601,
@@ -9297,7 +9300,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1311208580155166720%252F737LBOjk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/veryADVANCED/status/881537750402576384",
+        url: "https://xcancel.com/veryADVANCED/status/881537750402576384",
         author: "Add your name (@veryADVANCED)",
         retweets: 70299,
         likes: 165260,
@@ -9306,7 +9309,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1537940305772572673%252FO2y2dylo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/vesselskirt/status/883873278892195845",
+        url: "https://xcancel.com/vesselskirt/status/883873278892195845",
         author: "Chloe Alison Escott (@vesselskirt)",
         retweets: 2338,
         likes: 11257,
@@ -9314,7 +9317,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F999133866651664384%252F_uXlWKYE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ageitgey/status/885598368566607872",
+        url: "https://xcancel.com/ageitgey/status/885598368566607872",
         author: "Adam Geitgey (@ageitgey)",
         retweets: 9224,
         likes: 20836,
@@ -9323,7 +9326,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1246188382633459712%252Fz07u4b1Z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/WTAE/status/885962148794454016",
+        url: "https://xcancel.com/WTAE/status/885962148794454016",
         author: "WTAE-TV Pittsburgh (@WTAE)",
         retweets: 3019,
         likes: 3906,
@@ -9332,7 +9335,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1702651725117579264%252F7lFPUJZs_bigger.jpg",
     },
     {
-        url: "https://twitter.com/steinkobbe/status/886239657478029312",
+        url: "https://xcancel.com/steinkobbe/status/886239657478029312",
         author: "Wild Geerters (@steinkobbe)",
         retweets: 398,
         likes: 2171,
@@ -9341,7 +9344,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1377384580446044164%252FcS30sfZ-_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rockymomax/status/886252423119032320",
+        url: "https://xcancel.com/rockymomax/status/886252423119032320",
         author: "rob elliott (@rockymomax)",
         retweets: 229,
         likes: 658,
@@ -9349,7 +9352,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1061717129068793863%252F-G31stmU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/heyitsgarrett/status/887164239202340864",
+        url: "https://xcancel.com/heyitsgarrett/status/887164239202340864",
         author: "Garrett Miller (@heyitsgarrett)",
         retweets: 2,
         likes: 32,
@@ -9357,7 +9360,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1519415326370263040%252FlCqlnYlL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pbump/status/887662967281643520",
+        url: "https://xcancel.com/pbump/status/887662967281643520",
         author: "Philip Bump (@pbump)",
         retweets: 239,
         likes: 1755,
@@ -9366,7 +9369,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1554893308790546434%252FGg2fE0f6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/carlinspace/status/887725098781646848",
+        url: "https://xcancel.com/carlinspace/status/887725098781646848",
         author: "Carl Garcia (@carlinspace)",
         retweets: 7767,
         likes: 27925,
@@ -9374,7 +9377,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587473701238251520%252FG21u33lL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hexprax/status/887751302662373376",
+        url: "https://xcancel.com/hexprax/status/887751302662373376",
         author: "Christin (@hexprax)",
         retweets: 52,
         likes: 276,
@@ -9382,7 +9385,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F759813636692992000%252Fz_aTOH6j_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mineifiwildout/status/888123827615449088",
+        url: "https://xcancel.com/mineifiwildout/status/888123827615449088",
         author: "alex (@mineifiwildout)",
         retweets: 16427,
         likes: 51995,
@@ -9390,7 +9393,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephenjhuggins/status/889813190577672193",
+        url: "https://xcancel.com/stephenjhuggins/status/889813190577672193",
         author: "Stephen Huggins (@stephenjhuggins)",
         retweets: 3331,
         likes: 6495,
@@ -9399,7 +9402,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1073671104395399169%252FklNIWK2c_bigger.jpg",
     },
     {
-        url: "https://twitter.com/smeezi/status/890067258877378561",
+        url: "https://xcancel.com/smeezi/status/890067258877378561",
         author: "Sam (@smeezi)",
         retweets: 46802,
         likes: 126878,
@@ -9407,7 +9410,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1736151734169317377%252FHNjsnccd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/helen/status/890413508063580161",
+        url: "https://xcancel.com/helen/status/890413508063580161",
         author: "helen (@helen)",
         retweets: 5606,
         likes: 15785,
@@ -9416,7 +9419,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1574819499215159296%252FClICM3t6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/judecomputer/status/890646479110496257",
+        url: "https://xcancel.com/judecomputer/status/890646479110496257",
         author: "jude (@judecomputer)",
         retweets: 10581,
         likes: 32545,
@@ -9424,7 +9427,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1673893846978265088%252Fj4u4DjMk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/lucianwintrich/status/891445109929246720",
+        url: "https://xcancel.com/lucianwintrich/status/891445109929246720",
         author: "Lucian B. Wintrich (@lucianwintrich)",
         retweets: 3148,
         likes: 14857,
@@ -9433,7 +9436,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1022261850489085952%252FPYPwm9JL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/electrolemon/status/891729212586852352",
+        url: "https://xcancel.com/electrolemon/status/891729212586852352",
         author: "demi adejuyigbe (@electrolemon)",
         retweets: 6772,
         likes: 32653,
@@ -9441,7 +9444,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/cushbomb/status/891857975492698115",
+        url: "https://xcancel.com/cushbomb/status/891857975492698115",
         author: "crisp mattman (@cushbomb)",
         retweets: 5670,
         likes: 21325,
@@ -9450,7 +9453,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1604277956888514560%252F6cnIHDig_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hatwell/status/891976643962687489",
+        url: "https://xcancel.com/hatwell/status/891976643962687489",
         author: "caroline (@hatwell)",
         retweets: 5641,
         likes: 19732,
@@ -9459,7 +9462,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1612055954866016257%252Fo38mvq3f_bigger.jpg",
     },
     {
-        url: "https://twitter.com/kujikawaii/status/892106042548654087",
+        url: "https://xcancel.com/kujikawaii/status/892106042548654087",
         author: "🍡 イーサン 🍡   Comms Open! (@kujikawaii)",
         retweets: 26891,
         likes: 74157,
@@ -9467,7 +9470,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1619362046847467522%252FUa7-7p8x_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Ethan_Booker/status/892392732223787009",
+        url: "https://xcancel.com/Ethan_Booker/status/892392732223787009",
         author: "Ethan Booker (@Ethan_Booker)",
         retweets: 6533,
         likes: 26907,
@@ -9476,7 +9479,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images. post deleted.
     // {
-    //     url: "https://twitter.com/urbanfriendden/status/892487830106198017",
+    //     url: "https://xcancel.com/urbanfriendden/status/892487830106198017",
     //     author: "hiii i'm ruben hello (@urbanfriendden)",
     //     retweets: 27980,
     //     likes: 56500,
@@ -9485,7 +9488,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547563755424272390%252Fs6LSGxtq_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/shanley/status/892496210635837441",
+        url: "https://xcancel.com/shanley/status/892496210635837441",
         author: "shanley (@shanley)",
         retweets: 198,
         likes: 808,
@@ -9493,7 +9496,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rennavate/status/892510512478527489",
+        url: "https://xcancel.com/rennavate/status/892510512478527489",
         author: "Renato Pagnani (@rennavate)",
         retweets: 17502,
         likes: 49684,
@@ -9502,7 +9505,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1248785442331213824%252FVIV8J6UX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/thhamilton/status/896370068690526212",
+        url: "https://xcancel.com/thhamilton/status/896370068690526212",
         author: "Tom Hamilton (@thhamilton)",
         retweets: 2560,
         likes: 6105,
@@ -9511,7 +9514,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1372969963292610572%252FNzR3lD_W_bigger.jpg",
     },
     {
-        url: "https://twitter.com/swin24/status/897072082625986561",
+        url: "https://xcancel.com/swin24/status/897072082625986561",
         author: "Asawin Suebsaeng (@swin24)",
         retweets: 16585,
         likes: 43075,
@@ -9519,7 +9522,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1095115146207391744%252FHdjylBeo_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ByYourLogic/status/897114876065308675",
+        url: "https://xcancel.com/ByYourLogic/status/897114876065308675",
         author: "Lead Actor from Pixar’s Sodas (@ByYourLogic)",
         retweets: 466,
         likes: 3488,
@@ -9527,7 +9530,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1705134318027452416%252FhbR00-YU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/spookperson/status/897172785776148480",
+        url: "https://xcancel.com/spookperson/status/897172785776148480",
         author: "Goth Ms. Frizzle (@spookperson)",
         retweets: 441,
         likes: 3138,
@@ -9537,7 +9540,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/vrunt/status/897186867162095617",
+    //     url: "https://xcancel.com/vrunt/status/897186867162095617",
     //     author: "classic vrunt (@vrunt)",
     //     retweets: 19952,
     //     likes: 74820,
@@ -9546,7 +9549,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711848960581591041%252FQ3mlPMP__bigger.jpg",
     // },
     {
-        url: "https://twitter.com/CrimespreeJon/status/897236522210078720",
+        url: "https://xcancel.com/CrimespreeJon/status/897236522210078720",
         author: "Jon Eats Books and Pancakes (@CrimespreeJon)",
         retweets: 4566,
         likes: 11909,
@@ -9555,7 +9558,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1278778950462746625%252Fz63DohzZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/RRihannaGrande/status/901071559015661568",
+        url: "https://xcancel.com/RRihannaGrande/status/901071559015661568",
         author: "TY (@RRihannaGrande)",
         retweets: 33878,
         likes: 133143,
@@ -9563,7 +9566,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557437540449263620%252F0SHr3NRA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TamiCru/status/902377872060555264",
+        url: "https://xcancel.com/TamiCru/status/902377872060555264",
         author: "Tami Cru (@TamiCru)",
         retweets: 44910,
         likes: 148874,
@@ -9571,7 +9574,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F777305330560733185%252FEMSk5Ko4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/poniesandsodies/status/903492157205430272",
+        url: "https://xcancel.com/poniesandsodies/status/903492157205430272",
         author: "soda jerk (@poniesandsodies)",
         retweets: 666,
         likes: 2105,
@@ -9579,7 +9582,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587534911166205955%252FZQ1xrM8I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_sainsurance/status/904053901741174784",
+        url: "https://xcancel.com/_sainsurance/status/904053901741174784",
         author: "SA Insurance Insider (@_sainsurance)",
         retweets: 11226,
         likes: 27103,
@@ -9588,7 +9591,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1328268082385727488%252FNgAaX0CS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NightlifeMingus/status/905216839919198208",
+        url: "https://xcancel.com/NightlifeMingus/status/905216839919198208",
         author: "carl (@NightlifeMingus)",
         retweets: 1273,
         likes: 2467,
@@ -9597,7 +9600,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F940408350524637184%252FQy0RgTU2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Atunci_CoV/status/905248145873010688",
+        url: "https://xcancel.com/Atunci_CoV/status/905248145873010688",
         author: "Mihaela Bereza (@Atunci_CoV)",
         retweets: 15635,
         likes: 25801,
@@ -9606,7 +9609,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1183835025793523713%252FYk1U35E6_bigger.png",
     },
     {
-        url: "https://twitter.com/dankgdl/status/907035995438305286",
+        url: "https://xcancel.com/dankgdl/status/907035995438305286",
         author: "Dan (@dankgdl)",
         retweets: 9404,
         likes: 34610,
@@ -9614,7 +9617,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734407304177405953%252Fglz5GxU4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BIGBUTTSKI/status/907335295686905858",
+        url: "https://xcancel.com/BIGBUTTSKI/status/907335295686905858",
         author: "Michael Wheaner (@BIGBUTTSKI)",
         retweets: 6400,
         likes: 17574,
@@ -9622,7 +9625,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628241964247162880%252FN5C33jHb_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gucci1017/status/907463392998412288",
+        url: "https://xcancel.com/gucci1017/status/907463392998412288",
         author: "Gucci Mane (@gucci1017)",
         retweets: 120371,
         likes: 138708,
@@ -9630,7 +9633,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1714284839544012800%252FeM8Md4nI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JenAshleyWright/status/908013131795857408",
+        url: "https://xcancel.com/JenAshleyWright/status/908013131795857408",
         author: "Jennifer Wright (@JenAshleyWright)",
         retweets: 618,
         likes: 3066,
@@ -9638,7 +9641,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1179722752741298177%252FhkFQgb4R_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AmznMovieRevws/status/908359858495176704",
+        url: "https://xcancel.com/AmznMovieRevws/status/908359858495176704",
         author: "Amazon Movie Reviews (@AmznMovieRevws)",
         retweets: 503,
         likes: 1523,
@@ -9647,7 +9650,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F626581173196578816%252FW2duq99u_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Mala_Moot/status/908470596639559680",
+        url: "https://xcancel.com/Mala_Moot/status/908470596639559680",
         author: "Moot @ Aquatifur (@Mala_Moot)",
         retweets: 25621,
         likes: 65747,
@@ -9656,7 +9659,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1709978458250498048%252Fb2uzYsH4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/OTWGBEATS/status/908535046700720128",
+        url: "https://xcancel.com/OTWGBEATS/status/908535046700720128",
         author: "OFF THE WALL GANG™ (@OTWGBEATS)",
         retweets: 53876,
         likes: 129951,
@@ -9665,7 +9668,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1596666655601573889%252FCloxuKCz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/EliteSonicFan/status/908734944389758976",
+        url: "https://xcancel.com/EliteSonicFan/status/908734944389758976",
         author: "EliteSonicFan (@EliteSonicFan)",
         retweets: 314,
         likes: 469,
@@ -9674,7 +9677,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1302009169466327042%252FDoxIECM9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ashleyfeinberg/status/908783996838055936",
+        url: "https://xcancel.com/ashleyfeinberg/status/908783996838055936",
         author: "Ashley Feinberg (ashleyfeinberg.bsky.social) (@ashleyfeinberg)",
         retweets: 99,
         likes: 533,
@@ -9683,7 +9686,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F829782486955782148%252FvMthq5x2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shanley/status/908787842054098944",
+        url: "https://xcancel.com/shanley/status/908787842054098944",
         author: "shanley (@shanley)",
         retweets: 8,
         likes: 28,
@@ -9691,7 +9694,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1312220027786080262%252Fz8OScrJ4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JenAshleyWright/status/910656592185626624",
+        url: "https://xcancel.com/JenAshleyWright/status/910656592185626624",
         author: "Jennifer Wright (@JenAshleyWright)",
         retweets: 5960,
         likes: 31202,
@@ -9699,7 +9702,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1179722752741298177%252FhkFQgb4R_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KingJames/status/911610455877021697",
+        url: "https://xcancel.com/KingJames/status/911610455877021697",
         author: "LeBron James (@KingJames)",
         retweets: 510540,
         likes: 1229158,
@@ -9707,7 +9710,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1421530540063092736%252Fxqtcu8HX_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Maxiedome/status/911955635448590341",
+        url: "https://xcancel.com/Maxiedome/status/911955635448590341",
         author: "SoaR Maxie (@Maxiedome)",
         retweets: 1664,
         likes: 4397,
@@ -9715,7 +9718,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734999243012616192%252F-5Tw1Fkm_bigger.jpg",
     },
     {
-        url: "https://twitter.com/IvoryGazelle/status/912324257794928640",
+        url: "https://xcancel.com/IvoryGazelle/status/912324257794928640",
         author: "schmox (@IvoryGazelle)",
         retweets: 451,
         likes: 1960,
@@ -9723,7 +9726,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1058022389496217600%252F_QDEbduj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SortaBad/status/912793402382573568",
+        url: "https://xcancel.com/SortaBad/status/912793402382573568",
         author: "Alpha Male (real) (@SortaBad)",
         retweets: 73101,
         likes: 201811,
@@ -9731,7 +9734,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1438341517714751489%252F5k7Bc1XZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sokane1/status/913080569419853825",
+        url: "https://xcancel.com/sokane1/status/913080569419853825",
         author: "Sean O'Kane (@sokane1)",
         retweets: 49493,
         likes: 130841,
@@ -9739,7 +9742,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671695979827929090%252FjBSmXuj6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jessespector/status/913097176074657797",
+        url: "https://xcancel.com/jessespector/status/913097176074657797",
         author: "1989 (christian’s version) (@jessespector)",
         retweets: 796,
         likes: 3532,
@@ -9747,7 +9750,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1735024309926555648%252FJvVYNNRZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JiayangFan/status/913135112774209539",
+        url: "https://xcancel.com/JiayangFan/status/913135112774209539",
         author: "Jiayang Fan (@JiayangFan)",
         retweets: 267,
         likes: 1246,
@@ -9756,7 +9759,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1603916675455279104%252Fio5mHlHM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DanMentos/status/913641882164412417",
+        url: "https://xcancel.com/DanMentos/status/913641882164412417",
         author: "dan mentos (@DanMentos)",
         retweets: 2783,
         likes: 12924,
@@ -9764,7 +9767,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F548378022768701441%252F2zz0Vk61_bigger.png",
     },
     {
-        url: "https://twitter.com/hard_candyjpeg/status/915418584783958016",
+        url: "https://xcancel.com/hard_candyjpeg/status/915418584783958016",
         author: "brynn (@hard_candyjpeg)",
         retweets: 56995,
         likes: 226180,
@@ -9773,7 +9776,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1112808284547895296%252FOx4B_iCo_bigger.png",
     },
     {
-        url: "https://twitter.com/saundersjoe/status/916034123562598400",
+        url: "https://xcancel.com/saundersjoe/status/916034123562598400",
         author: "Joe Saunders (@saundersjoe)",
         retweets: 85211,
         likes: 252513,
@@ -9782,7 +9785,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1117878872760930304%252FIoqtPOg9_bigger.png",
     },
     {
-        url: "https://twitter.com/KidsWriteJokes/status/917292905357864960",
+        url: "https://xcancel.com/KidsWriteJokes/status/917292905357864960",
         author: "Kids Write Jokes (@KidsWriteJokes)",
         retweets: 3289,
         likes: 9942,
@@ -9790,7 +9793,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1364586290537185290%252FBBF_ivA6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/totallyclairezo/status/917413542583824384",
+        url: "https://xcancel.com/totallyclairezo/status/917413542583824384",
         author: "czm (@totallyclairezo)",
         retweets: 77052,
         likes: 300246,
@@ -9798,7 +9801,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1003235033845522433%252FRvRiCRHt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DietBeginsMon/status/917418758838288384",
+        url: "https://xcancel.com/DietBeginsMon/status/917418758838288384",
         author: "Casual Sports Fan (@DietBeginsMon)",
         retweets: 36,
         likes: 90,
@@ -9807,7 +9810,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660851816903458817%252FzYdsOjLw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/917489625345646592",
+        url: "https://xcancel.com/meganamram/status/917489625345646592",
         author: "Megan Amram (@meganamram)",
         retweets: 16789,
         likes: 97574,
@@ -9815,7 +9818,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bookofruthless/status/918099720106659840",
+        url: "https://xcancel.com/bookofruthless/status/918099720106659840",
         author: "same name at bsky (@bookofruthless)",
         retweets: 77431,
         likes: 256231,
@@ -9824,7 +9827,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F932377953421361154%252FWmpST1xI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jamiesmart/status/918127285387059201",
+        url: "https://xcancel.com/jamiesmart/status/918127285387059201",
         author: "Jamie Smart (@jamiesmart)",
         retweets: 12430,
         likes: 39365,
@@ -9833,7 +9836,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1570453661846839297%252FbtqlKdyp_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DHPLover/status/919519501569413120",
+        url: "https://xcancel.com/DHPLover/status/919519501569413120",
         author: "Kelly (@DHPLover)",
         retweets: 3873,
         likes: 16855,
@@ -9841,7 +9844,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1572316928424771591%252F4tX6WUkE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Brazos_Elkins/status/920510554669797376",
+        url: "https://xcancel.com/Brazos_Elkins/status/920510554669797376",
         author: "cool & unusual (@Brazos_Elkins)",
         retweets: 107794,
         likes: 352468,
@@ -9849,7 +9852,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671192748974649344%252FHnPqIjSS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_cingraham/status/920641642226270208",
+        url: "https://xcancel.com/_cingraham/status/920641642226270208",
         author: "Christopher Ingraham (@_cingraham)",
         retweets: 20663,
         likes: 72769,
@@ -9857,7 +9860,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1105133182574223360%252Fm_h-lhSu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/graceL721/status/920828941304287232",
+        url: "https://xcancel.com/graceL721/status/920828941304287232",
         author: "Grace (@graceL721)",
         retweets: 83039,
         likes: 341778,
@@ -9866,7 +9869,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F758457437024321536%252FM9r1SZhQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chrs00/status/920934230099623936",
+        url: "https://xcancel.com/chrs00/status/920934230099623936",
         author: "Chris but it's November (@chrs00)",
         retweets: 18738,
         likes: 54195,
@@ -9875,7 +9878,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1376664989%252Ff0246cf7-dc17-48fa-a7e5-a0ccc9183b9e_bigger.png",
     },
     {
-        url: "https://twitter.com/TheToddWilliams/status/921024621616549888",
+        url: "https://xcancel.com/TheToddWilliams/status/921024621616549888",
         author: "Todd 'Papi' Carlos (@TheToddWilliams)",
         retweets: 28213,
         likes: 85188,
@@ -9883,7 +9886,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1587415715149221888%252FV7uRfADk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/edgette22/status/921103567771131904",
+        url: "https://xcancel.com/edgette22/status/921103567771131904",
         author: " (@edgette22)",
         retweets: 251397,
         likes: 584520,
@@ -9891,7 +9894,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F926807097341128704%252FHt_iWw-K_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/921883446229774340",
+        url: "https://xcancel.com/InternetHippo/status/921883446229774340",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 21790,
         likes: 67315,
@@ -9899,7 +9902,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/flosgelida/status/922210108280623112",
+        url: "https://xcancel.com/flosgelida/status/922210108280623112",
         author: "flos. ☆ now on vgen! (@flosgelida)",
         retweets: 14569,
         likes: 34180,
@@ -9908,7 +9911,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1630067269140193281%252FFBm0gU1x_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Comey/status/922486295611371526",
+        url: "https://xcancel.com/Comey/status/922486295611371526",
         author: "James Comey (@Comey)",
         retweets: 3340,
         likes: 19428,
@@ -9917,7 +9920,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1326018792892338177%252FYL02FZsn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AndrewDHudson/status/922955338369810432",
+        url: "https://xcancel.com/AndrewDHudson/status/922955338369810432",
         author: "ADH solarshades.bsky.social (@AndrewDHudson)",
         retweets: 35259,
         likes: 106950,
@@ -9926,7 +9929,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1439185683449483266%252FIIGpkjCO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BoyNamedShit/status/922988023817543680",
+        url: "https://xcancel.com/BoyNamedShit/status/922988023817543680",
         author: "R Y A N (@BoyNamedShit)",
         retweets: 2564,
         likes: 10189,
@@ -9934,7 +9937,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000108080066%252Fba9906c2114f67fe771a497e5610e626_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/desusnice/status/923013276245610496",
+        url: "https://xcancel.com/desusnice/status/923013276245610496",
         author: "Desus MF Nice (@desusnice)",
         retweets: 813,
         likes: 5493,
@@ -9942,7 +9945,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/DaveLeeBBG/status/923040162233294849",
+        url: "https://xcancel.com/DaveLeeBBG/status/923040162233294849",
         author: "Dave Lee (@DaveLeeBBG)",
         retweets: 2532,
         likes: 5557,
@@ -9951,7 +9954,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1682138219343667200%252Fa1p3a5AL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/morrishitty/status/924494892700614656",
+        url: "https://xcancel.com/morrishitty/status/924494892700614656",
         author: "Vladimir Neutered (@morrishitty)",
         retweets: 52519,
         likes: 169228,
@@ -9959,7 +9962,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567236271084568576%252F82P5LuHJ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mineifiwildout/status/926115745452437505",
+        url: "https://xcancel.com/mineifiwildout/status/926115745452437505",
         author: "alex (@mineifiwildout)",
         retweets: 28603,
         likes: 123261,
@@ -9967,7 +9970,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/topherflorence/status/926822260547117056",
+        url: "https://xcancel.com/topherflorence/status/926822260547117056",
         author: "Topher Florence (@topherflorence)",
         retweets: 2925,
         likes: 8585,
@@ -9976,7 +9979,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F813151077637861376%252F2NbAbRiQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nicolewboyce/status/926851623187566592",
+        url: "https://xcancel.com/nicolewboyce/status/926851623187566592",
         author: "nicole boyce (@nicolewboyce)",
         retweets: 26525,
         likes: 125191,
@@ -9984,7 +9987,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1628384229271666690%252Fmi0SydYn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CorySchmitz/status/927589662708953090",
+        url: "https://xcancel.com/CorySchmitz/status/927589662708953090",
         author: "Cory Schmitz (@CorySchmitz)",
         retweets: 6333,
         likes: 18409,
@@ -9993,7 +9996,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1306277119715151874%252FXFlVIkvf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ItsDanSheehan/status/927596073929068544",
+        url: "https://xcancel.com/ItsDanSheehan/status/927596073929068544",
         author: "Dan Sheehan (@ItsDanSheehan)",
         retweets: 1432,
         likes: 7223,
@@ -10001,7 +10004,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649502618123927553%252FJ4ZFkyoQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/DxpeDon/status/927648342359887873",
+        url: "https://xcancel.com/DxpeDon/status/927648342359887873",
         author: "woj but nigga (@DxpeDon)",
         retweets: 33333,
         likes: 64213,
@@ -10010,7 +10013,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695407278072164352%252FUUyhJUhh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/minakimes/status/928029234001428480",
+        url: "https://xcancel.com/minakimes/status/928029234001428480",
         author: "Mina Kimes (@minakimes)",
         retweets: 6670,
         likes: 28899,
@@ -10018,7 +10021,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638917569909514241%252FpuGr_V_P_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SlimiHendrix/status/928829368406892544",
+        url: "https://xcancel.com/SlimiHendrix/status/928829368406892544",
         author: "Trey Smith (@SlimiHendrix)",
         retweets: 462,
         likes: 2256,
@@ -10027,7 +10030,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516878181151744003%252FFVJszvaG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PatrickLenton/status/928964726817615873",
+        url: "https://xcancel.com/PatrickLenton/status/928964726817615873",
         author: "Patrick Lenton (@PatrickLenton)",
         retweets: 27008,
         likes: 133383,
@@ -10035,7 +10038,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731102411497132032%252F_BCUfJiQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/everywhereist/status/929041541141794816",
+        url: "https://xcancel.com/everywhereist/status/929041541141794816",
         author: "Geraldine Just Follow TheEverywhereist on Threads (@everywhereist)",
         retweets: 210,
         likes: 1170,
@@ -10043,7 +10046,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1644752952287166464%252FY63R5Jx9_bigger.jpg",
     },
     {
-        url: "https://twitter.com/SICKOFWOLVES/status/929074256096448512",
+        url: "https://xcancel.com/SICKOFWOLVES/status/929074256096448512",
         author: "NOT A WOLF (@SICKOFWOLVES)",
         retweets: 1690,
         likes: 5427,
@@ -10051,7 +10054,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577055302075105280%252F2UFuCDBF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/colingotjokes/status/929862019234324481",
+        url: "https://xcancel.com/colingotjokes/status/929862019234324481",
         author: "Bolin (@colingotjokes)",
         retweets: 108706,
         likes: 375617,
@@ -10059,7 +10062,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1650528190362796032%252FHmNbxWbq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/direlog/status/931264630407794690",
+        url: "https://xcancel.com/direlog/status/931264630407794690",
         author: "o, laconic beast (@direlog)",
         retweets: 3020,
         likes: 10917,
@@ -10067,7 +10070,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F756837177229705216%252Fm3JmMcwT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/adampknave/status/931632953062391808",
+        url: "https://xcancel.com/adampknave/status/931632953062391808",
         author: "Adam P. Knave (@adampknave)",
         retweets: 50959,
         likes: 109281,
@@ -10076,7 +10079,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1181322119495348226%252FaIkD34yQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/alicegoldfuss/status/932660162174709760",
+        url: "https://xcancel.com/alicegoldfuss/status/932660162174709760",
         author: "bletchley punk (@alicegoldfuss)",
         retweets: 959,
         likes: 2913,
@@ -10084,7 +10087,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1149452202827759616%252F1blf87Kn_bigger.jpg",
     },
     {
-        url: "https://twitter.com/1followernodad/status/932830369555955712",
+        url: "https://xcancel.com/1followernodad/status/932830369555955712",
         author: "Sophia Benoit (@1followernodad)",
         retweets: 76,
         likes: 853,
@@ -10093,7 +10096,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1726076187133566976%252FFP9s_k8Z_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chrs00/status/933002294752407553",
+        url: "https://xcancel.com/chrs00/status/933002294752407553",
         author: "Chris but it's November (@chrs00)",
         retweets: 778,
         likes: 2498,
@@ -10101,7 +10104,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1376664989%252Ff0246cf7-dc17-48fa-a7e5-a0ccc9183b9e_bigger.png",
     },
     {
-        url: "https://twitter.com/Troyavision/status/933010280967294977",
+        url: "https://xcancel.com/Troyavision/status/933010280967294977",
         author: "… (@Troyavision)",
         retweets: 1018,
         likes: 3666,
@@ -10110,7 +10113,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1605846306781528066%252FCQdqaFne_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AdrianChen/status/933458159221526528",
+        url: "https://xcancel.com/AdrianChen/status/933458159221526528",
         author: "Adrian Chen (@AdrianChen)",
         retweets: 110,
         likes: 714,
@@ -10119,7 +10122,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1502540800722305033%252F6kQ5175r_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AdrianChen/status/933459486513225728",
+        url: "https://xcancel.com/AdrianChen/status/933459486513225728",
         author: "Adrian Chen (@AdrianChen)",
         retweets: 446,
         likes: 1749,
@@ -10128,7 +10131,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/KrangTNelson/status/933547439373635584",
+    //     url: "https://xcancel.com/KrangTNelson/status/933547439373635584",
     //     author: "america's lounge singer (@KrangTNelson)",
     //     retweets: 395,
     //     likes: 3144,
@@ -10137,7 +10140,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1567978320079343617%252FWJkYD4tq_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/aparnapkin/status/933572488440803329",
+        url: "https://xcancel.com/aparnapkin/status/933572488440803329",
         author: "Aparna Nancherla (@aparnapkin)",
         retweets: 33707,
         likes: 135866,
@@ -10145,7 +10148,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TJKilbride/status/936282110905716737",
+        url: "https://xcancel.com/TJKilbride/status/936282110905716737",
         author: "••Teej•• (@TJKilbride)",
         retweets: 82604,
         likes: 332835,
@@ -10153,7 +10156,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1232772902195474435%252FQOiJEHfa_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dlicj/status/936640184556445697",
+        url: "https://xcancel.com/dlicj/status/936640184556445697",
         author: "slick (@dlicj)",
         retweets: 13085,
         likes: 39671,
@@ -10161,7 +10164,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F997355735980834816%252FXw7LfJac_bigger.jpg",
     },
     {
-        url: "https://twitter.com/fartgalleries/status/936978899526963200",
+        url: "https://xcancel.com/fartgalleries/status/936978899526963200",
         author: "cool website guy (@fartgalleries)",
         retweets: 18843,
         likes: 52887,
@@ -10170,7 +10173,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1318289097027444737%252FMcRUO63J_bigger.png",
     },
     {
-        url: "https://twitter.com/markedly/status/937021290115936257",
+        url: "https://xcancel.com/markedly/status/937021290115936257",
         author: "♥mark magark♥ (@markedly)",
         retweets: 19187,
         likes: 84590,
@@ -10178,7 +10181,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591193275427430425%252FBMACMvlV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rewordsmith/status/937701875104780288",
+        url: "https://xcancel.com/rewordsmith/status/937701875104780288",
         author: "2122⬆️ (@rewordsmith)",
         retweets: 1798,
         likes: 4666,
@@ -10186,7 +10189,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1075502316839731200%252FAfo66sRx_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/937762751522451462",
+        url: "https://xcancel.com/TriciaLockwood/status/937762751522451462",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 2684,
         likes: 10448,
@@ -10194,7 +10197,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/billclitton/status/938365310150701057",
+        url: "https://xcancel.com/billclitton/status/938365310150701057",
         author: "Steamy (@billclitton)",
         retweets: 8611,
         likes: 26843,
@@ -10202,7 +10205,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1542380648316411906%252FYINvjoow_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Wahlid/status/938483705747664896",
+        url: "https://xcancel.com/Wahlid/status/938483705747664896",
         author: "Wahlid Mohammad (@Wahlid)",
         retweets: 862,
         likes: 5250,
@@ -10210,7 +10213,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1671573430112768001%252FQBHTmUzz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/InternetHippo/status/938965027159248896",
+        url: "https://xcancel.com/InternetHippo/status/938965027159248896",
         author: "I'm on bluesky now (@InternetHippo)",
         retweets: 1944,
         likes: 9601,
@@ -10218,7 +10221,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1608921145864237061%252F6jLuKzve_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Shanehasabeard/status/939117861271982081",
+        url: "https://xcancel.com/Shanehasabeard/status/939117861271982081",
         author: "Shane (@Shanehasabeard)",
         retweets: 7175,
         likes: 33421,
@@ -10226,7 +10229,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1289651490106347526%252FjAvd2xkV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/johnmoe/status/939166551709765633",
+        url: "https://xcancel.com/johnmoe/status/939166551709765633",
         author: "John Moe (@johnmoe)",
         retweets: 9705,
         likes: 36123,
@@ -10235,7 +10238,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1655021308667744261%252FAQFo0Wvb_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bewgtweets/status/939276932880977920",
+        url: "https://xcancel.com/bewgtweets/status/939276932880977920",
         author: "Boog (@bewgtweets)",
         retweets: 57586,
         likes: 188268,
@@ -10243,7 +10246,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585858698177486848%252FKChTgU4f_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sadgirlkms/status/940006885914300416",
+        url: "https://xcancel.com/sadgirlkms/status/940006885914300416",
         author: "common sad girl (@sadgirlkms)",
         retweets: 85154,
         likes: 235104,
@@ -10251,7 +10254,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F705154778964369408%252FL-fJASKG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Bmangall20/status/941075338708140032",
+        url: "https://xcancel.com/Bmangall20/status/941075338708140032",
         author: "Big Papi (@Bmangall20)",
         retweets: 155497,
         likes: 663465,
@@ -10259,7 +10262,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624470715348000768%252FGHhEfK5D_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JustZik/status/941440366389202946",
+        url: "https://xcancel.com/JustZik/status/941440366389202946",
         author: "Voodoo Child (@JustZik)",
         retweets: 30771,
         likes: 132025,
@@ -10267,7 +10270,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1570197370259865601%252FmKdd465I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/catvalente/status/941846935014727681",
+        url: "https://xcancel.com/catvalente/status/941846935014727681",
         author: "Catherynne M. Valente (@catvalente)",
         retweets: 17547,
         likes: 74006,
@@ -10276,7 +10279,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1593447579462811648%252FGYth2gId_bigger.jpg",
     },
     {
-        url: "https://twitter.com/JAYVERSACE/status/942106432375201792",
+        url: "https://xcancel.com/JAYVERSACE/status/942106432375201792",
         author: "mr.versace (@JAYVERSACE)",
         retweets: 6029,
         likes: 17605,
@@ -10284,7 +10287,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703294357426798592%252FFWqncVIC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Julian_Epp/status/942539239912337411",
+        url: "https://xcancel.com/Julian_Epp/status/942539239912337411",
         author: "Jules (@Julian_Epp)",
         retweets: 9287,
         likes: 38764,
@@ -10292,7 +10295,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1162893472740913153%252FI9Uq64-r_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rajandelman/status/942624893509820416",
+        url: "https://xcancel.com/rajandelman/status/942624893509820416",
         author: "lil pom poko jerk (@rajandelman)",
         retweets: 10419,
         likes: 56918,
@@ -10300,7 +10303,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1480657954286313473%252FcA-mSl1I_bigger.jpg",
     },
     {
-        url: "https://twitter.com/markedly/status/943188943977238528",
+        url: "https://xcancel.com/markedly/status/943188943977238528",
         author: "2665mark magark♥ (@markedly)",
         retweets: 44494,
         likes: 188159,
@@ -10308,7 +10311,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1591193275427430425%252FBMACMvlV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/claytoncubitt/status/943371383643496449",
+        url: "https://xcancel.com/claytoncubitt/status/943371383643496449",
         author: "Clayton Cubitt (@claytoncubitt)",
         retweets: 344,
         likes: 1092,
@@ -10317,7 +10320,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1565102286623449089%252FMGhRq972_bigger.jpg",
     },
     {
-        url: "https://twitter.com/INDIEWASHERE/status/943951631967817728",
+        url: "https://xcancel.com/INDIEWASHERE/status/943951631967817728",
         author: "indie (@INDIEWASHERE)",
         retweets: 41902,
         likes: 145562,
@@ -10325,7 +10328,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1734763525854187521%252F-VpaAJPk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/beckyjhinch/status/944662386820222977",
+        url: "https://xcancel.com/beckyjhinch/status/944662386820222977",
         author: "Becky Dalton (@beckyjhinch)",
         retweets: 8860,
         likes: 45533,
@@ -10333,7 +10336,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1327623147529641984%252F59wFAKNw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pete_schultz/status/944741552005492737",
+        url: "https://xcancel.com/pete_schultz/status/944741552005492737",
         author: "Peter Schultz (@pete_schultz)",
         retweets: 7007,
         likes: 37890,
@@ -10341,7 +10344,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F956721452325199872%252Fv_4Zp2qd_bigger.jpg",
     },
     {
-        url: "https://twitter.com/isilitke/status/944799454753906688",
+        url: "https://xcancel.com/isilitke/status/944799454753906688",
         author: "isi litke (@isilitke)",
         retweets: 11286,
         likes: 37841,
@@ -10349,7 +10352,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1070571168011190272%252FtTfO7VyM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/perfumegenius/status/944802406197616640",
+        url: "https://xcancel.com/perfumegenius/status/944802406197616640",
         author: "Perfume Genius (@perfumegenius)",
         retweets: 287,
         likes: 2668,
@@ -10357,7 +10360,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1396317227280781314%252FviBXGUSj_bigger.jpg",
     },
     {
-        url: "https://twitter.com/sugoishiba/status/945028985595092994",
+        url: "https://xcancel.com/sugoishiba/status/945028985595092994",
         author: "the once-ler of minecraft (@sugoishiba)",
         retweets: 23862,
         likes: 82329,
@@ -10366,7 +10369,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675204434958200832%252Fsp3BLlio_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mineifiwildout/status/945817914380292097",
+        url: "https://xcancel.com/mineifiwildout/status/945817914380292097",
         author: "alex (@mineifiwildout)",
         retweets: 10272,
         likes: 46582,
@@ -10374,7 +10377,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1683621641937633280%252F3Qt-_FV8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AdriOfTheDead/status/946899206966521856",
+        url: "https://xcancel.com/AdriOfTheDead/status/946899206966521856",
         author: "adri (@AdriOfTheDead)",
         retweets: 2226,
         likes: 6909,
@@ -10383,7 +10386,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1577127704641638400%252Fkg9uS1OL_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ArfMeasures/status/947159189029310464",
+        url: "https://xcancel.com/ArfMeasures/status/947159189029310464",
         author: "Jon (@ArfMeasures)",
         retweets: 4844,
         likes: 22863,
@@ -10391,7 +10394,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CdyRnkn/status/947233718258696192",
+        url: "https://xcancel.com/CdyRnkn/status/947233718258696192",
         author: "Cody (@CdyRnkn)",
         retweets: 1679,
         likes: 8044,
@@ -10399,7 +10402,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664724295942311936%252FRc3EDl6d_bigger.jpg",
     },
     {
-        url: "https://twitter.com/coolgrandma98/status/947249815972442118",
+        url: "https://xcancel.com/coolgrandma98/status/947249815972442118",
         author: "adison (@coolgrandma98)",
         retweets: 5244,
         likes: 21395,
@@ -10407,7 +10410,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1513403665348022273%252FjxXXPwV6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/torahhorse/status/947312755605782528",
+        url: "https://xcancel.com/torahhorse/status/947312755605782528",
         author: "Ben Esposito (@torahhorse)",
         retweets: 327,
         likes: 1424,
@@ -10415,7 +10418,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F876873536979075072%252FOcZB6Ch7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BauceSauce/status/948196558344019969",
+        url: "https://xcancel.com/BauceSauce/status/948196558344019969",
         author: "ＷＥＴ ＡＲＭＡＤＩＬＬＯ (@BauceSauce)",
         retweets: 4317,
         likes: 15459,
@@ -10424,7 +10427,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F583536389012193280%252FZVn1XQd4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MrFilmkritik/status/949431055567736833",
+        url: "https://xcancel.com/MrFilmkritik/status/949431055567736833",
         author: "Denizcan S. (@MrFilmkritik)",
         retweets: 21741,
         likes: 48436,
@@ -10433,7 +10436,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695200363341582336%252FlyixbrSw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/chuchugoogoo/status/949683108290486273",
+        url: "https://xcancel.com/chuchugoogoo/status/949683108290486273",
         author: "skip intro (@chuchugoogoo)",
         retweets: 1202,
         likes: 5502,
@@ -10441,7 +10444,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1436489363018354688%252FQ1Da5Kgq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/HayesBrown/status/950459321879597061",
+        url: "https://xcancel.com/HayesBrown/status/950459321879597061",
         author: "@hayesbrown.bsky.social (@HayesBrown)",
         retweets: 1048,
         likes: 5393,
@@ -10449,7 +10452,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1320490558603886592%252FaBaqd2nf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/rosyghoul/status/950617537321910278",
+        url: "https://xcancel.com/rosyghoul/status/950617537321910278",
         author: "zelda's twinkwife (@rosyghoul)",
         retweets: 53715,
         likes: 160028,
@@ -10457,7 +10460,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1710460379094990848%252FfkxQ0uWb_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ConorJReidy/status/952794837773946880",
+        url: "https://xcancel.com/ConorJReidy/status/952794837773946880",
         author: "Conor Reidy (@ConorJReidy)",
         retweets: 2776,
         likes: 10417,
@@ -10466,7 +10469,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1460670039183527939%252FHgCHQu6w_bigger.jpg",
     },
     {
-        url: "https://twitter.com/brandonjinx/status/953133444820848640",
+        url: "https://xcancel.com/brandonjinx/status/953133444820848640",
         author: "brandon / jinx / big jinx (@brandonjinx)",
         retweets: 162,
         likes: 614,
@@ -10474,7 +10477,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697446124078968832%252FPThPH-hc_bigger.jpg",
     },
     {
-        url: "https://twitter.com/maggieNYT/status/953379611928420358",
+        url: "https://xcancel.com/maggieNYT/status/953379611928420358",
         author: "Maggie Haberman (@maggieNYT)",
         retweets: 7,
         likes: 118,
@@ -10482,7 +10485,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1648723427891478531%252F4ZY_MwpB_bigger.jpg",
     },
     {
-        url: "https://twitter.com/NeerajKA/status/953392321525141504",
+        url: "https://xcancel.com/NeerajKA/status/953392321525141504",
         author: "Neeraj K Agrawal (@NeerajKA)",
         retweets: 1251,
         likes: 3962,
@@ -10491,7 +10494,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649930133925425152%252FAS-hyi4h_bigger.jpg",
     },
     {
-        url: "https://twitter.com/burgerkrang/status/953430272808292352",
+        url: "https://xcancel.com/burgerkrang/status/953430272808292352",
         author: "adam (@burgerkrang)",
         retweets: 4450,
         likes: 22808,
@@ -10500,7 +10503,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730637649734508544%252FQb9wRVZv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CeciMula/status/953495819872882690",
+        url: "https://xcancel.com/CeciMula/status/953495819872882690",
         author: "Ceci (@CeciMula)",
         retweets: 88274,
         likes: 488917,
@@ -10508,7 +10511,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1627509811360169985%252Fl4NnTVVz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AskDrRuth/status/954012442232844288",
+        url: "https://xcancel.com/AskDrRuth/status/954012442232844288",
         author: "Dr. Ruth Westheimer (@AskDrRuth)",
         retweets: 43,
         likes: 132,
@@ -10516,7 +10519,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F213278536%252FPicture_1_bigger.png",
     },
     {
-        url: "https://twitter.com/premeesaurus/status/954047187738025984",
+        url: "https://xcancel.com/premeesaurus/status/954047187738025984",
         author: "Premee Mohamed (@premeesaurus)",
         retweets: 2357,
         likes: 8501,
@@ -10524,7 +10527,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F709248805011492871%252F01dgKkaG_bigger.jpg",
     },
     {
-        url: "https://twitter.com/KarenKilgariff/status/954202639146786816",
+        url: "https://xcancel.com/KarenKilgariff/status/954202639146786816",
         author: "Karen Kilgariff (@KarenKilgariff)",
         retweets: 1162,
         likes: 9465,
@@ -10532,7 +10535,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F839755301767151617%252FRlpQkbi4_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheCheish/status/955506086647402496",
+        url: "https://xcancel.com/TheCheish/status/955506086647402496",
         author: "Cheish (@TheCheish)",
         retweets: 26681,
         likes: 105782,
@@ -10541,7 +10544,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1197050943373815808%252FioR5FerY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/eggsandbread/status/956187819302637568",
+        url: "https://xcancel.com/eggsandbread/status/956187819302637568",
         author: "inexorable pride (@eggsandbread)",
         retweets: 49359,
         likes: 142565,
@@ -10550,7 +10553,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1616151602137530379%252FRKjpAonE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/melissabethk/status/956239749009862656",
+        url: "https://xcancel.com/melissabethk/status/956239749009862656",
         author: "melissa kravitz hoeffner (@melissabethk)",
         retweets: 5,
         likes: 46,
@@ -10559,7 +10562,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1125867199531556865%252FpJAZFq5q_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jodecicry/status/956267839622668288",
+        url: "https://xcancel.com/jodecicry/status/956267839622668288",
         author: "Shakira (@jodecicry)",
         retweets: 5574,
         likes: 25571,
@@ -10567,7 +10570,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1538494061165916161%252FDQk60tn3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/bridger_w/status/957444430855745537",
+        url: "https://xcancel.com/bridger_w/status/957444430855745537",
         author: "Bridger Winegar (@bridger_w)",
         retweets: 8891,
         likes: 48370,
@@ -10575,7 +10578,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1255573234%252Ftweet_bigger.jpg",
     },
     {
-        url: "https://twitter.com/citizenkawala/status/959707139366244352",
+        url: "https://xcancel.com/citizenkawala/status/959707139366244352",
         author: "Benny 'Bluesky' Rollins (@citizenkawala)",
         retweets: 2094,
         likes: 5009,
@@ -10583,7 +10586,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704636383867113472%252FZJxVnGrI_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Tbone7219/status/959884889410691072",
+        url: "https://xcancel.com/Tbone7219/status/959884889410691072",
         author: "Tony P. (@Tbone7219)",
         retweets: 10404,
         likes: 32043,
@@ -10591,7 +10594,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1468039398050705409%252FFos-drg0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/decentbirthday/status/961320939655966720",
+        url: "https://xcancel.com/decentbirthday/status/961320939655966720",
         author: "palmer ward (@decentbirthday)",
         retweets: 4571,
         likes: 17477,
@@ -10599,7 +10602,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1090993904533622785%252FFW6wG3hM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/dave_cactus/status/961680274303074304",
+        url: "https://xcancel.com/dave_cactus/status/961680274303074304",
         author: "Dave Cactus (@dave_cactus)",
         retweets: 9622,
         likes: 40580,
@@ -10607,7 +10610,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664111997787705344%252F-j74Egk3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/salmattos/status/961699584182386688",
+        url: "https://xcancel.com/salmattos/status/961699584182386688",
         author: "Fran Zaya, orca supporter (@salmattos)",
         retweets: 5071,
         likes: 23034,
@@ -10616,7 +10619,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1639377242735382528%252FyiFepdDz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/stephanieskuo/status/961730931349483521",
+        url: "https://xcancel.com/stephanieskuo/status/961730931349483521",
         author: "Stephanie Kuo (she/her) (@stephanieskuo)",
         retweets: 6665,
         likes: 28078,
@@ -10625,7 +10628,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1547694602928340998%252FB4ld13zM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/juanbuis/status/962733158042161152",
+        url: "https://xcancel.com/juanbuis/status/962733158042161152",
         author: "juan (@juanbuis)",
         retweets: 46764,
         likes: 163016,
@@ -10634,7 +10637,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1624031047343128577%252FwlqrmYFE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pixelatedboat/status/964743243731673088",
+        url: "https://xcancel.com/pixelatedboat/status/964743243731673088",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         retweets: 3272,
         likes: 25341,
@@ -10642,7 +10645,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/j__sonic/status/964769441128046592",
+        url: "https://xcancel.com/j__sonic/status/964769441128046592",
         author: "futch cassidy (@j__sonic)",
         retweets: 23997,
         likes: 108510,
@@ -10651,7 +10654,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680164629249417218%252F6q7vmvCY_bigger.jpg",
     },
     {
-        url: "https://twitter.com/spacetwinks/status/965428890830344193",
+        url: "https://xcancel.com/spacetwinks/status/965428890830344193",
         author: "Colin Spacetwinks (@spacetwinks)",
         retweets: 16620,
         likes: 46806,
@@ -10659,7 +10662,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1395407970935185408%252FcCIvbKNh_bigger.jpg",
     },
     {
-        url: "https://twitter.com/reaghanhunt/status/965816492221747200",
+        url: "https://xcancel.com/reaghanhunt/status/965816492221747200",
         author: "reaghan (@reaghanhunt)",
         retweets: 125155,
         likes: 304510,
@@ -10667,7 +10670,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697343068041625600%252FjDeL64Qz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jaasalzr/status/965933477899091968",
+        url: "https://xcancel.com/jaasalzr/status/965933477899091968",
         author: "Ja Salazar (@jaasalzr)",
         retweets: 27317,
         likes: 112337,
@@ -10675,7 +10678,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1359139481614381061%252FG8ZB31l2_bigger.jpg",
     },
     {
-        url: "https://twitter.com/angrycyberwitch/status/966071877180579841",
+        url: "https://xcancel.com/angrycyberwitch/status/966071877180579841",
         author: "cyber (@angrycyberwitch)",
         retweets: 1079,
         likes: 5387,
@@ -10684,7 +10687,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F958069967148199936%252FBSHlmHLa_bigger.jpg",
     },
     {
-        url: "https://twitter.com/extremely_wet/status/966418484086403074",
+        url: "https://xcancel.com/extremely_wet/status/966418484086403074",
         author: "jezza (@extremely_wet)",
         retweets: 3817,
         likes: 12323,
@@ -10692,7 +10695,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516280165151686656%252FuPY04YMN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ojedge/status/966599333775794176",
+        url: "https://xcancel.com/ojedge/status/966599333775794176",
         author: "Ollie Garch (Not Sanctioned) (@ojedge)",
         retweets: 12748,
         likes: 44577,
@@ -10701,7 +10704,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F953756620953210881%252FWAcE8O46_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GoodZiIIa/status/968597116372140032",
+        url: "https://xcancel.com/GoodZiIIa/status/968597116372140032",
         author: "Zilla (@GoodZiIIa)",
         retweets: 55834,
         likes: 211557,
@@ -10709,7 +10712,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F932151643696635905%252F78ySt6DW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/shutupmaeve/status/970743214943756289",
+        url: "https://xcancel.com/shutupmaeve/status/970743214943756289",
         author: "maeve (@shutupmaeve)",
         retweets: 23254,
         likes: 74700,
@@ -10718,7 +10721,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1664435627759132672%252Fzg9_XTwV_bigger.jpg",
     },
     {
-        url: "https://twitter.com/MrFilmkritik/status/971109445492232192",
+        url: "https://xcancel.com/MrFilmkritik/status/971109445492232192",
         author: "Denizcan S. (@MrFilmkritik)",
         retweets: 42036,
         likes: 153906,
@@ -10727,7 +10730,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1695200363341582336%252FlyixbrSw_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_sashayed/status/971132312984399873",
+        url: "https://xcancel.com/_sashayed/status/971132312984399873",
         author: "Rave Sashayed (@_sashayed)",
         retweets: 11673,
         likes: 64676,
@@ -10735,7 +10738,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1113816338064125952%252F5RrCFimB_bigger.png",
     },
     {
-        url: "https://twitter.com/egg_dog/status/971305860935962625",
+        url: "https://xcancel.com/egg_dog/status/971305860935962625",
         author: "on bluesky at explod.es (@egg_dog)",
         retweets: 12833,
         likes: 41147,
@@ -10743,7 +10746,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1600528005742338049%252FXF7bak7s_bigger.jpg",
     },
     {
-        url: "https://twitter.com/knguyen/status/971456108895391745",
+        url: "https://xcancel.com/knguyen/status/971456108895391745",
         author: "Kevin Nguyen (@knguyen)",
         retweets: 20,
         likes: 349,
@@ -10752,7 +10755,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1546945135983955969%252FqHwMGV6W_bigger.jpg",
     },
     {
-        url: "https://twitter.com/vrunt/status/971485093733765123",
+        url: "https://xcancel.com/vrunt/status/971485093733765123",
         author: "classic vrunt (@vrunt)",
         retweets: 12160,
         likes: 49323,
@@ -10761,7 +10764,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1711848960581591041%252FQ3mlPMP__bigger.jpg",
     },
     {
-        url: "https://twitter.com/thickwithnoass/status/972213080196337664",
+        url: "https://xcancel.com/thickwithnoass/status/972213080196337664",
         author: "neiman marxist (@thickwithnoass)",
         retweets: 24142,
         likes: 93967,
@@ -10770,7 +10773,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1727658056966717440%252F-YcpSjIT_bigger.jpg",
     },
     {
-        url: "https://twitter.com/cherrikissu/status/972524442600558594",
+        url: "https://xcancel.com/cherrikissu/status/972524442600558594",
         author: "Chéri  MFF (@cherrikissu)",
         retweets: 9345,
         likes: 34640,
@@ -10778,7 +10781,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660469331795353600%252FHqvEXEun_bigger.jpg",
     },
     {
-        url: "https://twitter.com/poppy_haze/status/973018129923223556",
+        url: "https://xcancel.com/poppy_haze/status/973018129923223556",
         author: "Rev. Poppy Haze (@poppy_haze)",
         retweets: 3,
         likes: 12,
@@ -10786,7 +10789,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1613595341416169483%252FlytMmwC8_bigger.png",
     },
     {
-        url: "https://twitter.com/prufrockluvsong/status/973670575125262337",
+        url: "https://xcancel.com/prufrockluvsong/status/973670575125262337",
         author: "Pru (@prufrockluvsong)",
         retweets: 989,
         likes: 2949,
@@ -10794,7 +10797,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638576645014720513%252FT9W8c3Yk_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mannynotfound/status/975189465886052352",
+        url: "https://xcancel.com/mannynotfound/status/975189465886052352",
         author: "manny404 (@mannynotfound)",
         retweets: 3577,
         likes: 17924,
@@ -10802,7 +10805,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1562254109130260480%252FsN1j8HU0_bigger.png",
     },
     {
-        url: "https://twitter.com/reaghanhunt/status/975199875137761281",
+        url: "https://xcancel.com/reaghanhunt/status/975199875137761281",
         author: "reaghan (@reaghanhunt)",
         retweets: 597,
         likes: 4342,
@@ -10810,7 +10813,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1697343068041625600%252FjDeL64Qz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/AcademicsSay/status/975488696530202625",
+        url: "https://xcancel.com/AcademicsSay/status/975488696530202625",
         author: "Shit Academics Say (@AcademicsSay)",
         retweets: 3065,
         likes: 10453,
@@ -10818,7 +10821,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F748151916836716546%252FLdn_dhiC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aparnapkin/status/975495108312338432",
+        url: "https://xcancel.com/aparnapkin/status/975495108312338432",
         author: "Aparna Nancherla (@aparnapkin)",
         retweets: 979,
         likes: 7178,
@@ -10826,7 +10829,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Mormonger/status/975497709548314624",
+        url: "https://xcancel.com/Mormonger/status/975497709548314624",
         author: "LEGO Joseph Smith (@Mormonger)",
         retweets: 88332,
         likes: 362336,
@@ -10834,7 +10837,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1733935923841400832%252FBBe2wEQg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/iff_or/status/975507648316563457",
+        url: "https://xcancel.com/iff_or/status/975507648316563457",
         author: "Melissa Lewis (@iff_or)",
         retweets: 1997,
         likes: 3757,
@@ -10843,7 +10846,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1464333149010153473%252FIcBKIdBq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Chidubem_OH/status/976544347448664065",
+        url: "https://xcancel.com/Chidubem_OH/status/976544347448664065",
         author: "CHO (@Chidubem_OH)",
         retweets: 4775,
         likes: 8320,
@@ -10852,7 +10855,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1680507107651592194%252Ft084gasA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/acarboni/status/976545648391553024",
+        url: "https://xcancel.com/acarboni/status/976545648391553024",
         author: "Anthony Carboni (@acarboni)",
         retweets: 4732,
         likes: 22338,
@@ -10860,7 +10863,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1221877252960346112%252FH6G2Pw3h_bigger.jpg",
     },
     {
-        url: "https://twitter.com/markusoff/status/976556065100738560",
+        url: "https://xcancel.com/markusoff/status/976556065100738560",
         author: "Jason Markusoff (@markusoff)",
         retweets: 7177,
         likes: 23393,
@@ -10868,7 +10871,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1297050356657004544%252FG8-Z5NjC_bigger.jpg",
     },
     {
-        url: "https://twitter.com/maybachegg/status/976591094723964928",
+        url: "https://xcancel.com/maybachegg/status/976591094723964928",
         author: "Chuck (@maybachegg)",
         retweets: 4105,
         likes: 25062,
@@ -10877,7 +10880,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1594877247458258945%252F3oIhjIzM_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PajamaStew/status/976593184661782528",
+        url: "https://xcancel.com/PajamaStew/status/976593184661782528",
         author: "Tin Doom (@PajamaStew)",
         retweets: 616,
         likes: 3038,
@@ -10885,7 +10888,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F966241701860790274%252FJ_Vup5KW_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CynthiaNixon/status/976606164539633664",
+        url: "https://xcancel.com/CynthiaNixon/status/976606164539633664",
         author: "Cynthia Nixon (@CynthiaNixon)",
         retweets: 49096,
         likes: 270218,
@@ -10893,7 +10896,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1001593369246752768%252FDFIkqFON_bigger.jpg",
     },
     {
-        url: "https://twitter.com/i_zzzzzz/status/976660402653319169",
+        url: "https://xcancel.com/i_zzzzzz/status/976660402653319169",
         author: "Brooks Otterlake (@i_zzzzzz)",
         retweets: 1108,
         likes: 9098,
@@ -10901,7 +10904,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2395504744%252F9uggn50z83n3mr1x406e_bigger.png",
     },
     {
-        url: "https://twitter.com/averytuckerlive/status/976662154479742976",
+        url: "https://xcancel.com/averytuckerlive/status/976662154479742976",
         author: "Avery Tucker (@averytuckerlive)",
         retweets: 7036,
         likes: 43179,
@@ -10909,7 +10912,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1707439800935186432%252Fdah-P1FZ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/josefbone/status/976768705576230912",
+        url: "https://xcancel.com/josefbone/status/976768705576230912",
         author: "Joe Bone (@josefbone)",
         retweets: 27461,
         likes: 134850,
@@ -10918,7 +10921,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1660382464748015616%252FgeK0KEyg_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hummusandpizza/status/976785358208798721",
+        url: "https://xcancel.com/hummusandpizza/status/976785358208798721",
         author: "bobby shawarma (@hummusandpizza)",
         retweets: 1814,
         likes: 13271,
@@ -10926,7 +10929,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1226087054649561088%252F3GF3tgT6_bigger.jpg",
     },
     {
-        url: "https://twitter.com/FelixTandem/status/976855475525505026",
+        url: "https://xcancel.com/FelixTandem/status/976855475525505026",
         author: "Tandem Felix (@FelixTandem)",
         retweets: 17007,
         likes: 72097,
@@ -10935,7 +10938,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1715147318171734016%252FgkZbCPiu_bigger.jpg",
     },
     {
-        url: "https://twitter.com/_lesleyallan/status/976883644735344640",
+        url: "https://xcancel.com/_lesleyallan/status/976883644735344640",
         author: "𝙻𝙼𝙰 (@_lesleyallan)",
         retweets: 14257,
         likes: 50964,
@@ -10943,7 +10946,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1723868692654534656%252F1_eT0923_bigger.jpg",
     },
     {
-        url: "https://twitter.com/broderick/status/977213958405939202",
+        url: "https://xcancel.com/broderick/status/977213958405939202",
         author: "Ryan Broderick (@broderick)",
         retweets: 31,
         likes: 139,
@@ -10951,7 +10954,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1419661731324956678%252FXFT3yMLU_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/977237140298854401",
+        url: "https://xcancel.com/meganamram/status/977237140298854401",
         author: "Megan Amram (@meganamram)",
         retweets: 63,
         likes: 1018,
@@ -10959,7 +10962,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Iowhangingfruit/status/977331503083397121",
+        url: "https://xcancel.com/Iowhangingfruit/status/977331503083397121",
         author: "nancy (@Iowhangingfruit)",
         retweets: 12562,
         likes: 55217,
@@ -10968,7 +10971,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1063871980380844032%252FD_wReffv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Sabbxthh/status/977388392672620545",
+        url: "https://xcancel.com/Sabbxthh/status/977388392672620545",
         author: "3lo (@Sabbxthh)",
         retweets: 36941,
         likes: 117423,
@@ -10976,7 +10979,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1721442546860036096%252FJMzoVIaE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/GiganticPawUnit/status/977609545186004993",
+        url: "https://xcancel.com/GiganticPawUnit/status/977609545186004993",
         author: "#1 nobana higashiyama hater (@GiganticPawUnit)",
         retweets: 7909,
         likes: 25892,
@@ -10985,7 +10988,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1536465426070265857%252Fxna1qH-D_bigger.jpg",
     },
     {
-        url: "https://twitter.com/woag_/status/978645788858507266",
+        url: "https://xcancel.com/woag_/status/978645788858507266",
         author: "Gee (@woag_)",
         retweets: 25653,
         likes: 74505,
@@ -10994,7 +10997,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1589322944076988416%252FFSTA53QE_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gilbertjasono/status/978667487536566273",
+        url: "https://xcancel.com/gilbertjasono/status/978667487536566273",
         author: "Jason O. Gilbert (@gilbertjasono)",
         retweets: 5264,
         likes: 27744,
@@ -11002,7 +11005,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F458305950198161408%252F10hxE-eI_bigger.png",
     },
     {
-        url: "https://twitter.com/misandrism/status/978683141140475905",
+        url: "https://xcancel.com/misandrism/status/978683141140475905",
         author: "Ex-bisexual, engineer (@misandrism)",
         retweets: 11403,
         likes: 42515,
@@ -11011,7 +11014,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1729385316040204288%252F5yPTloea_bigger.jpg",
     },
     {
-        url: "https://twitter.com/meganamram/status/978730051855200256",
+        url: "https://xcancel.com/meganamram/status/978730051855200256",
         author: "Megan Amram (@meganamram)",
         retweets: 1254,
         likes: 8451,
@@ -11019,7 +11022,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F890366092%252Fn31883_33925212_8870_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aaprocter/status/978868907711848448",
+        url: "https://xcancel.com/aaprocter/status/978868907711848448",
         author: "Alice A. Procter (@aaprocter)",
         retweets: 3282,
         likes: 20473,
@@ -11027,7 +11030,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1240690310658875397%252FAU1D7HTQ_bigger.jpg",
     },
     {
-        url: "https://twitter.com/TheAndrewNadeau/status/979163770168709120",
+        url: "https://xcancel.com/TheAndrewNadeau/status/979163770168709120",
         author: "Andrew Nadeau (@TheAndrewNadeau)",
         retweets: 2081,
         likes: 10414,
@@ -11035,7 +11038,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1234276076127444997%252FZH66vp75_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ADDiane/status/979763149510344705",
+        url: "https://xcancel.com/ADDiane/status/979763149510344705",
         author: "dire wolf (@ADDiane)",
         retweets: 11508,
         likes: 41104,
@@ -11043,7 +11046,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1720670356602863616%252FgYcKPxp8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/nopoweradeinusa/status/980034600666767360",
+        url: "https://xcancel.com/nopoweradeinusa/status/980034600666767360",
         author: "christian (@nopoweradeinusa)",
         retweets: 1601,
         likes: 13744,
@@ -11052,7 +11055,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     },
     // removed: requires multiple images
     // {
-    //     url: "https://twitter.com/YusufYuie/status/980550236107091968",
+    //     url: "https://xcancel.com/YusufYuie/status/980550236107091968",
     //     author: "Yusuf Yuie ✨ Black Joy (@YusufYuie)",
     //     retweets: 14623,
     //     likes: 30041,
@@ -11061,7 +11064,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
     //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1634134884745609216%252Fm2jJi81L_bigger.jpg",
     // },
     {
-        url: "https://twitter.com/saltydkdan/status/980899446316830722",
+        url: "https://xcancel.com/saltydkdan/status/980899446316830722",
         author: "Saltydkdan (@saltydkdan)",
         retweets: 18054,
         likes: 40424,
@@ -11070,7 +11073,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1731038907247005696%252FklGuD-4a_bigger.jpg",
     },
     {
-        url: "https://twitter.com/wolfyneyda/status/982319992933961729",
+        url: "https://xcancel.com/wolfyneyda/status/982319992933961729",
         author: "neyda (@wolfyneyda)",
         retweets: 85719,
         likes: 220250,
@@ -11078,7 +11081,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691662745286938624%252FdumHzNv3_bigger.jpg",
     },
     {
-        url: "https://twitter.com/hahaahahahahaha/status/984929590341718017",
+        url: "https://xcancel.com/hahaahahahahaha/status/984929590341718017",
         author: "Lilith (@hahaahahahahaha)",
         retweets: 635,
         likes: 2495,
@@ -11087,7 +11090,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1476991438969782274%252Fy_Xz3-ge_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Arr/status/985179134677598208",
+        url: "https://xcancel.com/Arr/status/985179134677598208",
         author: "koyaanisqatsi heckler (@Arr)",
         retweets: 734,
         likes: 5941,
@@ -11095,7 +11098,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1642623925564874753%252FgrOfuvod_bigger.jpg",
     },
     {
-        url: "https://twitter.com/asanyangeltome/status/985266194960867330",
+        url: "https://xcancel.com/asanyangeltome/status/985266194960867330",
         author: "ari  ⬆️ (@asanyangeltome)",
         retweets: 37520,
         likes: 213393,
@@ -11103,7 +11106,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1730663613176713216%252FI8myhaDf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/anniearlert/status/985364486315040768",
+        url: "https://xcancel.com/anniearlert/status/985364486315040768",
         author: "Akaashi Needs Legs (@anniearlert)",
         retweets: 23083,
         likes: 86041,
@@ -11112,7 +11115,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1478787894269874178%252F_kBC4Ci2_bigger.png",
     },
     {
-        url: "https://twitter.com/bristeves/status/986680837012934657",
+        url: "https://xcancel.com/bristeves/status/986680837012934657",
         author: "BRI STEVES (@bristeves)",
         retweets: 3035,
         likes: 6474,
@@ -11120,7 +11123,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1675243769564745729%252FSoNc8dp1_bigger.jpg",
     },
     {
-        url: "https://twitter.com/aparnapkin/status/987559976561328128",
+        url: "https://xcancel.com/aparnapkin/status/987559976561328128",
         author: "Aparna Nancherla (@aparnapkin)",
         retweets: 30256,
         likes: 137765,
@@ -11128,7 +11131,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1557082422788997121%252FlTCsPchv_bigger.jpg",
     },
     {
-        url: "https://twitter.com/austin_walker/status/988083896767180800",
+        url: "https://xcancel.com/austin_walker/status/988083896767180800",
         author: "austin walker (@austin_walker)",
         retweets: 1208,
         likes: 5287,
@@ -11136,16 +11139,17 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/media%252FDbZhD3hVwAAgxLJ.jpg",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1649141242729562112%252FXThNg4Dw_bigger.jpg",
     },
+    // removed: joanne fucking sucks
+    // {
+    //     url: "https://xcancel.com/jk_rowling/status/988419665570430976",
+    //     author: "J.K. Rowling (@jk_rowling)",
+    //     retweets: 5653,
+    //     likes: 44640,
+    //     content: "Listening to @CNN talking about #royalbaby3 and the reporter said ‘Prince Harry’s route to the throne just became more difficult’ as though it’s an open secret he’s planning to systematically slaughter his closest relatives",
+    //     avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691882354527154176%252Fv3dki8sB_bigger.jpg",
+    // },
     {
-        url: "https://twitter.com/jk_rowling/status/988419665570430976",
-        author: "J.K. Rowling (@jk_rowling)",
-        retweets: 5653,
-        likes: 44640,
-        content: "Listening to @CNN talking about #royalbaby3 and the reporter said ‘Prince Harry’s route to the throne just became more difficult’ as though it’s an open secret he’s planning to systematically slaughter his closest relatives",
-        avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1691882354527154176%252Fv3dki8sB_bigger.jpg",
-    },
-    {
-        url: "https://twitter.com/TheOnion/status/988467567730855942",
+        url: "https://xcancel.com/TheOnion/status/988467567730855942",
         author: "The Onion (@TheOnion)",
         retweets: 10913,
         likes: 39443,
@@ -11154,7 +11158,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1517492889852461056%252FbEnqsvVR_bigger.jpg",
     },
     {
-        url: "https://twitter.com/BrandyLJensen/status/988545091001339906",
+        url: "https://xcancel.com/BrandyLJensen/status/988545091001339906",
         author: "Brandy Jensen (@BrandyLJensen)",
         retweets: 147,
         likes: 1980,
@@ -11162,7 +11166,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1573820742482944003%252FY308jbzf_bigger.jpg",
     },
     {
-        url: "https://twitter.com/murrman5/status/988823949541892096",
+        url: "https://xcancel.com/murrman5/status/988823949541892096",
         author: "brent (@murrman5)",
         retweets: 1373,
         likes: 7119,
@@ -11170,7 +11174,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1361726998905835524%252FVf0PO52y_bigger.jpg",
     },
     {
-        url: "https://twitter.com/conangray/status/989557736131018753",
+        url: "https://xcancel.com/conangray/status/989557736131018753",
         author: "conan gray (@conangray)",
         retweets: 84870,
         likes: 217759,
@@ -11178,7 +11182,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1656308676523638784%252Fvs_LggzO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/danozzi/status/989705240235692034",
+        url: "https://xcancel.com/danozzi/status/989705240235692034",
         author: "Dan Ozzi (@danozzi)",
         retweets: 1298,
         likes: 9924,
@@ -11186,7 +11190,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1443051031672221701%252FC_EZ4zgO_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ch000ch/status/989720916186644480",
+        url: "https://xcancel.com/ch000ch/status/989720916186644480",
         author: "chuuch (@ch000ch)",
         retweets: 18632,
         likes: 78639,
@@ -11194,7 +11198,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F378800000134131441%252Fd8eaaa681bc09172d8403a76cadca3f0_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/electrolemon/status/989957288373858309",
+        url: "https://xcancel.com/electrolemon/status/989957288373858309",
         author: "demi adejuyigbe (@electrolemon)",
         retweets: 351,
         likes: 7561,
@@ -11202,7 +11206,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/abs.twimg.com%252Fsticky%252Fdefault_profile_images%252Fdefault_profile_bigger.png",
     },
     {
-        url: "https://twitter.com/AthertonKD/status/989991482873397249",
+        url: "https://xcancel.com/AthertonKD/status/989991482873397249",
         author: "Kelsey D. Atherton, now available on Bluesky (@AthertonKD)",
         retweets: 707,
         likes: 4705,
@@ -11210,7 +11214,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1323149280174088192%252F7tSU5Oy5_bigger.png",
     },
     {
-        url: "https://twitter.com/TriciaLockwood/status/990062822007754753",
+        url: "https://xcancel.com/TriciaLockwood/status/990062822007754753",
         author: "Patricia Lockwood (@TriciaLockwood)",
         retweets: 52,
         likes: 636,
@@ -11218,7 +11222,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1430045704%252Ftweeter_bigger.jpg",
     },
     {
-        url: "https://twitter.com/ArfMeasures/status/990930728098689024",
+        url: "https://xcancel.com/ArfMeasures/status/990930728098689024",
         author: "Jon (@ArfMeasures)",
         retweets: 27481,
         likes: 108746,
@@ -11226,7 +11230,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1348255282833534976%252FPk7ewKKA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/drnelk/status/991005177971990528",
+        url: "https://xcancel.com/drnelk/status/991005177971990528",
         author: "Dov (@drnelk)",
         retweets: 9495,
         likes: 25614,
@@ -11235,7 +11239,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1053287862253375495%252FpQE8eGtt_bigger.jpg",
     },
     {
-        url: "https://twitter.com/garyfromteenmom/status/991338839414333440",
+        url: "https://xcancel.com/garyfromteenmom/status/991338839414333440",
         author: "gary from teen mom (@garyfromteenmom)",
         retweets: 20970,
         likes: 84877,
@@ -11244,7 +11248,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1035175907265323008%252F8JgwA2CN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/pixelatedboat/status/991472289991409664",
+        url: "https://xcancel.com/pixelatedboat/status/991472289991409664",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         retweets: 253,
         likes: 2393,
@@ -11252,7 +11256,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F875489341291675649%252Fhc8K1aT0_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Chinchillazllla/status/991548385046990848",
+        url: "https://xcancel.com/Chinchillazllla/status/991548385046990848",
         author: "i bless the rains down in castamere (@Chinchillazllla)",
         retweets: 7004,
         likes: 45908,
@@ -11260,7 +11264,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1592976002795323392%252FU0fweigA_bigger.jpg",
     },
     {
-        url: "https://twitter.com/gilbertjasono/status/992416691480035329",
+        url: "https://xcancel.com/gilbertjasono/status/992416691480035329",
         author: "Jason O. Gilbert (@gilbertjasono)",
         retweets: 835,
         likes: 7395,
@@ -11268,7 +11272,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F458305950198161408%252F10hxE-eI_bigger.png",
     },
     {
-        url: "https://twitter.com/sarahschauer/status/993859556534116353",
+        url: "https://xcancel.com/sarahschauer/status/993859556534116353",
         author: "sarah schauer (@sarahschauer)",
         retweets: 17474,
         likes: 107404,
@@ -11276,7 +11280,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1495140751058997250%252FoC5BO6Di_bigger.jpg",
     },
     {
-        url: "https://twitter.com/CrappyFumes/status/993897183924637696",
+        url: "https://xcancel.com/CrappyFumes/status/993897183924637696",
         author: "cas-purr the post ghost (@CrappyFumes)",
         retweets: 7497,
         likes: 41812,
@@ -11284,7 +11288,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1585350725994938395%252FWb3HcPw8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/y2tnb/status/994300158467825668",
+        url: "https://xcancel.com/y2tnb/status/994300158467825668",
         author: "200d (@y2tnb)",
         retweets: 10094,
         likes: 47262,
@@ -11292,7 +11296,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1704150416231981056%252Fno18swOq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/PhriendlyCody/status/995015426605178880",
+        url: "https://xcancel.com/PhriendlyCody/status/995015426605178880",
         author: "Comrade Phteven (@PhriendlyCody)",
         retweets: 19239,
         likes: 110793,
@@ -11300,7 +11304,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1120892766194585600%252FCULS3IW7_bigger.jpg",
     },
     {
-        url: "https://twitter.com/emkawo/status/995585847003987968",
+        url: "https://xcancel.com/emkawo/status/995585847003987968",
         author: "Emma W (@emkawo)",
         retweets: 4528,
         likes: 19314,
@@ -11308,7 +11312,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1297375571324723201%252F2XfreDVS_bigger.jpg",
     },
     {
-        url: "https://twitter.com/desusnice/status/995627896541732869",
+        url: "https://xcancel.com/desusnice/status/995627896541732869",
         author: "Desus MF Nice (@desusnice)",
         retweets: 490,
         likes: 3204,
@@ -11316,7 +11320,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1719789976%252Ftumblr_lv8nwnDueN1qg861n_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/minakimes/status/995748431162306560",
+        url: "https://xcancel.com/minakimes/status/995748431162306560",
         author: "Mina Kimes (@minakimes)",
         retweets: 1062,
         likes: 13445,
@@ -11324,7 +11328,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1638917569909514241%252FpuGr_V_P_bigger.jpg",
     },
     {
-        url: "https://twitter.com/jmrphy/status/996003715344715777",
+        url: "https://xcancel.com/jmrphy/status/996003715344715777",
         author: "Justin Murphy (@jmrphy)",
         retweets: 47,
         likes: 171,
@@ -11332,7 +11336,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1516823887568379913%252FqTDmK0Uq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mattdpearce/status/996067309138493441",
+        url: "https://xcancel.com/mattdpearce/status/996067309138493441",
         author: "Matt Pearce (@mattdpearce)",
         retweets: 367,
         likes: 1432,
@@ -11341,7 +11345,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1563631805336498177%252F3J9ljpO8_bigger.jpg",
     },
     {
-        url: "https://twitter.com/danblackroyd/status/996494614176542720",
+        url: "https://xcancel.com/danblackroyd/status/996494614176542720",
         author: "[kie.ran] (@danblackroyd)",
         retweets: 42527,
         likes: 168191,
@@ -11349,7 +11353,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1665780717891235841%252F2-MiXSwz_bigger.jpg",
     },
     {
-        url: "https://twitter.com/robotrowboat/status/996745872275886081",
+        url: "https://xcancel.com/robotrowboat/status/996745872275886081",
         author: "Troutman™ (@robotrowboat)",
         retweets: 11242,
         likes: 51326,
@@ -11357,7 +11361,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1192244963943362560%252F0GEC33Y__bigger.jpg",
     },
     {
-        url: "https://twitter.com/JamColley/status/997441647498612737",
+        url: "https://xcancel.com/JamColley/status/997441647498612737",
         author: "James Colley (@JamColley)",
         retweets: 1744,
         likes: 10231,
@@ -11366,7 +11370,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1534133345302769664%252FXEO94OxN_bigger.jpg",
     },
     {
-        url: "https://twitter.com/oldfriend99/status/998052182762053632",
+        url: "https://xcancel.com/oldfriend99/status/998052182762053632",
         author: "josh (oldfriend99) (@oldfriend99)",
         retweets: 160,
         likes: 1961,
@@ -11374,7 +11378,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1703132361590730752%252FjcXCSvOF_bigger.jpg",
     },
     {
-        url: "https://twitter.com/deanjnorris/status/999149383038971904",
+        url: "https://xcancel.com/deanjnorris/status/999149383038971904",
         author: "Dean Norris (@deanjnorris)",
         retweets: 57706,
         likes: 151883,
@@ -11382,7 +11386,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F2751094004%252Fc5809c083fdf5416f4b479c6b7f3a556_bigger.jpeg",
     },
     {
-        url: "https://twitter.com/JohnyLovely_/status/999377840461303814",
+        url: "https://xcancel.com/JohnyLovely_/status/999377840461303814",
         author: "Mr. Lovely (@JohnyLovely_)",
         retweets: 75711,
         likes: 152967,
@@ -11391,7 +11395,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1712620442198974464%252FXUxz0k6k_bigger.jpg",
     },
     {
-        url: "https://twitter.com/katij_25/status/999393166301245440",
+        url: "https://xcancel.com/katij_25/status/999393166301245440",
         author: "Kati (@katij_25)",
         retweets: 8721,
         likes: 33453,
@@ -11399,7 +11403,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1411316334013648897%252FmAEGoeOq_bigger.jpg",
     },
     {
-        url: "https://twitter.com/mattytalks/status/999719628694749184",
+        url: "https://xcancel.com/mattytalks/status/999719628694749184",
         author: "Jamband Survivor (@mattytalks)",
         retweets: 19481,
         likes: 82698,
@@ -11407,7 +11411,7 @@ const SCROLLBACKERS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/profile_images%252F1374521664306700293%252FS28I2d1S_bigger.jpg",
     },
     {
-        url: "https://twitter.com/Boom_likean808/status/999788723700191232",
+        url: "https://xcancel.com/Boom_likean808/status/999788723700191232",
         author: "Charles Joseph (@Boom_likean808)",
         retweets: 35971,
         likes: 82153,
@@ -11422,7 +11426,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Yeah I'm p good with the old Microsoft Office [i accidentally click the button that makes all the paragraph symbols appear] ah she's fucked",
         retweets: 1481,
         likes: 6565,
-        url: "https://twitter.com/bea_ker/status/840061788351733760",
+        url: "https://xcancel.com/bea_ker/status/840061788351733760",
         author: "Bea_ker (@bea_ker)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/EONsIIb6_400x400.png",
     },
@@ -11430,7 +11434,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "The whole internet loves Milkshake Duck, a lovely duck that drinks milkshakes! \\*5 seconds later\\* We regret to inform you the duck is racist",
         retweets: 14340,
         likes: 38224,
-        url: "https://twitter.com/pixelatedboat/status/741904787361300481",
+        url: "https://xcancel.com/pixelatedboat/status/741904787361300481",
         author: "pixelatedboat aka “mr tweets” (@pixelatedboat)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/hc8K1aT0_bigger.png",
     },
@@ -11438,7 +11442,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "“Sweet dreams you piece of shit.” I try to snap the prison guard’s neck but just make him look to the left very quickly.",
         retweets: 15776,
         likes: 45961,
-        url: "https://twitter.com/vineyille/status/822814010185842688",
+        url: "https://xcancel.com/vineyille/status/822814010185842688",
         author: "vineyille (@vineyille)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/TTZjmQNH_bigger.png",
     },
@@ -11454,7 +11458,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Akchally it’s an ancient Italian symbol dat represents da peaceful intasection of the four ingredients of a perfect Alfredo sauce",
         retweets: 1181,
         likes: 5898,
-        url: "https://twitter.com/nycguidovoice/status/914531086977429504",
+        url: "https://xcancel.com/nycguidovoice/status/914531086977429504",
         author: "nYC Guido Voice (@nycguidovoice)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/KevZFIjk_400x400.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/DLERKcrV4AAvhQ3.png",
@@ -11463,7 +11467,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "My name on valorant is mywifediedin2012 and in a game a few days ago a guy said “this one goes out to this dudes wife” then got a headshot",
         retweets: 3233,
         likes: 23404,
-        url: "https://twitter.com/tomwalkerisgood/status/1286188390988181504",
+        url: "https://xcancel.com/tomwalkerisgood/status/1286188390988181504",
         author: "TOM (@tomwalkerisgood)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/hBzLtmH_bigger.png",
     },
@@ -11471,7 +11475,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "SOCRATES: I am wiser than this man; he fancies he knows something, although he knows nothing—\nDARRYL, SOCRATES' FRIEND: fuck him up socrates",
         retweets: 40158,
         likes: 82981,
-        url: "https://twitter.com/leyawn/status/585859882869469184",
+        url: "https://xcancel.com/leyawn/status/585859882869469184",
         author: "leon (@leyawn)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/70e0971b8c52faf3a44fd9a6194c54f5_bigger.gif",
     },
@@ -11479,7 +11483,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "https://t.co/8HothQooBg",
         retweets: 4263,
         likes: 32036,
-        url: "https://twitter.com/nocontextboomer/status/1283366754559950852",
+        url: "https://xcancel.com/nocontextboomer/status/1283366754559950852",
         author: "Cropped Boomer Images (@NoContextBoomer)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/Clicc486_bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/Ec9vQxhXYAk1Ug3.png",
@@ -11488,7 +11492,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "https://t.co/kA7UMu4Mmz",
         retweets: 9858,
         likes: 50092,
-        url: "https://twitter.com/mort/status/1280756378697641984",
+        url: "https://xcancel.com/mort/status/1280756378697641984",
         author: "mort (@mort)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/blank-img.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/EcYpIQKX0AAxpLU.png",
@@ -11497,7 +11501,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "\\*opens briefcase\\* shall we dispense with the small talk and get down to business?",
         retweets: 538,
         likes: 2260,
-        url: "https://twitter.com/robotrowboat/status/1276630335288197123",
+        url: "https://xcancel.com/robotrowboat/status/1276630335288197123",
         author: "Troutman (@robotrowboat)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/0GEC33Y__bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/EbeAdmhXYAE-FjJ.png",
@@ -11506,7 +11510,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "If unemployment exceeds 30% and distrust of the political process becomes widespread, there is a danger that the United States will enter what historians call The Cool Zone.",
         retweets: 6767,
         likes: 31273,
-        url: "https://twitter.com/SeanRMoorhead/status/1248065386714558465",
+        url: "https://xcancel.com/SeanRMoorhead/status/1248065386714558465",
         author: "Ed Mubarak (@SeanRMoorhead)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/ojhF57p__bigger.png",
     },
@@ -11514,7 +11518,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "my roommate bansky is at it again. he made coffee and said he put something inside that would \"REALLY wake me up\"",
         retweets: 23710,
         likes: 46044,
-        url: "https://twitter.com/electrolemon/status/489101252844736513",
+        url: "https://xcancel.com/electrolemon/status/489101252844736513",
         author: "demi adejuyigbe (@electrolemon)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/0Aa9lo1__bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/Bsmi_1eCQAEBule.png",
@@ -11523,7 +11527,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "https://t.co/jMZOnrjhxy",
         retweets: 2,
         likes: 11,
-        url: "https://twitter.com/camtyeson/status/1257931864783765504",
+        url: "https://xcancel.com/camtyeson/status/1257931864783765504",
         author: "Cam Tyeson (@camtyeson)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/ZgUS5Sxt_bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/EXUSXB3VcAAtqie.png",
@@ -11532,7 +11536,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "oh so all of a sudden you know how to use metric measurements",
         retweets: 98,
         likes: 1440,
-        url: "https://twitter.com/AaronGocs/status/1256870506227105795",
+        url: "https://xcancel.com/AaronGocs/status/1256870506227105795",
         author: "Aaron Gocs (@AaronGocs)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/efb427f8f43ff1c7650b7a6cc2d36867_bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/EXFM8OHUwAAdeHN.jpg",
@@ -11541,7 +11545,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "[mysterious old lady flips tarot card revealing a dude who looks exactly like me flying a hot air balloon into power lines]\nMe: is that good",
         retweets: 42249,
         likes: 84781,
-        url: "https://twitter.com/boring_as_heck/status/604761050857095168",
+        url: "https://xcancel.com/boring_as_heck/status/604761050857095168",
         author: "mr. peepee poopoo (@boring_as_heck)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/n0coWjbP_bigger.png",
     },
@@ -11549,7 +11553,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "me: Welcome to Troll Academy. First order of business, you have to pick a troll name which you will use all times at the school.\n(everyones hand goes up)\nme: The name cannot be a racial slur.\n(everyones hand goes down except one)\nme: No exceptions.\n(the last hand goes down)",
         retweets: 8,
         likes: 115,
-        url: "https://twitter.com/getfiscal/status/982755131325403136",
+        url: "https://xcancel.com/getfiscal/status/982755131325403136",
         author: "Don Hughes 🦌 (@getfiscal)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/5nqTrvC0_bigger.png",
     },
@@ -11557,7 +11561,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "me: Alright that concludes my opening remarks on Troll Academy. Does anyone have any questions? Yes, you.\nstudent: Fuck you.\nme: Good. Anyone else? Yes.\nother student: You look like it a potato lost its job.\nme: Great. Troll Academy isn’t easy, and you’re stupid for signing up.",
         retweets: 4,
         likes: 35,
-        url: "https://twitter.com/getfiscal/status/982766436077768704",
+        url: "https://xcancel.com/getfiscal/status/982766436077768704",
         author: "Don Hughes 🦌 (@getfiscal)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/5nqTrvC0_bigger.png",
     },
@@ -11565,7 +11569,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Just to let everyone know I work in the 5G field.  While I was working from home this weekend I just realised I had all the units set to “give corona” setting instead of the default “make everyone gay” default setting. Really sorry about that.",
         retweets: 2383,
         likes: 12069,
-        url: "https://twitter.com/NZjusticeSUCKS/status/1251941154494406656",
+        url: "https://xcancel.com/NZjusticeSUCKS/status/1251941154494406656",
         author: "NZ Truth Warrior (@NZjusticeSUCKS)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/9Zmg1Bal_bigger.png",
     },
@@ -11573,7 +11577,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "i think i'd like to have one of those youtube channels where every video thumbnail is this bullshit",
         retweets: 5039,
         likes: 19544,
-        url: "https://twitter.com/robwhisman/status/735281634656669696",
+        url: "https://xcancel.com/robwhisman/status/735281634656669696",
         author: "rob (@robwhisman)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/pojRP1iz_bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/CjQ-v9oWgAAuoiO.png",
@@ -11582,7 +11586,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "i see u know ur pinot well",
         retweets: 7,
         likes: 23,
-        url: "https://twitter.com",
+        url: "https://xcancel.com",
         author: "a big pretty Lizard (@birdcardigan)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/ZKzY7QRK_bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/pinot.png",
@@ -11591,7 +11595,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "god: i have made Mankind\nangels: you fucked up a perfectly good monkey is what you did. look at it. it's got anxiety",
         retweets: 50220,
         likes: 89131,
-        url: "https://twitter.com/jon_snow_420/status/659443020908003328",
+        url: "https://xcancel.com/jon_snow_420/status/659443020908003328",
         author: "failings spectre (@jon_snow_420)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/zoAyRuJP_normal.jpg",
     },
@@ -11599,7 +11603,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Sci-Fi Author: In my book I invented the Torment Nexus as a cautionary tale\n\nTech Company: At long last, we have created the Torment Nexus from classic sci-fi novel Don't Create The Torment Nexus",
         retweets: 27409,
         likes: 102134,
-        url: "https://twitter.com/AlexBlechman/status/1457842724128833538",
+        url: "https://xcancel.com/AlexBlechman/status/1457842724128833538",
         author: "Alex Blechman (@AlexBlechman)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/KhbtX6JF_bigger.png",
     },
@@ -11607,7 +11611,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "\\*Cracks Diet Pepsi Ahh...Refreshing Diet Peppi \\*Slowly Sips, Then Gulps, The Diet Pappo\\*\\* Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
         retweets: 7373,
         likes: 15369,
-        url: "https://twitter.com/tree_bro/status/79444819902074880",
+        url: "https://xcancel.com/tree_bro/status/79444819902074880",
         author: "Jackson (@tree_bro)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/BRO_bigger.jpg",
     },
@@ -11615,7 +11619,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Hello sir, I-\\*briefcase full of jellybeans falls open\\*",
         retweets: 8469,
         likes: 22017,
-        url: "https://twitter.com/brendlewhat/status/165631372327784448",
+        url: "https://xcancel.com/brendlewhat/status/165631372327784448",
         author: "brendle (@brendlewhat)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/pZ4ZTsOU_bigger.png",
     },
@@ -11623,7 +11627,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "most cutting thing you can say is \"who's this clown?\" because it implies they're a) a clown & b) not even one of the better-known clowns",
         retweets: 71480,
         likes: 126859,
-        url: "https://twitter.com/skullmandible/status/411281851131523072",
+        url: "https://xcancel.com/skullmandible/status/411281851131523072",
         author: "Cohen is a ghost (@skullmandible)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/Kw0VfgAV_bigger.jpg",
     },
@@ -11631,7 +11635,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "What should we call this giant advertising board?\nPHIL: A philboard\nBILL: I have a better idea",
         retweets: 11079,
         likes: 21428,
-        url: "https://twitter.com/internethippo/status/585108383985836034",
+        url: "https://xcancel.com/internethippo/status/585108383985836034",
         author: "The Borscht Identity (@InternetHippo)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/mV-fry51_bigger.jpg",
     },
@@ -11639,7 +11643,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "amazon: we shipped your package! it should deliver by 8pm tomorrow!\n\nme, nose pressed against the door, fogging the glass as i breathe: **𝗽𝗮𝗸𝗶𝗱𝗴𝗲**",
         retweets: 67330,
         likes: 284318,
-        url: "https://twitter.com/sexhomaru/status/1108074779121197058",
+        url: "https://xcancel.com/sexhomaru/status/1108074779121197058",
         author: "rin | check pinned (@sexhomaru)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/KBJShADR_bigger.png",
         image: "https://tyrone-sudeium.github.io/aethebot-static/res/ENFoiFiXsAA_4bB.png",
@@ -11648,7 +11652,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "[Dentist waiting room]\n\nMe: [chanting] teeth, teeth-\n\nOther patients: teeth, TEETH\n\nSecretary: [pounding her clipboard] TEETH, TEETH, TEETH!",
         retweets: 38270,
         likes: 121463,
-        url: "https://twitter.com/lebeargirdle/status/898280833299230722",
+        url: "https://xcancel.com/lebeargirdle/status/898280833299230722",
         author: "brandAn is good (@LeBearGirdle)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/zKYF1c45_bigger.jpg",
     },
@@ -11656,7 +11660,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "democracy is this cool system where you yell at people online for 6 months and then people in Ohio and Florida pick the president",
         retweets: 12946,
         likes: 23868,
-        url: "https://twitter.com/bromanconsul/status/742627660367429632",
+        url: "https://xcancel.com/bromanconsul/status/742627660367429632",
         author: "bog person (@bromanconsul)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/erCOWmQt_bigger.jpg",
     },
@@ -11664,7 +11668,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "[quietly tries to open a can of beer]\ndriving instructor: what was that",
         retweets: 5797,
         likes: 14574,
-        url: "https://twitter.com/cornonthegoblin/status/714202417944854528",
+        url: "https://xcancel.com/cornonthegoblin/status/714202417944854528",
         author: "Cat Damon (@CornOnTheGoblin)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/7ncWKKow_bigger.jpeg",
     },
@@ -11672,7 +11676,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "One of McDonald's mascots is a guy who steals from McDonald's.",
         retweets: 1077,
         likes: 2382,
-        url: "https://twitter.com/tylerschmall/status/443190789758132224",
+        url: "https://xcancel.com/tylerschmall/status/443190789758132224",
         author: "Tyler Schmall (@tylerschmall)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/gCOEwKyC_bigger.jpg",
     },
@@ -11680,7 +11684,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Day 20. Still lost at sea. Crew thinks I know how to plot a course with a protractor. I just like making it walk on the map. Pointy Leg Man.",
         retweets: 12659,
         likes: 33591,
-        url: "https://twitter.com/vineyille/status/551873301963079680",
+        url: "https://xcancel.com/vineyille/status/551873301963079680",
         author: "vineyille (@vineyille)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/TTZjmQNH_bigger.jpg",
     },
@@ -11688,7 +11692,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Its really disgusting how other white people dont even know about the plight of [quickly wikipedias \"Who is having alot of plight 2012]",
         retweets: 2296,
         likes: 7941,
-        url: "https://twitter.com/kanwetwitty/status/177549627090927616",
+        url: "https://xcancel.com/kanwetwitty/status/177549627090927616",
         author: "we (@kanwetwitty)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/NjFHHWlu_bigger.jpg",
     },
@@ -11696,7 +11700,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Sitting in a hotel lobby like 10 feet away from a guy in a full sailor uniform and my gf is having to physically restrain me from airdropping him a picture of a sail boat with the caption \“You like what you see?\”",
         retweets: 324,
         likes: 219300,
-        url: "https://twitter.com/on_da_spectrum/status/1952087363452362761",
+        url: "https://xcancel.com/on_da_spectrum/status/1952087363452362761",
         author: "my life is a living hell. every minute is torture (@on_da_spectrum)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/qZ6hO6JL_200x200.jpg",
     },
