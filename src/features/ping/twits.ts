@@ -11450,7 +11450,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         content: "Judge: Now wait a second Mike. if the other players were hacking, wouldn't that make their kills on you unfair?\nMe: That's right your honor.",
         retweets: 531,
         likes: 1820,
-        url: "http://twitter.com/animaldrumss/status/491058831028678656",
+        url: "https://xcancel.com/animaldrumss/status/491058831028678656",
         author: "Mike F (@mikefossey)",
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/blank-img.png",
     },
@@ -11711,8 +11711,8 @@ const CONTENT: TweetPoolContent[] = SCROLLBACKERS.concat(SPICYTWITS)
 export const TOOTS_BY_ID = new Map(CONTENT.map(obj => {
     const url = new URL(obj.url)
     const pathComponents = url.pathname.split("/")
-    if (url.host !== "twitter.com") {
-        throw new Error("idiot developer error: tweet urls must be on twitter dot com")
+    if (url.host !== "xcancel.com") {
+        throw new Error("idiot developer error: tweet urls must be on xcancel dot com")
     }
     return [pathComponents[pathComponents.length - 1], obj]
 }))
