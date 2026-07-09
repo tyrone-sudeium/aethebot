@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "node16",
+    "moduleResolution": "node16",
     "sourceMap": false,
     "outDir": "dist",
     "alwaysStrict": true,
@@ -18,7 +18,8 @@
     "lib": [
       "ES2020.String",
       "DOM"
-    ]
+    ],
+    "rootDir": "src"
   },
   "files": [
     "src/types/index.d.ts",

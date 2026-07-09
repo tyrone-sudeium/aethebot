@@ -134,7 +134,7 @@ export class Website {
     // make sure it shares the same MemoryBrain instance as the Bot!
     public brain: Brain = new MemoryBrain()
     private server: HTTP.Server | null = null
-    private timer: NodeJS.Timer | null = null
+    private timer: NodeJS.Timeout | null = null
 
     private adminActions: {[key: string]: () => void} = {
         DISCORD_RECONNECT: this.reconnectBot.bind(this),

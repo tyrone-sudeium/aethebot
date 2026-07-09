@@ -62,8 +62,7 @@ export class MessageContext<F extends FeatureBase> {
      */
     public async sendPlain(str: string, embeds?: Discord.JSONEncodable<Discord.APIEmbed>[]): Promise<Discord.Message> {
         const channel = this.myMessage.channel
-        // Shouldn't be possible
-        assert(channel.type !== Discord.ChannelType.GuildStageVoice)
+        assert(channel.isSendable())
 
         return channel.send({content: str, embeds})
     }

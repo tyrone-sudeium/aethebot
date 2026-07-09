@@ -11,6 +11,7 @@
  * This source code is licensed under the permissive MIT license.
  */
 
+import assert from "node:assert"
 import * as Discord from "discord.js"
 import { assertIsError, log } from "../log"
 import { FeatureBase, GlobalFeature, MessageContext } from "./feature"
@@ -152,6 +153,7 @@ export class RerollFeature extends GlobalFeature {
                     }
                 } else if (item.type === "delete") {
                     await botMessage.delete()
+                    assert(requestMsg.channel.isSendable())
                     const newMsg = await requestMsg.channel.send({content: msgObj.text, embeds: msgObj.embeds})
                     if (newMsg instanceof Discord.Message) {
                         await this.pushRerollForFeature(feature.name, newMsg, humanMessage, item.params, item.type)

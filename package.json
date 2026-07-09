@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "typecheck": "tsc --noEmit && eslint . --ext .js,.jsx,.ts,.tsx",
+    "typecheck": "tsc --noEmit",
     "start": "node dist/index.js",
     "debug-bot": "nodemon --watch ./dist --inspect=0.0.0.0:9222 --nolazy dist/index.js --bot",
     "debug-web": "nodemon --watch ./dist --inspect=0.0.0.0:9223 --nolazy dist/index.js --website",
@@ -40,7 +40,7 @@
     "anchorme": "^1.1.2",
     "array-flatten": "^3.0.0",
     "chrono-node": "^2.3.1",
-    "discord.js": "^14",
+    "discord.js": "^14.26.4",
     "emoji-regex": "^9.2.2",
     "minimist": "^1.2.6",
     "moment-precise-range-plugin": "^1.2.3",
@@ -53,18 +53,24 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "@eslint/compat": "^2.1.0",
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@types/minimist": "^1.2.0",
     "@types/moment-timezone": "^0.5.9",
-    "@types/node": "^18",
+    "@types/node": "^22.20.1",
     "@types/redis": "^2.8.31",
     "@types/uuid": "^3.4.5",
     "@types/xml2js": "^0.4.3",
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
-    "@typescript-eslint/parser": "^2.19.0",
-    "eslint": "^6.8.0",
+    "@typescript-eslint/eslint-plugin": "^8.63.0",
+    "@typescript-eslint/parser": "^8.63.0",
+    "eslint": "^10.6.0",
     "eslint-plugin-import": "=2.20.0",
+    "globals": "^17.7.0",
     "nodemon": "1.19.3",
-    "typescript": "^4.9"
+    "typescript": "^7.0",
+    "typescript-eslint": "^8.63.0"
   },
   "resolutions": {
     "**/needle": "^2.6.0"

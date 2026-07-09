@@ -22,7 +22,7 @@ export class FlatFileBrain implements Brain {
     public systemMessages: StrictEventEmitter<EventEmitter, SystemMessages> = new EventEmitter()
     private filePath: string
     private storage: {[key: string]: string} = {}
-    private saveTimer: NodeJS.Timer | undefined
+    private saveTimer: NodeJS.Timeout | undefined
     private savingLock = false
 
     public constructor(filePath: string) {

@@ -29,7 +29,7 @@ export class Bot {
     private loadedFeatures: Map<string, GlobalFeature> = new Map()
     private client: Discord.Client
     private customFeatureLoaders: GlobalFeatureLoader[] = []
-    private connectionCheckTimer?: NodeJS.Timer
+    private connectionCheckTimer?: NodeJS.Timeout
 
     public constructor(token: string, brain: Brain) {
         this.token = token
