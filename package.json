@@ -12,7 +12,7 @@
     "build": "tsc"
   },
   "engines": {
-    "node": "18.14.2"
+    "node": "22.23.1"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/tyrone-sudeium/aethebot#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.9",
+    "@discordjs/opus": "^0.10",
     "@discordjs/voice": "^0.15.0",
     "@napi-rs/canvas": "^0.1",
     "@types/ws": "^7.2.1",
