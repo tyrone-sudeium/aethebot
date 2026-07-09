@@ -23,7 +23,7 @@ export const NOISES: Noise[] = [
     {
         files: ["ostrich.opus"],
         id: "OSTRICH",
-        regex: [/^haha\!?$/i, /^ostrich$/i],
+        regex: [/^haha!?$/i, /^ostrich$/i],
         desc: "Family guy ostrich.",
     },
     {
@@ -116,27 +116,27 @@ export const NOISES: Noise[] = [
     {
         files: ["bait.opus"],
         id: "BAIT",
-        regex: [/^(that\'s\s*)?bait$/i],
+        regex: [/^(that's\s*)?bait$/i],
         desc: "Uh uh. That's bait.",
     },
     {
         files: ["trap.opus"],
         id: "TRAP",
-        regex: [/^(it\'?s\s*a\s*)?trap\!?$/i],
+        regex: [/^(it'?s\s*a\s*)?trap!?$/i],
         desc: "It's a trap!",
     },
     {
         files: ["triple.opus"],
         id: "TRIPLE",
-        regex: [/^(oh\s*baby\s*a\s*)?triple\!?$/i],
+        regex: [/^(oh\s*baby\s*a\s*)?triple!?$/i],
         desc: "Oh baby a triple!",
     },
     {
         files: ["wakemeup.opus"],
         id: "CANTWAKEUP",
         regex: [
-            /^wake\s*me\s*up(\s*inside)?(\s*\(can\'t\s*wake\s*up\))?$/i,
-            /^\(?can\'t\s*wake\s*up\)?$/i,
+            /^wake\s*me\s*up(\s*inside)?(\s*\(can't\s*wake\s*up\))?$/i,
+            /^\(?can't\s*wake\s*up\)?$/i,
         ],
         desc: "Wake me up inside (can't wake up).",
     },
@@ -187,7 +187,7 @@ export const NOISES: Noise[] = [
         files: ["jail.opus"],
         id: "JAIL",
         regex: [
-            /^(i\'?m\s+goin[\'g]?\s+)?(to\s+)?jail$/i,
+            /^(i'?m\s+goin['g]?\s+)?(to\s+)?jail$/i,
         ],
         desc: "I'm going to jail!",
     },
@@ -195,7 +195,7 @@ export const NOISES: Noise[] = [
         files: ["hahgay.opus"],
         id: "HAHGAY",
         regex: [
-            /^(hah\!?\s+)?ga+y+$/i,
+            /^(hah!?\s+)?ga+y+$/i,
         ],
         desc: "Chang from Community thinks that's gayyyyyyyy.",
     },
@@ -203,7 +203,7 @@ export const NOISES: Noise[] = [
         files: ["hiphop.opus"],
         id: "HIPHOP",
         regex: [
-            /^(i\s+don\'?t\s+listen\s+to\s+)?hip\s*hop$/i,
+            /^(i\s+don'?t\s+listen\s+to\s+)?hip\s*hop$/i,
         ],
         desc: "The army general from South Park doesn't listen to hip hop.",
     },
@@ -211,7 +211,7 @@ export const NOISES: Noise[] = [
         files: ["nerd.opus"],
         id: "NERD",
         regex: [
-            /^ne+r+d+\!*$/i,
+            /^ne+r+d+!*$/i,
         ],
         desc: "Homer thinks you're a nerd.",
     },
@@ -219,7 +219,7 @@ export const NOISES: Noise[] = [
         files: ["leeroy.opus"],
         id: "LEEROY",
         regex: [
-            /^le+r+o+y+\!*(\s+je+n+k+i+n+s+\!*)?$/i,
+            /^le+r+o+y+!*(\s+je+n+k+i+n+s+!*)?$/i,
         ],
         desc: "Time's up, let's do this! LEEEEEEROY JENKINS!",
     },
@@ -259,7 +259,7 @@ export const NOISES: Noise[] = [
         files: ["mad.opus"],
         id: "ITSONLYGAME",
         regex: [
-            /^(it?\'?s\s+only\s+game\s+)?(why\s+you\s+)?(have|heff)\s+to\s+be\s+mad\??$/i,
+            /^(it?'?s\s+only\s+game\s+)?(why\s+you\s+)?(have|heff)\s+to\s+be\s+mad\??$/i,
         ],
         desc: "It's only game. Why you heff to be mad?",
     },

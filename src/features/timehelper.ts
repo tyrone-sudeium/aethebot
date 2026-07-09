@@ -36,7 +36,7 @@ export class TimehelperFeature extends GlobalFeature {
     public async handleAmbientMessage(context: MessageContext<this>): Promise<boolean> {
         // Remove the mentions
         const tokens = this.commandTokens(context)
-        const mentionRegex = /\<\@\d+\>/g
+        const mentionRegex = /<@\d+>/g
         const noMentions = tokens.filter(token => !mentionRegex.test(token))
         const cleanMsg = noMentions.join(" ")
 

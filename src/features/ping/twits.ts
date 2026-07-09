@@ -11697,7 +11697,7 @@ const SPICYTWITS: TweetPoolContent[] = [
         avatar: "https://tyrone-sudeium.github.io/aethebot-static/res/NjFHHWlu_bigger.jpg",
     },
     {
-        content: "Sitting in a hotel lobby like 10 feet away from a guy in a full sailor uniform and my gf is having to physically restrain me from airdropping him a picture of a sail boat with the caption \“You like what you see?\”",
+        content: "Sitting in a hotel lobby like 10 feet away from a guy in a full sailor uniform and my gf is having to physically restrain me from airdropping him a picture of a sail boat with the caption “You like what you see?”",
         retweets: 324,
         likes: 219300,
         url: "https://xcancel.com/on_da_spectrum/status/1952087363452362761",
@@ -11718,6 +11718,10 @@ export const TOOTS_BY_ID = new Map(CONTENT.map(obj => {
 }))
 
 export class Twit extends TweetPool {
+    protected get persistenceVersion(): number {
+        return 3
+    }
+
     protected async fetchList(): Promise<Map<string, TweetPoolContent>> {
         const builtins = TOOTS_BY_ID
         const customsObj = await fetchCustomToots(this.brain)
@@ -11726,10 +11730,6 @@ export class Twit extends TweetPool {
             customs.set(key, value)
         }
         return customs
-    }
-
-    protected get persistenceVersion(): number {
-        return 3
     }
 
     protected brainKeyForChannel(chanId: string): string {

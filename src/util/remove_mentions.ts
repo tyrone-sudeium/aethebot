@@ -18,5 +18,5 @@ export function removeBotMentions(bot: Bot, message: Discord.Message): string {
     if (!bot.user) {
         return message.content
     }
-    return message.content.replace(new RegExp(`<@\!?${bot.user.id}>`, "g"), "")
+    return message.content.replace(new RegExp(`<@!?${bot.user.id}>`, "g"), "")
 }

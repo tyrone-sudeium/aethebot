@@ -110,15 +110,15 @@ export class MemeTile implements Drawable {
     public image: Image
     public width: number
 
-    public get height(): number {
-        const ratio = this.image.height / this.image.width
-        return (this.width / 2) * ratio
-    }
-
     public constructor(text: string, image: Image, width: number) {
         this.text = text
         this.image = image
         this.width = width
+    }
+
+    public get height(): number {
+        const ratio = this.image.height / this.image.width
+        return (this.width / 2) * ratio
     }
 
     public drawInContext(ctx: SKRSContext2D, offset?: {x: number; y: number}): void {

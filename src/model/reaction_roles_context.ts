@@ -26,10 +26,9 @@ export interface ReactionRoleMessage {
 }
 
 export class ReactionRolesContext extends Persistent {
-    public guildId: string
-
     @PersistentProperty()
     public messages: ReactionRoleMessage[] = []
+    public guildId: string
 
     public constructor(bot: Bot, guildId: string) {
         super(bot)

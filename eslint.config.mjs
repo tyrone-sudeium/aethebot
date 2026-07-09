@@ -1,34 +1,24 @@
 import { defineConfig, globalIgnores } from "eslint/config";
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
 import stylistic from "@stylistic/eslint-plugin";
-import _import from "eslint-plugin-import";
-import { fixupPluginRules } from "@eslint/compat";
 import globals from "globals";
 import tsParser from "@typescript-eslint/parser";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
-});
 
 export default defineConfig([globalIgnores(["**/dist/", "**/node_modules/"]), {
-    extends: compat.extends(
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    ),
+    files: ["**/*.{js,ts}"],
 
     plugins: {
+        js,
         "@typescript-eslint": typescriptEslint,
-        "@stylistic": stylistic,
-        import: fixupPluginRules(_import),
+        "@stylistic": stylistic
     },
+    extends: ["js/recommended", "@typescript-eslint/recommended"],
 
     languageOptions: {
         globals: {
@@ -50,57 +40,80 @@ export default defineConfig([globalIgnores(["**/dist/", "**/node_modules/"]), {
             FunctionDeclaration: {
                 parameters: "first",
             },
-
             FunctionExpression: {
                 parameters: "first",
             },
+            SwitchCase: 0,
         }],
-
-        "@typescript-eslint/adjacent-overload-signatures": "error",
-        "@typescript-eslint/array-type": "error",
-        "@typescript-eslint/ban-types": "error",
-        "@typescript-eslint/class-name-casing": "error",
-        "@typescript-eslint/consistent-type-assertions": "error",
-        "@typescript-eslint/consistent-type-definitions": "error",
-
-        "@typescript-eslint/explicit-member-accessibility": ["error", {
-            accessibility: "explicit",
-        }],
-
-        "@typescript-eslint/interface-name-prefix": "error",
-
-        "@typescript-eslint/member-delimiter-style": ["error", {
+        "@stylistic/member-delimiter-style": ["error", {
             multiline: {
                 delimiter: "none",
                 requireLast: true,
             },
-
             singleline: {
                 delimiter: "semi",
                 requireLast: false,
             },
         }],
-
+        "@stylistic/quotes": ["error", "double", {
+            avoidEscape: true,
+        }],
+        "@stylistic/semi": ["error", "never"],
+        "@stylistic/type-annotation-spacing": "error",
+        "@typescript-eslint/adjacent-overload-signatures": "error",
+        "@typescript-eslint/array-type": "error",
+        "@typescript-eslint/consistent-type-assertions": "error",
+        "@typescript-eslint/consistent-type-definitions": "error",
+        "@typescript-eslint/explicit-member-accessibility": ["error", {
+            accessibility: "explicit",
+        }],
         "@typescript-eslint/member-ordering": "error",
+        "@typescript-eslint/naming-convention": [
+            'error',
+            {
+                selector: 'class',
+                format: ['PascalCase'],
+            },
+            {
+                selector: 'interface',
+                format: ['PascalCase'],
+            },
+            {
+                selector: 'typeAlias',
+                format: ['PascalCase'],
+            },
+            {
+                selector: 'enum',
+                format: ['PascalCase'],
+            },
+        ],
         "@typescript-eslint/no-empty-function": "error",
         "@typescript-eslint/no-empty-interface": "error",
+        "@typescript-eslint/no-empty-object-type": "error",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-misused-new": "error",
         "@typescript-eslint/no-namespace": "error",
         "@typescript-eslint/no-parameter-properties": "off",
+        "@typescript-eslint/no-unsafe-function-type": "error",        
         "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                "args": "all",
+                "argsIgnorePattern": "^_",
+                "caughtErrors": "all",
+                "caughtErrorsIgnorePattern": "^_",
+                "destructuredArrayIgnorePattern": "^_",
+                "varsIgnorePattern": "^_",
+                "ignoreRestSiblings": true
+            }
+        ],
         "@typescript-eslint/no-var-requires": "error",
+        "@typescript-eslint/no-wrapper-object-types": "error",
         "@typescript-eslint/prefer-for-of": "error",
         "@typescript-eslint/prefer-function-type": "error",
         "@typescript-eslint/prefer-namespace-keyword": "error",
-
-        "@typescript-eslint/quotes": ["error", "double", {
-            avoidEscape: true,
-        }],
-
-        "@typescript-eslint/semi": ["error", "never"],
         "@typescript-eslint/triple-slash-reference": "error",
-        "@typescript-eslint/type-annotation-spacing": "error",
         "@typescript-eslint/unified-signatures": "error",
         "arrow-body-style": "error",
         "arrow-parens": ["error", "as-needed"],
@@ -114,8 +127,6 @@ export default defineConfig([globalIgnores(["**/dist/", "**/node_modules/"]), {
         eqeqeq: ["error", "smart"],
         "guard-for-in": "error",
         "id-match": "error",
-        "import/order": "error",
-        "import/no-default-export": "error",
         "max-classes-per-file": ["off", 1],
 
         "max-len": ["error", {
@@ -146,6 +157,7 @@ export default defineConfig([globalIgnores(["**/dist/", "**/node_modules/"]), {
         "no-unsafe-finally": "error",
         "no-unused-expressions": "error",
         "no-unused-labels": "error",
+        "no-useless-assignment": "off",
         "no-var": "error",
         "object-shorthand": "error",
         "one-var": ["error", "never"],
@@ -163,4 +175,9 @@ export default defineConfig([globalIgnores(["**/dist/", "**/node_modules/"]), {
         "use-isnan": "error",
         "valid-typeof": "off",
     },
+},
+{
+    // Don't type check config files
+    files: ["**/*.js", "**/*.mjs", "**/*.cjs"],
+    ...typescriptEslint.configs.disableTypeChecked,
 }]);

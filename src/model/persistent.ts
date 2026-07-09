@@ -23,6 +23,12 @@ export abstract class Persistent {
         this.bot = bot
     }
 
+    protected get brain(): Brain {
+        return this.bot.brain
+    }
+
+    protected abstract get brainKey(): string
+
     public async save(): Promise<void> {
         const keys = this.persistentKeys()
         const thisAsAny = this as any
@@ -43,16 +49,10 @@ export abstract class Persistent {
         Object.assign(this, jsonObj)
     }
 
-    protected get brain(): Brain {
-        return this.bot.brain
-    }
-
-    protected abstract get brainKey(): string
-
     protected persistentKeys(): string[] {
         let properties: string[]
         const klass = Object.getPrototypeOf(this)
-        if (klass.hasOwnProperty(symProperties)) {
+        if (Object.prototype.hasOwnProperty.call(klass, symProperties)) {
             properties = klass[symProperties]
         } else {
             properties = klass[symProperties] = []

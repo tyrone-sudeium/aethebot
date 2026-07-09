@@ -4,9 +4,9 @@
     },
     "js/ts.tsdk.path": "node_modules/typescript/lib",
     "files.exclude": {
+      "**/cache/": true,
       "**/*.rpyc": true,
       "**/*.rpa": true,
-      "**/*.rpymc": true,
-      "**/cache/": true
+      "**/*.rpymc": true
     }
 }

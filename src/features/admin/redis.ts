@@ -64,7 +64,7 @@ export class RedisAdminFeature extends GlobalFeature {
                 const jsonValue = JSON.parse(res)
                 const pretty = JSON.stringify(jsonValue, null, 2)
                 context.sendReplyFiles(undefined, [{data: Buffer.from(pretty, "utf8"), name: "result.json"}])
-            } catch (jsonError) {
+            } catch (_jsonError) {
                 const tripleBacktick = "```"
                 context.sendReply(`${tripleBacktick}\n${res.slice(0, 1992)}\n${tripleBacktick}`)
             }

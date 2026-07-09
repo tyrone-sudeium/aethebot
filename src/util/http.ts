@@ -116,12 +116,6 @@ export async function head(url: string, headers?: HTTPHeaders): Promise<HEADResu
     return new Promise((resolve, reject) => {
         const req = httpModule.request(options, resp => {
             resp.on("error", reject)
-            let error
-            if (error) {
-                reject(error)
-                resp.resume()
-                return
-            }
             if (!resp.statusCode) {
                 reject("No status code")
                 return

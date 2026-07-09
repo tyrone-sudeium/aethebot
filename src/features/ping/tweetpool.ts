@@ -33,10 +33,12 @@ export interface TweetPoolContent {
 }
 
 export abstract class TweetPool {
-    protected abstract get persistenceVersion(): number
     public constructor(
         public brain: Brain
     ) { }
+
+    protected abstract get persistenceVersion(): number
+
 
     /**
      * Returns the number of posts remaining in the pool, WITHOUT reshuffling if it's zero.

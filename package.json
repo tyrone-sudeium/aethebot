@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && eslint . --ext .js,.jsx,.ts,.tsx",
     "start": "node dist/index.js",
     "debug-bot": "nodemon --watch ./dist --inspect=0.0.0.0:9222 --nolazy dist/index.js --bot",
     "debug-web": "nodemon --watch ./dist --inspect=0.0.0.0:9223 --nolazy dist/index.js --website",
@@ -65,11 +65,12 @@
     "@types/xml2js": "^0.4.3",
     "@typescript-eslint/eslint-plugin": "^8.63.0",
     "@typescript-eslint/parser": "^8.63.0",
+    "@typescript/native": "npm:typescript@^7.0.2",
     "eslint": "^10.6.0",
     "eslint-plugin-import": "=2.20.0",
     "globals": "^17.7.0",
     "nodemon": "1.19.3",
-    "typescript": "^7.0",
+    "typescript": "npm:@typescript/typescript6",
     "typescript-eslint": "^8.63.0"
   },
   "resolutions": {

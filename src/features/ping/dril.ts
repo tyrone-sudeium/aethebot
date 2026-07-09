@@ -1078,6 +1078,10 @@ interface PersistedJSON {
 }
 
 export class Dril extends TweetPool {
+    protected get persistenceVersion(): number {
+        return 3
+    }
+
     public getNo(): TweetPoolContent {
         return tweetPoolContentFromDril(NO)
     }
@@ -1109,9 +1113,5 @@ export class Dril extends TweetPool {
 
     protected fetchList(): Promise<Map<string, TweetPoolContent>> {
         return Promise.resolve(TOOTS_BY_ID)
-    }
-
-    protected get persistenceVersion(): number {
-        return 3
     }
 }

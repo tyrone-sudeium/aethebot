@@ -32,8 +32,6 @@ import { GlobalFeature, MessageContext, SlashCommand } from "../feature"
 import { assertIsError, log } from "../../log"
 import { Noise, NOISES } from "./noises"
 
-/* eslint-disable no-console */
-
 function pathForNoiseFile(noiseFile: string): string {
     return Path.join(process.cwd(), "res", noiseFile)
 }
@@ -216,7 +214,7 @@ export class VoiceNoiseFeature extends GlobalFeature {
             })
             // This is lifted STRAIGHT from the Discord.js docs. It's not my fault their type
             // definition doesn't allow your handler to return Promise<void>.
-            // eslint-disable-next-line @typescript-eslint/no-misused-promises
+
             connection.on(VoiceConnectionStatus.Disconnected, async () => {
                 try {
                     await Promise.race([

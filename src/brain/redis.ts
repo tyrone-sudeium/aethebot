@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/unbound-method */
+
 /**
  * Brain implementation that stores in a Redis instance.
  */

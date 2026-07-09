@@ -124,22 +124,12 @@ export class MessageContext<F extends FeatureBase> {
 export type DiscordReaction = Discord.MessageReaction | Discord.PartialMessageReaction
 export type DiscordUser = Discord.User | Discord.PartialUser
 
-export interface FeatureBase {
-    onMessageReactionAdd?(reaction: DiscordReaction, user: DiscordUser): boolean
-    onMessageReactionRemove?(reaction: DiscordReaction, user: DiscordUser): boolean
-}
-
 export interface SlashCommand {
     name: string
     toJSON(): Discord.RESTPostAPIChatInputApplicationCommandsJSONBody
 }
 
 export abstract class FeatureBase {
-
-    public get bot(): Bot {
-        return this.internalBot
-    }
-
     public static slashCommands?: SlashCommand[]
 
     public name: string
@@ -150,7 +140,13 @@ export abstract class FeatureBase {
         this.name = name
     }
 
+    public get bot(): Bot {
+        return this.internalBot
+    }
+
     public voiceChannelStateChanged?(channel: Discord.VoiceBasedChannel): void
+    public onMessageReactionAdd?(reaction: DiscordReaction, user: DiscordUser): boolean
+    public onMessageReactionRemove?(reaction: DiscordReaction, user: DiscordUser): boolean
 
     public handlesMessage(context: MessageContext<this>): boolean {
         const message = context.message

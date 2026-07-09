@@ -38,6 +38,11 @@ export class Bot {
         brain.systemMessages.on("reconnect", this.reconnect.bind(this))
     }
 
+    public get applicationId(): string {
+        assert(this.client.isReady())
+        return this.client.application.id
+    }
+
     public addFeature(loader: GlobalFeatureLoader): void {
         this.customFeatureLoaders.push(loader)
     }
@@ -51,11 +56,6 @@ export class Bot {
         if (uptimeFeat) {
             (uptimeFeat as UptimeFeature).setStartTime(new Date().getTime())
         }
-    }
-
-    public get applicationId(): string {
-        assert(this.client.isReady())
-        return this.client.application.id
     }
 
     public login(): void {

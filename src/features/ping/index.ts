@@ -24,12 +24,12 @@ const CAKKAW = "https://tyrone-sudeium.github.io/aethebot-static/res/cakkaw20.pn
 const REVOLVER = "https://tyrone-sudeium.github.io/aethebot-static/res/revolver2.gif"
 
 const GREETINGS = [
-    /^ping[\!\?\.]*$/i,
-    /^hi[\!\?\.]*$/i,
-    /^hello[\!\?\.]*$/i,
-    /^g\'?day[\!\?\.]*$/i,
-    /^(what\'?)s\s?up[\!\?\.]*$/i,
-    /^yo[\!\?\.]*$/i,
+    /^ping[!?.]*$/i,
+    /^hi[!?.]*$/i,
+    /^hello[!?.]*$/i,
+    /^g'?day[!?.]*$/i,
+    /^(what'?)s\s?up[!?.]*$/i,
+    /^yo[!?.]*$/i,
 ]
 const RESPONSES = [
     "g'day",

@@ -12,13 +12,14 @@
  */
 
 import * as Discord from "discord.js"
-import emojiRegex = require("emoji-regex/RGI_Emoji")
+import emojiRegex from "emoji-regex/RGI_Emoji"
 import { ReactionRolesContext, ReactionRoleMessage } from "../model/reaction_roles_context"
 import { Bot } from "../bot"
 import { removeBotMentions } from "../util/remove_mentions"
 import { log } from "../log"
 import { parseEmoji } from "../util/parse_emoji"
 import { ServerFeature, MessageContext, DiscordReaction, DiscordUser } from "./feature"
+
 
 export class ReactionRolesFeature extends ServerFeature {
     private context?: ReactionRolesContext
